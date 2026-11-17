@@ -1,0 +1,129 @@
+{
+  "id": "ko-00-found-origin-hangeul-engineering",
+  "lang": "ko",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Sejarah Penciptaan Hangeul (1443) & Rekayasa Blok Suku Kata",
+  "subtitle": "Bagaimana Raja Sejong merancang alfabet paling ilmiah di dunia berdasarkan bentuk organ bicara dan filosofi Cheon-Ji-In",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "linguistic-lore",
+      "title": "Hunminjeongeum (훈민정음 — 1446): Satu-Satunya Aksara dengan Cetak Biru Ilmiah Terdokumentasi",
+      "eraOrDomain": "Sejarah Ortografi Korea (Dinasti Joseon, Abad ke-15)",
+      "direction": "ltr",
+      "narrativeSummary": "Sebelum abad ke-15, rakyat Korea menulis menggunakan karakter Hanja Tiongkok yang membutuhkan bertahun-tahun untuk dikuasai dan tidak cocok dengan tata bahasa Korea. Pada tahun 1443, Raja Sejong Agung bersama para cendekiawan Jiphyeonjeon merancang Hangeul (한글) secara sistematis agar setiap warga dapat melek huruf dalam hitungan hari.",
+      "milestones": [
+        {
+          "stage": "1. Desain Konsonan Dasar dari Anatomi Organ Bicara (1443)",
+          "scriptSample": "ㄱ (g/k) • ㄴ (n) • ㅁ (m) • ㅅ (s) • ㅇ (ng/kosong)",
+          "reading": "Lima Konsonan Dasar (기본 자음) Meniru Bentuk Lidah, Bibir, Gigi & Tenggorokan",
+          "explanation": "ㄱ menggambarkan pangkal lidah menyentuh langit-langit lunak; ㄴ menggambarkan ujung lidah menyentuh gusi atas; ㅁ menggambarkan bentuk mulut tertutup; ㅅ menggambarkan bentuk gigi tajam; dan ㅇ menggambarkan lubang tenggorokan."
+        },
+        {
+          "stage": "2. Penambahan Goresan untuk Konsonan Aspirasi & Ganda (가획자)",
+          "scriptSample": "ㄱ → ㅋ (kʰ) → ㄲ (k͈) | ㄴ → ㄷ (t) → ㅌ (tʰ) → ㄸ (t͈)",
+          "reading": "Sistem Fitur Fonetik (Featural Alphabet)",
+          "explanation": "Dengan menambahkan satu garis hembusan udara (aspirasi), konsonan lembut ㄱ berubah menjadi ㅋ, ㄷ menjadi ㅌ, ㅂ menjadi ㅍ, dan ㅈ menjadi ㅊ—sehingga hubungan bunyi dan bentuk hurufnya 100% logis."
+        },
+        {
+          "stage": "3. Desain Vokal dari Tiga Elemen Kosmologi: Cheon-Ji-In (천지인)",
+          "scriptSample": "ㆍ (Langit/Matahari) + ㅡ (Bumi Datar) + ㅣ (Manusia Berdiri)",
+          "reading": "Kombinasi Tiga Unsur Alam Melahirkan Seluruh Vokal Korea",
+          "explanation": "Matahari (ㆍ) di kanan manusia (ㅣ) membentuk ㅏ (a); di kiri membentuk ㅓ (eo); di atas bumi (ㅡ) membentuk ㅗ (o); dan di bawah bumi membentuk ㅜ (u)."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Arsitektur Blok Suku Kata (Syllable Block Assembly)",
+          "definition": "Huruf Hangeul (Jamo) tidak ditulis berderet mendatar seperti alfabet Latin, melainkan dirakit ke dalam kotak suku kata dengan rumus wajib: Konsonan Awal (Choseong) + Vokal Tengah (Jungseong) + [Opsional Konsonan Akhir / Batchim (Jongseong)].",
+          "whyItMatters": "Jika sebuah suku kata dimulai dengan bunyi vokal (seperti \"a\" pada 안녕), konsonan kosong ㅇ wajib ditempatkan di posisi awal sebagai penyangga visual.",
+          "examples": [
+            "한 = ㅎ (awal) + ㅏ (tengah kanan) + ㄴ (Batchim bawah)",
+            "글 = ㄱ (awal) + ㅡ (tengah bawah) + ㄹ (Batchim bawah)",
+            "안녕 = ㅇ+ㅏ+ㄴ (an) + ㄴ+ㅕ+ㅇ (nyeong)"
+          ]
+        },
+        {
+          "conceptName": "Aturan Urutan Guratan Hangeul",
+          "definition": "Selalu tulis dari kiri ke kanan dan atas ke bawah: (1) Konsonan awal, (2) Vokal vertikal di kanan atau vokal horizontal di bawah, (3) Batchim di lantai paling bawah.",
+          "whyItMatters": "Menjaga proporsi kotak yang seragam dan memudahkan penulisan cepat.",
+          "examples": [
+            "문 = ㅁ (atas) → ㅜ (tengah) → ㄴ (bawah)",
+            "국 = ㄱ (atas) → ㅜ (tengah) → ㄱ (bawah)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Setiap tahun pada tanggal 9 Oktober, Korea Selatan merayakan Hari Hangeul (한글날) sebagai hari libur nasional untuk menghormati penciptaan aksara ini.",
+        "Hangeul sangat efisien untuk pengetikan digital dan ponsel karena seluruh 24 huruf dasarnya hanya membutuhkan 14 tombol konsonan di kiri dan 10 tombol vokal di kanan."
+      ]
+    },
+    {
+      "type": "script-matrix",
+      "title": "Tabel Matriks Jamo Dasar Hangeul (Konsonan Anatomis & Vokal Cheon-Ji-In)",
+      "scriptSystem": "Hangeul Jamo Matrix (한글 자모)",
+      "direction": "ltr",
+      "description": "Fondasi konsonan dasar dan vokal utama pembentuk seluruh suku kata bahasa Korea.",
+      "cells": [
+        {
+          "glyph": "ㄱ / ㅋ / ㄲ",
+          "reading": "g/k • kʰ • k͈",
+          "transliteration": "Velar (Pangkal Lidah)",
+          "componentRole": "Konsonan Dasar #1",
+          "mnemonic": "Bentuk lidah menyentuh langit-langit belakang"
+        },
+        {
+          "glyph": "ㄴ / ㄷ / ㅌ",
+          "reading": "n • d/t • tʰ",
+          "transliteration": "Alveolar (Ujung Lidah)",
+          "componentRole": "Konsonan Dasar #2",
+          "mnemonic": "Ujung lidah menempel di belakang gigi atas"
+        },
+        {
+          "glyph": "ㅁ / ㅂ / ㅍ",
+          "reading": "m • b/p • pʰ",
+          "transliteration": "Bilabial (Dua Bibir)",
+          "componentRole": "Konsonan Dasar #3",
+          "mnemonic": "Kotak ㅁ meniru bentuk mulut tertutup"
+        },
+        {
+          "glyph": "ㅅ / ㅈ / ㅊ",
+          "reading": "s • j • chʰ",
+          "transliteration": "Dental/Palatal (Gigi)",
+          "componentRole": "Konsonan Dasar #4",
+          "mnemonic": "ㅅ meniru bentuk gigi seri"
+        },
+        {
+          "glyph": "ㅇ / ㅎ",
+          "reading": "∅/ng • h",
+          "transliteration": "Glotal (Tenggorokan)",
+          "componentRole": "Konsonan Dasar #5",
+          "mnemonic": "ㅇ diam di awal suku kata, dibaca [ng] saat di posisi Batchim"
+        },
+        {
+          "glyph": "ㅏ / ㅓ",
+          "reading": "a • eo",
+          "transliteration": "Vokal Vertikal",
+          "componentRole": "Jungseong Kanan",
+          "mnemonic": "Garis menghadap keluar (ㅏ = a) vs menghadap ke dalam (ㅓ = eo)"
+        },
+        {
+          "glyph": "ㅗ / ㅜ",
+          "reading": "o • u",
+          "transliteration": "Vokal Horizontal",
+          "componentRole": "Jungseong Bawah",
+          "mnemonic": "Di atas garis bumi (ㅗ = o) vs di bawah garis bumi (ㅜ = u)"
+        },
+        {
+          "glyph": "ㅡ / ㅣ",
+          "reading": "eu • i",
+          "transliteration": "Bumi & Manusia",
+          "componentRole": "Jungseong Dasar",
+          "mnemonic": "ㅡ (bibir datar tersenyum tanpa membuka rahang) • ㅣ (seperti huruf i)"
+        }
+      ]
+    }
+  ]
+}

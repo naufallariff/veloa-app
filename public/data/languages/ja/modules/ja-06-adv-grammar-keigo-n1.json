@@ -1,0 +1,114 @@
+{
+  "id": "ja-06-adv-grammar-keigo-n1",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 6,
+  "title": "JLPT N1 | Sistem Keigo Korporat (Sonkeigo, Kenjōgo, Teineigo) & Pola Sintaksis N1",
+  "subtitle": "Navigasi hirarki sosial Uchi–Soto dalam bisnis Jepang, konjugasi hormat khusus, dan tata bahasa jurnalistik N1",
+  "estimatedMinutes": 65,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Matriks Transformasi Keigo: Menaikkan Lawan (Sonkeigo) vs Merendahkan Diri (Kenjōgo)",
+      "grammaticalTradition": "敬語体系とウチ・ソト意識 (Sosiolinguistik Bisnis Jepang)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "plain",
+          "roleLabel": "Bentuk Kamus (Netral)",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "sonkeigo",
+          "roleLabel": "Sonkeigo (Aksi Lawan/Klien)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "kenjogo",
+          "roleLabel": "Kenjōgo (Aksi Diri/Tim Kita)",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-keigo-go",
+          "cells": {
+            "plain": {
+              "script": "行く / 来る (Pergi / Datang)",
+              "gloss": "Perpindahan tempat"
+            },
+            "sonkeigo": {
+              "script": "いらっしゃる / お越しになる",
+              "gloss": "Klien/Atasan datang atau pergi"
+            },
+            "kenjogo": {
+              "script": "参る (mairu) / 伺う (ukagau)",
+              "gloss": "Saya pergi / berkunjung ke tempat klien"
+            }
+          },
+          "fullTranslation": "Pergi / Datang dalam 3 tingkat kesopanan"
+        },
+        {
+          "id": "ja-keigo-say",
+          "cells": {
+            "plain": {
+              "script": "言う (Berkata / Menyatakan)",
+              "gloss": "Komunikasi verbal"
+            },
+            "sonkeigo": {
+              "script": "おっしゃる (ossharu)",
+              "gloss": "Yang dikatakan oleh klien/profesor"
+            },
+            "kenjogo": {
+              "script": "申す (mōsu) / 申し上げる",
+              "gloss": "Saya katakan / laporkan kepada klien"
+            }
+          },
+          "fullTranslation": "Berkata dalam 3 tingkat kesopanan"
+        },
+        {
+          "id": "ja-keigo-do",
+          "cells": {
+            "plain": {
+              "script": "する (Melakukan)",
+              "gloss": "Tindakan umum"
+            },
+            "sonkeigo": {
+              "script": "なさる (nasaru) / お〜になる",
+              "gloss": "Yang dilakukan oleh klien/atasan"
+            },
+            "kenjogo": {
+              "script": "いたす (itasu) / お〜する",
+              "gloss": "Saya kerjakan untuk klien"
+            }
+          },
+          "fullTranslation": "Melakukan dalam 3 tingkat kesopanan"
+        },
+        {
+          "id": "ja-n1-pattern",
+          "cells": {
+            "plain": {
+              "script": "Pola Jurnalistik N1: 〜を余儀なくされる",
+              "gloss": "Terpaksa melakukan karena keadaan"
+            },
+            "sonkeigo": {
+              "script": "[Nomina] + を余儀なくされる",
+              "gloss": "Sering muncul di koran ekonomi & berita"
+            },
+            "kenjogo": {
+              "script": "台風の影響で、イベントは中止を余儀なくされた。",
+              "gloss": "Akibat topan, acara tersebut terpaksa dibatalkan."
+            }
+          },
+          "fullTranslation": "Akibat pengaruh topan, acara tersebut terpaksa dibatalkan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Hukum Uchi (Dalam) vs Soto (Luar): Mengapa Harus Merendahkan Bos Sendiri di Depan Klien?",
+        "psychologyExplanation": "Saat menelepon klien eksternal (Soto), seluruh anggota perusahaanmu sendiri (termasuk direktur utama) dianggap berada di lingkaran dalam (Uchi). Karena itu, kamu WAJIB memakai Kenjōgo untuk atasanmu sendiri saat berbicara dengan klien (\"Tanaka [bos saya] sedang keluar kantor\" = 田中はただいま席を外しております, bukan いらっしゃいます).",
+        "literalTrap": "Jangan pernah mencampur Sonkeigo untuk diri sendiri (\"私がおっしゃいました\" — kesalahan fatal dalam wawancara kerja Jepang)."
+      }
+    }
+  ]
+}

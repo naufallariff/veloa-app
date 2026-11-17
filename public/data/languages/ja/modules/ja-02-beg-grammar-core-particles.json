@@ -1,0 +1,246 @@
+{
+  "id": "ja-02-beg-grammar-core-particles",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 2,
+  "title": "JLPT N5–N4 | Joshi (助詞): Rail Partikel SOV Lengkap (は vs が, を, に vs で, へ, の)",
+  "subtitle": "Bedah mendalam tiap partikel penanda fungsi kalimat Jepang yang selalu menempel di belakang kata benda",
+  "estimatedMinutes": 70,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.1 Partikel は (wa — Topik) vs が (ga — Subjek Fokus / Informasi Baru)",
+      "grammaticalTradition": "Unit 1/3: 係助詞「は」と格助詞「が」 (Struktur Informasi Wacana)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kondisi Pakai",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Kontras Nuansa",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-wa-topic",
+          "cells": {
+            "particle": {
+              "script": "は (dibaca wa)",
+              "gloss": "Penanda Topik (Given Information)"
+            },
+            "formula": {
+              "script": "[Topik Lama / Sudah Diketahui] + は + [Komentar / Predikat]",
+              "gloss": "Membuka panggung pembicaraan: \"Adapun mengenai X...\""
+            },
+            "example": {
+              "script": "私はエンジニアです。 (Watashi wa enjinia desu.)",
+              "gloss": "Tentang saya (topik), saya adalah seorang insinyur."
+            }
+          },
+          "fullTranslation": "Saya adalah seorang insinyur."
+        },
+        {
+          "id": "ja-ga-focus",
+          "cells": {
+            "particle": {
+              "script": "が (ga)",
+              "gloss": "Penanda Subjek Fokus (New Information)"
+            },
+            "formula": {
+              "script": "[Subjek Baru / Jawaban Kata Tanya] + が + Predikat",
+              "gloss": "Wajib dipakai setelah kata tanya (誰が, 何が) dan kata sifat kemampuan/keinginan (好き, 上手, 分かる)"
+            },
+            "example": {
+              "script": "誰が来ましたか？ — 田中さんが来ました。",
+              "gloss": "Siapa yang datang? — Tanaka-san-lah yang datang (lampu sorot pada Tanaka)."
+            }
+          },
+          "fullTranslation": "Siapa yang datang? — Tanaka yang datang."
+        },
+        {
+          "id": "ja-wa-ga-phenomenon",
+          "cells": {
+            "particle": {
+              "script": "Fenomena Alam & Keberadaan",
+              "gloss": "が untuk persepsi langsung"
+            },
+            "formula": {
+              "script": "[Fenomena / Benda] + が + 降る / ある / いる",
+              "gloss": "Menyatakan apa yang tertangkap indra seketika tanpa topik sebelumnya"
+            },
+            "example": {
+              "script": "雨が降っています。 / 机の上に本があります。",
+              "gloss": "Hujan sedang turun. / Di atas meja ada buku."
+            }
+          },
+          "fullTranslation": "Hujan sedang turun. / Di atas meja ada buku."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Rahasia Kognitif は vs が: \"Panggung\" vs \"Lampu Sorot\"",
+        "psychologyExplanation": "Bayangkan sebuah panggung teater: は menyiapkan latar belakang panggung (\"Mengenai pesta kemarin...\"), sedangkan が menyorotkan lampu sorot tajam ke aktor yang melakukan tindakan (\"...SIAPA yang datang terlambat? Budi-lah yang datang terlambat\"). Selain itu, begitu topik ditetapkan dengan は, subjek tidak perlu diulang lagi pada kalimat-kalimat berikutnya.",
+        "literalTrap": "Jangan pernah memakai は setelah kata tanya (\"誰は来ましたか\" — SALAH TOTAL; wajib \"誰が来ましたか\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.2 Partikel に (ni) vs で (de) — Titik Koordinat Statis vs Panggung Aksi Dinamis",
+      "grammaticalTradition": "Unit 2/3: 場所格助詞「に」と「で」 (Semantik Spasial & Temporal)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel & Peran",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Jenis Kata Kerja",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-ni-static",
+          "cells": {
+            "particle": {
+              "script": "に (ni) — Keberadaan, Tujuan & Waktu Spesifik",
+              "gloss": "Titik statis / arah tiba / jadwal jam"
+            },
+            "formula": {
+              "script": "[Lokasi] + に + いる / ある / 住む | [Tujuan] + に + 行く / 来る | [Jam/Hari] + に",
+              "gloss": "Dipakai bersama kata kerja statis (ada, tinggal) dan perpindahan titik akhir (pergi ke)"
+            },
+            "example": {
+              "script": "私は東京に住んでいます。明日七時に会社に行きます。",
+              "gloss": "Saya tinggal di Tokyo (statis). Besok jam 7 (waktu spesifik) pergi ke kantor (tujuan)."
+            }
+          },
+          "fullTranslation": "Saya tinggal di Tokyo. Besok jam 7 pergi ke kantor."
+        },
+        {
+          "id": "ja-de-action",
+          "cells": {
+            "particle": {
+              "script": "で (de) — Panggung Aktivitas & Alat/Sarana",
+              "gloss": "Tempat berlangsungnya aksi aktif / instrumen"
+            },
+            "formula": {
+              "script": "[Lokasi Aksi] + で + [Kata Kerja Dinamis] | [Alat / Bahasa / Transportasi] + で",
+              "gloss": "Makan, belajar, bekerja, membeli, dan bertemu semuanya memakai で"
+            },
+            "example": {
+              "script": "図書館で日本語でレポートを書きます。電車で行きます。",
+              "gloss": "Di perpustakaan (lokasi aksi) menulis laporan dengan bahasa Jepang (sarana). Pergi naik kereta."
+            }
+          },
+          "fullTranslation": "Saya menulis laporan dalam bahasa Jepang di perpustakaan. Saya pergi naik kereta."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Tes 1 Detik: Apakah Kata Kerjanya Hanya \"Ada/Tinggal/Tiba\" atau \"Beraktivitas\"?",
+        "psychologyExplanation": "Jika subjek hanya berada di titik koordinat itu atau mendarat di sana (いる, ある, 住む, 着く), pakai に. Jika subjek melakukan aksi aktif yang menghabiskan energi di dalam ruangan/tempat itu (勉強する, 食べる, 働く), pakai で.",
+        "literalTrap": "Jangan memakai に untuk waktu relatif seperti 今日 (hari ini), 明日 (besok), atau 毎日 (setiap hari)—kata waktu relatif tidak memakai partikel に."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.3 Partikel を (o), へ (e), の (no) & から〜まで — Objek, Arah, Kepemilikan & Rentang",
+      "grammaticalTradition": "Unit 3/3: 格助詞の基本体系 (Penanda Hubungan Nomina)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Struktur",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-o-obj",
+          "cells": {
+            "particle": {
+              "script": "を (dibaca o)",
+              "gloss": "Penanda Objek Langsung & Titik Lintasan"
+            },
+            "formula": {
+              "script": "[Objek] + を + [Kata Kerja Transitif] | [Jalan/Taman] + を + 歩く / 走る",
+              "gloss": "Juga menandai tempat yang dilalui (berjalan menyusuri jalan) atau ditinggalkan (keluar dari)"
+            },
+            "example": {
+              "script": "毎朝コーヒーを飲みます。公園を散歩します。",
+              "gloss": "Setiap pagi minum kopi. Berjalan-jalan menyusuri taman."
+            }
+          },
+          "fullTranslation": "Setiap pagi saya minum kopi. Saya berjalan-jalan di taman."
+        },
+        {
+          "id": "ja-no-poss",
+          "cells": {
+            "particle": {
+              "script": "の (no)",
+              "gloss": "Modifikator Nomina (Dari Makro ke Mikro)"
+            },
+            "formula": {
+              "script": "[Pemilik / Kategori Umum] + の + [Benda Inti]",
+              "gloss": "Urutan terbalik dari bahasa Indonesia: \"Buku saya\" = 私の本 (Saya の Buku)"
+            },
+            "example": {
+              "script": "日本の大学のコンピューター科学の学生",
+              "gloss": "Mahasiswa ilmu komputer universitas Jepang (berurutan dari terbesar ke terkecil)."
+            }
+          },
+          "fullTranslation": "Mahasiswa ilmu komputer di universitas Jepang."
+        },
+        {
+          "id": "ja-kara-made",
+          "cells": {
+            "particle": {
+              "script": "から (dari) 〜 まで (sampai)",
+              "gloss": "Titik Awal & Batas Akhir Ruang/Waktu"
+            },
+            "formula": {
+              "script": "[Titik Mulai] + から + [Titik Akhir] + まで",
+              "gloss": "Berlaku untuk jam, hari, maupun jarak stasiun/kota"
+            },
+            "example": {
+              "script": "九時から五時まで働きます。ジャカルタから東京まで飛びます。",
+              "gloss": "Bekerja dari jam 9 sampai jam 5. Terbang dari Jakarta sampai Tokyo."
+            }
+          },
+          "fullTranslation": "Saya bekerja dari jam 9 sampai jam 5. Saya terbang dari Jakarta ke Tokyo."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan Halus へ (dibaca e) vs に untuk Arah Tujuan",
+        "psychologyExplanation": "に menyoroti TITIK TUJUAN AKHIR pendaratan (\"Saya tiba di Jepang\" = 日本に着きました). へ menyoroti ARAH PERGERAKAN menuju ke sana (\"Saya bertolak menuju Jepang\" = 日本へ行きます).",
+        "literalTrap": "Ingat bahwa partikel は dibaca \"wa\", を dibaca \"o\", dan へ dibaca \"e\" secara eksklusif ketika berfungsi sebagai partikel."
+      }
+    }
+  ]
+}

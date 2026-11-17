@@ -1,0 +1,312 @@
+{
+  "id": "ja-03-beg-grammar-katsuyo-conjugation",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 3,
+  "title": "JLPT N5–N4 | Katsuyō (活用): Sistem Konjugasi Kata Kerja & Kata Sifat Lengkap",
+  "subtitle": "Bedah aturan 3 golongan kata kerja (Godan, Ichidan, Irregular) untuk bentuk Masu, Te-form (Onbin), Nai-form, dan Ta-form",
+  "estimatedMinutes": 80,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.1 Klasifikasi 3 Golongan Kata Kerja & Konjugasi Sopan (Masu-form / ます形)",
+      "grammaticalTradition": "Unit 1/4: 五段動詞・一段動詞・変格活用 (Akar Kata & Akhiran Sopan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "group",
+          "roleLabel": "Golongan Kata Kerja",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Perubahan ke ます形",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Transformasi Lengkap (+ / - / Lampau)",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-katsu-ichidan",
+          "cells": {
+            "group": {
+              "script": "Golongan II: Ichidan (一段 / Ru-verbs)",
+              "gloss": "Berakhiran -iru atau -eru"
+            },
+            "formula": {
+              "script": "Buang る (-ru) + ます / ません / ました / ませんでした",
+              "gloss": "Akar kata tidak pernah berubah saat dikonjugasikan"
+            },
+            "example": {
+              "script": "食べる (taberu) → 食べます (makan) • 食べません (tidak) • 食べました (lampau)",
+              "gloss": "Juga: 見る → 見ます, 起きる → 起きます, 教える → 教えます"
+            }
+          },
+          "fullTranslation": "Makan → Makan (sopan) / Tidak makan / Sudah makan"
+        },
+        {
+          "id": "ja-katsu-godan",
+          "cells": {
+            "group": {
+              "script": "Golongan I: Godan (五段 / U-verbs)",
+              "gloss": "Akhiran vokal -u (く, す, つ, ぬ, む, る, う, ぐ, ぶ)"
+            },
+            "formula": {
+              "script": "Geser vokal akhir kolom -u ke kolom -i + ます",
+              "gloss": "u→i, ku→ki, gu→gi, su→shi, tsu→chi, nu→ni, bu→bi, mu→mi, ru→ri"
+            },
+            "example": {
+              "script": "書く (kaku) → 書きます | 話す (hanasu) → 話します | 帰る (kaeru — pengecualian Godan!) → 帰ります",
+              "gloss": "Hati-hati: 帰る (pulang), 走る (berlari), 入る (masuk), 知る (tahu) adalah Godan!"
+            }
+          },
+          "fullTranslation": "Menulis → Menulis (sopan) | Berbicara → Berbicara (sopan)"
+        },
+        {
+          "id": "ja-katsu-irreg",
+          "cells": {
+            "group": {
+              "script": "Golongan III: Irregular (不規則動詞)",
+              "gloss": "Hanya 2 kata kerja dasar di seluruh bahasa Jepang!"
+            },
+            "formula": {
+              "script": "する (suru) → します | 来る (kuru) → 来ます (kimasu)",
+              "gloss": "Seluruh kata kerja majemuk [Nomina + する] mengikuti pola します (勉強する → 勉強します)"
+            },
+            "example": {
+              "script": "する → します / しません / しました | 来る → 来ます (kimasu) / 来ません (kimasen)",
+              "gloss": "Perhatikan perubahan bacaan Kanji 来 dari ku- menjadi ki-"
+            }
+          },
+          "fullTranslation": "Melakukan → Melakukan (sopan) | Datang → Datang (sopan)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Disebut \"Godan\" (5 Tingkat) dan \"Ichidan\" (1 Tingkat)?",
+        "psychologyExplanation": "Kata kerja Godan menggeser vokal akhirnya melintasi 5 baris tabel Kana (a - i - u - e - o) sesuai fungsinya: 書か (a = negatif), 書き (i = sopan), 書く (u = kamus), 書け (e = perintah/potensi), 書こ (o = ajakan). Sebaliknya, Ichidan hanya memiliki 1 batang tetap.",
+        "literalTrap": "Jangan terkecoh oleh kata kerja berakhiran -iru/-eru yang termasuk Godan: 帰る (kaeru = pulang), 切る (kiru = memotong), 知る (shiru = tahu), 入る (hairu = masuk)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.2 Bentuk Te (て形 / Te-form) — Hukum Perubahan Bunyi Onbin (音便) & 5 Fungsi Utama",
+      "grammaticalTradition": "Unit 2/4: て形の作り方と用法 (Jembatan Penghubung Kalimat Jepang)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "ending",
+          "roleLabel": "Akhiran Bentuk Kamus",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Perubahan ke て形",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kata & Penggunaan",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-te-sokuon",
+          "cells": {
+            "ending": {
+              "script": "Godan: 〜う, 〜つ, 〜る",
+              "gloss": "Sokuonbin (Konsonan Ganda っ)"
+            },
+            "formula": {
+              "script": "Buang う/つ/る + って (-tte)",
+              "gloss": "Mempercepat transisi bunyi menuju konsonan t"
+            },
+            "example": {
+              "script": "買う → 買って | 待つ → 待って | 帰る → 帰って",
+              "gloss": "Membeli → Beli lalu... | Menunggu → Tunggu lalu... | Pulang → Pulang lalu..."
+            }
+          },
+          "fullTranslation": "Perubahan akhiran -u, -tsu, -ru menjadi -tte"
+        },
+        {
+          "id": "ja-te-hatsuon",
+          "cells": {
+            "ending": {
+              "script": "Godan: 〜ぬ, 〜ぶ, 〜む",
+              "gloss": "Hatsuonbin (Sengau ん + で)"
+            },
+            "formula": {
+              "script": "Buang ぬ/ぶ/む + んで (-nde)",
+              "gloss": "Bunyi sengau ん otomatis menyuarakan て menjadi で (de)"
+            },
+            "example": {
+              "script": "飲む → 飲んで | 読む → 読んで | 遊ぶ → 遊んで",
+              "gloss": "Minum → Minum lalu... | Membaca → Baca lalu... | Bermain → Bermain lalu..."
+            }
+          },
+          "fullTranslation": "Perubahan akhiran -nu, -bu, -mu menjadi -nde"
+        },
+        {
+          "id": "ja-te-ionbin",
+          "cells": {
+            "ending": {
+              "script": "Godan: 〜く, 〜ぐ & 〜す",
+              "gloss": "Ionbin & Pengecualian 行く"
+            },
+            "formula": {
+              "script": "〜く → いて | 〜ぐ → いで | 〜す → して | Pengecualian: 行く (iku) → 行って (itte)",
+              "gloss": "Ichidan: buang る + て (食べる → 食べて) | する → して | 来る → 来て (kite)"
+            },
+            "example": {
+              "script": "書く → 書いて | 泳ぐ → 泳いで | 話す → 話して | 行く → 行って",
+              "gloss": "Gunakan て形 untuk: 〜てください (tolong), 〜ています (sedang), 〜てもいいです (boleh)"
+            }
+          },
+          "fullTranslation": "Perubahan akhiran -ku, -gu, -su dan pengecualian 行く → 行って"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bentuk Te Adalah \"Pisau Swiss Army\" Tata Bahasa Jepang?",
+        "psychologyExplanation": "Dalam bahasa Jepang, kamu tidak bisa menyambung dua kalimat kata kerja memakai kata \"dan\" (と hanya untuk kata benda). Bentuk Te-lah yang merangkai urutan tindakan (\"朝起きて、顔を洗って、ご飯を食べます\" = Bangun pagi, cuci muka, lalu makan), membentuk permintaan sopan (〜てください), sedang berlangsung (〜ています), hingga izin (〜てもいいです).",
+        "literalTrap": "Ingat pengecualian tunggal: 行く (iku = pergi) menjadi 行って (itte), BUKAN 行いて."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.3 Bentuk Negatif Kasual (ない形) & Lampau Kasual (た形)",
+      "grammaticalTradition": "Unit 3/4: 普通形 (Plain Form / Futsūkei)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "form",
+          "roleLabel": "Bentuk Konjugasi",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Perubahan",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kata & Pola Penting",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-nai-form",
+          "cells": {
+            "form": {
+              "script": "Nai-form (ない形 — Negatif Kasual)",
+              "gloss": "Dasar untuk Larangan & Keharusan"
+            },
+            "formula": {
+              "script": "Godan: geser -u ke baris -a + ない (〜う menjadi 〜わない!) | Ichidan: buang る + ない",
+              "gloss": "Pengecualian mutlak: ある (ada) → ない (bukan あらない)"
+            },
+            "example": {
+              "script": "書く → 書かない | 買う → 買わない | 食べる → 食べない | する → しない | 来る → 来ない (konai)",
+              "gloss": "Pola wajib N4: 〜ないでください (tolong jangan) & 〜なければなりません (harus)"
+            }
+          },
+          "fullTranslation": "Tidak menulis / Tidak membeli / Tidak makan / Tidak melakukan / Tidak datang"
+        },
+        {
+          "id": "ja-ta-form",
+          "cells": {
+            "form": {
+              "script": "Ta-form (た形 — Lampau Kasual)",
+              "gloss": "Identik 100% dengan Aturan Te-form!"
+            },
+            "formula": {
+              "script": "Ganti て pada Te-form menjadi た, dan ganti で menjadi だ",
+              "gloss": "Jika kamu sudah hafal Te-form, kamu otomatis menguasai Ta-form dalam 1 detik"
+            },
+            "example": {
+              "script": "食べて → 食べた (sudah makan) | 飲んで → 飲んだ (sudah minum) | 行って → 行った (sudah pergi)",
+              "gloss": "Pola wajib N4: 〜たことがあります (pernah) & 〜たり〜たりします (melakukan A, B, dll)"
+            }
+          },
+          "fullTranslation": "Sudah makan / Sudah minum / Sudah pergi (bentuk kasual)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bentuk Kasual (Plain Form) Wajib Dikuasai Bahkan Jika Kamu Hanya Bicara Sopan?",
+        "psychologyExplanation": "Dalam bahasa Jepang, seluruh anak kalimat (sebelum から \"karena\", と思います \"saya pikir\", とき \"ketika\", dan modifikator kata benda) WAJIB memakai Plain Form (Kamus / Nai / Ta), sedangkan kesopanan (です/ます) hanya muncul di ujung paling akhir kalimat utama.",
+        "literalTrap": "Untuk kata kerja Godan berakhiran huruf vokal う (seperti 買う kau, 会う au), bentuk negatifnya memakai わ (買わない kawanai), BUKAN あ (買あない)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.4 Konjugasi Kata Sifat-i (い形容詞) vs Kata Sifat-na (な形容詞)",
+      "grammaticalTradition": "Unit 4/4: 形容詞の活用 (Predikat Adjektiva Berkonjugasi)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "adjType",
+          "roleLabel": "Jenis Kata Sifat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Positif / Negatif / Lampau",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Lengkap & Pengecualian",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-adj-i",
+          "cells": {
+            "adjType": {
+              "script": "Kata Sifat-i (い形容詞)",
+              "gloss": "Bisa berkonjugasi sendiri tanpa です!"
+            },
+            "formula": {
+              "script": "Negatif: buang い + くない | Lampau: buang い + かった | Lampau Negatif: buang い + くなかった",
+              "gloss": "Pengecualian mutlak: いい (baik) dikonjugasi dari akar よい → よくない / よかった"
+            },
+            "example": {
+              "script": "高い (mahal) → 高くない (tidak mahal) → 高かった (dulu mahal) → 高くなかった",
+              "gloss": "Tambahkan です di belakang untuk kesopanan (高くないです / 高かったです)"
+            }
+          },
+          "fullTranslation": "Mahal → Tidak mahal → Dulu mahal → Dulu tidak mahal"
+        },
+        {
+          "id": "ja-adj-na",
+          "cells": {
+            "adjType": {
+              "script": "Kata Sifat-na (な形容詞)",
+              "gloss": "Berkonjugasi persis seperti Kata Benda!"
+            },
+            "formula": {
+              "script": "Sebelum Nomina: Adj + な + Nomina | Negatif: Adj + ではありません | Lampau: Adj + でした",
+              "gloss": "Hati-hati pengecualian: きれい (cantik/bersih) dan 有名 (terkenal) adalah Kata Sifat-NA!"
+            },
+            "example": {
+              "script": "静かな町 (kota yang tenang) | 静かではありません (tidak tenang) | 静かでした (dulu tenang)",
+              "gloss": "SALAH: きれいくない. BENAR: きれいではありません / きれいじゃない"
+            }
+          },
+          "fullTranslation": "Kota yang tenang | Tidak tenang | Dulu tenang"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Jebakan Klasik Pemula: \"きれい\" (Kirei) dan \"有名\" (Yūmei) Bukan Kata Sifat-i!",
+        "psychologyExplanation": "Meskipun huruf terakhir saat ditulis dalam Hiragana adalah い, dalam tulisan Kanji huruf い tersebut adalah bagian dari bunyi Kanji itu sendiri (綺麗 / 有名), bukan akhiran okurigana. Oleh karena itu keduanya termasuk Kata Sifat-na.",
+        "literalTrap": "Jangan pernah mengatakan \"おいしかったです\" (salah) — pada Kata Sifat-i lampau sopan, konjugasi sudah terjadi pada kata sifatnya (おいしかった), sehingga cukup tambahkan です (おいしかったです)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "ko-02-beg-grammar-core-particles",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 2,
+  "title": "TOPIK I (1–2) | Josa (조사): Sistem Partikel Dasar SOV Korea Lengkap",
+  "subtitle": "Bedah terpisah hukum Batchim (konsonan akhir) pada partikel 은/는 vs 이/가, 을/를, serta kontras lokasi 에 vs 에서",
+  "estimatedMinutes": 70,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.1 Partikel Topik 은/는 (eun/neun) vs Partikel Subjek Fokus 이/가 (i/ga)",
+      "grammaticalTradition": "Unit 1/3: 보조사「은/는」과 주격 조사「이/가」 (Struktur Informasi & Batchim)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel & Syarat Batchim",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Fungsi Wacana",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis Nuansa",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-eun-neun",
+          "cells": {
+            "particle": {
+              "script": "은 (setelah konsonan/Batchim) / 는 (setelah vokal)",
+              "gloss": "Penanda Topik & Kontras"
+            },
+            "formula": {
+              "script": "[Topik / Perbandingan] + 은/는 + [Komentar]",
+              "gloss": "Membuka topik pembicaraan atau membandingkan dua hal secara kontras"
+            },
+            "example": {
+              "script": "저는 개발자입니다. 한국어는 재미있지만 한자는 조금 어려워요.",
+              "reading": "Jeoneun gaebaljainnida. Hangugeoneun jaemiitjiman hanjaneun jogeum eoryeowoyo.",
+              "gloss": "Saya adalah pengembang. Bahasa Korea menarik, TAPI Hanja agak sulit (kontras 은/는)."
+            }
+          },
+          "fullTranslation": "Saya adalah seorang developer. Bahasa Korea menarik, tetapi Hanja agak sulit."
+        },
+        {
+          "id": "ko-i-ga",
+          "cells": {
+            "particle": {
+              "script": "이 (setelah konsonan/Batchim) / 가 (setelah vokal)",
+              "gloss": "Penanda Subjek Fokus / Informasi Baru"
+            },
+            "formula": {
+              "script": "[Subjek Baru / Jawaban Kata Tanya] + 이/가 + Predikat",
+              "gloss": "Wajib dipakai setelah kata tanya (누가, 무엇이) dan predikat keberadaan/kepemilikan (있다/없다)"
+            },
+            "example": {
+              "script": "누가 왔어요? — 민수 씨가 왔어요. / 시간이 없어요.",
+              "reading": "Nuga wasseoyo? — Minsu ssiga wasseoyo. / Sigani eopseoyo.",
+              "gloss": "Siapa yang datang? — Minsu-lah yang datang. / Tidak ada waktu."
+            }
+          },
+          "fullTranslation": "Siapa yang datang? — Minsu yang datang. / Tidak ada waktu."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Bentuk Kontraksi Wajib Kata Ganti + 가: \"저 + 가\" Berubah Jadi \"제가\"!",
+        "psychologyExplanation": "Dalam bahasa Korea, kata ganti orang pertama dan kedua melebur saat bertemu partikel 이/가: 저 + 가 → 제가 (saya sopan), 나 + 가 → 내가 (aku kasual), 너 + 가 → 네가 (kamu kasual, sering dilafalkan niga agar tidak tertukar dengan naega), dan 누구 + 가 → 누가 (siapa).",
+        "literalTrap": "Jangan pernah menulis \"저가 했어요\" atau \"누구가 왔어요\"—wajib gunakan bentuk leburan \"제가 했어요\" dan \"누가 왔어요\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.2 Partikel Objek 을/를 (eul/reul) & Partikel Kepemilikan 의 (ui)",
+      "grammaticalTradition": "Unit 2/3: 목적격 조사「을/를」과 관형격 조사「의」",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel & Syarat Batchim",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Struktur",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Pelafalan Asli",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-eul-reul",
+          "cells": {
+            "particle": {
+              "script": "을 (dengan Batchim) / 를 (tanpa Batchim)",
+              "gloss": "Penanda Objek Langsung (S-O-V)"
+            },
+            "formula": {
+              "script": "Subjek + [Objek + 을/를] + Kata Kerja Transitif",
+              "gloss": "Dalam percakapan lisan kasual, 를 sering disingkat menjadi ㄹ di bawah suku kata vokal (나를 → 날)"
+            },
+            "example": {
+              "script": "매일 아침에 커피를 마시고 책을 읽어요.",
+              "reading": "Maeil achime keopireul masigo chaegeul ilgeoyo.",
+              "gloss": "Setiap pagi minum kopi (커피+를) dan membaca buku (책+을)."
+            }
+          },
+          "fullTranslation": "Setiap pagi saya minum kopi dan membaca buku."
+        },
+        {
+          "id": "ko-ui-poss",
+          "cells": {
+            "particle": {
+              "script": "의 (dibaca [에 / e] saat berfungsi sebagai partikel!)",
+              "gloss": "Penanda Kepemilikan / Modifikator"
+            },
+            "formula": {
+              "script": "[Pemilik] + 의 + [Benda] | Kontraksi: 저의 → 제 | 나의 → 내 | 너의 → 네",
+              "gloss": "Untuk keluarga/institusi milik bersama, penutur Korea memakai 우리 (kami) daripada 제 (saya)"
+            },
+            "example": {
+              "script": "제 친구의 노트북 / 우리 회사 / 우리나라",
+              "reading": "Je chingu-e noteubuk / Uri hoesa / Urinara",
+              "gloss": "Laptop teman saya / Perusahaan kita (perusahaan saya) / Negara kita (Korea)."
+            }
+          },
+          "fullTranslation": "Laptop teman saya / Perusahaan saya / Negara kita."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Psikologi Kolektivisme Korea: Mengapa \"Rumah Saya\" Disebut \"우리 집\" (Rumah Kita)?",
+        "psychologyExplanation": "Penutur asli Korea jarang menyebut \"제 가족\" (keluarga saya) atau \"제 회사\" (perusahaan saya). Karena budaya komunal yang kuat, hal-hal yang dinaungi bersama (keluarga, rumah, sekolah, kantor, negara) selalu memakai kata ganti \"우리\" (kita/kami): 우리 집, 우리 엄마, 우리 회사.",
+        "literalTrap": "Jangan melafalkan partikel 의 sebagai [ui] kaku di tengah kalimat percakapan—penutur asli mengucapkannya sebagai [에 / e] (친구의 = [친구에])."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.3 Kontras Vital 에 (e) vs 에서 (eseo) — Titik Statis/Tujuan vs Panggung Aksi Dinamis",
+      "grammaticalTradition": "Unit 3/3: 부사격 조사「에」와「에서」의 의미 차이",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel Spasial-Temporal",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Jenis Predikat",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-e-static",
+          "cells": {
+            "particle": {
+              "script": "에 (e) — Keberadaan, Tujuan & Waktu Spesifik",
+              "gloss": "Statis / Arah Tiba / Jam & Hari"
+            },
+            "formula": {
+              "script": "[Lokasi] + 에 + 있다/없다/살다 | [Tujuan] + 에 + 가다/오다 | [Jam/Tanggal] + 에",
+              "gloss": "Tidak memakai 에 pada kata waktu relatif: 오늘 (hari ini), 내일 (besok), 어제 (kemarin)"
+            },
+            "example": {
+              "script": "저는 서울에 살아요. 내일 9시에 회사에 가요.",
+              "reading": "Jeoneun Seoure sarayo. Naeil ahopsie hoesae gayo.",
+              "gloss": "Saya tinggal di Seoul (statis). Besok jam 9 pergi ke kantor (tujuan)."
+            }
+          },
+          "fullTranslation": "Saya tinggal di Seoul. Besok jam 9 pergi ke kantor."
+        },
+        {
+          "id": "ko-eseo-action",
+          "cells": {
+            "particle": {
+              "script": "에서 (eseo) — Panggung Aktivitas & Titik Asal (\"Dari\")",
+              "gloss": "Tempat Berlangsungnya Aksi Aktif"
+            },
+            "formula": {
+              "script": "[Lokasi Aksi] + 에서 + [Kata Kerja Dinamis] | [Titik Asal] + 에서 + 오다/출발하다",
+              "gloss": "Semua aktivitas (makan, belajar, bekerja, membeli, bertemu) wajib memakai 에서"
+            },
+            "example": {
+              "script": "도서관에서 한국어를 공부해요. 저는 인도네시아에서 왔어요.",
+              "reading": "Doseogwaneseo hangugeoreul gongbuhaeyo. Jeoneun Indonesiaseo wasseoyo.",
+              "gloss": "Belajar bahasa Korea di perpustakaan (aksi). Saya berasal dari Indonesia (asal)."
+            }
+          },
+          "fullTranslation": "Saya belajar bahasa Korea di perpustakaan. Saya berasal dari Indonesia."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Aturan Emas untuk Kata Kerja \"살다\" (Tinggal): 에 vs 에서",
+        "psychologyExplanation": "Kata kerja 살다 (tinggal/hidup) adalah satu-satunya kata kerja yang bisa memakai keduanya dengan sedikit nuansa: 서울에 살아요 (fokus pada alamat tempat tinggal tetap) vs 서울에서 살아요 (fokus pada pengalaman menjalani kehidupan sehari-hari di Seoul). Untuk semua kata kerja aksi lainnya, wajib 에서.",
+        "literalTrap": "SALAH: 카페에 커피를 마셔요. BENAR: 카페에서 커피를 마셔요 (Minum kopi adalah aksi dinamis di dalam kafe)."
+      }
+    }
+  ]
+}

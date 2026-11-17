@@ -1,0 +1,256 @@
+{
+  "id": "ar-02-beg-nahwu-core-sentences",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 2,
+  "title": "CEFR A1–A2 | Ilmu Naḥwu Dasar: Jumlah Ismiyyah, Jumlah Fi’liyyah, Idhāfah & Na’at",
+  "subtitle": "Bedah terpisah empat fondasi sintaksis bahasa Arab Fuṣḥā beserta hukum kesesuaian gender dan jumlah",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.1 Jumlah Ismiyyah (الجملة الاسمية) — Mubtada’ & 3 Jenis Khabar",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 1/3: المبتدأ والخبر (Sintaksis Nomina Tanpa Kopula)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk & Jenis Khabar",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus I’rāb & Kesesuaian",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-ism-mufrad",
+          "cells": {
+            "polarity": {
+              "script": "خَبَر مُفْرَد (Khabar Tunggal)",
+              "gloss": "Satu kata (bukan kalimat/preposisi)"
+            },
+            "formula": {
+              "script": "المُبْتَدَأ (مَعْرِفَة + مَرْفُوع ـُ) + الخَبَر (نَكِرَة + مَرْفُوع ـٌ)",
+              "gloss": "Wajib selaras dalam Gender (Mudzakkar/Mu’annats) & Jumlah (Mufrad/Mutsannā/Jamak)"
+            },
+            "example": {
+              "script": "الطَّالِبُ مُجْتَهِدٌ. / الطَّالِبَةُ مُجْتَهِدَةٌ. / الطُّلَّابُ مُجْتَهِدُونَ.",
+              "reading": "Aṭ-ṭālibu mujtahidun. / Aṭ-ṭālibatu mujtahidatun. / Aṭ-ṭullābu mujtahidūna.",
+              "gloss": "Mahasiswa itu rajin. / Mahasiswi itu rajin. / Para mahasiswa itu rajin."
+            }
+          },
+          "fullTranslation": "Mahasiswa itu rajin. / Mahasiswi itu rajin. / Para mahasiswa itu rajin."
+        },
+        {
+          "id": "ar-ism-jumlah",
+          "cells": {
+            "polarity": {
+              "script": "خَبَر جُمْلَة (Khabar Berupa Kalimat)",
+              "gloss": "Fi’liyyah atau Ismiyyah dengan Dhamir Pengikat"
+            },
+            "formula": {
+              "script": "المُبْتَدَأ + [جُمْلَة فِعْلِيَّة / اسْمِيَّة تَحْتَوِي عَلَى ضَمِيرٍ رَابِطٍ]",
+              "gloss": "Wajib ada kata ganti (ـهُ / ـهَا) yang merujuk kembali ke Mubtada’"
+            },
+            "example": {
+              "script": "المُبَرْمِجُ يَكْتُبُ الشِّيفْرَةَ. / الحَدِيقَةُ أَشْجَارُهَا عَالِيَةٌ.",
+              "reading": "Al-mubarmiju yaktubu asy-syīfrata. / Al-ḥadīqatu asyjāruhā ‘āliyatun.",
+              "gloss": "Programmer itu menulis kode. / Taman itu pepohonannya tinggi."
+            }
+          },
+          "fullTranslation": "Programmer itu menulis kode. / Taman itu pepohonannya tinggi."
+        },
+        {
+          "id": "ar-ism-syibh",
+          "cells": {
+            "polarity": {
+              "script": "خَبَر شِبْهُ الجُمْلَة (Preposisi / Keterangan Tempat)",
+              "gloss": "Jārr-Majrūr atau Ẓarf"
+            },
+            "formula": {
+              "script": "المُبْتَدَأ (مَعْرِفَة) + [حَرْفُ جَرٍّ / ظَرْفٌ + مَجْرُورٌ] (atau Khabar di depan jika Mubtada’ Nakirah)",
+              "gloss": "Jika Mubtada’ tidak memakai ال (\"sebuah buku\"), Khabar tempat WAJIB didahulukan"
+            },
+            "example": {
+              "script": "الكِتَابُ عَلَى المَكْتَبِ. / عَلَى المَكْتَبِ كِتَابٌ.",
+              "reading": "Al-kitābu ‘alā al-maktabi. / ‘Alā al-maktabi kitābun.",
+              "gloss": "Buku itu ada di atas meja. / Di atas meja ada sebuah buku."
+            }
+          },
+          "fullTranslation": "Buku itu ada di atas meja. / Di atas meja ada sebuah buku."
+        },
+        {
+          "id": "ar-ism-laysa",
+          "cells": {
+            "polarity": {
+              "script": "النَّفْيُ بِـ لَيْسَ (Negasi Kalimat Nominal)",
+              "gloss": "Bukan / Tidak"
+            },
+            "formula": {
+              "script": "لَيْسَ / لَيْسَتْ + اسْمُ لَيْسَ (مَرْفُوع ـُ) + خَبَرُ لَيْسَ (مَنْصُوب ـًا)",
+              "gloss": "Laysa mengubah harakat akhir Khabar dari Ḍammah (-u) menjadi Fatḥah (-an)"
+            },
+            "example": {
+              "script": "لَيْسَ النَّحْوُ صَعْبًا. / لَيْسَتِ المُشْكِلَةُ كَبِيرَةً.",
+              "reading": "Laysa an-naḥwu ṣa‘ban. / Laysati al-musykilatu kabīratan.",
+              "gloss": "Ilmu Naḥwu itu tidaklah sulit. / Masalah itu tidaklah besar."
+            }
+          },
+          "fullTranslation": "Ilmu Naḥwu itu tidaklah sulit. / Masalah itu tidaklah besar."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bahasa Arab Tidak Memerlukan Kata \"Adalah\" di Masa Kini?",
+        "psychologyExplanation": "Menyandingkan kata benda definit (المُهَنْدِسُ = Insinyur itu) langsung dengan predikat indefinit (ذَكِيٌّ = cerdas) sudah mengikat keduanya menjadi kalimat sempurna (\"Insinyur itu cerdas\"). Jika keduanya sama-sama memakai ال (المُهَنْدِسُ الذَّكِيُّ), statusnya turun menjadi sekadar frasa (\"Insinyur yang cerdas itu...\").",
+        "literalTrap": "Jangan menerjemahkan kata \"adalah\" menjadi هُوَ kecuali untuk memisahkan dua kata yang sama-sama ma’rifah (اللّٰهُ هُوَ الحَقُّ)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.2 Jumlah Fi’liyyah (الجملة الفعلية) — Hukum VSO & Aturan Emas Fi’il Tunggal di Awal Kalimat",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 2/3: الفعل والفاعل والمفعول به (Sintaksis Verbal Klasik)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "slot",
+          "roleLabel": "Komponen Kalimat",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus VSO & Harakat Akhir",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-fil-vso",
+          "cells": {
+            "slot": {
+              "script": "فِعْل + فَاعِل + مَفْعُول بِهِ",
+              "reading": "Fi’il + Fā’il + Maf’ūl Bih",
+              "gloss": "Kata Kerja + Pelaku (-u) + Objek (-a)"
+            },
+            "formula": {
+              "script": "الفِعْلُ (مُفْرَدٌ دَائِمًا) + الفَاعِلُ (مَرْفُوعٌ ـُ) + المَفْعُولُ بِهِ (مَنْصُوبٌ ـَ)",
+              "gloss": "Harakat akhir menentukan siapa pelaku (-u) dan siapa objek (-a), bukan urutan kata!"
+            },
+            "example": {
+              "script": "كَتَبَ المُهَنْدِسُونَ البَرْنَامَجَ.",
+              "reading": "Kataba al-muhandisūna al-barnāmaja.",
+              "gloss": "Para insinyur menulis program tersebut (كَتَبَ tetap tunggal walau pelakunya jamak!)."
+            }
+          },
+          "fullTranslation": "Para insinyur telah menulis program tersebut."
+        },
+        {
+          "id": "ar-fil-gender",
+          "cells": {
+            "slot": {
+              "script": "مُطَابَقَةُ التَّأْنِيثِ",
+              "reading": "Kesesuaian Gender Fi’il & Fā’il",
+              "gloss": "Mudzakkar vs Mu’annats"
+            },
+            "formula": {
+              "script": "Pelaku Perempuan: Fi’il Māḍī + تْ (ـَتْ) | Fi’il Muḍāri’ diawali تَـ",
+              "gloss": "Fi’il di awal kalimat hanya menyesuaikan GENDER pelaku, TIDAK menyesuaikan jumlahnya"
+            },
+            "example": {
+              "script": "قَرَأَتِ الطَّالِبَاتُ الكِتَابَ. / تَقْرَأُ الطَّالِبَاتُ الكِتَابَ.",
+              "reading": "Qara’ati aṭ-ṭālibātu al-kitāba. / Taqra’u aṭ-ṭālibātu al-kitāba.",
+              "gloss": "Para mahasiswi membaca buku itu."
+            }
+          },
+          "fullTranslation": "Para mahasiswi membaca buku tersebut."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Aturan Emas VSO: Mengapa Fi’il di Awal Kalimat Haram Dijamakkan?",
+        "psychologyExplanation": "Akhiran jamak pada kata kerja (seperti وا pada كَتَبُوا) berstatus sebagai kata ganti subjek (\"mereka\"). Jika kamu menulis \"كَتَبُوا المُهَنْدِسُونَ\", kalimat itu memiliki dua subjek sekaligus! Karena itu, saat pelaku disebutkan eksplisit setelah kata kerja, kata kerjanya wajib tetap tunggal (كَتَبَ المُهَنْدِسُونَ).",
+        "literalTrap": "SALAH: ذَهَبُوا الطُّلَّابُ إِلَى الجَامِعَةِ. BENAR: ذَهَبَ الطُّلَّابُ إِلَى الجَامِعَةِ."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.3 Kontras Idhāfah (الإضافة — Kepemilikan) vs Na’at–Man’ūt (النعت — Frasa Sifat)",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 3/3: المضاف والمضاف إليه vs النعت والمنعوت",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konstruksi Frasa",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Harakat & Alif-Lām (ال)",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-idhafah",
+          "cells": {
+            "construct": {
+              "script": "الإِضَافَة (Mudhāf + Mudhāf Ilayh)",
+              "gloss": "Frasa Kepemilikan / Majemuk"
+            },
+            "formula": {
+              "script": "المُضَافُ (بِلَا ال وَبِلَا تَنْوِين) + المُضَافُ إِلَيْهِ (مَجْرُورٌ بِالكَسْرَةِ ـِ)",
+              "gloss": "Kata pertama HARAM memakai ال dan HARAM bertanwin; kata kedua wajib Majrūr (-i)"
+            },
+            "example": {
+              "script": "بَابُ المَدْرَسَةِ / مِفْتَاحُ السَّيَّارَةِ / كِتَابُ اللُّغَةِ العَرَبِيَّةِ",
+              "reading": "Bābu al-madrasati / Miftāḥu as-sayyārati / Kitābu al-lughati al-‘arabiyyati",
+              "gloss": "Pintu sekolah / Kunci mobil / Buku bahasa Arab"
+            }
+          },
+          "fullTranslation": "Pintu sekolah / Kunci mobil / Buku bahasa Arab"
+        },
+        {
+          "id": "ar-naat",
+          "cells": {
+            "construct": {
+              "script": "النَّعْتُ وَالمَنْعُوتُ (Benda + Sifat)",
+              "gloss": "Frasa Kata Benda + Kata Sifat"
+            },
+            "formula": {
+              "script": "المَنْعُوتُ + النَّعْتُ (Selaras 4/4: I’rāb, Gender, Jumlah, Ma’rifah/Nakirah)",
+              "gloss": "Jika kata benda memakai ال, kata sifatnya wajib memakai ال juga!"
+            },
+            "example": {
+              "script": "البَيْتُ الكَبِيرُ (مَرْفُوع) • فِي البَيْتِ الكَبِيرِ (مَجْرُور) • بَيْتٌ كَبِيرٌ (نَكِرَة)",
+              "reading": "Al-baytu al-kabīru • Fī al-bayti al-kabīri • Baytun kabīrun",
+              "gloss": "Rumah besar itu • Di dalam rumah besar itu • Sebuah rumah yang besar"
+            }
+          },
+          "fullTranslation": "Rumah besar itu / Di dalam rumah besar itu / Sebuah rumah yang besar"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Cara Cepat Membedakan Idhāfah vs Na’at dalam 1 Detik",
+        "psychologyExplanation": "Pada Idhāfah, kata pertama tidak punya ال sedangkan kata kedua punya ال (بَابُ البَيْتِ = pintu rumah). Pada Na’at, keduanya kembar identik dalam pemakaian ال dan harakat akhirnya (البَيْتُ الكَبِيرُ = rumah yang besar).",
+        "literalTrap": "Jangan pernah menulis \"البَابُ المَدْرَسَةِ\" — Mudhāf tidak boleh ber-ال meskipun maknanya spesifik."
+      }
+    }
+  ]
+}

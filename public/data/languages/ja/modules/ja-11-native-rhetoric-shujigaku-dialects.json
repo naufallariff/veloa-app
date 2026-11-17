@@ -1,0 +1,55 @@
+{
+  "id": "ja-11-native-rhetoric-shujigaku-dialects",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 11,
+  "title": "Native & Stylistics | Shūjigaku (修辞学), Yojijukugo, Kansai-ben & Slang",
+  "subtitle": "Ilmu retorika sastra Jepang, idiom 4 Kanji, puisi Haiku, dialek Kansai, dan bahasa gaul anak muda Tokyo",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Shūjigaku (修辞学 — Ilmu Retorika & Estetika Sastra Jepang)",
+      "traditionName": "Nihon Shūjigaku (日本修辞学) & Tradisi Waka/Haiku",
+      "direction": "ltr",
+      "overview": "Retorika Jepang mengutamakan keindahan tersirat (Yojō 余情 — resonansi makna tak terucap), harmoni alam musiman (Kigo), permainan kata ganda (Kakekotoba), dan idiom 4 karakter Yojijukugo.",
+      "devices": [
+        {
+          "deviceName": "Kata Ganda Puitis (Kakekotoba — 掛詞)",
+          "nativeTerm": "掛詞 (Pivot Word)",
+          "mechanism": "Satu bunyi kata memikul dua makna berbeda sekaligus untuk menjembatani citraan alam dan emosi manusia.",
+          "literaryExample": "花の色は移りにけりないたづらに（Ono no Komachi）",
+          "reading": "Hana no iro wa utsurinikeri na itazura ni",
+          "translation": "Warna bunga sakura telah memudar sia-sia (seiring pudarnya kecantikan dan waktu hidupku).",
+          "aestheticEffect": "Menciptakan kedalaman melankolis khas estetika Mono no Aware (物の哀れ)."
+        },
+        {
+          "deviceName": "Idiom 4 Karakter Kanji (Yojijukugo — 四字熟語)",
+          "nativeTerm": "一期一会 (Ichi-go Ichi-e)",
+          "mechanism": "Empat karakter Kanji padat makna yang berakar pada filosofi Zen dan upacara minum teh (Sadō).",
+          "literaryExample": "すべての出会いを一期一会として大切にする。",
+          "reading": "Subete no deai o ichigo ichie to shite taisetsu ni suru.",
+          "translation": "Menghargai setiap pertemuan sebagai \"satu kali seumur hidup, satu kesempatan\" yang takkan terulang.",
+          "aestheticEffect": "Ungkapan filosofis yang sangat dihormati dalam budaya maupun pidato bisnis Jepang."
+        }
+      ],
+      "dialectAndSlangNotes": [
+        {
+          "varietyName": "Dialek Kansai (Kansai-ben — 関西弁)",
+          "regionOrContext": "Osaka, Kyoto, Kobe (Wilayah Kansai)",
+          "sampleExpression": "なんでやねん！ • めっちゃええやん • おおきに",
+          "standardEquivalent": "どうしてだよ！ • すごくいいね • ありがとう",
+          "meaning": "Kenapa begitu sih! • Bagus banget kan • Terima kasih (ekspresif dan hangat)."
+        },
+        {
+          "varietyName": "Wakamono Kotoba (若者言葉 — Slang Anak Muda)",
+          "regionOrContext": "Percakapan Kasual Generasi Muda & Media Sosial Jepang",
+          "sampleExpression": "エモい (Emoi) • 推す (Osu) • ヤバい (Yabai)",
+          "standardEquivalent": "感動的・懐かしい • 応援する • すごい / 危険",
+          "meaning": "Menyentuh perasaan/nostalgik • Mendukung idola/favorit • Luar biasa / gawat."
+        }
+      ]
+    }
+  ]
+}

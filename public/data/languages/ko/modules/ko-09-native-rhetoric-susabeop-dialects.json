@@ -1,0 +1,62 @@
+{
+  "id": "ko-09-native-rhetoric-susabeop-dialects",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 9,
+  "title": "Native & Stylistics | Susabeop (수사법), Sajaseongeo, Dialek Satoori & Slang Seoul",
+  "subtitle": "Seni gaya bahasa retorika Korea, idiom 4 karakter Sino-Korea, logat Busan & Jeju, serta bahasa gaul anak muda (Sinjoeo)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Susabeop (수사법 — Ilmu Retorika & Keindahan Gaya Bahasa Korea)",
+      "traditionName": "한국어 수사학 & 사자성어 (Sajaseongeo)",
+      "direction": "ltr",
+      "overview": "Retorika Korea memadukan kehalusan perumpamaan (Biyubeop), paralelisme ritmis (Daegubeop), dan peribahasa empat suku kata Sino-Korea (Sajaseongeo) untuk menyampaikan kebijaksanaan maupun argumen persuasif.",
+      "devices": [
+        {
+          "deviceName": "Perumpamaan & Metafora (Biyubeop — 비유법)",
+          "nativeTerm": "직유법 (Simile) & 은유법 (Metaphor)",
+          "mechanism": "Membandingkan fenomena abstrak dengan citraan alam memakai penanda -처럼 / -같이 (seperti) atau persamaan langsung.",
+          "literaryExample": "세월은 흐르는 강물과 같아서 한 번 지나가면 다시 돌아오지 않는다.",
+          "reading": "Seworeun heureuneun gangmulgwa gataseo han beon jinagamyeon dasi doraoji anneunda.",
+          "translation": "Waktu bagaikan air sungai yang mengalir; sekali berlalu takkan pernah kembali lagi.",
+          "aestheticEffect": "Menciptakan resonansi puitis yang lembut dan reflektif."
+        },
+        {
+          "deviceName": "Idiom 4 Suku Kata Klasik (Sajaseongeo — 사자성어)",
+          "nativeTerm": "일석이조 (一石二鳥 — Ilseok-ijo)",
+          "mechanism": "Empat karakter berakar Hanja yang merangkum strategi atau pelajaran hidup dalam satu frasa padat.",
+          "literaryExample": "책을 원서로 읽으면 지식도 얻고 외국어 실력도 늘어서 일석이조예요.",
+          "reading": "Chaegeul wonseoro ilgeumyeon jisikdo eotgo oegugeo sillyeokdo neureoseo ilseokijoyeyo.",
+          "translation": "Jika membaca buku dalam bahasa aslinya, ilmu didapat dan kemampuan bahasa asing juga meningkat—\"satu batu dua burung\" (sekali mendayung dua tiga pulau terlampaui).",
+          "aestheticEffect": "Sangat dihargai dalam esai TOPIK II (soal 54) dan diskusi profesional."
+        }
+      ],
+      "dialectAndSlangNotes": [
+        {
+          "varietyName": "Gyeongsang Satoori (Dialek Busan & Daegu)",
+          "regionOrContext": "Korea Bagian Tenggara (Busan, Ulsan, Daegu)",
+          "sampleExpression": "밥 뭇나? (Bap munna?) • 억수로 좋다 • 살아있네!",
+          "standardEquivalent": "밥 먹었어? • 아주 좋다 • 살아있네!",
+          "meaning": "Mempertahankan aksen nada (Pitch Accent) kuno dan intonasi tegas yang akrab."
+        },
+        {
+          "varietyName": "Jeju-eo (Dialek Pulau Jeju)",
+          "regionOrContext": "Pulau Jeju (Diakui UNESCO sebagai bahasa daerah terancam punah)",
+          "sampleExpression": "혼저 옵서예 (Honjeo opseoye) • 하르방 • 고맙수다",
+          "standardEquivalent": "어서 오세요 • 할아버지 • 고맙습니다",
+          "meaning": "Mempertahankan vokal kuno Araea (ㆍ) dari abad ke-15."
+        },
+        {
+          "varietyName": "Sinjoeo (신조어 — Slang & Penyingkatan Anak Muda Seoul)",
+          "regionOrContext": "Percakapan Kasual & Media Sosial Korea Selatan",
+          "sampleExpression": "대박 (Daebak) • 꿀팁 (Kkultip) • 워라밸 (Worabael)",
+          "standardEquivalent": "정말 대단하다 • 아주 좋은 팁 • Work-Life Balance",
+          "meaning": "Luar biasa! • Tips super manis/bermanfaat • Keseimbangan kerja dan hidup."
+        }
+      ]
+    }
+  ]
+}

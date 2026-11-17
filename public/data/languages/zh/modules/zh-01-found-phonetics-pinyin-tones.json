@@ -1,0 +1,82 @@
+{
+  "id": "zh-01-found-phonetics-pinyin-tones",
+  "lang": "zh",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Sistem Fonetik Pīnyīn, 4 Nada (Shēngdiào) & Hukum Tone Sandhi",
+  "subtitle": "Mengapa sistem ejaan Latin Pinyin dirancang dan bagaimana nada mengubah makna kata secara total",
+  "estimatedMinutes": 25,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Matriks 4 Nada Utama & Perubahan Nada Otomatis (Tone Sandhi)",
+      "grammaticalTradition": "Fonologi Mandarin Standar (汉语语音学)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "orig",
+          "roleLabel": "Bentuk & Nada Kamus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "spoken",
+          "roleLabel": "Pelafalan Penutur Asli",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "rule",
+          "roleLabel": "Aturan Fonologis",
+          "semanticColor": "amber"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-f-ph1",
+          "cells": {
+            "orig": {
+              "script": "mā • má • mǎ • mà",
+              "reading": "Nada 1, 2, 3, 4",
+              "gloss": "Ibu • Rami • Kuda • Memarahi"
+            },
+            "spoken": {
+              "script": "55 • 35 • 214 • 51",
+              "reading": "Skala Pitch Chao",
+              "gloss": "Kontur tinggi datar, naik, rendah lengkung, jatuh tajam"
+            },
+            "rule": {
+              "script": "Fonem Suprasegmental",
+              "gloss": "Nada melekat pada vokal inti suku kata"
+            }
+          },
+          "fullTranslation": "Satu suku kata \"ma\" melahirkan 4 kata berbeda berkat kontur nada"
+        },
+        {
+          "id": "zh-f-ph2",
+          "cells": {
+            "orig": {
+              "script": "你好 (nǐ + hǎo)",
+              "reading": "Nada 3 + Nada 3",
+              "gloss": "Halo"
+            },
+            "spoken": {
+              "script": "ní hǎo",
+              "reading": "Nada 2 + Nada 3",
+              "gloss": "Nada 3 pertama otomatis naik menjadi Nada 2"
+            },
+            "rule": {
+              "script": "Tone Sandhi Nada 3",
+              "gloss": "Mencegah pita suara turun rendah dua kali beruntun"
+            }
+          },
+          "fullTranslation": "Halo (dilafalkan ní hǎo)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Pīnyīn Diciptakan Tahun 1958 Padahal Tiongkok Sudah Punya Hanzi?",
+        "psychologyExplanation": "Hanzi tidak memberi tahu cara pelafalan secara eksplisit bagi pemula atau mesin ketik. Ahli bahasa Zhou Youguang merancang Hànyǔ Pīnyīn sebagai jembatan fonetik standar untuk memberantas buta huruf, menyeragamkan pelafalan nasional Pǔtōnghuà, dan memungkinkan input digital modern.",
+        "literalTrap": "Jangan membaca huruf Pinyin dengan ejaan Inggris/Indonesia: \"q\" dibaca seperti \"c\" tipis (qī = chi), \"x\" seperti \"sy\" (xiè = syie), dan \"zh\" seperti \"j\" lidah ditekuk ke atas."
+      }
+    }
+  ]
+}

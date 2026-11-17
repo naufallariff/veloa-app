@@ -1,0 +1,228 @@
+{
+  "id": "zh-03-beg-grammar-aspect-particles",
+  "lang": "zh",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 3,
+  "title": "HSK 2–3 | Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe Terpisah Utuh)",
+  "subtitle": "Mandarin tidak memiliki konjugasi tenses; pelajari secara terpisah bagaimana 了, 过, dan 着 menandai status peristiwa",
+  "estimatedMinutes": 70,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.1 Partikel 了 (le) — Penyelesaian Aksi (Verb-了) vs Perubahan Situasi (Sentence-了)",
+      "grammaticalTradition": "Unit 1/3: 动态助词与语气助词 了 (Aspek Perfektif & Perubahan Status)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "variant",
+          "roleLabel": "Posisi & Fungsi 了",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Struktur",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-le-verb",
+          "cells": {
+            "variant": {
+              "script": "Verb-了 (Tepat Setelah Kata Kerja)",
+              "gloss": "Menandai Aksi Sudah Terlaksana"
+            },
+            "formula": {
+              "script": "S + Kata Kerja + 了 + [Kuantitas / Objek Spesifik]",
+              "gloss": "Wajib ada pengukur jumlah (satu cangkir, tiga buku) atau komplemen"
+            },
+            "example": {
+              "script": "我今天早上喝了两杯咖啡。 (Wǒ jīntiān zǎoshang hē le liǎng bēi kāfēi.)",
+              "gloss": "Tindakan minum 2 cangkir kopi telah terlaksana"
+            }
+          },
+          "fullTranslation": "Pagi ini saya sudah minum dua cangkir kopi."
+        },
+        {
+          "id": "zh-le-sentence",
+          "cells": {
+            "variant": {
+              "script": "Sentence-了 (Di Ujung Kalimat)",
+              "gloss": "Menandai Situasi Baru / Perubahan Status"
+            },
+            "formula": {
+              "script": "Kalimat / Kondisi Baru + 了",
+              "gloss": "Bisa merujuk perubahan yang baru terjadi sekarang atau perubahan yang segera tiba"
+            },
+            "example": {
+              "script": "下雨了！ / 我会说汉语了。",
+              "gloss": "Hujan turun (tadi tidak hujan, sekarang hujan)! / Saya sudah bisa bicara Mandarin (dulu tidak bisa)."
+            }
+          },
+          "fullTranslation": "Hujan turun! / Saya sekarang sudah bisa berbahasa Mandarin."
+        },
+        {
+          "id": "zh-le-neg",
+          "cells": {
+            "polarity": {
+              "script": "Negasi Aksi Lampau: 没 (méi) + V",
+              "gloss": "HARAM Memakai 不 + 了 untuk Aksi Belum Terjadi!"
+            },
+            "formula": {
+              "script": "S + 没有 (méiyǒu) / 没 + Kata Kerja + Objek (TANPA 了!)",
+              "gloss": "Saat memakai 没 untuk menyangkal kejadian lampau, partikel 了 wajib dicabut"
+            },
+            "example": {
+              "script": "我昨天没去学校。 (Wǒ zuótiān méi qù xuéxiào.)",
+              "gloss": "SALAH: 我昨天没去了学校"
+            }
+          },
+          "fullTranslation": "Kemarin saya tidak pergi ke sekolah."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mitos Terbesar: 了 BUKAN Penanda Past Tense!",
+        "psychologyExplanation": "了 bisa muncul di masa depan (\"明天我吃了饭就去\" = Besok setelah saya selesai makan, saya langsung pergi) dan sering TIDAK dipakai di masa lampau jika menceritakan kebiasaan lampau (\"小时候我每天游泳\" = Waktu kecil saya berenang setiap hari — tanpa 了!).",
+        "literalTrap": "Jangan pernah menaruh 了 di akhir kalimat negatif lampau (\"我没吃了\" — SALAH TOTAL)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.2 Partikel 过 (guo) — Penanda Pengalaman Hidup (\"Pernah\")",
+      "grammaticalTradition": "Unit 2/3: 经历体助词 过 (Aspek Eksperiensial)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-guo-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Pernah Mengalami di Masa Lalu"
+            },
+            "formula": {
+              "script": "S + Kata Kerja + 过 (guo) + Objek",
+              "gloss": "Menyiratkan pengalaman itu sudah selesai dan subjek sudah kembali ke keadaan semula"
+            },
+            "example": {
+              "script": "我去过北京三次。 (Wǒ qù guo Běijīng sān cì.)",
+              "gloss": "Saya pernah pergi ke Beijing tiga kali (dan sekarang sudah pulang)."
+            }
+          },
+          "fullTranslation": "Saya pernah pergi ke Beijing tiga kali."
+        },
+        {
+          "id": "zh-guo-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "没 + V + 过 (过 Tetap Dipertahankan!)"
+            },
+            "formula": {
+              "script": "S + 没(有) + V + 过 + O | S + V + 过 + O + 没有？",
+              "gloss": "Berbeda dengan 了 yang hilang saat dinegasi 没, partikel 过 TETAP ADA setelah 没"
+            },
+            "example": {
+              "script": "你吃过北京烤鸭没有？ — 我没吃过。",
+              "gloss": "Apakah kamu pernah makan bebek panggang Beijing? — Saya belum pernah makan."
+            }
+          },
+          "fullTranslation": "Apakah kamu pernah makan bebek panggang Beijing? — Belum pernah."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kontras Tajam: \"他去了中国\" vs \"他去过中国\"",
+        "psychologyExplanation": "\"他去了中国\" (memakai 了) artinya dia pergi ke Tiongkok dan sekarang MASIH DI SANA atau baru saja berangkat. \"他去过中国\" (memakai 过) artinya dia PERNAH ke Tiongkok di masa lalu dan sekarang SUDAH KEMBALI.",
+        "literalTrap": "Jangan menghapus 过 dalam kalimat negatif \"Belum pernah\" (wajib \"没去过\", bukan \"没去\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.3 Partikel 着 (zhe) — Keadaan Statis yang Sedang Berlangsung & Latar Aksi",
+      "grammaticalTradition": "Unit 3/3: 持续体助词 着 (Aspek Duratif Statis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "usage",
+          "roleLabel": "Fungsi Kognitif",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-zhe-state",
+          "cells": {
+            "usage": {
+              "script": "Kondisi Bertahan (Static State)",
+              "gloss": "Hasil aksi yang masih bertahan"
+            },
+            "formula": {
+              "script": "S + Kata Kerja + 着 (zhe) + Objek",
+              "gloss": "Misal: Pintu dalam keadaan terbuka, pakaian sedang dikenakan"
+            },
+            "example": {
+              "script": "门开着，灯也亮着。 (Mén kāi zhe, dēng yě liàng zhe.)",
+              "gloss": "Pintunya dalam keadaan terbuka, lampunya juga menyala."
+            }
+          },
+          "fullTranslation": "Pintunya terbuka dan lampunya juga menyala."
+        },
+        {
+          "id": "zh-zhe-simultaneous",
+          "cells": {
+            "usage": {
+              "script": "Dua Aksi Bersamaan (Sambil)",
+              "gloss": "V1 + 着 menjadi cara melakukan V2"
+            },
+            "formula": {
+              "script": "S + V1 + 着 + (O1) + V2 + (O2)",
+              "gloss": "V1 merupakan postur/keadaan penyerta saat melakukan V2"
+            },
+            "example": {
+              "script": "他喜欢听着音乐写代码。 (Tā xǐhuan tīng zhe yīnyuè xiě dàimǎ.)",
+              "gloss": "Dia suka menulis kode sambil mendengarkan musik."
+            }
+          },
+          "fullTranslation": "Dia suka menulis kode sambil mendengarkan musik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan 正在 (zhèngzài) vs 着 (zhe)",
+        "psychologyExplanation": "正在 menekankan AKTIVITAS DINAMIS yang sedang dikerjakan (\"我正在穿衣服\" = Saya sedang proses memakai baju). 着 menekankan KEADAAN HASIL yang menempel (\"我穿着一件红衣服\" = Saya sedang mengenakan baju merah).",
+        "literalTrap": "Jangan memakai 着 untuk aksi singkat seketika seperti \"mati\" atau \"menemukan\"."
+      }
+    }
+  ]
+}

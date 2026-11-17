@@ -1,0 +1,132 @@
+{
+  "id": "en-05-inter-grammar-conditionals",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 5,
+  "title": "CEFR B1–B2 | Kalimat Pengandaian Lengkap (Conditionals Type 0, 1, 2, 3 & Mixed)",
+  "subtitle": "Peta probabilitas logika dari fakta ilmiah hingga penyesalan masa lampau yang mustahil diubah",
+  "estimatedMinutes": 55,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Matriks 5 Tipe Kalimat Pengandaian Bahasa Inggris",
+      "grammaticalTradition": "Conditional Mood & Counterfactual Logic",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condType",
+          "roleLabel": "Tipe & Tingkat Kemungkinan",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus If-Clause + Main Clause",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Makna Nyata",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-cond-0",
+          "cells": {
+            "condType": {
+              "script": "Type 0 (100% Fakta / Hukum Alam)",
+              "gloss": "Selalu benar kapan pun terjadi"
+            },
+            "formula": {
+              "script": "If + Simple Present, Simple Present",
+              "gloss": "\"If\" dapat diganti dengan \"When\" tanpa mengubah arti"
+            },
+            "example": {
+              "script": "If you heat ice above 0°C, it melts.",
+              "gloss": "Hukum fisika universal"
+            }
+          },
+          "fullTranslation": "Jika kamu memanaskan es di atas 0°C, es itu mencair."
+        },
+        {
+          "id": "en-cond-1",
+          "cells": {
+            "condType": {
+              "script": "Type 1 (Kemungkinan Nyata Masa Depan)",
+              "gloss": "Realistis terjadi (50%–90%)"
+            },
+            "formula": {
+              "script": "If + Simple Present, S + will/can/may + V1",
+              "gloss": "Haram memakai \"will\" di dalam If-Clause"
+            },
+            "example": {
+              "script": "If the tests pass, we will deploy to production tonight.",
+              "gloss": "Syarat realistis untuk rilis malam ini"
+            }
+          },
+          "fullTranslation": "Jika pengujiannya lolos, kita akan merilis ke produksi malam ini."
+        },
+        {
+          "id": "en-cond-2",
+          "cells": {
+            "condType": {
+              "script": "Type 2 (Khayalan / Tidak Nyata Sekarang)",
+              "gloss": "Bertentangan dengan fakta kini"
+            },
+            "formula": {
+              "script": "If + Simple Past (were untuk semua subjek), S + would/could + V1",
+              "gloss": "Subjunctive \"were\" dipakai untuk I/He/She/It dalam gaya formal"
+            },
+            "example": {
+              "script": "If I were the CTO, I would open-source the core engine.",
+              "gloss": "Fakta: Sekarang saya bukan CTO"
+            }
+          },
+          "fullTranslation": "Seandainya saya adalah CTO, saya akan menjadikan mesin intinya open-source."
+        },
+        {
+          "id": "en-cond-3",
+          "cells": {
+            "condType": {
+              "script": "Type 3 (Penyesalan / Imajinasi Lampau)",
+              "gloss": "0% kemungkinan — masa lalu sudah lewat"
+            },
+            "formula": {
+              "script": "If + Past Perfect (had + V3), S + would/could + have + V3",
+              "gloss": "Membayangkan skenario alternatif dari peristiwa yang sudah terjadi"
+            },
+            "example": {
+              "script": "If we had cached the queries earlier, the database wouldn’t have crashed.",
+              "gloss": "Fakta: Kemarin tidak di-cache sehingga database crash"
+            }
+          },
+          "fullTranslation": "Seandainya kita men-cache kueri lebih awal, basis data tidak akan mengalami crash."
+        },
+        {
+          "id": "en-cond-mixed",
+          "cells": {
+            "condType": {
+              "script": "Mixed Conditional (Lampau → Dampak Kini)",
+              "gloss": "Syarat lampau, hasil sekarang"
+            },
+            "formula": {
+              "script": "If + Past Perfect (had + V3), S + would + V1 (now)",
+              "gloss": "Menghubungkan keputusan masa lalu dengan kondisi hari ini"
+            },
+            "example": {
+              "script": "If I had taken that flight last night, I would be in Tokyo right now.",
+              "gloss": "Keputusan tadi malam → posisi saat ini"
+            }
+          },
+          "fullTranslation": "Seandainya saya naik penerbangan tadi malam itu, saya pasti sudah berada di Tokyo sekarang."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bahasa Inggris Memundurkan Tenses Saat Berkhayal (Backshifting)?",
+        "psychologyExplanation": "Dalam kognisi bahasa Inggris, \"jarak waktu lampau\" digunakan sebagai metafora untuk \"jarak dari kenyataan\". Semakin jauh tenses dimundurkan ke belakang (Present → Past → Past Perfect), semakin tidak nyata atau mustahil pengandaian tersebut.",
+        "literalTrap": "Jangan pernah menulis \"If I would have known...\" — dalam bahasa Inggris standar, \"would\" hanya berada di klausa hasil, sedangkan klausa \"If\" memakai \"had + V3\" (\"If I had known...\")."
+      }
+    }
+  ]
+}

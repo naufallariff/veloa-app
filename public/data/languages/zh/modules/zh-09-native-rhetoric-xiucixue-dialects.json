@@ -1,0 +1,71 @@
+{
+  "id": "zh-09-native-rhetoric-xiucixue-dialects",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 9,
+  "title": "Native & Stylistics | Xiūcíxué (修辞学), Chéngyǔ, Aksara Tradisional & Slang",
+  "subtitle": "Seni memperindah bahasa Mandarin, idiom 4 karakter klasik, perbandingan Fántǐzì, dan bahasa gaul internet",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Xiūcíxué (修辞学 — Ilmu Retorika & Keindahan Bahasa Mandarin)",
+      "traditionName": "Hànyǔ Xiūcíxué (汉语修辞学) & Sastra Klasik",
+      "direction": "ltr",
+      "overview": "Dalam tradisi sastra dan retorika Tiongkok, Xiūcíxué (修辞学) adalah ilmu mengolah diksi, paralelisme empat karakter (Chéngyǔ), dan citraan puitis agar kalimat terdengar ringkas, berwibawa, dan menggugah emosi.",
+      "devices": [
+        {
+          "deviceName": "Metafora & Perumpamaan (Bǐyù — 比喻)",
+          "nativeTerm": "明喻 (Míngyù) & 暗喻 (Ànyù)",
+          "mechanism": "Menyandingkan konsep abstrak dengan citraan alam konkret menggunakan penanda 像/如 (seperti) atau 是 (adalah).",
+          "literaryExample": "时间就是生命，效率就是金钱。",
+          "reading": "Shíjiān jiùshì shēngmìng, xiàolǜ jiùshì jīnqián.",
+          "translation": "Waktu adalah nyawa, efisiensi adalah emas.",
+          "aestheticEffect": "Menciptakan ritme simetris 6+6 karakter yang tegas dan berwibawa."
+        },
+        {
+          "deviceName": "Paralelisme Berantai (Páibǐ — 排比)",
+          "nativeTerm": "排比句 (Páibǐjù)",
+          "mechanism": "Menyusun tiga atau lebih klausa dengan struktur tata bahasa identik untuk membangun klimaks emosional.",
+          "literaryExample": "读书使人充实，讨论使人机智，笔记使人准确。",
+          "reading": "Dúshū shǐ rén chōngshí, tǎolùn shǐ rén jīzhì, bǐjì shǐ rén zhǔnquè.",
+          "translation": "Membaca membuat manusia berisi, berdiskusi membuat cerdas, mencatat membuat presisi.",
+          "aestheticEffect": "Menghasilkan gelombang retorika akademik dan pidato yang sangat persuasif."
+        },
+        {
+          "deviceName": "Idiom 4 Karakter Historis (Chéngyǔ — 成语)",
+          "nativeTerm": "画蛇添足 (Huà shé tiān zú)",
+          "mechanism": "Memadatkan kisah filsafat/sejarah kuno menjadi 4 karakter padat makna.",
+          "literaryExample": "这件事已经很完美了，不要画蛇添足。",
+          "reading": "Zhè jiàn shì yǐjīng hěn wánměi le, búyào huà shé tiān zú.",
+          "translation": "Hal ini sudah sangat sempurna, jangan \"menggambar ular lalu menambahinya kaki\" (melakukan hal berlebihan yang justru merusak).",
+          "aestheticEffect": "Menunjukkan kedalaman literasi budaya penutur terdidik."
+        }
+      ],
+      "dialectAndSlangNotes": [
+        {
+          "varietyName": "Aksara Tradisional (Fántǐzì — 繁体字)",
+          "regionOrContext": "Taiwan, Hong Kong, Makau & Teks Klasik",
+          "sampleExpression": "學習語言、愛與書 (vs 简体: 学习语言、爱与书)",
+          "standardEquivalent": "xuéxí yǔyán, ài yǔ shū",
+          "meaning": "Mempertahankan komponen historis utuh (seperti 心 \"hati\" di dalam 愛 \"cinta\")."
+        },
+        {
+          "varietyName": "Bahasa Kanton (Yuèyǔ — 粤语)",
+          "regionOrContext": "Guangdong, Hong Kong & Diaspora Global",
+          "sampleExpression": "唔该 (m̀h’gōi) / 多谢 (dōjeh)",
+          "standardEquivalent": "谢谢 (xièxie)",
+          "meaning": "Mempertahankan 6–9 nada dan akhiran konsonan kuno (-p, -t, -k) dari era Dinasti Tang."
+        },
+        {
+          "varietyName": "Wǎngluò Yòngyǔ (网络用语 — Slang Internet Tiongkok)",
+          "regionOrContext": "Percakapan Kasual & Media Sosial (WeChat/Xiaohongshu)",
+          "sampleExpression": "内卷 (nèijuǎn) • 躺平 (tǎngpíng) • 666 (liùliùliù)",
+          "standardEquivalent": "Kompetisi ekstrem • Rebahan santai • Keren banget (溜溜溜)",
+          "meaning": "Permainan homofon angka dan metafora sosiologis anak muda Tiongkok modern."
+        }
+      ]
+    }
+  ]
+}

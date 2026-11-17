@@ -1,0 +1,96 @@
+{
+  "id": "en-06-adv-grammar-passive-inversion-subjunctive",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 6,
+  "title": "CEFR C1–C2 | Passive Voice Lintas Tenses, Negative Inversion & Mandative Subjunctive",
+  "subtitle": "Struktur sintaksis tingkat tinggi untuk penulisan akademik, jurnal ilmiah, dan retorika formal",
+  "estimatedMinutes": 60,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Transformasi Passive Voice & Struktur Inversi Akademik (C1–C2)",
+      "grammaticalTradition": "Advanced English Syntax & Academic Register",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konstruksi Sintaksis",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Transformasi",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat Akademik / Formal",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-adv-pass",
+          "cells": {
+            "construct": {
+              "script": "Passive Voice Universal Formula",
+              "gloss": "Memindahkan fokus ke objek tindakan"
+            },
+            "formula": {
+              "script": "Object + [To Be sesuai Tenses] + V3 + (by Agent)",
+              "gloss": "Continuous Passive: is being V3 | Perfect Passive: has been V3"
+            },
+            "example": {
+              "script": "The encryption protocol is currently being audited by security researchers.",
+              "gloss": "Present Continuous Passive (is being + V3)"
+            }
+          },
+          "fullTranslation": "Protokol enkripsi tersebut saat ini sedang diaudit oleh para peneliti keamanan."
+        },
+        {
+          "id": "en-adv-inv",
+          "cells": {
+            "construct": {
+              "script": "Negative Adverbial Inversion",
+              "gloss": "Penekanan dramatis di awal kalimat"
+            },
+            "formula": {
+              "script": "Negative Adverb (Never / Rarely / Not only / Seldom) + Auxiliary + S + V",
+              "gloss": "Urutan kata dibalik seperti kalimat tanya setelah kata keterangan negatif di awal"
+            },
+            "example": {
+              "script": "Not only did the algorithm reduce latency, but it also cut memory usage in half.",
+              "gloss": "Inversi \"did the algorithm reduce\" setelah \"Not only\""
+            }
+          },
+          "fullTranslation": "Algoritma tersebut tidak hanya mengurangi latensi, tetapi juga memangkas penggunaan memori hingga setengahnya."
+        },
+        {
+          "id": "en-adv-subj",
+          "cells": {
+            "construct": {
+              "script": "Mandative Subjunctive",
+              "gloss": "Tuntutan / Rekomendasi / Keharusan"
+            },
+            "formula": {
+              "script": "S + insist/recommend/require/essential + that + S + V1 (Bare Infinitive)",
+              "gloss": "Tanpa -s untuk he/she/it dan tanpa \"should\" dalam bahasa Inggris Amerika/akademik"
+            },
+            "example": {
+              "script": "The committee recommended that every applicant submit a working prototype.",
+              "gloss": "Memakai \"submit\" (V1 polos), BUKAN \"submits\""
+            }
+          },
+          "fullTranslation": "Komite merekomendasikan agar setiap pelamar menyerahkan prototipe yang berfungsi."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kapan Penulisan Ilmiah Mewajibkan Passive Voice vs Active Voice?",
+        "psychologyExplanation": "Gunakan Passive Voice ketika pelaku tidak diketahui, tidak penting, atau ketika kamu ingin menjaga objektivitas laporan eksperimen (\"The samples were heated to 300°C\"). Gunakan Active Voice saat menyampaikan argumen atau kontribusi penulis (\"We propose a novel architecture...\").",
+        "literalTrap": "Setelah \"Never have I...\" atau \"Rarely does...\", jangan lupa membalik posisi kata kerja bantu (auxiliary) ke depan subjek."
+      }
+    }
+  ]
+}

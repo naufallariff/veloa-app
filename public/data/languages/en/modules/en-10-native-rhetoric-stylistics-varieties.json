@@ -1,0 +1,68 @@
+{
+  "id": "en-10-native-rhetoric-stylistics-varieties",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 10,
+  "title": "Native & Stylistics | English Rhetoric, Stylistics, Global Dialects & Idioms",
+  "subtitle": "Seni persuasi retorika Inggris (Chiasmus, Anaphora, Litotes), perbandingan UK vs US vs Aussie, & idiom alami",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "rhetoric-stylistics",
+      "title": "English Rhetoric & Stylistics (Seni Persuasi & Stilistika Sastra)",
+      "traditionName": "Classical & Modern English Stylistics",
+      "direction": "ltr",
+      "overview": "Retorika bahasa Inggris memadukan keseimbangan klausa paralel, pembalikan struktur (Chiasmus), dan kontras pilihan kata Anglo-Saxon vs Latinate untuk membangun pidato, esai, dan narasi berkelas.",
+      "devices": [
+        {
+          "deviceName": "Struktur Silang Terbalik (Chiasmus)",
+          "nativeTerm": "Chiasmus (A-B → B-A)",
+          "mechanism": "Membalik urutan kata atau konsep pada klausa kedua untuk menciptakan efek filosofis yang tak terlupakan.",
+          "literaryExample": "Ask not what your country can do for you—ask what you can do for your country.",
+          "translation": "Jangan tanyakan apa yang dapat negara berikan kepadamu—tanyakan apa yang dapat kamu berikan kepada negaramu.",
+          "aestheticEffect": "Simetri cermin yang menggeser fokus dari pasif menjadi tanggung jawab aktif."
+        },
+        {
+          "deviceName": "Repetisi Pembuka Berantai (Anaphora)",
+          "nativeTerm": "Anaphora",
+          "mechanism": "Mengulang kata atau frasa yang sama pada awal beberapa klausa berturut-turut untuk membangun momentum.",
+          "literaryExample": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+          "translation": "Kita akan berjuang di pantai-pantai, kita akan berjuang di tempat-tempat pendaratan, kita akan berjuang di ladang-ladang.",
+          "aestheticEffect": "Menciptakan keteguhan ritmis yang kuat dalam pidato publik."
+        },
+        {
+          "deviceName": "Penegasan Melalui Negasi (Litotes)",
+          "nativeTerm": "Litotes (Understatement)",
+          "mechanism": "Menyatakan makna positif kuat dengan menegasi kebalikannya.",
+          "literaryExample": "Deploying a zero-downtime architecture at global scale is no small feat.",
+          "translation": "Merilis arsitektur tanpa henti di skala global bukanlah pencapaian kecil (pencapaian luar biasa).",
+          "aestheticEffect": "Memberikan nada elegan, rendah hati, namun penuh penekanan."
+        }
+      ],
+      "dialectAndSlangNotes": [
+        {
+          "varietyName": "British English (Received Pronunciation / UK)",
+          "regionOrContext": "Inggris & Persemakmuran (Non-Rhotic: huruf r di akhir tidak dibunyikan)",
+          "sampleExpression": "schedule /ˈʃedʒ.uːl/ • flat • lift • queue • brilliant",
+          "standardEquivalent": "schedule /ˈskedʒ.uːl/ • apartment • elevator • line • awesome",
+          "meaning": "Perbedaan pelafalan rhotic, vokal /ɒ/ pada \"hot\", dan kosakata harian."
+        },
+        {
+          "varietyName": "Australian English (Aussie Vernacular)",
+          "regionOrContext": "Australia & Selandia Baru",
+          "sampleExpression": "Arvo (afternoon) • Brekkie (breakfast) • No worries, mate!",
+          "standardEquivalent": "Afternoon • Breakfast • You are welcome / No problem!",
+          "meaning": "Kecenderungan penyingkatan kata berakhiran -o dan -ie yang akrab."
+        },
+        {
+          "varietyName": "Modern Tech & Workplace Idioms",
+          "regionOrContext": "Komunikasi Tim Global & Startup",
+          "sampleExpression": "Ballpark figure • Low-hanging fruit • On the same page",
+          "standardEquivalent": "Rough estimate • Easiest high-impact task • Having shared understanding",
+          "meaning": "Idiom metaforis yang wajib dipahami dalam rapat internasional."
+        }
+      ]
+    }
+  ]
+}

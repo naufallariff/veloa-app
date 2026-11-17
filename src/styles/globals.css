@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "./liquid-glass.tokens.css";
+@import "./veloa-tokens.css";
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

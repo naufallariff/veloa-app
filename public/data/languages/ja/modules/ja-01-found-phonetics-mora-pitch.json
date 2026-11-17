@@ -1,0 +1,80 @@
+{
+  "id": "ja-01-found-phonetics-mora-pitch",
+  "lang": "ja",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | On’in & Pitch Accent (高低アクセント): Ritme Mora Jepang",
+  "subtitle": "Memahami ketukan waktu Mora, bunyi panjang Chōon, konsonan ganda Sokuon (っ), dan aksen nada Tokyo",
+  "estimatedMinutes": 25,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kontras Pitch Accent & Ketukan Mora",
+      "grammaticalTradition": "Fonologi Jepang (日本語音声学)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "word",
+          "roleLabel": "Kata & Jumlah Mora",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "pitch",
+          "roleLabel": "Kontur Nada (Tinggi/Rendah)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "meaning",
+          "roleLabel": "Perbedaan Makna",
+          "semanticColor": "rose"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-f-ph1",
+          "cells": {
+            "word": {
+              "script": "はし (ha-shi)",
+              "reading": "2 Mora",
+              "gloss": "Ejaan Kana identik"
+            },
+            "pitch": {
+              "script": "HA-shi (Tinggi→Rendah) vs ha-SHI (Rendah→Tinggi)",
+              "gloss": "Posisi jatuh nada menentukan arti"
+            },
+            "meaning": {
+              "script": "Sumpit (箸) vs Jembatan (橋)",
+              "gloss": "Membedakan homofon dalam bicara alami"
+            }
+          },
+          "fullTranslation": "箸 (Sumpit) vs 橋 (Jembatan)"
+        },
+        {
+          "id": "ja-f-ph2",
+          "cells": {
+            "word": {
+              "script": "きて vs きって",
+              "reading": "ki-te (2) vs ki-t-te (3)",
+              "gloss": "Tsu kecil (っ) = 1 ketukan diam"
+            },
+            "pitch": {
+              "script": "Jeda glotal penuh 1 mora",
+              "gloss": "Menahan udara sebelum konsonan t"
+            },
+            "meaning": {
+              "script": "Datanglah (来て) vs Perangko (切手)",
+              "gloss": "Mora kosong mengubah identitas kata"
+            }
+          },
+          "fullTranslation": "来て (Datanglah) vs 切手 (Perangko)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bahasa Jepang Diukur dengan Metronom Mora?",
+        "psychologyExplanation": "Setiap karakter Kana mendapat porsi waktu identik. Huruf ん (n) dan jeda っ masing-masing dihitung 1 ketukan penuh, sehingga kata \"Ni-p-po-n\" (日本) memiliki 4 ketukan ritmis yang rata.",
+        "literalTrap": "Jangan menekan volume suara (stress) seperti bahasa Inggris; cukup ubah tinggi-rendah nada (pitch) secara lembut."
+      }
+    }
+  ]
+}

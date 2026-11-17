@@ -1,0 +1,6320 @@
+{
+  "id": "zh-07-inter-lexicon-hsk3-4",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 7,
+  "title": "HSK 3–4 | Bank Kosakata Menengah (900 Kata)",
+  "subtitle": "Seluruh kosakata HSK 3 & HSK 4 lengkap dengan Hanzi, Pinyin, dan definisi",
+  "estimatedMinutes": 60,
+  "blocks": [
+    {
+      "type": "vocabulary-deck",
+      "title": "Leksikon Lengkap HSK 3 – HSK 4",
+      "direction": "ltr",
+      "totalCount": 900,
+      "entries": [
+        {
+          "id": "zh-hsk3-1",
+          "term": "阿姨",
+          "reading": "ā yí",
+          "meaning": "maternal aunt; step-mother; childcare worker; nursemaid; woman of similar age to one's parents (term of address used by child); CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-2",
+          "term": "啊",
+          "reading": "a",
+          "meaning": "modal particle ending sentence; showing affirmation; approval; or consent",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-3",
+          "term": "矮",
+          "reading": "ǎi",
+          "meaning": "low; short (in length)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-4",
+          "term": "爱好",
+          "reading": "ài hào",
+          "meaning": "to like; to take pleasure in; keen on; fond of; interest; hobby; appetite for; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-5",
+          "term": "安静",
+          "reading": "ān jìng",
+          "meaning": "quiet; peaceful; calm",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-6",
+          "term": "把",
+          "reading": "bǎ",
+          "meaning": "to hold; to contain; to grasp; to take hold of; handle; particle marking the following noun as a direct object; classifier for objects with handle; classifier for small objects: handful",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-7",
+          "term": "搬",
+          "reading": "bān",
+          "meaning": "to move; to shift; to remove; to transport; to apply indiscriminately; to copy mechanically",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-8",
+          "term": "班",
+          "reading": "bān",
+          "meaning": "team; class; squad; work shift; ranking; CL:個|个[gè]; classifier for groups",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-9",
+          "term": "半",
+          "reading": "bàn",
+          "meaning": "half; semi-; incomplete; (after a number) and a half",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-10",
+          "term": "办法",
+          "reading": "bàn fǎ",
+          "meaning": "means; method; way (of doing sth); CL:條|条; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-11",
+          "term": "办公室",
+          "reading": "bàn gōng shì",
+          "meaning": "office; business premises; bureau; CL:間|间[jiān]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-12",
+          "term": "帮忙",
+          "reading": "bāng máng",
+          "meaning": "to help; to lend a hand; to do a favor; to do a good turn",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-13",
+          "term": "包",
+          "reading": "bāo",
+          "meaning": "to cover; to wrap; to hold; to include; to take charge of; to contract (to or for); package; wrapper; container; bag; to hold or embrace; bundle; packet; CL:個|个; 隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-14",
+          "term": "饱",
+          "reading": "bǎo",
+          "meaning": "to eat till full; satisfied",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-15",
+          "term": "北方",
+          "reading": "běi fāng",
+          "meaning": "north; the northern part a country; China north of the Yellow River",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-16",
+          "term": "被",
+          "reading": "bèi",
+          "meaning": "quilt; by; (indicates passive-voice clauses); (literary) to cover; to meet with",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-17",
+          "term": "鼻子",
+          "reading": "bí zi",
+          "meaning": "nose; CL:個|个; 隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-18",
+          "term": "比较",
+          "reading": "bǐ jiào",
+          "meaning": "to compare; to contrast; comparatively; relatively; quite; comparison",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-19",
+          "term": "比赛",
+          "reading": "bǐ sài",
+          "meaning": "competition (sports etc); match; CL:場|场; 次[cì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-20",
+          "term": "必须",
+          "reading": "bì xū",
+          "meaning": "to have to; must; compulsory; necessarily",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-21",
+          "term": "变化",
+          "reading": "biàn huà",
+          "meaning": "change; variation; to change; to vary; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-22",
+          "term": "表示",
+          "reading": "biǎo shì",
+          "meaning": "to express; to show; to say; to state; to indicate; to mean",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-23",
+          "term": "表演",
+          "reading": "biǎo yǎn",
+          "meaning": "play; show; performance; exhibition; to perform; to act; to demonstrate; CL:場|场[chǎng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-24",
+          "term": "别人",
+          "reading": "bié ren",
+          "meaning": "other people; others; other person",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-25",
+          "term": "宾馆",
+          "reading": "bīn guǎn",
+          "meaning": "guesthouse; lodge; hotel; CL:個|个; 家[jiā]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-26",
+          "term": "冰箱",
+          "reading": "bīng xiāng",
+          "meaning": "icebox; freezer cabinet; refrigerator; CL:臺|台; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-27",
+          "term": "才",
+          "reading": "cái",
+          "meaning": "a moment ago; just now; (preceded by a clause of condition or reason) not until; (followed by a numerical clause) only",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-28",
+          "term": "菜单",
+          "reading": "cài dān",
+          "meaning": "menu; CL:份; 張|张[zhāng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-29",
+          "term": "参加",
+          "reading": "cān jiā",
+          "meaning": "to participate; to take part; to join",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-30",
+          "term": "草",
+          "reading": "cǎo",
+          "meaning": "grass; straw; manuscript; draft (of a document); careless; rough; CL:棵; 撮; 株; 根[gēn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-31",
+          "term": "层",
+          "reading": "céng",
+          "meaning": "layer; stratum; laminated; floor (of a building); storey; classifier for layers; repeated; sheaf (math.)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-32",
+          "term": "差",
+          "reading": "chà",
+          "meaning": "to differ from; to fall short of; lacking; wrong; inferior",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-33",
+          "term": "超市",
+          "reading": "chāo shì",
+          "meaning": "supermarket (abbr.); CL:家[jiā]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-34",
+          "term": "衬衫",
+          "reading": "chèn shān",
+          "meaning": "shirt; blouse; CL:件[jiàn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-35",
+          "term": "成绩",
+          "reading": "chéng jì",
+          "meaning": "achievement; performance records; grades; CL:項|项; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-36",
+          "term": "城市",
+          "reading": "chéng shì",
+          "meaning": "city; town; CL:座[zuò]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-37",
+          "term": "迟到",
+          "reading": "chí dào",
+          "meaning": "to arrive late",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-38",
+          "term": "出现",
+          "reading": "chū xiàn",
+          "meaning": "to appear; to arise; to emerge; to show up",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-39",
+          "term": "除了",
+          "reading": "chú le",
+          "meaning": "besides; apart from (... also...); in addition to; except (for)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-40",
+          "term": "厨房",
+          "reading": "chú fáng",
+          "meaning": "kitchen; CL:間|间[jiān]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-41",
+          "term": "春",
+          "reading": "chūn",
+          "meaning": "spring (time); gay; joyful; youthful; love; lust; life",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-42",
+          "term": "词语",
+          "reading": "cí yǔ",
+          "meaning": "word (general term including monosyllables through to short phrases); term (e.g. technical term); expression",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-43",
+          "term": "聪明",
+          "reading": "cōng ming",
+          "meaning": "acute (of sight and hearing); clever; intelligent; bright; smart",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-44",
+          "term": "打扫",
+          "reading": "dǎ sǎo",
+          "meaning": "to clean; to sweep",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-45",
+          "term": "打算",
+          "reading": "dǎ suàn",
+          "meaning": "to plan; to intend; to calculate; plan; intention; calculation; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-46",
+          "term": "带",
+          "reading": "dài",
+          "meaning": "band; belt; girdle; ribbon; tire; area; zone; region; CL:條|条[tiáo]; to wear; to carry; to take along; to bear (i.e. to have); to lead; to bring; to look after; to raise",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-47",
+          "term": "担心",
+          "reading": "dān xīn",
+          "meaning": "anxious; worried; uneasy; to worry; to be anxious",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-48",
+          "term": "蛋糕",
+          "reading": "dàn gāo",
+          "meaning": "cake; CL:塊|块; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-49",
+          "term": "当然",
+          "reading": "dāng rán",
+          "meaning": "only natural; as it should be; certainly; of course; without doubt",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-50",
+          "term": "地",
+          "reading": "de",
+          "meaning": "-ly; structural particle: used before a verb or adjective; linking it to preceding modifying adverbial adjunct",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-51",
+          "term": "灯",
+          "reading": "dēng",
+          "meaning": "lamp; light; lantern; CL:盞|盏[zhǎn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-52",
+          "term": "低",
+          "reading": "dī",
+          "meaning": "low; beneath; to lower (one's head); to let droop; to hang down; to incline",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-53",
+          "term": "地方",
+          "reading": "dì fang",
+          "meaning": "area; place; space; room; territory; CL:處|处; 個|个; 塊|块[kuài]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-54",
+          "term": "地铁",
+          "reading": "dì tiě",
+          "meaning": "subway; metro",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-55",
+          "term": "地图",
+          "reading": "dì tú",
+          "meaning": "map; CL:張|张; 本[běn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-56",
+          "term": "电梯",
+          "reading": "diàn tī",
+          "meaning": "elevator; escalator; CL:臺|台; 部[bù]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-57",
+          "term": "电子",
+          "reading": "diàn zǐ",
+          "meaning": "electronic; electron (particle physics)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-58",
+          "term": "冬",
+          "reading": "dōng",
+          "meaning": "sound of beating a drum; onomatopoeia for rat-a-tat etc",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-59",
+          "term": "东",
+          "reading": "dōng",
+          "meaning": "east; host (i.e. sitting on east side of guest); landlord",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-60",
+          "term": "动物",
+          "reading": "dòng wù",
+          "meaning": "animal; CL:隻|只; 群; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-61",
+          "term": "短",
+          "reading": "duǎn",
+          "meaning": "short or brief; to lack; weak point; fault",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-62",
+          "term": "段",
+          "reading": "duàn",
+          "meaning": "paragraph; section; segment; stage (of a process); classifier for stories; periods of time; lengths of thread etc",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-63",
+          "term": "锻炼",
+          "reading": "duàn liàn",
+          "meaning": "to engage in physical exercise; to work out; to toughen; to temper",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-64",
+          "term": "多么",
+          "reading": "duō me",
+          "meaning": "how (wonderful etc); what (a great idea etc); however (difficult it may be etc)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-65",
+          "term": "饿",
+          "reading": "è",
+          "meaning": "to be hungry; hungry",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-66",
+          "term": "而且",
+          "reading": "ér qiě",
+          "meaning": "(not only ...) but also; moreover; in addition; furthermore",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-67",
+          "term": "耳朵",
+          "reading": "ěr duo",
+          "meaning": "ear; CL:隻|只; 個|个; 對|对[duì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-68",
+          "term": "发烧",
+          "reading": "fā shāo",
+          "meaning": "to have a high temperature (from illness); to have a fever",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-69",
+          "term": "发现",
+          "reading": "fā xiàn",
+          "meaning": "to find; to discover",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-70",
+          "term": "方便",
+          "reading": "fāng biàn",
+          "meaning": "convenient; to help out; to make things easy for people; convenience; suitable; having money to spare; (euphemism) to go to the toilet",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-71",
+          "term": "放",
+          "reading": "fàng",
+          "meaning": "to release; to free; to let go; to put; to place; to let out; to set off (fireworks)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-72",
+          "term": "放心",
+          "reading": "fàng xīn",
+          "meaning": "to feel relieved; to feel reassured; to be at ease",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-73",
+          "term": "分",
+          "reading": "fēn",
+          "meaning": "to divide; to separate; to allocate; to distinguish (good and bad); part or subdivision; fraction; one tenth (of certain units); unit of length equivalent to 0.33 cm; minute; a point (in sports or games); 0.01 yuan (unit of money)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-74",
+          "term": "附近",
+          "reading": "fù jìn",
+          "meaning": "(in the) vicinity; nearby; neighboring; next to",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-75",
+          "term": "复习",
+          "reading": "fù xí",
+          "meaning": "variant of 復習|复习; to revise; to review; revision",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-76",
+          "term": "干净",
+          "reading": "gān jìng",
+          "meaning": "clean; neat",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-77",
+          "term": "敢",
+          "reading": "gǎn",
+          "meaning": "to dare; daring; (polite) may I venture",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-78",
+          "term": "感冒",
+          "reading": "gǎn mào",
+          "meaning": "to catch cold; (common) cold; CL:場|场; 次[cì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-79",
+          "term": "刚才",
+          "reading": "gāng cái",
+          "meaning": "(just) a moment ago",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-80",
+          "term": "根据",
+          "reading": "gēn jù",
+          "meaning": "according to; based on; basis; foundation; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-81",
+          "term": "跟",
+          "reading": "gēn",
+          "meaning": "heel; to follow closely; to go with; to marry sb (of woman); with; towards; as (compared to); from (different from); and (in addition to)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-82",
+          "term": "更",
+          "reading": "gèng",
+          "meaning": "more; even more; further; still; still more",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-83",
+          "term": "公园",
+          "reading": "gōng yuán",
+          "meaning": "public park; CL:場|场[chǎng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-84",
+          "term": "故事",
+          "reading": "gù shi",
+          "meaning": "narrative; story; tale",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-85",
+          "term": "刮",
+          "reading": "guā",
+          "meaning": "to blow (of the wind)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-86",
+          "term": "关",
+          "reading": "guān",
+          "meaning": "mountain pass; to close; to shut; to turn off; to concern; to involve",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-87",
+          "term": "关系",
+          "reading": "guān xì",
+          "meaning": "variant of 關係|关系[guān xì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-88",
+          "term": "关心",
+          "reading": "guān xīn",
+          "meaning": "to care for sth; caring; concerned",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-89",
+          "term": "关于",
+          "reading": "guān yú",
+          "meaning": "pertaining to; concerning; regarding; with regards to; about; a matter of",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-90",
+          "term": "国家",
+          "reading": "guó jiā",
+          "meaning": "country; nation; state; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-91",
+          "term": "果汁",
+          "reading": "guǒ zhī",
+          "meaning": "fruit juice",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-92",
+          "term": "过去",
+          "reading": "guò qu",
+          "meaning": "(in the) past; former; previous; to go over; to pass by",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-93",
+          "term": "还是",
+          "reading": "hái shi",
+          "meaning": "or; still; nevertheless; had better",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-94",
+          "term": "害怕",
+          "reading": "hài pà",
+          "meaning": "to be afraid; to be scared",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-95",
+          "term": "河",
+          "reading": "hé",
+          "meaning": "river; CL:條|条; 道[dào]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-96",
+          "term": "黑板",
+          "reading": "hēi bǎn",
+          "meaning": "blackboard; CL:塊|块; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-97",
+          "term": "护照",
+          "reading": "hù zhào",
+          "meaning": "passport; CL:本; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-98",
+          "term": "花",
+          "reading": "huā",
+          "meaning": "flower; blossom; CL:朵; 支; 束; 把; 盆; 簇[cù]; fancy pattern; florid; to spend (money; time)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-99",
+          "term": "花园",
+          "reading": "huā yuán",
+          "meaning": "garden; CL:座; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-100",
+          "term": "画",
+          "reading": "huà",
+          "meaning": "to draw; picture; painting; CL:幅; 張|张[zhāng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-101",
+          "term": "坏",
+          "reading": "huài",
+          "meaning": "bad; spoiled; broken; to break down",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-102",
+          "term": "环境",
+          "reading": "huán jìng",
+          "meaning": "environment; circumstances; surroundings; CL:個|个[gè]; ambient",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-103",
+          "term": "换",
+          "reading": "huàn",
+          "meaning": "to change; to exchange",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-104",
+          "term": "黄",
+          "reading": "huáng",
+          "meaning": "yellow; pornographic; to fall through",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-105",
+          "term": "会议",
+          "reading": "huì yì",
+          "meaning": "meeting; conference; CL:場|场; 屆|届[jiè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-106",
+          "term": "或者",
+          "reading": "huò zhě",
+          "meaning": "or; possibly; maybe; perhaps",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-107",
+          "term": "机会",
+          "reading": "jī huì",
+          "meaning": "opportunity; chance; occasion; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-108",
+          "term": "几乎",
+          "reading": "jī hū",
+          "meaning": "almost; nearly; practically",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-109",
+          "term": "极",
+          "reading": "jí",
+          "meaning": "extremely; pole (geography; physics); utmost; top",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-110",
+          "term": "记得",
+          "reading": "jì de",
+          "meaning": "to remember",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-111",
+          "term": "季节",
+          "reading": "jì jié",
+          "meaning": "time; season; period; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-112",
+          "term": "检查",
+          "reading": "jiǎn chá",
+          "meaning": "inspection; to examine; to inspect; CL:次[cì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-113",
+          "term": "简单",
+          "reading": "jiǎn dān",
+          "meaning": "simple; not complicated",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-114",
+          "term": "见面",
+          "reading": "jiàn miàn",
+          "meaning": "to meet; to see sb; CL:次[cì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-115",
+          "term": "健康",
+          "reading": "jiàn kāng",
+          "meaning": "health; healthy",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-116",
+          "term": "讲",
+          "reading": "jiǎng",
+          "meaning": "to speak; to explain; to negotiate; to emphasise; to be particular about; as far as sth is concerned; speech; lecture",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-117",
+          "term": "教",
+          "reading": "jiāo",
+          "meaning": "to teach",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-118",
+          "term": "脚",
+          "reading": "jiǎo",
+          "meaning": "foot; leg; base; kick; CL:雙|双; 隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-119",
+          "term": "角",
+          "reading": "jiǎo",
+          "meaning": "angle; corner; horn; horn-shaped; unit of money equal to 0.1 yuan; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-120",
+          "term": "接",
+          "reading": "jiē",
+          "meaning": "to receive; to answer (the phone); to meet or welcome sb; to connect; to catch; to join; to extend; to take one's turn on duty; to take over for sb",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-121",
+          "term": "街道",
+          "reading": "jiē dào",
+          "meaning": "street; CL:條|条[tiáo]; subdistrict; residential district",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-122",
+          "term": "节目",
+          "reading": "jié mù",
+          "meaning": "program; item (on a program); CL:臺|台; 個|个; 套[tào]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-123",
+          "term": "节日",
+          "reading": "jié rì",
+          "meaning": "holiday; festival; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-124",
+          "term": "结婚",
+          "reading": "jié hūn",
+          "meaning": "to marry; to get married; CL:次[cì]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-125",
+          "term": "结束",
+          "reading": "jié shù",
+          "meaning": "termination; to finish; to end; to conclude; to close",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-126",
+          "term": "解决",
+          "reading": "jiě jué",
+          "meaning": "to settle (a dispute); to resolve; to solve; to dispose of; to dispatch",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-127",
+          "term": "借",
+          "reading": "jiè",
+          "meaning": "to lend; to borrow; by means of; to take (an opportunity)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-128",
+          "term": "经常",
+          "reading": "jīng cháng",
+          "meaning": "day to day; everyday; daily; frequently; constantly; regularly; often",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-129",
+          "term": "经过",
+          "reading": "jīng guò",
+          "meaning": "to pass; to go through; process; course; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-130",
+          "term": "经理",
+          "reading": "jīng lǐ",
+          "meaning": "manager; director; CL:個|个; 位; 名[míng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-131",
+          "term": "久",
+          "reading": "jiǔ",
+          "meaning": "(long) time; (long) duration of time",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-132",
+          "term": "旧",
+          "reading": "jiù",
+          "meaning": "old; opposite: new 新; former; worn (with age)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-133",
+          "term": "举行",
+          "reading": "jǔ xíng",
+          "meaning": "to hold (a meeting; ceremony etc)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-134",
+          "term": "句子",
+          "reading": "jù zi",
+          "meaning": "sentence; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-135",
+          "term": "决定",
+          "reading": "jué dìng",
+          "meaning": "to decide (to do something); to resolve; decision; CL:個|个; 項|项[xiàng]; certainly",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-136",
+          "term": "渴",
+          "reading": "kě",
+          "meaning": "thirsty",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-137",
+          "term": "可爱",
+          "reading": "kě ài",
+          "meaning": "adorable; cute; lovely",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-138",
+          "term": "刻",
+          "reading": "kè",
+          "meaning": "quarter (hour); moment; to carve; to engrave; to cut; oppressive; classifier for short time intervals",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-139",
+          "term": "客人",
+          "reading": "kè rén",
+          "meaning": "visitor; guest; customer; client; CL:位[wèi]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-140",
+          "term": "空调",
+          "reading": "kōng tiáo",
+          "meaning": "air conditioning",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-141",
+          "term": "口",
+          "reading": "kǒu",
+          "meaning": "mouth; classifier for things with mouths (people; domestic animals; cannons; wells etc); classifier for bites or mouthfuls",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-142",
+          "term": "哭",
+          "reading": "kū",
+          "meaning": "to cry; to weep",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-143",
+          "term": "裤子",
+          "reading": "kù zi",
+          "meaning": "trousers; pants; CL:條|条[tiáo]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-144",
+          "term": "筷子",
+          "reading": "kuài zi",
+          "meaning": "chopsticks; CL:對|对; 根; 把; 雙|双[shuāng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-145",
+          "term": "蓝",
+          "reading": "lán",
+          "meaning": "blue; indigo plant",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-146",
+          "term": "老",
+          "reading": "lǎo",
+          "meaning": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people); venerable (person); experienced; of long standing; always; all the time; of the past; very; outdated; (of meat etc) tough",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-147",
+          "term": "离开",
+          "reading": "lí kāi",
+          "meaning": "to depart; to leave",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-148",
+          "term": "礼物",
+          "reading": "lǐ wù",
+          "meaning": "gift; present; CL:件; 個|个; 份[fèn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-149",
+          "term": "历史",
+          "reading": "lì shǐ",
+          "meaning": "history; CL:門|门; 段[duàn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-150",
+          "term": "脸",
+          "reading": "liǎn",
+          "meaning": "face; CL:張|张; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-151",
+          "term": "练习",
+          "reading": "liàn xí",
+          "meaning": "exercise; drill; practice; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-152",
+          "term": "辆",
+          "reading": "liàng",
+          "meaning": "classifier for vehicles",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-153",
+          "term": "了解",
+          "reading": "liǎo jiě",
+          "meaning": "to understand; to realize; to find out",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-154",
+          "term": "邻居",
+          "reading": "lín jū",
+          "meaning": "neighbor; next door; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-155",
+          "term": "楼",
+          "reading": "lóu",
+          "meaning": "house with more than 1 story; storied building; floor; CL:層|层; 座; 棟|栋[dòng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-156",
+          "term": "绿",
+          "reading": "lǜ",
+          "meaning": "green",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-157",
+          "term": "马",
+          "reading": "mǎ",
+          "meaning": "horse; CL:匹pi; horse or cavalry piece in Chinese chess; knight in Western chess",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-158",
+          "term": "马上",
+          "reading": "mǎ shàng",
+          "meaning": "at once; right away; immediately; on horseback (i.e. by military force)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-159",
+          "term": "满意",
+          "reading": "mǎn yì",
+          "meaning": "satisfied; pleased; to one's satisfaction",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-160",
+          "term": "帽子",
+          "reading": "mào zi",
+          "meaning": "hat; cap; (fig.) label; bad name; CL:頂|顶[dǐng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-161",
+          "term": "米",
+          "reading": "mǐ",
+          "meaning": "rice; CL:粒[lì]; meter (classifier)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-162",
+          "term": "面包",
+          "reading": "miàn bāo",
+          "meaning": "bread; CL:片; 袋; 塊|块[kuài]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-163",
+          "term": "面条",
+          "reading": "miàn tiáo",
+          "meaning": "noodles",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-164",
+          "term": "明白",
+          "reading": "míng bai",
+          "meaning": "clear; obvious; unequivocal; to understand; to realize",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-165",
+          "term": "拿",
+          "reading": "ná",
+          "meaning": "to hold; to seize; to catch; to apprehend; to take",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-166",
+          "term": "奶奶",
+          "reading": "nǎi nai",
+          "meaning": "(informal) grandma (paternal grandmother); (respectful) mistress of the house; CL:位[wèi]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-167",
+          "term": "南",
+          "reading": "nán",
+          "meaning": "south",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-168",
+          "term": "难",
+          "reading": "nán",
+          "meaning": "difficult (to...); problem; difficulty; difficult; not good",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-169",
+          "term": "难过",
+          "reading": "nán guò",
+          "meaning": "to feel sad; to feel unwell; (of life) to be difficult",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-170",
+          "term": "年级",
+          "reading": "nián jí",
+          "meaning": "grade; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-171",
+          "term": "年轻",
+          "reading": "nián qīng",
+          "meaning": "young",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-172",
+          "term": "鸟",
+          "reading": "niǎo",
+          "meaning": "bird; CL:隻|只; 群[qún]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-173",
+          "term": "努力",
+          "reading": "nǔ lì",
+          "meaning": "great effort; to strive; to try hard",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-174",
+          "term": "爬山",
+          "reading": "pá shān",
+          "meaning": "to climb a mountain; to mountaineer; hiking; mountaineering",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-175",
+          "term": "盘子",
+          "reading": "pán zi",
+          "meaning": "tray; plate; dish; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-176",
+          "term": "胖",
+          "reading": "pàng",
+          "meaning": "fat; plump",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-177",
+          "term": "啤酒",
+          "reading": "pí jiǔ",
+          "meaning": "beer; CL:杯; 瓶; 罐; 桶; 缸[gāng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-178",
+          "term": "葡萄",
+          "reading": "pú tao",
+          "meaning": "grape",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-179",
+          "term": "普通话",
+          "reading": "pǔ tōng huà",
+          "meaning": "Mandarin (common language); Putonghua (common speech of the Chinese language); ordinary speech",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-180",
+          "term": "骑",
+          "reading": "qí",
+          "meaning": "to ride (an animal or bike); to sit astride",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-181",
+          "term": "其实",
+          "reading": "qí shí",
+          "meaning": "actually; in fact; really",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-182",
+          "term": "其他",
+          "reading": "qí tā",
+          "meaning": "other; the others; else; other than (that person); in addition to the person mentioned above",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-183",
+          "term": "奇怪",
+          "reading": "qí guài",
+          "meaning": "strange; odd; to marvel; to be baffled",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-184",
+          "term": "铅笔",
+          "reading": "qiān bǐ",
+          "meaning": "(lead) pencil; CL:支; 枝; 桿|杆[gǎn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-185",
+          "term": "清楚",
+          "reading": "qīng chu",
+          "meaning": "clear; distinct; to understand thoroughly; to be clear about",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-186",
+          "term": "秋",
+          "reading": "qiū",
+          "meaning": "a swing",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-187",
+          "term": "裙子",
+          "reading": "qún zi",
+          "meaning": "skirt; CL:條|条[tiáo]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-188",
+          "term": "然后",
+          "reading": "rán hòu",
+          "meaning": "after; then (afterwards); after that; afterwards",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-189",
+          "term": "热情",
+          "reading": "rè qíng",
+          "meaning": "cordial; enthusiastic; passion; passionate; passionately",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-190",
+          "term": "认为",
+          "reading": "rèn wéi",
+          "meaning": "to believe; to think; to consider; to feel",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-191",
+          "term": "认真",
+          "reading": "rèn zhēn",
+          "meaning": "conscientious; earnest; serious; to take seriously; to take to heart",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-192",
+          "term": "容易",
+          "reading": "róng yì",
+          "meaning": "easy; likely; liable (to)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-193",
+          "term": "如果",
+          "reading": "rú guǒ",
+          "meaning": "if; in case; in the event that",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-194",
+          "term": "伞",
+          "reading": "sǎn",
+          "meaning": "umbrella; parasol; CL:把[bǎ]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-195",
+          "term": "上网",
+          "reading": "shàng wǎng",
+          "meaning": "to be on the internet; to stretch a net (in a sports game or for covering sth); to be netted (of fish)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-196",
+          "term": "生气",
+          "reading": "shēng qì",
+          "meaning": "angry; mad; offended; animated; to get angry; to be enraged; to take offense; animation",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-197",
+          "term": "声音",
+          "reading": "shēng yīn",
+          "meaning": "voice; sound; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-198",
+          "term": "使",
+          "reading": "shǐ",
+          "meaning": "to make; to cause; to enable; to use; to employ; to send; to instruct sb to do sth; envoy; messenger",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-199",
+          "term": "世界",
+          "reading": "shì jiè",
+          "meaning": "world; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-200",
+          "term": "瘦",
+          "reading": "shòu",
+          "meaning": "thin; to lose weight; (of clothing) tight; (of meat) lean; (of land) unproductive",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-201",
+          "term": "舒服",
+          "reading": "shū fu",
+          "meaning": "comfortable; feeling well",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-202",
+          "term": "叔叔",
+          "reading": "shū shu",
+          "meaning": "father's younger brother; uncle; Taiwan pr. [shú shu]; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-203",
+          "term": "树",
+          "reading": "shù",
+          "meaning": "tree; CL:棵[kē]; to cultivate; to set up",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-204",
+          "term": "数学",
+          "reading": "shù xué",
+          "meaning": "mathematics; mathematical",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-205",
+          "term": "刷",
+          "reading": "shuā",
+          "meaning": "to brush; to paint; to daub; to paste up; to skip class (of students); to fire from a job",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-206",
+          "term": "双",
+          "reading": "shuāng",
+          "meaning": "two; double; pair; both",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-207",
+          "term": "水平",
+          "reading": "shuǐ píng",
+          "meaning": "level (of achievement etc); standard; horizontal",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-208",
+          "term": "司机",
+          "reading": "sī jī",
+          "meaning": "chauffeur; driver; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-209",
+          "term": "虽然",
+          "reading": "suī rán",
+          "meaning": "although; even though; even if",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-210",
+          "term": "太阳",
+          "reading": "tài yáng",
+          "meaning": "sun; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-211",
+          "term": "糖",
+          "reading": "táng",
+          "meaning": "sugar; sweets; candy; CL:顆|颗; 塊|块[kuài]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-212",
+          "term": "特别",
+          "reading": "tè bié",
+          "meaning": "especially; special; particular; unusual",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-213",
+          "term": "疼",
+          "reading": "téng",
+          "meaning": "(it) hurts; sore; to love dearly",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-214",
+          "term": "提高",
+          "reading": "tí gāo",
+          "meaning": "to raise; to increase",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-215",
+          "term": "体育",
+          "reading": "tǐ yù",
+          "meaning": "sports; physical education",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-216",
+          "term": "甜",
+          "reading": "tián",
+          "meaning": "sweet",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-217",
+          "term": "条",
+          "reading": "tiáo",
+          "meaning": "strip; item; article; clause (of law or treaty); classifier for long thin things (ribbon; river; road; trousers etc)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-218",
+          "term": "同事",
+          "reading": "tóng shì",
+          "meaning": "colleague; co-worker; CL:個|个; 位[wèi]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-219",
+          "term": "同意",
+          "reading": "tóng yì",
+          "meaning": "to agree; to consent; to approve",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-220",
+          "term": "头发",
+          "reading": "tóu fa",
+          "meaning": "hair (on the head)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-221",
+          "term": "突然",
+          "reading": "tū rán",
+          "meaning": "sudden; abrupt; unexpected",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-222",
+          "term": "图书馆",
+          "reading": "tú shū guǎn",
+          "meaning": "library; CL:家; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-223",
+          "term": "腿",
+          "reading": "tuǐ",
+          "meaning": "leg; CL:條|条[tiáo]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-224",
+          "term": "完成",
+          "reading": "wán chéng",
+          "meaning": "to complete; to accomplish",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-225",
+          "term": "碗",
+          "reading": "wǎn",
+          "meaning": "bowl; cup; CL:隻|只; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-226",
+          "term": "万",
+          "reading": "wàn",
+          "meaning": "ten thousand; a great number",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-227",
+          "term": "忘记",
+          "reading": "wàng jì",
+          "meaning": "to forget",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-228",
+          "term": "为了",
+          "reading": "wèi le",
+          "meaning": "in order to; for the purpose of; so as to",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-229",
+          "term": "为什么",
+          "reading": "wèi shén me",
+          "meaning": "why?; for what reason?",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-230",
+          "term": "位",
+          "reading": "wèi",
+          "meaning": "position; location; place; seat; classifier for people (honorific); classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-231",
+          "term": "文化",
+          "reading": "wén huà",
+          "meaning": "culture; civilization; cultural; CL:個|个; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-232",
+          "term": "西",
+          "reading": "xī",
+          "meaning": "west",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-233",
+          "term": "习惯",
+          "reading": "xí guàn",
+          "meaning": "habit; custom; usual practice; to be used to; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-234",
+          "term": "洗手间",
+          "reading": "xǐ shǒu jiān",
+          "meaning": "toilet; lavatory; washroom",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-235",
+          "term": "洗澡",
+          "reading": "xǐ zǎo",
+          "meaning": "to bathe; to take a shower",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-236",
+          "term": "夏",
+          "reading": "xià",
+          "meaning": "summer",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-237",
+          "term": "先",
+          "reading": "xiān",
+          "meaning": "early; prior; former; in advance; first",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-238",
+          "term": "香蕉",
+          "reading": "xiāng jiāo",
+          "meaning": "banana; CL:枝; 根; 個|个; 把[bǎ]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-239",
+          "term": "相同",
+          "reading": "xiāng tóng",
+          "meaning": "identical; same",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-240",
+          "term": "相信",
+          "reading": "xiāng xìn",
+          "meaning": "to be convinced (that sth is true); to believe; to accept sth as true",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-241",
+          "term": "像",
+          "reading": "xiàng",
+          "meaning": "to resemble; to be like; to look as if; such as; appearance; image; portrait; image under a mapping (math.)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-242",
+          "term": "小心",
+          "reading": "xiǎo xīn",
+          "meaning": "to be careful; to take care",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-243",
+          "term": "校长",
+          "reading": "xiào zhǎng",
+          "meaning": "(college; university) president; headmaster; CL:個|个; 位; 名[míng]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-244",
+          "term": "鞋",
+          "reading": "xié",
+          "meaning": "shoe; CL:雙|双; 隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-245",
+          "term": "新闻",
+          "reading": "xīn wén",
+          "meaning": "news; CL:條|条; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-246",
+          "term": "新鲜",
+          "reading": "xīn xiān",
+          "meaning": "fresh (experience; food etc); freshness; novel; uncommon",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-247",
+          "term": "信",
+          "reading": "xìn",
+          "meaning": "letter; mail; CL:封[fēng]; to trust; to believe; to profess faith in; truthful; confidence; trust; at will; at random",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-248",
+          "term": "行李箱",
+          "reading": "xíng li xiāng",
+          "meaning": "suitcase",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-249",
+          "term": "兴趣",
+          "reading": "xìng qù",
+          "meaning": "interest (desire to know about sth); interest (thing in which one is interested); hobby; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-250",
+          "term": "熊猫",
+          "reading": "xióng māo",
+          "meaning": "panda; CL:隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-251",
+          "term": "需要",
+          "reading": "xū yào",
+          "meaning": "to need; to want; to demand; to require; requirement; need",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-252",
+          "term": "选择",
+          "reading": "xuǎn zé",
+          "meaning": "to select; to pick; choice; option; alternative",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-253",
+          "term": "眼镜",
+          "reading": "yǎn jìng",
+          "meaning": "spectacles; eyeglasses; CL:副[fù]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-254",
+          "term": "要求",
+          "reading": "yāo qiú",
+          "meaning": "to request; to require; to stake a claim; to ask; to demand; CL:點|点[diǎn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-255",
+          "term": "爷爷",
+          "reading": "yé ye",
+          "meaning": "(informal) father's father; paternal grandfather; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-256",
+          "term": "一定",
+          "reading": "yī dìng",
+          "meaning": "surely; certainly; necessarily; fixed; a certain (extent etc); given; particular; must",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-257",
+          "term": "一共",
+          "reading": "yī gòng",
+          "meaning": "altogether",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-258",
+          "term": "一会儿",
+          "reading": "yī huì r",
+          "meaning": "a while; also pr. [yī huǐ r]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-259",
+          "term": "一样",
+          "reading": "yī yàng",
+          "meaning": "same; like; equal to; the same as; just like",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-260",
+          "term": "以后",
+          "reading": "yǐ hòu",
+          "meaning": "after; later; afterwards; following; later on; in the future",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-261",
+          "term": "以前",
+          "reading": "yǐ qián",
+          "meaning": "before; formerly; previous; ago",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-262",
+          "term": "以为",
+          "reading": "yǐ wéi",
+          "meaning": "to believe; to think; to consider; to be under the impression",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-263",
+          "term": "一般",
+          "reading": "yī bān",
+          "meaning": "same; ordinary; so-so; common; general; generally; in general",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-264",
+          "term": "一边",
+          "reading": "yī biān",
+          "meaning": "one side; either side; on the one hand; on the other hand; doing while",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-265",
+          "term": "一直",
+          "reading": "yī zhí",
+          "meaning": "straight (in a straight line); continuously; always; from the beginning of ... up to ...; all along",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-266",
+          "term": "音乐",
+          "reading": "yīn yuè",
+          "meaning": "music; CL:張|张; 曲; 段[duàn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-267",
+          "term": "银行",
+          "reading": "yín háng",
+          "meaning": "bank; CL:家; 個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-268",
+          "term": "应该",
+          "reading": "yīng gāi",
+          "meaning": "ought to; should; must",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-269",
+          "term": "影响",
+          "reading": "yǐng xiǎng",
+          "meaning": "an influence; an effect; to influence; to affect (usually adversely); to disturb; CL:股[gǔ]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-270",
+          "term": "用",
+          "reading": "yòng",
+          "meaning": "to use; to employ; to have to; to eat or drink; expense or outlay; usefulness; hence; therefore",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-271",
+          "term": "游戏",
+          "reading": "yóu xì",
+          "meaning": "game; CL:場|场[chǎng]; to play",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-272",
+          "term": "有名",
+          "reading": "yǒu míng",
+          "meaning": "famous; well-known",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-273",
+          "term": "又",
+          "reading": "yòu",
+          "meaning": "(once) again; also; both... and...; and yet; (used for emphasis) anyway",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-274",
+          "term": "遇到",
+          "reading": "yù dào",
+          "meaning": "to meet; to run into; to come across",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-275",
+          "term": "愿意",
+          "reading": "yuàn yì",
+          "meaning": "to wish; to want; ready; willing (to do sth)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-276",
+          "term": "越",
+          "reading": "yuè",
+          "meaning": "to exceed; to climb over; to surpass; the more... the more",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-277",
+          "term": "月亮",
+          "reading": "yuè liang",
+          "meaning": "moon",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-278",
+          "term": "云",
+          "reading": "yún",
+          "meaning": "cloud; CL:朵[duǒ]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-279",
+          "term": "站",
+          "reading": "zhàn",
+          "meaning": "station; to stand; to halt; to stop; branch of a company or organization; website",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-280",
+          "term": "着急",
+          "reading": "zháo jí",
+          "meaning": "to worry; to feel anxious; Taiwan pron. [zhāo jí]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-281",
+          "term": "照顾",
+          "reading": "zhào gu",
+          "meaning": "to take care of; to show consideration; to attend to; to look after",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-282",
+          "term": "照片",
+          "reading": "zhào piàn",
+          "meaning": "photograph; picture; CL:張|张; 套; 幅[fú]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-283",
+          "term": "照相机",
+          "reading": "zhào xiàng jī",
+          "meaning": "camera; CL:個|个; 架; 部; 台; 隻|只[zhī]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-284",
+          "term": "只",
+          "reading": "zhī",
+          "meaning": "classifier for birds and certain animals; one of a pair; some utensils; vessels etc",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-285",
+          "term": "只",
+          "reading": "zhǐ",
+          "meaning": "but; only",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-286",
+          "term": "终于",
+          "reading": "zhōng yú",
+          "meaning": "at last; in the end; finally; eventually",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-287",
+          "term": "中间",
+          "reading": "zhōng jiān",
+          "meaning": "between; intermediate; mid; middle",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-288",
+          "term": "种",
+          "reading": "zhǒng",
+          "meaning": "abbr. for 物種|物种; genus; race; seed; breed; species; strain; kind; type; has guts (i.e. courage); nerve; classifier for types: kind; sort; classifier for languages",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-289",
+          "term": "重要",
+          "reading": "zhòng yào",
+          "meaning": "important; significant; major",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-290",
+          "term": "周末",
+          "reading": "zhōu mò",
+          "meaning": "weekend",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-291",
+          "term": "主要",
+          "reading": "zhǔ yào",
+          "meaning": "main; principal; major; primary",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-292",
+          "term": "祝",
+          "reading": "zhù",
+          "meaning": "to wish; to express good wishes; to pray; (old) wizard",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-293",
+          "term": "注意",
+          "reading": "zhù yì",
+          "meaning": "to take note of; to pay attention to",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-294",
+          "term": "字典",
+          "reading": "zì diǎn",
+          "meaning": "dictionary; character dictionary; CL:本[běn]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-295",
+          "term": "自己",
+          "reading": "zì jǐ",
+          "meaning": "oneself; one's own",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-296",
+          "term": "总是",
+          "reading": "zǒng shì",
+          "meaning": "always",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-297",
+          "term": "最近",
+          "reading": "zuì jìn",
+          "meaning": "recent; recently; these days; latest; soon; nearest (of locations); shortest (of routes)",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-298",
+          "term": "作业",
+          "reading": "zuò yè",
+          "meaning": "school assignment; homework; work; task; operation; CL:個|个[gè]; to operate",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk3-299",
+          "term": "作用",
+          "reading": "zuò yòng",
+          "meaning": "to act on; to affect; action; function; activity; impact; result; effect; purpose; intent; to play a role; corresponds to English -ity; -ism; -ization; CL:個|个[gè]",
+          "partOfSpeech": "HSK 3"
+        },
+        {
+          "id": "zh-hsk4-1",
+          "term": "爱情",
+          "reading": "ài qíng",
+          "meaning": "romance; love (romantic); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-2",
+          "term": "安排",
+          "reading": "ān pái",
+          "meaning": "to arrange; to plan; to set up",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-3",
+          "term": "安全",
+          "reading": "ān quán",
+          "meaning": "safe; secure; safety; security",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-4",
+          "term": "暗",
+          "reading": "àn",
+          "meaning": "to close (a door); to eclipse; muddled; stupid; ignorant; variant of 暗[àn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-5",
+          "term": "按时",
+          "reading": "àn shí",
+          "meaning": "on time; before deadline; on schedule",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-6",
+          "term": "按照",
+          "reading": "àn zhào",
+          "meaning": "according to; in accordance with; in the light of; on the basis of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-7",
+          "term": "包括",
+          "reading": "bāo kuò",
+          "meaning": "to comprise; to include; to involve; to incorporate; to consist of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-8",
+          "term": "保护",
+          "reading": "bǎo hù",
+          "meaning": "to protect; to defend; to safeguard; protection; CL:種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-9",
+          "term": "保证",
+          "reading": "bǎo zhèng",
+          "meaning": "guarantee; to guarantee; to ensure; to safeguard; to pledge; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-10",
+          "term": "抱",
+          "reading": "bào",
+          "meaning": "to hold; to carry (in one's arms); to hug or embrace; surround; cherish",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-11",
+          "term": "抱歉",
+          "reading": "bào qiàn",
+          "meaning": "to be sorry; to feel apologetic; sorry!",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-12",
+          "term": "报道",
+          "reading": "bào dào",
+          "meaning": "report; CL:篇; 份[fèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-13",
+          "term": "报名",
+          "reading": "bào míng",
+          "meaning": "to sign up; to enter one's name; to apply; to register; to enroll; to enlist",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-14",
+          "term": "倍",
+          "reading": "bèi",
+          "meaning": "(two; three etc) -fold; times (multiplier); double; to increase or multiply",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-15",
+          "term": "本来",
+          "reading": "běn lái",
+          "meaning": "original; originally; at first; it goes without saying; of course",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-16",
+          "term": "笨",
+          "reading": "bèn",
+          "meaning": "stupid; foolish; silly; slow-witted; clumsy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-17",
+          "term": "笔记本",
+          "reading": "bǐ jì běn",
+          "meaning": "notebook; CL:本[běn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-18",
+          "term": "毕业",
+          "reading": "bì yè",
+          "meaning": "graduation; to graduate; to finish school",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-19",
+          "term": "遍",
+          "reading": "biàn",
+          "meaning": "everywhere; all over; classifier for actions: one time",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-20",
+          "term": "标准",
+          "reading": "biāo zhǔn",
+          "meaning": "(an official) standard; norm; criterion; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-21",
+          "term": "表达",
+          "reading": "biǎo dá",
+          "meaning": "to voice (an opinion); to express; to convey",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-22",
+          "term": "表格",
+          "reading": "biǎo gé",
+          "meaning": "form; table; CL:張|张; 份[fèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-23",
+          "term": "表扬",
+          "reading": "biǎo yáng",
+          "meaning": "to praise; to commend",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-24",
+          "term": "饼干",
+          "reading": "bǐng gān",
+          "meaning": "biscuit; cracker; cookie; CL:片; 塊|块[kuài]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-25",
+          "term": "并且",
+          "reading": "bìng qiě",
+          "meaning": "and; besides; moreover; furthermore; in addition",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-26",
+          "term": "博士",
+          "reading": "bó shì",
+          "meaning": "doctor; court academician (in feudal China); Ph.D.",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-27",
+          "term": "不但",
+          "reading": "bù dàn",
+          "meaning": "not only (... but also...)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-28",
+          "term": "不过",
+          "reading": "bù guò",
+          "meaning": "only; merely; no more than; but; however; anyway (to get back to a previous topic)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-29",
+          "term": "不得不",
+          "reading": "bù dé bù",
+          "meaning": "have no choice or option but to; cannot but; have to; can't help it; can't avoid",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-30",
+          "term": "不管",
+          "reading": "bù guǎn",
+          "meaning": "no matter (what; how); regardless of; no matter",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-31",
+          "term": "不仅",
+          "reading": "bù jǐn",
+          "meaning": "not only (this one); not just (...) but also",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-32",
+          "term": "部分",
+          "reading": "bù fèn",
+          "meaning": "part; share; section; piece; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-33",
+          "term": "擦",
+          "reading": "cā",
+          "meaning": "to wipe; to erase; rubbing (brush stroke in painting); to clean; to polish",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-34",
+          "term": "猜",
+          "reading": "cāi",
+          "meaning": "to guess",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-35",
+          "term": "材料",
+          "reading": "cái liào",
+          "meaning": "material; data; makings; stuff; CL:個|个; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-36",
+          "term": "参观",
+          "reading": "cān guān",
+          "meaning": "to look around; to tour; to visit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-37",
+          "term": "差不多",
+          "reading": "chà bu duō",
+          "meaning": "almost; nearly; more or less; about the same; good enough; not bad",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-38",
+          "term": "长城",
+          "reading": "Cháng chéng",
+          "meaning": "the Great Wall",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-39",
+          "term": "长江",
+          "reading": "Cháng Jiāng",
+          "meaning": "Yangtze River; or Chang Jiang",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-40",
+          "term": "尝",
+          "reading": "cháng",
+          "meaning": "to taste",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-41",
+          "term": "场",
+          "reading": "chǎng",
+          "meaning": "large place used for a specific purpose; stage; scene (of a play); classifier for sporting or recreational activities; classifier for number of exams",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-42",
+          "term": "超过",
+          "reading": "chāo guò",
+          "meaning": "to surpass; to exceed; to outstrip",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-43",
+          "term": "吵",
+          "reading": "chǎo",
+          "meaning": "to quarrel; to make a noise; noisy; to disturb by making a noise",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-44",
+          "term": "乘坐",
+          "reading": "chéng zuò",
+          "meaning": "to ride (in a vehicle)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-45",
+          "term": "成功",
+          "reading": "chéng gōng",
+          "meaning": "success; to succeed; CL:次; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-46",
+          "term": "成熟",
+          "reading": "chéng shú",
+          "meaning": "mature; ripe; to mature; to ripen; Taiwan pr. [chéng shóu]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-47",
+          "term": "成为",
+          "reading": "chéng wéi",
+          "meaning": "to become; to turn into",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-48",
+          "term": "诚实",
+          "reading": "chéng shí",
+          "meaning": "honest; honesty; honorable; truthful",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-49",
+          "term": "吃惊",
+          "reading": "chī jīng",
+          "meaning": "to be startled; to be shocked; to be amazed",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-50",
+          "term": "重新",
+          "reading": "chóng xīn",
+          "meaning": "again; once more; re-",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-51",
+          "term": "抽烟",
+          "reading": "chōu yān",
+          "meaning": "to smoke (a cigarette; tobacco)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-52",
+          "term": "出差",
+          "reading": "chū chāi",
+          "meaning": "to go on an official or business trip",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-53",
+          "term": "出发",
+          "reading": "chū fā",
+          "meaning": "to start out; to set off",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-54",
+          "term": "出生",
+          "reading": "chū shēng",
+          "meaning": "to be born",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-55",
+          "term": "传真",
+          "reading": "chuán zhēn",
+          "meaning": "fax; facsimile",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-56",
+          "term": "窗户",
+          "reading": "chuāng hu",
+          "meaning": "window; CL:個|个; 扇[shàn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-57",
+          "term": "词典",
+          "reading": "cí diǎn",
+          "meaning": "dictionary (of Chinese compound words); also written 辭典|辞典[cí diǎn]; CL:部; 本[běn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-58",
+          "term": "从来",
+          "reading": "cóng lái",
+          "meaning": "always; at all times; never (if used in negative sentence)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-59",
+          "term": "粗心",
+          "reading": "cū xīn",
+          "meaning": "careless; thoughtless",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-60",
+          "term": "答案",
+          "reading": "dá àn",
+          "meaning": "answer; solution; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-61",
+          "term": "打扮",
+          "reading": "dǎ ban",
+          "meaning": "to decorate; to dress; to make up; to adorn; manner of dressing; style of dress",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-62",
+          "term": "打扰",
+          "reading": "dǎ rǎo",
+          "meaning": "to disturb; to bother; to trouble",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-63",
+          "term": "打印",
+          "reading": "dǎ yìn",
+          "meaning": "to print; to seal; to stamp",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-64",
+          "term": "打折",
+          "reading": "dǎ zhé",
+          "meaning": "to give a discount",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-65",
+          "term": "打针",
+          "reading": "dǎ zhēn",
+          "meaning": "to give or have an injection",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-66",
+          "term": "大概",
+          "reading": "dà gài",
+          "meaning": "roughly; probably; rough; approximate; about",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-67",
+          "term": "大使馆",
+          "reading": "dà shǐ guǎn",
+          "meaning": "embassy; CL:座; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-68",
+          "term": "大约",
+          "reading": "dà yuē",
+          "meaning": "approximately; about",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-69",
+          "term": "戴",
+          "reading": "dài",
+          "meaning": "to put on or wear (glasses; hat; gloves etc); to respect; to bear; to support",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-70",
+          "term": "代表",
+          "reading": "dài biǎo",
+          "meaning": "representative; delegate; CL:位; 個|个; 名[míng]; to represent; to stand for; on behalf of; in the name of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-71",
+          "term": "代替",
+          "reading": "dài tì",
+          "meaning": "instead; to replace; to substitute (X for Y; or a number in an algebraic expression)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-72",
+          "term": "大夫",
+          "reading": "dài fu",
+          "meaning": "doctor; minister of state (in pre-Han states); CL:個|个; 位[wèi]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-73",
+          "term": "当",
+          "reading": "dāng",
+          "meaning": "to be; to act as; manage; withstand; when; during; ought; should; match equally; equal; same; obstruct; just at (a time or place); on the spot; right; just at",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-74",
+          "term": "当地",
+          "reading": "dāng dì",
+          "meaning": "local",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-75",
+          "term": "当时",
+          "reading": "dāng shí",
+          "meaning": "then; at that time; while",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-76",
+          "term": "刀",
+          "reading": "dāo",
+          "meaning": "knife; blade; single-edged sword; cutlass; CL:把[bǎ]; classifier for sets of one hundred sheets (of paper)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-77",
+          "term": "导游",
+          "reading": "dǎo yóu",
+          "meaning": "tour guide; guidebook; to conduct a tour",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-78",
+          "term": "到处",
+          "reading": "dào chù",
+          "meaning": "everywhere",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-79",
+          "term": "到底",
+          "reading": "dào dǐ",
+          "meaning": "finally; in the end; when all is said and done; after all; to the end; to the last",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-80",
+          "term": "道歉",
+          "reading": "dào qiàn",
+          "meaning": "to apologize",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-81",
+          "term": "得意",
+          "reading": "dé yì",
+          "meaning": "proud of oneself; pleased with oneself; complacent",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-82",
+          "term": "等",
+          "reading": "děng",
+          "meaning": "class; rank; grade; equal to; same as; to wait for; to await; et cetera; and so on; et al. (and other authors); after; as soon as; once",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-83",
+          "term": "等",
+          "reading": "děng",
+          "meaning": "class; rank; grade; equal to; same as; to wait for; to await; et cetera; and so on; et al. (and other authors); after; as soon as; once",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-84",
+          "term": "底",
+          "reading": "dǐ",
+          "meaning": "background; bottom; base; the end of a period of time; towards the end of (last month)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-85",
+          "term": "地球",
+          "reading": "dì qiú",
+          "meaning": "the Earth; planet; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-86",
+          "term": "地址",
+          "reading": "dì zhǐ",
+          "meaning": "address; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-87",
+          "term": "掉",
+          "reading": "diào",
+          "meaning": "to fall; to drop; to lag behind; to lose; to go missing; to reduce; fall (in prices); to lose (value; weight etc); to wag; to swing; to turn; to change; to exchange; to swap; to show off; to shed (hair)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-88",
+          "term": "调查",
+          "reading": "diào chá",
+          "meaning": "investigation; inquiry; to investigate; to survey; survey; (opinion) poll; CL:項|项; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-89",
+          "term": "丢",
+          "reading": "diū",
+          "meaning": "to lose; to put aside; to throw",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-90",
+          "term": "动作",
+          "reading": "dòng zuò",
+          "meaning": "movement; motion; action; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-91",
+          "term": "堵车",
+          "reading": "dǔ chē",
+          "meaning": "traffic jam; choking",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-92",
+          "term": "肚子",
+          "reading": "dù zi",
+          "meaning": "belly; abdomen; stomach; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-93",
+          "term": "断",
+          "reading": "duàn",
+          "meaning": "to break; to snap; to cut off; to give up or abstain from sth; to judge; (usu. used in the negative) absolutely; definitely; decidedly",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-94",
+          "term": "对",
+          "reading": "duì",
+          "meaning": "couple; pair; to be opposite; to oppose; to face; versus; for; to; correct (answer); to answer; to reply; to direct (towards sth); right",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-95",
+          "term": "对",
+          "reading": "duì",
+          "meaning": "couple; pair; to be opposite; to oppose; to face; versus; for; to; correct (answer); to answer; to reply; to direct (towards sth); right",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-96",
+          "term": "对话",
+          "reading": "duì huà",
+          "meaning": "dialog; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-97",
+          "term": "对面",
+          "reading": "duì miàn",
+          "meaning": "(sitting) opposite; across (the street); directly in front; to be face to face",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-98",
+          "term": "顿",
+          "reading": "dùn",
+          "meaning": "to stop; to pause; to arrange; to lay out; to kowtow; to stamp (one's foot); at once; classifier for meals; beatings; scoldings etc: time; bout; spell; meal",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-99",
+          "term": "朵",
+          "reading": "duǒ",
+          "meaning": "flower; earlobe; fig. item on both sides; classifier for flowers; clouds etc",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-100",
+          "term": "而",
+          "reading": "ér",
+          "meaning": "and; as well as; and so; but (not); yet (not); (indicates causal relation); (indicates change of state); (indicates contrast)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-101",
+          "term": "儿童",
+          "reading": "ér tóng",
+          "meaning": "child; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-102",
+          "term": "发",
+          "reading": "fā",
+          "meaning": "to send out; to show (one's feeling); to issue; to develop; classifier for gunshots (rounds)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-103",
+          "term": "发生",
+          "reading": "fā shēng",
+          "meaning": "to happen; to occur; to take place; to break out",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-104",
+          "term": "发展",
+          "reading": "fā zhǎn",
+          "meaning": "development; growth; to develop; to grow; to expand",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-105",
+          "term": "法律",
+          "reading": "fǎ lǜ",
+          "meaning": "law; CL:條|条; 套; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-106",
+          "term": "翻译",
+          "reading": "fān yì",
+          "meaning": "to translate; to interpret; translator; interpreter; translation; interpretation; CL:個|个; 位; 名[míng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-107",
+          "term": "烦恼",
+          "reading": "fán nǎo",
+          "meaning": "to be worried; to be distressed; worries",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-108",
+          "term": "反对",
+          "reading": "fǎn duì",
+          "meaning": "to fight against; to oppose; to be opposed to; opposition",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-109",
+          "term": "反映",
+          "reading": "fǎn yìng",
+          "meaning": "to mirror; to reflect; mirror image; reflection; fig. to report; to make known; to render; used erroneously for 反應|反应; response or reaction",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-110",
+          "term": "范围",
+          "reading": "fàn wéi",
+          "meaning": "range; scope; limit; extent; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-111",
+          "term": "方法",
+          "reading": "fāng fǎ",
+          "meaning": "method; way; means; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-112",
+          "term": "方面",
+          "reading": "fāng miàn",
+          "meaning": "respect; aspect; field; side; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-113",
+          "term": "方向",
+          "reading": "fāng xiàng",
+          "meaning": "direction; orientation; path to follow; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-114",
+          "term": "访问",
+          "reading": "fǎng wèn",
+          "meaning": "to visit; to call on; to interview; CL:次[cì]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-115",
+          "term": "放弃",
+          "reading": "fàng qì",
+          "meaning": "to renounce; to abandon; to give up",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-116",
+          "term": "放暑假",
+          "reading": "fàng shǔ jià",
+          "meaning": "The summer holidays",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-117",
+          "term": "分之",
+          "reading": "fēn zhī",
+          "meaning": "(indicating a fraction)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-118",
+          "term": "份",
+          "reading": "fèn",
+          "meaning": "classifier for gifts; newspaper; magazine; papers; reports; contracts etc; variant of 分[fèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-119",
+          "term": "风景",
+          "reading": "fēng jǐng",
+          "meaning": "scenery; landscape; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-120",
+          "term": "丰富",
+          "reading": "fēng fù",
+          "meaning": "to enrich; rich; plentiful; abundant",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-121",
+          "term": "否则",
+          "reading": "fǒu zé",
+          "meaning": "if not; otherwise; else; or else",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-122",
+          "term": "符合",
+          "reading": "fú hé",
+          "meaning": "in keeping with; in accordance with; tallying with; in line with; to agree with; to accord with; to conform to; to correspond with; to manage; to handle",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-123",
+          "term": "富",
+          "reading": "fù",
+          "meaning": "rich; abundant; wealthy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-124",
+          "term": "负责",
+          "reading": "fù zé",
+          "meaning": "to be in charge of; to take responsibility for; to be to blame; conscientious",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-125",
+          "term": "复印",
+          "reading": "fù yìn",
+          "meaning": "to photocopy; to duplicate a document",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-126",
+          "term": "复杂",
+          "reading": "fù zá",
+          "meaning": "complicated; complex",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-127",
+          "term": "父亲",
+          "reading": "fù qīn",
+          "meaning": "father; also pr. with light tone [fù qin]; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-128",
+          "term": "改变",
+          "reading": "gǎi biàn",
+          "meaning": "to change; to alter; to transform",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-129",
+          "term": "干杯",
+          "reading": "gān bēi",
+          "meaning": "to drink a toast; Cheers! (proposing a toast); Here's to you!; Bottoms up!; lit. dry cup",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-130",
+          "term": "干燥",
+          "reading": "gān zào",
+          "meaning": "to dry (of weather; paint; cement etc); desiccation; dull; uninteresting; arid",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-131",
+          "term": "感动",
+          "reading": "gǎn dòng",
+          "meaning": "to move (sb); to touch (sb emotionally); moving",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-132",
+          "term": "感觉",
+          "reading": "gǎn jué",
+          "meaning": "to feel; to become aware of; feeling; sense; perception; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-133",
+          "term": "感情",
+          "reading": "gǎn qíng",
+          "meaning": "feeling; emotion; sensation; likes and dislikes; deep affection for sb or sth; relationship (i.e. love affair); CL:個|个; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-134",
+          "term": "感谢",
+          "reading": "gǎn xiè",
+          "meaning": "(express) thanks; gratitude; grateful; thankful; thanks",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-135",
+          "term": "干",
+          "reading": "gàn",
+          "meaning": "tree trunk; main part of sth; to manage; to work; to do; capable; cadre; to kill (slang); to fuck (vulgar)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-136",
+          "term": "刚刚",
+          "reading": "gāng gang",
+          "meaning": "just recently; just a moment ago",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-137",
+          "term": "高级",
+          "reading": "gāo jí",
+          "meaning": "high level; high grade; advanced; high-ranking",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-138",
+          "term": "个子",
+          "reading": "gè zi",
+          "meaning": "height; stature; build; size",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-139",
+          "term": "各",
+          "reading": "gè",
+          "meaning": "each; every",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-140",
+          "term": "公里",
+          "reading": "gōng lǐ",
+          "meaning": "kilometer",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-141",
+          "term": "工具",
+          "reading": "gōng jù",
+          "meaning": "tool; instrument; utensil; means (to achieve a goal etc)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-142",
+          "term": "工资",
+          "reading": "gōng zī",
+          "meaning": "wages; pay; CL:個|个; 份; 月[yuè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-143",
+          "term": "共同",
+          "reading": "gòng tóng",
+          "meaning": "common; joint; jointly; together; collaborative",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-144",
+          "term": "够",
+          "reading": "gòu",
+          "meaning": "to reach; to be enough",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-145",
+          "term": "购物",
+          "reading": "gòu wù",
+          "meaning": "shopping",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-146",
+          "term": "孤单",
+          "reading": "gū dān",
+          "meaning": "lone; lonely; loneliness",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-147",
+          "term": "估计",
+          "reading": "gū jì",
+          "meaning": "to estimate; to reckon; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-148",
+          "term": "鼓励",
+          "reading": "gǔ lì",
+          "meaning": "to encourage",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-149",
+          "term": "鼓掌",
+          "reading": "gǔ zhǎng",
+          "meaning": "to applaud; to clap",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-150",
+          "term": "顾客",
+          "reading": "gù kè",
+          "meaning": "client; customer; CL:位[wèi]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-151",
+          "term": "故意",
+          "reading": "gù yì",
+          "meaning": "deliberately; on purpose",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-152",
+          "term": "挂",
+          "reading": "guà",
+          "meaning": "to hang or suspend (from a hook etc); to hang up (the phone); to be worried or concerned; to make a phone call (topolect); to register or record; to hitch; classifier for sets or clusters of objects",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-153",
+          "term": "关键",
+          "reading": "guān jiàn",
+          "meaning": "crucial point; crux; CL:個|个[gè]; key; crucial; pivotal",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-154",
+          "term": "观众",
+          "reading": "guān zhòng",
+          "meaning": "spectators; audience; visitors (to an exhibition etc)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-155",
+          "term": "管理",
+          "reading": "guǎn lǐ",
+          "meaning": "to supervise; to manage; to administer; management; administration; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-156",
+          "term": "光",
+          "reading": "guāng",
+          "meaning": "light; ray; CL:道[dào]; bright; only; merely; to use up",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-157",
+          "term": "广播",
+          "reading": "guǎng bō",
+          "meaning": "broadcast; CL:個|个[gè]; broadcasting; to broadcast; (formal) to propagate; to publicize",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-158",
+          "term": "广告",
+          "reading": "guǎng gào",
+          "meaning": "to advertise; a commercial; advertisement; CL:項|项[xiàng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-159",
+          "term": "逛",
+          "reading": "guàng",
+          "meaning": "to stroll; to visit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-160",
+          "term": "规定",
+          "reading": "guī dìng",
+          "meaning": "provision; to fix; to set; to formulate; to stipulate; to provide; regulation; rule; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-161",
+          "term": "国际",
+          "reading": "guó jì",
+          "meaning": "international",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-162",
+          "term": "果然",
+          "reading": "guǒ rán",
+          "meaning": "really; sure enough; as expected; if indeed",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-163",
+          "term": "过",
+          "reading": "guò",
+          "meaning": "(experienced action marker); to cross; to go over; to pass (time); to celebrate (a holiday); to live; to get along; excessively; too-",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-164",
+          "term": "过",
+          "reading": "guò",
+          "meaning": "(experienced action marker); to cross; to go over; to pass (time); to celebrate (a holiday); to live; to get along; excessively; too-",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-165",
+          "term": "过程",
+          "reading": "guò chéng",
+          "meaning": "course of events; process; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-166",
+          "term": "海洋",
+          "reading": "hǎi yáng",
+          "meaning": "ocean; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-167",
+          "term": "害羞",
+          "reading": "hài xiū",
+          "meaning": "shy; embarrassed; bashful",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-168",
+          "term": "寒假",
+          "reading": "hán jià",
+          "meaning": "winter vacation",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-169",
+          "term": "汗",
+          "reading": "hàn",
+          "meaning": "perspiration; sweat; CL:滴; 頭|头; 身[shēn]; to be speechless (out of helplessness; embarrassment etc) (Internet slang used as an interjection)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-170",
+          "term": "航班",
+          "reading": "háng bān",
+          "meaning": "scheduled flight; flight number; plane; scheduled sailing; sailing number; passenger ship",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-171",
+          "term": "好处",
+          "reading": "hǎo chu",
+          "meaning": "benefit; advantage; gain; profit; also pronounced [hǎo chù]; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-172",
+          "term": "好像",
+          "reading": "hǎo xiàng",
+          "meaning": "as if; to seem like",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-173",
+          "term": "号码",
+          "reading": "hào mǎ",
+          "meaning": "number; CL:堆; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-174",
+          "term": "合格",
+          "reading": "hé gé",
+          "meaning": "qualified; meeting a standard; eligible (voter)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-175",
+          "term": "合适",
+          "reading": "hé shì",
+          "meaning": "suitable; fitting; decent; to fit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-176",
+          "term": "盒子",
+          "reading": "hé zi",
+          "meaning": "case",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-177",
+          "term": "猴子",
+          "reading": "hóu zi",
+          "meaning": "monkey; CL:隻|只[zhī]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-178",
+          "term": "厚",
+          "reading": "hòu",
+          "meaning": "thick; deep or profound; kind; generous; rich or strong in flavor; to favor; to stress",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-179",
+          "term": "后悔",
+          "reading": "hòu huǐ",
+          "meaning": "to regret; to repent",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-180",
+          "term": "后来",
+          "reading": "hòu lái",
+          "meaning": "afterwards; later",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-181",
+          "term": "忽然",
+          "reading": "hū rán",
+          "meaning": "suddenly; all of a sudden",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-182",
+          "term": "互相",
+          "reading": "hù xiāng",
+          "meaning": "each other; mutually; mutual",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-183",
+          "term": "护士",
+          "reading": "hù shi",
+          "meaning": "nurse; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-184",
+          "term": "怀疑",
+          "reading": "huái yí",
+          "meaning": "to doubt; to suspect; doubt; suspicion; skeptical",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-185",
+          "term": "回忆",
+          "reading": "huí yì",
+          "meaning": "to recall; recollection; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-186",
+          "term": "活动",
+          "reading": "huó dòng",
+          "meaning": "to exercise; to move about; to operate; activity; loose; shaky; active; movable; maneuver; to use connections; CL:項|项; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-187",
+          "term": "活泼",
+          "reading": "huó po",
+          "meaning": "lively; vivacious; brisk; active",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-188",
+          "term": "火",
+          "reading": "huǒ",
+          "meaning": "fire; urgent; ammunition; fiery or flaming; internal heat (Chinese medicine); hot (popular); classifier for military units (old)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-189",
+          "term": "获得",
+          "reading": "huò dé",
+          "meaning": "to obtain; to receive; to get",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-190",
+          "term": "基础",
+          "reading": "jī chǔ",
+          "meaning": "base; foundation; basis; underlying; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-191",
+          "term": "激动",
+          "reading": "jī dòng",
+          "meaning": "to excite; to agitate; exciting",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-192",
+          "term": "积极",
+          "reading": "jī jí",
+          "meaning": "active; energetic; vigorous; positive (outlook); proactive",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-193",
+          "term": "积累",
+          "reading": "jī lěi",
+          "meaning": "to accumulate; accumulation; cumulative; cumulatively",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-194",
+          "term": "极其",
+          "reading": "jí qí",
+          "meaning": "extremely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-195",
+          "term": "即使",
+          "reading": "jí shǐ",
+          "meaning": "even if; even though; given that",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-196",
+          "term": "及时",
+          "reading": "jí shí",
+          "meaning": "in time; promptly; without delay; timely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-197",
+          "term": "集合",
+          "reading": "jí hé",
+          "meaning": "to gather; to assemble; set (mathematics)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-198",
+          "term": "寄",
+          "reading": "jì",
+          "meaning": "to live (in a house); to lodge; to mail; to send; to entrust; to depend",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-199",
+          "term": "继续",
+          "reading": "jì xù",
+          "meaning": "to continue; to proceed with; to go on with",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-200",
+          "term": "记者",
+          "reading": "jì zhě",
+          "meaning": "reporter; journalist; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-201",
+          "term": "计划",
+          "reading": "jì huà",
+          "meaning": "plan; project; program; to plan; to map out; CL:個|个; 項|项[xiàng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-202",
+          "term": "技术",
+          "reading": "jì shù",
+          "meaning": "technology; technique; skill; CL:門|门; 種|种; 項|项[xiàng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-203",
+          "term": "既然",
+          "reading": "jì rán",
+          "meaning": "since; as; this being the case",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-204",
+          "term": "家具",
+          "reading": "jiā jù",
+          "meaning": "furniture; CL:件; 套[tào]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-205",
+          "term": "加班",
+          "reading": "jiā bān",
+          "meaning": "to work overtime",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-206",
+          "term": "加油站",
+          "reading": "jiā yóu zhàn",
+          "meaning": "gas station",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-207",
+          "term": "假",
+          "reading": "jiǎ",
+          "meaning": "fake; false; artificial; to borrow; if; suppose",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-208",
+          "term": "价格",
+          "reading": "jià gé",
+          "meaning": "price; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-209",
+          "term": "坚持",
+          "reading": "jiān chí",
+          "meaning": "to persevere with; to persist in; to insist on",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-210",
+          "term": "减肥",
+          "reading": "jiǎn féi",
+          "meaning": "to lose weight",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-211",
+          "term": "减少",
+          "reading": "jiǎn shǎo",
+          "meaning": "to lessen; to decrease; to reduce; to lower",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-212",
+          "term": "将来",
+          "reading": "jiāng lái",
+          "meaning": "in the future; future; the future; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-213",
+          "term": "奖金",
+          "reading": "jiǎng jīn",
+          "meaning": "premium; award money; a bonus",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-214",
+          "term": "降低",
+          "reading": "jiàng dī",
+          "meaning": "to reduce; to lower; to bring down",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-215",
+          "term": "交",
+          "reading": "jiāo",
+          "meaning": "to hand over; to deliver; to pay (money); to turn over; to make friends; to intersect (lines)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-216",
+          "term": "交流",
+          "reading": "jiāo liú",
+          "meaning": "to exchange; exchange; communication; interaction; to have social contact (with sb)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-217",
+          "term": "交通",
+          "reading": "jiāo tōng",
+          "meaning": "to be connected; traffic; transportation; communications; liaison",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-218",
+          "term": "骄傲",
+          "reading": "jiāo ào",
+          "meaning": "pride; arrogance; conceited; proud of sth",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-219",
+          "term": "饺子",
+          "reading": "jiǎo zi",
+          "meaning": "dumpling; pot-sticker; CL:個|个; 隻|只[zhī]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-220",
+          "term": "教授",
+          "reading": "jiào shòu",
+          "meaning": "professor; to instruct; to lecture on; CL:個|个; 位[wèi]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-221",
+          "term": "教育",
+          "reading": "jiào yù",
+          "meaning": "to educate; to teach; education",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-222",
+          "term": "接受",
+          "reading": "jiē shòu",
+          "meaning": "to accept; to receive",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-223",
+          "term": "节约",
+          "reading": "jié yuē",
+          "meaning": "to economize; to conserve (resources); economy; frugal",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-224",
+          "term": "结果",
+          "reading": "jié guǒ",
+          "meaning": "outcome; result; conclusion; in the end; as a result; to kill; to dispatch",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-225",
+          "term": "解释",
+          "reading": "jiě shì",
+          "meaning": "explanation; to explain; to interpret; to resolve; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-226",
+          "term": "紧张",
+          "reading": "jǐn zhāng",
+          "meaning": "nervous; keyed up; intense; tense; strained; in short supply; scarce; CL:陣|阵[zhèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-227",
+          "term": "尽管",
+          "reading": "jǐn guǎn",
+          "meaning": "despite; although; even though; in spite of; unhesitatingly; do not hesitate (to ask; complain etc); (go ahead and do it) without hesitating",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-228",
+          "term": "进行",
+          "reading": "jìn xíng",
+          "meaning": "to advance; to conduct; underway; in progress; to do; to carry out; to carry on; to execute",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-229",
+          "term": "禁止",
+          "reading": "jìn zhǐ",
+          "meaning": "to prohibit; to forbid; to ban",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-230",
+          "term": "精彩",
+          "reading": "jīng cǎi",
+          "meaning": "brilliant; splendid",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-231",
+          "term": "精神",
+          "reading": "jīng shén",
+          "meaning": "spirit; mind; consciousness; thought; mental; psychological; essence; gist; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-232",
+          "term": "经济",
+          "reading": "jīng jì",
+          "meaning": "economy; economic",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-233",
+          "term": "经历",
+          "reading": "jīng lì",
+          "meaning": "experience; CL:個|个; 次[cì]; to experience; to go through",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-234",
+          "term": "经验",
+          "reading": "jīng yàn",
+          "meaning": "to experience; experience",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-235",
+          "term": "京剧",
+          "reading": "Jīng jù",
+          "meaning": "Beijing opera; CL:場|场; 出[chū]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-236",
+          "term": "警察",
+          "reading": "jǐng chá",
+          "meaning": "police; policeman; policewoman; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-237",
+          "term": "竟然",
+          "reading": "jìng rán",
+          "meaning": "unexpectedly; to one's surprise; in spite of everything; in that crazy way; actually; to go as far as to",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-238",
+          "term": "竞争",
+          "reading": "jìng zhēng",
+          "meaning": "to compete; competition",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-239",
+          "term": "镜子",
+          "reading": "jìng zi",
+          "meaning": "mirror; CL:面; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-240",
+          "term": "究竟",
+          "reading": "jiū jìng",
+          "meaning": "after all (when all is said and done); actually; outcome; result",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-241",
+          "term": "举办",
+          "reading": "jǔ bàn",
+          "meaning": "to conduct; to hold",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-242",
+          "term": "拒绝",
+          "reading": "jù jué",
+          "meaning": "to refuse; to decline; to reject",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-243",
+          "term": "距离",
+          "reading": "jù lí",
+          "meaning": "distance; to be apart; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-244",
+          "term": "开玩笑",
+          "reading": "kāi wán xiào",
+          "meaning": "to play a joke; to make fun of; to joke",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-245",
+          "term": "看法",
+          "reading": "kàn fǎ",
+          "meaning": "way of looking at a thing; view; opinion; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-246",
+          "term": "考虑",
+          "reading": "kǎo lǜ",
+          "meaning": "to think over; to consider; consideration",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-247",
+          "term": "棵",
+          "reading": "kē",
+          "meaning": "classifier for trees; cabbages; plants etc",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-248",
+          "term": "科学",
+          "reading": "kē xué",
+          "meaning": "science; scientific knowledge; scientific; CL:門|门; 個|个; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-249",
+          "term": "咳嗽",
+          "reading": "ké sou",
+          "meaning": "to cough; CL:陣|阵[zhèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-250",
+          "term": "可怜",
+          "reading": "kě lián",
+          "meaning": "pitiful; pathetic; to have pity on",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-251",
+          "term": "可是",
+          "reading": "kě shì",
+          "meaning": "but; however",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-252",
+          "term": "可惜",
+          "reading": "kě xī",
+          "meaning": "it is a pity; what a pity; unfortunately",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-253",
+          "term": "肯定",
+          "reading": "kěn dìng",
+          "meaning": "to be sure; to be certain; sure; certain; definite; to confirm; to affirm; affirmative; to approve; approval; recognition",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-254",
+          "term": "空气",
+          "reading": "kōng qì",
+          "meaning": "air; atmosphere",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-255",
+          "term": "恐怕",
+          "reading": "kǒng pà",
+          "meaning": "fear; to dread; I'm afraid that...; perhaps; maybe",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-256",
+          "term": "苦",
+          "reading": "kǔ",
+          "meaning": "bitter; hardship; pain; to suffer; to bring suffering to; painstakingly",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-257",
+          "term": "宽",
+          "reading": "kuān",
+          "meaning": "lenient; wide; broad",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-258",
+          "term": "困",
+          "reading": "kùn",
+          "meaning": "sleepy; tired",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-259",
+          "term": "困难",
+          "reading": "kùn nan",
+          "meaning": "difficult; challenging; straitened circumstances; difficult situation",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-260",
+          "term": "扩大",
+          "reading": "kuò dà",
+          "meaning": "to expand; to enlarge; to broaden one's scope",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-261",
+          "term": "拉",
+          "reading": "lā",
+          "meaning": "to pull; to play (a bowed instrument); to drag; to draw; to chat",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-262",
+          "term": "垃圾桶",
+          "reading": "lā jī tǒng",
+          "meaning": "rubbish bin; Taiwan pr. [lè sè tǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-263",
+          "term": "辣",
+          "reading": "là",
+          "meaning": "hot (spicy); pungent",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-264",
+          "term": "来不及",
+          "reading": "lái bu jí",
+          "meaning": "there's not enough time (to do sth); it's too late (to do sth)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-265",
+          "term": "来得及",
+          "reading": "lái de jí",
+          "meaning": "there's still time; able to do sth in time",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-266",
+          "term": "懒",
+          "reading": "lǎn",
+          "meaning": "lazy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-267",
+          "term": "浪费",
+          "reading": "làng fèi",
+          "meaning": "to waste; to squander",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-268",
+          "term": "浪漫",
+          "reading": "làng màn",
+          "meaning": "romantic",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-269",
+          "term": "老虎",
+          "reading": "lǎo hǔ",
+          "meaning": "tiger; CL:隻|只[zhī]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-270",
+          "term": "冷静",
+          "reading": "lěng jìng",
+          "meaning": "calm; cool-headed",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-271",
+          "term": "礼貌",
+          "reading": "lǐ mào",
+          "meaning": "courtesy; manners",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-272",
+          "term": "理发",
+          "reading": "lǐ fà",
+          "meaning": "a barber; hairdressing",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-273",
+          "term": "理解",
+          "reading": "lǐ jiě",
+          "meaning": "to comprehend; to understand; comprehension; understanding",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-274",
+          "term": "理想",
+          "reading": "lǐ xiǎng",
+          "meaning": "a dream; an ideal; perfection; ideal; perfect; desirable; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-275",
+          "term": "厉害",
+          "reading": "lì hai",
+          "meaning": "difficult to deal with; difficult to endure; ferocious; radical; serious; terrible; violent; tremendous; awesome",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-276",
+          "term": "力气",
+          "reading": "lì qi",
+          "meaning": "strength; CL:把[bǎ]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-277",
+          "term": "例如",
+          "reading": "lì rú",
+          "meaning": "for example; for instance; such as",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-278",
+          "term": "俩",
+          "reading": "liǎ",
+          "meaning": "two (colloquial equivalent of 兩個|两个); both; some",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-279",
+          "term": "连",
+          "reading": "lián",
+          "meaning": "to link; to join; to connect; continuously; in succession; including; (used with 也; 都 etc) even; company (military)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-280",
+          "term": "联系",
+          "reading": "lián xì",
+          "meaning": "connection; contact; relation; to get in touch with; to integrate; to link; to touch",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-281",
+          "term": "凉快",
+          "reading": "liáng kuai",
+          "meaning": "nice and cold; pleasantly cool",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-282",
+          "term": "亮",
+          "reading": "liàng",
+          "meaning": "bright; clear; resonant; to shine; to show; to reveal",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-283",
+          "term": "聊天",
+          "reading": "liáo tiān",
+          "meaning": "to chat; to gossip",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-284",
+          "term": "另外",
+          "reading": "lìng wài",
+          "meaning": "additional; in addition; besides; separate; other; moreover; furthermore",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-285",
+          "term": "留",
+          "reading": "liú",
+          "meaning": "to leave (a message etc); to retain; to stay; to remain; to keep; to preserve",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-286",
+          "term": "留学",
+          "reading": "liú xué",
+          "meaning": "to study abroad",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-287",
+          "term": "流泪",
+          "reading": "liú lèi",
+          "meaning": "to shed tears",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-288",
+          "term": "流利",
+          "reading": "liú lì",
+          "meaning": "fluent",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-289",
+          "term": "流行",
+          "reading": "liú xíng",
+          "meaning": "to spread; to rage (of contagious disease); popular; fashionable; prevalent; (math.) manifold",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-290",
+          "term": "乱",
+          "reading": "luàn",
+          "meaning": "in confusion or disorder; in a confused state of mind; disorder; upheaval; riot; illicit sexual relations; to throw into disorder; to mix up; indiscriminate; random; arbitrary",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-291",
+          "term": "律师",
+          "reading": "lǜ shī",
+          "meaning": "lawyer",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-292",
+          "term": "麻烦",
+          "reading": "má fan",
+          "meaning": "inconvenient; troublesome; annoying; to trouble or bother sb; to put sb to trouble",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-293",
+          "term": "马虎",
+          "reading": "mǎ hu",
+          "meaning": "careless; sloppy; negligent; skimpy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-294",
+          "term": "满",
+          "reading": "mǎn",
+          "meaning": "full; filled; packed; fully; completely; quite; to reach the limit; to satisfy; satisfied; contented; to fill; abbr. for Manchurian",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-295",
+          "term": "毛巾",
+          "reading": "máo jīn",
+          "meaning": "towel; CL:條|条[tiáo]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-296",
+          "term": "美丽",
+          "reading": "měi lì",
+          "meaning": "beautiful",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-297",
+          "term": "梦",
+          "reading": "mèng",
+          "meaning": "dream; CL:場|场; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-298",
+          "term": "密码",
+          "reading": "mì mǎ",
+          "meaning": "code; secret code; password; pin number",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-299",
+          "term": "免费",
+          "reading": "miǎn fèi",
+          "meaning": "free (of charge)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-300",
+          "term": "民族",
+          "reading": "mín zú",
+          "meaning": "nationality; ethnic group; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-301",
+          "term": "母亲",
+          "reading": "mǔ qīn",
+          "meaning": "mother; also pr. with light tone [mǔ qin]; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-302",
+          "term": "目的",
+          "reading": "mù dì",
+          "meaning": "purpose; aim; goal; target; objective; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-303",
+          "term": "耐心",
+          "reading": "nài xīn",
+          "meaning": "to be patient; patience",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-304",
+          "term": "难道",
+          "reading": "nán dào",
+          "meaning": "don't tell me ...; could it be that...?",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-305",
+          "term": "难受",
+          "reading": "nán shòu",
+          "meaning": "to feel unwell; to suffer pain; to be difficult to bear",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-306",
+          "term": "内",
+          "reading": "nèi",
+          "meaning": "inside; inner; internal; within; interior",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-307",
+          "term": "内容",
+          "reading": "nèi róng",
+          "meaning": "content; substance; details; CL:個|个; 項|项[xiàng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-308",
+          "term": "能力",
+          "reading": "néng lì",
+          "meaning": "capability; capable; able; ability; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-309",
+          "term": "年龄",
+          "reading": "nián líng",
+          "meaning": "(a person's) age; CL:把; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-310",
+          "term": "农村",
+          "reading": "nóng cūn",
+          "meaning": "rural area; village; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-311",
+          "term": "弄",
+          "reading": "nòng",
+          "meaning": "to do; to manage; to handle; to play with; to fool with; to mess with; to fix; to toy with",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-312",
+          "term": "暖和",
+          "reading": "nuǎn huo",
+          "meaning": "warm; nice and warm",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-313",
+          "term": "偶尔",
+          "reading": "ǒu ěr",
+          "meaning": "occasionally; once in a while; sometimes",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-314",
+          "term": "排列",
+          "reading": "pái liè",
+          "meaning": "array; arrangement; permutation (i.e. ordered choice of n elements out of m)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-315",
+          "term": "判断",
+          "reading": "pàn duàn",
+          "meaning": "to decide; to determine; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-316",
+          "term": "陪",
+          "reading": "péi",
+          "meaning": "to accompany; to keep sb company; to assist; old variant of 賠|赔[péi]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-317",
+          "term": "批评",
+          "reading": "pī píng",
+          "meaning": "to criticize; criticism; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-318",
+          "term": "皮肤",
+          "reading": "pí fū",
+          "meaning": "skin; CL:層|层; 塊|块[kuài]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-319",
+          "term": "脾气",
+          "reading": "pí qi",
+          "meaning": "character; temperament; disposition; bad temper; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-320",
+          "term": "篇",
+          "reading": "piān",
+          "meaning": "sheet; piece of writing; bound set of bamboo slips used for record keeping (old); classifier for written items: chapter; article",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-321",
+          "term": "骗",
+          "reading": "piàn",
+          "meaning": "to cheat; to swindle; to deceive; to fool; to hoodwink; to trick",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-322",
+          "term": "乒乓球",
+          "reading": "pīng pāng qiú",
+          "meaning": "table tennis; ping-pong; ping pong; table tennis ball; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-323",
+          "term": "平时",
+          "reading": "píng shí",
+          "meaning": "ordinarily; in normal times; in peacetime",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-324",
+          "term": "瓶子",
+          "reading": "píng zi",
+          "meaning": "bottle; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-325",
+          "term": "破",
+          "reading": "pò",
+          "meaning": "broken; damaged; worn out; to break; split or cleave; to get rid of; to destroy; to break with; to defeat; to capture (a city etc); to expose the truth of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-326",
+          "term": "普遍",
+          "reading": "pǔ biàn",
+          "meaning": "universal; general; widespread; common",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-327",
+          "term": "其次",
+          "reading": "qí cì",
+          "meaning": "next; secondly",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-328",
+          "term": "其中",
+          "reading": "qí zhōng",
+          "meaning": "among; in; included among these",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-329",
+          "term": "起飞",
+          "reading": "qǐ fēi",
+          "meaning": "to take off (in an airplane)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-330",
+          "term": "起来",
+          "reading": "qi lai",
+          "meaning": "(after a verb; indicates beginning or completeness)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-331",
+          "term": "气候",
+          "reading": "qì hòu",
+          "meaning": "climate; atmosphere; situation; CL:種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-332",
+          "term": "千万",
+          "reading": "qiān wàn",
+          "meaning": "ten million; countless; many; one must by all means",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-333",
+          "term": "签证",
+          "reading": "qiān zhèng",
+          "meaning": "visa; certificate; to certify; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-334",
+          "term": "墙",
+          "reading": "qiáng",
+          "meaning": "wall; CL:面; 堵[dǔ]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-335",
+          "term": "敲",
+          "reading": "qiāo",
+          "meaning": "to hit; to strike; to tap; to rap; to knock; to rip sb off; to overcharge",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-336",
+          "term": "桥",
+          "reading": "qiáo",
+          "meaning": "bridge; CL:座[zuò]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-337",
+          "term": "巧克力",
+          "reading": "qiǎo kè lì",
+          "meaning": "chocolate (loanword); CL:塊|块[kuài]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-338",
+          "term": "亲戚",
+          "reading": "qīn qi",
+          "meaning": "a relative (i.e. family relation); CL:門|门; 個|个; 位[wèi]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-339",
+          "term": "轻",
+          "reading": "qīng",
+          "meaning": "light; easy; gentle; soft; reckless; unimportant; frivolous; small in number; unstressed; neutral; to disparage",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-340",
+          "term": "轻松",
+          "reading": "qīng sōng",
+          "meaning": "gentle; relaxed",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-341",
+          "term": "情况",
+          "reading": "qíng kuàng",
+          "meaning": "circumstances; state of affairs; situation; CL:個|个; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-342",
+          "term": "请假",
+          "reading": "qǐng jià",
+          "meaning": "to request leave of absence",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-343",
+          "term": "请客",
+          "reading": "qǐng kè",
+          "meaning": "to give a dinner party; to entertain guests; to invite to dinner",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-344",
+          "term": "穷",
+          "reading": "qióng",
+          "meaning": "exhausted; poor",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-345",
+          "term": "区别",
+          "reading": "qū bié",
+          "meaning": "difference; to distinguish; to discriminate; to make a distinction; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-346",
+          "term": "取",
+          "reading": "qǔ",
+          "meaning": "to take; to get; to choose; to fetch",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-347",
+          "term": "全部",
+          "reading": "quán bù",
+          "meaning": "whole; entire; complete",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-348",
+          "term": "缺点",
+          "reading": "quē diǎn",
+          "meaning": "weak point; fault; shortcoming; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-349",
+          "term": "缺少",
+          "reading": "quē shǎo",
+          "meaning": "lack; shortage of; shortfall; to be short (of); to lack",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-350",
+          "term": "却",
+          "reading": "què",
+          "meaning": "but; yet; however; while; to go back; to decline; to retreat; nevertheless; even though",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-351",
+          "term": "确实",
+          "reading": "què shí",
+          "meaning": "indeed; really; reliable; real; true",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-352",
+          "term": "群",
+          "reading": "qún",
+          "meaning": "group; crowd; flock; herd; pack etc",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-353",
+          "term": "然而",
+          "reading": "rán ér",
+          "meaning": "however; yet; but",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-354",
+          "term": "热闹",
+          "reading": "rè nao",
+          "meaning": "bustling with noise and excitement; lively",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-355",
+          "term": "人民币",
+          "reading": "rén mín bì",
+          "meaning": "Renminbi (RMB); Chinese Yuan (CNY)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-356",
+          "term": "任何",
+          "reading": "rèn hé",
+          "meaning": "any; whatever; whichever; whatsoever",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-357",
+          "term": "任务",
+          "reading": "rèn wu",
+          "meaning": "mission; assignment; task; duty; role; CL:項|项; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-358",
+          "term": "扔",
+          "reading": "rēng",
+          "meaning": "to throw; to throw away",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-359",
+          "term": "仍然",
+          "reading": "réng rán",
+          "meaning": "still; yet",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-360",
+          "term": "日记",
+          "reading": "rì jì",
+          "meaning": "diary; CL:則|则; 本; 篇[piān]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-361",
+          "term": "入口",
+          "reading": "rù kǒu",
+          "meaning": "entrance",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-362",
+          "term": "软",
+          "reading": "ruǎn",
+          "meaning": "soft; flexible",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-363",
+          "term": "散步",
+          "reading": "sàn bù",
+          "meaning": "to take a walk; to go for a walk",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-364",
+          "term": "森林",
+          "reading": "sēn lín",
+          "meaning": "forest; CL:片[piàn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-365",
+          "term": "沙发",
+          "reading": "shā fā",
+          "meaning": "sofa; CL:條|条; 張|张[zhāng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-366",
+          "term": "商量",
+          "reading": "shāng liang",
+          "meaning": "to consult; to talk over; to discuss",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-367",
+          "term": "伤心",
+          "reading": "shāng xīn",
+          "meaning": "to grieve; to be broken-hearted; to feel deeply hurt",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-368",
+          "term": "稍微",
+          "reading": "shāo wēi",
+          "meaning": "a little bit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-369",
+          "term": "社会",
+          "reading": "shè huì",
+          "meaning": "society; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-370",
+          "term": "深",
+          "reading": "shēn",
+          "meaning": "close; deep; late; profound; dark (of color; water etc)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-371",
+          "term": "申请",
+          "reading": "shēn qǐng",
+          "meaning": "to apply for sth; application (form etc); CL:份[fèn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-372",
+          "term": "甚至",
+          "reading": "shèn zhì",
+          "meaning": "even; so much so that",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-373",
+          "term": "生活",
+          "reading": "shēng huó",
+          "meaning": "life; activity; to live; livelihood",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-374",
+          "term": "生命",
+          "reading": "shēng mìng",
+          "meaning": "life; living; biological; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-375",
+          "term": "省",
+          "reading": "shěng",
+          "meaning": "to save; to economize; to do without; to omit; to leave out; province; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-376",
+          "term": "剩",
+          "reading": "shèng",
+          "meaning": "to remain; to be left; to have as remainder",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-377",
+          "term": "失败",
+          "reading": "shī bài",
+          "meaning": "to be defeated; to lose; to fail (e.g. experiments); failure; defeat; CL:次[cì]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-378",
+          "term": "失望",
+          "reading": "shī wàng",
+          "meaning": "disappointed; to lose hope; to despair",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-379",
+          "term": "师傅",
+          "reading": "shī fu",
+          "meaning": "master; qualified worker; respectful form of address for older men; CL:個|个; 位; 名[míng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-380",
+          "term": "湿润",
+          "reading": "shī rùn",
+          "meaning": "moist",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-381",
+          "term": "狮子",
+          "reading": "shī zi",
+          "meaning": "lion; CL:隻|只; 頭|头[tóu]; Leo (star sign)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-382",
+          "term": "十分",
+          "reading": "shí fēn",
+          "meaning": "to divide into ten equal parts; very; hundred percent; completely; extremely; utterly; absolutely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-383",
+          "term": "实际",
+          "reading": "shí jì",
+          "meaning": "actual; reality; practice",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-384",
+          "term": "实在",
+          "reading": "shí zài",
+          "meaning": "really; actually; indeed; true; real; honest; dependable; (philosophy) reality",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-385",
+          "term": "食品",
+          "reading": "shí pǐn",
+          "meaning": "foodstuff; food; provisions; CL:種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-386",
+          "term": "使用",
+          "reading": "shǐ yòng",
+          "meaning": "to use; to employ; to apply; to make use of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-387",
+          "term": "试",
+          "reading": "shì",
+          "meaning": "to test; to try; experiment; examination; test",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-388",
+          "term": "市场",
+          "reading": "shì chǎng",
+          "meaning": "marketplace; market (also in abstract)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-389",
+          "term": "世纪",
+          "reading": "shì jì",
+          "meaning": "century; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-390",
+          "term": "适合",
+          "reading": "shì hé",
+          "meaning": "to fit; to suit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-391",
+          "term": "适应",
+          "reading": "shì yìng",
+          "meaning": "to adapt; to fit; to suit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-392",
+          "term": "收",
+          "reading": "shōu",
+          "meaning": "to receive; to accept; to collect; in care of (used on address line after name)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-393",
+          "term": "收入",
+          "reading": "shōu rù",
+          "meaning": "to take in; income; revenue; CL:筆|笔; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-394",
+          "term": "收拾",
+          "reading": "shōu shi",
+          "meaning": "to put in order; to tidy up; to pack; to repair; to punish (colloquial); to manage",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-395",
+          "term": "首都",
+          "reading": "shǒu dū",
+          "meaning": "capital (city); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-396",
+          "term": "首先",
+          "reading": "shǒu xiān",
+          "meaning": "first (of all); in the first place",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-397",
+          "term": "受不了",
+          "reading": "shòu bù liǎo",
+          "meaning": "unbearable; unable to endure; can't stand",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-398",
+          "term": "受到",
+          "reading": "shòu dào",
+          "meaning": "to receive; to suffer; obtained; given",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-399",
+          "term": "售货员",
+          "reading": "shòu huò yuán",
+          "meaning": "salesperson; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-400",
+          "term": "输",
+          "reading": "shū",
+          "meaning": "to lose; to transport; to donate; to enter (a password)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-401",
+          "term": "熟悉",
+          "reading": "shú xī",
+          "meaning": "to be familiar with; to know well",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-402",
+          "term": "数量",
+          "reading": "shù liàng",
+          "meaning": "amount; quantity; CL:個|个[gè]; quantitative",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-403",
+          "term": "数字",
+          "reading": "shù zì",
+          "meaning": "numeral; digit; number; figure; amount; digital (electronics etc); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-404",
+          "term": "帅",
+          "reading": "shuài",
+          "meaning": "handsome; graceful; smart; commander in chief",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-405",
+          "term": "顺便",
+          "reading": "shùn biàn",
+          "meaning": "conveniently; in passing; without much extra effort",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-406",
+          "term": "顺利",
+          "reading": "shùn lì",
+          "meaning": "smoothly; without a hitch",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-407",
+          "term": "顺序",
+          "reading": "shùn xù",
+          "meaning": "sequence; order",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-408",
+          "term": "说明",
+          "reading": "shuō míng",
+          "meaning": "to explain; to illustrate; to indicate; to show; to prove; explanation; directions; caption; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-409",
+          "term": "硕士",
+          "reading": "shuò shì",
+          "meaning": "master's degree; learned person",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-410",
+          "term": "死",
+          "reading": "sǐ",
+          "meaning": "to die; impassable; uncrossable; inflexible; rigid; extremely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-411",
+          "term": "速度",
+          "reading": "sù dù",
+          "meaning": "speed; rate; velocity; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-412",
+          "term": "塑料袋",
+          "reading": "sù liào dài",
+          "meaning": "plastic bag",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-413",
+          "term": "酸",
+          "reading": "suān",
+          "meaning": "sour; sore; ache; acid",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-414",
+          "term": "算",
+          "reading": "suàn",
+          "meaning": "to regard as; to figure; to calculate; to compute",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-415",
+          "term": "随便",
+          "reading": "suí biàn",
+          "meaning": "as one wishes; as one pleases; at random; negligent; casual; wanton",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-416",
+          "term": "随着",
+          "reading": "suí zhe",
+          "meaning": "along with; in the wake of; following",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-417",
+          "term": "孙子",
+          "reading": "sūn zi",
+          "meaning": "grandson; son's son",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-418",
+          "term": "所有",
+          "reading": "suǒ yǒu",
+          "meaning": "all; to have; to possess; to own",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-419",
+          "term": "抬",
+          "reading": "tái",
+          "meaning": "to lift; to raise; (of two or more persons) to carry",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-420",
+          "term": "台",
+          "reading": "tái",
+          "meaning": "typhoon",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-421",
+          "term": "态度",
+          "reading": "tài du",
+          "meaning": "manner; bearing; attitude; approach; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-422",
+          "term": "谈",
+          "reading": "tán",
+          "meaning": "to speak; to talk; to converse; to chat; to discuss",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-423",
+          "term": "弹",
+          "reading": "tán",
+          "meaning": "to pluck (a string); to play (a string instrument); to spring or leap; to shoot (e.g. with a catapult); (of cotton) to fluff or tease; to flick; to flip; to accuse; to impeach; elastic (of materials)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-424",
+          "term": "汤",
+          "reading": "tāng",
+          "meaning": "soup; hot or boiling water; decoction of medicinal herbs; water in which sth has been boiled",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-425",
+          "term": "躺",
+          "reading": "tǎng",
+          "meaning": "to recline; to lie down",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-426",
+          "term": "趟",
+          "reading": "tàng",
+          "meaning": "classifier for times; round trips or rows; a time; a trip",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-427",
+          "term": "讨论",
+          "reading": "tǎo lùn",
+          "meaning": "to discuss; to talk over; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-428",
+          "term": "讨厌",
+          "reading": "tǎo yàn",
+          "meaning": "to dislike; to loathe; disagreeable; troublesome; annoying",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-429",
+          "term": "特点",
+          "reading": "tè diǎn",
+          "meaning": "characteristic (feature); trait; feature; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-430",
+          "term": "提供",
+          "reading": "tí gōng",
+          "meaning": "to offer; to supply; to provide; to furnish",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-431",
+          "term": "提前",
+          "reading": "tí qián",
+          "meaning": "to shift to an earlier date; to do sth ahead of time; in advance",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-432",
+          "term": "提醒",
+          "reading": "tí xǐng",
+          "meaning": "to remind; to call attention to; to warn of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-433",
+          "term": "填空",
+          "reading": "tián kòng",
+          "meaning": "to fill a job vacancy; to fill in a blank (e.g. on questionnaire or exam paper)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-434",
+          "term": "条件",
+          "reading": "tiáo jiàn",
+          "meaning": "condition; circumstances; term; factor; requirement; prerequisite; qualification; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-435",
+          "term": "停止",
+          "reading": "tíng zhǐ",
+          "meaning": "to stop; to halt; to cease",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-436",
+          "term": "挺",
+          "reading": "tǐng",
+          "meaning": "to stick out; to (physically) straighten up; to endure or hold out; straight; stiff; outstanding; extraordinary; rather; quite; very; classifier for machine guns",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-437",
+          "term": "通过",
+          "reading": "tōng guò",
+          "meaning": "by means of; through; via; to pass through; to get through; to adopt; to pass (a bill or inspection etc); to switch over",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-438",
+          "term": "通知",
+          "reading": "tōng zhī",
+          "meaning": "to notify; to inform; notice; notification; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-439",
+          "term": "同情",
+          "reading": "tóng qíng",
+          "meaning": "to sympathize with; sympathy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-440",
+          "term": "推",
+          "reading": "tuī",
+          "meaning": "to push; to cut; to refuse; to reject; to decline; to shirk (responsibility); to put off; to delay; to push forward; to nominate; to elect",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-441",
+          "term": "推迟",
+          "reading": "tuī chí",
+          "meaning": "to postpone; to put off; to defer",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-442",
+          "term": "脱",
+          "reading": "tuō",
+          "meaning": "to shed; to take off; to escape; to get away from",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-443",
+          "term": "袜子",
+          "reading": "wà zi",
+          "meaning": "socks; stockings; CL:隻|只; 對|对; 雙|双[shuāng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-444",
+          "term": "完全",
+          "reading": "wán quán",
+          "meaning": "complete; whole; totally; entirely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-445",
+          "term": "往",
+          "reading": "wǎng",
+          "meaning": "to go (in a direction); to; towards; (of a train) bound for; past; previous",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-446",
+          "term": "往往",
+          "reading": "wǎng wǎng",
+          "meaning": "often; frequently",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-447",
+          "term": "网球",
+          "reading": "wǎng qiú",
+          "meaning": "tennis; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-448",
+          "term": "网站",
+          "reading": "wǎng zhàn",
+          "meaning": "website; network station; node",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-449",
+          "term": "危险",
+          "reading": "wēi xiǎn",
+          "meaning": "danger; dangerous",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-450",
+          "term": "味道",
+          "reading": "wèi dao",
+          "meaning": "flavor; smell; hint of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-451",
+          "term": "温度",
+          "reading": "wēn dù",
+          "meaning": "temperature; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-452",
+          "term": "文章",
+          "reading": "wén zhāng",
+          "meaning": "article; essay; literary works; writings; hidden meaning; CL:篇; 段; 頁|页[yè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-453",
+          "term": "握手",
+          "reading": "wò shǒu",
+          "meaning": "to shake hands",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-454",
+          "term": "污染",
+          "reading": "wū rǎn",
+          "meaning": "pollution; contamination; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-455",
+          "term": "无",
+          "reading": "wú",
+          "meaning": "-less; not to have; no; none; not; to lack; un-",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-456",
+          "term": "无聊",
+          "reading": "wú liáo",
+          "meaning": "bored; boring; senseless",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-457",
+          "term": "无论",
+          "reading": "wú lùn",
+          "meaning": "no matter what or how; regardless of whether...",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-458",
+          "term": "误会",
+          "reading": "wù huì",
+          "meaning": "to misunderstand; to mistake; misunderstanding; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-459",
+          "term": "西红柿",
+          "reading": "xī hóng shì",
+          "meaning": "tomato; CL:隻|只[zhī]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-460",
+          "term": "吸引",
+          "reading": "xī yǐn",
+          "meaning": "to attract (interest; investment etc); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-461",
+          "term": "洗衣机",
+          "reading": "xǐ yī jī",
+          "meaning": "washer; washing machine; CL:臺|台[tái]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-462",
+          "term": "咸",
+          "reading": "xián",
+          "meaning": "salted; salty; stingy; miserly",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-463",
+          "term": "现代",
+          "reading": "xiàn dài",
+          "meaning": "modern times; modern age; modern era",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-464",
+          "term": "羡慕",
+          "reading": "xiàn mù",
+          "meaning": "to envy; to admire",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-465",
+          "term": "限制",
+          "reading": "xiàn zhì",
+          "meaning": "to restrict; to limit; to confine; restriction; limit; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-466",
+          "term": "香",
+          "reading": "xiāng",
+          "meaning": "fragrant; sweet smelling; aromatic; savory or appetizing; (to eat) with relish; (of sleep) sound; perfume or spice; joss or incense stick; CL:根[gēn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-467",
+          "term": "相反",
+          "reading": "xiāng fǎn",
+          "meaning": "opposite; contrary",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-468",
+          "term": "详细",
+          "reading": "xiáng xì",
+          "meaning": "detailed; in detail; minute",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-469",
+          "term": "响",
+          "reading": "xiǎng",
+          "meaning": "echo; sound; noise; to make a sound; to sound; to ring; loud; classifier for noises",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-470",
+          "term": "消息",
+          "reading": "xiāo xi",
+          "meaning": "news; information; CL:條|条[tiáo]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-471",
+          "term": "小说",
+          "reading": "xiǎo shuō",
+          "meaning": "novel; fiction; CL:本; 部[bù]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-472",
+          "term": "笑话",
+          "reading": "xiào huà",
+          "meaning": "joke; jest; CL:個|个[gè]; to laugh at; to mock",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-473",
+          "term": "效果",
+          "reading": "xiào guǒ",
+          "meaning": "result; effect; quality; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-474",
+          "term": "心情",
+          "reading": "xīn qíng",
+          "meaning": "mood; frame of mind; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-475",
+          "term": "辛苦",
+          "reading": "xīn kǔ",
+          "meaning": "hard; exhausting; with much toil; thanks for your trouble",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-476",
+          "term": "信任",
+          "reading": "xìn rèn",
+          "meaning": "to trust; to have confidence in",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-477",
+          "term": "信心",
+          "reading": "xìn xīn",
+          "meaning": "confidence; faith (in sb or sth); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-478",
+          "term": "信用卡",
+          "reading": "xìn yòng kǎ",
+          "meaning": "credit card",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-479",
+          "term": "兴奋",
+          "reading": "xīng fèn",
+          "meaning": "excited; excitement",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-480",
+          "term": "行",
+          "reading": "xíng",
+          "meaning": "to walk; to go; to travel; a visit; temporary; makeshift; current; in circulation; to do; to perform; capable; competent; effective; all right; OK!; will do",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-481",
+          "term": "醒",
+          "reading": "xǐng",
+          "meaning": "to wake up; to awaken; to be awake",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-482",
+          "term": "性别",
+          "reading": "xìng bié",
+          "meaning": "gender; sex; distinguishing between the sexes",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-483",
+          "term": "性格",
+          "reading": "xìng gé",
+          "meaning": "nature; disposition; temperament; character; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-484",
+          "term": "幸福",
+          "reading": "xìng fú",
+          "meaning": "happiness; happy; blessed",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-485",
+          "term": "修",
+          "reading": "xiū",
+          "meaning": "to decorate; to embellish; to repair; to build; to study; to write; to cultivate",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-486",
+          "term": "许多",
+          "reading": "xǔ duō",
+          "meaning": "many; a lot of; much",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-487",
+          "term": "血",
+          "reading": "xuè",
+          "meaning": "blood; informal colloquial and Taiwan pr. [xiě]; also pr. [xuě]; CL:滴; 片[piàn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-488",
+          "term": "压力",
+          "reading": "yā lì",
+          "meaning": "pressure",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-489",
+          "term": "牙膏",
+          "reading": "yá gāo",
+          "meaning": "toothpaste; CL:管[guǎn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-490",
+          "term": "亚洲",
+          "reading": "Yà zhōu",
+          "meaning": "Asia; Asian",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-491",
+          "term": "呀",
+          "reading": "ya",
+          "meaning": "(particle equivalent to 啊 after a vowel; expressing surprise or doubt)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-492",
+          "term": "盐",
+          "reading": "yán",
+          "meaning": "salt; CL:粒[lì]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-493",
+          "term": "严格",
+          "reading": "yán gé",
+          "meaning": "strict; stringent; tight; rigorous",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-494",
+          "term": "严重",
+          "reading": "yán zhòng",
+          "meaning": "grave; serious; severe; critical",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-495",
+          "term": "研究生",
+          "reading": "yán jiū shēng",
+          "meaning": "graduate student; postgraduate student; research student",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-496",
+          "term": "演出",
+          "reading": "yǎn chū",
+          "meaning": "to act (in a play); to perform; to put on (a performance); performance; concert; show; CL:場|场; 次[cì]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-497",
+          "term": "演员",
+          "reading": "yǎn yuán",
+          "meaning": "actor or actress; performer; CL:個|个; 位; 名[míng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-498",
+          "term": "阳光",
+          "reading": "yáng guāng",
+          "meaning": "sunshine; CL:線|线[xiàn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-499",
+          "term": "养成",
+          "reading": "yǎng chéng",
+          "meaning": "to cultivate; to raise; to form (a habit); to acquire",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-500",
+          "term": "样子",
+          "reading": "yàng zi",
+          "meaning": "appearance; manner; pattern; model",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-501",
+          "term": "邀请",
+          "reading": "yāo qǐng",
+          "meaning": "to invite; invitation; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-502",
+          "term": "钥匙",
+          "reading": "yào shi",
+          "meaning": "key; CL:把[bǎ]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-503",
+          "term": "也许",
+          "reading": "yě xǔ",
+          "meaning": "perhaps; maybe",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-504",
+          "term": "页",
+          "reading": "yè",
+          "meaning": "page; leaf",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-505",
+          "term": "叶子",
+          "reading": "yè zi",
+          "meaning": "foliage; leaf; CL:片[piàn]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-506",
+          "term": "一切",
+          "reading": "yī qiè",
+          "meaning": "everything; every; all",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-507",
+          "term": "以",
+          "reading": "yǐ",
+          "meaning": "to use; according to; so as to; by means of; in order to; by; with; because",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-508",
+          "term": "亿",
+          "reading": "yì",
+          "meaning": "100 million",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-509",
+          "term": "意见",
+          "reading": "yì jiàn",
+          "meaning": "idea; opinion; suggestion; objection; complaint; CL:點|点; 條|条[tiáo]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-510",
+          "term": "艺术",
+          "reading": "yì shù",
+          "meaning": "art",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-511",
+          "term": "因此",
+          "reading": "yīn cǐ",
+          "meaning": "thus; consequently; as a result",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-512",
+          "term": "引起",
+          "reading": "yǐn qǐ",
+          "meaning": "to give rise to; to lead to; to cause; to arouse",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-513",
+          "term": "饮料",
+          "reading": "yǐn liào",
+          "meaning": "drink; beverage",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-514",
+          "term": "印象",
+          "reading": "yìn xiàng",
+          "meaning": "impression",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-515",
+          "term": "赢",
+          "reading": "yíng",
+          "meaning": "to beat; to win; to profit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-516",
+          "term": "硬",
+          "reading": "yìng",
+          "meaning": "hard; stiff; strong; firm; resolutely; doggedly; good (quality); able (person)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-517",
+          "term": "勇敢",
+          "reading": "yǒng gǎn",
+          "meaning": "brave; courageous",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-518",
+          "term": "永远",
+          "reading": "yǒng yuǎn",
+          "meaning": "forever; eternal",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-519",
+          "term": "优点",
+          "reading": "yōu diǎn",
+          "meaning": "merit; benefit; strong point; advantage; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-520",
+          "term": "优秀",
+          "reading": "yōu xiù",
+          "meaning": "outstanding; excellent",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-521",
+          "term": "幽默",
+          "reading": "yōu mò",
+          "meaning": "(loanword) humor; humorous",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-522",
+          "term": "由",
+          "reading": "yóu",
+          "meaning": "to follow; from; it is for...to; reason; cause; because of; due to; to; to leave it (to sb); by (introduces passive verb)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-523",
+          "term": "由于",
+          "reading": "yóu yú",
+          "meaning": "due to; as a result of; thanks to; owing to; since; because",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-524",
+          "term": "尤其",
+          "reading": "yóu qí",
+          "meaning": "especially; particularly",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-525",
+          "term": "有趣",
+          "reading": "yǒu qù",
+          "meaning": "interesting; fascinating; amusing",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-526",
+          "term": "友好",
+          "reading": "yǒu hǎo",
+          "meaning": "friendly; amicable; close friend",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-527",
+          "term": "友谊",
+          "reading": "yǒu yì",
+          "meaning": "companionship; fellowship; friendship",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-528",
+          "term": "愉快",
+          "reading": "yú kuài",
+          "meaning": "cheerful; cheerily; delightful; pleasant; pleasantly; pleasing; happy; delighted",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-529",
+          "term": "于是",
+          "reading": "yú shì",
+          "meaning": "thereupon; as a result; consequently; thus; hence",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-530",
+          "term": "与",
+          "reading": "yǔ",
+          "meaning": "and; to give; together with",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-531",
+          "term": "语法",
+          "reading": "yǔ fǎ",
+          "meaning": "grammar",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-532",
+          "term": "语言",
+          "reading": "yǔ yán",
+          "meaning": "language; CL:門|门; 種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-533",
+          "term": "羽毛球",
+          "reading": "yǔ máo qiú",
+          "meaning": "shuttlecock; badminton; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-534",
+          "term": "预习",
+          "reading": "yù xí",
+          "meaning": "to prepare a lesson",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-535",
+          "term": "圆",
+          "reading": "yuán",
+          "meaning": "circle; round; circular; spherical; (of the moon) full; unit of Chinese currency (Yuan); tactful; to justify",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-536",
+          "term": "原来",
+          "reading": "yuán lái",
+          "meaning": "original; former; originally; formerly; at first; so; actually; as it turns out",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-537",
+          "term": "原谅",
+          "reading": "yuán liàng",
+          "meaning": "to excuse; to forgive; to pardon",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-538",
+          "term": "原因",
+          "reading": "yuán yīn",
+          "meaning": "cause; origin; root cause; reason; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-539",
+          "term": "约会",
+          "reading": "yuē huì",
+          "meaning": "appointment; engagement; date; CL:次; 個|个[gè]; to arrange to meet",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-540",
+          "term": "阅读",
+          "reading": "yuè dú",
+          "meaning": "to read; reading",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-541",
+          "term": "允许",
+          "reading": "yǔn xǔ",
+          "meaning": "to permit; to allow",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-542",
+          "term": "杂志",
+          "reading": "zá zhì",
+          "meaning": "magazine; CL:本; 份; 期[qī]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-543",
+          "term": "咱们",
+          "reading": "zán men",
+          "meaning": "we or us (including both the speaker and the person(s) spoken to); I or me; you",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-544",
+          "term": "暂时",
+          "reading": "zàn shí",
+          "meaning": "temporary; provisional; for the time being",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-545",
+          "term": "脏",
+          "reading": "zāng",
+          "meaning": "dirty; filthy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-546",
+          "term": "责任",
+          "reading": "zé rèn",
+          "meaning": "responsibility; blame; duty; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-547",
+          "term": "增加",
+          "reading": "zēng jiā",
+          "meaning": "to raise; to increase",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-548",
+          "term": "增长",
+          "reading": "zēng zhǎng",
+          "meaning": "to grow; to increase",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-549",
+          "term": "窄",
+          "reading": "zhǎi",
+          "meaning": "narrow; narrow-minded; badly off",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-550",
+          "term": "招聘",
+          "reading": "zhāo pìn",
+          "meaning": "recruitment; to invite applications for a job",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-551",
+          "term": "真正",
+          "reading": "zhēn zhèng",
+          "meaning": "genuine; real; true; genuinely",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-552",
+          "term": "整理",
+          "reading": "zhěng lǐ",
+          "meaning": "to arrange; to tidy up; to sort out; to straighten out; to list systematically; to collate (data; files); to pack (luggage)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-553",
+          "term": "整齐",
+          "reading": "zhěng qí",
+          "meaning": "orderly; neat; even; tidy",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-554",
+          "term": "正常",
+          "reading": "zhèng cháng",
+          "meaning": "regular; normal; ordinary",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-555",
+          "term": "正好",
+          "reading": "zhèng hǎo",
+          "meaning": "just (in time); just right; just enough; to happen to; to chance to; by chance; it just so happens that",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-556",
+          "term": "正确",
+          "reading": "zhèng què",
+          "meaning": "correct; proper",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-557",
+          "term": "正式",
+          "reading": "zhèng shì",
+          "meaning": "formal; official",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-558",
+          "term": "证明",
+          "reading": "zhèng míng",
+          "meaning": "proof; certificate; identification; testimonial; CL:個|个[gè]; to prove; to testify; to confirm the truth of",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-559",
+          "term": "之",
+          "reading": "zhī",
+          "meaning": "(possessive particle; literary equivalent of 的); him; her; it",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-560",
+          "term": "支持",
+          "reading": "zhī chí",
+          "meaning": "to be in favor of; to support; to back; support; backing; to stand by; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-561",
+          "term": "知识",
+          "reading": "zhī shi",
+          "meaning": "intellectual; knowledge-related; knowledge; CL:門|门[mén]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-562",
+          "term": "直接",
+          "reading": "zhí jiē",
+          "meaning": "direct; opposite: indirect 間接|间接; immediate; directly; straightforward",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-563",
+          "term": "值得",
+          "reading": "zhí de",
+          "meaning": "to be worth; to deserve",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-564",
+          "term": "职业",
+          "reading": "zhí yè",
+          "meaning": "occupation; profession; vocation; professional",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-565",
+          "term": "植物",
+          "reading": "zhí wù",
+          "meaning": "botanical; plant; vegetation; CL:種|种[zhǒng]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-566",
+          "term": "指",
+          "reading": "zhǐ",
+          "meaning": "finger; to point at or to; to indicate or refer to; to depend on; to count on; (of hair) to stand on end",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-567",
+          "term": "只好",
+          "reading": "zhǐ hǎo",
+          "meaning": "without any better option; to have to; to be forced to",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-568",
+          "term": "只要",
+          "reading": "zhǐ yào",
+          "meaning": "if only; so long as",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-569",
+          "term": "制造",
+          "reading": "zhì zào",
+          "meaning": "to manufacture; to make",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-570",
+          "term": "至少",
+          "reading": "zhì shǎo",
+          "meaning": "at least; (to say the) least",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-571",
+          "term": "质量",
+          "reading": "zhì liàng",
+          "meaning": "quality; mass (in physics); CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-572",
+          "term": "中文",
+          "reading": "Zhōng wén",
+          "meaning": "Chinese; Chinese written language; Chinese writing",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-573",
+          "term": "重点",
+          "reading": "zhòng diǎn",
+          "meaning": "important point; main point; focus; key (project etc); to focus on; to put the emphasis on",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-574",
+          "term": "重视",
+          "reading": "zhòng shì",
+          "meaning": "to attach importance to sth; to value",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-575",
+          "term": "周围",
+          "reading": "zhōu wéi",
+          "meaning": "surroundings; environment; to encompass",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-576",
+          "term": "猪",
+          "reading": "zhū",
+          "meaning": "hog; pig; swine; CL:口; 頭|头[tóu]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-577",
+          "term": "逐渐",
+          "reading": "zhú jiàn",
+          "meaning": "gradually",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-578",
+          "term": "主动",
+          "reading": "zhǔ dòng",
+          "meaning": "to take the initiative; to do sth of one's own accord; spontaneous; active; opposite: passive 被動|被动[bèi dòng]; drive (of gears and shafts etc)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-579",
+          "term": "主意",
+          "reading": "zhǔ yi",
+          "meaning": "plan; idea; decision; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-580",
+          "term": "祝贺",
+          "reading": "zhù hè",
+          "meaning": "to congratulate; congratulations; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-581",
+          "term": "著名",
+          "reading": "zhù míng",
+          "meaning": "famous; noted; well-known; celebrated",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-582",
+          "term": "专门",
+          "reading": "zhuān mén",
+          "meaning": "specialist; specialized; customized",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-583",
+          "term": "专业",
+          "reading": "zhuān yè",
+          "meaning": "specialty; specialized field; main field of study (at university); major; CL:門|门; 個|个[gè]; professional",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-584",
+          "term": "赚",
+          "reading": "zhuàn",
+          "meaning": "to earn; to make a profit",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-585",
+          "term": "撞",
+          "reading": "zhuàng",
+          "meaning": "to hit; to strike; to meet by accident; to run into; to bump against; to bump into",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-586",
+          "term": "准确",
+          "reading": "zhǔn què",
+          "meaning": "accurate; exact; precise",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-587",
+          "term": "准时",
+          "reading": "zhǔn shí",
+          "meaning": "on time; punctual; on schedule",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-588",
+          "term": "仔细",
+          "reading": "zǐ xì",
+          "meaning": "careful; attentive; cautious",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-589",
+          "term": "自然",
+          "reading": "zì rán",
+          "meaning": "nature; natural; naturally",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-590",
+          "term": "总结",
+          "reading": "zǒng jié",
+          "meaning": "to sum up; to conclude; summary; résumé; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-591",
+          "term": "租",
+          "reading": "zū",
+          "meaning": "to hire; to rent; to charter; to rent out; to lease out; rent; land tax",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-592",
+          "term": "组成",
+          "reading": "zǔ chéng",
+          "meaning": "to form; to make up; to constitute",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-593",
+          "term": "组织",
+          "reading": "zǔ zhī",
+          "meaning": "to organize; organization; organized system; nerve; tissue; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-594",
+          "term": "嘴",
+          "reading": "zuǐ",
+          "meaning": "mouth; beak; nozzle; spout (of teapot etc); CL:張|张; 個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-595",
+          "term": "最好",
+          "reading": "zuì hǎo",
+          "meaning": "best; (you) had better (do what we suggest)",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-596",
+          "term": "最后",
+          "reading": "zuì hòu",
+          "meaning": "final; last; finally; ultimate",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-597",
+          "term": "尊重",
+          "reading": "zūn zhòng",
+          "meaning": "to esteem; to respect; to honor; to value; eminent; serious; proper",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-598",
+          "term": "做生意",
+          "reading": "zuò shēng yì",
+          "meaning": "to do business",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-599",
+          "term": "座",
+          "reading": "zuò",
+          "meaning": "seat; base; stand; CL:個|个[gè]; classifier for buildings; mountains and similar immovable objects",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-600",
+          "term": "座位",
+          "reading": "zuò wèi",
+          "meaning": "seat; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        },
+        {
+          "id": "zh-hsk4-601",
+          "term": "作者",
+          "reading": "zuò zhě",
+          "meaning": "author; writer; CL:個|个[gè]",
+          "partOfSpeech": "HSK 4"
+        }
+      ]
+    }
+  ]
+}

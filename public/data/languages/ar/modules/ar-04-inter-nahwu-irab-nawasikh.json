@@ -1,0 +1,284 @@
+{
+  "id": "ar-04-inter-nahwu-irab-nawasikh",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 4,
+  "title": "CEFR B1–B2 | Ilmu Naḥwu Menengah: Al-I’rāb (Tanda Asli & Cabang), An-Nawāsikh & Muḍāri’",
+  "subtitle": "Bedah mendalam 4 kasus I’rāb, perubahan huruf pada Mutsannā/Jamak/Asmā’ Khamsah, serta hukum Kāna vs Inna",
+  "estimatedMinutes": 80,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.1 Matriks Lengkap Tanda I’rāb Asli (Harakat) vs Tanda I’rāb Cabang (Huruf)",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 1/3: عَلامَاتُ الإِعْرَابِ الأَصْلِيَّةُ وَالفَرْعِيَّةُ",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "wordType",
+          "roleLabel": "Kategori Kata Benda",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "rafa",
+          "roleLabel": "Rafa’ (Subjek / Khabar)",
+          "semanticColor": "emerald"
+        },
+        {
+          "key": "nasabJarr",
+          "roleLabel": "Naṣab (Objek) & Jarr (Preposisi)",
+          "semanticColor": "amber"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-irab-mufrad",
+          "cells": {
+            "wordType": {
+              "script": "المُفْرَدُ وَجَمْعُ التَّكْسِيرِ",
+              "gloss": "Tunggal & Jamak Tak Beraturan"
+            },
+            "rafa": {
+              "script": "الضَّمَّةُ (ـُ / ـٌ) — الطَّالِبُ / الطُّلَّابُ",
+              "gloss": "Tanda asli: Ḍammah"
+            },
+            "nasabJarr": {
+              "script": "Naṣab: الفَتْحَةُ (ـَ / ـًا) | Jarr: الكَسْرَةُ (ـِ / ـٍ)",
+              "gloss": "Tanda asli: Fatḥah & Kasrah"
+            }
+          },
+          "fullTranslation": "Kata benda tunggal & jamak taksir memakai harakat asli Ḍammah, Fatḥah, Kasrah"
+        },
+        {
+          "id": "ar-irab-mutsanna",
+          "cells": {
+            "wordType": {
+              "script": "المُثَنَّى (Bentuk Ganda / Dua)",
+              "gloss": "Selalu diakhiri Alif/Ya + Nūn Kasrah (نِ)"
+            },
+            "rafa": {
+              "script": "الأَلِفُ (ـَانِ) — الطَّالِبَانِ مُجْتَهِدَانِ",
+              "gloss": "Dua mahasiswa itu rajin"
+            },
+            "nasabJarr": {
+              "script": "اليَاءُ (ـَيْنِ) — رَأَيْتُ الطَّالِبَيْنِ / مَعَ الطَّالِبَيْنِ",
+              "gloss": "Naṣab dan Jarr keduanya memakai ـَيْنِ (-ayni)"
+            }
+          },
+          "fullTranslation": "Bentuk ganda memakai ـَانِ saat Rafa’ dan ـَيْنِ saat Naṣab/Jarr"
+        },
+        {
+          "id": "ar-irab-jms",
+          "cells": {
+            "wordType": {
+              "script": "جَمْعُ المُذَكَّرِ السَّالِمُ (Jamak Maskulin Beraturan)",
+              "gloss": "Untuk manusia laki-laki berakal"
+            },
+            "rafa": {
+              "script": "الوَاوُ (ـُونَ) — المُهَنْدِسُونَ مَاهِرُونَ",
+              "gloss": "Para insinyur itu mahir"
+            },
+            "nasabJarr": {
+              "script": "اليَاءُ (ـِينَ) — شَكَرْتُ المُهَنْدِسِينَ / لِلْمُهَنْدِسِينَ",
+              "gloss": "Naṣab dan Jarr keduanya memakai ـِينَ (-īna)"
+            }
+          },
+          "fullTranslation": "Jamak maskulin beraturan memakai ـُونَ saat Rafa’ dan ـِينَ saat Naṣab/Jarr"
+        },
+        {
+          "id": "ar-irab-jfs",
+          "cells": {
+            "wordType": {
+              "script": "جَمْعُ المُؤَنَّثِ السَّالِمُ (Jamak Feminin Beraturan)",
+              "gloss": "Berakhiran ـَاتٌ (-ātun)"
+            },
+            "rafa": {
+              "script": "الضَّمَّةُ (ـَاتٌ) — المُسْلِمَاتُ / الصَّفَحَاتُ",
+              "gloss": "Tanda Rafa’ normal Ḍammah"
+            },
+            "nasabJarr": {
+              "script": "الكَسْرَةُ نِيَابَةً عَنِ الفَتْحَةِ (ـَاتٍ) — رَأَيْتُ الطَّالِبَاتِ",
+              "gloss": "HARAM memakai Fatḥah! Naṣab-nya pun memakai Kasrah (ـَاتٍ)"
+            }
+          },
+          "fullTranslation": "Jamak feminin beraturan tidak pernah berharakat Fatḥah; Naṣab dan Jarr memakai Kasrah"
+        },
+        {
+          "id": "ar-irab-asma5",
+          "cells": {
+            "wordType": {
+              "script": "الأَسْمَاءُ الخَمْسَةُ (أَبٌ، أَخٌ، حَمٌ، فُو، ذُو)",
+              "gloss": "Jika di-idhāfah-kan ke selain Yā’ Mutakallim"
+            },
+            "rafa": {
+              "script": "الوَاوُ — جَاءَ أَبُوكَ / هُوَ ذُو عِلْمٍ",
+              "gloss": "Rafa’ dengan huruf Wāw"
+            },
+            "nasabJarr": {
+              "script": "Naṣab: الأَلِفُ (رَأَيْتُ أَبَاكَ) | Jarr: اليَاءُ (سَلَّمْتُ عَلَى أَبِيكَ)",
+              "gloss": "Berubah huruf penuh: Abūka → Abāka → Abīka"
+            }
+          },
+          "fullTranslation": "Al-Asmā’ al-Khamsah berubah huruf menjadi Wāw (Rafa’), Alif (Naṣab), dan Yā’ (Jarr)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Jamak Mu’annats Sālim (ـات) Tidak Pernah Berharakat Fatḥah?",
+        "psychologyExplanation": "Akhiran ـات dianggap pasangan feminin dari jamak maskulin ـونَ/ـينَ yang hanya memiliki 2 bentuk (Rafa’ vs Naṣab/Jarr). Karena itu, saat posisi objek (Naṣab), ـات meminjam harakat Kasrah (رَأَيْتُ السَّيَّارَاتِ = Saya melihat mobil-mobil itu) dan tidak pernah berbunyi السَّيَّارَاتَ.",
+        "literalTrap": "Jangan pernah membaca kata berakhiran ـات dengan harakat Fatḥah (-āta/-ātan)—selalu gunakan Kasrah (-āti/-ātin) saat objek maupun preposisi."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.2 Hukum Pembatal Mubtada’–Khabar: Keluarga كَانَ (Kāna) vs Keluarga إِنَّ (Inna)",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 2/3: النَّوَاسِخُ (كَانَ وَأَخَوَاتُهَا vs إِنَّ وَأَخَوَاتُهَا)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "family",
+          "roleLabel": "Keluarga Pembatal",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Efek Pengubah Harakat",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Kontras",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-kana-group",
+          "cells": {
+            "family": {
+              "script": "كَانَ وَأَخَوَاتُهَا (Kāna, Aṣbaḥa, Ẓalla, Laysa)",
+              "gloss": "Kata Kerja Defektif (Lampau / Menjadi / Bukan)"
+            },
+            "formula": {
+              "script": "تَرْفَعُ الاسْمَ (ـُ) وَتَنْصِبُ الخَبَرَ (ـًا)",
+              "gloss": "Subjek tetap Rafa’ (-u), Predikat berubah menjadi Naṣab (-an)"
+            },
+            "example": {
+              "script": "كَانَ الجَوُّ جَمِيلًا. / أَصْبَحَ البَرْنَامَجُ سَرِيعًا.",
+              "reading": "Kāna al-jawwu jamīlan. / Aṣbaḥa al-barnāmaju sarī‘an.",
+              "gloss": "Cuaca tadinya indah. / Program itu telah menjadi cepat."
+            }
+          },
+          "fullTranslation": "Cuaca tadinya indah. / Program itu telah menjadi cepat."
+        },
+        {
+          "id": "ar-inna-group",
+          "cells": {
+            "family": {
+              "script": "إِنَّ وَأَخَوَاتُهَا (Inna, Anna, Lākinna, La’alla)",
+              "gloss": "Partikel Penegas (Sesungguhnya / Bahwa / Tetapi / Semoga)"
+            },
+            "formula": {
+              "script": "تَنْصِبُ الاسْمَ (ـَ) وَتَرْفَعُ الخَبَرَ (ـٌ)",
+              "gloss": "Kebalikan 100% dari Kāna: Subjek berubah Naṣab (-a), Predikat tetap Rafa’ (-un)"
+            },
+            "example": {
+              "script": "إِنَّ اللُّغَةَ العَرَبِيَّةَ جَمِيلَةٌ. / إِنَّ اللّٰهَ غَفُورٌ رَحِيمٌ.",
+              "reading": "Inna al-lughata al-‘arabiyyata jamīlatun.",
+              "gloss": "Sesungguhnya bahasa Arab itu indah."
+            }
+          },
+          "fullTranslation": "Sesungguhnya bahasa Arab itu indah."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Rumus Ingat Kilat: Kāna = \"Rafa’–Naṣab\" (U – A), Inna = \"Naṣab–Rafa’\" (A – U)",
+        "psychologyExplanation": "Kāna adalah kata kerja (Fi’il), sehingga memperlakukan kata pertama seperti subjeknya (Rafa’ -u) dan kata kedua seperti objeknya (Naṣab -a). Inna adalah partikel penegas yang langsung menarik kata benda pertama menjadi objek penegasannya (Naṣab -a) lalu membiarkan kabarnya tetap Rafa’ (-u).",
+        "literalTrap": "Jangan lupa menambahkan Alif penopang tanwin fatḥah (ـًا) pada Khabar Kāna yang tidak berakhiran Tā’ Marbūṭah (جَمِيلًا, bukan جَمِيلَ)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.3 Perubahan Harakat Akhir Fi’il Muḍāri’: Rafa’ (ـُ) → Naṣab (ـَ) → Jazm (ـْ)",
+      "grammaticalTradition": "Ilmu Naḥwu Unit 3/3: إِعْرَابُ الفِعْلِ المُضَارِعِ (أَنْ، لَنْ، لَمْ، لَا النَّاهِيَة)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "mood",
+          "roleLabel": "Keadaan Fi’il Muḍāri’",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Partikel Pemicu & Tanda Akhir",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Makna Waktu",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mudhari-rafa",
+          "cells": {
+            "mood": {
+              "script": "المَرْفُوعُ (Normal — Ḍammah ـُ)",
+              "gloss": "Tanpa partikel pembatal di depannya"
+            },
+            "formula": {
+              "script": "يَكْتُبُ / يَذْهَبُونَ (tetap Nūn)",
+              "gloss": "Menyatakan kebiasaan kini atau masa depan"
+            },
+            "example": {
+              "script": "يَدْرُسُ نَوْفَلُ الذَّكَاءَ الاصْطِنَاعِيَّ كُلَّ يَوْمٍ.",
+              "gloss": "Naufal mempelajari kecerdasan buatan setiap hari."
+            }
+          },
+          "fullTranslation": "Naufal mempelajari kecerdasan buatan setiap hari."
+        },
+        {
+          "id": "ar-mudhari-nasab",
+          "cells": {
+            "mood": {
+              "script": "المَنْصُوبُ (Subjunctive — Fatḥah ـَ)",
+              "gloss": "Didahului أَنْ (untuk), لَنْ (tidak akan), كَيْ (agar)"
+            },
+            "formula": {
+              "script": "أَنْ / لَنْ + يَكْتُبَ (atau buang Nūn: لَنْ يَذْهَبُوا)",
+              "gloss": "لَنْ menyatakan penyangkalan mutlak masa depan (\"tidak akan pernah\")"
+            },
+            "example": {
+              "script": "أُرِيدُ أَنْ أَتَعَلَّمَ العَرَبِيَّةَ. / لَنْ أَسْتَسْلِمَ.",
+              "gloss": "Saya ingin belajar bahasa Arab. / Saya tidak akan menyerah."
+            }
+          },
+          "fullTranslation": "Saya ingin belajar bahasa Arab. / Saya tidak akan menyerah."
+        },
+        {
+          "id": "ar-mudhari-jazm",
+          "cells": {
+            "mood": {
+              "script": "المَجْزُومُ (Jussive — Sukūn ـْ)",
+              "gloss": "Didahului لَمْ (tidak/belum di masa lampau) atau لَا النَّاهِيَة (jangan!)"
+            },
+            "formula": {
+              "script": "لَمْ + يَكْتُبْ (mengubah arti Muḍāri’ menjadi LAMPAU!)",
+              "gloss": "Pada jamak/mutsannā, huruf Nūn dibuang (لَمْ يَذْهَبُوا)"
+            },
+            "example": {
+              "script": "لَمْ أَسْمَعْ هٰذَا الخَبَرَ مِنْ قَبْلُ. / لَا تَخَفْ!",
+              "gloss": "Saya belum pernah mendengar berita ini sebelumnya. / Jangan takut!"
+            }
+          },
+          "fullTranslation": "Saya belum pernah mendengar berita ini sebelumnya. / Jangan takut!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Keajaiban Partikel لَمْ (Lam): Kata Kerja Bentuk Kini yang Bermakna Lampau!",
+        "psychologyExplanation": "Meskipun يَكْتُبُ adalah bentuk kata kerja masa kini (Muḍāri’), begitu didahului partikel لَمْ yang menyukunkan akhirnya (لَمْ يَكْتُبْ), maknanya berbalik menjadi masa lampau (\"dia tidak/belum menulis kemarin\") dan jauh lebih fasih daripada مَا كَتَبَ.",
+        "literalTrap": "Jangan mencampur لَمْ dengan Fi’il Māḍī (\"لَمْ كَتَبَ\" — SALAH TOTAL; لَمْ hanya masuk ke Fi’il Muḍāri’)."
+      }
+    }
+  ]
+}

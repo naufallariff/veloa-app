@@ -1,0 +1,235 @@
+{
+  "id": "ko-03-beg-grammar-conjugation-tenses",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 3,
+  "title": "TOPIK I (1–2) | Sistem Konjugasi Korea: -아/어요 vs -ㅂ니다, Kala Lampau/Depan & Negasi 안 vs 못",
+  "subtitle": "Bedah hukum Harmoni Vokal (Yangseong vs Eumseong), perbedaan register sopan harian vs formal resmi, serta negasi",
+  "estimatedMinutes": 80,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.1 Harmoni Vokal & Akhiran Sopan Harian (-아/어요) vs Formal Resmi (-ㅂ니다/습니다)",
+      "grammaticalTradition": "Unit 1/3: 모음조화 (Harmoni Vokal) & 해요체 vs 하십시오체",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "register",
+          "roleLabel": "Tingkat Tutur & Kondisi Vokal",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Konjugasi dari Akar (Buang 다)",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kata Kerja & Kata Sifat",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-haeyo-yang",
+          "cells": {
+            "register": {
+              "script": "해요체 (-아요): Vokal Terang (ㅏ atau ㅗ)",
+              "gloss": "Percakapan sopan hangat sehari-hari"
+            },
+            "formula": {
+              "script": "Akar bervokal akhir ㅏ/ㅗ + 아요 (Kontraksi: 가+아요→가요 | 오+아요→와요)",
+              "gloss": "Hukum Harmoni Vokal Cerah (Yangseong Moeum)"
+            },
+            "example": {
+              "script": "살다 → 살아요 | 가다 → 가요 | 보다 → 봐요 | 좋다 → 좋아요",
+              "reading": "sarayo • gayo • bwayo • joayo",
+              "gloss": "Tinggal • Pergi • Melihat • Bagus"
+            }
+          },
+          "fullTranslation": "Tinggal • Pergi • Melihat • Bagus (bentuk sopan harian)"
+        },
+        {
+          "id": "ko-haeyo-eum-hada",
+          "cells": {
+            "register": {
+              "script": "해요체 (-어요 / -해요): Vokal Gelap & Kata Kerja 하다",
+              "gloss": "Semua vokal selain ㅏ/ㅗ"
+            },
+            "formula": {
+              "script": "Vokal lain (ㅓ, ㅜ, ㅡ, ㅣ) + 어요 (마시+어요→마셔요) | 하다 → 해요 (mutlak!)",
+              "gloss": "Hukum Harmoni Vokal Gelap (Eumseong Moeum) & kontraksi khusus 하다 → 해요"
+            },
+            "example": {
+              "script": "먹다 → 먹어요 | 마시다 → 마셔요 | 배우다 → 배워요 | 공부하다 → 공부해요",
+              "reading": "meogeoyo • masyeoyo • baewoyo • gongbuhaeyo",
+              "gloss": "Makan • Minum • Belajar • Belajar (studi)"
+            }
+          },
+          "fullTranslation": "Makan • Minum • Belajar • Belajar studi (bentuk sopan harian)"
+        },
+        {
+          "id": "ko-hasipsio-formal",
+          "cells": {
+            "register": {
+              "script": "하십시오체 (-ㅂ니다/습니다): Formal Tinggi",
+              "gloss": "Presentasi, Berita, Wawancara Kerja, Militer"
+            },
+            "formula": {
+              "script": "Tanpa Batchim + ㅂ니다 (가다 → 갑니다) | Dengan Batchim + 습니다 (먹다 → 먹습니다)",
+              "gloss": "Bentuk tanya formal: -ㅂ니까? / -습니까? (dilafalkan [-ㅁ니다 / -씀니다])"
+            },
+            "example": {
+              "script": "감사합니다 (Terima kasih) • 반갑습니다 (Senang bertemu) • 알겠습니다 (Saya mengerti)",
+              "reading": "Gamsahamnida • Bangapseumnida • Algesseumnida",
+              "gloss": "Asimilasi wajib: ㅂ sebelum ㄴ otomatis dilafalkan sebagai [ㅁ]"
+            }
+          },
+          "fullTranslation": "Terima kasih • Senang bertemu Anda • Saya mengerti (formal tinggi)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kapan Memakai -아/어요 vs -ㅂ니다/습니다 di Korea Selatan?",
+        "psychologyExplanation": "Penutur Korea mencampur keduanya secara dinamis dalam satu percakapan! Awal perkenalan, presentasi bisnis, atau jawaban tegas memakai -ㅂ니다/습니다 (kesan profesional dan berwibawa), lalu beralih ke -아/어요 saat mengobrol ramah dan membangun kedekatan interpersonal.",
+        "literalTrap": "Jangan pernah menulis \"하다요\" atau \"하아요\" — kata kerja berakhiran 하다 mutlak berubah menjadi 해요 (공부해요, 일해요, 좋아해요)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.2 Konjugasi Kala Lampau (-았/었어요) & Kala Depan / Dugaan (-(으)ㄹ 거예요)",
+      "grammaticalTradition": "Unit 2/3: 시제 표현 (Past Tense -았/었- & Future/Conjecture -(으)ㄹ 거-)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "tense",
+          "roleLabel": "Kala & Nuansa",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Konjugasi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-tense-past",
+          "cells": {
+            "tense": {
+              "script": "Kala Lampau (-았어요 / -었어요 / -했어요)",
+              "gloss": "Mengikuti aturan Harmoni Vokal yang sama persis!"
+            },
+            "formula": {
+              "script": "Vokal ㅏ/ㅗ + 았어요 | Vokal lain + 었어요 | 하다 → 했어요",
+              "gloss": "Sama untuk semua subjek (saya, kamu, mereka tidak mengubah konjugasi)"
+            },
+            "example": {
+              "script": "어제 친구를 만났어요. / 점심을 먹었어요. / 코드를 배포했어요.",
+              "reading": "Eoje chingureul mannasseoyo. / Jeomsimeul meogeosseoyo. / Kodeureul baepohaesseoyo.",
+              "gloss": "Kemarin bertemu teman. / Sudah makan siang. / Sudah merilis kode."
+            }
+          },
+          "fullTranslation": "Kemarin saya bertemu teman. / Saya sudah makan siang. / Saya sudah merilis kode."
+        },
+        {
+          "id": "ko-tense-future",
+          "cells": {
+            "tense": {
+              "script": "Kala Depan & Prediksi (-(으)ㄹ 거예요)",
+              "gloss": "Rencana masa depan atau dugaan logis"
+            },
+            "formula": {
+              "script": "Tanpa Batchim + ㄹ 거예요 | Dengan Batchim + 을 거예요 (Batchim ㄹ tetap: 만들 거예요)",
+              "gloss": "Jika subjek orang ke-1 (\"Saya akan...\"), bermakna niat/rencana; jika orang ke-3 (\"Dia/Cuaca akan...\"), bermakna prediksi"
+            },
+            "example": {
+              "script": "내일 도쿄에 갈 거예요. / 내일은 비가 올 거예요.",
+              "reading": "Naeil Dokyoe gal geoyeyo. / Naeireun biga ol geoyeyo.",
+              "gloss": "Besok saya akan pergi ke Tokyo (rencana). / Besok hujan akan turun (prediksi)."
+            }
+          },
+          "fullTranslation": "Besok saya akan pergi ke Tokyo. / Besok hujan akan turun."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan Niat Pasti -(으)ㄹ게요 vs Rencana Umum -(으)ㄹ 거예요",
+        "psychologyExplanation": "Gunakan -(으)ㄹ 거예요 untuk rencana yang sudah kamu jadwalkan sendiri (\"내일 공부할 거예요\" = Besok saya akan belajar). Gunakan -(으)ㄹ게요 ketika kamu membuat janji spontan sebagai respons terhadap lawan bicara (\"지금 바로 확인해 볼게요\" = Baik, akan langsung saya cek sekarang!).",
+        "literalTrap": "Jangan memakai -(으)ㄹ게요 untuk subjek orang ketiga (\"비가 올게요\" — SALAH TOTAL; wajib \"비가 올 거예요\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.3 Dua Jenis Negasi Korea: 안 (an — Pilihan/Fakta) vs 못 (mot — Ketidakmampuan)",
+      "grammaticalTradition": "Unit 3/3: 부정 표현「안 / -지 않다」vs「못 / -지 못하다」",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "negType",
+          "roleLabel": "Jenis Negasi",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Pendek vs Rumus Panjang",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Posisi pada Kata Kerja 하다",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-neg-an",
+          "cells": {
+            "negType": {
+              "script": "안 / -지 않다 (Tidak — Pilihan / Fakta Netral)",
+              "gloss": "Bisa untuk Kata Kerja maupun Kata Sifat"
+            },
+            "formula": {
+              "script": "안 + Predikat | [Nomina] + 안 하다 | Akar + -지 않아요",
+              "gloss": "Pada kata kerja [Nomina + 하다] seperti 공부하다, 안 ditaruh DI TENGAH: 공부 안 해요!"
+            },
+            "example": {
+              "script": "오늘은 커피를 안 마셔요. / 어제 운동 안 했어요. / 맵지 않아요.",
+              "reading": "Oneureun keopireul an masyeoyo. / Eoje undong an haesseoyo. / Maepji anayo.",
+              "gloss": "Hari ini tidak minum kopi (pilihan). / Kemarin tidak berolahraga. / Tidak pedas."
+            }
+          },
+          "fullTranslation": "Hari ini saya tidak minum kopi. / Kemarin tidak berolahraga. / Tidak pedas."
+        },
+        {
+          "id": "ko-neg-mot",
+          "cells": {
+            "negType": {
+              "script": "못 / -지 못하다 (Tidak Bisa — Kendala Eksternal)",
+              "gloss": "HANYA untuk Kata Kerja (bukan Kata Sifat!)"
+            },
+            "formula": {
+              "script": "못 + Kata Kerja | [Nomina] + 못 하다 | Akar + -지 못해요",
+              "gloss": "Menyiratkan keinginan ada, tetapi terhalang waktu, kemampuan, atau situasi"
+            },
+            "example": {
+              "script": "바빠서 점심을 못 먹었어요. / 한국어를 아직 잘 못 해요.",
+              "reading": "Bappaseo jeomsimeul mot meogeosseoyo. / Hangugeoreul ajik jal mot haeyo.",
+              "gloss": "Karena sibuk, tidak sempat/bisa makan siang. / Belum bisa berbahasa Korea dengan lancar."
+            }
+          },
+          "fullTranslation": "Karena sibuk, saya tidak sempat makan siang. / Saya belum bisa berbahasa Korea dengan baik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Penolakan Undangan di Korea Wajib Memakai \"못\" Bukan \"안\"?",
+        "psychologyExplanation": "Jika teman mengajak makan lalu kamu menjawab \"안 가요\" (Saya tidak pergi), terdengar dingin seolah kamu sengaja menolak karena tidak suka. Menjawab \"일이 있어서 못 가요\" (Karena ada pekerjaan, saya tidak bisa pergi) terdengar sopan karena menunjukkan kamu sebenarnya ingin hadir tetapi terhalang situasi.",
+        "literalTrap": "Jangan pernah menulis \"안 공부해요\" atau \"못 공부해요\" — pisahkan kata benda dari 하다 menjadi \"공부 안 해요\" dan \"공부 못 해요\"."
+      }
+    }
+  ]
+}

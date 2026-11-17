@@ -1,0 +1,254 @@
+{
+  "id": "ar-03-beg-sarf-tasrif-lughawi",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 3,
+  "title": "CEFR A2–B1 | Ilmu Ṣarf Dasar: Taṣrīf Lughawī (Konjugasi 14 Dhamir: Māḍī, Muḍāri’ & Amr)",
+  "subtitle": "Bedah satu per satu perubahan akhiran dan awalan kata kerja Arab melintasi 14 kata ganti (Gha’ib, Mukhāṭab, Mutakallim)",
+  "estimatedMinutes": 85,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.1 Taṣrīf Fi’il Māḍī (الفعل الماضي — Kata Kerja Lampau) untuk 14 Dhamir",
+      "grammaticalTradition": "Ilmu Ṣarf Unit 1/3: تَصْرِيفُ الفِعْلِ المَاضِي (Akhiran Subjek Lampau)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "person",
+          "roleLabel": "Kelompok Dhamir",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Akhiran pada Akar كَتَبَ",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Bentuk Terkonjugasi & Terjemahan",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-madi-ghaib",
+          "cells": {
+            "person": {
+              "script": "الغَائِبُ (Orang ke-3: Dia / Mereka)",
+              "gloss": "هُوَ • هُمَا • هُمْ | هِيَ • هُمَا • هُنَّ"
+            },
+            "formula": {
+              "script": "هُوَ: ـَ | هُمَا(lk): ـَا | هُمْ: ـُوا | هِيَ: ـَتْ | هُمَا(pr): ـَتَا | هُنَّ: ـْنَ",
+              "gloss": "Perhatikan: Alif Fāriqah (ا) wajib ditulis setelah Wāw Jamā‘ah (كَتَبُوا) dan tidak dibaca"
+            },
+            "example": {
+              "script": "كَتَبَ • كَتَبَا • كَتَبُوا | كَتَبَتْ • كَتَبَتَا • كَتَبْنَ",
+              "reading": "kataba • katabā • katabū | katabat • katabatā • katabna",
+              "gloss": "Dia(lk) menulis • Berdua(lk) • Mereka(lk) | Dia(pr) • Berdua(pr) • Mereka(pr)"
+            }
+          },
+          "fullTranslation": "Konjugasi orang ketiga lampau dari akar ك-ت-ب"
+        },
+        {
+          "id": "ar-madi-mukhatab",
+          "cells": {
+            "person": {
+              "script": "المُخَاطَبُ (Orang ke-2: Kamu / Kalian)",
+              "gloss": "أَنْتَ • أَنْتُمَا • أَنْتُمْ | أَنْتِ • أَنْتُمَا • أَنْتُنَّ"
+            },
+            "formula": {
+              "script": "أَنْتَ: ـْتَ | أَنْتُمَا: ـْتُمَا | أَنْتُمْ: ـْتُمْ | أَنْتِ: ـْتِ | أَنْتُنَّ: ـْتُنَّ",
+              "gloss": "Huruf ketiga akar kata (Bā’) disukunkan (كَتَبْـ) sebelum ditempeli dhamir"
+            },
+            "example": {
+              "script": "كَتَبْتَ • كَتَبْتُمَا • كَتَبْتُمْ | كَتَبْتِ • كَتَبْتُمَا • كَتَبْتُنَّ",
+              "reading": "katabta • katabtumā • katabtum | katabti • katabtumā • katabtunna",
+              "gloss": "Kamu(lk) • Kalian berdua • Kalian(lk) | Kamu(pr) • Kalian berdua • Kalian(pr)"
+            }
+          },
+          "fullTranslation": "Konjugasi orang kedua lampau dari akar ك-ت-ب"
+        },
+        {
+          "id": "ar-madi-mutakallim",
+          "cells": {
+            "person": {
+              "script": "المُتَكَلِّمُ (Orang ke-1: Saya / Kami)",
+              "gloss": "أَنَا • نَحْنُ"
+            },
+            "formula": {
+              "script": "أَنَا: ـْتُ (-tu) | نَحْنُ: ـْنَا (-nā)",
+              "gloss": "Berlaku sama untuk pembicara laki-laki maupun perempuan"
+            },
+            "example": {
+              "script": "كَتَبْتُ الرِّسَالَةَ. / كَتَبْنَا البَرْنَامَجَ.",
+              "reading": "Katabtu ar-risālata. / Katabnā al-barnāmaja.",
+              "gloss": "Saya telah menulis surat itu. / Kami telah menulis program itu."
+            }
+          },
+          "fullTranslation": "Saya telah menulis surat itu. / Kami telah menulis program itu."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Kata Ganti Subjek (أَنَا / هُمْ) Sering Dihilangkan dalam Kalimat Arab?",
+        "psychologyExplanation": "Karena setiap akhiran pada Fi’il Māḍī (ـْتُ = saya, ـْنَا = kami, ـُوا = mereka) sudah menyimpan identitas pelaku secara mutlak. Menyebutkan \"أَنَا كَتَبْتُ\" hanya dilakukan jika kamu ingin memberi penekanan kontras (\"SAYAlah yang menulisnya, bukan orang lain\").",
+        "literalTrap": "Jangan menulis \"أَنَا كَتَبَ\" — kata kerja wajib ikut dikonjugasikan menjadi \"كَتَبْتُ\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.2 Taṣrīf Fi’il Muḍāri’ (الفعل المضارع — Kini/Depan) & Huruf Mudhāra’ah (أَنَيْتُ)",
+      "grammaticalTradition": "Ilmu Ṣarf Unit 2/3: تَصْرِيفُ الفِعْلِ المُضَارِعِ (Awalan أ-ن-ي-ت + Akhiran)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "person",
+          "roleLabel": "Kelompok Dhamir",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Awalan & Akhiran (Al-Af’āl al-Khamsah)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Bentuk Terkonjugasi & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mud-ghaib",
+          "cells": {
+            "person": {
+              "script": "الغَائِبُ (Orang ke-3)",
+              "gloss": "Awalan يَـ (kecuali هِيَ dan هُمَا pr memakai تَـ)"
+            },
+            "formula": {
+              "script": "هُوَ: يَكْتُبُ | هُمَا: يَكْتُبَانِ | هُمْ: يَكْتُبُونَ | هِيَ: تَكْتُبُ | هُمَا(pr): تَكْتُبَانِ | هُنَّ: يَكْتُبْنَ",
+              "gloss": "Perhatikan: هُنَّ (mereka pr) memakai awalan يَـ dan akhiran Nūn Niswah ـْنَ (يَكْتُبْنَ)"
+            },
+            "example": {
+              "script": "يَكْتُبُ • يَكْتُبَانِ • يَكْتُبُونَ | تَكْتُبُ • تَكْتُبَانِ • يَكْتُبْنَ",
+              "reading": "yaktubu • yaktubāni • yaktubūna | taktubu • taktubāni • yaktubna",
+              "gloss": "Dia(lk) sedang/akan menulis • Berdua • Mereka(lk) | Dia(pr) • Berdua(pr) • Mereka(pr)"
+            }
+          },
+          "fullTranslation": "Konjugasi orang ketiga masa kini/depan"
+        },
+        {
+          "id": "ar-mud-mukhatab",
+          "cells": {
+            "person": {
+              "script": "المُخَاطَبُ (Orang ke-2 — Semua Diawali تَـ)",
+              "gloss": "أَنْتَ • أَنْتُمَا • أَنْتُمْ | أَنْتِ • أَنْتُنَّ"
+            },
+            "formula": {
+              "script": "أَنْتَ: تَكْتُبُ | أَنْتُمَا: تَكْتُبَانِ | أَنْتُمْ: تَكْتُبُونَ | أَنْتِ: تَكْتُبِينَ | أَنْتُنَّ: تَكْتُبْنَ",
+              "gloss": "Khusus أَنْتِ (kamu pr) memakai akhiran Yā’ Mukhāṭabah + Nūn (تَكْتُبِينَ)"
+            },
+            "example": {
+              "script": "تَكْتُبُ • تَكْتُبَانِ • تَكْتُبُونَ | تَكْتُبِينَ • تَكْتُبَانِ • تَكْتُبْنَ",
+              "reading": "taktubu • taktubāni • taktubūna | taktubīna • taktubāni • taktubna",
+              "gloss": "Kamu(lk) • Kalian berdua • Kalian(lk) | Kamu(pr) • Kalian berdua • Kalian(pr)"
+            }
+          },
+          "fullTranslation": "Konjugasi orang kedua masa kini/depan"
+        },
+        {
+          "id": "ar-mud-mutakallim",
+          "cells": {
+            "person": {
+              "script": "المُتَكَلِّمُ (Orang ke-1)",
+              "gloss": "أَنَا diawali أَـ | نَحْنُ diawali نَـ"
+            },
+            "formula": {
+              "script": "أَنَا: أَكْتُبُ (aktubu) | نَحْنُ: نَكْتُبُ (naktubu)",
+              "gloss": "Tambahkan سَـ (sa-) untuk masa depan dekat: سَأَكْتُبُ (saya akan segera menulis)"
+            },
+            "example": {
+              "script": "أَكْتُبُ الدَّرْسَ الآنَ. / سَنَكْتُبُ التَّقْرِيرَ غَدًا.",
+              "reading": "Aktubu ad-darsa al-āna. / Sanaktubu at-taqrīra ghadan.",
+              "gloss": "Saya sedang menulis pelajaran sekarang. / Kami akan menulis laporan besok."
+            }
+          },
+          "fullTranslation": "Saya sedang menulis pelajaran sekarang. / Kami akan menulis laporan besok."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bentuk \"تَكْتُبُ\" Bisa Berarti \"Dia (Pr) Menulis\" Sekaligus \"Kamu (Lk) Menulis\"?",
+        "psychologyExplanation": "Dalam tabel konjugasi Arab, bentuk هِيَ (dia perempuan) dan أَنْتَ (kamu laki-laki) memang identik secara morfologis (تَكْتُبُ / كَتَبَتْ vs تَكْتُبُ). Penutur asli membedakannya secara instan melalui konteks dialog atau kehadiran kata ganti penegas.",
+        "literalTrap": "Jangan tertukar antara يَكْتُبْنَ (mereka perempuan — diawali يَـ) dan تَكْتُبْنَ (kalian perempuan — diawali تَـ)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "2.3 Cara Membentuk Fi’il Amr (فِعْلُ الأَمْرِ — Kata Kerja Perintah) dari Fi’il Muḍāri’",
+      "grammaticalTradition": "Ilmu Ṣarf Unit 3/3: صِيَاغَةُ فِعْلِ الأَمْرِ (Algoritma Pembentukan Perintah)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "step",
+          "roleLabel": "Langkah Algoritma Ṣarf",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Aturan Harakat Hamzah Waṣl",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Lengkap (أَنْتَ / أَنْتِ / أَنْتُمْ)",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-amr-step1",
+          "cells": {
+            "step": {
+              "script": "1. Buang Huruf Mudhāra’ah (تَـ) + Sukunkan Akhir",
+              "gloss": "Ambil dari bentuk أَنْتَ pada Muḍāri’"
+            },
+            "formula": {
+              "script": "تَكْتُبُ → كْتُبْ (jika huruf pertama mati/sukūn, tambahkan Hamzah Waṣl ا)",
+              "gloss": "Jika setelah membuang تَـ huruf pertamanya berharakat hidup (تُعَلِّمُ → عَلِّمْ), tidak perlu Alif!"
+            },
+            "example": {
+              "script": "تُعَلِّمُ → عَلِّمْ (ajarkanlah!) | تَسْتَغْفِرُ → اِسْتَغْفِرْ (mohonlah ampun!)",
+              "reading": "‘allim | istaghfir",
+              "gloss": "Perintah dibentuk secara mekanis dari Muḍāri’"
+            }
+          },
+          "fullTranslation": "Algoritma pembentukan Fi’il Amr dari Fi’il Muḍāri’"
+        },
+        {
+          "id": "ar-amr-step2",
+          "cells": {
+            "step": {
+              "script": "2. Hukum Harakat Hamzah Waṣl (اُ vs اِ)",
+              "gloss": "Lihat harakat huruf ke-3 (‘Ain Fi’il)!"
+            },
+            "formula": {
+              "script": "Jika huruf ke-3 berharakat Ḍammah (ـُ) → اُ (u) | Jika Fatḥah (ـَ) atau Kasrah (ـِ) → اِ (i)",
+              "gloss": "Hamzah Waṣl tidak pernah berharakat Fatḥah (اَ) pada Fi’il Amr"
+            },
+            "example": {
+              "script": "يَكْتُبُ → اُكْتُبْ (uktub!) | يَفْتَحُ → اِفْتَحْ (iftaḥ!) | يَجْلِسُ → اِجْلِسْ (ijlis!)",
+              "reading": "uktub (tulislah!) • iftaḥ (bukalah!) • ijlis (duduklah!)",
+              "gloss": "Perintah untuk أَنْتِ: اُكْتُبِي | أَنْتُمْ: اُكْتُبُوا | أَنْتُنَّ: اُكْتُبْنَ"
+            }
+          },
+          "fullTranslation": "Tulislah! • Bukalah! • Duduklah!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Rumus Harakat Hamzah Amr: \"Ḍammah Ikut Ḍammah (اُ), Selain Itu Kasrah (اِ)\"",
+        "psychologyExplanation": "Kamu tidak perlu menghafal harakat awal ratusan kata kerja perintah secara acak. Cukup intip huruf ketiga dari kata kerjanya: jika berbunyi \"u\" (تَكْتُبُ, تَدْخُلُ, تَخْرُجُ), awali dengan اُ (اُكْتُبْ, اُدْخُلْ, اُخْرُجْ). Jika berbunyi \"a\" atau \"i\" (تَفْتَحُ, تَجْلِسُ, تَسْمَعُ), awali dengan اِ (اِفْتَحْ, اِجْلِسْ, اِسْمَعْ).",
+        "literalTrap": "Jangan pernah menulis tanda Hamzah (أ / إ) di atas atau di bawah Alif Fi’il Amr Tsulātsī (tulis اُكْتُبْ, bukan أُكْتُبْ)."
+      }
+    }
+  ]
+}

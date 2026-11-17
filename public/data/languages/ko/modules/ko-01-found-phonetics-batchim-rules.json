@@ -1,0 +1,122 @@
+{
+  "id": "ko-01-found-phonetics-batchim-rules",
+  "lang": "ko",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Hukum Fonologi & Asimilasi Batchim (연음, 비음화, 격음화, 유음화)",
+  "subtitle": "Mengapa tulisan Hangeul sering berbunyi berbeda saat dua suku kata bertemu dan cara membacanya seperti penutur asli",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Empat Hukum Perubahan Bunyi Paling Kritis dalam Bahasa Korea",
+      "grammaticalTradition": "한국어 음운 변동 (Fonologi Interaksi Suku Kata)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "written",
+          "roleLabel": "Ejaan Tertulis",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "spoken",
+          "roleLabel": "Pelafalan Penutur Asli",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "rule",
+          "roleLabel": "Nama Hukum Fonologi",
+          "semanticColor": "amber"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-f-ph1",
+          "cells": {
+            "written": {
+              "script": "한국어 • 먹어요 • 직업",
+              "reading": "han-guk-eo • meok-eo-yo • jik-eop",
+              "gloss": "Batchim bertemu vokal (ㅇ)"
+            },
+            "spoken": {
+              "script": "[한구거] • [머거요] • [지겁]",
+              "reading": "han-gu-geo • meo-geo-yo • ji-geop",
+              "gloss": "Batchim melompat mengisi posisi ㅇ kosong"
+            },
+            "rule": {
+              "script": "Yeon-eum (연음 — Liaison)",
+              "gloss": "Paling sering muncul di seluruh bahasa Korea"
+            }
+          },
+          "fullTranslation": "Bahasa Korea • Makan • Pekerjaan"
+        },
+        {
+          "id": "ko-f-ph2",
+          "cells": {
+            "written": {
+              "script": "감사합니다 • 작년에 • 못 먹어요",
+              "reading": "gam-sa-hap-ni-da • jak-nyeon-e • mot meok-eo-yo",
+              "gloss": "ㅂ/ㄱ/ㄷ bertemu konsonan sengau ㄴ/ㅁ"
+            },
+            "spoken": {
+              "script": "[감사함니다] • [장녀네] • [몬 머거요]",
+              "reading": "gam-sa-ham-ni-da • jang-nyeo-ne • mon meo-geo-yo",
+              "gloss": "ㅂ→ㅁ, ㄱ→ㅇ, ㄷ→ㄴ sebelum ㄴ/ㅁ"
+            },
+            "rule": {
+              "script": "Bi-eumhwa (비음화 — Nasalisasi)",
+              "gloss": "Menghaluskan transisi letupan ke sengau"
+            }
+          },
+          "fullTranslation": "Terima kasih • Tahun lalu • Tidak bisa makan"
+        },
+        {
+          "id": "ko-f-ph3",
+          "cells": {
+            "written": {
+              "script": "축하해요 • 좋다 • 어떻게",
+              "reading": "chuk-ha-hae-yo • joh-da • eo-tteoh-ge",
+              "gloss": "ㄱ/ㄷ/ㅂ/ㅈ bertemu ㅎ"
+            },
+            "spoken": {
+              "script": "[추카해요] • [조타] • [어떠케]",
+              "reading": "chu-ka-hae-yo • jo-ta • eo-tteo-ke",
+              "gloss": "Melebur menjadi konsonan aspirasi ㅋ/ㅌ/ㅍ/ㅊ"
+            },
+            "rule": {
+              "script": "Gyeok-eumhwa (격음화 — Aspirasi)",
+              "gloss": "Hembusan udara ㅎ menyatu dengan konsonan letup"
+            }
+          },
+          "fullTranslation": "Selamat • Bagus • Bagaimana"
+        },
+        {
+          "id": "ko-f-ph4",
+          "cells": {
+            "written": {
+              "script": "신라 • 연락 • 설날",
+              "reading": "sin-ra • yeon-rak • seol-nal",
+              "gloss": "Pertemuan ㄴ + ㄹ atau ㄹ + ㄴ"
+            },
+            "spoken": {
+              "script": "[실라] • [열락] • [설랄]",
+              "reading": "sil-la • yeol-lak • seol-lal",
+              "gloss": "Bunyi ㄴ otomatis berubah menjadi ㄹ ganda [ll]"
+            },
+            "rule": {
+              "script": "Yu-eumhwa (유음화 — Likuidasi)",
+              "gloss": "Melancarkan gerakan ujung lidah"
+            }
+          },
+          "fullTranslation": "Kerajaan Silla • Kontak • Tahun Baru Imlek Korea"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Ejaan Korea Tidak Diubah Mengikuti Bunyi Bicara?",
+        "psychologyExplanation": "Hangeul menganut prinsip Morfofonemik: akar kata dipertahankan bentuk aslinya (먹다 → 먹어요, 먹습니다, 먹는다) agar mata pembaca langsung mengenali makna dasarnya (\"makan\"), sementara mulut penutur asli secara otomatis menerapkan hukum asimilasi bunyi saat melafalkannya.",
+        "literalTrap": "Jangan pernah membaca \"합니다\" sebagai [hap-ni-da]—selalu baca sebagai [함니다 / ham-ni-da]."
+      }
+    }
+  ]
+}

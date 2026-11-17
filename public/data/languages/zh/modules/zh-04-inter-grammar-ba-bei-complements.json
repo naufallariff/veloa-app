@@ -1,0 +1,258 @@
+{
+  "id": "zh-04-inter-grammar-ba-bei-complements",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 4,
+  "title": "HSK 3–4 | Konstruksi 把 (Bǎ), Pasif 被 (Bèi), Komplemen Hasil & Fokus 是...的",
+  "subtitle": "Bedah sintaksis menengah Mandarin satu per satu: manipulasi objek, pasif, komplemen hasil/arah, dan penekanan detail",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.1 Kalimat Disposal 把 (Bǎ) — Memindahkan Objek Spesifik ke Depan Kata Kerja",
+      "grammaticalTradition": "Unit 1/4: 把字句 (Sintaksis Manipulasi Objek)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "slot",
+          "roleLabel": "Komponen Wajib",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Syarat Ketat",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-ba-pos",
+          "cells": {
+            "slot": {
+              "script": "Struktur Positif 把",
+              "gloss": "Objek harus spesifik/diketahui pembicara"
+            },
+            "formula": {
+              "script": "S + 把 + [Objek Spesifik] + Kata Kerja + [Komplemen Hasil/Arah/了]",
+              "gloss": "Kata kerja TIDAK BOLEH berdiri polos tanpa komplemen di belakangnya"
+            },
+            "example": {
+              "script": "请把你的护照放在桌子上。 (Qǐng bǎ nǐ de hùzhào fàng zài zhuōzi shang.)",
+              "gloss": "Tolong letakkan paspormu di atas meja."
+            }
+          },
+          "fullTranslation": "Tolong letakkan paspormu di atas meja."
+        },
+        {
+          "id": "zh-ba-neg-modal",
+          "cells": {
+            "slot": {
+              "script": "Negasi & Modal Verbs",
+              "gloss": "没 / 不 / 想 / 要 diletakkan SEBELUM 把"
+            },
+            "formula": {
+              "script": "S + [没 / 不 / 别 / Modal] + 把 + Objek + V + Komplemen",
+              "gloss": "Dilarang menaruh negasi atau modal setelah 把"
+            },
+            "example": {
+              "script": "我还没把报告发给经理。 / 别把手机忘在家里！",
+              "gloss": "Saya belum mengirimkan laporan ke manajer. / Jangan tinggalkan ponsel di rumah!"
+            }
+          },
+          "fullTranslation": "Saya belum mengirimkan laporan ke manajer. / Jangan tinggalkan ponsel di rumah!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kapan Kalimat 把 (Bǎ) Wajib Dipakai oleh Penutur Asli?",
+        "psychologyExplanation": "Ketika sebuah tindakan memindahkan lokasi benda (\"taruh buku ke dalam tas\"), mengubah bentuknya (\"potong apel jadi potongan kecil\"), atau menuntaskannya (\"habiskan kopi itu\"), penutur asli wajib memakai 把 karena bahasa Mandarin tidak mengizinkan objek dan lokasi tujuan menumpuk bersama di belakang kata kerja.",
+        "literalTrap": "SALAH: 请放你的护照在桌子上. BENAR: 请把你的护照放在桌子上."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.2 Kalimat Pasif 被 (Bèi) — Struktur Pasif & Nuansa Dampak Tak Terduga",
+      "grammaticalTradition": "Unit 2/4: 被字句 (Konstruksi Pasif Mandarin)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "variant",
+          "roleLabel": "Bentuk Pasif",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-bei-agent",
+          "cells": {
+            "variant": {
+              "script": "Pasif dengan Pelaku",
+              "gloss": "Menyebutkan siapa pelakunya"
+            },
+            "formula": {
+              "script": "Penderita (O) + 被 / 让 / 叫 + [Pelaku] + Kata Kerja + Komplemen",
+              "gloss": "Dalam percakapan lisan, 让 (ràng) dan 叫 (jiào) sering menggantikan 被"
+            },
+            "example": {
+              "script": "我的自行车被小偷偷走了。 (Wǒ de zìxíngchē bèi xiǎotōu tōu zǒu le.)",
+              "gloss": "Sepeda saya dicuri pergi oleh pencuri."
+            }
+          },
+          "fullTranslation": "Sepeda saya telah dicuri oleh pencuri."
+        },
+        {
+          "id": "zh-bei-no-agent",
+          "cells": {
+            "variant": {
+              "script": "Pasif Tanpa Pelaku",
+              "gloss": "Pelaku tidak diketahui/tidak penting"
+            },
+            "formula": {
+              "script": "Penderita (O) + 被 + Kata Kerja + Komplemen",
+              "gloss": "Hanya 被 yang boleh langsung diikuti kata kerja tanpa pelaku (让/叫 tidak bisa)"
+            },
+            "example": {
+              "script": "最后一个苹果被吃掉了。 (Zuìhòu yí gè píngguǒ bèi chī diào le.)",
+              "gloss": "Apel terakhir sudah habis dimakan."
+            }
+          },
+          "fullTranslation": "Apel terakhir sudah habis dimakan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Nuansa Emosional di Balik 被 (Bèi)",
+        "psychologyExplanation": "Secara historis, 被 sering digunakan untuk peristiwa yang merugikan, mengejutkan, atau di luar kendali subjek (dicuri, basah kuyup, dikritik). Untuk peristiwa positif netral, penutur asli sering memakai pasif tanpa penanda (\"信写好了\" = Suratnya sudah selesai ditulis).",
+        "literalTrap": "Sama seperti 把, kata kerja dalam kalimat 被 juga wajib memiliki komplemen hasil/arah di belakangnya."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.3 Komplemen Hasil (结果补语 Jiéguǒ Bǔyǔ) — Membedakan \"Melihat\" vs \"Terlihat\"",
+      "grammaticalTradition": "Unit 3/4: 结果补语 (Kata Kerja + Hasil Tindakan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "comp",
+          "roleLabel": "Komplemen Hasil",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Makna",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Kontras Aksi vs Hasil",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-comp-jian-dong",
+          "cells": {
+            "comp": {
+              "script": "见 (jiàn) & 懂 (dǒng)",
+              "gloss": "Hasil persepsi indra & pemahaman"
+            },
+            "formula": {
+              "script": "看 (melihat) → 看见 (terlihat) | 听 (mendengar) → 听懂 (mendengar & paham)",
+              "gloss": "Negasi selalu memakai 没 (没看见 = tidak terlihat / tidak melihat)"
+            },
+            "example": {
+              "script": "我听见了，但是没听懂。 (Wǒ tīngjiàn le, dànshì méi tīngdǒng.)",
+              "gloss": "Saya mendengarnya (suara masuk telinga), tetapi tidak memahaminya."
+            }
+          },
+          "fullTranslation": "Saya mendengarnya, tetapi tidak mengerti maksudnya."
+        },
+        {
+          "id": "zh-comp-wan-hao",
+          "cells": {
+            "comp": {
+              "script": "完 (wán) & 好 (hǎo)",
+              "gloss": "Selesai tuntas vs Selesai siap pakai"
+            },
+            "formula": {
+              "script": "做完 (selesai dikerjakan) | 准备好 (selesai dipersiapkan dengan baik)",
+              "gloss": "完 menekankan habisnya pekerjaan; 好 menekankan kesiapan hasil akhir"
+            },
+            "example": {
+              "script": "晚饭做好了，大家快来吃吧！",
+              "gloss": "Makan malam sudah siap dimasak, semuanya ayo makan!"
+            }
+          },
+          "fullTranslation": "Makan malam sudah matang dan siap, ayo semuanya makan!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa \"我找了钥匙\" Tidak Berarti \"Saya Menemukan Kunci\"?",
+        "psychologyExplanation": "Kata kerja Mandarin hanya menyatakan USAHA tindakannya (找 = mencari, 看 = memandang, 听 = menyimak). Untuk menyatakan bahwa usaha itu BERHASIL mencapai hasil, wajib menempelkan komplemen hasil di belakangnya (找到 = berhasil menemukan, 看见 = berhasil melihat).",
+        "literalTrap": "Jangan katakan \"我看了他\" untuk \"Saya melihat dia\"—gunakan \"我看见他了\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.4 Konstruksi Penekanan 是...的 (Shì...de) — Menyoroti Waktu, Tempat & Cara Kejadian Lampau",
+      "grammaticalTradition": "Unit 4/4: “是……的”强调句 (Fokus Informasi Spesifik)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "focus",
+          "roleLabel": "Detail yang Disorot",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-shide-1",
+          "cells": {
+            "focus": {
+              "script": "Waktu / Tempat / Cara / Pelaku",
+              "gloss": "Aksi sudah diketahui; detailnya yang ditanya"
+            },
+            "formula": {
+              "script": "S + 是 + [Waktu / Tempat / Cara] + Kata Kerja + 的",
+              "gloss": "是 diletakkan tepat di depan unsur yang ingin ditekankan"
+            },
+            "example": {
+              "script": "我是坐高铁来上海的。 / 你是什么时候到的？",
+              "gloss": "Saya datang ke Shanghai naik kereta cepat (menekankan caranya). / Kapan kamu tibanya?"
+            }
+          },
+          "fullTranslation": "Saya datang ke Shanghai naik kereta cepat. / Kapan kamu tibanya?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kapan Memakai 是...的 vs Partikel 了?",
+        "psychologyExplanation": "Jika pendengar BELUM tahu peristiwa itu terjadi, pakai 了 (\"他昨天来了\" = Dia datang kemarin). Jika pendengar SUDAH tahu dia datang, dan kalian sedang menyoroti KAPAN, BAGAIMANA, atau DENGAN SIAPA dia datang, pakai 是...的 (\"他是昨天来的\" = Datangnya dia itu kemarin).",
+        "literalTrap": "Jangan menggabungkan 了 dan 是...的 secara bersamaan dalam satu klausa fokus."
+      }
+    }
+  ]
+}

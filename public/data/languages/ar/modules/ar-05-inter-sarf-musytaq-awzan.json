@@ -1,0 +1,201 @@
+{
+  "id": "ar-05-inter-sarf-musytaq-awzan",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 5,
+  "title": "CEFR B2–C1 | Ilmu Ṣarf Lanjutan: Taṣrīf Iṣṭilāḥī (Isim Musytaq) & Al-Awzān al-‘Asyarah (Wazan I–X)",
+  "subtitle": "Bagaimana satu akar 3 huruf (ف-ع-ل) melahirkan kata pelaku, objek, tempat, alat, serta 10 wazan perluasan makna",
+  "estimatedMinutes": 85,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4.1 Taṣrīf Iṣṭilāḥī — Derivasi Kata Benda dari Akar Kata Kerja (Isim Musytaq)",
+      "grammaticalTradition": "Ilmu Ṣarf Unit 1/2: المُشْتَقَّاتُ (اِسْمُ الفَاعِلِ، اِسْمُ المَفْعُولِ، اِسْمُ المَكَانِ، اِسْمُ الآلَةِ)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "derivative",
+          "roleLabel": "Jenis Kata Turunan",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Pola Mīzān (Tsulātsī vs Mazīd)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Nyata & Makna",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-musytaq-fail",
+          "cells": {
+            "derivative": {
+              "script": "اِسْمُ الفَاعِلِ (Pelaku Tindakan)",
+              "gloss": "Subject Noun / Active Participle"
+            },
+            "formula": {
+              "script": "3 Huruf: فَاعِلٌ | >3 Huruf: Ganti huruf Muḍāri’ dengan مُـ + Kasrah sebelum akhir (مُفْعِلٌ)",
+              "gloss": "Alif panjang setelah huruf pertama pada akar 3 huruf"
+            },
+            "example": {
+              "script": "كَتَبَ → كَاتِبٌ (penulis) | عَلِمَ → عَالِمٌ (ilmuwan) | بَرْمَجَ → مُبَرْمِجٌ (programmer)",
+              "reading": "kātibun • ‘ālimun • mubarmijun",
+              "gloss": "Pola yang sama melahirkan ratusan profesi & pelaku aksi"
+            }
+          },
+          "fullTranslation": "Penulis (كَاتِبٌ) • Ilmuwan (عَالِمٌ) • Programmer (مُبَرْمِجٌ)"
+        },
+        {
+          "id": "ar-musytaq-maful",
+          "cells": {
+            "derivative": {
+              "script": "اِسْمُ المَفْعُولِ (Objek yang Dikenai Tindakan)",
+              "gloss": "Passive Participle"
+            },
+            "formula": {
+              "script": "3 Huruf: مَفْعُولٌ | >3 Huruf: Ganti huruf Muḍāri’ dengan مُـ + Fatḥah sebelum akhir (مُفْعَلٌ)",
+              "gloss": "Membedakan pelaku vs objek pada kata >3 huruf hanya lewat harakat sebelum akhir (-i vs -a)!"
+            },
+            "example": {
+              "script": "كَتَبَ → مَكْتُوبٌ (tertulis/surat) | فَتَحَ → مَفْتُوحٌ (terbuka) | أَرْسَلَ → مُرْسَلٌ (yang dikirim)",
+              "reading": "maktūbun • maftūḥun • mursalun (vs mursilun = pengirim)",
+              "gloss": "Kontras tajam: مُرْسِلٌ (pengirim) vs مُرْسَلٌ (pesan yang dikirim)"
+            }
+          },
+          "fullTranslation": "Tertulis (مَكْتُوبٌ) • Terbuka (مَفْتُوحٌ) • Yang dikirim (مُرْسَلٌ)"
+        },
+        {
+          "id": "ar-musytaq-makan-alah",
+          "cells": {
+            "derivative": {
+              "script": "اِسْمُ المَكَانِ (Tempat) & اِسْمُ الآلَةِ (Alat)",
+              "gloss": "Noun of Place & Instrument"
+            },
+            "formula": {
+              "script": "Tempat: مَفْعَلٌ / مَفْعِلٌ (مَفْعَلَةٌ) | Alat: مِفْعَالٌ / مِفْعَلٌ / مِفْعَلَةٌ (diawali Kasrah مِـ)",
+              "gloss": "Perhatikan awalan Mīm Fatḥah (مَـ) untuk tempat dan Mīm Kasrah (مِـ) untuk alat"
+            },
+            "example": {
+              "script": "مَكْتَبٌ (kantor/meja) • مَدْرَسَةٌ (sekolah) | مِفْتَاحٌ (kunci) • مِقْيَاسٌ (alat ukur)",
+              "reading": "maktabun • madrasatun | miftāḥun • miqyāsun",
+              "gloss": "Satu akar ك-ت-ب menghasilkan: كَتَبَ, كَاتِب, مَكْتُوب, مَكْتَب, مَكْتَبَة (perpustakaan), كِتَاب!"
+            }
+          },
+          "fullTranslation": "Kantor (مَكْتَبٌ) • Sekolah (مَدْرَسَةٌ) | Kunci (مِفْتَاحٌ) • Alat ukur (مِقْيَاسٌ)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Rahasia Mīm Berharakat Ḍammah (مُـ): Satu Harakat Membedakan Pelaku vs Objek!",
+        "psychologyExplanation": "Untuk semua kata kerja lebih dari 3 huruf, Isim Fā’il dan Isim Maf’ūl memiliki kerangka huruf yang identik. Penutur asli membedakannya melalui vokal huruf kedua dari belakang: Kasrah (-i) adalah PELAKU (مُعَلِّمٌ = pengajar, مُسْتَخْدِمٌ = pengguna), sedangkan Fatḥah (-a) adalah OBJEK (مُعَلَّمٌ = yang diajar, مُسْتَخْدَمٌ = yang digunakan).",
+        "literalTrap": "Jangan tertukar membaca مُسْتَخْدِم (user/pengguna) dengan مُسْتَخْدَم (used/yang digunakan) dalam dokumentasi teknis Arab."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4.2 Al-Awzān al-‘Asyarah (الأوزان العشرة) — 10 Pola Perluasan Makna Kata Kerja",
+      "grammaticalTradition": "Ilmu Ṣarf Unit 2/2: مَعَانِي صِيَغِ الزَّوَائِدِ (Wazan I – X)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "wazan",
+          "roleLabel": "Wazan (Māḍī / Muḍāri’ / Maṣdar)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "semantics",
+          "roleLabel": "Pergeseran Makna Morfologis",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Nyata dari Akar ع-ل-م & ك-ت-ب",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-wazan-1-2-4",
+          "cells": {
+            "wazan": {
+              "script": "I: فَعَلَ | II: فَعَّلَ (تَفْعِيل) | IV: أَفْعَلَ (إِفْعَال)",
+              "gloss": "Dasar → Intensif/Kausatif → Transitif/Kausatif"
+            },
+            "semantics": {
+              "script": "Wazan II & IV mengubah kata kerja intransitif menjadi transitif (\"membuat orang lain melakukan\")",
+              "gloss": "Tasydīd pada ‘Ain Fi’il atau Hamzah Qaṭ‘ di awal"
+            },
+            "example": {
+              "script": "عَلِمَ (tahu) → عَلَّمَ (mengajarkan) → أَعْلَمَ (memberitahukan / menginformasikan)",
+              "gloss": "Satu akar ع-ل-م melahirkan seluruh keluarga kata ilmu"
+            }
+          },
+          "fullTranslation": "Tahu (عَلِمَ) → Mengajarkan (عَلَّمَ) → Memberitahukan (أَعْلَمَ)"
+        },
+        {
+          "id": "ar-wazan-3-6",
+          "cells": {
+            "wazan": {
+              "script": "III: فَاعَلَ (مُفَاعَلَة) | VI: تَفَاعَلَ (تَفَاعُل)",
+              "gloss": "Interaksi Dua Pihak & Saling Melakukan (Resiprokal)"
+            },
+            "semantics": {
+              "script": "Wazan III: aksi ke pihak lain | Wazan VI: kedua belah pihak saling berinteraksi",
+              "gloss": "Alif panjang setelah Fā’ Fi’il"
+            },
+            "example": {
+              "script": "كَاتَبَ (berkorespondensi dengan) → تَكَاتَبَ (saling berkirim surat) | تَعَاوَنَ (saling bekerja sama)",
+              "gloss": "Sangat produktif dalam bahasa jurnalistik dan diplomasi"
+            }
+          },
+          "fullTranslation": "Berkorespondensi (كَاتَبَ) → Saling berkirim surat (تَكَاتَبَ) / Bekerja sama (تَعَاوَنَ)"
+        },
+        {
+          "id": "ar-wazan-5-7-8",
+          "cells": {
+            "wazan": {
+              "script": "V: تَفَعَّلَ | VII: اِنْفَعَلَ | VIII: اِفْتَعَلَ",
+              "gloss": "Refleksif / Pasif Alami / Upaya Sungguh-sungguh"
+            },
+            "semantics": {
+              "script": "Hasil dari Wazan II (عَلَّمَ → تَعَلَّمَ) atau akibat alami tanpa pelaku (كَسَرَ → اِنْكَسَرَ)",
+              "gloss": "Hamzah Waṣl di awal Wazan VII–X"
+            },
+            "example": {
+              "script": "تَعَلَّمَ (belajar / menerima pengajaran) | اِنْكَسَرَ (pecah sendiri) | اِجْتَمَعَ (berkumpul)",
+              "gloss": "Perhatikan: Hamzah Wazan VII–X gugur saat disambung kata sebelumnya"
+            }
+          },
+          "fullTranslation": "Belajar (تَعَلَّمَ) | Pecah (اِنْكَسَرَ) | Berkumpul (اِجْتَمَعَ)"
+        },
+        {
+          "id": "ar-wazan-10",
+          "cells": {
+            "wazan": {
+              "script": "X: اِسْتَفْعَلَ — يَسْتَفْعِلُ — اِسْتِفْعَال",
+              "gloss": "Meminta / Menganggap / Mencari"
+            },
+            "semantics": {
+              "script": "Awalan اِسْتَـ (ista-) menandakan permintaan atau penilaian kualitas",
+              "gloss": "Pola paling sering muncul pada istilah modern & hukum"
+            },
+            "example": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampun) | خَدَمَ → اِسْتَخْدَمَ (menggunakan)",
+              "gloss": "اِسْتِخْدَام (penggunaan), اِسْتِقْبَال (resepsi/penerimaan)"
+            }
+          },
+          "fullTranslation": "Memohon ampun (اِسْتَغْفَرَ) / Menggunakan (اِسْتَخْدَمَ)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kekuatan Algoritmik Akar 3 Huruf (الجِذْرُ الثُّلَاثِيُّ) dalam Membaca Kamus Arab",
+        "psychologyExplanation": "Kamus klasik Arab (Lisān al-‘Arab / Hans Wehr) disusun berdasarkan 3 huruf akarnya! Begitu kamu mengenali Wazan (misal: اِسْتِقْبَال memakai awalan اِسْتِـ dan sisipan ا), kamu langsung tahu akarnya adalah ق-ب-ل (menghadap/menerima).",
+        "literalTrap": "Perhatikan perbedaan Hamzah Qaṭ‘ (أَ) yang selalu ditulis dan dibaca pada Wazan IV (أَكْرَمَ), sedangkan Hamzah Waṣl (اِ) pada Wazan VII–X tidak berhamzah."
+      }
+    }
+  ]
+}

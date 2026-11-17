@@ -1,0 +1,157 @@
+{
+  "id": "zh-00-found-origin-hanzi-anatomy",
+  "lang": "zh",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Sejarah Aksara Tiongkok: Jiǎgǔwén, Bǐhuà, Bùshǒu & Piānpáng",
+  "subtitle": "Mengapa Mandarin tidak memakai alfabet, bagaimana gambar tulang ramalan berevolusi jadi Hanzi, dan cara merakit karakter",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "linguistic-lore",
+      "title": "Dari Tulang Ramalan Dinasti Shang (Jiǎgǔwén) Menuju Hanzi Modern",
+      "eraOrDomain": "Sejarah & Anatomi Ortografi Tionghoa (±1200 SM – Sekarang)",
+      "direction": "ltr",
+      "narrativeSummary": "Berbeda dari bahasa beralfabet yang merekam bunyi, aksara Tionghoa (Hànzì 汉字) adalah sistem logografis-morfosilabis yang mengodekan MAKNA dan BUNYI sekaligus dalam kotak persegi imajiner. Karena itu, penutur dialek Mandarin, Kanton, dan Hokkien yang berbeda cara bacanya tetap dapat membaca koran dan buku yang sama persis.",
+      "milestones": [
+        {
+          "stage": "1. Jiǎgǔwén (甲骨文 — Tulang Ramalan, ±1200 SM)",
+          "scriptSample": "日 • 月 • 山 • 水 • 木",
+          "reading": "rì • yuè • shān • shuǐ • mù",
+          "explanation": "Piktograf murni yang digoreskan pada tempurung kura-kura dan tulang belikat sapi untuk ritual ramalan kerajaan Dinasti Shang. Bentuk matahari (日), bulan sabit (月), pegunungan (山), dan pohon (木) masih terlihat seperti gambar objek aslinya."
+        },
+        {
+          "stage": "2. Jīnwén (金文) & Xiǎozhuàn (小篆 — Aksara Segel Dinasti Qin, 221 SM)",
+          "scriptSample": "秦始皇统一文字",
+          "reading": "Qín Shǐhuáng tǒngyī wénzì",
+          "explanation": "Kaisar pertama Qin Shi Huang menstandardisasi ribuan variasi aksara lokal menjadi satu sistem nasional (Xiǎozhuàn) dengan garis melengkung simetris yang elegan."
+        },
+        {
+          "stage": "3. Lìshū (隶书) & Kǎishū (楷书 — Aksara Standar Modern)",
+          "scriptSample": "永字八法 (Yǒngzì Bāfǎ)",
+          "reading": "Delapan Prinsip Goresan pada Karakter 永 (Abadi)",
+          "explanation": "Transisi dari media bambu ke kertas melahirkan Kǎishū (aksara reguler) yang memadatkan lengkungan menjadi 8 tipe goresan dasar (Bǐhuà) agar cepat ditulis dengan kuas maupun pena."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Bǐhuà (笔画 — Goresan Dasar Pembentuk Karakter)",
+          "definition": "Unit garis terkecil dalam penulisan Hanzi yang ditarik dalam satu tarikan pena tanpa mengangkat ujung pena.",
+          "whyItMatters": "Semua ribuan karakter Hanzi hanyalah kombinasi dari 8 goresan dasar: 点 (diǎn/titik), 横 (héng/datar), 竖 (shù/tegak), 撇 (piě/sapuan kiri), 捺 (nà/sapuan kanan), 提 (tí/angkat), 折 (zhé/tekuk), dan 钩 (gōu/kait).",
+          "examples": [
+            "一 (1 goresan 横)",
+            "十 (横 lalu 竖)",
+            "人 (撇 lalu 捺)",
+            "永 (memuat seluruh 8 goresan dasar)"
+          ]
+        },
+        {
+          "conceptName": "Bǐshùn (笔顺 — 7 Hukum Urutan Goresan)",
+          "definition": "Aturan baku arah penulisan karakter: (1) Atas ke bawah, (2) Kiri ke kanan, (3) Horizontal dulu baru vertikal, (4) Sapuan kiri dulu baru kanan, (5) Luar dulu baru dalam, (6) Tengah dulu baru kiri-kanan, (7) Tutup kotak paling akhir.",
+          "whyItMatters": "Urutan goresan menjaga keseimbangan proporsi karakter di dalam kotak persegi dan memungkinkan aplikasi kamus/ponsel mengenali tulisan tanganmu secara akurat.",
+          "examples": [
+            "三 (atas → tengah → bawah)",
+            "川 (kiri → tengah → kanan)",
+            "国 (bingkai luar → isi 玉 → garis penutup bawah)"
+          ]
+        },
+        {
+          "conceptName": "Bùshǒu (部首 — Radikal Indeks) vs Piānpáng (偏旁 — Komponen Sisi)",
+          "definition": "Piānpáng adalah setiap bagian penyusun karakter majemuk (sisi kiri/kanan/atas/bawah). Dari sekian banyak Piānpáng, satu komponen utama yang menjadi penunjuk kategori makna dan indeks kamus disebut Bùshǒu (214 Radikal Kangxi).",
+          "whyItMatters": "Lebih dari 80% Hanzi adalah karakter Fono-Semantik (形声字): satu Piānpáng memberi petunjuk MAKNA (Radikal), sedangkan Piānpáng lainnya memberi petunjuk BUNYI.",
+          "examples": [
+            "妈 (mā = ibu): Radikal 女 (perempuan/makna) + Piānpáng 马 (mǎ/petunjuk bunyi)",
+            "河 (hé = sungai): Radikal 氵 (air/makna) + Piānpáng 可 (kě/petunjuk bunyi)",
+            "请 (qǐng = silakan): Radikal 讠 (bicara/makna) + Piānpáng 青 (qīng/petunjuk bunyi)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Karakter 汉字 tidak memiliki spasi antar kata karena setiap karakter menempati luas kotak persegi yang sama persis (monospaced block).",
+        "Tips Menghafal Cepat: Jangan pernah menghafal Hanzi sebagai kumpulan garis acak; pecah menjadi 2–3 blok komponen Piānpáng (misal: 好 = 女 ibu + 子 anak = baik)."
+      ]
+    },
+    {
+      "type": "script-matrix",
+      "title": "Tabel Referensi 8 Goresan Dasar (Bǐhuà) & Radikal Fundamental",
+      "scriptSystem": "Hanzi Foundation Matrix",
+      "direction": "ltr",
+      "description": "Panduan visual goresan dasar beserta contoh karakter fondasi yang wajib dikuasai sebelum membaca kosakata.",
+      "cells": [
+        {
+          "glyph": "一",
+          "reading": "héng",
+          "transliteration": "Goresan Datar",
+          "componentRole": "Bǐhuà Dasar",
+          "strokeOrderRule": "Kiri ke kanan lurus",
+          "strokeCount": 1,
+          "mnemonic": "Angka satu — fondasi garis horizontal"
+        },
+        {
+          "glyph": "丨",
+          "reading": "shù",
+          "transliteration": "Goresan Tegak",
+          "componentRole": "Bǐhuà Dasar",
+          "strokeOrderRule": "Atas ke bawah lurus",
+          "strokeCount": 1,
+          "mnemonic": "Tiang vertikal penyangga karakter"
+        },
+        {
+          "glyph": "丿",
+          "reading": "piě",
+          "transliteration": "Sapuan Kiri",
+          "componentRole": "Bǐhuà Dasar",
+          "strokeOrderRule": "Atas kanan melengkung ke kiri bawah",
+          "strokeCount": 1,
+          "mnemonic": "Selalu ditulis lebih dulu sebelum sapuan kanan 捺"
+        },
+        {
+          "glyph": "丶",
+          "reading": "diǎn",
+          "transliteration": "Titik Tetes",
+          "componentRole": "Bǐhuà Dasar",
+          "strokeOrderRule": "Tekan singkat ke kanan bawah",
+          "strokeCount": 1,
+          "mnemonic": "Tetesan kuas di puncak atau sisi karakter"
+        },
+        {
+          "glyph": "亻",
+          "reading": "dānrénpáng",
+          "transliteration": "Piānpáng Orang",
+          "componentRole": "Bùshǒu (Radikal #9)",
+          "strokeOrderRule": "1. Piě (丿) → 2. Shù (丨)",
+          "strokeCount": 2,
+          "mnemonic": "Muncul di sisi kiri kata terkait manusia: 你, 他, 休, 作"
+        },
+        {
+          "glyph": "氵",
+          "reading": "sāndiǎnshuǐ",
+          "transliteration": "Piānpáng 3 Tetes Air",
+          "componentRole": "Bùshǒu (Radikal #85)",
+          "strokeOrderRule": "1. Titik atas → 2. Titik tengah → 3. Angkat (提)",
+          "strokeCount": 3,
+          "mnemonic": "Muncul di kata cairan/sungai: 河, 海, 洗, 渴, 汁"
+        },
+        {
+          "glyph": "讠",
+          "reading": "yánzìpáng",
+          "transliteration": "Piānpáng Ucapan",
+          "componentRole": "Bùshǒu (Radikal #149)",
+          "strokeOrderRule": "1. Diǎn (丶) → 2. Héngzhétí (㇊)",
+          "strokeCount": 2,
+          "mnemonic": "Muncul di kata bahasa/komunikasi: 说, 话, 语, 请, 谢"
+        },
+        {
+          "glyph": "木",
+          "reading": "mùzìpáng",
+          "transliteration": "Radikal Pohon/Kayu",
+          "componentRole": "Bùshǒu (Radikal #75)",
+          "strokeOrderRule": "1. 横 → 2. 竖 → 3. 撇 → 4. 捺",
+          "strokeCount": 4,
+          "mnemonic": "Gambar akar dan dahan pohon: 林 (hutan), 桌 (meja), 椅 (kursi)"
+        }
+      ]
+    }
+  ]
+}

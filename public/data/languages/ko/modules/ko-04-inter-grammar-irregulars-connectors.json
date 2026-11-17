@@ -1,0 +1,235 @@
+{
+  "id": "ko-04-inter-grammar-irregulars-connectors",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 4,
+  "title": "TOPIK II (3–4) | Bulgyuchik (불규칙 — Kata Kerja Tak Beraturan) & Konektor Klausa Kausal",
+  "subtitle": "Bedah aturan perubahan akar ㅂ, ㄷ, ㅡ, 르, kontras sebab -아서/어서 vs -(으)니까, serta modifikator nomina",
+  "estimatedMinutes": 80,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.1 Empat Pola Bulgyuchik Utama (ㅂ, ㄷ, ㅡ, 르) Saat Bertemu Akhiran Vokal",
+      "grammaticalTradition": "Unit 1/3: 용언의 불규칙 활용 (Morfofonologi Predikat Tidak Beraturan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "ruleType",
+          "roleLabel": "Jenis Bulgyuchik",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Transformasi Saat Bertemu Vokal (-아/어, -(으)면)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kata & Pengecualian Beraturan",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-irreg-bieup",
+          "cells": {
+            "ruleType": {
+              "script": "1. ㅂ 불규칙 (Batchim ㅂ → 우)",
+              "gloss": "Sangat umum pada kata sifat Korea!"
+            },
+            "formula": {
+              "script": "Buang ㅂ → ganti 우 + 어요 (= 워요) | Khusus 돕다 (membantu) & 곱다 → 오 + 아요 (= 와요)",
+              "gloss": "Saat bertemu konsonan (-습니다), tetap memakai ㅂ (덥습니다)"
+            },
+            "example": {
+              "script": "덥다 (panas) → 더워요 | 어렵다 (sulit) → 어려워요 | 돕다 → 도와요 (Beraturan: 입다 → 입어요)",
+              "reading": "deowoyo • eoryeowoyo • dowayo",
+              "gloss": "Panas • Sulit • Membantu (Pengecualian beraturan: 입다 memakai baju → 입어요)"
+            }
+          },
+          "fullTranslation": "Panas (더워요) • Sulit (어려워요) • Membantu (도와요)"
+        },
+        {
+          "id": "ko-irreg-digeut",
+          "cells": {
+            "ruleType": {
+              "script": "2. ㄷ 불규칙 (Batchim ㄷ → ㄹ)",
+              "gloss": "Khusus kata kerja gerak/persepsi tertentu"
+            },
+            "formula": {
+              "script": "Ubah Batchim ㄷ menjadi ㄹ sebelum vokal (-어요 / -(으)면)",
+              "gloss": "Beraturan (tetap ㄷ): 받다 (menerima → 받아요), 믿다 (percaya → 믿어요), 닫다 (menutup → 닫아요)"
+            },
+            "example": {
+              "script": "듣다 (mendengar) → 들어요 | 걷다 (berjalan kaki) → 걸어요 | 묻다 (bertanya) → 물어요",
+              "reading": "deureoyo • georeoyo • mureoyo",
+              "gloss": "Mendengar • Berjalan kaki • Bertanya"
+            }
+          },
+          "fullTranslation": "Mendengar (들어요) • Berjalan kaki (걸어요) • Bertanya (물어요)"
+        },
+        {
+          "id": "ko-irreg-eu-reu",
+          "cells": {
+            "ruleType": {
+              "script": "3. ㅡ 탈락 (Gugur ㅡ) & 4. 르 불규칙 (르 → ㄹ라/ㄹ러)",
+              "gloss": "Vokal lemah ㅡ luluh"
+            },
+            "formula": {
+              "script": "ㅡ gugur dan melihat vokal suku kata sebelumnya | 르 berubah menjadi ㄹ라 (ㅏ/ㅗ) atau ㄹ러 (lainnya)",
+              "gloss": "Selalu menggandakan konsonan ㄹ di suku kata sebelumnya pada pola 르"
+            },
+            "example": {
+              "script": "쓰다 → 써요 | 바쁘다 → 바빠요 | 빠르다 → 빨라요 | 모르다 → 몰라요 | 부르다 → 불러요",
+              "reading": "sseoyo • bappayo • ppallayo • mollayo • bulleoyo",
+              "gloss": "Menulis • Sibuk • Cepat • Tidak tahu • Memanggil/menyanyi"
+            }
+          },
+          "fullTranslation": "Menulis • Sibuk • Cepat • Tidak tahu • Memanggil"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Bentuk Sopan dari \"어렵다\" Menjadi \"어려워요\" Bukan \"어렵어요\"?",
+        "psychologyExplanation": "Dalam sejarah bahasa Korea Pertengahan, huruf ㅂ di antara dua vokal melemah menjadi bunyi bilabial ringan [w] (우). Perubahan ini tetap dipertahankan dalam ejaan Hangeul modern sehingga semua kata sifat ber-Batchim ㅂ (쉽다, 춥다, 아름답다, 고맙다) meluncur lembut menjadi 쉬워요, 추워요, 아름다워요, 고마워요.",
+        "literalTrap": "Jangan menerapkan ㅂ-irregular pada kata kerja 입다 (memakai pakaian), 잡다 (menangkap), dan 좁다 (sempit)—ketiganya beraturan (입어요, 잡아요, 좁아요)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.2 Kontras Konektor Sebab-Akibat: -아서/어서 vs -(으)니까",
+      "grammaticalTradition": "Unit 2/3: 이유·원인 연결어미「-아서/어서」vs「-(으)니까」",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "connector",
+          "roleLabel": "Konektor & Batasan Ketat",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Struktur",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-aseo-eoseo",
+          "cells": {
+            "connector": {
+              "script": "-아서 / -어서 / -해서 (Sebab Alami & Ucapan Syukur/Maaf)",
+              "gloss": "2 LARANGAN MUTLAK!"
+            },
+            "formula": {
+              "script": "Klausa 1 (TANPA -았/었-) + -아서/어서 + Klausa 2 (DILARANG Perintah/Ajakan!)",
+              "gloss": "Wajib dipakai untuk sapaan terima kasih/maaf: 만나서 반갑습니다, 늦어서 죄송합니다"
+            },
+            "example": {
+              "script": "어제 비가 와서 집에 있었어요. (SALAH: 비가 왔어서)",
+              "reading": "Eoje biga waseo jibe isseosseoyo.",
+              "gloss": "Kemarin karena hujan turun, saya berada di rumah (lampau hanya di klausa akhir!)."
+            }
+          },
+          "fullTranslation": "Kemarin karena hujan turun, saya tinggal di rumah."
+        },
+        {
+          "id": "ko-eunikka",
+          "cells": {
+            "connector": {
+              "script": "-(으)니까 (Alasan Subjektif / Penemuan Baru)",
+              "gloss": "WAJIB untuk Kalimat Perintah & Ajakan!"
+            },
+            "formula": {
+              "script": "Klausa 1 (Boleh pakai -았/었-) + -(으)니까 + Klausa 2 (Perintah -세요 / Ajakan -(으)ㅂ시다)",
+              "gloss": "Memberikan alasan logis di balik saran, perintah, atau ajakan kepada lawan bicara"
+            },
+            "example": {
+              "script": "날씨가 추우니까 따뜻한 옷을 입으세요. / 시간이 없으니까 빨리 갑시다!",
+              "reading": "Nalssiga chuunikka ttatteuthan oseul ibeuseyo. / Sigani eopseunikka ppalli gapsida!",
+              "gloss": "Karena cuacanya dingin, pakailah baju hangat. / Karena tidak ada waktu, ayo cepat pergi!"
+            }
+          },
+          "fullTranslation": "Karena cuacanya dingin, pakailah pakaian hangat. / Karena tidak ada waktu, ayo cepat pergi!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Tes Cepat: Apakah Kalimat Belakangmu Berisi Perintah (-세요) atau Ajakan (-자 / -(으)ㅂ시다)?",
+        "psychologyExplanation": "Jika klausa kedua memerintah atau mengajak lawan bicara melakukan sesuatu, kamu DILARANG memakai -아서/어서 dan WAJIB memakai -(으)니까. Sebaliknya, jika kamu meminta maaf atau berterima kasih (\"Maaf terlambat\"), wajib memakai -아서/어서 (늦어서 미안해요).",
+        "literalTrap": "Jangan pernah menempelkan penanda lampau -았/었- sebelum -아서/어서 (\"먹었어서\" — SALAH TOTAL; cukup \"먹어서\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.3 Modifikator Kata Benda (관형사형): Menjadikan Kata Kerja/Sifat sebagai Penjelas Nomina",
+      "grammaticalTradition": "Unit 3/3: 관형사형 어미「-는 / -(으)ㄴ / -(으)ㄹ」 (Klausa Relatif Korea)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "tenseRole",
+          "roleLabel": "Kala & Jenis Predikat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Akhiran Sebelum Kata Benda",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Frasa Lengkap",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-mod-present",
+          "cells": {
+            "tenseRole": {
+              "script": "Kata Kerja Kini (-는) & Kata Sifat (-(으)ㄴ)",
+              "gloss": "Urutan terbalik dari bahasa Indonesia!"
+            },
+            "formula": {
+              "script": "Kata Kerja + -는 + Nomina | Kata Sifat + -(으)ㄴ + Nomina (있다/없다 memakai -는!)",
+              "gloss": "Penjelas selalu berada DI DEPAN kata benda yang dijelaskan"
+            },
+            "example": {
+              "script": "지금 읽는 책 (buku yang sedang dibaca) | 재미있는 영화 (film yang menarik) | 예쁜 꽃 (bunga cantik)",
+              "reading": "jigeum ingneun chaek • jaemiinneun yeonghwa • yeppeun kkot",
+              "gloss": "Perhatikan: 재미있다 dan 맛있다 diakhiri 있다 sehingga memakai -는 (재미있는, 맛있는)!"
+            }
+          },
+          "fullTranslation": "Buku yang sedang dibaca | Film yang menarik | Bunga yang cantik"
+        },
+        {
+          "id": "ko-mod-past-future",
+          "cells": {
+            "tenseRole": {
+              "script": "Kata Kerja Lampau (-(으)ㄴ) & Masa Depan (-(으)ㄹ)",
+              "gloss": "Sudah dilakukan vs Akan dilakukan"
+            },
+            "formula": {
+              "script": "Lampau: Kata Kerja + -(으)ㄴ + Nomina | Depan: Kata Kerja + -(으)ㄹ + Nomina",
+              "gloss": "Membedakan \"makanan yang kemarin dimakan\" vs \"makanan yang akan dimakan\""
+            },
+            "example": {
+              "script": "어제 먹은 음식 (makanan yang dimakan kemarin) vs 내일 먹을 음식 (makanan yang akan dimakan besok)",
+              "reading": "eoje meogeun eumsik vs naeil meogeul eumsik",
+              "gloss": "Satu huruf akhir (-은 vs -을) menggeser waktu klausa relatif secara presisi"
+            }
+          },
+          "fullTranslation": "Makanan yang dimakan kemarin vs Makanan yang akan dimakan besok"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa \"맛있는 음식\" Memakai -는 Padahal Ia Kata Sifat (\"Enak\")?",
+        "psychologyExplanation": "Secara historis dan morfologis, kata sifat berakhiran 있다/없다 (맛있다 = ada rasa, 재미있다 = ada keseruan, 멋있다 = keren) berkonjugasi mengikuti pola kata kerja eksistensi 있다, sehingga sebelum kata benda wajib memakai -는 (맛있는, 재미있는), BUKAN 맛있은.",
+        "literalTrap": "SALAH: 맛있은 커피. BENAR: 맛있는 커피 (Kopi yang enak)."
+      }
+    }
+  ]
+}

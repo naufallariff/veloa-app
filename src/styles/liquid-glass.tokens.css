@@ -1,0 +1,157 @@
+:root {
+    /* ==========================================================================
+     LAYER 1: PRIMITIVE TOKENS (Aurora Mesh & Optical Specular Light)
+     ========================================================================== */
+    --primitive-aurora-sky: #7dd3fc;
+    --primitive-aurora-violet: #c4b5fd;
+    --primitive-aurora-rose: #fda4af;
+    --primitive-aurora-mint: #6ee7b7;
+    --primitive-aurora-amber: #fde68a;
+    --primitive-canvas-base: #f2f6fb;
+
+    /* Specular light reflections (arah cahaya datang dari kiri atas) */
+    --primitive-specular-bright: rgba(255, 255, 255, 0.92);
+    --primitive-specular-soft: rgba(255, 255, 255, 0.45);
+    --primitive-specular-rim: rgba(255, 255, 255, 0.22);
+
+    /* ==========================================================================
+     LAYER 2: SEMANTIC TOKENS (Material Weights, Vibrancy & Multilingual Type)
+     ========================================================================== */
+    --bg-aurora-mesh:
+        radial-gradient(at 10% 15%, rgba(125, 211, 252, 0.55) 0px, transparent 50%),
+        radial-gradient(at 88% 12%, rgba(196, 181, 253, 0.55) 0px, transparent 48%),
+        radial-gradient(at 82% 86%, rgba(253, 164, 175, 0.48) 0px, transparent 52%),
+        radial-gradient(at 16% 84%, rgba(110, 231, 183, 0.48) 0px, transparent 50%),
+        var(--primitive-canvas-base);
+
+    /* Material Hierarchy: Thin (Chip) -> Regular (Card) -> Thick (Chrome/Modal) */
+    --glass-bg-thin: linear-gradient(145deg, rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.18));
+    --glass-bg-regular: linear-gradient(145deg, rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.30));
+    --glass-bg-thick: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.58));
+
+    --glass-filter-thin: blur(14px) saturate(175%);
+    --glass-filter-regular: blur(26px) saturate(195%);
+    --glass-filter-thick: blur(40px) saturate(215%);
+
+    /* Vibrancy Text (Kontras tinggi agar tajam di atas permukaan transparan) */
+    --text-vibrant-primary: rgba(15, 23, 42, 0.94);
+    --text-vibrant-secondary: rgba(30, 41, 59, 0.74);
+    --text-vibrant-tertiary: rgba(51, 65, 85, 0.56);
+
+    /* Language Accent Tints (Halus, tidak merusak transparansi kaca) */
+    --accent-en: #0284c7;
+    --accent-zh: #e11d48;
+    --accent-ja: #7c3aed;
+    --accent-ar: #059669;
+
+    /* ==========================================================================
+     LAYER 3: COMPONENT TOKENS (Physical Shadows & Bevels)
+     ========================================================================== */
+    --glass-shadow-regular:
+        0 20px 44px -16px rgba(15, 23, 42, 0.09),
+        0 4px 12px -2px rgba(15, 23, 42, 0.04),
+        inset 0 1.5px 1px 0 var(--primitive-specular-bright),
+        inset 0 -1px 1px 0 var(--primitive-specular-rim);
+
+    --glass-shadow-elevated:
+        0 28px 60px -14px rgba(15, 23, 42, 0.14),
+        0 8px 20px -4px rgba(15, 23, 42, 0.06),
+        inset 0 2px 1.5px 0 var(--primitive-specular-bright),
+        inset 0 -1px 1px 0 var(--primitive-specular-soft);
+}
+
+/* Canvas Utama Aplikasi */
+.liquid-canvas {
+    background: var(--bg-aurora-mesh);
+    background-attachment: fixed;
+    color: var(--text-vibrant-primary);
+}
+
+/* Permukaan Kaca Fisik */
+.liquid-glass {
+    position: relative;
+    border: 1px solid var(--primitive-specular-soft);
+    box-shadow: var(--glass-shadow-regular);
+    transition:
+        transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+        background 0.25s ease;
+}
+
+.liquid-glass--thin {
+    background: var(--glass-bg-thin);
+    backdrop-filter: var(--glass-filter-thin);
+    -webkit-backdrop-filter: var(--glass-filter-thin);
+}
+
+.liquid-glass--regular {
+    background: var(--glass-bg-regular);
+    backdrop-filter: var(--glass-filter-regular);
+    -webkit-backdrop-filter: var(--glass-filter-regular);
+}
+
+.liquid-glass--thick {
+    background: var(--glass-bg-thick);
+    backdrop-filter: var(--glass-filter-thick);
+    -webkit-backdrop-filter: var(--glass-filter-thick);
+    box-shadow: var(--glass-shadow-elevated);
+}
+
+/* Respons Taktil Apple (Pointer-down langsung terasa hidup) */
+.liquid-glass--interactive {
+    cursor: pointer;
+}
+
+.liquid-glass--interactive:hover {
+    transform: translateY(-2px) scale(1.004);
+    box-shadow: var(--glass-shadow-elevated);
+}
+
+.liquid-glass--interactive:active {
+    transform: scale(0.985);
+    transition-duration: 90ms;
+}
+
+/* ==========================================================================
+   TIPOGRAFI ADAPTIF MULTIBAHASA (Mencegah Harakat / Furigana / Pinyin Terpotong)
+   ========================================================================== */
+.type-display-latin {
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    font-optical-sizing: auto;
+}
+
+.type-script-zh,
+.type-script-ja {
+    line-height: 1.85;
+    padding-block: 0.15em;
+}
+
+.type-script-ar {
+    direction: rtl;
+    unicode-bidi: isolate;
+    line-height: 2.1;
+    /* Ruang ekstra untuk Fathah, Kasrah, Dhammah, Syaddah */
+    padding-block: 0.2em;
+}
+
+/* ==========================================================================
+   APPLE ACCESSIBILITY OVERRIDES
+   ========================================================================== */
+@media (prefers-reduced-transparency: reduce) {
+
+    .liquid-glass--thin,
+    .liquid-glass--regular,
+    .liquid-glass--thick {
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .liquid-glass {
+        transition: opacity 180ms ease;
+        transform: none !important;
+    }
+}

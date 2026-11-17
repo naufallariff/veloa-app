@@ -1,0 +1,366 @@
+{
+  "id": "en-02-beg-grammar-present-system",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 2,
+  "title": "CEFR A1–B1 | Sistem Present Tense Lengkap (4 Turunan Terpisah Utuh)",
+  "subtitle": "Bedah mendalam satu per satu: Simple Present, Present Continuous, Present Perfect, dan Present Perfect Continuous",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.1 Simple Present Tense — Rumus, Aturan -s/-es/-ies & Stative Verbs",
+      "grammaticalTradition": "Unit 1/4: Simple Aspect (Fakta Permanen, Kebiasaan & Jadwal Tetap)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis Ejaan",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-sp-pos-verbal",
+          "cells": {
+            "polarity": {
+              "script": "Positif Verbal (+)",
+              "gloss": "I/You/We/They vs He/She/It"
+            },
+            "formula": {
+              "script": "S + V1 (I/You/We/They) | S + V1 + -s/-es/-ies (He/She/It)",
+              "gloss": "Akhiran -es untuk akhiran -o, -ch, -sh, -ss, -x, -z; konsonan+y menjadi -ies"
+            },
+            "example": {
+              "script": "She teaches physics and studies robotics every night.",
+              "gloss": "teach → teaches; study → studies; play → plays (vokal+y tetap +s)"
+            }
+          },
+          "fullTranslation": "Dia mengajar fisika dan belajar robotika setiap malam."
+        },
+        {
+          "id": "en-sp-pos-nominal",
+          "cells": {
+            "polarity": {
+              "script": "Positif Nominal (+)",
+              "gloss": "Tanpa kata kerja aksi (To Be)"
+            },
+            "formula": {
+              "script": "S + am / is / are + Adjective / Noun / Prepositional Phrase",
+              "gloss": "I → am | He/She/It → is | You/We/They → are"
+            },
+            "example": {
+              "script": "Water boils at 100 degrees Celsius.",
+              "gloss": "Kebenaran ilmiah universal wajib Simple Present"
+            }
+          },
+          "fullTranslation": "Air mendidih pada suhu 100 derajat Celcius."
+        },
+        {
+          "id": "en-sp-neg",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-)",
+              "gloss": "Auxiliary Do/Does + Not"
+            },
+            "formula": {
+              "script": "S + do/does + not + V1 (Bare Infinitive)",
+              "gloss": "Akhiran -s pada kata kerja utama HILANG karena diserap oleh \"does\""
+            },
+            "example": {
+              "script": "He does not (doesn’t) commute on Fridays.",
+              "gloss": "SALAH: He doesn’t commutes"
+            }
+          },
+          "fullTranslation": "Dia tidak pulang-pergi ke kantor pada hari Jumat."
+        },
+        {
+          "id": "en-sp-int",
+          "cells": {
+            "polarity": {
+              "script": "Interogatif (?)",
+              "gloss": "Inversi Do/Does ke Depan Subjek"
+            },
+            "formula": {
+              "script": "(Wh-) + Do/Does + S + V1 + ?",
+              "gloss": "Penanda waktu: always, usually, often, sometimes, seldom, never, every day"
+            },
+            "example": {
+              "script": "What time does the Shinkansen depart from Tokyo?",
+              "gloss": "Jadwal transportasi publik & acara resmi selalu memakai Simple Present"
+            }
+          },
+          "fullTranslation": "Jam berapa Shinkansen berangkat dari Tokyo?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Hukum Stative Verbs: Mengapa \"I am knowing\" Dilarang Keras?",
+        "psychologyExplanation": "Penutur asli Inggris membagi kata kerja menjadi Action Verbs (proses fisik yang bisa dimulai dan dihentikan: run, build, write) dan Stative Verbs (keadaan mental, emosi, indra, kepemilikan: know, believe, understand, remember, own, belong, want, love, hate). Stative verbs dianggap sebagai kondisi utuh, sehingga memakai Simple Present bahkan jika sedang dirasakan detik ini.",
+        "literalTrap": "Jangan menerjemahkan \"Saya sedang mengerti\" menjadi \"I am understanding\". Gunakan \"I understand\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.2 Present Continuous Tense — Rumus, Ejaan V-ing & Situasi Sementara",
+      "grammaticalTradition": "Unit 2/4: Progressive Aspect (Sedang Berlangsung & Agenda Pasti)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-pc-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "To Be + Present Participle"
+            },
+            "formula": {
+              "script": "S + am/is/are + V-ing",
+              "gloss": "Aturan ejaan: write → writing; run → running (CVC ganda); lie → lying (-ie → -y)"
+            },
+            "example": {
+              "script": "Look! The engineer is deploying the patch right now.",
+              "gloss": "Aksi aktif yang berlangsung tepat pada saat berbicara"
+            }
+          },
+          "fullTranslation": "Lihat! Insinyur itu sedang merilis pembaruan sekarang juga."
+        },
+        {
+          "id": "en-pc-temp",
+          "cells": {
+            "polarity": {
+              "script": "Situasi Sementara",
+              "gloss": "Temporary State / Tren Berubah"
+            },
+            "formula": {
+              "script": "S + am/is/are + V-ing + (this week / these days / currently)",
+              "gloss": "Berbeda dengan Simple Present yang bersifat permanen"
+            },
+            "example": {
+              "script": "I am staying in Bandung this month while renovating my house.",
+              "gloss": "Bukan tempat tinggal permanen, hanya sementara bulan ini"
+            }
+          },
+          "fullTranslation": "Saya sedang tinggal di Bandung bulan ini selagi merenovasi rumah saya."
+        },
+        {
+          "id": "en-pc-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "Negasi & Inversi To Be"
+            },
+            "formula": {
+              "script": "S + am/is/are + not + V-ing | (Wh-) + Am/Is/Are + S + V-ing + ?",
+              "gloss": "Juga dipakai untuk rencana pribadi yang sudah memiliki pengaturan konkret (tiket/janji)"
+            },
+            "example": {
+              "script": "Are you meeting the client tomorrow afternoon? — No, I’m not.",
+              "gloss": "Janji temu sudah dijadwalkan pasti"
+            }
+          },
+          "fullTranslation": "Apakah kamu bertemu klien besok sore? — Tidak."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kontras Nuansa: \"She works at Google\" vs \"She is working on a new AI model\"",
+        "psychologyExplanation": "Present Continuous membingkai sebuah tindakan di dalam \"jendela waktu sementara yang sedang berputar\". Saat kamu mengatakan \"Your English is improving\", bentuk -ing menekankan perubahan dinamis yang sedang terjadi dari hari ke hari.",
+        "literalTrap": "Jangan pernah meninggalkan To Be (\"She working now\" — SALAH; wajib \"She is working now\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.3 Present Perfect Tense — Rumus Have/Has + V3 & 4 Fungsi Inti",
+      "grammaticalTradition": "Unit 3/4: Perfect Aspect (Jembatan Masa Lampau ke Masa Kini)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk & Fungsi",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Penanda Waktu",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-pp-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Pengalaman Hidup & Hasil Kini"
+            },
+            "formula": {
+              "script": "S + have/has + V3 (Past Participle)",
+              "gloss": "I/You/We/They → have | He/She/It → has"
+            },
+            "example": {
+              "script": "I have already published three research papers this year.",
+              "gloss": "Jendela waktu \"this year\" masih terbuka; hasil karya ada sekarang"
+            }
+          },
+          "fullTranslation": "Saya sudah menerbitkan tiga makalah riset tahun ini."
+        },
+        {
+          "id": "en-pp-for-since",
+          "cells": {
+            "polarity": {
+              "script": "For vs Since",
+              "gloss": "Durasi vs Titik Awal Waktu"
+            },
+            "formula": {
+              "script": "for + [rentang durasi] | since + [titik awal spesifik]",
+              "gloss": "for three years / for two hours | since 2022 / since Monday / since I graduated"
+            },
+            "example": {
+              "script": "She has lived in Jakarta since 2021 (for five years).",
+              "gloss": "Dimulai di masa lalu dan masih berlanjut hingga sekarang"
+            }
+          },
+          "fullTranslation": "Dia telah tinggal di Jakarta sejak 2021 (selama lima tahun)."
+        },
+        {
+          "id": "en-pp-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "Penggunaan Yet, Ever & Never"
+            },
+            "formula": {
+              "script": "S + haven’t/hasn’t + V3 + yet | Have/Has + S + ever + V3 + ?",
+              "gloss": "\"never\" dipakai pada kalimat positif secara struktur (I have never been there)"
+            },
+            "example": {
+              "script": "Have you finished the migration yet? — Not yet, I haven’t tested the API.",
+              "gloss": "\"Yet\" selalu di akhir kalimat tanya dan negatif"
+            }
+          },
+          "fullTranslation": "Apakah kamu sudah menyelesaikan migrasinya? — Belum, saya belum menguji API-nya."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan Vital \"Have been to\" vs \"Have gone to\"",
+        "psychologyExplanation": "\"Naufal has been to Seoul\" artinya Naufal pernah pergi ke Seoul dan sekarang SUDAH PULANG ke Indonesia. Sebaliknya, \"Naufal has gone to Seoul\" artinya Naufal berangkat ke Seoul dan sekarang MASIH BERADA DI SEOUL.",
+        "literalTrap": "Dilarang keras menggabungkan Present Perfect dengan waktu lampau yang sudah tertutup (\"I have visited Bali last year\" — SALAH; wajib Past Simple: \"I visited Bali last year\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.4 Present Perfect Continuous — Rumus Have/Has Been + V-ing & Fokus Durasi",
+      "grammaticalTradition": "Unit 4/4: Perfect Progressive Aspect (Proses Berkelanjutan Hingga Detik Ini)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-ppc-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Menekankan Lamanya Durasi Proses"
+            },
+            "formula": {
+              "script": "S + have/has + been + V-ing + (for / since / all day)",
+              "gloss": "Aksi dimulai di masa lalu, terus berlangsung tanpa putus, dan masih berjalan saat ini"
+            },
+            "example": {
+              "script": "We have been training this language model since 6 AM.",
+              "gloss": "Menyoroti berapa lama proses berlangsung hingga detik ini"
+            }
+          },
+          "fullTranslation": "Kami sudah melatih model bahasa ini sejak pukul 6 pagi (dan masih berjalan)."
+        },
+        {
+          "id": "en-ppc-evidence",
+          "cells": {
+            "polarity": {
+              "script": "Bukti Fisik Terkini",
+              "gloss": "Aksi Baru Saja Berhenti dengan Bukti"
+            },
+            "formula": {
+              "script": "S + have/has + been + V-ing (tanpa for/since)",
+              "gloss": "Menjelaskan penyebab kondisi yang terlihat sekarang"
+            },
+            "example": {
+              "script": "Why are your eyes red? — I have been reading documentation all night.",
+              "gloss": "Dampak fisik dari aktivitas panjang yang baru selesai"
+            }
+          },
+          "fullTranslation": "Kenapa matamu merah? — Saya sudah membaca dokumentasi semalaman."
+        },
+        {
+          "id": "en-ppc-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "Pertanyaan Durasi \"How long\""
+            },
+            "formula": {
+              "script": "S + haven’t/hasn’t + been + V-ing | How long + have/has + S + been + V-ing + ?",
+              "gloss": "Pertanyaan durasi yang masih berjalan wajib memakai pola ini"
+            },
+            "example": {
+              "script": "How long have you been working on Veloa?",
+              "gloss": "SALAH: How long are you working on Veloa?"
+            }
+          },
+          "fullTranslation": "Sudah berapa lama kamu mengerjakan Veloa?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Present Perfect Simple (Hasil/Angka) vs Present Perfect Continuous (Durasi/Proses)",
+        "psychologyExplanation": "Bandingkan: \"I have written 500 lines of code\" (fokus pada HASIL/KUANTITAS 500 baris yang selesai) vs \"I have been writing code for four hours\" (fokus pada DURASI 4 jam aktivitas menulis kode).",
+        "literalTrap": "Tetap patuhi aturan Stative Verbs: gunakan \"I have known him for ten years\", BUKAN \"I have been knowing him for ten years\"."
+      }
+    }
+  ]
+}

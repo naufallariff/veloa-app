@@ -1,0 +1,351 @@
+{
+  "id": "zh-02-beg-grammar-core-sentences",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 2,
+  "title": "HSK 1–2 | Tiga Tipe Kalimat Dasar & Hukum Urutan Waktu–Tempat (STPVO)",
+  "subtitle": "Bedah terpisah: Kalimat Nomina (是), Kalimat Adjektiva (很), Kalimat Kepemilikan (有), & Urutan Waktu–Tempat",
+  "estimatedMinutes": 65,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.1 Kalimat Nomina dengan 是 (shì) — Rumus Identitas & Klasifikasi",
+      "grammaticalTradition": "Unit 1/4: 是字句 (Kalimat Kopula Nomina)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-shi-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Menghubungkan Subjek dengan Kata Benda"
+            },
+            "formula": {
+              "script": "Subjek + 是 (shì) + Kata Benda (Nomina)",
+              "gloss": "是 tidak berubah bentuk untuk tunggal/jamak maupun waktu lampau/kini"
+            },
+            "example": {
+              "script": "我是印尼工程师。 (Wǒ shì Yìnní gōngchéngshī.)",
+              "gloss": "Saya adalah insinyur Indonesia."
+            }
+          },
+          "fullTranslation": "Saya adalah seorang insinyur Indonesia."
+        },
+        {
+          "id": "zh-shi-neg",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-)",
+              "gloss": "Negasi dengan 不是 (bú shì)"
+            },
+            "formula": {
+              "script": "Subjek + 不是 (bú shì) + Kata Benda",
+              "gloss": "Tone Sandhi wajib: bù (Nada 4) berubah jadi bú (Nada 2) sebelum shì (Nada 4)"
+            },
+            "example": {
+              "script": "他不是老师，他是医生。 (Tā bú shì lǎoshī, tā shì yīshēng.)",
+              "gloss": "Dia bukan guru, dia adalah dokter."
+            }
+          },
+          "fullTranslation": "Dia bukan guru, dia dokter."
+        },
+        {
+          "id": "zh-shi-int",
+          "cells": {
+            "polarity": {
+              "script": "Interogatif (?)",
+              "gloss": "Partikel Tanya 吗 (ma) atau A-not-A"
+            },
+            "formula": {
+              "script": "S + 是 + O + 吗？ | S + 是不是 (shì bu shì) + O？",
+              "gloss": "Jangan menggabungkan 吗 dengan kata tanya (什么/谁) dalam satu kalimat"
+            },
+            "example": {
+              "script": "你是学生吗？ / 你是不是学生？",
+              "gloss": "Apakah kamu mahasiswa?"
+            }
+          },
+          "fullTranslation": "Apakah kamu mahasiswa?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Larangan Keras: Jangan Pernah Memakai 是 (shì) Sebelum Kata Sifat!",
+        "psychologyExplanation": "Dalam bahasa Inggris atau Indonesia, kita terbiasa menghubungkan subjek dengan kata sifat memakai \"is/adalah\" (\"She is busy\"). Dalam bahasa Mandarin, kata sifat sudah mengandung fungsi predikat di dalam dirinya sendiri, sehingga menyisipkan 是 sebelum kata sifat dianggap kesalahan gramatikal fatal.",
+        "literalTrap": "SALAH: 我是很忙 (Wǒ shì hěn máng). BENAR: 我很忙 (Wǒ hěn máng = Saya sibuk)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.2 Kalimat Predikat Adjektiva (很 hěn) — Mengapa \"Sangat\" Kehilangan Makna Intensitasnya?",
+      "grammaticalTradition": "Unit 2/4: 形容词谓语句 (Kalimat Predikat Kata Sifat)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-adj-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif Netral (+)",
+              "gloss": "Wajib menyisipkan 很 sebagai penyeimbang ritme"
+            },
+            "formula": {
+              "script": "Subjek + 很 (hěn) + Kata Sifat (Adjektiva)",
+              "gloss": "Di sini 很 berfungsi sebagai jembatan ritmis netral (\"...itu...\"), bukan berarti \"sangat\""
+            },
+            "example": {
+              "script": "今天很冷。 (Jīntiān hěn lěng.)",
+              "gloss": "Hari ini dingin (pernyataan netral tanpa perbandingan)."
+            }
+          },
+          "fullTranslation": "Hari ini dingin."
+        },
+        {
+          "id": "zh-adj-contrast",
+          "cells": {
+            "polarity": {
+              "script": "Adjektiva Polos (Tanpa 很)",
+              "gloss": "Otomatis Bermakna Perbandingan!"
+            },
+            "formula": {
+              "script": "S1 + Adj，S2 + Adj (Kontras Eksplisit)",
+              "gloss": "Jika 很 dihilangkan pada kalimat positif, pendengar langsung menganggap kamu sedang membandingkan dua hal"
+            },
+            "example": {
+              "script": "咖啡苦，茶不苦。 (Kāfēi kǔ, chá bù kǔ.)",
+              "gloss": "Kopi itu pahit (dibandingkan teh), teh tidak pahit."
+            }
+          },
+          "fullTranslation": "Kopi pahit, sedangkan teh tidak pahit."
+        },
+        {
+          "id": "zh-adj-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "很 Dihilangkan Saat Negasi/Tanya"
+            },
+            "formula": {
+              "script": "S + 不 (bù) + Adj | S + Adj + 吗？",
+              "gloss": "Saat memakai 不 atau 吗, jembatan 很 otomatis gugur"
+            },
+            "example": {
+              "script": "这个语法不难。你累吗？ (Zhège yǔfǎ bù nán. Nǐ lèi ma?)",
+              "gloss": "Tata bahasa ini tidak sulit. Apakah kamu lelah?"
+            }
+          },
+          "fullTranslation": "Tata bahasa ini tidak sulit. Apakah kamu lelah?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Psikologi Keseimbangan Ritmis Suku Kata Mandarin",
+        "psychologyExplanation": "Penutur asli Mandarin menghindari predikat tunggal satu suku kata yang menggantung (\"我忙\" terasa terpotong dan menyiratkan kontras \"...tapi dia tidak\"). Menyisipkan 很 melengkapi irama dua ketukan yang alami. Jika ingin benar-benar mengatakan \"sangat\", penutur asli menggunakan 非常 (fēicháng) atau 真 (zhēn).",
+        "literalTrap": "Jangan menerjemahkan \"她很漂亮\" menjadi \"Dia sangat cantik\" dalam konteks biasa—terjemahan naturalnya adalah \"Dia cantik\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.3 Kata Kerja 有 (yǒu) — Kepemilikan (\"Punya\") & Eksistensi Lokasi (\"Ada\")",
+      "grammaticalTradition": "Unit 3/4: 有字句 (Kalimat Kepemilikan & Keberadaan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk & Fungsi",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-you-pos",
+          "cells": {
+            "polarity": {
+              "script": "Kepemilikan & Eksistensi (+)",
+              "gloss": "Subjek Orang vs Subjek Tempat"
+            },
+            "formula": {
+              "script": "[Pemilik / Lokasi] + 有 (yǒu) + [Objek]",
+              "gloss": "Jika subjeknya tempat, 有 berarti \"di tempat itu ada...\""
+            },
+            "example": {
+              "script": "我有一只猫。 / 桌子上有一本书。",
+              "gloss": "Saya punya seekor kucing. / Di atas meja ada sebuah buku."
+            }
+          },
+          "fullTranslation": "Saya punya seekor kucing. / Di atas meja ada sebuah buku."
+        },
+        {
+          "id": "zh-you-neg",
+          "cells": {
+            "polarity": {
+              "script": "Negatif Wajib 没有 (méiyǒu)",
+              "gloss": "HARAM Memakai 不有 (bùyǒu)!"
+            },
+            "formula": {
+              "script": "S + 没有 (méiyǒu) + Objek",
+              "gloss": "有 adalah satu-satunya kata kerja Mandarin yang negasinya SELALU memakai 没 (méi)"
+            },
+            "example": {
+              "script": "我今天没有时间。 (Wǒ jīntiān méiyǒu shíjiān.)",
+              "gloss": "SALAH: 我不有时间"
+            }
+          },
+          "fullTranslation": "Hari ini saya tidak punya waktu."
+        },
+        {
+          "id": "zh-you-int",
+          "cells": {
+            "polarity": {
+              "script": "Interogatif (?)",
+              "gloss": "Pola 有没有 (yǒu méiyǒu)"
+            },
+            "formula": {
+              "script": "S + 有没有 + Objek？ | S + 有 + Objek + 吗？",
+              "gloss": "Pola A-not-A 有没有 adalah bentuk tanya paling alami bagi penutur asli"
+            },
+            "example": {
+              "script": "你有没有问题？ (Nǐ yǒu méiyǒu wèntí?)",
+              "gloss": "Apakah kamu punya pertanyaan?"
+            }
+          },
+          "fullTranslation": "Apakah kamu ada pertanyaan?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan Vital 在 (zài) vs 有 (yǒu) untuk Menyatakan Lokasi",
+        "psychologyExplanation": "Gunakan 在 ketika benda spesifik sudah diketahui dan kamu memberi tahu lokasinya (\"Buku saya ada di atas meja\" = 我的书在桌子上). Gunakan 有 ketika kamu memperkenalkan keberadaan benda baru di suatu lokasi (\"Di atas meja ada sebuah buku\" = 桌子上有一本书).",
+        "literalTrap": "Jangan pernah menulis 不有 (bùyǒu) untuk apa pun; bentuk negatif dari 有 mutlak 没有 (méiyǒu)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "1.4 Hukum Sintaksis STPVO — Urutan Wajib Subjek + Waktu + Tempat + Aksi + Objek",
+      "grammaticalTradition": "Unit 4/4: 汉语基本语序 (Hukum Panggung Spasial-Temporal)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "s",
+          "roleLabel": "1. Subjek",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "t",
+          "roleLabel": "2. Waktu",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "p",
+          "roleLabel": "3. Tempat [在]",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "vo",
+          "roleLabel": "4. Predikat + Objek",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-stpvo-1",
+          "cells": {
+            "s": {
+              "script": "我",
+              "reading": "wǒ",
+              "gloss": "Saya"
+            },
+            "t": {
+              "script": "每天晚上八点",
+              "reading": "měitiān wǎnshang bā diǎn",
+              "gloss": "Setiap malam jam 8"
+            },
+            "p": {
+              "script": "在家里",
+              "reading": "zài jiālǐ",
+              "gloss": "Di rumah"
+            },
+            "vo": {
+              "script": "学习汉语。",
+              "reading": "xuéxí Hànyǔ",
+              "gloss": "Belajar bahasa Mandarin."
+            }
+          },
+          "fullTranslation": "Setiap malam pukul 8 saya belajar bahasa Mandarin di rumah."
+        },
+        {
+          "id": "zh-stpvo-2",
+          "cells": {
+            "s": {
+              "script": "明天",
+              "reading": "míngtiān",
+              "gloss": "Besok (Waktu boleh di depan S)"
+            },
+            "t": {
+              "script": "我们",
+              "reading": "wǒmen",
+              "gloss": "Kami (Subjek)"
+            },
+            "p": {
+              "script": "在机场",
+              "reading": "zài jīchǎng",
+              "gloss": "Di bandara"
+            },
+            "vo": {
+              "script": "见面。",
+              "reading": "jiànmiàn",
+              "gloss": "Bertemu."
+            }
+          },
+          "fullTranslation": "Besok kami bertemu di bandara."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Kamera Sinematik: Setting Latar Dulu, Aksi Kemudian",
+        "psychologyExplanation": "Penutur Mandarin menata kalimat dari bingkai terbesar ke aksi spesifik: Siapa pelakunya → Kapan waktunya → Di mana lokasinya → Apa tindakannya. Keterangan waktu boleh diletakkan sebelum atau sesudah Subjek, tetapi WAJIB berada sebelum kata kerja.",
+        "literalTrap": "Jangan menaruh \"di rumah\" atau \"jam 8\" di akhir kalimat setelah objek (\"我学习汉语在家里\" — SALAH TOTAL)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "ar-00-found-origin-hijaiyyah-harakat",
+  "lang": "ar",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Sejarah Aksara Arab, 4 Posisi Sambung Hijā’iyyah & Sistem Ḥarakāt",
+  "subtitle": "Evolusi dari Nabataean & Khat Kufi ke Naskhi, 6 huruf pemutus sambungan, Ḥarakāt, serta Al-Qamariyyah vs Asy-Syamsiyyah",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "linguistic-lore",
+      "title": "Evolusi Aksara Arab & Kelahiran Sistem Diakritik Ḥarakāt",
+      "eraOrDomain": "Sejarah Ortografi & Kaligrafi Arab (Abad ke-4 – ke-8 M)",
+      "direction": "rtl",
+      "narrativeSummary": "Aksara Arab adalah sistem Abjad (konsonan utama) yang ditulis dari kanan ke kiri (RTL) secara kursif (bersambung). Setiap huruf dapat memiliki hingga 4 variasi bentuk tergantung posisinya dalam kata: Terpisah (مُنفَصِل), Awal (أَوَّل), Tengah (وَسَط), dan Akhir (آخِر).",
+      "milestones": [
+        {
+          "stage": "1. Akar Nabataean & Inskripsi Namāra (328 M)",
+          "scriptSample": "ا ب ج د ه و ز ح ط ي ك ل م ن س ع ف ص ق ر ش ت",
+          "reading": "Urutan Abjadī Klasik (أَبْجَد هَوَّز حُطِّي كَلَمُن...)",
+          "explanation": "Aksara Arab berevolusi dari tulisan kursif bangsa Nabataean di Petra (Yordania/Arab Utara). Awalnya huruf-huruf tidak memiliki titik pembeda (Rasm tanpa Nuqaṭ)."
+        },
+        {
+          "stage": "2. Reformasi Titik (Nuqaṭ) & Ḥarakāt oleh Abū al-Aswad ad-Du’alī & Al-Khalīl (Abad ke-7–8 M)",
+          "scriptSample": "بـ / تـ / ثـ  |  ـَ (Fatḥah) • ـِ (Kasrah) • ـُ (Ḍammah)",
+          "reading": "Pembedaan huruf kembar dengan titik & penambahan tanda vokal pendek",
+          "explanation": "Untuk menjaga akurasi pembacaan Al-Qur’an dan sastra klasik bagi penutur non-Arab, ulama Basrah menambahkan titik pembeda konsonan (ب ت ث) serta tanda vokal pendek di atas/bawah huruf (Ḥarakāt) yang dikembangkan oleh Al-Khalīl ibn Aḥmad al-Farāhīdī."
+        },
+        {
+          "stage": "3. Khat Kufi Geometris & Khat Naskhi Standar Cetak",
+          "scriptSample": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+          "reading": "Bismillāhi ar-Raḥmāni ar-Raḥīm",
+          "explanation": "Khat Naskhi dikembangkan oleh Ibnu Muqlah dengan proporsi geometris berbasis titik belah ketupat dan menjadi standar buku cetak serta tipografi digital Arab modern."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "6 Huruf Pemutus Kiri (الحُرُوفُ الرَّافِسَة / Non-Connectors)",
+          "definition": "Enam huruf (ا ، د ، ذ ، ر ، ز ، و) dapat menyambung dengan huruf sebelumnya (kanan), tetapi TIDAK PERNAH menyambung ke huruf sesudahnya (kiri).",
+          "whyItMatters": "Memahami 6 huruf ini mencegah kesalahan menyambung huruf yang mengubah identitas kata.",
+          "examples": [
+            "دَرَسَ (d-r-s: ketiganya pemutus kiri sehingga tertulis terpisah semua)",
+            "مَدْرَسَة (m-d bersambung, setelah د terputus ke ر, terputus ke سَة)"
+          ]
+        },
+        {
+          "conceptName": "Al-Qamariyyah (ال القمرية) vs Asy-Syamsiyyah (ال الشمسية)",
+          "definition": "Ketika awalan definit \"ال\" (al-) bertemu 14 huruf Syamsiyyah (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), bunyi \"l\" melebur total menjadi tasydīd pada huruf berikutnya.",
+          "whyItMatters": "Kunci kelancaran membaca teks Arab berharakat maupun gundul.",
+          "examples": [
+            "القَمَرُ → al-qamaru (L dibaca jelas)",
+            "الشَّمْسُ → asy-syamsu (L melebur ke Syīn, bukan al-syamsu)",
+            "الرَّحْمٰنُ → ar-raḥmānu (L melebur ke Rā’)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hamzah Qaṭ‘ (أَ / إِ) wajib selalu dibaca jelas di mana pun posisinya, sedangkan Hamzah Waṣl (اِ) hanya dibaca di awal kalimat dan luluh saat disambung dari kata sebelumnya (فِي البَيْتِ dibaca fil-bayti, bukan fī al-bayti).",
+        "Tā’ Marbūṭah (ـة / ة) di akhir kata dibaca \"t\" saat disambung harakat (مَدْرَسَةٌ = madrasatun) dan berubah menjadi bunyi \"h\" lembut saat berhenti/waqaf (مَدْرَسَة = madrasah)."
+      ]
+    },
+    {
+      "type": "script-matrix",
+      "title": "Tabel 4 Posisi Sambung Huruf Hijā’iyyah & Tanda Ḥarakāt",
+      "scriptSystem": "Arabic Script Positional Matrix (RTL)",
+      "direction": "rtl",
+      "description": "Perbandingan bentuk Terpisah, Awal, Tengah, dan Akhir untuk huruf-huruf utama serta tanda baca.",
+      "cells": [
+        {
+          "glyph": "ا / ـا",
+          "reading": "Alif (ا)",
+          "transliteration": "ā / hamzah",
+          "componentRole": "Pemutus Kiri (1/6)",
+          "mnemonic": "Hanya punya 2 bentuk: terpisah (ا) & akhir (ـا)"
+        },
+        {
+          "glyph": "ب • بـ • ـبـ • ـب",
+          "reading": "Bā’ (ب)",
+          "transliteration": "b",
+          "componentRole": "4 Posisi Penuh",
+          "mnemonic": "1 titik di bawah perahu (Ba = Bawah)"
+        },
+        {
+          "glyph": "ج • جـ • ـجـ • ـج",
+          "reading": "Jīm (ج)",
+          "transliteration": "j",
+          "componentRole": "4 Posisi Penuh",
+          "mnemonic": "1 titik di dalam perut (Jīm)"
+        },
+        {
+          "glyph": "ع • عـ • ـعـ • ـع",
+          "reading": "‘Ayn (ع)",
+          "transliteration": "‘ (faringal)",
+          "componentRole": "4 Posisi Penuh",
+          "mnemonic": "Kepala terbuka di awal, segitiga tertutup di tengah/akhir"
+        },
+        {
+          "glyph": "م • مـ • ـمـ • ـم",
+          "reading": "Mīm (م)",
+          "transliteration": "m",
+          "componentRole": "4 Posisi Penuh",
+          "mnemonic": "Lingkaran kecil tertutup dengan ekor turun di akhir"
+        },
+        {
+          "glyph": "ه • هـ • ـهـ • ـه",
+          "reading": "Hā’ (ه)",
+          "transliteration": "h",
+          "componentRole": "4 Posisi Penuh",
+          "mnemonic": "Bentuk pita simpul di tengah (ـهـ) dan lingkaran di akhir"
+        },
+        {
+          "glyph": "ـَ  ـِ  ـُ",
+          "reading": "Fatḥah, Kasrah, Ḍammah",
+          "transliteration": "a • i • u",
+          "componentRole": "Ḥarakāt Vokal Pendek",
+          "mnemonic": "Garis atas (a), garis bawah (i), koma kecil atas (u)"
+        },
+        {
+          "glyph": "ـْ  ـّ  ـً",
+          "reading": "Sukūn, Syaddah, Tanwīn",
+          "transliteration": "mati • ganda • -an",
+          "componentRole": "Tanda Konsonan & Tanwīn",
+          "mnemonic": "Syaddah (ـّ) menggandakan konsonan; Sukūn mematikan vokal"
+        }
+      ]
+    }
+  ]
+}

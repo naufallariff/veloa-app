@@ -1,0 +1,258 @@
+{
+  "id": "en-04-inter-grammar-future-system",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 4,
+  "title": "CEFR B1–B2 | Sistem Future Tense Lengkap (4 Turunan Terpisah Utuh)",
+  "subtitle": "Bedah mendalam satu per satu: Simple Future (Will vs Be Going To), Future Continuous, Future Perfect, dan Future Perfect Continuous",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.1 Simple Future Tense — Kontras Will + V1 vs Be Going To + V1",
+      "grammaticalTradition": "Unit 1/4: Future Simple (Keputusan Spontan vs Rencana Terprogram & Bukti Visual)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "variant",
+          "roleLabel": "Varian & Bentuk",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Psikologi Penggunaan",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-fut-will",
+          "cells": {
+            "variant": {
+              "script": "Will (Keputusan Spontan / Janji)",
+              "gloss": "Diputuskan tepat saat berbicara"
+            },
+            "formula": {
+              "script": "S + will / won’t + V1 | Will + S + V1 + ?",
+              "gloss": "Digunakan untuk tawaran bantuan, janji, dan prediksi berbasis opini pribadi"
+            },
+            "example": {
+              "script": "The server is down? Don’t worry, I’ll restart the container right now.",
+              "gloss": "Keputusan spontan yang baru diambil setelah mendengar masalah"
+            }
+          },
+          "fullTranslation": "Server-nya mati? Jangan khawatir, saya akan me-restart container-nya sekarang juga."
+        },
+        {
+          "id": "en-fut-goingto",
+          "cells": {
+            "variant": {
+              "script": "Be Going To (Rencana Awal / Bukti)",
+              "gloss": "Sudah diniatkan sebelumnya"
+            },
+            "formula": {
+              "script": "S + am/is/are + going to + V1",
+              "gloss": "Digunakan untuk niat matang atau prediksi berdasarkan bukti fisik di depan mata"
+            },
+            "example": {
+              "script": "Look at those dark clouds—it’s going to rain heavily.",
+              "gloss": "Ada bukti visual (awan gelap), sehingga wajib memakai \"going to\""
+            }
+          },
+          "fullTranslation": "Lihat awan gelap itu—hujan deras akan turun."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Aturan Klausa Waktu (Time Clauses): Haram Memakai \"Will\" Setelah When/If/Before/After/As Soon As!",
+        "psychologyExplanation": "Dalam kalimat majemuk masa depan, klausa utama memakai \"will\", tetapi klausa waktu yang diawali when, as soon as, before, after, until WAJIB memakai Simple Present (\"I will call you as soon as I arrive\", BUKAN \"as soon as I will arrive\").",
+        "literalTrap": "Jangan memakai \"will\" untuk rencana yang sudah kamu susun sejak minggu lalu; gunakan \"I am going to...\" atau Present Continuous."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.2 Future Continuous Tense — Rumus Will Be + V-ing (Aksi Berjalan di Masa Depan)",
+      "grammaticalTradition": "Unit 2/4: Future Progressive (Sedang Berlangsung pada Titik Waktu Masa Depan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-fut-c-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Will Be + V-ing"
+            },
+            "formula": {
+              "script": "S + will + be + V-ing + (at this time tomorrow)",
+              "gloss": "Menggambarkan aktivitas yang sudah berada di tengah proses pada jam tertentu di masa depan"
+            },
+            "example": {
+              "script": "At 10 AM tomorrow, we will be presenting our architecture to the board.",
+              "gloss": "Presentasi dimulai sebelum jam 10 dan masih berlangsung tepat jam 10"
+            }
+          },
+          "fullTranslation": "Pada pukul 10 pagi besok, kami akan sedang mempresentasikan arsitektur kami kepada dewan direksi."
+        },
+        {
+          "id": "en-fut-c-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya Sopan (?)",
+              "gloss": "Won’t Be + V-ing"
+            },
+            "formula": {
+              "script": "S + won’t + be + V-ing | Will + S + be + V-ing + ?",
+              "gloss": "Pertanyaan \"Will you be using...?\" terdengar jauh lebih sopan daripada \"Will you use...?\""
+            },
+            "example": {
+              "script": "Will you be passing by the post office on your way home?",
+              "gloss": "Menanyakan rencana rutin tanpa memberi tekanan"
+            }
+          },
+          "fullTranslation": "Apakah kamu akan melewati kantor pos dalam perjalanan pulangmu?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Strategi Kesopanan Tingkat Tinggi dengan Future Continuous",
+        "psychologyExplanation": "Penutur asli sering memakai Future Continuous untuk menanyakan agenda seseorang tanpa terkesan memaksa (\"Will you be joining us for dinner?\"). Ini memberi ruang bagi lawan bicara untuk menjawab secara alami.",
+        "literalTrap": "Jangan lupa kata kerja bantu \"be\" di antara \"will\" dan \"V-ing\" (\"I will studying\" — SALAH; wajib \"I will be studying\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.3 Future Perfect Tense — Rumus Will Have + V3 (Tuntas Sebelum Deadline)",
+      "grammaticalTradition": "Unit 3/4: Future Perfect (Target yang Sudah Selesai Sebelum Titik Waktu Masa Depan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Penanda Deadline",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-fut-p-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Will Have + V3"
+            },
+            "formula": {
+              "script": "S + will + have + V3 + by [deadline] / by the time + S + V1",
+              "gloss": "Penanda wajib: by tomorrow, by next Friday, by 2027, by the time you arrive"
+            },
+            "example": {
+              "script": "By the end of this quarter, we will have migrated all seventy-five modules.",
+              "gloss": "Sebelum kuartal berakhir, seluruh proses migrasi sudah tuntas"
+            }
+          },
+          "fullTranslation": "Menjelang akhir kuartal ini, kami akan sudah memigrasikan seluruh tujuh puluh lima modul."
+        },
+        {
+          "id": "en-fut-p-neg-int",
+          "cells": {
+            "polarity": {
+              "script": "Negatif (-) & Tanya (?)",
+              "gloss": "Won’t Have + V3"
+            },
+            "formula": {
+              "script": "S + won’t + have + V3 + by... | Will + S + have + V3 + by... + ?",
+              "gloss": "Mengecek kesiapan target sebelum tenggat waktu tiba"
+            },
+            "example": {
+              "script": "Will you have finished the report by 5 PM?",
+              "gloss": "Berfokus pada status penyelesaian sebelum jam 5 sore"
+            }
+          },
+          "fullTranslation": "Apakah kamu akan sudah menyelesaikan laporan itu menjelang pukul 5 sore?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Proyeksi Waktu Mundur dari Masa Depan",
+        "psychologyExplanation": "Dalam Future Perfect, otakmu melompat berdiri di sebuah titik masa depan (misal: tahun 2027), lalu menoleh ke belakang untuk melihat pencapaian yang sudah tuntas sebelum titik itu tiba.",
+        "literalTrap": "Gunakan \"by\" (menjelang/paling lambat pada), bukan \"until\" (sampai terus-menerus), untuk tenggat waktu Future Perfect."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.4 Future Perfect Continuous — Rumus Will Have Been + V-ing (Akumulasi Durasi)",
+      "grammaticalTradition": "Unit 4/4: Future Perfect Progressive (Total Durasi Berjalan Hingga Titik Masa Depan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "polarity",
+          "roleLabel": "Bentuk Kalimat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Baku",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-fut-pc-pos",
+          "cells": {
+            "polarity": {
+              "script": "Positif (+)",
+              "gloss": "Will Have Been + V-ing"
+            },
+            "formula": {
+              "script": "By [titik waktu masa depan], S + will + have + been + V-ing + for [durasi]",
+              "gloss": "Mengukur total durasi aktivitas yang masih terus berjalan saat milestone masa depan tercapai"
+            },
+            "example": {
+              "script": "By next November, I will have been developing software for five years.",
+              "gloss": "Menyoroti pencapaian durasi kerja berkelanjutan hingga November depan"
+            }
+          },
+          "fullTranslation": "Menjelang November depan, saya akan sudah mengembangkan perangkat lunak selama lima tahun."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kapan Future Perfect Continuous Digunakan dalam Dunia Profesional?",
+        "psychologyExplanation": "Sangat umum digunakan dalam laporan pencapaian karier, riset jangka panjang, dan proyeksi proyek untuk menekankan konsistensi durasi (\"By the time the satellite reaches Mars, it will have been traveling for seven months\").",
+        "literalTrap": "Sama seperti seluruh keluarga Continuous lainnya, kata kerja statis (know, own, be) harus diturunkan ke Future Perfect Simple (\"I will have known him for ten years\")."
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "ja-05-inter-grammar-voice-conditionals",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 5,
+  "title": "JLPT N3–N2 | Diatesis (Pasif Ukemi & Kausatif Shieki) & 4 Pengandaian (と, ば, たら, なら)",
+  "subtitle": "Bedah sintaksis menengah Jepang satu per satu: Pasif Merugikan, Kausatif, dan nuansa presisi 4 bentuk pengandaian",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.1 Bentuk Pasif (Ukemi / 受身形) — Pasif Langsung vs Pasif Merugikan (Meiwaku no Ukemi)",
+      "grammaticalTradition": "Unit 1/3: 受身表現 (Diatesis Pasif Jepang)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "variant",
+          "roleLabel": "Jenis Kalimat Pasif",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Konjugasi & Partikel",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis Emosi",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-ukemi-direct",
+          "cells": {
+            "variant": {
+              "script": "Konjugasi & Pasif Langsung",
+              "gloss": "Godan: -a + れる | Ichidan: -ru + られる"
+            },
+            "formula": {
+              "script": "[Korban/Penerima] は [Pelaku] に + V-(ら)れる (する → される | 来る → 来られる)",
+              "gloss": "Pelaku tindakan dalam kalimat pasif ditandai dengan partikel に"
+            },
+            "example": {
+              "script": "私は先生に褒められました。 (Watashi wa sensei ni homeraremashita.)",
+              "gloss": "Saya dipuji oleh guru."
+            }
+          },
+          "fullTranslation": "Saya dipuji oleh guru."
+        },
+        {
+          "id": "ja-ukemi-adversative",
+          "cells": {
+            "variant": {
+              "script": "Pasif Merugikan (迷惑の受身)",
+              "gloss": "Bisa memakai Kata Kerja Intransitif!"
+            },
+            "formula": {
+              "script": "[Pihak Terdampak] は [Penyebab] に + V-(ら)れる",
+              "gloss": "Menyatakan bahwa subjek merasa terganggu/dirugikan oleh peristiwa yang terjadi"
+            },
+            "example": {
+              "script": "昨日、帰り道で雨に降られました。 (Kinō, kaerimichi de ame ni furaremashita.)",
+              "gloss": "Kemarin di jalan pulang saya \"dihujani\" (kehujanan dan merasa terganggu)."
+            }
+          },
+          "fullTranslation": "Kemarin di jalan pulang saya kehujanan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Penutur Jepang Jarang Menjadikan Benda Mati sebagai Subjek Pasif?",
+        "psychologyExplanation": "Bahasa Jepang sangat berpusat pada empati manusia (User-Centric Empathy). Alih-alih berkata \"Kue saya dimakan oleh adik\" (fokus ke kue), penutur Jepang berkata \"Saya mengalami kerugian kue saya dimakan oleh adik\" (私は弟にケーキを食べられました).",
+        "literalTrap": "Perhatikan bahwa untuk kata kerja Ichidan (食べる), bentuk Pasif (食べられる) identik tulisannya dengan bentuk Potensial (\"bisa makan\")—bedakan lewat partikel: pelaku pasif memakai に, sedangkan objek potensial memakai が."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.2 Bentuk Kausatif (Shieki / 使役形) — \"Menyuruh / Memaksa\" vs \"Mengizinkan\"",
+      "grammaticalTradition": "Unit 2/3: 使役表現 (Konstruksi Kausatif)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "variant",
+          "roleLabel": "Konjugasi & Nuansa",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Konjugasi & Partikel",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Analisis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-shieki-rule",
+          "cells": {
+            "variant": {
+              "script": "Rumus Kausatif (Membuat / Mengizinkan)",
+              "gloss": "Godan: -a + せる | Ichidan: -ru + させる"
+            },
+            "formula": {
+              "script": "[Atasan/Orang Tua] は [Pelaksana] に/を + V-(さ)せる (する → させる | 来る → 来させる)",
+              "gloss": "Jika kata kerja sudah punya objek (を), maka pelaksana wajib ditandai dengan に"
+            },
+            "example": {
+              "script": "部長は部下に新しいシステムをテストさせました。",
+              "gloss": "Kepala departemen menyuruh bawahan menguji sistem baru."
+            }
+          },
+          "fullTranslation": "Kepala departemen menugaskan bawahan menguji sistem baru."
+        },
+        {
+          "id": "ja-shieki-teitadaku",
+          "cells": {
+            "variant": {
+              "script": "Kausatif + ていただく (Izin Sopan)",
+              "gloss": "Ungkapan kunci dunia kerja Jepang"
+            },
+            "formula": {
+              "script": "V-(さ)せていただく / V-(さ)せてください",
+              "gloss": "Secara harfiah: \"Izinkan saya melakukan...\" — sangat sopan untuk menawarkan aksi"
+            },
+            "example": {
+              "script": "私に説明させてください。 (Watashi ni setsumei sasete kudasai.)",
+              "gloss": "Izinkan saya yang menjelaskannya."
+            }
+          },
+          "fullTranslation": "Mohon izinkan saya untuk menjelaskannya."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Kontras Etika Sosial: Kausatif Hanya Dipakai dari Posisi Lebih Tinggi ke Bawah",
+        "psychologyExplanation": "Menggunakan bentuk kausatif polos terhadap atasan atau orang asing terdengar sangat kasar karena menyiratkan kamu berkuasa menyuruh mereka. Untuk menawarkan bantuan kepada atasan, bungkuslah kausatif dengan 〜せていただきます.",
+        "literalTrap": "Jangan menggandakan partikel を (\"部下をレポートを書かせる\" — SALAH; wajib \"部下にレポートを書かせる\")."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3.3 Empat Bentuk Kalimat Pengandaian Jepang (と, ば, たら, なら) — Perbedaan Presisi",
+      "grammaticalTradition": "Unit 3/3: 条件表現の使い分け (Semantik Kondisional Jepang)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "cond",
+          "roleLabel": "Penanda Pengandaian",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kondisi Khusus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat & Nuansa",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-cond-to",
+          "cells": {
+            "cond": {
+              "script": "1. 〜と (Konsekuensi Otomatis / Hukum Alam)",
+              "gloss": "Bentuk Kamus + と"
+            },
+            "formula": {
+              "script": "V-Kamus / V-ない + と、[Hasil Otomatis Pasti]",
+              "gloss": "DILARANG memakai kalimat perintah/ajakan/keinginan (〜てください, 〜たい) di klausa belakang!"
+            },
+            "example": {
+              "script": "このボタンを押すと、お釣りが出ます。",
+              "gloss": "Kalau menekan tombol ini, uang kembalian otomatis keluar."
+            }
+          },
+          "fullTranslation": "Jika tombol ini ditekan, uang kembaliannya akan keluar."
+        },
+        {
+          "id": "ja-cond-ba",
+          "cells": {
+            "cond": {
+              "script": "2. 〜ば (Syarat Logis / Hipotetis Umum)",
+              "gloss": "Godan: -e + ば | Ichidan: -れば | Adj-i: -ければ"
+            },
+            "formula": {
+              "script": "[Syarat] + ば、[Hasil Logis yang Diharapkan]",
+              "gloss": "Sering digunakan untuk peribahasa, saran umum, dan pola 〜ば〜ほど (semakin... semakin...)"
+            },
+            "example": {
+              "script": "毎日練習すれば、日本語が上手になります。",
+              "gloss": "Jika berlatih setiap hari, bahasa Jepangmu akan menjadi mahir."
+            }
+          },
+          "fullTranslation": "Jika berlatih setiap hari, bahasa Jepang akan menjadi mahir."
+        },
+        {
+          "id": "ja-cond-tara",
+          "cells": {
+            "cond": {
+              "script": "3. 〜たら (Setelah / Jika Terjadi — Paling Serbaguna)",
+              "gloss": "Ta-form + ら"
+            },
+            "formula": {
+              "script": "V-た / Adj-かった / Nomina-だった + ら、[Aksi Berikutnya]",
+              "gloss": "Boleh diikuti perintah, ajakan, maupun peristiwa satu kali di masa depan/lampau"
+            },
+            "example": {
+              "script": "日本に着いたら、すぐ連絡してください。",
+              "gloss": "Kalau/setelah tiba di Jepang, tolong segera hubungi saya."
+            }
+          },
+          "fullTranslation": "Setelah tiba di Jepang, tolong segera hubungi saya."
+        },
+        {
+          "id": "ja-cond-nara",
+          "cells": {
+            "cond": {
+              "script": "4. 〜なら (Kontekstual: \"Kalau Mengenai X yang Kamu Sebut...\")",
+              "gloss": "Plain Form / Nomina + なら"
+            },
+            "formula": {
+              "script": "[Topik dari Lawan Bicara] + なら、[Saran / Rekomendasi]",
+              "gloss": "Menanggapi informasi atau rencana yang baru saja diucapkan lawan bicara"
+            },
+            "example": {
+              "script": "「カメラを買いたいんです。」「カメラなら、新宿が安いですよ。」",
+              "gloss": "\"Saya ingin beli kamera.\" \"Kalau soal beli kamera, Shinjuku murah lho.\""
+            }
+          },
+          "fullTranslation": "\"Saya ingin membeli kamera.\" \"Kalau mengenai kamera, di Shinjuku murah.\""
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Panduan Cepat Memilih Antara と, ば, たら, dan なら",
+        "psychologyExplanation": "Gunakan と untuk mesin/arah jalan/hukum alam; ば untuk syarat logis umum; たら untuk rencana masa depan atau setelah aksi selesai (paling aman di percakapan); dan なら untuk menanggapi topik lawan bicara.",
+        "literalTrap": "Jangan katakan \"時間があると、遊びに来てください\" (salah karena と tidak boleh diikuti permintaan)—ganti dengan \"時間があったら、遊びに来てください\"."
+      }
+    }
+  ]
+}

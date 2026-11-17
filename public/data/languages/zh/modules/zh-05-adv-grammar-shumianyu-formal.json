@@ -1,0 +1,96 @@
+{
+  "id": "zh-05-adv-grammar-shumianyu-formal",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 5,
+  "title": "HSK 5–9 | Shūmiànyǔ (书面语): Sintaksis Bahasa Tulis Formal, Berita & Akademik",
+  "subtitle": "Transformasi bahasa lisan (Kǒuyǔ) ke bahasa tulis ringkas menggunakan partikel klasik 即, 乃, 颇, 所, 以, serta konjungsi akademik",
+  "estimatedMinutes": 60,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Matriks Transformasi Kǒuyǔ (Lisan) → Shūmiànyǔ (Tulis Formal)",
+      "grammaticalTradition": "Advanced Written Chinese Register (现代汉语书面语)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "register",
+          "roleLabel": "Konstruksi Formal",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Pola & Padanan Lisan",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat Jurnalistik / Akademik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-adv-1",
+          "cells": {
+            "register": {
+              "script": "结构助词 所 (suǒ) + Kata Kerja",
+              "gloss": "Nominalisasi objek tindakan formal"
+            },
+            "formula": {
+              "script": "S + 所 + Kata Kerja + 的 + Nomina",
+              "gloss": "Memadatkan klausa panjang menjadi frasa nomina padat bergaya editorial"
+            },
+            "example": {
+              "script": "人工智能所带来的变革正在重塑全球产业格局。",
+              "gloss": "Transformasi yang dibawa oleh kecerdasan buatan sedang membentuk ulang lanskap industri global."
+            }
+          },
+          "fullTranslation": "Transformasi yang dibawa oleh kecerdasan buatan sedang membentuk ulang lanskap industri global."
+        },
+        {
+          "id": "zh-adv-2",
+          "cells": {
+            "register": {
+              "script": "Konjungsi Kausal Formal: 鉴于 / 因而 / 从而",
+              "gloss": "Padanan lisan 因为...所以..."
+            },
+            "formula": {
+              "script": "鉴于 [Fakta/Premis]，[Subjek] 决定/采取 [Tindakan]，从而 [Hasil]",
+              "gloss": "Digunakan dalam laporan kebijakan, hukum, dan abstrak jurnal ilmiah"
+            },
+            "example": {
+              "script": "鉴于数据安全的重要性，我们采用了端到端加密技术，从而有效防止了信息泄露。",
+              "gloss": "Mengingat pentingnya keamanan data, kami mengadopsi enkripsi ujung-ke-ujung, sehingga efektif mencegah kebocoran informasi."
+            }
+          },
+          "fullTranslation": "Mengingat pentingnya keamanan data, kami mengadopsi enkripsi ujung-ke-ujung sehingga efektif mencegah kebocoran informasi."
+        },
+        {
+          "id": "zh-adv-3",
+          "cells": {
+            "register": {
+              "script": "Kopula Klasik: 即 (jí) & 乃 (nǎi)",
+              "gloss": "Padanan lisan 就是 (\"yaitu / adalah\")"
+            },
+            "formula": {
+              "script": "A 即 B (A yaitu B) | A 乃 B 之本 (A adalah akar dari B)",
+              "gloss": "Memberikan bobot definisi ilmiah atau peribahasa formal"
+            },
+            "example": {
+              "script": "失败乃成功之母。 (Shībài nǎi chénggōng zhī mǔ.)",
+              "gloss": "Kegagalan adalah ibu dari keberhasilan."
+            }
+          },
+          "fullTranslation": "Kegagalan adalah ibu dari keberhasilan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Ekonomis Bahasa Tulis Tiongkok (双音节化 — Pasangan Dua Suku Kata)",
+        "psychologyExplanation": "Bahasa lisan Mandarin sering menggunakan kata 1 suku kata + kata bantu (seperti 在 + Tempat = 在北京), sedangkan Shūmiànyǔ memadatkannya menjadi kata depan klasik 于 (yú) di belakang kata kerja (位于北京 = berlokasi di Beijing) agar ritme tulisan berpasangan dua-dua karakter secara elegan.",
+        "literalTrap": "Jangan mencampur kosakata sangat kasual (seperti 东西 atau 搞) di dalam paragraf Shūmiànyǔ yang memakai 鉴于 atau 从而."
+      }
+    }
+  ]
+}

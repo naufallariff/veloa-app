@@ -1,0 +1,71 @@
+{
+  "id": "ar-08-native-rhetoric-balaghah-dialects",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 8,
+  "title": "Native & Stylistics | Al-Balāghah (البلاغة), Syi’ir Klasik & Dialek Arab Modern",
+  "subtitle": "Tiga pilar retorika Arab (Ma’ānī, Bayān, Badī’), keindahan Jinās & Ṭibāq, serta peta dialek Mesir, Syam & Teluk",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Al-Balāghah al-‘Arabiyyah (البلاغة العربية — Ilmu Retorika & Sastra Arab)",
+      "traditionName": "عُلُومُ البَلَاغَةِ الثَّلَاثَةُ: المَعَانِي وَالبَيَانُ وَالبَدِيعُ",
+      "direction": "rtl",
+      "overview": "Al-Balāghah adalah puncak kemahiran berbahasa Arab: menyampaikan makna mendalam secara presisi sesuai konteks pendengar (Muqtaḍā al-Ḥāl) melalui tiga cabang ilmu: Al-Ma’ānī (struktur kalimat), Al-Bayān (citraan metaforis), dan Al-Badī’ (keindahan bunyi dan kontras).",
+      "devices": [
+        {
+          "deviceName": "Metafora & Perumpamaan (Tasybīh & Isti’ārah — التشبيه والاستعارة)",
+          "nativeTerm": "عِلْمُ البَيَانِ",
+          "mechanism": "Meminjam sifat konkret alam untuk menghidupkan konsep abstrak tanpa menyebut kata pembanding secara langsung.",
+          "literaryExample": "العِلْمُ نُورٌ يَهْدِي العُقُولَ فِي ظُلُمَاتِ الجَهْلِ.",
+          "reading": "Al-‘ilmu nūrun yahdī al-‘uqūla fī ẓulumāti al-jahli.",
+          "translation": "Ilmu adalah cahaya yang membimbing akal di tengah kegelapan kebodohan.",
+          "aestheticEffect": "Menciptakan kontras visual cahaya vs kegelapan yang abadi."
+        },
+        {
+          "deviceName": "Antitesis Kontras (Aṭ-Ṭibāq — الطِّبَاق)",
+          "nativeTerm": "عِلْمُ البَدِيعِ (الطِّبَاقُ وَالجِنَاسُ)",
+          "mechanism": "Menyandingkan dua kata berlawanan makna dalam satu napas kalimat untuk mempertegas pesan.",
+          "literaryExample": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ",
+          "reading": "Wa taḥsabuhum ayqāẓan wa hum ruqūdun",
+          "translation": "Dan engkau mengira mereka terjaga, padahal mereka tertidur.",
+          "aestheticEffect": "Keseimbangan retoris yang memikat pendengar."
+        },
+        {
+          "deviceName": "Permainan Bunyi Kembar (Al-Jinās — الجِنَاس)",
+          "nativeTerm": "الجِنَاسُ التَّامُّ وَالنَّاقِصُ",
+          "mechanism": "Menggunakan dua kata dengan pelafalan identik atau hampir mirip tetapi bermakna berbeda.",
+          "literaryExample": "الوقتُ كالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ قَطَعَكَ.",
+          "reading": "Al-waqtu kas-sayfi in lam taqṭa‘hu qaṭa‘aka.",
+          "translation": "Waktu itu bagaikan pedang; jika engkau tidak memotongnya (memanfaatkannya), ia akan memotongmu.",
+          "aestheticEffect": "Musikalitas tinggi yang membuat pepatah Arab mudah dihafal lintas generasi."
+        }
+      ],
+      "dialectAndSlangNotes": [
+        {
+          "varietyName": "Fuṣḥā Mu’āṣirah (Modern Standard Arabic / MSA)",
+          "regionOrContext": "Berita Al-Jazeera, Buku, Pidato Resmi, Jurnal & Komunikasi Lintas Negara Arab",
+          "sampleExpression": "كَيْفَ حَالُكَ؟ • أُرِيدُ أَنْ أَذْهَبَ الآنَ • مَاذَا تُرِيدُ؟",
+          "standardEquivalent": "Standar Pan-Arab (Dipahami di seluruh 22 negara Liga Arab)",
+          "meaning": "Apa kabarmu? • Saya ingin pergi sekarang • Apa yang kamu inginkan?"
+        },
+        {
+          "varietyName": "Al-Lahjah al-Maṣriyyah (Dialek Mesir)",
+          "regionOrContext": "Kairo & Media Hiburan Arab (Paling luas dipahami)",
+          "sampleExpression": "إِزَّيَّك؟ (Izzayyak?) • عَايِز أَرُوح دِلْوَقْتِي • إِيه دَه؟",
+          "standardEquivalent": "كَيْفَ حَالُكَ؟ • أُرِيدُ أَنْ أَذْهَبَ الآنَ • مَا هٰذَا؟",
+          "meaning": "Huruf ق diucapkan sebagai hamzah (قَلْب → ’alb) dan ج diucapkan /g/ keras."
+        },
+        {
+          "varietyName": "Al-Lahjah asy-Syāmiyyah (Dialek Levantine)",
+          "regionOrContext": "Suriah, Lebanon, Yordania & Palestina",
+          "sampleExpression": "كِيفَك؟ (Kīfak?) • بَدِّي رُوح هَلَّأ • شُو هَاد؟",
+          "standardEquivalent": "كَيْفَ حَالُكَ؟ • أُرِيدُ أَنْ أَذْهَبَ الآنَ • مَا هٰذَا؟",
+          "meaning": "Intonasi melodius yang banyak digunakan dalam podcast dan serial modern."
+        }
+      ]
+    }
+  ]
+}

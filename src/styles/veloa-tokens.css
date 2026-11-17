@@ -1,0 +1,169 @@
+/* src/styles/veloa-tokens.css */
+
+/* ==========================================================================
+   LAYER 1: PRIMITIVE TOKENS (Raw Values — Never Referenced Directly in UI)
+   ========================================================================== */
+:root {
+    /* Neutrals */
+    --veloa-neutral-0: #ffffff;
+    --veloa-neutral-50: #f8fafc;
+    --veloa-neutral-100: #f1f5f9;
+    --veloa-neutral-200: #e2e8f0;
+    --veloa-neutral-300: #cbd5e1;
+    --veloa-neutral-500: #64748b;
+    --veloa-neutral-700: #334155;
+    --veloa-neutral-800: #1e293b;
+    --veloa-neutral-900: #0f172a;
+    --veloa-neutral-950: #090d16;
+
+    /* Semantic Role Accents (Violet, Cyan, Amber, Emerald, Rose) */
+    --veloa-violet-500: #8b5cf6;
+    --veloa-violet-600: #7c3aed;
+    --veloa-cyan-500: #06b6d4;
+    --veloa-cyan-600: #0891b2;
+    --veloa-amber-500: #f59e0b;
+    --veloa-amber-600: #d97706;
+    --veloa-emerald-500: #10b981;
+    --veloa-emerald-600: #059669;
+    --veloa-rose-500: #f43f5e;
+    --veloa-rose-600: #e11d48;
+
+    /* Multilingual Font Stacks */
+    --veloa-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --veloa-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --veloa-font-ar: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Amiri', 'Traditional Arabic', serif;
+    --veloa-font-zh: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    --veloa-font-ja: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    --veloa-font-ko: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+
+    /* Apple Fluid Spring & Easing Curves */
+    --veloa-ease-fluid: cubic-bezier(0.22, 1, 0.36, 1);
+    --veloa-ease-press: cubic-bezier(0.2, 0, 0, 1);
+
+    /* ==========================================================================
+     LAYER 2: SEMANTIC TOKENS (Light Mode Default)
+     ========================================================================== */
+    --surface-canvas: var(--veloa-neutral-50);
+    --surface-card: var(--veloa-neutral-0);
+    --surface-elevated: var(--veloa-neutral-100);
+    --surface-chrome: rgba(255, 255, 255, 0.72);
+    --border-subtle: rgba(15, 23, 42, 0.08);
+    --border-strong: rgba(15, 23, 42, 0.16);
+
+    --text-primary: var(--veloa-neutral-900);
+    --text-secondary: var(--veloa-neutral-700);
+    --text-muted: var(--veloa-neutral-500);
+
+    --accent-primary: var(--veloa-violet-600);
+    --accent-primary-soft: rgba(124, 58, 237, 0.1);
+
+    /* ==========================================================================
+     LAYER 3: COMPONENT TOKENS
+     ========================================================================== */
+    --card-radius: 1.125rem;
+    --card-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -12px rgba(15, 23, 42, 0.08);
+    --chrome-blur: blur(20px) saturate(180%);
+    --touch-target-min: 2.75rem;
+    /* 44px WCAG / Apple HIG minimum */
+}
+
+.dark {
+    --surface-canvas: var(--veloa-neutral-950);
+    --surface-card: var(--veloa-neutral-900);
+    --surface-elevated: var(--veloa-neutral-800);
+    --surface-chrome: rgba(15, 23, 42, 0.76);
+    --border-subtle: rgba(248, 250, 252, 0.09);
+    --border-strong: rgba(248, 250, 252, 0.18);
+
+    --text-primary: var(--veloa-neutral-50);
+    --text-secondary: var(--veloa-neutral-300);
+    --text-muted: var(--veloa-neutral-500);
+
+    --accent-primary: var(--veloa-violet-500);
+    --accent-primary-soft: rgba(139, 92, 246, 0.16);
+    --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px -12px rgba(0, 0, 0, 0.55);
+}
+
+/* ==========================================================================
+   APPLE MATERIAL CHROME & TACTILE INTERACTION UTILITIES
+   ========================================================================== */
+.veloa-glass-chrome {
+    background: var(--surface-chrome);
+    backdrop-filter: var(--chrome-blur);
+    -webkit-backdrop-filter: var(--chrome-blur);
+    border-color: var(--border-subtle);
+}
+
+.veloa-surface-card {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.veloa-tactile-btn {
+    min-height: var(--touch-target-min);
+    transition:
+        transform 120ms var(--veloa-ease-press),
+        background-color 180ms var(--veloa-ease-fluid),
+        border-color 180ms var(--veloa-ease-fluid);
+}
+
+.veloa-tactile-btn:active {
+    transform: scale(0.975);
+}
+
+/* ==========================================================================
+   SCRIPT-SPECIFIC OPTICAL TYPOGRAPHY (Prevents Harakat & CJK Clipping)
+   ========================================================================== */
+.veloa-script-ar {
+    font-family: var(--veloa-font-ar);
+    line-height: 2.15;
+    letter-spacing: 0;
+    font-feature-settings: 'liga' 1, 'calt' 1, 'mark' 1, 'mkmk' 1;
+}
+
+.veloa-script-zh {
+    font-family: var(--veloa-font-zh);
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+}
+
+.veloa-script-ja {
+    font-family: var(--veloa-font-ja);
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+}
+
+.veloa-script-ko {
+    font-family: var(--veloa-font-ko);
+    line-height: 1.75;
+    letter-spacing: -0.01em;
+}
+
+.veloa-script-en {
+    font-family: var(--veloa-font-sans);
+    line-height: 1.65;
+    letter-spacing: -0.005em;
+}
+
+/* ==========================================================================
+   ACCESSIBILITY: REDUCED MOTION & REDUCED TRANSPARENCY
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+
+    .veloa-tactile-btn,
+    .veloa-animated-enter {
+        transition: opacity 150ms ease !important;
+        transform: none !important;
+        animation: none !important;
+    }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+    .veloa-glass-chrome {
+        background: var(--surface-card);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}

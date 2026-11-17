@@ -1,0 +1,162 @@
+{
+  "id": "ko-05-adv-grammar-honorifics-indirect",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 5,
+  "title": "TOPIK II (5–6) | Sistem Honorifik Subjek -(으)시- (Nopimmal) & Kalimat Tidak Langsung (간접화법)",
+  "subtitle": "Navigasi tingkat kehormatan sosial Korea (Juche Nopimbeop) dan empat pola kutipan tidak langsung tingkat lanjut",
+  "estimatedMinutes": 70,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4.1 Sistem Honorifik Subjek -(으)시- & Leksikon Honorifik Khusus (높임말)",
+      "grammaticalTradition": "Unit 1/2: 주체 높임법 (Meninggikan Subjek Pelaku Tindakan)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "plain",
+          "roleLabel": "Bentuk Biasa (Netral)",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "honorific",
+          "roleLabel": "Bentuk Honorifik (Untuk Orang Tua / Atasan / Klien)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat Lengkap & Partikel 께서",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-hon-si",
+          "cells": {
+            "plain": {
+              "script": "Rumus Umum: Akar + -(으)시- + Akhiran Kala/Sopan",
+              "gloss": "가다 → 가시다 → 가세요 | 읽다 → 읽으시다 → 읽으세요"
+            },
+            "honorific": {
+              "script": "Partikel Subjek: 이/가 → 께서 | 은/는 → 께서는 | Kepada: 에게 → 께",
+              "gloss": "Menyisipkan -(으)시- tepat setelah akar kata kerja/sifat"
+            },
+            "example": {
+              "script": "교수님께서 지금 연구실에서 논문을 읽으세요.",
+              "gloss": "Profesor sedang membaca makalah di ruang riset."
+            }
+          },
+          "fullTranslation": "Profesor sedang membaca makalah di ruang riset."
+        },
+        {
+          "id": "ko-hon-lexical",
+          "cells": {
+            "plain": {
+              "script": "먹다/마시다 • 자다 • 있다 • 말하다 • 주다",
+              "gloss": "5 Kata Kerja dengan Pengganti Honorifik Khusus"
+            },
+            "honorific": {
+              "script": "드시다/잡수시다 • 주무시다 • 계시다 • 말씀하시다 • 드리다 (merendah)",
+              "gloss": "Haram memakai 먹으시다 atau 자시다—wajib pakai bentuk leksikal khusus!"
+            },
+            "example": {
+              "script": "할머니께서 지금 방에서 주무시고 계세요. / 식사 맛있게 드세요!",
+              "gloss": "Nenek sekarang sedang tidur di kamar. / Selamat menikmati hidangan!"
+            }
+          },
+          "fullTranslation": "Nenek sekarang sedang tidur di kamar. / Selamat menikmati hidangan!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Hukum Apjjonbeop (압존법): Jangan Meninggikan Kolega/Atasan Menengah di Depan Bos Tertinggi!",
+        "psychologyExplanation": "Sama seperti hukum Uchi–Soto Jepang, dalam budaya korporat Korea, jika kamu melapor kepada Direktur Utama (사장님) mengenai Manajer Timmu (과장님), kamu tidak memakai -(으)시- untuk Manajer di depan Direktur (\"과장님은 지금 회의에 들어갔습니다\", bukan 들어가셨습니다).",
+        "literalTrap": "Jangan pernah memakai -(으)시- untuk tindakan dirimu sendiri (\"제가 가실게요\" — kesalahan fatal)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4.2 Empat Pola Kalimat Tidak Langsung Korea (간접화법 — Pernyataan, Tanya, Perintah, Ajakan)",
+      "grammaticalTradition": "Unit 2/2: 간접화법의 4가지 유형 (Sintaksis Kutipan Akademik & Jurnalistik)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "clauseType",
+          "roleLabel": "Jenis Kutipan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Bentuk Kontraksi Lisan",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Kalimat Lengkap",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-ind-decl",
+          "cells": {
+            "clauseType": {
+              "script": "1. Pernyataan (Declarative)",
+              "gloss": "Kata Kerja: -는다/ㄴ다고 | Kata Sifat: -다고 | Nomina: -(이)라고"
+            },
+            "formula": {
+              "script": "[Klausa Pernyataan] + -다고 하다 (Kontraksi lisan: -대요)",
+              "gloss": "Lampau: -았/었다고 하다 (kontraksi: -았/었대요)"
+            },
+            "example": {
+              "script": "일기예보에서 내일 눈이 온다고 했어요 (온대요).",
+              "gloss": "Prakiraan cuaca mengatakan besok salju akan turun."
+            }
+          },
+          "fullTranslation": "Prakiraan cuaca mengatakan besok salju akan turun."
+        },
+        {
+          "id": "ko-ind-inter",
+          "cells": {
+            "clauseType": {
+              "script": "2. Pertanyaan (Interrogative)",
+              "gloss": "Kata Kerja/Sifat: -냐고 | Nomina: -(이)냐고"
+            },
+            "formula": {
+              "script": "[Klausa Tanya] + -냐고 묻다/하다 (Kontraksi lisan: -냬요)",
+              "gloss": "Mengubah semua pertanyaan langsung menjadi kutipan laporan"
+            },
+            "example": {
+              "script": "친구가 저에게 언제 한국에 가냐고 물어봤어요.",
+              "gloss": "Teman bertanya kepada saya kapan saya pergi ke Korea."
+            }
+          },
+          "fullTranslation": "Teman bertanya kepada saya kapan saya pergi ke Korea."
+        },
+        {
+          "id": "ko-ind-imp-prop",
+          "cells": {
+            "clauseType": {
+              "script": "3. Perintah (-(으)라고) & 4. Ajakan (-자고)",
+              "gloss": "Memerintah vs Mengajak"
+            },
+            "formula": {
+              "script": "Perintah: Akar + -(으)라고 하다 (kontraksi: -(으)래요) | Ajakan: Akar + -자고 하다 (kontraksi: -재요)",
+              "gloss": "Khusus 주다 (memberi untuk pembicara) menjadi 달라고 하다!"
+            },
+            "example": {
+              "script": "의사 선생님이 매일 물을 많이 마시라고 하셨어요. / 친구가 같이 점심을 먹자고 했어요.",
+              "gloss": "Dokter menyuruh minum banyak air setiap hari. / Teman mengajak makan siang bersama."
+            }
+          },
+          "fullTranslation": "Dokter berpesan agar minum banyak air setiap hari. / Teman mengajak makan siang bersama."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Keajaiban Kontraksi Lisan (-대요, -냬요, -래요, -재요)",
+        "psychologyExplanation": "Penutur asli Korea jarang mengucapkan \"-다고 해요\" atau \"-자고 해요\" secara penuh dalam percakapan sehari-hari; mereka memadatkannya menjadi akhiran 2 suku kata yang super ringkas: -대요 (\"katanya...\"), -냬요 (\"dia nanya apakah...\"), -래요 (\"dia nyuruh...\"), dan -재요 (\"dia ngajak...\").",
+        "literalTrap": "Ingat pengecualian kutipan perintah dengan kata kerja 주다 (memberi): jika seseorang meminta sesuatu untuk dirinya sendiri (\"Tolong beri saya air\"), kutipan tidak langsungnya adalah \"물을 달라고 했어요\", BUKAN \"물을 주라고 했어요\"."
+      }
+    }
+  ]
+}

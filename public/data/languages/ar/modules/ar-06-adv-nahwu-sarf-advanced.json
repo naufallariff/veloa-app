@@ -1,0 +1,216 @@
+{
+  "id": "ar-06-adv-nahwu-sarf-advanced",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 6,
+  "title": "CEFR C1–C2 | Naḥwu & Ṣarf Mahir: Al-Mamnu’ min aṣ-Ṣarf, Fi’il Mu’tal & Uslūb Syarṭ",
+  "subtitle": "Bedah aturan kata benda yang menolak tanwin & kasrah, perubahan huruf penyakit (و/ا/ي), serta kalimat pengandaian",
+  "estimatedMinutes": 75,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "5.1 Al-Mamnu’ min aṣ-Ṣarf (الممنوع من الصرف) — Kata Benda yang Haram Tanwin & Kasrah",
+      "grammaticalTradition": "Ilmu Naḥwu Mahir Unit 1/3: جَرُّ المَمْنُوعِ مِنَ الصَّرْفِ بِالفَتْحَةِ",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Penyebab",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Hukum I’rāb Khusus",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Pengecualian",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mamnu-rule",
+          "cells": {
+            "category": {
+              "script": "Nama Non-Arab / Nama Perempuan / Jamak Muntahā al-Jumū’ / Pola أَفْعَلُ",
+              "gloss": "إِبْرَاهِيمُ • فَاطِمَةُ • مَسَاجِدُ • أَحْمَدُ • مِصْرُ"
+            },
+            "formula": {
+              "script": "Rafa’: ـُ (tanpa tanwin) | Naṣab: ـَ | Jarr: الفَتْحَةُ (ـَ) نِيَابَةً عَنِ الكَسْرَةِ!",
+              "gloss": "Pengecualian: Jika diberi ال atau di-idhāfah-kan, kembali menerima Kasrah (فِي المَسَاجِدِ / فِي مَسَاجِدِ القَاهِرَةِ)"
+            },
+            "example": {
+              "script": "سَافَرْتُ إِلَى مِصْرَ. / صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ.",
+              "reading": "Sāfartu ilā Miṣra. / Ṣallaytu fī masājida katsīratin.",
+              "gloss": "Saya bepergian ke Mesir (مِصْرَ ber-fatḥah meski setelah إِلَى!). / Saya salat di banyak masjid."
+            }
+          },
+          "fullTranslation": "Saya bepergian ke Mesir. / Saya salat di banyak masjid."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Mengapa Kita Membaca \"إِلَى مِصْرَ\" dan \"عَنْ عَائِشَةَ\" dengan Fatḥah, Bukan Kasrah?",
+        "psychologyExplanation": "Kata benda yang memiliki dua beban morfologis/makna sekaligus (seperti nama tempat/non-Arab, pola jamak مَفَاعِلُ, atau pola perbandingan أَفْعَلُ) dianggap \"berat\" dalam fonologi Arab sehingga kehilangan hak bertanwin dan hak menerima harakat Kasrah.",
+        "literalTrap": "Jangan pernah membaca \"فِي مَسَاجِدٍ\" — kata berpola مَفَاعِلُ / مَفَاعِيلُ (مَسَاجِدُ، مَفَاتِيحُ، قَوَانِينُ) tidak boleh bertanwin dan di-jarr-kan dengan Fatḥah."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "5.2 Ilmu Ṣarf: Fi’il Mu’tal (الفعل المعتل) — Hukum Huruf Penyakit (و ، ا ، ي)",
+      "grammaticalTradition": "Ilmu Ṣarf Mahir Unit 2/3: المِثَالُ وَالأَجْوَفُ وَالنَّاقِصُ (Ilmu I’lāl)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "mutalType",
+          "roleLabel": "Jenis Fi’il Mu’tal",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Aturan Perubahan (I’lāl)",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Konjugasi Kritis",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutal-mithal",
+          "cells": {
+            "mutalType": {
+              "script": "1. المِثَالُ (Huruf Penyakit di Awal: وَجَدَ / وَصَلَ)",
+              "gloss": "Huruf pertama berupa Wāw"
+            },
+            "formula": {
+              "script": "Huruf Wāw GUGUR pada Fi’il Muḍāri’ & Amr jika ‘Ain Fi’il berharakat Kasrah",
+              "gloss": "وَصَلَ → يَصِلُ (bukan يَوْصِلُ) → صِلْ!"
+            },
+            "example": {
+              "script": "وَجَدَ → يَجِدُ → جِدْ! | وَقَفَ → يَقِفُ → قِفْ!",
+              "reading": "wajada → yajidu → jid! | waqafa → yaqifu → qif!",
+              "gloss": "Menemukan → Temukanlah! | Berhenti → Berhentilah!"
+            }
+          },
+          "fullTranslation": "Menemukan → Temukanlah! | Berhenti → Berhentilah!"
+        },
+        {
+          "id": "ar-mutal-ajwaf",
+          "cells": {
+            "mutalType": {
+              "script": "2. الأَجْوَفُ (Huruf Penyakit di Tengah: قَالَ / بَاعَ)",
+              "gloss": "Akar ق-و-ل & ب-ي-ع"
+            },
+            "formula": {
+              "script": "Huruf tengah GUGUR saat bertemu sukūn (dhamir هُنَّ / أَنْتَ / أَنَا / لَمْ / Amr)",
+              "gloss": "Mencegah bertemunya dua huruf mati (اِلْتِقَاءُ السَّاكِنَيْنِ)"
+            },
+            "example": {
+              "script": "قَالَ → يَقُولُ → قُلْتُ (saya berkata) → قُلْ (katakanlah!) → لَمْ يَقُلْ",
+              "reading": "qāla → yaqūlu → qultu → qul → lam yaqul",
+              "gloss": "Perhatikan perubahan vokal: قُلْتُ (dari Wāw) vs بِعْتُ (dari Yā’ pada بَاعَ)"
+            }
+          },
+          "fullTranslation": "Berkata (قَالَ) → Saya berkata (قُلْتُ) → Katakanlah (قُلْ)"
+        },
+        {
+          "id": "ar-mutal-naqis",
+          "cells": {
+            "mutalType": {
+              "script": "3. النَّاقِصُ (Huruf Penyakit di Akhir: دَعَا / رَمَى)",
+              "gloss": "Akar د-ع-و & ر-م-ي"
+            },
+            "formula": {
+              "script": "Huruf akhir GUGUR saat Jazm (لَمْ) dan saat Fi’il Amr (tanpa Alif/Wāw/Yā’)",
+              "gloss": "Digantikan oleh harakat pendek yang sesuai"
+            },
+            "example": {
+              "script": "دَعَا → يَدْعُو → لَمْ يَدْعُ → اُدْعُ! | رَمَى → يَرْمِي → لَمْ يَرْمِ → اِرْمِ!",
+              "reading": "da‘ā → yad‘ū → lam yad‘u → ud‘u! | ramā → yarmī → lam yarmi → irmi!",
+              "gloss": "Berdoalah (اُدْعُ tanpa و) | Lemparkanlah (اِرْمِ tanpa ي)"
+            }
+          },
+          "fullTranslation": "Berdoa (دَعَا) → Berdoalah (اُدْعُ) | Melempar (رَمَى) → Lemparkanlah (اِرْمِ)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Hukum Anti-Tabrakan Sukūn (اِلْتِقَاءُ السَّاكِنَيْنِ): Kunci Seluruh Perubahan Fi’il Mu’tal",
+        "psychologyExplanation": "Lidah Arab tidak mengizinkan dua huruf mati bertemu dalam satu suku kata. Pada kata قَالَ (Alif sukun), ketika huruf Lām disukunkan untuk perintah (قَالْ), Alif di tengah otomatis gugur sehingga menjadi قُلْ (katakanlah!).",
+        "literalTrap": "Jangan menulis \"قُولْ\" atau \"اُدْعُو\" untuk perintah tunggal—huruf panjangnya wajib dipangkas menjadi \"قُلْ\" dan \"اُدْعُ\"."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "5.3 Uslūb asy-Syarṭ (أُسْلُوبُ الشَّرْطِ) — Kalimat Pengandaian Jazm vs Non-Jazm",
+      "grammaticalTradition": "Ilmu Naḥwu Mahir Unit 3/3: أَدَوَاتُ الشَّرْطِ الجَازِمَةُ وَغَيْرُ الجَازِمَةِ",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "particle",
+          "roleLabel": "Partikel Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus Struktur",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Berharakat & Makna",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-syart-jazim",
+          "cells": {
+            "particle": {
+              "script": "إِنْ (Jika) • مَنْ (Barang siapa) • مَا (Apa pun)",
+              "gloss": "Menyebabkan Jazm (Sukūn) pada DUA kata kerja!"
+            },
+            "formula": {
+              "script": "أَدَاةُ الشَّرْطِ + فِعْلُ الشَّرْطِ (مَجْزُوم) + جَوَابُ الشَّرْطِ (مَجْزُوم)",
+              "gloss": "Kedua kata kerja (syarat dan hasil) sama-sama disukunkan"
+            },
+            "example": {
+              "script": "إِنْ تَجْتَهِدْ تَنْجَحْ. / مَنْ يَزْرَعْ يَحْصُدْ.",
+              "reading": "In tajtahid tanjaḥ. / Man yazra‘ yaḥṣud.",
+              "gloss": "Jika engkau bersungguh-sungguh, engkau akan berhasil. / Siapa yang menanam, dia menuai."
+            }
+          },
+          "fullTranslation": "Jika engkau bersungguh-sungguh, engkau akan berhasil."
+        },
+        {
+          "id": "ar-syart-ghayr",
+          "cells": {
+            "particle": {
+              "script": "إِذَا (Apabila pasti) vs لَوْ (Seandainya tidak nyata)",
+              "gloss": "Tidak men-jazm-kan kata kerja"
+            },
+            "formula": {
+              "script": "إِذَا + فِعْلٌ مَاضٍ (bermakna masa depan pasti) | لَوْ + فِعْلٌ مَاضٍ + لَـ (jawāb)",
+              "gloss": "لَوْ dipakai untuk pengandaian yang mustahil/tidak terjadi di masa lampau"
+            },
+            "example": {
+              "script": "إِذَا جَاءَ الصَّيْفُ سَافَرْنَا. / لَوْ دَرَسْتَ جَيِّدًا لَنَجَحْتَ.",
+              "reading": "Idzā jā’a aṣ-ṣayfu sāfarnā. / Law darasta jayyidan lanajaḥta.",
+              "gloss": "Apabila musim panas tiba, kami akan bepergian. / Seandainya dulu kamu belajar giat, tentu kamu lulus."
+            }
+          },
+          "fullTranslation": "Apabila musim panas tiba, kami akan bepergian. / Seandainya dulu kamu belajar giat, tentu kamu lulus."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Perbedaan Presisi Tiga Kata \"Jika\": إِنْ vs إِذَا vs لَوْ",
+        "psychologyExplanation": "Gunakan إِنْ untuk syarat yang belum pasti terjadi (kemungkinan 50:50), إِذَا untuk sesuatu yang pasti akan tiba waktunya (seperti musim, malam, atau kepulangan), dan لَوْ untuk pengandaian berlawanan fakta.",
+        "literalTrap": "Jangan melupakan huruf Lām penegas (لَـ) pada jawaban kalimat yang diawali لَوْ (لَوْ... لَـ...)."
+      }
+    }
+  ]
+}

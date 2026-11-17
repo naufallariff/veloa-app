@@ -1,0 +1,144 @@
+{
+  "id": "ja-00-found-origin-three-scripts",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 1,
+  "title": "Foundation | Sejarah & Logika 3 Sistem Aksara Jepang: Kanji, Hiragana & Katakana",
+  "subtitle": "Mengapa Jepang tidak memakai spasi, bagaimana Man’yōgana melahirkan Kana, dan pembagian tugas visual ketiga aksara",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "linguistic-lore",
+      "title": "Evolusi Aksara Jepang: Dari Kanji Tiongkok Menuju Simfoni Tiga Aksara",
+      "eraOrDomain": "Sejarah Ortografi Jepang (Era Nara & Heian, Abad ke-5 – ke-9 M)",
+      "direction": "ltr",
+      "narrativeSummary": "Jepang awalnya tidak memiliki sistem tulisan sendiri dan mengadopsi aksara Han (Kanji) dari Tiongkok. Namun, struktur bahasa Jepang memiliki akhiran konjugasi kata kerja dan partikel yang tidak ada dalam Mandarin. Untuk mencatat bunyi tata bahasa Jepang, lahirlah dua aksara silabis asli Jepang (Kana) yang bekerja harmonis bersama Kanji.",
+      "milestones": [
+        {
+          "stage": "1. Man’yōgana (万葉仮名 — Abad ke-7)",
+          "scriptSample": "安 (a) → あ (Hiragana) | 阿 (a) → ア (Katakana)",
+          "reading": "Meminjam Kanji hanya untuk bunyinya tanpa peduli maknanya",
+          "explanation": "Dalam antologi puisi Man’yōshū, penyair Jepang memakai karakter Kanji tertentu secara fonetis untuk menuliskan partikel dan akhiran bahasa Jepang."
+        },
+        {
+          "stage": "2. Hiragana (ひらがな — Tulisan Kursif Melengkung)",
+          "scriptSample": "私は日本語を勉強します。",
+          "reading": "Kanji (akar makna) + Hiragana (partikel は・を & akhiran します)",
+          "explanation": "Dikembangkan melalui kaligrafi cepat yang dipopulerkan oleh penulis sastra wanita istana era Heian (seperti Murasaki Shikibu dalam Genji Monogatari). Berfungsi menandai partikel, konjugasi, dan kata asli Jepang."
+        },
+        {
+          "stage": "3. Katakana (カタカナ — Tulisan Sudut Tajam)",
+          "scriptSample": "コーヒー • コンピューター • テレビ",
+          "reading": "Kōhī (Kopi) • Konpyūtā (Komputer) • Terebi (TV)",
+          "explanation": "Diciptakan oleh para biksu Buddha era Nara sebagai catatan singkat (shorthand) dari bagian sudut karakter Kanji. Kini berfungsi menandai kata serapan asing (Gairaigo), istilah ilmiah, nama asing, dan efek suara onomatope."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mengapa Kalimat Jepang Tidak Menggunakan Spasi?",
+          "definition": "Pergantian kontras visual antara Kanji yang padat bersegi dan Hiragana yang melengkung terbuka otomatis memberi sinyal bagi otak pembaca di mana satu kata berakhir dan partikel dimulai.",
+          "whyItMatters": "Menulis seluruh kalimat Jepang dengan Hiragana semua (\"ははははながすき\") sangat sulit dibaca dibandingkan campuran Kanji-Hiragana (\"母は花が好き\" = Ibu menyukai bunga).",
+          "examples": [
+            "食べる (Kanji 食 = makan + Hiragana べる = akhiran kamus)",
+            "食べました (akar tetap 食, ekor berubah jadi べました)"
+          ]
+        },
+        {
+          "conceptName": "Aturan Dasar Urutan Guratan (Kakijun — 書き順)",
+          "definition": "Kiri ke kanan, atas ke bawah, garis horizontal mendahului garis vertikal yang memotongnya, dan garis tengah ditulis lebih dulu pada bentuk simetris.",
+          "whyItMatters": "Menjamin keseimbangan proporsi karakter Kana dan Kanji.",
+          "examples": [
+            "あ (1. datar → 2. vertikal melengkung → 3. simpul melingkar)",
+            "十 (1. datar 一 → 2. tegak 丨)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Setiap karakter Hiragana dan Katakana mewakili tepat 1 ketukan waktu (Mora), bukan sekadar huruf konsonan/vokal terpisah.",
+        "Sebagian besar Kanji memiliki dua cara baca: On’yomi (音読み — bunyi serapan Tionghoa, dipakai dalam kata majemuk) dan Kun’yomi (訓読み — bacaan kata asli Jepang, biasanya berdiri sendiri)."
+      ]
+    },
+    {
+      "type": "script-matrix",
+      "title": "Tabel Referensi Hiragana & Katakana Fondasi (Gojūon)",
+      "scriptSystem": "Kana Foundation Table (五十音図)",
+      "direction": "ltr",
+      "description": "Pasangan karakter Hiragana (melengkung) dan Katakana (menyudut) beserta aturan guratannya.",
+      "cells": [
+        {
+          "glyph": "あ / ア",
+          "reading": "a",
+          "transliteration": "Vokal A",
+          "componentRole": "Baris Vokal (母音)",
+          "strokeOrderRule": "3 guratan (Hiragana) / 2 guratan (Katakana)",
+          "strokeCount": 3,
+          "mnemonic": "Bentuk huruf \"a\" melengkung di dalam あ"
+        },
+        {
+          "glyph": "い / イ",
+          "reading": "i",
+          "transliteration": "Vokal I",
+          "componentRole": "Baris Vokal (母音)",
+          "strokeOrderRule": "Kiri turun berkait, lalu kanan pendek",
+          "strokeCount": 2,
+          "mnemonic": "Dua garis vertikal sejajar seperti huruf \"ii\""
+        },
+        {
+          "glyph": "う / ウ",
+          "reading": "u",
+          "transliteration": "Vokal U",
+          "componentRole": "Baris Vokal (母音)",
+          "strokeOrderRule": "Titik atas dulu, lalu lengkungan bawah",
+          "strokeCount": 2,
+          "mnemonic": "Seperti telinga (mimi) yang mendengar bunyi \"u\""
+        },
+        {
+          "glyph": "え / エ",
+          "reading": "e",
+          "transliteration": "Vokal E",
+          "componentRole": "Baris Vokal (母音)",
+          "strokeOrderRule": "Titik atas → garis zig-zag melengkung",
+          "strokeCount": 2,
+          "mnemonic": "Katakana エ menyerupai balok besi huruf I kapital"
+        },
+        {
+          "glyph": "お / オ",
+          "reading": "o",
+          "transliteration": "Vokal O",
+          "componentRole": "Baris Vokal (母音)",
+          "strokeOrderRule": "1. Datar → 2. Vertikal melingkar → 3. Titik kanan",
+          "strokeCount": 3,
+          "mnemonic": "Pemain golf mengayunkan stik bola \"o\""
+        },
+        {
+          "glyph": "か / カ",
+          "reading": "ka",
+          "transliteration": "Suku Kata KA",
+          "componentRole": "Baris K (か行)",
+          "strokeOrderRule": "Lengkung kait → garis potong → titik kanan",
+          "strokeCount": 3,
+          "mnemonic": "Berasal dari Kanji 加 (menambah)"
+        },
+        {
+          "glyph": "さ / サ",
+          "reading": "sa",
+          "transliteration": "Suku Kata SA",
+          "componentRole": "Baris S (さ行)",
+          "strokeOrderRule": "Datar → miring memotong → lengkung dasar",
+          "strokeCount": 3,
+          "mnemonic": "Hiragana さ adalah cerminan dari ち (chi)"
+        },
+        {
+          "glyph": "た / タ",
+          "reading": "ta",
+          "transliteration": "Suku Kata TA",
+          "componentRole": "Baris T (た行)",
+          "strokeOrderRule": "Tanda silang kiri + dua garis kanan",
+          "strokeCount": 4,
+          "mnemonic": "Hiragana た terlihat persis seperti huruf \"t\" dan \"a\""
+        }
+      ]
+    }
+  ]
+}
