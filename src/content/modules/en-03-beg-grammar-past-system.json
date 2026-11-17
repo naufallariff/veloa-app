@@ -1,0 +1,98 @@
+{
+  "id": "en-03-beg-grammar-past-system",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 120,
+  "title": "Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+  "subtitle": "Menyatakan peristiwa selesai di titik waktu lampau tertutup",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A2 · Waystage | Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-03-beg-grammar-past-system-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
+              "gloss": "Menguasai V2, was/were, going to, dan will"
+            },
+            "formula": {
+              "script": "S + V2 | S + did not + V1 | S + was/were + Complement",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "They launched the prototype yesterday. Did you attend?",
+              "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+              "gloss": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
+            }
+          },
+          "fullTranslation": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
+        },
+        {
+          "id": "en-03-beg-grammar-past-system-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Menyatakan peristiwa selesai di titik waktu lampau tertutup"
+            },
+            "example": {
+              "script": "They launched the prototype yesterday. Did you attend?",
+              "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan peristiwa selesai di titik waktu lampau tertutup — Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t\"",
+        "psychologyExplanation": "Menyatakan peristiwa selesai di titik waktu lampau tertutup. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"S + V2 | S + did not + V1 | S + was/were + Complement\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-03-beg-grammar-past-system-voc-1",
+          "term": "They launched the prototype yesterday. Did you attend?",
+          "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+          "meaning": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: S + V2 | S + did not + V1 | S + was/were + Complement",
+          "exampleSentence": "They launched the prototype yesterday. Did you attend?",
+          "exampleTranslation": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
+        }
+      ]
+    }
+  ]
+}

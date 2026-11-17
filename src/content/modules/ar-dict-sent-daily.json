@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-sent-daily",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 105,
+  "title": "Kalimat Salam, Perkenalan, Permintaan Maaf, Kampus & Perjalanan",
+  "subtitle": "Ekspresi Arab Standar Modern (Fuṣḥā Muʿāṣirah) berharakat penuh",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Arab | Kalimat Salam, Perkenalan, Permintaan Maaf, Kampus & Perjalanan",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-sent-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Al-Jumal al-Yawmiyyah)",
+              "gloss": "Ungkapan harian berharakat lengkap untuk interaksi sopan"
+            },
+            "formula": {
+              "script": "Taḥiyyāt + Istifhām (Pertanyaan Sopan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "عَفْوًا، أَيْنَ تَقَعُ الْمَكْتَبَةُ الْمَرْكَزِيَّةُ؟",
+              "reading": "ʿAfwan, ayna taqaʿu al-maktabatu al-markaziyyatu?",
+              "gloss": "Permisi, di manakah letak perpustakaan pusat?"
+            }
+          },
+          "fullTranslation": "Permisi, di manakah letak perpustakaan pusat?"
+        },
+        {
+          "id": "ar-dict-sent-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Mufradāt Berbasis Akar Kata, Kalimat Harian & Ḥiwār (Kamus & Korpus Arab)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Ekspresi Arab Standar Modern (Fuṣḥā Muʿāṣirah) berharakat penuh"
+            },
+            "example": {
+              "script": "عَفْوًا، أَيْنَ تَقَعُ الْمَكْتَبَةُ الْمَرْكَزِيَّةُ؟",
+              "reading": "ʿAfwan, ayna taqaʿu al-maktabatu al-markaziyyatu?",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Ekspresi Arab Standar Modern (Fuṣḥā Muʿāṣirah) berharakat penuh — Permisi, di manakah letak perpustakaan pusat?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Perkenalan, Permintaan Maaf, Kampus & Perjalanan\"",
+        "psychologyExplanation": "Ekspresi Arab Standar Modern (Fuṣḥā Muʿāṣirah) berharakat penuh. Dalam kerangka 2. Bank Kalimat Sehari-hari (Al-Jumal al-Yawmiyyah), penutur asli memetakan hubungan makna menggunakan rumus \"Taḥiyyāt + Istifhām (Pertanyaan Sopan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Perkenalan, Permintaan Maaf, Kampus & Perjalanan",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-sent-daily-voc-1",
+          "term": "عَفْوًا، أَيْنَ تَقَعُ الْمَكْتَبَةُ الْمَرْكَزِيَّةُ؟",
+          "reading": "ʿAfwan, ayna taqaʿu al-maktabatu al-markaziyyatu?",
+          "meaning": "Permisi, di manakah letak perpustakaan pusat?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Taḥiyyāt + Istifhām (Pertanyaan Sopan)",
+          "exampleSentence": "عَفْوًا، أَيْنَ تَقَعُ الْمَكْتَبَةُ الْمَرْكَزِيَّةُ؟",
+          "exampleTranslation": "Permisi, di manakah letak perpustakaan pusat?"
+        }
+      ]
+    }
+  ]
+}

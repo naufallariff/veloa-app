@@ -1,0 +1,98 @@
+{
+  "id": "ar-00-found-hijaiyah-makharij",
+  "lang": "ar",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 102,
+  "title": "28 Huruf Hijaiyah Lengkap: Bentuk Awal–Tengah–Akhir & Makhārijul Ḥurūf",
+  "subtitle": "Membedakan huruf berdekatan (ح vs ه, ع vs ء, ص vs س, ض vs د, ق vs ك)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Rasm, Makhārij & Harakat | 28 Huruf Hijaiyah Lengkap: Bentuk Awal–Tengah–Akhir & Makhārijul Ḥurūf",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-00-found-hijaiyah-makharij-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd",
+              "gloss": "Penguasaan huruf tunggal, bentuk sambung, dan hukum bacaan dasar"
+            },
+            "formula": {
+              "script": "Al-Jauf · Al-Ḥalq (Tenggorokan) · Al-Lisān (Lidah) · Ash-Shafatān (Bibir)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "عَلِيم (Maha Mengetahui) vs أَلِيم (Maha Pedih)",
+              "reading": "ʿAlīm vs Alīm",
+              "gloss": "Perbedaan makhraj ع dan ء mengubah makna kata secara total"
+            }
+          },
+          "fullTranslation": "Perbedaan makhraj ع dan ء mengubah makna kata secara total"
+        },
+        {
+          "id": "ar-00-found-hijaiyah-makharij-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Khat Arab, 28 Huruf Hijaiyah, Makhārij & Harakat (Pondasi · Rasm, Makhārij & Harakat)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 28 Entri",
+              "gloss": "Membedakan huruf berdekatan (ح vs ه, ع vs ء, ص vs س, ض vs د, ق vs ك)"
+            },
+            "example": {
+              "script": "عَلِيم (Maha Mengetahui) vs أَلِيم (Maha Pedih)",
+              "reading": "ʿAlīm vs Alīm",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan huruf berdekatan (ح vs ه, ع vs ء, ص vs س, ض vs د, ق vs ك) — Perbedaan makhraj ع dan ء mengubah makna kata secara total"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"28 Huruf Hijaiyah Lengkap: Bentuk Awal–Tengah–Akhir & Makhārijul Ḥurūf\"",
+        "psychologyExplanation": "Membedakan huruf berdekatan (ح vs ه, ع vs ء, ص vs س, ض vs د, ق vs ك). Dalam kerangka 1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd, penutur asli memetakan hubungan makna menggunakan rumus \"Al-Jauf · Al-Ḥalq (Tenggorokan) · Al-Lisān (Lidah) · Ash-Shafatān (Bibir)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 28 Huruf Hijaiyah Lengkap: Bentuk Awal–Tengah–Akhir & Makhārijul Ḥurūf",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-00-found-hijaiyah-makharij-voc-1",
+          "term": "عَلِيم (Maha Mengetahui) vs أَلِيم (Maha Pedih)",
+          "reading": "ʿAlīm vs Alīm",
+          "meaning": "Perbedaan makhraj ع dan ء mengubah makna kata secara total",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Al-Jauf · Al-Ḥalq (Tenggorokan) · Al-Lisān (Lidah) · Ash-Shafatān (Bibir)",
+          "exampleSentence": "عَلِيم (Maha Mengetahui) vs أَلِيم (Maha Pedih)",
+          "exampleTranslation": "Perbedaan makhraj ع dan ء mengubah makna kata secara total"
+        }
+      ]
+    }
+  ]
+}

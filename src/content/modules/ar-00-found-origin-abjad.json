@@ -1,0 +1,98 @@
+{
+  "id": "ar-00-found-origin-abjad",
+  "lang": "ar",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 101,
+  "title": "Sejarah Aksara Arab: Dari Nabataean ke Khat Naskh, Thuluth & Riqʿah",
+  "subtitle": "Mengapa bahasa Arab menggunakan sistem Abjad konsonantal dengan tanda titik Iʿjām",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Rasm, Makhārij & Harakat | Sejarah Aksara Arab: Dari Nabataean ke Khat Naskh, Thuluth & Riqʿah",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-00-found-origin-abjad-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd",
+              "gloss": "Penguasaan huruf tunggal, bentuk sambung, dan hukum bacaan dasar"
+            },
+            "formula": {
+              "script": "Rasm Konsonantal + Nuqaṭ al-Iʿjām (Titik Pembeda) + Harakāt",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "ب ـ ت ـ ث (Satu kerangka rasm dibedakan oleh posisi & jumlah titik)",
+              "reading": "Bāʾ · Tāʾ · Thāʾ",
+              "gloss": "Inovasi titik diakritik menjaga ketepatan bacaan naskah klasik"
+            }
+          },
+          "fullTranslation": "Inovasi titik diakritik menjaga ketepatan bacaan naskah klasik"
+        },
+        {
+          "id": "ar-00-found-origin-abjad-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Khat Arab, 28 Huruf Hijaiyah, Makhārij & Harakat (Pondasi · Rasm, Makhārij & Harakat)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 20 Entri",
+              "gloss": "Mengapa bahasa Arab menggunakan sistem Abjad konsonantal dengan tanda titik Iʿjām"
+            },
+            "example": {
+              "script": "ب ـ ت ـ ث (Satu kerangka rasm dibedakan oleh posisi & jumlah titik)",
+              "reading": "Bāʾ · Tāʾ · Thāʾ",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa bahasa Arab menggunakan sistem Abjad konsonantal dengan tanda titik Iʿjām — Inovasi titik diakritik menjaga ketepatan bacaan naskah klasik"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sejarah Aksara Arab: Dari Nabataean ke Khat Naskh, Thuluth & Riqʿah\"",
+        "psychologyExplanation": "Mengapa bahasa Arab menggunakan sistem Abjad konsonantal dengan tanda titik Iʿjām. Dalam kerangka 1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd, penutur asli memetakan hubungan makna menggunakan rumus \"Rasm Konsonantal + Nuqaṭ al-Iʿjām (Titik Pembeda) + Harakāt\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sejarah Aksara Arab: Dari Nabataean ke Khat Naskh, Thuluth & Riqʿah",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-00-found-origin-abjad-voc-1",
+          "term": "ب ـ ت ـ ث (Satu kerangka rasm dibedakan oleh posisi & jumlah titik)",
+          "reading": "Bāʾ · Tāʾ · Thāʾ",
+          "meaning": "Inovasi titik diakritik menjaga ketepatan bacaan naskah klasik",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Rasm Konsonantal + Nuqaṭ al-Iʿjām (Titik Pembeda) + Harakāt",
+          "exampleSentence": "ب ـ ت ـ ث (Satu kerangka rasm dibedakan oleh posisi & jumlah titik)",
+          "exampleTranslation": "Inovasi titik diakritik menjaga ketepatan bacaan naskah klasik"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ja-n5-verb-groups-masu",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 113,
+  "title": "3 Kelompok Kata Kerja (Godan, Ichidan, Irregular) & Bentuk Sopan Masu",
+  "subtitle": "Mengidentifikasi akar kata kerja untuk semua konjugasi tingkat lanjut",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5 · Dasar | 3 Kelompok Kata Kerja (Godan, Ichidan, Irregular) & Bentuk Sopan Masu",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-verb-groups-masu-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Morfologi & Konjugasi Kata Kerja-Sifat (活用 Katsuyō)",
+              "gloss": "Pembagian 3 kelompok kata kerja Jepang dan konjugasi dasar"
+            },
+            "formula": {
+              "script": "Group 1 (u→i+masu) · Group 2 (ru→masu) · Group 3 (する→します, 来る→来ます)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "書く → 書きます (G1) · 食べる → 食べます (G2) · 勉強する → 勉強します (G3)",
+              "reading": "kaku → kakimasu · taberu → tabemasu",
+              "gloss": "Klasifikasi ini menjadi kunci seluruh perubahan bentuk sampai N1"
+            }
+          },
+          "fullTranslation": "Klasifikasi ini menjadi kunci seluruh perubahan bentuk sampai N1"
+        },
+        {
+          "id": "ja-n5-verb-groups-masu-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Inti (Joshi), Kopula & Konjugasi Dasar (JLPT N5 · Dasar)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 34 Entri",
+              "gloss": "Mengidentifikasi akar kata kerja untuk semua konjugasi tingkat lanjut"
+            },
+            "example": {
+              "script": "書く → 書きます (G1) · 食べる → 食べます (G2) · 勉強する → 勉強します (G3)",
+              "reading": "kaku → kakimasu · taberu → tabemasu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengidentifikasi akar kata kerja untuk semua konjugasi tingkat lanjut — Klasifikasi ini menjadi kunci seluruh perubahan bentuk sampai N1"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"3 Kelompok Kata Kerja (Godan, Ichidan, Irregular) & Bentuk Sopan Masu\"",
+        "psychologyExplanation": "Mengidentifikasi akar kata kerja untuk semua konjugasi tingkat lanjut. Dalam kerangka Cabang B: Morfologi & Konjugasi Kata Kerja-Sifat (活用 Katsuyō), penutur asli memetakan hubungan makna menggunakan rumus \"Group 1 (u→i+masu) · Group 2 (ru→masu) · Group 3 (する→します, 来る→来ます)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 3 Kelompok Kata Kerja (Godan, Ichidan, Irregular) & Bentuk Sopan Masu",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n5-verb-groups-masu-voc-1",
+          "term": "書く → 書きます (G1) · 食べる → 食べます (G2) · 勉強する → 勉強します (G3)",
+          "reading": "kaku → kakimasu · taberu → tabemasu",
+          "meaning": "Klasifikasi ini menjadi kunci seluruh perubahan bentuk sampai N1",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Group 1 (u→i+masu) · Group 2 (ru→masu) · Group 3 (する→します, 来る→来ます)",
+          "exampleSentence": "書く → 書きます (G1) · 食べる → 食べます (G2) · 勉強する → 勉強します (G3)",
+          "exampleTranslation": "Klasifikasi ini menjadi kunci seluruh perubahan bentuk sampai N1"
+        }
+      ]
+    }
+  ]
+}

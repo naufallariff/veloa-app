@@ -1,0 +1,98 @@
+{
+  "id": "zh-00-found-origin-characters",
+  "lang": "zh",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 101,
+  "title": "Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+  "subtitle": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-origin-characters-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
+              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+            },
+            "formula": {
+              "script": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Karakter dasar berevolusi dari gambar benda nyata"
+            }
+          },
+          "fullTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        },
+        {
+          "id": "zh-00-found-origin-characters-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 24 Entri",
+              "gloss": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern"
+            },
+            "example": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern — Karakter dasar berevolusi dari gambar benda nyata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana\"",
+        "psychologyExplanation": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern. Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-00-found-origin-characters-voc-1",
+          "term": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "rì · yuè · shān · shuǐ",
+          "meaning": "Karakter dasar berevolusi dari gambar benda nyata",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+          "exampleSentence": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "exampleTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        }
+      ]
+    }
+  ]
+}

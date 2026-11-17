@@ -1,0 +1,98 @@
+{
+  "id": "ko-found-04-nasalization-liquidization",
+  "lang": "ko",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 104,
+  "title": "Asimilasi Konsonan: 비음화 (Nasalization), 유음화 (Liquidization) & 구개음화 (Palatalization)",
+  "subtitle": "Mengapa 한국어 dibaca [한구거], 감사합니다 dibaca [감사함니다], dan 신라 dibaca [실라]",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan | Asimilasi Konsonan: 비음화 (Nasalization), 유음화 (Liquidization) & 구개음화 (Palatalization)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-found-04-nasalization-liquidization-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka",
+              "gloss": "Nasalization (비음화), Liquidization (유음화), Palatalization, serta bilangan Korea"
+            },
+            "formula": {
+              "script": "Batchim ㄱ/ㄷ/ㅂ + ㄴ/ㅁ → ㅇ/ㄴ/ㅁ | ㄴ + ㄹ atau ㄹ + ㄴ → [ㄹㄹ]",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "합니다 [함니다] · 신라 [실라] · 같이 [가치] · 독립 [동닙]",
+              "reading": "hamnida · silla · gachi · dongnip",
+              "gloss": "Ortografi Hangeul mempertahankan bentuk morfem dasar, sementara pelafalan menyesuaikan hukum fonologi"
+            }
+          },
+          "fullTranslation": "Ortografi Hangeul mempertahankan bentuk morfem dasar, sementara pelafalan menyesuaikan hukum fonologi"
+        },
+        {
+          "id": "ko-found-04-nasalization-liquidization-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Hukum Perubahan Bunyi (음운 변동), Spasi (띄어쓰기) & Dua Sistem Bilangan (Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 34 Entri",
+              "gloss": "Mengapa 한국어 dibaca [한구거], 감사합니다 dibaca [감사함니다], dan 신라 dibaca [실라]"
+            },
+            "example": {
+              "script": "합니다 [함니다] · 신라 [실라] · 같이 [가치] · 독립 [동닙]",
+              "reading": "hamnida · silla · gachi · dongnip",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 한국어 dibaca [한구거], 감사합니다 dibaca [감사함니다], dan 신라 dibaca [실라] — Ortografi Hangeul mempertahankan bentuk morfem dasar, sementara pelafalan menyesuaikan hukum fonologi"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Asimilasi Konsonan: 비음화 (Nasalization), 유음화 (Liquidization) & 구개음화 (Palatalization)\"",
+        "psychologyExplanation": "Mengapa 한국어 dibaca [한구거], 감사합니다 dibaca [감사함니다], dan 신라 dibaca [실라]. Dalam kerangka 2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka, penutur asli memetakan hubungan makna menggunakan rumus \"Batchim ㄱ/ㄷ/ㅂ + ㄴ/ㅁ → ㅇ/ㄴ/ㅁ | ㄴ + ㄹ atau ㄹ + ㄴ → [ㄹㄹ]\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Asimilasi Konsonan: 비음화 (Nasalization), 유음화 (Liquidization) & 구개음화 (Palatalization)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-found-04-nasalization-liquidization-voc-1",
+          "term": "합니다 [함니다] · 신라 [실라] · 같이 [가치] · 독립 [동닙]",
+          "reading": "hamnida · silla · gachi · dongnip",
+          "meaning": "Ortografi Hangeul mempertahankan bentuk morfem dasar, sementara pelafalan menyesuaikan hukum fonologi",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Batchim ㄱ/ㄷ/ㅂ + ㄴ/ㅁ → ㅇ/ㄴ/ㅁ | ㄴ + ㄹ atau ㄹ + ㄴ → [ㄹㄹ]",
+          "exampleSentence": "합니다 [함니다] · 신라 [실라] · 같이 [가치] · 독립 [동닙]",
+          "exampleTranslation": "Ortografi Hangeul mempertahankan bentuk morfem dasar, sementara pelafalan menyesuaikan hukum fonologi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-b2-relative-clauses",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 128,
+  "title": "Relative Clauses (Defining vs Non-Defining): Who, Whom, Whose, Which, That",
+  "subtitle": "Menggabungkan dua klausa menjadi satu kalimat kompleks yang elegan",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR B2 · Vantage | Relative Clauses (Defining vs Non-Defining): Who, Whom, Whose, Which, That",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-relative-clauses-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau",
+              "gloss": "Sintaksis tingkat lanjut untuk diskusi analitis"
+            },
+            "formula": {
+              "script": "Head Noun + Relative Pronoun + Modifying Clause",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "The scholar, whose research reshaped syntax theory, lectured yesterday.",
+              "reading": "/ðə ˈskɒl.ər huːz rɪˈsɜːtʃ ˌriːˈʃeɪpt ˈsɪn.tæks/",
+              "gloss": "Klausa non-defining diapit koma dan tidak memakai that"
+            }
+          },
+          "fullTranslation": "Klausa non-defining diapit koma dan tidak memakai that"
+        },
+        {
+          "id": "en-b2-relative-clauses-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Klausa Kompleks, Reported Speech & Past Perfect (CEFR B2 · Vantage)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Menggabungkan dua klausa menjadi satu kalimat kompleks yang elegan"
+            },
+            "example": {
+              "script": "The scholar, whose research reshaped syntax theory, lectured yesterday.",
+              "reading": "/ðə ˈskɒl.ər huːz rɪˈsɜːtʃ ˌriːˈʃeɪpt ˈsɪn.tæks/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menggabungkan dua klausa menjadi satu kalimat kompleks yang elegan — Klausa non-defining diapit koma dan tidak memakai that"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Relative Clauses (Defining vs Non-Defining): Who, Whom, Whose, Which, That\"",
+        "psychologyExplanation": "Menggabungkan dua klausa menjadi satu kalimat kompleks yang elegan. Dalam kerangka Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau, penutur asli memetakan hubungan makna menggunakan rumus \"Head Noun + Relative Pronoun + Modifying Clause\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Relative Clauses (Defining vs Non-Defining): Who, Whom, Whose, Which, That",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-b2-relative-clauses-voc-1",
+          "term": "The scholar, whose research reshaped syntax theory, lectured yesterday.",
+          "reading": "/ðə ˈskɒl.ər huːz rɪˈsɜːtʃ ˌriːˈʃeɪpt ˈsɪn.tæks/",
+          "meaning": "Klausa non-defining diapit koma dan tidak memakai that",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Head Noun + Relative Pronoun + Modifying Clause",
+          "exampleSentence": "The scholar, whose research reshaped syntax theory, lectured yesterday.",
+          "exampleTranslation": "Klausa non-defining diapit koma dan tidak memakai that"
+        }
+      ]
+    }
+  ]
+}

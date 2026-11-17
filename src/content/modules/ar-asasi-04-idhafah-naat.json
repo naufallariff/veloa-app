@@ -1,0 +1,98 @@
+{
+  "id": "ar-asasi-04-idhafah-naat",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 121,
+  "title": "Idhāfah (الْإِضَافَة · Mudhāf–Mudhāf Ilayh) vs Na‘at–Man‘ūt (Sifat–Yang Disifati)",
+  "subtitle": "Mengapa Mudhāf tidak pernah memakai ال (Alif-Lam) dan tidak bertanwin",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf | Idhāfah (الْإِضَافَة · Mudhāf–Mudhāf Ilayh) vs Na‘at–Man‘ūt (Sifat–Yang Disifati)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-04-idhafah-naat-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī)",
+              "gloss": "Perbedaan struktur Idhāfah vs Na‘at-Man‘ūt serta tasrif kata ganti"
+            },
+            "formula": {
+              "script": "Idhāfah: [Tanpa ال/Tanwīn] + [Majrūr] | Na‘at: Mengikuti Man‘ūt dalam 4 aspek",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كِتَابُ الطَّالِبِ (Buku siswa itu) vs الْكِتَابُ الْجَدِيدُ (Buku yang baru itu)",
+              "reading": "Kitābu aṭ-ṭālibi vs Al-kitābu al-jadīdu",
+              "gloss": "Membedakan frasa kepemilikan dan frasa sifat adalah fondasi membaca teks Arab"
+            }
+          },
+          "fullTranslation": "Membedakan frasa kepemilikan dan frasa sifat adalah fondasi membaca teks Arab"
+        },
+        {
+          "id": "ar-asasi-04-idhafah-naat-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Idhāfah (Frasa Kepemilikan), Na‘at-Man‘ūt, Dhamā’ir & Ism Isyārah (Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Mengapa Mudhāf tidak pernah memakai ال (Alif-Lam) dan tidak bertanwin"
+            },
+            "example": {
+              "script": "كِتَابُ الطَّالِبِ (Buku siswa itu) vs الْكِتَابُ الْجَدِيدُ (Buku yang baru itu)",
+              "reading": "Kitābu aṭ-ṭālibi vs Al-kitābu al-jadīdu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa Mudhāf tidak pernah memakai ال (Alif-Lam) dan tidak bertanwin — Membedakan frasa kepemilikan dan frasa sifat adalah fondasi membaca teks Arab"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Idhāfah (الْإِضَافَة · Mudhāf–Mudhāf Ilayh) vs Na‘at–Man‘ūt (Sifat–Yang Disifati)\"",
+        "psychologyExplanation": "Mengapa Mudhāf tidak pernah memakai ال (Alif-Lam) dan tidak bertanwin. Dalam kerangka Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī), penutur asli memetakan hubungan makna menggunakan rumus \"Idhāfah: [Tanpa ال/Tanwīn] + [Majrūr] | Na‘at: Mengikuti Man‘ūt dalam 4 aspek\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Idhāfah (الْإِضَافَة · Mudhāf–Mudhāf Ilayh) vs Na‘at–Man‘ūt (Sifat–Yang Disifati)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-asasi-04-idhafah-naat-voc-1",
+          "term": "كِتَابُ الطَّالِبِ (Buku siswa itu) vs الْكِتَابُ الْجَدِيدُ (Buku yang baru itu)",
+          "reading": "Kitābu aṭ-ṭālibi vs Al-kitābu al-jadīdu",
+          "meaning": "Membedakan frasa kepemilikan dan frasa sifat adalah fondasi membaca teks Arab",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Idhāfah: [Tanpa ال/Tanwīn] + [Majrūr] | Na‘at: Mengikuti Man‘ūt dalam 4 aspek",
+          "exampleSentence": "كِتَابُ الطَّالِبِ (Buku siswa itu) vs الْكِتَابُ الْجَدِيدُ (Buku yang baru itu)",
+          "exampleTranslation": "Membedakan frasa kepemilikan dan frasa sifat adalah fondasi membaca teks Arab"
+        }
+      ]
+    }
+  ]
+}

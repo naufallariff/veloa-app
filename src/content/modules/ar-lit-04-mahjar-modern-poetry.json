@@ -1,0 +1,117 @@
+{
+  "id": "ar-lit-04-mahjar-modern-poetry",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 133,
+  "title": "Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani",
+  "subtitle": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Adab Arab Lanjutan | Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-lit-04-mahjar-modern-poetry-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab",
+              "gloss": "Maqāmāt Al-Hamadzānī/Al-Ḥarīrī, penyair Mahjar (Gibran, Iliya Abu Madi), dan Diglosia"
+            },
+            "formula": {
+              "script": "Taf‘īlah (تَفْعِيلَة) + Simbolisme Alam & Humanisme Lintas Budaya",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كُنْ جَمِيلًا تَرَ الْوُجُودَ جَمِيلًا (Iliya Abu Madi — Jadilah indah, niscaya kau lihat semesta indah)",
+              "reading": "Kun jamīlan tara al-wujūda jamīlā",
+              "gloss": "Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis"
+            }
+          },
+          "fullTranslation": "Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis"
+        },
+        {
+          "id": "ar-lit-04-mahjar-modern-poetry-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Al-Maqāmāt, Sastra Mahjar & Sosiolinguistik Lahajāt Arab (Sastra, Filologi & Keindahan Bahasa · Adab Arab Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 26 Entri",
+              "gloss": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern"
+            },
+            "example": {
+              "script": "كُنْ جَمِيلًا تَرَ الْوُجُودَ جَمِيلًا (Iliya Abu Madi — Jadilah indah, niscaya kau lihat semesta indah)",
+              "reading": "Kun jamīlan tara al-wujūda jamīlā",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern — Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani\"",
+        "psychologyExplanation": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern. Dalam kerangka Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab, penutur asli memetakan hubungan makna menggunakan rumus \"Taf‘īlah (تَفْعِيلَة) + Simbolisme Alam & Humanisme Lintas Budaya\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-lit-04-mahjar-modern-poetry-voc-1",
+          "term": "كُنْ جَمِيلًا تَرَ الْوُجُودَ جَمِيلًا (Iliya Abu Madi — Jadilah indah, niscaya kau lihat semesta indah)",
+          "reading": "Kun jamīlan tara al-wujūda jamīlā",
+          "meaning": "Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Taf‘īlah (تَفْعِيلَة) + Simbolisme Alam & Humanisme Lintas Budaya",
+          "exampleSentence": "كُنْ جَمِيلًا تَرَ الْوُجُودَ جَمِيلًا (Iliya Abu Madi — Jadilah indah, niscaya kau lihat semesta indah)",
+          "exampleTranslation": "Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani",
+      "traditionName": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "overview": "Pendalaman jurusan Sastra Arab: prosa berirama (Saj‘), puisi modern, dan diglosia Arab",
+      "devices": [
+        {
+          "deviceName": "Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab",
+          "nativeTerm": "Taf‘īlah (تَفْعِيلَة) + Simbolisme Alam & Humanisme Lintas Budaya",
+          "mechanism": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern",
+          "literaryExample": "كُنْ جَمِيلًا تَرَ الْوُجُودَ جَمِيلًا (Iliya Abu Madi — Jadilah indah, niscaya kau lihat semesta indah)",
+          "reading": "Kun jamīlan tara al-wujūda jamīlā",
+          "translation": "Bait legendaris sastra Mahjar yang memadukan kesederhanaan diksi dengan kedalaman filosofis",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

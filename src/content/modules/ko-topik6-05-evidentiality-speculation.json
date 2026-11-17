@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik6-05-evidentiality-speculation",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 128,
+  "title": "Modalitas Epistemik & Inferensi: -(으)ㄹ 뿐만 아니라, -(으)ㅁ에 틀림없다 & -기 마련이다",
+  "subtitle": "Menyatakan keniscayaan alamiah, kepastian logis, dan akumulasi argumen",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II Lanjut (Level 5–6) · Wacana Akademik & Gaya Tulis (문어체) | Modalitas Epistemik & Inferensi: -(으)ㄹ 뿐만 아니라, -(으)ㅁ에 틀림없다 & -기 마련이다",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik6-05-evidentiality-speculation-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Gaya Tulis Akademik, Paradoks & Argumentasi TOPIK 5–6",
+              "gloss": "Plain Writing Form (-는다/ㄴ다/다), pola konsesi, dan struktur esai tingkat lanjut"
+            },
+            "formula": {
+              "script": "V/Adj + -기 마련이다 (Sudah sewajarnya/pasti demikian) | -(으)ㅁ에 틀림없다 (Tidak diragukan lagi)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "꾸준히 노력하면 언젠가는 결실을 맺기 마련이다.",
+              "reading": "Kkujunhi noryeokamyeon eonjenganeun gyeolsireul maetgi maryeonida.",
+              "gloss": "Jika berusaha secara konsisten, pada akhirnya pasti akan membuahkan hasil."
+            }
+          },
+          "fullTranslation": "Jika berusaha secara konsisten, pada akhirnya pasti akan membuahkan hasil."
+        },
+        {
+          "id": "ko-topik6-05-evidentiality-speculation-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Gaya Tulis Berita/Esai (-는다/-ㄴ다), Konsesi Lanjut & Penanda Wacana Formal (TOPIK II Lanjut (Level 5–6) · Wacana Akademik & Gaya Tulis (문어체))"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Menyatakan keniscayaan alamiah, kepastian logis, dan akumulasi argumen"
+            },
+            "example": {
+              "script": "꾸준히 노력하면 언젠가는 결실을 맺기 마련이다.",
+              "reading": "Kkujunhi noryeokamyeon eonjenganeun gyeolsireul maetgi maryeonida.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan keniscayaan alamiah, kepastian logis, dan akumulasi argumen — Jika berusaha secara konsisten, pada akhirnya pasti akan membuahkan hasil."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Modalitas Epistemik & Inferensi: -(으)ㄹ 뿐만 아니라, -(으)ㅁ에 틀림없다 & -기 마련이다\"",
+        "psychologyExplanation": "Menyatakan keniscayaan alamiah, kepastian logis, dan akumulasi argumen. Dalam kerangka Cabang B: Gaya Tulis Akademik, Paradoks & Argumentasi TOPIK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"V/Adj + -기 마련이다 (Sudah sewajarnya/pasti demikian) | -(으)ㅁ에 틀림없다 (Tidak diragukan lagi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Modalitas Epistemik & Inferensi: -(으)ㄹ 뿐만 아니라, -(으)ㅁ에 틀림없다 & -기 마련이다",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik6-05-evidentiality-speculation-voc-1",
+          "term": "꾸준히 노력하면 언젠가는 결실을 맺기 마련이다.",
+          "reading": "Kkujunhi noryeokamyeon eonjenganeun gyeolsireul maetgi maryeonida.",
+          "meaning": "Jika berusaha secara konsisten, pada akhirnya pasti akan membuahkan hasil.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: V/Adj + -기 마련이다 (Sudah sewajarnya/pasti demikian) | -(으)ㅁ에 틀림없다 (Tidak diragukan lagi)",
+          "exampleSentence": "꾸준히 노력하면 언젠가는 결실을 맺기 마련이다.",
+          "exampleTranslation": "Jika berusaha secara konsisten, pada akhirnya pasti akan membuahkan hasil."
+        }
+      ]
+    }
+  ]
+}

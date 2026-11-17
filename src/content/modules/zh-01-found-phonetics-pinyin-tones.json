@@ -1,0 +1,98 @@
+{
+  "id": "zh-01-found-phonetics-pinyin-tones",
+  "lang": "zh",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 104,
+  "title": "Sistem Fonetik Pinyin, Konsonan Khusus (zh/ch/sh/j/q/x) & Hukum Tone Sandhi",
+  "subtitle": "Kontur 4 nada utama, nada netral, dan perubahan nada 不 (bù) serta 一 (yī)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | Sistem Fonetik Pinyin, Konsonan Khusus (zh/ch/sh/j/q/x) & Hukum Tone Sandhi",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-01-found-phonetics-pinyin-tones-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
+              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+            },
+            "formula": {
+              "script": "Nada 1 (55) · Nada 2 (35) · Nada 3 (214) · Nada 4 (51) + Tone Sandhi (3+3→2+3)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "你好 (nǐ + hǎo → ní hǎo) · 不对 (bú duì) · 一个 (yí gè)",
+              "reading": "ní hǎo · bú duì · yí gè",
+              "gloss": "Perubahan nada otomatis agar pelafalan mengalir alami"
+            }
+          },
+          "fullTranslation": "Perubahan nada otomatis agar pelafalan mengalir alami"
+        },
+        {
+          "id": "zh-01-found-phonetics-pinyin-tones-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Kontur 4 nada utama, nada netral, dan perubahan nada 不 (bù) serta 一 (yī)"
+            },
+            "example": {
+              "script": "你好 (nǐ + hǎo → ní hǎo) · 不对 (bú duì) · 一个 (yí gè)",
+              "reading": "ní hǎo · bú duì · yí gè",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kontur 4 nada utama, nada netral, dan perubahan nada 不 (bù) serta 一 (yī) — Perubahan nada otomatis agar pelafalan mengalir alami"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Fonetik Pinyin, Konsonan Khusus (zh/ch/sh/j/q/x) & Hukum Tone Sandhi\"",
+        "psychologyExplanation": "Kontur 4 nada utama, nada netral, dan perubahan nada 不 (bù) serta 一 (yī). Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Nada 1 (55) · Nada 2 (35) · Nada 3 (214) · Nada 4 (51) + Tone Sandhi (3+3→2+3)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Fonetik Pinyin, Konsonan Khusus (zh/ch/sh/j/q/x) & Hukum Tone Sandhi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-01-found-phonetics-pinyin-tones-voc-1",
+          "term": "你好 (nǐ + hǎo → ní hǎo) · 不对 (bú duì) · 一个 (yí gè)",
+          "reading": "ní hǎo · bú duì · yí gè",
+          "meaning": "Perubahan nada otomatis agar pelafalan mengalir alami",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Nada 1 (55) · Nada 2 (35) · Nada 3 (214) · Nada 4 (51) + Tone Sandhi (3+3→2+3)",
+          "exampleSentence": "你好 (nǐ + hǎo → ní hǎo) · 不对 (bú duì) · 一个 (yí gè)",
+          "exampleTranslation": "Perubahan nada otomatis agar pelafalan mengalir alami"
+        }
+      ]
+    }
+  ]
+}

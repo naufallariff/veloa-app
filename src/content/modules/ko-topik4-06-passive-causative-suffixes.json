@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik4-06-passive-causative-suffixes",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 125,
+  "title": "Bentuk Pasif (피동사: -이/히/리/기-) & Kausatif (사동사: -이/히/리/기/우/구/추-)",
+  "subtitle": "Perbedaan 보다 (melihat) → 보이다 (terlihat) vs 보여주다 (memperlihatkan)",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator | Bentuk Pasif (피동사: -이/히/리/기-) & Kausatif (사동사: -이/히/리/기/우/구/추-)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik4-06-passive-causative-suffixes-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4)",
+              "gloss": "Perubahan ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 serta akhiran penjelas kata benda (-는 / -(으)ㄴ / -(으)ㄹ)"
+            },
+            "formula": {
+              "script": "Akar Kata Kerja + Sisipan Morfologis (-이/히/리/기-) atau Sintaksis (-아/어지다 / -게 하다)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "문이 닫혔어요 (Pintu tertutup) vs 아이에게 밥을 먹였어요 (Menyuapi anak makan)",
+              "reading": "Muni dathyeosseoyo vs Aiege babeul meogyeosseoyo",
+              "gloss": "Imbuhan sisipan mengubah valensi argumen pelaku dan penerima tindakan secara ringkas"
+            }
+          },
+          "fullTranslation": "Imbuhan sisipan mengubah valensi argumen pelaku dan penerima tindakan secara ringkas"
+        },
+        {
+          "id": "ko-topik4-06-passive-causative-suffixes-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "7 Irregular Verbs (불규칙 활용), Modifikator Nomina (관형형) & Alasan (-느라고 / -는 바람에) (TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Perbedaan 보다 (melihat) → 보이다 (terlihat) vs 보여주다 (memperlihatkan)"
+            },
+            "example": {
+              "script": "문이 닫혔어요 (Pintu tertutup) vs 아이에게 밥을 먹였어요 (Menyuapi anak makan)",
+              "reading": "Muni dathyeosseoyo vs Aiege babeul meogyeosseoyo",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perbedaan 보다 (melihat) → 보이다 (terlihat) vs 보여주다 (memperlihatkan) — Imbuhan sisipan mengubah valensi argumen pelaku dan penerima tindakan secara ringkas"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Bentuk Pasif (피동사: -이/히/리/기-) & Kausatif (사동사: -이/히/리/기/우/구/추-)\"",
+        "psychologyExplanation": "Perbedaan 보다 (melihat) → 보이다 (terlihat) vs 보여주다 (memperlihatkan). Dalam kerangka Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"Akar Kata Kerja + Sisipan Morfologis (-이/히/리/기-) atau Sintaksis (-아/어지다 / -게 하다)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Bentuk Pasif (피동사: -이/히/리/기-) & Kausatif (사동사: -이/히/리/기/우/구/추-)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik4-06-passive-causative-suffixes-voc-1",
+          "term": "문이 닫혔어요 (Pintu tertutup) vs 아이에게 밥을 먹였어요 (Menyuapi anak makan)",
+          "reading": "Muni dathyeosseoyo vs Aiege babeul meogyeosseoyo",
+          "meaning": "Imbuhan sisipan mengubah valensi argumen pelaku dan penerima tindakan secara ringkas",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Akar Kata Kerja + Sisipan Morfologis (-이/히/리/기-) atau Sintaksis (-아/어지다 / -게 하다)",
+          "exampleSentence": "문이 닫혔어요 (Pintu tertutup) vs 아이에게 밥을 먹였어요 (Menyuapi anak makan)",
+          "exampleTranslation": "Imbuhan sisipan mengubah valensi argumen pelaku dan penerima tindakan secara ringkas"
+        }
+      ]
+    }
+  ]
+}

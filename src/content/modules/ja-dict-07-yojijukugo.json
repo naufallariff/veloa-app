@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-07-yojijukugo",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 115,
+  "title": "Yojijukugo (四字熟語): Idiom Empat Kanji dalam Berita & Pidato",
+  "subtitle": "Padanan Jepang untuk Chengyu klasik yang sering muncul di JLPT N2–N1",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Jepang | Yojijukugo (四字熟語): Idiom Empat Kanji dalam Berita & Pidato",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-07-yojijukugo-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional",
+              "gloss": "Ungkapan metaforis Jepang dan etiket komunikasi di tempat kerja"
+            },
+            "formula": {
+              "script": "4 Kanji Padat Makna (一期一会 · 以心伝心 · 臨機応変)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "一期一会 (ichigo ichie · menghargai pertemuan sekali seumur hidup)",
+              "reading": "いちごいちえ",
+              "gloss": "Filosofi upacara teh Jepang yang juga dipakai dalam kehidupan modern"
+            }
+          },
+          "fullTranslation": "Filosofi upacara teh Jepang yang juga dipakai dalam kehidupan modern"
+        },
+        {
+          "id": "ja-dict-07-yojijukugo-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata N3–N1, Idiom Tubuh (Kanyōku) & Dialog Bisnis (Kamus & Korpus Lanjutan Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 35 Entri",
+              "gloss": "Padanan Jepang untuk Chengyu klasik yang sering muncul di JLPT N2–N1"
+            },
+            "example": {
+              "script": "一期一会 (ichigo ichie · menghargai pertemuan sekali seumur hidup)",
+              "reading": "いちごいちえ",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Padanan Jepang untuk Chengyu klasik yang sering muncul di JLPT N2–N1 — Filosofi upacara teh Jepang yang juga dipakai dalam kehidupan modern"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Yojijukugo (四字熟語): Idiom Empat Kanji dalam Berita & Pidato\"",
+        "psychologyExplanation": "Padanan Jepang untuk Chengyu klasik yang sering muncul di JLPT N2–N1. Dalam kerangka 4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"4 Kanji Padat Makna (一期一会 · 以心伝心 · 臨機応変)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Yojijukugo (四字熟語): Idiom Empat Kanji dalam Berita & Pidato",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-07-yojijukugo-voc-1",
+          "term": "一期一会 (ichigo ichie · menghargai pertemuan sekali seumur hidup)",
+          "reading": "いちごいちえ",
+          "meaning": "Filosofi upacara teh Jepang yang juga dipakai dalam kehidupan modern",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 4 Kanji Padat Makna (一期一会 · 以心伝心 · 臨機応変)",
+          "exampleSentence": "一期一会 (ichigo ichie · menghargai pertemuan sekali seumur hidup)",
+          "exampleTranslation": "Filosofi upacara teh Jepang yang juga dipakai dalam kehidupan modern"
+        }
+      ]
+    }
+  ]
+}

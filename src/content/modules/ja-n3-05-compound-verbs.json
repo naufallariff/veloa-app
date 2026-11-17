@@ -1,0 +1,98 @@
+{
+  "id": "ja-n3-05-compound-verbs",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 133,
+  "title": "Kata Kerja Majemuk (複合動詞 Fukugōdōshi): 〜始める, 〜続ける, 〜直す, 〜忘れる",
+  "subtitle": "Menggabungkan dua kata kerja untuk menyatakan fase awal, pengulangan, atau kelalaian",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N3 · Sintaksis Menengah Lengkap | Kata Kerja Majemuk (複合動詞 Fukugōdōshi): 〜始める, 〜続ける, 〜直す, 〜忘れる",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-05-compound-verbs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)",
+              "gloss": "Perbedaan rasa syukur vs menyalahkan, serta perubahan keadaan"
+            },
+            "formula": {
+              "script": "V1 (Masu-stem) + V2 (Aspek/Arah: 出す・切る・込む・直す)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "書き直す (menulis ulang) · 使い切る (memakai sampai habis) · 思い出す (teringat)",
+              "reading": "kakinaosu · tsukaikiru · omoidasu",
+              "gloss": "Pola produktif untuk membentuk ratusan kata kerja baru secara sistematis"
+            }
+          },
+          "fullTranslation": "Pola produktif untuk membentuk ratusan kata kerja baru secara sistematis"
+        },
+        {
+          "id": "ja-n3-05-compound-verbs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Klausa Waktu, Sebab-Akibat (おかげで vs せいで) & Nuansa Penyesalan (JLPT N3 · Sintaksis Menengah Lengkap)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 34 Entri",
+              "gloss": "Menggabungkan dua kata kerja untuk menyatakan fase awal, pengulangan, atau kelalaian"
+            },
+            "example": {
+              "script": "書き直す (menulis ulang) · 使い切る (memakai sampai habis) · 思い出す (teringat)",
+              "reading": "kakinaosu · tsukaikiru · omoidasu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menggabungkan dua kata kerja untuk menyatakan fase awal, pengulangan, atau kelalaian — Pola produktif untuk membentuk ratusan kata kerja baru secara sistematis"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kata Kerja Majemuk (複合動詞 Fukugōdōshi): 〜始める, 〜続ける, 〜直す, 〜忘れる\"",
+        "psychologyExplanation": "Menggabungkan dua kata kerja untuk menyatakan fase awal, pengulangan, atau kelalaian. Dalam kerangka Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3), penutur asli memetakan hubungan makna menggunakan rumus \"V1 (Masu-stem) + V2 (Aspek/Arah: 出す・切る・込む・直す)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kata Kerja Majemuk (複合動詞 Fukugōdōshi): 〜始める, 〜続ける, 〜直す, 〜忘れる",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n3-05-compound-verbs-voc-1",
+          "term": "書き直す (menulis ulang) · 使い切る (memakai sampai habis) · 思い出す (teringat)",
+          "reading": "kakinaosu · tsukaikiru · omoidasu",
+          "meaning": "Pola produktif untuk membentuk ratusan kata kerja baru secara sistematis",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: V1 (Masu-stem) + V2 (Aspek/Arah: 出す・切る・込む・直す)",
+          "exampleSentence": "書き直す (menulis ulang) · 使い切る (memakai sampai habis) · 思い出す (teringat)",
+          "exampleTranslation": "Pola produktif untuk membentuk ratusan kata kerja baru secara sistematis"
+        }
+      ]
+    }
+  ]
+}

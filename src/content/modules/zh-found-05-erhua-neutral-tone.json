@@ -1,0 +1,98 @@
+{
+  "id": "zh-found-05-erhua-neutral-tone",
+  "lang": "zh",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 106,
+  "title": "Nada Netral (轻声 Qīngshēng) & Retrofleks Erhua (儿化音) dalam Mandarin Standar",
+  "subtitle": "Bagaimana akhiran -er dan suku kata ringan membedakan arti serta kelas kata",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi | Nada Netral (轻声 Qīngshēng) & Retrofleks Erhua (儿化音) dalam Mandarin Standar",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-found-05-erhua-neutral-tone-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Perubahan Nada & Ortografi Hanzi",
+              "gloss": "Sandhi nada ketiga, perubahan nada 一 (yī) dan 不 (bù), serta 7 kaidah urutan goresan"
+            },
+            "formula": {
+              "script": "Suku Kata Penuh + Qīngshēng (东西 dōngxi = benda vs dōngxī = timur-barat)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "妈妈 (māma) · 地方 (dìfang) · 一点儿 (yìdiǎnr) · 哪儿 (nǎr)",
+              "reading": "māma · dìfang · yìdiǎnr · nǎr",
+              "gloss": "Nada netral dan erhua menjadi ciri khas aksen Beijing/Putonghua standar"
+            }
+          },
+          "fullTranslation": "Nada netral dan erhua menjadi ciri khas aksen Beijing/Putonghua standar"
+        },
+        {
+          "id": "zh-found-05-erhua-neutral-tone-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Aturan Tone Sandhi (变调), Urutan Goresan (笔顺) & Akar Aksara (Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 28 Entri",
+              "gloss": "Bagaimana akhiran -er dan suku kata ringan membedakan arti serta kelas kata"
+            },
+            "example": {
+              "script": "妈妈 (māma) · 地方 (dìfang) · 一点儿 (yìdiǎnr) · 哪儿 (nǎr)",
+              "reading": "māma · dìfang · yìdiǎnr · nǎr",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana akhiran -er dan suku kata ringan membedakan arti serta kelas kata — Nada netral dan erhua menjadi ciri khas aksen Beijing/Putonghua standar"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Nada Netral (轻声 Qīngshēng) & Retrofleks Erhua (儿化音) dalam Mandarin Standar\"",
+        "psychologyExplanation": "Bagaimana akhiran -er dan suku kata ringan membedakan arti serta kelas kata. Dalam kerangka 2. Hukum Perubahan Nada & Ortografi Hanzi, penutur asli memetakan hubungan makna menggunakan rumus \"Suku Kata Penuh + Qīngshēng (东西 dōngxi = benda vs dōngxī = timur-barat)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Nada Netral (轻声 Qīngshēng) & Retrofleks Erhua (儿化音) dalam Mandarin Standar",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-found-05-erhua-neutral-tone-voc-1",
+          "term": "妈妈 (māma) · 地方 (dìfang) · 一点儿 (yìdiǎnr) · 哪儿 (nǎr)",
+          "reading": "māma · dìfang · yìdiǎnr · nǎr",
+          "meaning": "Nada netral dan erhua menjadi ciri khas aksen Beijing/Putonghua standar",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Suku Kata Penuh + Qīngshēng (东西 dōngxi = benda vs dōngxī = timur-barat)",
+          "exampleSentence": "妈妈 (māma) · 地方 (dìfang) · 一点儿 (yìdiǎnr) · 哪儿 (nǎr)",
+          "exampleTranslation": "Nada netral dan erhua menjadi ciri khas aksen Beijing/Putonghua standar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-00-found-alphabet",
+  "lang": "en",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 102,
+  "title": "26 Huruf Alfabet, Vokal Pendek-Panjang & Digraf Konsonan",
+  "subtitle": "Pola th, sh, ch, ph, gh, dan Silent Letters (knight, psychology)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Opsional & Terbuka | 26 Huruf Alfabet, Vokal Pendek-Panjang & Digraf Konsonan",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-00-found-alphabet-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Sejarah Bahasa & Sistem Ortografi",
+              "gloss": "Evolusi Old English ke Modern English serta hukum ejaan"
+            },
+            "formula": {
+              "script": "Consonant Digraphs (th /θ/ vs /ð/) + Silent Graphemes",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "thought · though · through · thorough",
+              "reading": "/θɔːt/ · /ðoʊ/ · /θruː/ · /ˈθʌr.oʊ/",
+              "gloss": "Satu kombinasi huruf -ough menghasilkan bunyi berbeda"
+            }
+          },
+          "fullTranslation": "Satu kombinasi huruf -ough menghasilkan bunyi berbeda"
+        },
+        {
+          "id": "en-00-found-alphabet-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah, Ortografi Alfabet & Fonetik IPA (Pondasi · Opsional & Terbuka)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 32 Entri",
+              "gloss": "Pola th, sh, ch, ph, gh, dan Silent Letters (knight, psychology)"
+            },
+            "example": {
+              "script": "thought · though · through · thorough",
+              "reading": "/θɔːt/ · /ðoʊ/ · /θruː/ · /ˈθʌr.oʊ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Pola th, sh, ch, ph, gh, dan Silent Letters (knight, psychology) — Satu kombinasi huruf -ough menghasilkan bunyi berbeda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"26 Huruf Alfabet, Vokal Pendek-Panjang & Digraf Konsonan\"",
+        "psychologyExplanation": "Pola th, sh, ch, ph, gh, dan Silent Letters (knight, psychology). Dalam kerangka 1. Sejarah Bahasa & Sistem Ortografi, penutur asli memetakan hubungan makna menggunakan rumus \"Consonant Digraphs (th /θ/ vs /ð/) + Silent Graphemes\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 26 Huruf Alfabet, Vokal Pendek-Panjang & Digraf Konsonan",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-00-found-alphabet-voc-1",
+          "term": "thought · though · through · thorough",
+          "reading": "/θɔːt/ · /ðoʊ/ · /θruː/ · /ˈθʌr.oʊ/",
+          "meaning": "Satu kombinasi huruf -ough menghasilkan bunyi berbeda",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Consonant Digraphs (th /θ/ vs /ð/) + Silent Graphemes",
+          "exampleSentence": "thought · though · through · thorough",
+          "exampleTranslation": "Satu kombinasi huruf -ough menghasilkan bunyi berbeda"
+        }
+      ]
+    }
+  ]
+}

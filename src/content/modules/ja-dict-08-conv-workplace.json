@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-08-conv-workplace",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 116,
+  "title": "Percakapan Dunia Kerja Jepang: Hō-Ren-Sō (報告・連絡・相談) & Telepon Bisnis",
+  "subtitle": "Etiket melapor, berkoordinasi, dan berkonsultasi dengan atasan maupun klien",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Jepang | Percakapan Dunia Kerja Jepang: Hō-Ren-Sō (報告・連絡・相談) & Telepon Bisnis",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-08-conv-workplace-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional",
+              "gloss": "Ungkapan metaforis Jepang dan etiket komunikasi di tempat kerja"
+            },
+            "formula": {
+              "script": "Cushion Phrases (恐れ入りますが · お手数をおかけしますが)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。",
+              "reading": "O-isogashii tokoro osoreirimasu ga, shōshō o-jikan yoroshii deshō ka.",
+              "gloss": "Maaf mengganggu di tengah kesibukan Anda, apakah Anda punya waktu sebentar?"
+            }
+          },
+          "fullTranslation": "Maaf mengganggu di tengah kesibukan Anda, apakah Anda punya waktu sebentar?"
+        },
+        {
+          "id": "ja-dict-08-conv-workplace-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata N3–N1, Idiom Tubuh (Kanyōku) & Dialog Bisnis (Kamus & Korpus Lanjutan Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Etiket melapor, berkoordinasi, dan berkonsultasi dengan atasan maupun klien"
+            },
+            "example": {
+              "script": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。",
+              "reading": "O-isogashii tokoro osoreirimasu ga, shōshō o-jikan yoroshii deshō ka.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Etiket melapor, berkoordinasi, dan berkonsultasi dengan atasan maupun klien — Maaf mengganggu di tengah kesibukan Anda, apakah Anda punya waktu sebentar?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Percakapan Dunia Kerja Jepang: Hō-Ren-Sō (報告・連絡・相談) & Telepon Bisnis\"",
+        "psychologyExplanation": "Etiket melapor, berkoordinasi, dan berkonsultasi dengan atasan maupun klien. Dalam kerangka 4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"Cushion Phrases (恐れ入りますが · お手数をおかけしますが)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Percakapan Dunia Kerja Jepang: Hō-Ren-Sō (報告・連絡・相談) & Telepon Bisnis",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-08-conv-workplace-voc-1",
+          "term": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。",
+          "reading": "O-isogashii tokoro osoreirimasu ga, shōshō o-jikan yoroshii deshō ka.",
+          "meaning": "Maaf mengganggu di tengah kesibukan Anda, apakah Anda punya waktu sebentar?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Cushion Phrases (恐れ入りますが · お手数をおかけしますが)",
+          "exampleSentence": "お忙しいところ恐れ入りますが、少々お時間よろしいでしょうか。",
+          "exampleTranslation": "Maaf mengganggu di tengah kesibukan Anda, apakah Anda punya waktu sebentar?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ar-asasi-06-dhamair-isyarah",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 123,
+  "title": "14 Dhamā’ir (Kata Ganti Terpisah & Bersambung) serta Ism Isyārah & Ism Mawṣūl",
+  "subtitle": "Konjugasi kata ganti orang pertama, kedua, ketiga, dan kata sambung (الَّذِي / الَّتِي)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf | 14 Dhamā’ir (Kata Ganti Terpisah & Bersambung) serta Ism Isyārah & Ism Mawṣūl",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-06-dhamair-isyarah-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī)",
+              "gloss": "Perbedaan struktur Idhāfah vs Na‘at-Man‘ūt serta tasrif kata ganti"
+            },
+            "formula": {
+              "script": "Dhamīr Munfaṣil (هُوَ/هِيَ/أَنْتَ/نَحْنُ) ↔ Dhamīr Muttaṣil (ـهُ/ـهَا/ـكَ/ـنَا)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "هٰذَا هُوَ الْبَاحِثُ الَّذِي أَلَّفَ الْكِتَابَ。(Inilah peneliti yang menyusun buku itu)",
+              "reading": "Hādhā huwa al-bāḥithu alladhī allafa al-kitāba.",
+              "gloss": "Kesesuaian gender dan jumlah antara Ism Mawṣūl dan kata yang dirujuknya"
+            }
+          },
+          "fullTranslation": "Kesesuaian gender dan jumlah antara Ism Mawṣūl dan kata yang dirujuknya"
+        },
+        {
+          "id": "ar-asasi-06-dhamair-isyarah-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Idhāfah (Frasa Kepemilikan), Na‘at-Man‘ūt, Dhamā’ir & Ism Isyārah (Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 34 Entri",
+              "gloss": "Konjugasi kata ganti orang pertama, kedua, ketiga, dan kata sambung (الَّذِي / الَّتِي)"
+            },
+            "example": {
+              "script": "هٰذَا هُوَ الْبَاحِثُ الَّذِي أَلَّفَ الْكِتَابَ。(Inilah peneliti yang menyusun buku itu)",
+              "reading": "Hādhā huwa al-bāḥithu alladhī allafa al-kitāba.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Konjugasi kata ganti orang pertama, kedua, ketiga, dan kata sambung (الَّذِي / الَّتِي) — Kesesuaian gender dan jumlah antara Ism Mawṣūl dan kata yang dirujuknya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"14 Dhamā’ir (Kata Ganti Terpisah & Bersambung) serta Ism Isyārah & Ism Mawṣūl\"",
+        "psychologyExplanation": "Konjugasi kata ganti orang pertama, kedua, ketiga, dan kata sambung (الَّذِي / الَّتِي). Dalam kerangka Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī), penutur asli memetakan hubungan makna menggunakan rumus \"Dhamīr Munfaṣil (هُوَ/هِيَ/أَنْتَ/نَحْنُ) ↔ Dhamīr Muttaṣil (ـهُ/ـهَا/ـكَ/ـنَا)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 14 Dhamā’ir (Kata Ganti Terpisah & Bersambung) serta Ism Isyārah & Ism Mawṣūl",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-asasi-06-dhamair-isyarah-voc-1",
+          "term": "هٰذَا هُوَ الْبَاحِثُ الَّذِي أَلَّفَ الْكِتَابَ。(Inilah peneliti yang menyusun buku itu)",
+          "reading": "Hādhā huwa al-bāḥithu alladhī allafa al-kitāba.",
+          "meaning": "Kesesuaian gender dan jumlah antara Ism Mawṣūl dan kata yang dirujuknya",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Dhamīr Munfaṣil (هُوَ/هِيَ/أَنْتَ/نَحْنُ) ↔ Dhamīr Muttaṣil (ـهُ/ـهَا/ـكَ/ـنَا)",
+          "exampleSentence": "هٰذَا هُوَ الْبَاحِثُ الَّذِي أَلَّفَ الْكِتَابَ。(Inilah peneliti yang menyusun buku itu)",
+          "exampleTranslation": "Kesesuaian gender dan jumlah antara Ism Mawṣūl dan kata yang dirujuknya"
+        }
+      ]
+    }
+  ]
+}

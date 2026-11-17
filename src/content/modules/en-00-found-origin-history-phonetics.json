@@ -1,0 +1,98 @@
+{
+  "id": "en-00-found-origin-history-phonetics",
+  "lang": "en",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 103,
+  "title": "Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
+  "subtitle": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Opsional & Terbuka | Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-00-found-origin-history-phonetics-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Sejarah Bahasa & Sistem Ortografi",
+              "gloss": "Evolusi Old English ke Modern English serta hukum ejaan"
+            },
+            "formula": {
+              "script": "Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "about · banana · ship vs sheep · bad vs bed",
+              "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
+              "gloss": "Kontras panjang vokal dan bunyi netral penutur asli"
+            }
+          },
+          "fullTranslation": "Kontras panjang vokal dan bunyi netral penutur asli"
+        },
+        {
+          "id": "en-00-found-origin-history-phonetics-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah, Ortografi Alfabet & Fonetik IPA (Pondasi · Opsional & Terbuka)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 24 Entri",
+              "gloss": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak"
+            },
+            "example": {
+              "script": "about · banana · ship vs sheep · bad vs bed",
+              "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak — Kontras panjang vokal dan bunyi netral penutur asli"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Matriks Simbol IPA Vokal, Diftong & Schwa /ə/\"",
+        "psychologyExplanation": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak. Dalam kerangka 1. Sejarah Bahasa & Sistem Ortografi, penutur asli memetakan hubungan makna menggunakan rumus \"Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-00-found-origin-history-phonetics-voc-1",
+          "term": "about · banana · ship vs sheep · bad vs bed",
+          "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
+          "meaning": "Kontras panjang vokal dan bunyi netral penutur asli",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)",
+          "exampleSentence": "about · banana · ship vs sheep · bad vs bed",
+          "exampleTranslation": "Kontras panjang vokal dan bunyi netral penutur asli"
+        }
+      ]
+    }
+  ]
+}

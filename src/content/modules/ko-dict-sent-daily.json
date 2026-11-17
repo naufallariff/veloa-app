@@ -1,0 +1,98 @@
+{
+  "id": "ko-dict-sent-daily",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 105,
+  "title": "Kalimat Salam, Memesan Makanan, Menanyakan Arah & Ungkapan Sopan",
+  "subtitle": "Pola kalimat akhiran -아/어요 yang sopan dan akrab",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Korea | Kalimat Salam, Memesan Makanan, Menanyakan Arah & Ungkapan Sopan",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-sent-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Ilsang Pyohyeon)",
+              "gloss": "Kalimat praktis di restoran, transportasi Seoul, kampus, dan kafe"
+            },
+            "formula": {
+              "script": "Objek + 주세요 (Tolong berikan) | Tempat + 어떻게 가요?",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "실례지만, 지하철역이 어디에 있어요?",
+              "reading": "Sillyejiman, jihacheollyeogi eodie isseoyo?",
+              "gloss": "Permisi, stasiun kereta bawah tanah ada di sebelah mana?"
+            }
+          },
+          "fullTranslation": "Permisi, stasiun kereta bawah tanah ada di sebelah mana?"
+        },
+        {
+          "id": "ko-dict-sent-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Asli & Hanja-eo, Kalimat Harian & Percakapan (Kamus & Korpus Korea)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Pola kalimat akhiran -아/어요 yang sopan dan akrab"
+            },
+            "example": {
+              "script": "실례지만, 지하철역이 어디에 있어요?",
+              "reading": "Sillyejiman, jihacheollyeogi eodie isseoyo?",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Pola kalimat akhiran -아/어요 yang sopan dan akrab — Permisi, stasiun kereta bawah tanah ada di sebelah mana?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Memesan Makanan, Menanyakan Arah & Ungkapan Sopan\"",
+        "psychologyExplanation": "Pola kalimat akhiran -아/어요 yang sopan dan akrab. Dalam kerangka 2. Bank Kalimat Sehari-hari (Ilsang Pyohyeon), penutur asli memetakan hubungan makna menggunakan rumus \"Objek + 주세요 (Tolong berikan) | Tempat + 어떻게 가요?\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Memesan Makanan, Menanyakan Arah & Ungkapan Sopan",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-dict-sent-daily-voc-1",
+          "term": "실례지만, 지하철역이 어디에 있어요?",
+          "reading": "Sillyejiman, jihacheollyeogi eodie isseoyo?",
+          "meaning": "Permisi, stasiun kereta bawah tanah ada di sebelah mana?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Objek + 주세요 (Tolong berikan) | Tempat + 어떻게 가요?",
+          "exampleSentence": "실례지만, 지하철역이 어디에 있어요?",
+          "exampleTranslation": "Permisi, stasiun kereta bawah tanah ada di sebelah mana?"
+        }
+      ]
+    }
+  ]
+}

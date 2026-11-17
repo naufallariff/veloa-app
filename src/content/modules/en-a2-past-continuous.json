@@ -1,0 +1,98 @@
+{
+  "id": "en-a2-past-continuous",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 121,
+  "title": "Past Continuous Tense & Interupsi Kejadian (When vs While)",
+  "subtitle": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A2 · Waystage | Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-past-continuous-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
+              "gloss": "Menguasai V2, was/were, going to, dan will"
+            },
+            "formula": {
+              "script": "While + S + was/were + V-ing, S + V2",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+            }
+          },
+          "fullTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        },
+        {
+          "id": "en-a2-past-continuous-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 24 Entri",
+              "gloss": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela"
+            },
+            "example": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela — Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Past Continuous Tense & Interupsi Kejadian (When vs While)\"",
+        "psychologyExplanation": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"While + S + was/were + V-ing, S + V2\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a2-past-continuous-voc-1",
+          "term": "While I was reading the manuscript, the rain started.",
+          "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+          "meaning": "Aksi durasi panjang disela oleh aksi titik waktu singkat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: While + S + was/were + V-ing, S + V2",
+          "exampleSentence": "While I was reading the manuscript, the rain started.",
+          "exampleTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        }
+      ]
+    }
+  ]
+}

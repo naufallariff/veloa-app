@@ -1,0 +1,98 @@
+{
+  "id": "ja-00-found-katakana",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 102,
+  "title": "Katakana (カタカナ) Lengkap: Gojūon, Dakuon, Yōon & Vokal Panjang (ー)",
+  "subtitle": "Aksara menyudut untuk kata serapan asing (Gairaigo) dan onomatope",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah & Tiga Sistem Aksara | Katakana (カタカナ) Lengkap: Gojūon, Dakuon, Yōon & Vokal Panjang (ー)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-00-found-katakana-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji",
+              "gloss": "Urutan penguasaan aksara Jepang dari sejarah hingga struktur radikal"
+            },
+            "formula": {
+              "script": "46 Kana Dasar + 25 Dakuon/Handakuon + 33 Yōon + Chōonpu (ー)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "インターネット · コンピューター · カメラ",
+              "reading": "intānetto · konpyūtā · kamera",
+              "gloss": "Aturan pemanjangan vokal Katakana memakai garis datar ー"
+            }
+          },
+          "fullTranslation": "Aturan pemanjangan vokal Katakana memakai garis datar ー"
+        },
+        {
+          "id": "ja-00-found-katakana-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Aksara, Katakana, Hiragana, Kanji & Pitch Accent (Pondasi · Sejarah & Tiga Sistem Aksara)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 71 Entri",
+              "gloss": "Aksara menyudut untuk kata serapan asing (Gairaigo) dan onomatope"
+            },
+            "example": {
+              "script": "インターネット · コンピューター · カメラ",
+              "reading": "intānetto · konpyūtā · kamera",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Aksara menyudut untuk kata serapan asing (Gairaigo) dan onomatope — Aturan pemanjangan vokal Katakana memakai garis datar ー"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Katakana (カタカナ) Lengkap: Gojūon, Dakuon, Yōon & Vokal Panjang (ー)\"",
+        "psychologyExplanation": "Aksara menyudut untuk kata serapan asing (Gairaigo) dan onomatope. Dalam kerangka 1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji, penutur asli memetakan hubungan makna menggunakan rumus \"46 Kana Dasar + 25 Dakuon/Handakuon + 33 Yōon + Chōonpu (ー)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Katakana (カタカナ) Lengkap: Gojūon, Dakuon, Yōon & Vokal Panjang (ー)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-00-found-katakana-voc-1",
+          "term": "インターネット · コンピューター · カメラ",
+          "reading": "intānetto · konpyūtā · kamera",
+          "meaning": "Aturan pemanjangan vokal Katakana memakai garis datar ー",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: 46 Kana Dasar + 25 Dakuon/Handakuon + 33 Yōon + Chōonpu (ー)",
+          "exampleSentence": "インターネット · コンピューター · カメラ",
+          "exampleTranslation": "Aturan pemanjangan vokal Katakana memakai garis datar ー"
+        }
+      ]
+    }
+  ]
+}

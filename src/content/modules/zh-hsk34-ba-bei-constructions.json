@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk34-ba-bei-constructions",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 112,
+  "title": "Konstruksi 把 (Bǎ · Disposal) & 被 (Bèi · Pasif) + Komplemen Hasil",
+  "subtitle": "Memajukan objek sebelum predikat untuk menunjukkan dampak perubahan",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 3–4 · Menengah | Konstruksi 把 (Bǎ · Disposal) & 被 (Bèi · Pasif) + Komplemen Hasil",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-ba-bei-constructions-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin",
+              "gloss": "Penguasaan 了/过/着 dan kalimat disposal 把"
+            },
+            "formula": {
+              "script": "Subjek + 把 + Objek + Predikat + Komplemen Hasil/Arah",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "请把作业交给我。(Tolong serahkan PR-nya kepada saya)",
+              "reading": "Qǐng bǎ zuòyè jiāo gěi wǒ.",
+              "gloss": "Kalimat 把 wajib memiliki unsur hasil atau arah setelah kata kerja"
+            }
+          },
+          "fullTranslation": "Kalimat 把 wajib memiliki unsur hasil atau arah setelah kata kerja"
+        },
+        {
+          "id": "zh-hsk34-ba-bei-constructions-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Aspek (了, 过, 着), Kalimat 把 (Bǎ) & 被 (Bèi) (HSK 3–4 · Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Memajukan objek sebelum predikat untuk menunjukkan dampak perubahan"
+            },
+            "example": {
+              "script": "请把作业交给我。(Tolong serahkan PR-nya kepada saya)",
+              "reading": "Qǐng bǎ zuòyè jiāo gěi wǒ.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memajukan objek sebelum predikat untuk menunjukkan dampak perubahan — Kalimat 把 wajib memiliki unsur hasil atau arah setelah kata kerja"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Konstruksi 把 (Bǎ · Disposal) & 被 (Bèi · Pasif) + Komplemen Hasil\"",
+        "psychologyExplanation": "Memajukan objek sebelum predikat untuk menunjukkan dampak perubahan. Dalam kerangka Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin, penutur asli memetakan hubungan makna menggunakan rumus \"Subjek + 把 + Objek + Predikat + Komplemen Hasil/Arah\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Konstruksi 把 (Bǎ · Disposal) & 被 (Bèi · Pasif) + Komplemen Hasil",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk34-ba-bei-constructions-voc-1",
+          "term": "请把作业交给我。(Tolong serahkan PR-nya kepada saya)",
+          "reading": "Qǐng bǎ zuòyè jiāo gěi wǒ.",
+          "meaning": "Kalimat 把 wajib memiliki unsur hasil atau arah setelah kata kerja",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Subjek + 把 + Objek + Predikat + Komplemen Hasil/Arah",
+          "exampleSentence": "请把作业交给我。(Tolong serahkan PR-nya kepada saya)",
+          "exampleTranslation": "Kalimat 把 wajib memiliki unsur hasil atau arah setelah kata kerja"
+        }
+      ]
+    }
+  ]
+}

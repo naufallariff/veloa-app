@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-05-adad-madud",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 111,
+  "title": "Kaidah Bilangan Arab (‘Adad wa Ma‘dūd): 1–2 (Sesuai) vs 3–10 (Berlawanan Gender)",
+  "subtitle": "Menaklukkan aturan gender dan I‘rab pada hitungan benda maskulin dan feminin",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Arab | Kaidah Bilangan Arab (‘Adad wa Ma‘dūd): 1–2 (Sesuai) vs 3–10 (Berlawanan Gender)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-05-adad-madud-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal",
+              "gloss": "Navigasi kamus akar kata, hukum gender bilangan 1–100, dan hiwār profesional"
+            },
+            "formula": {
+              "script": "3–10: Bilangan berlawanan gender + Ma‘dūd Jamak Majrūr (ثَلَاثَةُ كُتُبٍ / ثَلَاثُ مَجَلَّاتٍ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "خَمْسَةُ طُلَّابٍ (5 siswa lk) vs خَمْسُ طَالِبَاتٍ (5 siswi pr) · عِشْرُونَ كِتَابًا",
+              "reading": "khamsatu ṭullābin vs khamsu ṭālibātin · ‘isyrūna kitāban",
+              "gloss": "Pola berlawanan gender pada angka 3–10 adalah salah satu kaidah ikonik tata bahasa Arab"
+            }
+          },
+          "fullTranslation": "Pola berlawanan gender pada angka 3–10 adalah salah satu kaidah ikonik tata bahasa Arab"
+        },
+        {
+          "id": "ar-dict-05-adad-madud-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kamus Akar Kata (Mu‘jam), Bilangan (‘Adad-Ma‘dūd) & Hiwār Akademik (Kamus & Korpus Lanjutan Arab)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 38 Entri",
+              "gloss": "Menaklukkan aturan gender dan I‘rab pada hitungan benda maskulin dan feminin"
+            },
+            "example": {
+              "script": "خَمْسَةُ طُلَّابٍ (5 siswa lk) vs خَمْسُ طَالِبَاتٍ (5 siswi pr) · عِشْرُونَ كِتَابًا",
+              "reading": "khamsatu ṭullābin vs khamsu ṭālibātin · ‘isyrūna kitāban",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menaklukkan aturan gender dan I‘rab pada hitungan benda maskulin dan feminin — Pola berlawanan gender pada angka 3–10 adalah salah satu kaidah ikonik tata bahasa Arab"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kaidah Bilangan Arab (‘Adad wa Ma‘dūd): 1–2 (Sesuai) vs 3–10 (Berlawanan Gender)\"",
+        "psychologyExplanation": "Menaklukkan aturan gender dan I‘rab pada hitungan benda maskulin dan feminin. Dalam kerangka 4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal, penutur asli memetakan hubungan makna menggunakan rumus \"3–10: Bilangan berlawanan gender + Ma‘dūd Jamak Majrūr (ثَلَاثَةُ كُتُبٍ / ثَلَاثُ مَجَلَّاتٍ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kaidah Bilangan Arab (‘Adad wa Ma‘dūd): 1–2 (Sesuai) vs 3–10 (Berlawanan Gender)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-05-adad-madud-voc-1",
+          "term": "خَمْسَةُ طُلَّابٍ (5 siswa lk) vs خَمْسُ طَالِبَاتٍ (5 siswi pr) · عِشْرُونَ كِتَابًا",
+          "reading": "khamsatu ṭullābin vs khamsu ṭālibātin · ‘isyrūna kitāban",
+          "meaning": "Pola berlawanan gender pada angka 3–10 adalah salah satu kaidah ikonik tata bahasa Arab",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: 3–10: Bilangan berlawanan gender + Ma‘dūd Jamak Majrūr (ثَلَاثَةُ كُتُبٍ / ثَلَاثُ مَجَلَّاتٍ)",
+          "exampleSentence": "خَمْسَةُ طُلَّابٍ (5 siswa lk) vs خَمْسُ طَالِبَاتٍ (5 siswi pr) · عِشْرُونَ كِتَابًا",
+          "exampleTranslation": "Pola berlawanan gender pada angka 3–10 adalah salah satu kaidah ikonik tata bahasa Arab"
+        }
+      ]
+    }
+  ]
+}

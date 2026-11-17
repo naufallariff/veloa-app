@@ -1,0 +1,98 @@
+{
+  "id": "ja-01-beg-syntax-particles",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 111,
+  "title": "Perbedaan Vital Partikel は (Wa · Topik) vs が (Ga · Subjek Fokus)",
+  "subtitle": "Mengapa bahasa Jepang membedakan topik pembicaraan dari pelaku informasi baru",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5 · Dasar | Perbedaan Vital Partikel は (Wa · Topik) vs が (Ga · Subjek Fokus)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-01-beg-syntax-particles-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Partikel Inti (格助詞 Kakujoshi)",
+              "gloss": "Penanda fungsi gramatikal yang melekat di belakang kata benda"
+            },
+            "formula": {
+              "script": "[Topik] は [Komentar] | [Subjek Fokus] が [Predikat]",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "私は学生です (Topik) vs 誰が学生ですか — 私が学生です (Fokus)",
+              "reading": "Watashi wa gakusei desu vs Dare ga gakusei desu ka",
+              "gloss": "Pertanyaan dengan kata tanya (dare/nani) wajib memakai が"
+            }
+          },
+          "fullTranslation": "Pertanyaan dengan kata tanya (dare/nani) wajib memakai が"
+        },
+        {
+          "id": "ja-01-beg-syntax-particles-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Inti (Joshi), Kopula & Konjugasi Dasar (JLPT N5 · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Mengapa bahasa Jepang membedakan topik pembicaraan dari pelaku informasi baru"
+            },
+            "example": {
+              "script": "私は学生です (Topik) vs 誰が学生ですか — 私が学生です (Fokus)",
+              "reading": "Watashi wa gakusei desu vs Dare ga gakusei desu ka",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa bahasa Jepang membedakan topik pembicaraan dari pelaku informasi baru — Pertanyaan dengan kata tanya (dare/nani) wajib memakai が"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Perbedaan Vital Partikel は (Wa · Topik) vs が (Ga · Subjek Fokus)\"",
+        "psychologyExplanation": "Mengapa bahasa Jepang membedakan topik pembicaraan dari pelaku informasi baru. Dalam kerangka Cabang A: Partikel Inti (格助詞 Kakujoshi), penutur asli memetakan hubungan makna menggunakan rumus \"[Topik] は [Komentar] | [Subjek Fokus] が [Predikat]\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Perbedaan Vital Partikel は (Wa · Topik) vs が (Ga · Subjek Fokus)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-01-beg-syntax-particles-voc-1",
+          "term": "私は学生です (Topik) vs 誰が学生ですか — 私が学生です (Fokus)",
+          "reading": "Watashi wa gakusei desu vs Dare ga gakusei desu ka",
+          "meaning": "Pertanyaan dengan kata tanya (dare/nani) wajib memakai が",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: [Topik] は [Komentar] | [Subjek Fokus] が [Predikat]",
+          "exampleSentence": "私は学生です (Topik) vs 誰が学生ですか — 私が学生です (Fokus)",
+          "exampleTranslation": "Pertanyaan dengan kata tanya (dare/nani) wajib memakai が"
+        }
+      ]
+    }
+  ]
+}

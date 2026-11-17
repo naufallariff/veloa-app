@@ -1,0 +1,117 @@
+{
+  "id": "zh-lit-01-wenyanwen",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "native",
+  "order": 115,
+  "title": "Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+  "subtitle": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan",
+  "estimatedMinutes": 55,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-01-wenyanwen-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
+              "gloss": "Bahasa Tionghoa Klasik (Wényánwén), partikel fungsi kuno, dan puisi Tang-Song"
+            },
+            "formula": {
+              "script": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+            }
+          },
+          "fullTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        },
+        {
+          "id": "zh-lit-01-wenyanwen-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Wényánwén (文言文), Puisi Dinasti Tang & Sastra Klasik Tiongkok (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan"
+            },
+            "example": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan — Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius\"",
+        "psychologyExplanation": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan. Dalam kerangka Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué), penutur asli memetakan hubungan makna menggunakan rumus \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-lit-01-wenyanwen-voc-1",
+          "term": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "meaning": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+          "exampleSentence": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "exampleTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "overview": "Kurikulum sastra Tionghoa tingkat universitas: gramatika klasik dan prosodi puisi",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
+          "nativeTerm": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+          "mechanism": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan",
+          "literaryExample": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "translation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

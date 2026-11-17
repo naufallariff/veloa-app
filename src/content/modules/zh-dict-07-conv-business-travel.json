@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-07-conv-business-travel",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 114,
+  "title": "Simulasi Dialog Bisnis, Negosiasi & Perjalanan Mandiri di Tiongkok",
+  "subtitle": "Ungkapan sopan membuka rapat, menawar secara elegan, dan memesan layanan",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Mandarin | Simulasi Dialog Bisnis, Negosiasi & Perjalanan Mandiri di Tiongkok",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-07-conv-business-travel-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional",
+              "gloss": "Penggunaan classifier spesifik benda serta percakapan negosiasi dan layanan"
+            },
+            "formula": {
+              "script": "Sapaan Hormat (请问 / 麻烦您) + Inti Permintaan + Konfirmasi Sopan",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "麻烦您帮我确认一下明天的会议时间，谢谢！",
+              "reading": "Máfan nín bāng wǒ quèrèn yíxià míngtiān de huìyì shíjiān, xièxie!",
+              "gloss": "Mohon bantuannya untuk mengonfirmasi jadwal rapat besok, terima kasih!"
+            }
+          },
+          "fullTranslation": "Mohon bantuannya untuk mengonfirmasi jadwal rapat besok, terima kasih!"
+        },
+        {
+          "id": "zh-dict-07-conv-business-travel-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kata Satuan (量词 Liàngcí), Kosakata HSK 5–6 & Dialog Bisnis Tiongkok (Kamus & Korpus Lanjutan Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 34 Entri",
+              "gloss": "Ungkapan sopan membuka rapat, menawar secara elegan, dan memesan layanan"
+            },
+            "example": {
+              "script": "麻烦您帮我确认一下明天的会议时间，谢谢！",
+              "reading": "Máfan nín bāng wǒ quèrèn yíxià míngtiān de huìyì shíjiān, xièxie!",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Ungkapan sopan membuka rapat, menawar secara elegan, dan memesan layanan — Mohon bantuannya untuk mengonfirmasi jadwal rapat besok, terima kasih!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Simulasi Dialog Bisnis, Negosiasi & Perjalanan Mandiri di Tiongkok\"",
+        "psychologyExplanation": "Ungkapan sopan membuka rapat, menawar secara elegan, dan memesan layanan. Dalam kerangka 4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"Sapaan Hormat (请问 / 麻烦您) + Inti Permintaan + Konfirmasi Sopan\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Simulasi Dialog Bisnis, Negosiasi & Perjalanan Mandiri di Tiongkok",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-07-conv-business-travel-voc-1",
+          "term": "麻烦您帮我确认一下明天的会议时间，谢谢！",
+          "reading": "Máfan nín bāng wǒ quèrèn yíxià míngtiān de huìyì shíjiān, xièxie!",
+          "meaning": "Mohon bantuannya untuk mengonfirmasi jadwal rapat besok, terima kasih!",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Sapaan Hormat (请问 / 麻烦您) + Inti Permintaan + Konfirmasi Sopan",
+          "exampleSentence": "麻烦您帮我确认一下明天的会议时间，谢谢！",
+          "exampleTranslation": "Mohon bantuannya untuk mengonfirmasi jadwal rapat besok, terima kasih!"
+        }
+      ]
+    }
+  ]
+}

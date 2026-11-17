@@ -1,0 +1,98 @@
+{
+  "id": "en-02-beg-present-routine",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 117,
+  "title": "Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+  "subtitle": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1 · Breakthrough | Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-02-beg-present-routine-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)",
+              "gloss": "Merangkai kata menjadi kalimat nominal dan verbal sederhana"
+            },
+            "formula": {
+              "script": "I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+            }
+          },
+          "fullTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        },
+        {
+          "id": "en-02-beg-present-routine-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does"
+            },
+            "example": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does — Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es\"",
+        "psychologyExplanation": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does. Dalam kerangka Cabang B: Grammar & Sentence Building (Tata Bahasa A1), penutur asli memetakan hubungan makna menggunakan rumus \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-02-beg-present-routine-voc-1",
+          "term": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+          "meaning": "Kata kerja utama kembali ke bentuk dasar saat memakai does",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+          "exampleSentence": "Water boils at 100°C. Does she speak Japanese?",
+          "exampleTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        }
+      ]
+    }
+  ]
+}

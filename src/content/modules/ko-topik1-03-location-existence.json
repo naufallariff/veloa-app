@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik1-03-location-existence",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 118,
+  "title": "Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+  "subtitle": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea | Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-03-location-existence-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)",
+              "gloss": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar"
+            },
+            "formula": {
+              "script": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+            }
+          },
+          "fullTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        },
+        {
+          "id": "ko-topik1-03-location-existence-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan (TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di)"
+            },
+            "example": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di) — Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)\"",
+        "psychologyExplanation": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di). Dalam kerangka Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik1-03-location-existence-voc-1",
+          "term": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+          "meaning": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: [Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+          "exampleSentence": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "exampleTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        }
+      ]
+    }
+  ]
+}

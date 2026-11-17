@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-vocab-daily",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 105,
+  "title": "1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+  "subtitle": "Kata benda, kata kerja tindakan, dan deskripsi dasar",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Praktis | 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-vocab-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata Tematik (Core Lexicon)",
+              "gloss": "Kata kerja frekuensi tinggi, kata sifat nuansa, dan kolokasi"
+            },
+            "formula": {
+              "script": "High-Frequency Lemma + Collocation Pair",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+            }
+          },
+          "fullTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        },
+        {
+          "id": "en-dict-vocab-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 60 Entri",
+              "gloss": "Kata benda, kata kerja tindakan, dan deskripsi dasar"
+            },
+            "example": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kata benda, kata kerja tindakan, dan deskripsi dasar — Membuat keputusan · Beristirahat · Mengurus keperluan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga\"",
+        "psychologyExplanation": "Kata benda, kata kerja tindakan, dan deskripsi dasar. Dalam kerangka 1. Kamus Kosakata Tematik (Core Lexicon), penutur asli memetakan hubungan makna menggunakan rumus \"High-Frequency Lemma + Collocation Pair\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-vocab-daily-voc-1",
+          "term": "make a decision · take a break · run errands",
+          "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+          "meaning": "Membuat keputusan · Beristirahat · Mengurus keperluan",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: High-Frequency Lemma + Collocation Pair",
+          "exampleSentence": "make a decision · take a break · run errands",
+          "exampleTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ko-found-05-spacing-orthography",
+  "lang": "ko",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 105,
+  "title": "Kaidah Spasi Bahasa Korea (띄어쓰기) & Perbedaan 에/애, 의, ㅚ/ㅙ/ㅞ",
+  "subtitle": "Aturan menempelkan partikel ke kata benda namun memberi spasi pada kata bantu dan satuan",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan | Kaidah Spasi Bahasa Korea (띄어쓰기) & Perbedaan 에/애, 의, ㅚ/ㅙ/ㅞ",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-found-05-spacing-orthography-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka",
+              "gloss": "Nasalization (비음화), Liquidization (유음화), Palatalization, serta bilangan Korea"
+            },
+            "formula": {
+              "script": "Kata Benda + Partikel (Tanpa Spasi) | Kata Benda + Spasi + Kata Bantu/Satuan (할 수 있다)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "나는 학교에 갑니다 (Partikel menempel) · 한국어를 공부할 수 있어요 (Spasi sebelum 수)",
+              "reading": "naneun hakgyoe gamnida · hangugeoreul gongbuhal su isseoyo",
+              "gloss": "Spasi yang tepat mencegah ambiguitas makna kalimat panjang dalam bahasa Korea"
+            }
+          },
+          "fullTranslation": "Spasi yang tepat mencegah ambiguitas makna kalimat panjang dalam bahasa Korea"
+        },
+        {
+          "id": "ko-found-05-spacing-orthography-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Hukum Perubahan Bunyi (음운 변동), Spasi (띄어쓰기) & Dua Sistem Bilangan (Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 30 Entri",
+              "gloss": "Aturan menempelkan partikel ke kata benda namun memberi spasi pada kata bantu dan satuan"
+            },
+            "example": {
+              "script": "나는 학교에 갑니다 (Partikel menempel) · 한국어를 공부할 수 있어요 (Spasi sebelum 수)",
+              "reading": "naneun hakgyoe gamnida · hangugeoreul gongbuhal su isseoyo",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Aturan menempelkan partikel ke kata benda namun memberi spasi pada kata bantu dan satuan — Spasi yang tepat mencegah ambiguitas makna kalimat panjang dalam bahasa Korea"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kaidah Spasi Bahasa Korea (띄어쓰기) & Perbedaan 에/애, 의, ㅚ/ㅙ/ㅞ\"",
+        "psychologyExplanation": "Aturan menempelkan partikel ke kata benda namun memberi spasi pada kata bantu dan satuan. Dalam kerangka 2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka, penutur asli memetakan hubungan makna menggunakan rumus \"Kata Benda + Partikel (Tanpa Spasi) | Kata Benda + Spasi + Kata Bantu/Satuan (할 수 있다)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kaidah Spasi Bahasa Korea (띄어쓰기) & Perbedaan 에/애, 의, ㅚ/ㅙ/ㅞ",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-found-05-spacing-orthography-voc-1",
+          "term": "나는 학교에 갑니다 (Partikel menempel) · 한국어를 공부할 수 있어요 (Spasi sebelum 수)",
+          "reading": "naneun hakgyoe gamnida · hangugeoreul gongbuhal su isseoyo",
+          "meaning": "Spasi yang tepat mencegah ambiguitas makna kalimat panjang dalam bahasa Korea",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Kata Benda + Partikel (Tanpa Spasi) | Kata Benda + Spasi + Kata Bantu/Satuan (할 수 있다)",
+          "exampleSentence": "나는 학교에 갑니다 (Partikel menempel) · 한국어를 공부할 수 있어요 (Spasi sebelum 수)",
+          "exampleTranslation": "Spasi yang tepat mencegah ambiguitas makna kalimat panjang dalam bahasa Korea"
+        }
+      ]
+    }
+  ]
+}

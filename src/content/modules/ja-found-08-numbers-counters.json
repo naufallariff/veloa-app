@@ -1,0 +1,98 @@
+{
+  "id": "ja-found-08-numbers-counters",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "foundation",
+  "order": 108,
+  "title": "Sistem Bilangan Jepang (Wago vs Kango) & Kata Bantu Bilangan (助数詞 Josūshi)",
+  "subtitle": "Perbedaan hitotsu/futatsu vs ichi/ni serta perubahan bunyi pada 匹, 本, 冊, 階",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Kanji & Sistem Tulisan | Sistem Bilangan Jepang (Wago vs Kango) & Kata Bantu Bilangan (助数詞 Josūshi)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-found-08-numbers-counters-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Pendalaman Struktur Kanji & Fonologi Lanjutan",
+              "gloss": "Hukum Rendaku (konsonan bersuara), Jukugo, dan perbedaan Kanji Jepang vs Tiongkok"
+            },
+            "formula": {
+              "script": "Angka + Counter + Sokuon/Rendaku (1・6・8・10 sering mengalami asimilasi)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "一匹 (ippiki) · 三匹 (sanbiki) · 一冊 (issatsu) · 八階 (hakkai)",
+              "reading": "いっぴき · さんびき · いっさつ · はっかい",
+              "gloss": "Setiap kategori bentuk benda memiliki kata bantu bilangan spesifik"
+            }
+          },
+          "fullTranslation": "Setiap kategori bentuk benda memiliki kata bantu bilangan spesifik"
+        },
+        {
+          "id": "ja-found-08-numbers-counters-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Rikusho (6 Prinsip Kanji), Jukugo & Aturan Okurigana (Pondasi Lanjutan · Kanji & Sistem Tulisan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 40 Entri",
+              "gloss": "Perbedaan hitotsu/futatsu vs ichi/ni serta perubahan bunyi pada 匹, 本, 冊, 階"
+            },
+            "example": {
+              "script": "一匹 (ippiki) · 三匹 (sanbiki) · 一冊 (issatsu) · 八階 (hakkai)",
+              "reading": "いっぴき · さんびき · いっさつ · はっかい",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perbedaan hitotsu/futatsu vs ichi/ni serta perubahan bunyi pada 匹, 本, 冊, 階 — Setiap kategori bentuk benda memiliki kata bantu bilangan spesifik"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Bilangan Jepang (Wago vs Kango) & Kata Bantu Bilangan (助数詞 Josūshi)\"",
+        "psychologyExplanation": "Perbedaan hitotsu/futatsu vs ichi/ni serta perubahan bunyi pada 匹, 本, 冊, 階. Dalam kerangka 2. Pendalaman Struktur Kanji & Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"Angka + Counter + Sokuon/Rendaku (1・6・8・10 sering mengalami asimilasi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Bilangan Jepang (Wago vs Kango) & Kata Bantu Bilangan (助数詞 Josūshi)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-found-08-numbers-counters-voc-1",
+          "term": "一匹 (ippiki) · 三匹 (sanbiki) · 一冊 (issatsu) · 八階 (hakkai)",
+          "reading": "いっぴき · さんびき · いっさつ · はっかい",
+          "meaning": "Setiap kategori bentuk benda memiliki kata bantu bilangan spesifik",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Angka + Counter + Sokuon/Rendaku (1・6・8・10 sering mengalami asimilasi)",
+          "exampleSentence": "一匹 (ippiki) · 三匹 (sanbiki) · 一冊 (issatsu) · 八階 (hakkai)",
+          "exampleTranslation": "Setiap kategori bentuk benda memiliki kata bantu bilangan spesifik"
+        }
+      ]
+    }
+  ]
+}

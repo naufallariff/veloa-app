@@ -1,0 +1,98 @@
+{
+  "id": "en-01-beg-grammar-core",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 116,
+  "title": "Kalimat Nominal To Be (am / is / are) & Pronomina Subjek",
+  "subtitle": "Menyatakan identitas, profesi, kondisi, dan lokasi tanpa kata kerja aksi",
+  "estimatedMinutes": 25,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1 · Breakthrough | Kalimat Nominal To Be (am / is / are) & Pronomina Subjek",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-01-beg-grammar-core-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)",
+              "gloss": "Merangkai kata menjadi kalimat nominal dan verbal sederhana"
+            },
+            "formula": {
+              "script": "S + am/is/are + Complement (Noun / Adjective / Prepositional Phrase)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "I am an engineer. They are ready.",
+              "reading": "/aɪ æm ən ˌen.dʒɪˈnɪər/",
+              "gloss": "Kalimat nominal wajib memakai To Be sebagai predikat"
+            }
+          },
+          "fullTranslation": "Kalimat nominal wajib memakai To Be sebagai predikat"
+        },
+        {
+          "id": "en-01-beg-grammar-core-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 25 Entri",
+              "gloss": "Menyatakan identitas, profesi, kondisi, dan lokasi tanpa kata kerja aksi"
+            },
+            "example": {
+              "script": "I am an engineer. They are ready.",
+              "reading": "/aɪ æm ən ˌen.dʒɪˈnɪər/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan identitas, profesi, kondisi, dan lokasi tanpa kata kerja aksi — Kalimat nominal wajib memakai To Be sebagai predikat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Nominal To Be (am / is / are) & Pronomina Subjek\"",
+        "psychologyExplanation": "Menyatakan identitas, profesi, kondisi, dan lokasi tanpa kata kerja aksi. Dalam kerangka Cabang B: Grammar & Sentence Building (Tata Bahasa A1), penutur asli memetakan hubungan makna menggunakan rumus \"S + am/is/are + Complement (Noun / Adjective / Prepositional Phrase)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Nominal To Be (am / is / are) & Pronomina Subjek",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-01-beg-grammar-core-voc-1",
+          "term": "I am an engineer. They are ready.",
+          "reading": "/aɪ æm ən ˌen.dʒɪˈnɪər/",
+          "meaning": "Kalimat nominal wajib memakai To Be sebagai predikat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: S + am/is/are + Complement (Noun / Adjective / Prepositional Phrase)",
+          "exampleSentence": "I am an engineer. They are ready.",
+          "exampleTranslation": "Kalimat nominal wajib memakai To Be sebagai predikat"
+        }
+      ]
+    }
+  ]
+}

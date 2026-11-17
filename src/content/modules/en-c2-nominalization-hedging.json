@@ -1,0 +1,98 @@
+{
+  "id": "en-c2-nominalization-hedging",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "advanced",
+  "order": 134,
+  "title": "Academic Nominalization, Hedging & Cohesive Devices",
+  "subtitle": "Mengubah gaya bahasa lisan menjadi prosa akademik padat dan objektif",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR C1–C2 · Effective Operational & Mastery | Academic Nominalization, Hedging & Cohesive Devices",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c2-nominalization-hedging-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Inversi, Cleft Sentences & Participle Clauses",
+              "gloss": "Struktur retoris dan penekanan informasi tingkat C1–C2"
+            },
+            "formula": {
+              "script": "Verb/Adjective → Abstract Noun + Epistemic Hedging",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "The proliferation of digital corpora appears to corroborate this hypothesis.",
+              "reading": "/ðə prəˌlɪf.əˈreɪ.ʃən əv ˈdɪdʒ.ɪ.təl ˈkɔːr.pər.ə/",
+              "gloss": "Gaya penulisan jurnal ilmiah internasional standar C2"
+            }
+          },
+          "fullTranslation": "Gaya penulisan jurnal ilmiah internasional standar C2"
+        },
+        {
+          "id": "en-c2-nominalization-hedging-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Inversi Sintaksis, Subjunctive & Wacana Akademik (CEFR C1–C2 · Effective Operational & Mastery)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 32 Entri",
+              "gloss": "Mengubah gaya bahasa lisan menjadi prosa akademik padat dan objektif"
+            },
+            "example": {
+              "script": "The proliferation of digital corpora appears to corroborate this hypothesis.",
+              "reading": "/ðə prəˌlɪf.əˈreɪ.ʃən əv ˈdɪdʒ.ɪ.təl ˈkɔːr.pər.ə/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengubah gaya bahasa lisan menjadi prosa akademik padat dan objektif — Gaya penulisan jurnal ilmiah internasional standar C2"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Academic Nominalization, Hedging & Cohesive Devices\"",
+        "psychologyExplanation": "Mengubah gaya bahasa lisan menjadi prosa akademik padat dan objektif. Dalam kerangka Cabang A: Inversi, Cleft Sentences & Participle Clauses, penutur asli memetakan hubungan makna menggunakan rumus \"Verb/Adjective → Abstract Noun + Epistemic Hedging\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Academic Nominalization, Hedging & Cohesive Devices",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-c2-nominalization-hedging-voc-1",
+          "term": "The proliferation of digital corpora appears to corroborate this hypothesis.",
+          "reading": "/ðə prəˌlɪf.əˈreɪ.ʃən əv ˈdɪdʒ.ɪ.təl ˈkɔːr.pər.ə/",
+          "meaning": "Gaya penulisan jurnal ilmiah internasional standar C2",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Verb/Adjective → Abstract Noun + Epistemic Hedging",
+          "exampleSentence": "The proliferation of digital corpora appears to corroborate this hypothesis.",
+          "exampleTranslation": "Gaya penulisan jurnal ilmiah internasional standar C2"
+        }
+      ]
+    }
+  ]
+}

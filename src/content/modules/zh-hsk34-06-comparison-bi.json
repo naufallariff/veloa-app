@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk34-06-comparison-bi",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 128,
+  "title": "Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+  "subtitle": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan | Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-06-comparison-bi-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)",
+              "gloss": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin"
+            },
+            "formula": {
+              "script": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+            }
+          },
+          "fullTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        },
+        {
+          "id": "zh-hsk34-06-comparison-bi-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比 (HSK 3–4 · Sistem Komplemen & Struktur Perbandingan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比"
+            },
+            "example": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比 — Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样\"",
+        "psychologyExplanation": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比. Dalam kerangka Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk34-06-comparison-bi-voc-1",
+          "term": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+          "meaning": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+          "exampleSentence": "今天的温度比昨天高了五度，没有前天那么热。",
+          "exampleTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        }
+      ]
+    }
+  ]
+}

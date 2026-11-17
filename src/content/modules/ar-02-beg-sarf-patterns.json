@@ -1,0 +1,98 @@
+{
+  "id": "ar-02-beg-sarf-patterns",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 107,
+  "title": "Mīzān Ṣarfī (ف-ع-ل), Fiʿil Māḍī, Muḍāriʿ, Amr & 14 Ḍamīr Konjugasi",
+  "subtitle": "Bagaimana satu akar kata berubah mengikuti 14 kata ganti pelaku",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Tamhīdī & Asāsī · Dasar | Mīzān Ṣarfī (ف-ع-ل), Fiʿil Māḍī, Muḍāriʿ, Amr & 14 Ḍamīr Konjugasi",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-02-beg-sarf-patterns-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: ʿIlmu aṣ-Ṣarf (عِلْمُ الصَّرْفِ · Morfologi & Wazn)",
+              "gloss": "Pembentukan kata dari akar 3 huruf ke berbagai pola (Mīzān Ṣarfī)"
+            },
+            "formula": {
+              "script": "فَعَلَ (Māḍī · Lampau) → يَفْعُلُ (Muḍāriʿ · Kini/Akan) → اُفْعُلْ (Amr · Perintah)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كَتَبَ (dia lk menulis) · كَتَبَتْ (dia pr) · كَتَبْتُ (saya) · نَكْتُبُ (kami)",
+              "reading": "kataba · katabat · katabtu · naktubu",
+              "gloss": "Awalan dan akhiran fiʿil secara otomatis menyimpan identitas subjek"
+            }
+          },
+          "fullTranslation": "Awalan dan akhiran fiʿil secara otomatis menyimpan identitas subjek"
+        },
+        {
+          "id": "ar-02-beg-sarf-patterns-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar (Mustawā Tamhīdī & Asāsī · Dasar)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Bagaimana satu akar kata berubah mengikuti 14 kata ganti pelaku"
+            },
+            "example": {
+              "script": "كَتَبَ (dia lk menulis) · كَتَبَتْ (dia pr) · كَتَبْتُ (saya) · نَكْتُبُ (kami)",
+              "reading": "kataba · katabat · katabtu · naktubu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana satu akar kata berubah mengikuti 14 kata ganti pelaku — Awalan dan akhiran fiʿil secara otomatis menyimpan identitas subjek"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Mīzān Ṣarfī (ف-ع-ل), Fiʿil Māḍī, Muḍāriʿ, Amr & 14 Ḍamīr Konjugasi\"",
+        "psychologyExplanation": "Bagaimana satu akar kata berubah mengikuti 14 kata ganti pelaku. Dalam kerangka Cabang A: ʿIlmu aṣ-Ṣarf (عِلْمُ الصَّرْفِ · Morfologi & Wazn), penutur asli memetakan hubungan makna menggunakan rumus \"فَعَلَ (Māḍī · Lampau) → يَفْعُلُ (Muḍāriʿ · Kini/Akan) → اُفْعُلْ (Amr · Perintah)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Mīzān Ṣarfī (ف-ع-ل), Fiʿil Māḍī, Muḍāriʿ, Amr & 14 Ḍamīr Konjugasi",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-02-beg-sarf-patterns-voc-1",
+          "term": "كَتَبَ (dia lk menulis) · كَتَبَتْ (dia pr) · كَتَبْتُ (saya) · نَكْتُبُ (kami)",
+          "reading": "kataba · katabat · katabtu · naktubu",
+          "meaning": "Awalan dan akhiran fiʿil secara otomatis menyimpan identitas subjek",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: فَعَلَ (Māḍī · Lampau) → يَفْعُلُ (Muḍāriʿ · Kini/Akan) → اُفْعُلْ (Amr · Perintah)",
+          "exampleSentence": "كَتَبَ (dia lk menulis) · كَتَبَتْ (dia pr) · كَتَبْتُ (saya) · نَكْتُبُ (kami)",
+          "exampleTranslation": "Awalan dan akhiran fiʿil secara otomatis menyimpan identitas subjek"
+        }
+      ]
+    }
+  ]
+}

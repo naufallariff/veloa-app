@@ -1,0 +1,98 @@
+{
+  "id": "ko-dict-04-hanja-vocabulary-roots",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 110,
+  "title": "Keluarga Kosakata Hanja (한자어): 學 (학), 生 (생), 國 (국), 語 (어) & 社會 (사회)",
+  "subtitle": "Menghubungkan 60% lebih kosakata akademik Korea dengan akar makna karakter Sino-Korea",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Korea | Keluarga Kosakata Hanja (한자어): 學 (학), 生 (생), 國 (국), 語 (어) & 社會 (사회)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-04-hanja-vocabulary-roots-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan",
+              "gloss": "Keluarga kosakata berbasis suku kata Hanja serta etiket dialog profesional Korea"
+            },
+            "formula": {
+              "script": "Akar Morfem Hanja (학 = belajar) → 학생, 학교, 대학, 학원, 유학, 장학금",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "경제 (ekonomi) · 문화 (budaya) · 환경 (lingkungan) · 과학기술 (sains & teknologi)",
+              "reading": "gyeongje · munhwa · hwangyeong · gwahakgisul",
+              "gloss": "Mengetahui morfem Hanja membantu menebak ribuan kosakata TOPIK 3–6 tanpa kamus"
+            }
+          },
+          "fullTranslation": "Mengetahui morfem Hanja membantu menebak ribuan kosakata TOPIK 3–6 tanpa kamus"
+        },
+        {
+          "id": "ko-dict-04-hanja-vocabulary-roots-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon Hanja (한자어), Sajaseongeo (사자성어) & Dialog Bisnis/Kehidupan (Kamus & Korpus Lanjutan Korea)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 45 Entri",
+              "gloss": "Menghubungkan 60% lebih kosakata akademik Korea dengan akar makna karakter Sino-Korea"
+            },
+            "example": {
+              "script": "경제 (ekonomi) · 문화 (budaya) · 환경 (lingkungan) · 과학기술 (sains & teknologi)",
+              "reading": "gyeongje · munhwa · hwangyeong · gwahakgisul",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menghubungkan 60% lebih kosakata akademik Korea dengan akar makna karakter Sino-Korea — Mengetahui morfem Hanja membantu menebak ribuan kosakata TOPIK 3–6 tanpa kamus"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Keluarga Kosakata Hanja (한자어): 學 (학), 生 (생), 國 (국), 語 (어) & 社會 (사회)\"",
+        "psychologyExplanation": "Menghubungkan 60% lebih kosakata akademik Korea dengan akar makna karakter Sino-Korea. Dalam kerangka 4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan, penutur asli memetakan hubungan makna menggunakan rumus \"Akar Morfem Hanja (학 = belajar) → 학생, 학교, 대학, 학원, 유학, 장학금\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Keluarga Kosakata Hanja (한자어): 學 (학), 生 (생), 國 (국), 語 (어) & 社會 (사회)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-dict-04-hanja-vocabulary-roots-voc-1",
+          "term": "경제 (ekonomi) · 문화 (budaya) · 환경 (lingkungan) · 과학기술 (sains & teknologi)",
+          "reading": "gyeongje · munhwa · hwangyeong · gwahakgisul",
+          "meaning": "Mengetahui morfem Hanja membantu menebak ribuan kosakata TOPIK 3–6 tanpa kamus",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Akar Morfem Hanja (학 = belajar) → 학생, 학교, 대학, 학원, 유학, 장학금",
+          "exampleSentence": "경제 (ekonomi) · 문화 (budaya) · 환경 (lingkungan) · 과학기술 (sains & teknologi)",
+          "exampleTranslation": "Mengetahui morfem Hanja membantu menebak ribuan kosakata TOPIK 3–6 tanpa kamus"
+        }
+      ]
+    }
+  ]
+}

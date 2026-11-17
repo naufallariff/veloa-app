@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik2-adv-grammar",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 111,
+  "title": "Tata Bahasa TOPIK 5–6: -(으)ㄹ 뿐만 아니라, -는 법이다, -(으)ㄴ/는 반면에 & -기에 망정이지",
+  "subtitle": "Struktur argumentasi berlapis dalam tajuk rencana dan makalah ilmiah",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II (Level 5–6) · Mahir | Tata Bahasa TOPIK 5–6: -(으)ㄹ 뿐만 아니라, -는 법이다, -(으)ㄴ/는 반면에 & -기에 망정이지",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik2-adv-grammar-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Wacana Akademik, Sajaseongeo (사자성어) & Nuansa Konsesi",
+              "gloss": "Ekspresi resmi TOPIK tingkat 5–6 dan esai argumentatif"
+            },
+            "formula": {
+              "script": "Kontras & Kausalitas Tingkat Lanjut (반면에 · 탓에 · 덕택에)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "기술이 발전하는 반면에 인간관계가 소원해지는 경향이 있다.",
+              "reading": "Gisuri baljeonhaneun banmyeone ingangwangyega sowonhaejineun gyeonghyangi itda.",
+              "gloss": "Di sisi lain teknologi berkembang, terdapat kecenderungan hubungan antarmanusia merenggang."
+            }
+          },
+          "fullTranslation": "Di sisi lain teknologi berkembang, terdapat kecenderungan hubungan antarmanusia merenggang."
+        },
+        {
+          "id": "ko-topik2-adv-grammar-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Hanja-eo Lanjut, Sajaseongeo & Tata Bahasa Editorial-Akademik (TOPIK II (Level 5–6) · Mahir)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Struktur argumentasi berlapis dalam tajuk rencana dan makalah ilmiah"
+            },
+            "example": {
+              "script": "기술이 발전하는 반면에 인간관계가 소원해지는 경향이 있다.",
+              "reading": "Gisuri baljeonhaneun banmyeone ingangwangyega sowonhaejineun gyeonghyangi itda.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Struktur argumentasi berlapis dalam tajuk rencana dan makalah ilmiah — Di sisi lain teknologi berkembang, terdapat kecenderungan hubungan antarmanusia merenggang."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Tata Bahasa TOPIK 5–6: -(으)ㄹ 뿐만 아니라, -는 법이다, -(으)ㄴ/는 반면에 & -기에 망정이지\"",
+        "psychologyExplanation": "Struktur argumentasi berlapis dalam tajuk rencana dan makalah ilmiah. Dalam kerangka Cabang A: Wacana Akademik, Sajaseongeo (사자성어) & Nuansa Konsesi, penutur asli memetakan hubungan makna menggunakan rumus \"Kontras & Kausalitas Tingkat Lanjut (반면에 · 탓에 · 덕택에)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Tata Bahasa TOPIK 5–6: -(으)ㄹ 뿐만 아니라, -는 법이다, -(으)ㄴ/는 반면에 & -기에 망정이지",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik2-adv-grammar-voc-1",
+          "term": "기술이 발전하는 반면에 인간관계가 소원해지는 경향이 있다.",
+          "reading": "Gisuri baljeonhaneun banmyeone ingangwangyega sowonhaejineun gyeonghyangi itda.",
+          "meaning": "Di sisi lain teknologi berkembang, terdapat kecenderungan hubungan antarmanusia merenggang.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Kontras & Kausalitas Tingkat Lanjut (반면에 · 탓에 · 덕택에)",
+          "exampleSentence": "기술이 발전하는 반면에 인간관계가 소원해지는 경향이 있다.",
+          "exampleTranslation": "Di sisi lain teknologi berkembang, terdapat kecenderungan hubungan antarmanusia merenggang."
+        }
+      ]
+    }
+  ]
+}

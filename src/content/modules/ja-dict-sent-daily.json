@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-sent-daily",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 108,
+  "title": "Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+  "subtitle": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Jepang | Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-sent-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)",
+              "gloss": "Kalimat praktis di stasiun, konbini, kampus, dan kantor"
+            },
+            "formula": {
+              "script": "Set Expressions + Social Context",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Permisi, bagaimana cara pergi ke stasiun?"
+            }
+          },
+          "fullTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        },
+        {
+          "id": "ja-dict-sent-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 40 Entri",
+              "gloss": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama"
+            },
+            "example": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama — Permisi, bagaimana cara pergi ke stasiun?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian\"",
+        "psychologyExplanation": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama. Dalam kerangka 2. Bank Kalimat Sehari-hari (Aisatsu & Situasional), penutur asli memetakan hubungan makna menggunakan rumus \"Set Expressions + Social Context\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-sent-daily-voc-1",
+          "term": "すみません、駅までどうやって行きますか。",
+          "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+          "meaning": "Permisi, bagaimana cara pergi ke stasiun?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Set Expressions + Social Context",
+          "exampleSentence": "すみません、駅までどうやって行きますか。",
+          "exampleTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        }
+      ]
+    }
+  ]
+}

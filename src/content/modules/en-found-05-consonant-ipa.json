@@ -1,0 +1,98 @@
+{
+  "id": "en-found-05-consonant-ipa",
+  "lang": "en",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 105,
+  "title": "24 Konsonan IPA Inggris: Plosives, Fricatives (/θ/, /ð/, /ʃ/, /ʒ/) & Affricates",
+  "subtitle": "Posisi lidah dan getaran pita suara pada bunyi yang tidak ada dalam bahasa Indonesia",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi & Ejaan | 24 Konsonan IPA Inggris: Plosives, Fricatives (/θ/, /ð/, /ʃ/, /ʒ/) & Affricates",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-found-05-consonant-ipa-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Ortografi & Variasi Fonetik Global",
+              "gloss": "Pola ejaan akhir kata, homofon sering tertukar, serta kontras RP British vs General American"
+            },
+            "formula": {
+              "script": "Voiceless (/p, t, k, f, θ, s, ʃ, tʃ/) vs Voiced (/b, d, g, v, ð, z, ʒ, dʒ/)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "measure · vision · breathe vs breath · thin vs then",
+              "reading": "/ˈmeʒ.ər/ · /ˈvɪʒ.ən/ · /briːð/ vs /breθ/",
+              "gloss": "Kontras bunyi desis bersuara dan tak bersuara mengubah kelas kata"
+            }
+          },
+          "fullTranslation": "Kontras bunyi desis bersuara dan tak bersuara mengubah kelas kata"
+        },
+        {
+          "id": "en-found-05-consonant-ipa-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Aturan Ejaan Inggris, Homofon & Kontras Aksen (UK vs US) (Pondasi Lanjutan · Fonologi & Ejaan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 28 Entri",
+              "gloss": "Posisi lidah dan getaran pita suara pada bunyi yang tidak ada dalam bahasa Indonesia"
+            },
+            "example": {
+              "script": "measure · vision · breathe vs breath · thin vs then",
+              "reading": "/ˈmeʒ.ər/ · /ˈvɪʒ.ən/ · /briːð/ vs /breθ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Posisi lidah dan getaran pita suara pada bunyi yang tidak ada dalam bahasa Indonesia — Kontras bunyi desis bersuara dan tak bersuara mengubah kelas kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"24 Konsonan IPA Inggris: Plosives, Fricatives (/θ/, /ð/, /ʃ/, /ʒ/) & Affricates\"",
+        "psychologyExplanation": "Posisi lidah dan getaran pita suara pada bunyi yang tidak ada dalam bahasa Indonesia. Dalam kerangka 2. Hukum Ortografi & Variasi Fonetik Global, penutur asli memetakan hubungan makna menggunakan rumus \"Voiceless (/p, t, k, f, θ, s, ʃ, tʃ/) vs Voiced (/b, d, g, v, ð, z, ʒ, dʒ/)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 24 Konsonan IPA Inggris: Plosives, Fricatives (/θ/, /ð/, /ʃ/, /ʒ/) & Affricates",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-found-05-consonant-ipa-voc-1",
+          "term": "measure · vision · breathe vs breath · thin vs then",
+          "reading": "/ˈmeʒ.ər/ · /ˈvɪʒ.ən/ · /briːð/ vs /breθ/",
+          "meaning": "Kontras bunyi desis bersuara dan tak bersuara mengubah kelas kata",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Voiceless (/p, t, k, f, θ, s, ʃ, tʃ/) vs Voiced (/b, d, g, v, ð, z, ʒ, dʒ/)",
+          "exampleSentence": "measure · vision · breathe vs breath · thin vs then",
+          "exampleTranslation": "Kontras bunyi desis bersuara dan tak bersuara mengubah kelas kata"
+        }
+      ]
+    }
+  ]
+}

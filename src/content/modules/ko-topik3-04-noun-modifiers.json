@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik3-04-noun-modifiers",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 123,
+  "title": "Modifikator Kata Benda (관형사형): -는 (Sedang/Kebiasaan), -(으)ㄴ (Lampau/Sifat) & -(으)ㄹ (Akan)",
+  "subtitle": "Mengubah klausa panjang menjadi frasa penjelas di depan kata benda (Klausa Relatif)",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator | Modifikator Kata Benda (관형사형): -는 (Sedang/Kebiasaan), -(으)ㄴ (Lampau/Sifat) & -(으)ㄹ (Akan)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik3-04-noun-modifiers-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4)",
+              "gloss": "Perubahan ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 serta akhiran penjelas kata benda (-는 / -(으)ㄴ / -(으)ㄹ)"
+            },
+            "formula": {
+              "script": "[Klausa Penjelas + -는 / -(으)ㄴ / -(으)ㄹ] + Kata Benda Inti",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "어제 읽은 책 (Buku yang dibaca kemarin) · 지금 읽는 책 · 내일 읽을 책",
+              "reading": "eoje ilgeun chaek · jigeum ingneun chaek · naeil ilgeul chaek",
+              "gloss": "Dalam bahasa Korea, seluruh klausa penjelas wajib diletakkan SEBELUM kata benda yang dijelaskan"
+            }
+          },
+          "fullTranslation": "Dalam bahasa Korea, seluruh klausa penjelas wajib diletakkan SEBELUM kata benda yang dijelaskan"
+        },
+        {
+          "id": "ko-topik3-04-noun-modifiers-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "7 Irregular Verbs (불규칙 활용), Modifikator Nomina (관형형) & Alasan (-느라고 / -는 바람에) (TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 36 Entri",
+              "gloss": "Mengubah klausa panjang menjadi frasa penjelas di depan kata benda (Klausa Relatif)"
+            },
+            "example": {
+              "script": "어제 읽은 책 (Buku yang dibaca kemarin) · 지금 읽는 책 · 내일 읽을 책",
+              "reading": "eoje ilgeun chaek · jigeum ingneun chaek · naeil ilgeul chaek",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengubah klausa panjang menjadi frasa penjelas di depan kata benda (Klausa Relatif) — Dalam bahasa Korea, seluruh klausa penjelas wajib diletakkan SEBELUM kata benda yang dijelaskan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Modifikator Kata Benda (관형사형): -는 (Sedang/Kebiasaan), -(으)ㄴ (Lampau/Sifat) & -(으)ㄹ (Akan)\"",
+        "psychologyExplanation": "Mengubah klausa panjang menjadi frasa penjelas di depan kata benda (Klausa Relatif). Dalam kerangka Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"[Klausa Penjelas + -는 / -(으)ㄴ / -(으)ㄹ] + Kata Benda Inti\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Modifikator Kata Benda (관형사형): -는 (Sedang/Kebiasaan), -(으)ㄴ (Lampau/Sifat) & -(으)ㄹ (Akan)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik3-04-noun-modifiers-voc-1",
+          "term": "어제 읽은 책 (Buku yang dibaca kemarin) · 지금 읽는 책 · 내일 읽을 책",
+          "reading": "eoje ilgeun chaek · jigeum ingneun chaek · naeil ilgeul chaek",
+          "meaning": "Dalam bahasa Korea, seluruh klausa penjelas wajib diletakkan SEBELUM kata benda yang dijelaskan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: [Klausa Penjelas + -는 / -(으)ㄴ / -(으)ㄹ] + Kata Benda Inti",
+          "exampleSentence": "어제 읽은 책 (Buku yang dibaca kemarin) · 지금 읽는 책 · 내일 읽을 책",
+          "exampleTranslation": "Dalam bahasa Korea, seluruh klausa penjelas wajib diletakkan SEBELUM kata benda yang dijelaskan"
+        }
+      ]
+    }
+  ]
+}

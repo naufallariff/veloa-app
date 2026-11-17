@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik2-indirect-quotation",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 110,
+  "title": "Kalimat Kutipan Tak Langsung (-다고 하다, -냐고 하다, -자고 하다, -라고 하다)",
+  "subtitle": "Melaporkan pernyataan, pertanyaan, ajakan, dan perintah secara ringkas",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II (Level 3–4) · Menengah | Kalimat Kutipan Tak Langsung (-다고 하다, -냐고 하다, -자고 하다, -라고 하다)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik2-indirect-quotation-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Honorifik Subjek-Objek & Klausa Modifikator",
+              "gloss": "Mengangkat subjek yang dihormati dan merangkai klausa kompleks"
+            },
+            "formula": {
+              "script": "Pernyataan (-다고) · Pertanyaan (-냐고) · Ajakan (-자고) · Perintah (-(으)라고)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "친구가 내일 같이 도서관에 가자고 했어요.",
+              "reading": "Chinguga naeil gachi doseogwane gajago haesseoyo.",
+              "gloss": "Teman mengajak pergi ke perpustakaan bersama besok."
+            }
+          },
+          "fullTranslation": "Teman mengajak pergi ke perpustakaan bersama besok."
+        },
+        {
+          "id": "ko-topik2-indirect-quotation-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sistem Honorifik (Nopimmal), Modifikasi Nomina & Kalimat Tak Langsung (TOPIK II (Level 3–4) · Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Melaporkan pernyataan, pertanyaan, ajakan, dan perintah secara ringkas"
+            },
+            "example": {
+              "script": "친구가 내일 같이 도서관에 가자고 했어요.",
+              "reading": "Chinguga naeil gachi doseogwane gajago haesseoyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Melaporkan pernyataan, pertanyaan, ajakan, dan perintah secara ringkas — Teman mengajak pergi ke perpustakaan bersama besok."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Kutipan Tak Langsung (-다고 하다, -냐고 하다, -자고 하다, -라고 하다)\"",
+        "psychologyExplanation": "Melaporkan pernyataan, pertanyaan, ajakan, dan perintah secara ringkas. Dalam kerangka Cabang A: Honorifik Subjek-Objek & Klausa Modifikator, penutur asli memetakan hubungan makna menggunakan rumus \"Pernyataan (-다고) · Pertanyaan (-냐고) · Ajakan (-자고) · Perintah (-(으)라고)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Kutipan Tak Langsung (-다고 하다, -냐고 하다, -자고 하다, -라고 하다)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik2-indirect-quotation-voc-1",
+          "term": "친구가 내일 같이 도서관에 가자고 했어요.",
+          "reading": "Chinguga naeil gachi doseogwane gajago haesseoyo.",
+          "meaning": "Teman mengajak pergi ke perpustakaan bersama besok.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Pernyataan (-다고) · Pertanyaan (-냐고) · Ajakan (-자고) · Perintah (-(으)라고)",
+          "exampleSentence": "친구가 내일 같이 도서관에 가자고 했어요.",
+          "exampleTranslation": "Teman mengajak pergi ke perpustakaan bersama besok."
+        }
+      ]
+    }
+  ]
+}

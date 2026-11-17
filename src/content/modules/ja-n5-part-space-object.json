@@ -1,0 +1,98 @@
+{
+  "id": "ja-n5-part-space-object",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 112,
+  "title": "Partikel Objek & Ruang: を (O), に (Ni), で (De), へ (E), から/まで",
+  "subtitle": "Membedakan に (titik tujuan/keberadaan) vs で (lokasi berlangsungnya aksi)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5 · Dasar | Partikel Objek & Ruang: を (O), に (Ni), で (De), へ (E), から/まで",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-part-space-object-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Partikel Inti (格助詞 Kakujoshi)",
+              "gloss": "Penanda fungsi gramatikal yang melekat di belakang kata benda"
+            },
+            "formula": {
+              "script": "Tempat + で + Aksi Dinamis | Tempat + に + Keberadaan (ある/いる)/Tujuan",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "図書館で本を読みます (aksi) vs 図書館に本があります (keberadaan)",
+              "reading": "Toshokan de hon o yomimasu vs Toshokan ni hon ga arimasu",
+              "gloss": "Membaca buku di perpustakaan vs Ada buku di perpustakaan"
+            }
+          },
+          "fullTranslation": "Membaca buku di perpustakaan vs Ada buku di perpustakaan"
+        },
+        {
+          "id": "ja-n5-part-space-object-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Inti (Joshi), Kopula & Konjugasi Dasar (JLPT N5 · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Membedakan に (titik tujuan/keberadaan) vs で (lokasi berlangsungnya aksi)"
+            },
+            "example": {
+              "script": "図書館で本を読みます (aksi) vs 図書館に本があります (keberadaan)",
+              "reading": "Toshokan de hon o yomimasu vs Toshokan ni hon ga arimasu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan に (titik tujuan/keberadaan) vs で (lokasi berlangsungnya aksi) — Membaca buku di perpustakaan vs Ada buku di perpustakaan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Partikel Objek & Ruang: を (O), に (Ni), で (De), へ (E), から/まで\"",
+        "psychologyExplanation": "Membedakan に (titik tujuan/keberadaan) vs で (lokasi berlangsungnya aksi). Dalam kerangka Cabang A: Partikel Inti (格助詞 Kakujoshi), penutur asli memetakan hubungan makna menggunakan rumus \"Tempat + で + Aksi Dinamis | Tempat + に + Keberadaan (ある/いる)/Tujuan\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Partikel Objek & Ruang: を (O), に (Ni), で (De), へ (E), から/まで",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n5-part-space-object-voc-1",
+          "term": "図書館で本を読みます (aksi) vs 図書館に本があります (keberadaan)",
+          "reading": "Toshokan de hon o yomimasu vs Toshokan ni hon ga arimasu",
+          "meaning": "Membaca buku di perpustakaan vs Ada buku di perpustakaan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Tempat + で + Aksi Dinamis | Tempat + に + Keberadaan (ある/いる)/Tujuan",
+          "exampleSentence": "図書館で本を読みます (aksi) vs 図書館に本があります (keberadaan)",
+          "exampleTranslation": "Membaca buku di perpustakaan vs Ada buku di perpustakaan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutawassit-03-irab-mudhari",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 124,
+  "title": "I‘rāb Fi‘l Muḍāri‘: Marfū‘, Manṣūb (أَنْ / لَنْ / كَيْ) & Majzūm (لَمْ / لَا النَّاهِيَة / إِنْ)",
+  "subtitle": "Mengapa لَمْ يَكْتُبْ berharakat Sukūn dan لَمْ يَكْتُبُوا kehilangan huruf Nūn-nya",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah | I‘rāb Fi‘l Muḍāri‘: Marfū‘, Manṣūb (أَنْ / لَنْ / كَيْ) & Majzūm (لَمْ / لَا النَّاهِيَة / إِنْ)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-03-irab-mudhari-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)",
+              "gloss": "Huruf Nashib (أَنْ لَنْ كَيْ), Huruf Jazim (لَمْ لَا النَّاهِيَة), dan Fi‘l Majhūl"
+            },
+            "formula": {
+              "script": "لَنْ + Muḍāri‘ Manṣūb (Fathah) | لَمْ + Muḍāri‘ Majzūm (Sukūn / Ḥadhf Nūn)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "يَدْرُسُ → لَنْ يَدْرُسَ (tidak akan belajar) → لَمْ يَدْرُسْ (tidak/belum belajar)",
+              "reading": "yadrusu → lan yadrusa → lam yadrus",
+              "gloss": "Partikel لَمْ mengubah makna Muḍāri‘ menjadi lampau negatif sekaligus menjazmkan akhirnya"
+            }
+          },
+          "fullTranslation": "Partikel لَمْ mengubah makna Muḍāri‘ menjadi lampau negatif sekaligus menjazmkan akhirnya"
+        },
+        {
+          "id": "ar-mutawassit-03-irab-mudhari-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "I‘rāb Fi‘l Muḍāri‘ (Naṣb & Jazm), Fi‘l Mu‘tall & Mabnī lil-Majhūl (Pasif) (Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 36 Entri",
+              "gloss": "Mengapa لَمْ يَكْتُبْ berharakat Sukūn dan لَمْ يَكْتُبُوا kehilangan huruf Nūn-nya"
+            },
+            "example": {
+              "script": "يَدْرُسُ → لَنْ يَدْرُسَ (tidak akan belajar) → لَمْ يَدْرُسْ (tidak/belum belajar)",
+              "reading": "yadrusu → lan yadrusa → lam yadrus",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa لَمْ يَكْتُبْ berharakat Sukūn dan لَمْ يَكْتُبُوا kehilangan huruf Nūn-nya — Partikel لَمْ mengubah makna Muḍāri‘ menjadi lampau negatif sekaligus menjazmkan akhirnya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"I‘rāb Fi‘l Muḍāri‘: Marfū‘, Manṣūb (أَنْ / لَنْ / كَيْ) & Majzūm (لَمْ / لَا النَّاهِيَة / إِنْ)\"",
+        "psychologyExplanation": "Mengapa لَمْ يَكْتُبْ berharakat Sukūn dan لَمْ يَكْتُبُوا kehilangan huruf Nūn-nya. Dalam kerangka Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ), penutur asli memetakan hubungan makna menggunakan rumus \"لَنْ + Muḍāri‘ Manṣūb (Fathah) | لَمْ + Muḍāri‘ Majzūm (Sukūn / Ḥadhf Nūn)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: I‘rāb Fi‘l Muḍāri‘: Marfū‘, Manṣūb (أَنْ / لَنْ / كَيْ) & Majzūm (لَمْ / لَا النَّاهِيَة / إِنْ)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutawassit-03-irab-mudhari-voc-1",
+          "term": "يَدْرُسُ → لَنْ يَدْرُسَ (tidak akan belajar) → لَمْ يَدْرُسْ (tidak/belum belajar)",
+          "reading": "yadrusu → lan yadrusa → lam yadrus",
+          "meaning": "Partikel لَمْ mengubah makna Muḍāri‘ menjadi lampau negatif sekaligus menjazmkan akhirnya",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: لَنْ + Muḍāri‘ Manṣūb (Fathah) | لَمْ + Muḍāri‘ Majzūm (Sukūn / Ḥadhf Nūn)",
+          "exampleSentence": "يَدْرُسُ → لَنْ يَدْرُسَ (tidak akan belajar) → لَمْ يَدْرُسْ (tidak/belum belajar)",
+          "exampleTranslation": "Partikel لَمْ mengubah makna Muḍāri‘ menjadi lampau negatif sekaligus menjazmkan akhirnya"
+        }
+      ]
+    }
+  ]
+}

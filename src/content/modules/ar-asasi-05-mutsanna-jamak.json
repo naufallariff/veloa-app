@@ -1,0 +1,98 @@
+{
+  "id": "ar-asasi-05-mutsanna-jamak",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 122,
+  "title": "Kategori Jumlah Arab: Mufrad (Tunggal), Mutsannā (Dual -āni/-ayni) & 3 Jenis Jamak",
+  "subtitle": "Jamak Mudzakkar Sālim (-ūna/-īna), Jamak Mu’annats Sālim (-āt), dan Jamak Taksīr",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf | Kategori Jumlah Arab: Mufrad (Tunggal), Mutsannā (Dual -āni/-ayni) & 3 Jenis Jamak",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-05-mutsanna-jamak-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī)",
+              "gloss": "Perbedaan struktur Idhāfah vs Na‘at-Man‘ūt serta tasrif kata ganti"
+            },
+            "formula": {
+              "script": "Mutsannā: +انِ (Raf‘) / +يْنِ (Naṣb/Jarr) | Jamak Sālim: +ونَ / +ينَ",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مُعَلِّمٌ → مُعَلِّمَانِ / مُعَلِّمَيْنِ → مُعَلِّمُونَ / مُعَلِّمِينَ",
+              "reading": "mu‘allimun → mu‘allimāni / mu‘allimayni → mu‘allimūna / mu‘allimīna",
+              "gloss": "Tanda I‘rab pada bentuk Dual dan Jamak Beraturan berupa huruf, bukan harakat"
+            }
+          },
+          "fullTranslation": "Tanda I‘rab pada bentuk Dual dan Jamak Beraturan berupa huruf, bukan harakat"
+        },
+        {
+          "id": "ar-asasi-05-mutsanna-jamak-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Idhāfah (Frasa Kepemilikan), Na‘at-Man‘ūt, Dhamā’ir & Ism Isyārah (Al-Mustawā Al-Asāsī · Fondasi Naḥwu & Ṣaraf)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Jamak Mudzakkar Sālim (-ūna/-īna), Jamak Mu’annats Sālim (-āt), dan Jamak Taksīr"
+            },
+            "example": {
+              "script": "مُعَلِّمٌ → مُعَلِّمَانِ / مُعَلِّمَيْنِ → مُعَلِّمُونَ / مُعَلِّمِينَ",
+              "reading": "mu‘allimun → mu‘allimāni / mu‘allimayni → mu‘allimūna / mu‘allimīna",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Jamak Mudzakkar Sālim (-ūna/-īna), Jamak Mu’annats Sālim (-āt), dan Jamak Taksīr — Tanda I‘rab pada bentuk Dual dan Jamak Beraturan berupa huruf, bukan harakat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kategori Jumlah Arab: Mufrad (Tunggal), Mutsannā (Dual -āni/-ayni) & 3 Jenis Jamak\"",
+        "psychologyExplanation": "Jamak Mudzakkar Sālim (-ūna/-īna), Jamak Mu’annats Sālim (-āt), dan Jamak Taksīr. Dalam kerangka Cabang C: Konstruksi Frasa Nominal & Pronomina (Asāsī), penutur asli memetakan hubungan makna menggunakan rumus \"Mutsannā: +انِ (Raf‘) / +يْنِ (Naṣb/Jarr) | Jamak Sālim: +ونَ / +ينَ\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kategori Jumlah Arab: Mufrad (Tunggal), Mutsannā (Dual -āni/-ayni) & 3 Jenis Jamak",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-asasi-05-mutsanna-jamak-voc-1",
+          "term": "مُعَلِّمٌ → مُعَلِّمَانِ / مُعَلِّمَيْنِ → مُعَلِّمُونَ / مُعَلِّمِينَ",
+          "reading": "mu‘allimun → mu‘allimāni / mu‘allimayni → mu‘allimūna / mu‘allimīna",
+          "meaning": "Tanda I‘rab pada bentuk Dual dan Jamak Beraturan berupa huruf, bukan harakat",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Mutsannā: +انِ (Raf‘) / +يْنِ (Naṣb/Jarr) | Jamak Sālim: +ونَ / +ينَ",
+          "exampleSentence": "مُعَلِّمٌ → مُعَلِّمَانِ / مُعَلِّمَيْنِ → مُعَلِّمُونَ / مُعَلِّمِينَ",
+          "exampleTranslation": "Tanda I‘rab pada bentuk Dual dan Jamak Beraturan berupa huruf, bukan harakat"
+        }
+      ]
+    }
+  ]
+}

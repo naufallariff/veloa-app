@@ -1,0 +1,117 @@
+{
+  "id": "en-lit-06-historical-semantics",
+  "lang": "en",
+  "pillar": "morphology",
+  "tier": "native",
+  "order": 158,
+  "title": "Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+  "subtitle": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\"",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan | Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-06-historical-semantics-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+              "gloss": "Romantisisme, Modernisme, sudut pandang naratif, dan pergeseran makna kata"
+            },
+            "formula": {
+              "script": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+            }
+          },
+          "fullTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        },
+        {
+          "id": "en-lit-06-historical-semantics-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Modernis, Kritik Sastra & Sejarah Etimologi Leksikon (Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 28 Entri",
+              "gloss": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\""
+            },
+            "example": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\" — Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets\"",
+        "psychologyExplanation": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\". Dalam kerangka Cabang Sastra Modernis, Naratologi & Semantik Historis, penutur asli memetakan hubungan makna menggunakan rumus \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-lit-06-historical-semantics-voc-1",
+          "term": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "meaning": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+          "exampleSentence": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "exampleTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "traditionName": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Inggris: aliran kesusastraan, naratologi, dan semantik historis",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+          "nativeTerm": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+          "mechanism": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\"",
+          "literaryExample": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "translation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

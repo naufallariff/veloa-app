@@ -1,0 +1,117 @@
+{
+  "id": "ja-lit-05-kansai-dialects",
+  "lang": "ja",
+  "pillar": "phonetics",
+  "tier": "native",
+  "order": 141,
+  "title": "Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia",
+  "subtitle": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan | Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-lit-05-kansai-dialects-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+              "gloss": "Gerakan Genbun-Itchi, karya Natsume Sōseki–Akutagawa, dan dialek Kansai/Tōhoku"
+            },
+            "formula": {
+              "script": "Hyōjungo (〜だ / 〜ない) ↔ Kansai-ben (〜や / 〜へん)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "なんでやねん！ · ようおこし (Kyoto) · めっちゃええやん",
+              "reading": "Nande ya nen! · Yō okoshi · Meccha ee yan",
+              "gloss": "Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang"
+            }
+          },
+          "fullTranslation": "Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang"
+        },
+        {
+          "id": "ja-lit-05-kansai-dialects-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Zaman Meiji–Shōwa, Kajian Genji & Dialek Regional (Hōgen) (Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 28 Entri",
+              "gloss": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo"
+            },
+            "example": {
+              "script": "なんでやねん！ · ようおこし (Kyoto) · めっちゃええやん",
+              "reading": "Nande ya nen! · Yō okoshi · Meccha ee yan",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo — Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia\"",
+        "psychologyExplanation": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo. Dalam kerangka Cabang Sastra Modern, Filologi & Dialektologi Jepang, penutur asli memetakan hubungan makna menggunakan rumus \"Hyōjungo (〜だ / 〜ない) ↔ Kansai-ben (〜や / 〜へん)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-lit-05-kansai-dialects-voc-1",
+          "term": "なんでやねん！ · ようおこし (Kyoto) · めっちゃええやん",
+          "reading": "Nande ya nen! · Yō okoshi · Meccha ee yan",
+          "meaning": "Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Hyōjungo (〜だ / 〜ない) ↔ Kansai-ben (〜や / 〜へん)",
+          "exampleSentence": "なんでやねん！ · ようおこし (Kyoto) · めっちゃええやん",
+          "exampleTranslation": "Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia",
+      "traditionName": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Jepang: evolusi Genbun-Itchi, estetika modern, dan sosiolinguistik",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+          "nativeTerm": "Hyōjungo (〜だ / 〜ない) ↔ Kansai-ben (〜や / 〜へん)",
+          "mechanism": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo",
+          "literaryExample": "なんでやねん！ · ようおこし (Kyoto) · めっちゃええやん",
+          "reading": "Nande ya nen! · Yō okoshi · Meccha ee yan",
+          "translation": "Memahami variasi regional memperkaya apresiasi drama, film, dan sastra Jepang",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

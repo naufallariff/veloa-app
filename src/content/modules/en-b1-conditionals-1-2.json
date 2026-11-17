@@ -1,0 +1,98 @@
+{
+  "id": "en-b1-conditionals-1-2",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 127,
+  "title": "Conditional Sentences Type 0, Type 1 & Type 2 (Pengandaian)",
+  "subtitle": "Fakta ilmiah, kemungkinan nyata masa depan, dan situasi hipotesis",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR B1 · Threshold | Conditional Sentences Type 0, Type 1 & Type 2 (Pengandaian)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b1-conditionals-1-2-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Aspek Perfect, Modals & Passive Voice",
+              "gloss": "Struktur tata bahasa inti tingkat menengah mandiri"
+            },
+            "formula": {
+              "script": "Type 1: If + Present, will + V1 | Type 2: If + Past, would + V1",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "If I spoke five languages fluently, I would translate classical texts.",
+              "reading": "/ɪf aɪ spoʊk faɪv ˈlæŋ.ɡwɪdʒ.ɪz ˈfluː.ənt.li/",
+              "gloss": "Situasi imajiner saat ini memakai bentuk lampau (Subjunctive were)"
+            }
+          },
+          "fullTranslation": "Situasi imajiner saat ini memakai bentuk lampau (Subjunctive were)"
+        },
+        {
+          "id": "en-b1-conditionals-1-2-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Jembatan Waktu Perfect, Modalitas & Kalimat Pasif (CEFR B1 · Threshold)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Fakta ilmiah, kemungkinan nyata masa depan, dan situasi hipotesis"
+            },
+            "example": {
+              "script": "If I spoke five languages fluently, I would translate classical texts.",
+              "reading": "/ɪf aɪ spoʊk faɪv ˈlæŋ.ɡwɪdʒ.ɪz ˈfluː.ənt.li/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Fakta ilmiah, kemungkinan nyata masa depan, dan situasi hipotesis — Situasi imajiner saat ini memakai bentuk lampau (Subjunctive were)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Conditional Sentences Type 0, Type 1 & Type 2 (Pengandaian)\"",
+        "psychologyExplanation": "Fakta ilmiah, kemungkinan nyata masa depan, dan situasi hipotesis. Dalam kerangka Cabang A: Aspek Perfect, Modals & Passive Voice, penutur asli memetakan hubungan makna menggunakan rumus \"Type 1: If + Present, will + V1 | Type 2: If + Past, would + V1\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Conditional Sentences Type 0, Type 1 & Type 2 (Pengandaian)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-b1-conditionals-1-2-voc-1",
+          "term": "If I spoke five languages fluently, I would translate classical texts.",
+          "reading": "/ɪf aɪ spoʊk faɪv ˈlæŋ.ɡwɪdʒ.ɪz ˈfluː.ənt.li/",
+          "meaning": "Situasi imajiner saat ini memakai bentuk lampau (Subjunctive were)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Type 1: If + Present, will + V1 | Type 2: If + Past, would + V1",
+          "exampleSentence": "If I spoke five languages fluently, I would translate classical texts.",
+          "exampleTranslation": "Situasi imajiner saat ini memakai bentuk lampau (Subjunctive were)"
+        }
+      ]
+    }
+  ]
+}

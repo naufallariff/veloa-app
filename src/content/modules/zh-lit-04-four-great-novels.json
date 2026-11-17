@@ -1,0 +1,117 @@
+{
+  "id": "zh-lit-04-four-great-novels",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "native",
+  "order": 136,
+  "title": "Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)",
+  "subtitle": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan | Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-04-four-great-novels-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",
+              "gloss": "Song Ci (Su Shi, Li Qingzhao), Empat Karya Agung, dan perbandingan Mandarin-Kanton-Hokkien"
+            },
+            "formula": {
+              "script": "Bànwén Bànbái (半文半白 · Perpaduan Klasik & Vernakular Ming-Qing)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "满纸荒唐言，一把辛酸泪。(Cao Xueqin — 红楼梦)",
+              "reading": "Mǎn zhǐ huāngtáng yán, yì bǎ xīnsuān lèi.",
+              "gloss": "Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan."
+            }
+          },
+          "fullTranslation": "Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan."
+        },
+        {
+          "id": "zh-lit-04-four-great-novels-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Puisi Dinasti Song (Ci), Empat Roman Klasik & Dialek Sinitik (Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 25 Entri",
+              "gloss": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义)"
+            },
+            "example": {
+              "script": "满纸荒唐言，一把辛酸泪。(Cao Xueqin — 红楼梦)",
+              "reading": "Mǎn zhǐ huāngtáng yán, yì bǎ xīnsuān lèi.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义) — Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)\"",
+        "psychologyExplanation": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义). Dalam kerangka Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa, penutur asli memetakan hubungan makna menggunakan rumus \"Bànwén Bànbái (半文半白 · Perpaduan Klasik & Vernakular Ming-Qing)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-lit-04-four-great-novels-voc-1",
+          "term": "满纸荒唐言，一把辛酸泪。(Cao Xueqin — 红楼梦)",
+          "reading": "Mǎn zhǐ huāngtáng yán, yì bǎ xīnsuān lèi.",
+          "meaning": "Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Bànwén Bànbái (半文半白 · Perpaduan Klasik & Vernakular Ming-Qing)",
+          "exampleSentence": "满纸荒唐言，一把辛酸泪。(Cao Xueqin — 红楼梦)",
+          "exampleTranslation": "Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan."
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)",
+      "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Tiongkok: evolusi prosodi, prosa klasik, dan variasi dialek",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",
+          "nativeTerm": "Bànwén Bànbái (半文半白 · Perpaduan Klasik & Vernakular Ming-Qing)",
+          "mechanism": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义)",
+          "literaryExample": "满纸荒唐言，一把辛酸泪。(Cao Xueqin — 红楼梦)",
+          "reading": "Mǎn zhǐ huāngtáng yán, yì bǎ xīnsuān lèi.",
+          "translation": "Lembaran penuh kata tampak absurd, namun sarat tetesan air mata kepedihan.",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "ko-lit-03-pansori-classical-prose",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 131,
+  "title": "Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon",
+  "subtitle": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan | Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-03-pansori-classical-prose-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",
+              "gloss": "Pansori (판소리), penyair modern (Kim Sowol, Yun Dong-ju), dan Satoori Gyeongsang/Jeolla/Jeju"
+            },
+            "formula": {
+              "script": "Irama 4-4 Ketukan + Satire Sosial & Nilai Kesetiaan (절개)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "사랑 사랑 내 사랑이야, 어화둥둥 내 사랑이야! (Chunhyangga — 춘향가)",
+              "reading": "Sarang sarang nae sarangiya, eohwadungdung nae sarangiya!",
+              "gloss": "Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon"
+            }
+          },
+          "fullTranslation": "Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon"
+        },
+        {
+          "id": "ko-lit-03-pansori-classical-prose-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pansori & Prosa Joseon, Puisi Modern Korea & Dialek Regional (Satoori) (Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 26 Entri",
+              "gloss": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea"
+            },
+            "example": {
+              "script": "사랑 사랑 내 사랑이야, 어화둥둥 내 사랑이야! (Chunhyangga — 춘향가)",
+              "reading": "Sarang sarang nae sarangiya, eohwadungdung nae sarangiya!",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea — Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon\"",
+        "psychologyExplanation": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea. Dalam kerangka Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea, penutur asli memetakan hubungan makna menggunakan rumus \"Irama 4-4 Ketukan + Satire Sosial & Nilai Kesetiaan (절개)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-lit-03-pansori-classical-prose-voc-1",
+          "term": "사랑 사랑 내 사랑이야, 어화둥둥 내 사랑이야! (Chunhyangga — 춘향가)",
+          "reading": "Sarang sarang nae sarangiya, eohwadungdung nae sarangiya!",
+          "meaning": "Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Irama 4-4 Ketukan + Satire Sosial & Nilai Kesetiaan (절개)",
+          "exampleSentence": "사랑 사랑 내 사랑이야, 어화둥둥 내 사랑이야! (Chunhyangga — 춘향가)",
+          "exampleTranslation": "Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon",
+      "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Korea: sastra rakyat (Chunhyangga), puisi modern, dan variasi dialek",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",
+          "nativeTerm": "Irama 4-4 Ketukan + Satire Sosial & Nilai Kesetiaan (절개)",
+          "mechanism": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea",
+          "literaryExample": "사랑 사랑 내 사랑이야, 어화둥둥 내 사랑이야! (Chunhyangga — 춘향가)",
+          "reading": "Sarang sarang nae sarangiya, eohwadungdung nae sarangiya!",
+          "translation": "Petikan ikonik nyanyian cinta dari mahakarya Pansori Joseon",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ja-00-found-pitch-accent",
+  "lang": "ja",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 105,
+  "title": "Fonetik Mora (拍 Haku) & 4 Pola Pitch Accent (Heiban, Atamadaka, Nakadaka, Odaka)",
+  "subtitle": "Mengapa 箸 (hashi · sumpit) dan 橋 (hashi · jembatan) berbeda tinggi rendah nada",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah & Tiga Sistem Aksara | Fonetik Mora (拍 Haku) & 4 Pola Pitch Accent (Heiban, Atamadaka, Nakadaka, Odaka)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-00-found-pitch-accent-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji",
+              "gloss": "Urutan penguasaan aksara Jepang dari sejarah hingga struktur radikal"
+            },
+            "formula": {
+              "script": "Mora Timing (1 Kana = 1 Ketukan) + High/Low Pitch Drop",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "雨 (あめ · H-L · hujan) vs 飴 (あめ · L-H · permen)",
+              "reading": "á-me vs a-mé",
+              "gloss": "Bahasa Jepang menggunakan aksen tinggi-rendah nada (Pitch), bukan tekanan keras"
+            }
+          },
+          "fullTranslation": "Bahasa Jepang menggunakan aksen tinggi-rendah nada (Pitch), bukan tekanan keras"
+        },
+        {
+          "id": "ja-00-found-pitch-accent-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Aksara, Katakana, Hiragana, Kanji & Pitch Accent (Pondasi · Sejarah & Tiga Sistem Aksara)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 24 Entri",
+              "gloss": "Mengapa 箸 (hashi · sumpit) dan 橋 (hashi · jembatan) berbeda tinggi rendah nada"
+            },
+            "example": {
+              "script": "雨 (あめ · H-L · hujan) vs 飴 (あめ · L-H · permen)",
+              "reading": "á-me vs a-mé",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 箸 (hashi · sumpit) dan 橋 (hashi · jembatan) berbeda tinggi rendah nada — Bahasa Jepang menggunakan aksen tinggi-rendah nada (Pitch), bukan tekanan keras"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Fonetik Mora (拍 Haku) & 4 Pola Pitch Accent (Heiban, Atamadaka, Nakadaka, Odaka)\"",
+        "psychologyExplanation": "Mengapa 箸 (hashi · sumpit) dan 橋 (hashi · jembatan) berbeda tinggi rendah nada. Dalam kerangka 1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji, penutur asli memetakan hubungan makna menggunakan rumus \"Mora Timing (1 Kana = 1 Ketukan) + High/Low Pitch Drop\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Fonetik Mora (拍 Haku) & 4 Pola Pitch Accent (Heiban, Atamadaka, Nakadaka, Odaka)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-00-found-pitch-accent-voc-1",
+          "term": "雨 (あめ · H-L · hujan) vs 飴 (あめ · L-H · permen)",
+          "reading": "á-me vs a-mé",
+          "meaning": "Bahasa Jepang menggunakan aksen tinggi-rendah nada (Pitch), bukan tekanan keras",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Mora Timing (1 Kana = 1 Ketukan) + High/Low Pitch Drop",
+          "exampleSentence": "雨 (あめ · H-L · hujan) vs 飴 (あめ · L-H · permen)",
+          "exampleTranslation": "Bahasa Jepang menggunakan aksen tinggi-rendah nada (Pitch), bukan tekanan keras"
+        }
+      ]
+    }
+  ]
+}

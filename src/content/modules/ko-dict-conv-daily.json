@@ -1,0 +1,98 @@
+{
+  "id": "ko-dict-conv-daily",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 106,
+  "title": "Percakapan Pertemuan Pertama, Kampus & Tempat Kerja Korea",
+  "subtitle": "Penggunaan penanda wacana 그런데, 아 그래요?, dan 혹시",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Korea | Percakapan Pertemuan Pertama, Kampus & Tempat Kerja Korea",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-conv-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "3. Contoh Percakapan Kontekstual (Daehwa)",
+              "gloss": "Dialog alami dengan pilihan tingkat tutur yang sesuai lawan bicara"
+            },
+            "formula": {
+              "script": "Polite Opening (혹시...) + Backchannel (아, 정말요?)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "혹시 한국어 공부한 지 얼마나 됐어요? — 일 년 정도 됐어요.",
+              "reading": "Hoksi Hangugeo gongbuhan ji eolmana dwaesseoyo?",
+              "gloss": "Ngomong-ngomong, sudah berapa lama belajar bahasa Korea? — Sekitar satu tahun."
+            }
+          },
+          "fullTranslation": "Ngomong-ngomong, sudah berapa lama belajar bahasa Korea? — Sekitar satu tahun."
+        },
+        {
+          "id": "ko-dict-conv-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Asli & Hanja-eo, Kalimat Harian & Percakapan (Kamus & Korpus Korea)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Penggunaan penanda wacana 그런데, 아 그래요?, dan 혹시"
+            },
+            "example": {
+              "script": "혹시 한국어 공부한 지 얼마나 됐어요? — 일 년 정도 됐어요.",
+              "reading": "Hoksi Hangugeo gongbuhan ji eolmana dwaesseoyo?",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Penggunaan penanda wacana 그런데, 아 그래요?, dan 혹시 — Ngomong-ngomong, sudah berapa lama belajar bahasa Korea? — Sekitar satu tahun."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Percakapan Pertemuan Pertama, Kampus & Tempat Kerja Korea\"",
+        "psychologyExplanation": "Penggunaan penanda wacana 그런데, 아 그래요?, dan 혹시. Dalam kerangka 3. Contoh Percakapan Kontekstual (Daehwa), penutur asli memetakan hubungan makna menggunakan rumus \"Polite Opening (혹시...) + Backchannel (아, 정말요?)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Percakapan Pertemuan Pertama, Kampus & Tempat Kerja Korea",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-dict-conv-daily-voc-1",
+          "term": "혹시 한국어 공부한 지 얼마나 됐어요? — 일 년 정도 됐어요.",
+          "reading": "Hoksi Hangugeo gongbuhan ji eolmana dwaesseoyo?",
+          "meaning": "Ngomong-ngomong, sudah berapa lama belajar bahasa Korea? — Sekitar satu tahun.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Polite Opening (혹시...) + Backchannel (아, 정말요?)",
+          "exampleSentence": "혹시 한국어 공부한 지 얼마나 됐어요? — 일 년 정도 됐어요.",
+          "exampleTranslation": "Ngomong-ngomong, sudah berapa lama belajar bahasa Korea? — Sekitar satu tahun."
+        }
+      ]
+    }
+  ]
+}

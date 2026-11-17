@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutaqaddim-mansubat",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 113,
+  "title": "Manṣūbāt: Ḥāl (Keadaan), Tamyīz (Penjelas), Mafʿūl Muṭlaq & Mafʿūl Li-Ajlih",
+  "subtitle": "Membedakan berbagai keterangan berharakat Fatḥah dalam prosa Arab tinggi",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Mutaqaddim · Mahir (Kitab Gundul) | Manṣūbāt: Ḥāl (Keadaan), Tamyīz (Penjelas), Mafʿūl Muṭlaq & Mafʿūl Li-Ajlih",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-mansubat-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Manṣūbāt al-Asmāʾ, Tawābiʿ & Iʿrāb Fiʿil Muḍāriʿ",
+              "gloss": "Mafʿūl Muṭlaq, Mafʿūl Li-Ajlih, Ḥāl, Tamyīz, serta Nawāṣib & Jawāzim"
+            },
+            "formula": {
+              "script": "Ḥāl (Isim Nakirah Penjelas Kondisi Pelaku) · Tamyīz (Penjelas Satuan/Perbandingan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "جَاءَ الطَّالِبُ مُسْرِعًا طَلَبًا لِلْعِلْمِ.",
+              "reading": "Jāʾa aṭ-ṭālibu musriʿan (Ḥāl) ṭalaban (Mafʿūl Li-Ajlih) lil-ʿilmi.",
+              "gloss": "Mahasiswa itu datang dalam keadaan bergegas demi menuntut ilmu."
+            }
+          },
+          "fullTranslation": "Mahasiswa itu datang dalam keadaan bergegas demi menuntut ilmu."
+        },
+        {
+          "id": "ar-mutaqaddim-mansubat-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Naḥwu Lanjut, Tawābiʿ, Ḥāl, Tamyīz & Membaca Teks Tanpa Harakat (Mustawā Mutaqaddim · Mahir (Kitab Gundul))"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Membedakan berbagai keterangan berharakat Fatḥah dalam prosa Arab tinggi"
+            },
+            "example": {
+              "script": "جَاءَ الطَّالِبُ مُسْرِعًا طَلَبًا لِلْعِلْمِ.",
+              "reading": "Jāʾa aṭ-ṭālibu musriʿan (Ḥāl) ṭalaban (Mafʿūl Li-Ajlih) lil-ʿilmi.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan berbagai keterangan berharakat Fatḥah dalam prosa Arab tinggi — Mahasiswa itu datang dalam keadaan bergegas demi menuntut ilmu."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Manṣūbāt: Ḥāl (Keadaan), Tamyīz (Penjelas), Mafʿūl Muṭlaq & Mafʿūl Li-Ajlih\"",
+        "psychologyExplanation": "Membedakan berbagai keterangan berharakat Fatḥah dalam prosa Arab tinggi. Dalam kerangka Cabang A: Manṣūbāt al-Asmāʾ, Tawābiʿ & Iʿrāb Fiʿil Muḍāriʿ, penutur asli memetakan hubungan makna menggunakan rumus \"Ḥāl (Isim Nakirah Penjelas Kondisi Pelaku) · Tamyīz (Penjelas Satuan/Perbandingan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Manṣūbāt: Ḥāl (Keadaan), Tamyīz (Penjelas), Mafʿūl Muṭlaq & Mafʿūl Li-Ajlih",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutaqaddim-mansubat-voc-1",
+          "term": "جَاءَ الطَّالِبُ مُسْرِعًا طَلَبًا لِلْعِلْمِ.",
+          "reading": "Jāʾa aṭ-ṭālibu musriʿan (Ḥāl) ṭalaban (Mafʿūl Li-Ajlih) lil-ʿilmi.",
+          "meaning": "Mahasiswa itu datang dalam keadaan bergegas demi menuntut ilmu.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Ḥāl (Isim Nakirah Penjelas Kondisi Pelaku) · Tamyīz (Penjelas Satuan/Perbandingan)",
+          "exampleSentence": "جَاءَ الطَّالِبُ مُسْرِعًا طَلَبًا لِلْعِلْمِ.",
+          "exampleTranslation": "Mahasiswa itu datang dalam keadaan bergegas demi menuntut ilmu."
+        }
+      ]
+    }
+  ]
+}

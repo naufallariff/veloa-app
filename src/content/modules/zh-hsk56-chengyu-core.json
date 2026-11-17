@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk56-chengyu-core",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "advanced",
+  "order": 113,
+  "title": "100 Chengyu (成语) Esensial: Asal Usul Sejarah & Pemakaian Sintaksis",
+  "subtitle": "Peribahasa empat karakter yang merangkum kisah sejarah Tiongkok kuno",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 5–6+ · Mahir | 100 Chengyu (成语) Esensial: Asal Usul Sejarah & Pemakaian Sintaksis",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-chengyu-core-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Chengyu 4 Karakter & Sintaksis Lanjut",
+              "gloss": "Idiom klasik yang hidup dalam bahasa berita dan pidato modern"
+            },
+            "formula": {
+              "script": "Struktur Paralel 4 Karakter (A-B-C-D)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "画蛇添足 (menggambar ular menambah kaki = melakukan hal sia-sia yang merusak)",
+              "reading": "huà shé tiān zú",
+              "gloss": "Digunakan dalam esai maupun percakapan terdidik untuk memadatkan argumen"
+            }
+          },
+          "fullTranslation": "Digunakan dalam esai maupun percakapan terdidik untuk memadatkan argumen"
+        },
+        {
+          "id": "zh-hsk56-chengyu-core-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Chengyu (成语), Konjungsi Wacana & Ragam Jurnalistik (HSK 5–6+ · Mahir)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 40 Entri",
+              "gloss": "Peribahasa empat karakter yang merangkum kisah sejarah Tiongkok kuno"
+            },
+            "example": {
+              "script": "画蛇添足 (menggambar ular menambah kaki = melakukan hal sia-sia yang merusak)",
+              "reading": "huà shé tiān zú",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Peribahasa empat karakter yang merangkum kisah sejarah Tiongkok kuno — Digunakan dalam esai maupun percakapan terdidik untuk memadatkan argumen"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"100 Chengyu (成语) Esensial: Asal Usul Sejarah & Pemakaian Sintaksis\"",
+        "psychologyExplanation": "Peribahasa empat karakter yang merangkum kisah sejarah Tiongkok kuno. Dalam kerangka Cabang A: Chengyu 4 Karakter & Sintaksis Lanjut, penutur asli memetakan hubungan makna menggunakan rumus \"Struktur Paralel 4 Karakter (A-B-C-D)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 100 Chengyu (成语) Esensial: Asal Usul Sejarah & Pemakaian Sintaksis",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk56-chengyu-core-voc-1",
+          "term": "画蛇添足 (menggambar ular menambah kaki = melakukan hal sia-sia yang merusak)",
+          "reading": "huà shé tiān zú",
+          "meaning": "Digunakan dalam esai maupun percakapan terdidik untuk memadatkan argumen",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Struktur Paralel 4 Karakter (A-B-C-D)",
+          "exampleSentence": "画蛇添足 (menggambar ular menambah kaki = melakukan hal sia-sia yang merusak)",
+          "exampleTranslation": "Digunakan dalam esai maupun percakapan terdidik untuk memadatkan argumen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-c1-subjunctive-mandative",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 133,
+  "title": "Mandative Subjunctive & Formal Hypotheticals",
+  "subtitle": "Struktur It is imperative that he be present (tanpa -s/is)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR C1–C2 · Effective Operational & Mastery | Mandative Subjunctive & Formal Hypotheticals",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c1-subjunctive-mandative-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Inversi, Cleft Sentences & Participle Clauses",
+              "gloss": "Struktur retoris dan penekanan informasi tingkat C1–C2"
+            },
+            "formula": {
+              "script": "Demand/Suggest/Essential + that + Subject + Bare Infinitive",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "The committee recommended that the policy be revised immediately.",
+              "reading": "/ðə kəˈmɪt.i ˌrek.əˈmen.dɪd ðæt ðə ˈpɒl.ə.si biː rɪˈvaɪzd/",
+              "gloss": "Bentuk dasar be digunakan untuk semua subjek dalam klausa mandatif"
+            }
+          },
+          "fullTranslation": "Bentuk dasar be digunakan untuk semua subjek dalam klausa mandatif"
+        },
+        {
+          "id": "en-c1-subjunctive-mandative-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Inversi Sintaksis, Subjunctive & Wacana Akademik (CEFR C1–C2 · Effective Operational & Mastery)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 24 Entri",
+              "gloss": "Struktur It is imperative that he be present (tanpa -s/is)"
+            },
+            "example": {
+              "script": "The committee recommended that the policy be revised immediately.",
+              "reading": "/ðə kəˈmɪt.i ˌrek.əˈmen.dɪd ðæt ðə ˈpɒl.ə.si biː rɪˈvaɪzd/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Struktur It is imperative that he be present (tanpa -s/is) — Bentuk dasar be digunakan untuk semua subjek dalam klausa mandatif"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Mandative Subjunctive & Formal Hypotheticals\"",
+        "psychologyExplanation": "Struktur It is imperative that he be present (tanpa -s/is). Dalam kerangka Cabang A: Inversi, Cleft Sentences & Participle Clauses, penutur asli memetakan hubungan makna menggunakan rumus \"Demand/Suggest/Essential + that + Subject + Bare Infinitive\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Mandative Subjunctive & Formal Hypotheticals",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-c1-subjunctive-mandative-voc-1",
+          "term": "The committee recommended that the policy be revised immediately.",
+          "reading": "/ðə kəˈmɪt.i ˌrek.əˈmen.dɪd ðæt ðə ˈpɒl.ə.si biː rɪˈvaɪzd/",
+          "meaning": "Bentuk dasar be digunakan untuk semua subjek dalam klausa mandatif",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Demand/Suggest/Essential + that + Subject + Bare Infinitive",
+          "exampleSentence": "The committee recommended that the policy be revised immediately.",
+          "exampleTranslation": "Bentuk dasar be digunakan untuk semua subjek dalam klausa mandatif"
+        }
+      ]
+    }
+  ]
+}

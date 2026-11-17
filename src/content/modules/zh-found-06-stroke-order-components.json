@@ -1,0 +1,98 @@
+{
+  "id": "zh-found-06-stroke-order-components",
+  "lang": "zh",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 107,
+  "title": "7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+  "subtitle": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi | 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-found-06-stroke-order-components-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Perubahan Nada & Ortografi Hanzi",
+              "gloss": "Sandhi nada ketiga, perubahan nada 一 (yī) dan 不 (bù), serta 7 kaidah urutan goresan"
+            },
+            "formula": {
+              "script": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+            }
+          },
+          "fullTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        },
+        {
+          "id": "zh-found-06-stroke-order-components-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Aturan Tone Sandhi (变调), Urutan Goresan (笔顺) & Akar Aksara (Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 36 Entri",
+              "gloss": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik"
+            },
+            "example": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik — 80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)\"",
+        "psychologyExplanation": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik. Dalam kerangka 2. Hukum Perubahan Nada & Ortografi Hanzi, penutur asli memetakan hubungan makna menggunakan rumus \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-found-06-stroke-order-components-voc-1",
+          "term": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "qǐng · qīng · qíng · qíng",
+          "meaning": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+          "exampleSentence": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "exampleTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        }
+      ]
+    }
+  ]
+}

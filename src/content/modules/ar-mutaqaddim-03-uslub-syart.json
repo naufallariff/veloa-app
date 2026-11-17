@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutaqaddim-03-uslub-syart",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 127,
+  "title": "Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+  "subtitle": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts | Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)",
+              "gloss": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin"
+            },
+            "formula": {
+              "script": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+            }
+          },
+          "fullTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        },
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf (Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat"
+            },
+            "example": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat — Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ\"",
+        "psychologyExplanation": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat. Dalam kerangka Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim), penutur asli memetakan hubungan makna menggunakan rumus \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-voc-1",
+          "term": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+          "meaning": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+          "exampleSentence": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "exampleTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        }
+      ]
+    }
+  ]
+}

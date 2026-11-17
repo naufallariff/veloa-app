@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik3-03-seven-irregulars",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 122,
+  "title": "7 Kata Kerja Tidak Beraturan (불규칙 활용): ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 & ㅂ-Adjektiva",
+  "subtitle": "Mengapa 듣다 menjadi 들어요, 춥다 menjadi 추워요, dan 모르다 menjadi 몰라요",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator | 7 Kata Kerja Tidak Beraturan (불규칙 활용): ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 & ㅂ-Adjektiva",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik3-03-seven-irregulars-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4)",
+              "gloss": "Perubahan ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 serta akhiran penjelas kata benda (-는 / -(으)ㄴ / -(으)ㄹ)"
+            },
+            "formula": {
+              "script": "듣 + 어요 → 들어요 (ㄷ→ㄹ) | 춥 + 어요 → 추워요 (ㅂ→우) | 모르 + 아요 → 몰라요 (르→ㄹ라)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "음악을 들어요 · 날씨가 추워요 · 길을 몰라요 · 머리를 잘랐어요",
+              "reading": "eumageul deureoyo · nalssiga chuwoyo · gireul mollayo · meorireul jallasseoyo",
+              "gloss": "Menguasai 7 pola perubahan akar ini menghilangkan hambatan terbesar konjugasi Korea"
+            }
+          },
+          "fullTranslation": "Menguasai 7 pola perubahan akar ini menghilangkan hambatan terbesar konjugasi Korea"
+        },
+        {
+          "id": "ko-topik3-03-seven-irregulars-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "7 Irregular Verbs (불규칙 활용), Modifikator Nomina (관형형) & Alasan (-느라고 / -는 바람에) (TOPIK II Menengah (Level 3–4) · Konjugasi Tidak Beraturan & Modifikator)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 40 Entri",
+              "gloss": "Mengapa 듣다 menjadi 들어요, 춥다 menjadi 추워요, dan 모르다 menjadi 몰라요"
+            },
+            "example": {
+              "script": "음악을 들어요 · 날씨가 추워요 · 길을 몰라요 · 머리를 잘랐어요",
+              "reading": "eumageul deureoyo · nalssiga chuwoyo · gireul mollayo · meorireul jallasseoyo",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 듣다 menjadi 들어요, 춥다 menjadi 추워요, dan 모르다 menjadi 몰라요 — Menguasai 7 pola perubahan akar ini menghilangkan hambatan terbesar konjugasi Korea"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"7 Kata Kerja Tidak Beraturan (불규칙 활용): ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 & ㅂ-Adjektiva\"",
+        "psychologyExplanation": "Mengapa 듣다 menjadi 들어요, 춥다 menjadi 추워요, dan 모르다 menjadi 몰라요. Dalam kerangka Cabang B: Kata Kerja Tidak Beraturan, Klausa Relatif & Nuansa Sebab-Akibat (TOPIK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"듣 + 어요 → 들어요 (ㄷ→ㄹ) | 춥 + 어요 → 추워요 (ㅂ→우) | 모르 + 아요 → 몰라요 (르→ㄹ라)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 7 Kata Kerja Tidak Beraturan (불규칙 활용): ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 & ㅂ-Adjektiva",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik3-03-seven-irregulars-voc-1",
+          "term": "음악을 들어요 · 날씨가 추워요 · 길을 몰라요 · 머리를 잘랐어요",
+          "reading": "eumageul deureoyo · nalssiga chuwoyo · gireul mollayo · meorireul jallasseoyo",
+          "meaning": "Menguasai 7 pola perubahan akar ini menghilangkan hambatan terbesar konjugasi Korea",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: 듣 + 어요 → 들어요 (ㄷ→ㄹ) | 춥 + 어요 → 추워요 (ㅂ→우) | 모르 + 아요 → 몰라요 (르→ㄹ라)",
+          "exampleSentence": "음악을 들어요 · 날씨가 추워요 · 길을 몰라요 · 머리를 잘랐어요",
+          "exampleTranslation": "Menguasai 7 pola perubahan akar ini menghilangkan hambatan terbesar konjugasi Korea"
+        }
+      ]
+    }
+  ]
+}

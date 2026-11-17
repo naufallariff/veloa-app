@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-conv-casual-polite",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 110,
+  "title": "Percakapan Kampus & Kantor: Peralihan Desu/Masu ke Bentuk Biasa",
+  "subtitle": "Cara menyimak aktif dengan sō desu ne, naruhodo, dan maji de",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Jepang | Percakapan Kampus & Kantor: Peralihan Desu/Masu ke Bentuk Biasa",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-conv-casual-polite-row-1",
+          "cells": {
+            "construct": {
+              "script": "3. Contoh Percakapan & Aizuchi Penutur Asli",
+              "gloss": "Dialog nyata dengan respons pendengar (Aizuchi) yang alami"
+            },
+            "formula": {
+              "script": "Aizuchi Backchanneling + Sentence-Final Particles (ね・よ・よね)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "昨日の映画、すごく面白かったよ！ — へえ、そうなんだ！",
+              "reading": "Kinō no eiga, sugoku omoshirokatta yo! — Hē, sō nanda!",
+              "gloss": "Film kemarin seru banget lho! — Wah, begitu ya!"
+            }
+          },
+          "fullTranslation": "Film kemarin seru banget lho! — Wah, begitu ya!"
+        },
+        {
+          "id": "ja-dict-conv-casual-polite-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 28 Entri",
+              "gloss": "Cara menyimak aktif dengan sō desu ne, naruhodo, dan maji de"
+            },
+            "example": {
+              "script": "昨日の映画、すごく面白かったよ！ — へえ、そうなんだ！",
+              "reading": "Kinō no eiga, sugoku omoshirokatta yo! — Hē, sō nanda!",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Cara menyimak aktif dengan sō desu ne, naruhodo, dan maji de — Film kemarin seru banget lho! — Wah, begitu ya!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Percakapan Kampus & Kantor: Peralihan Desu/Masu ke Bentuk Biasa\"",
+        "psychologyExplanation": "Cara menyimak aktif dengan sō desu ne, naruhodo, dan maji de. Dalam kerangka 3. Contoh Percakapan & Aizuchi Penutur Asli, penutur asli memetakan hubungan makna menggunakan rumus \"Aizuchi Backchanneling + Sentence-Final Particles (ね・よ・よね)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Percakapan Kampus & Kantor: Peralihan Desu/Masu ke Bentuk Biasa",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-conv-casual-polite-voc-1",
+          "term": "昨日の映画、すごく面白かったよ！ — へえ、そうなんだ！",
+          "reading": "Kinō no eiga, sugoku omoshirokatta yo! — Hē, sō nanda!",
+          "meaning": "Film kemarin seru banget lho! — Wah, begitu ya!",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Aizuchi Backchanneling + Sentence-Final Particles (ね・よ・よね)",
+          "exampleSentence": "昨日の映画、すごく面白かったよ！ — へえ、そうなんだ！",
+          "exampleTranslation": "Film kemarin seru banget lho! — Wah, begitu ya!"
+        }
+      ]
+    }
+  ]
+}

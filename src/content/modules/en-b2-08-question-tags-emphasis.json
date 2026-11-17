@@ -1,0 +1,98 @@
+{
+  "id": "en-b2-08-question-tags-emphasis",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 149,
+  "title": "Question Tags, Ellipsis & Auxiliary Substitution (So do I / Neither have I)",
+  "subtitle": "Menjaga alur percakapan alami tanpa mengulang seluruh predikat kalimat",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR B1–B2 · Menengah Lengkap | Question Tags, Ellipsis & Auxiliary Substitution (So do I / Neither have I)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-08-question-tags-emphasis-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2)",
+              "gloss": "Membedakan fokus hasil vs durasi serta penggunaan have/get something done"
+            },
+            "formula": {
+              "script": "Positive Statement, Negative Tag? | Negative Statement, Positive Tag?",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "You’ve already reviewed the proposal, haven’t you? — Yes, and so has Maya.",
+              "reading": "/juːv ɔːlˈred.i rɪˈvjuːd ðə prəˈpoʊ.zəl, ˈhæv.ənt juː/",
+              "gloss": "Intonasi turun menandakan konfirmasi; intonasi naik menandakan pertanyaan nyata"
+            }
+          },
+          "fullTranslation": "Intonasi turun menandakan konfirmasi; intonasi naik menandakan pertanyaan nyata"
+        },
+        {
+          "id": "en-b2-08-question-tags-emphasis-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Present Perfect Continuous, Past Perfect, Causative & Question Tags (CEFR B1–B2 · Menengah Lengkap)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 26 Entri",
+              "gloss": "Menjaga alur percakapan alami tanpa mengulang seluruh predikat kalimat"
+            },
+            "example": {
+              "script": "You’ve already reviewed the proposal, haven’t you? — Yes, and so has Maya.",
+              "reading": "/juːv ɔːlˈred.i rɪˈvjuːd ðə prəˈpoʊ.zəl, ˈhæv.ənt juː/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menjaga alur percakapan alami tanpa mengulang seluruh predikat kalimat — Intonasi turun menandakan konfirmasi; intonasi naik menandakan pertanyaan nyata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Question Tags, Ellipsis & Auxiliary Substitution (So do I / Neither have I)\"",
+        "psychologyExplanation": "Menjaga alur percakapan alami tanpa mengulang seluruh predikat kalimat. Dalam kerangka Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2), penutur asli memetakan hubungan makna menggunakan rumus \"Positive Statement, Negative Tag? | Negative Statement, Positive Tag?\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Question Tags, Ellipsis & Auxiliary Substitution (So do I / Neither have I)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-b2-08-question-tags-emphasis-voc-1",
+          "term": "You’ve already reviewed the proposal, haven’t you? — Yes, and so has Maya.",
+          "reading": "/juːv ɔːlˈred.i rɪˈvjuːd ðə prəˈpoʊ.zəl, ˈhæv.ənt juː/",
+          "meaning": "Intonasi turun menandakan konfirmasi; intonasi naik menandakan pertanyaan nyata",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Positive Statement, Negative Tag? | Negative Statement, Positive Tag?",
+          "exampleSentence": "You’ve already reviewed the proposal, haven’t you? — Yes, and so has Maya.",
+          "exampleTranslation": "Intonasi turun menandakan konfirmasi; intonasi naik menandakan pertanyaan nyata"
+        }
+      ]
+    }
+  ]
+}

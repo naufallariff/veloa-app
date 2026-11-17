@@ -1,0 +1,98 @@
+{
+  "id": "ar-found-06-nun-mim-sakinah",
+  "lang": "ar",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 106,
+  "title": "Kaidah Fonologi Konsonan Mati: Iẓhār, Idghām, Iqlāb & Ikhfā’ dalam Pelafalan Fasih",
+  "subtitle": "Penerapan artikulasi makhraj dan ghunnah untuk bacaan Al-Qur’an dan pidato Fusha",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd | Kaidah Fonologi Konsonan Mati: Iẓhār, Idghām, Iqlāb & Ikhfā’ dalam Pelafalan Fasih",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-found-06-nun-mim-sakinah-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan",
+              "gloss": "Perbedaan Alif-Lam Qamariyyah/Syamsiyyah, kursi Hamzah, dan hukum Nun Mati/Tanwin"
+            },
+            "formula": {
+              "script": "نْ / Tanwīn + Huruf Berikutnya → 4 Transformasi Fonetik",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مِنْ خَيْرٍ (Iẓhār) · مَنْ يَقُولُ (Idghām) · مِنْ بَعْدِ (Iqlāb) · الْإِنْسَانُ (Ikhfā’)",
+              "reading": "min khayrin · may-yaqūlu · mim-ba‘di · al-insānu",
+              "gloss": "Menjaga kejernihan makhraj tanpa menghilangkan kelancaran transisi antar-kata"
+            }
+          },
+          "fullTranslation": "Menjaga kejernihan makhraj tanpa menghilangkan kelancaran transisi antar-kata"
+        },
+        {
+          "id": "ar-found-06-nun-mim-sakinah-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Al-Qamariyyah vs Asy-Syamsiyyah, Hamzah Washl/Qath‘ & Waqf (Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Penerapan artikulasi makhraj dan ghunnah untuk bacaan Al-Qur’an dan pidato Fusha"
+            },
+            "example": {
+              "script": "مِنْ خَيْرٍ (Iẓhār) · مَنْ يَقُولُ (Idghām) · مِنْ بَعْدِ (Iqlāb) · الْإِنْسَانُ (Ikhfā’)",
+              "reading": "min khayrin · may-yaqūlu · mim-ba‘di · al-insānu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Penerapan artikulasi makhraj dan ghunnah untuk bacaan Al-Qur’an dan pidato Fusha — Menjaga kejernihan makhraj tanpa menghilangkan kelancaran transisi antar-kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kaidah Fonologi Konsonan Mati: Iẓhār, Idghām, Iqlāb & Ikhfā’ dalam Pelafalan Fasih\"",
+        "psychologyExplanation": "Penerapan artikulasi makhraj dan ghunnah untuk bacaan Al-Qur’an dan pidato Fusha. Dalam kerangka 2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"نْ / Tanwīn + Huruf Berikutnya → 4 Transformasi Fonetik\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kaidah Fonologi Konsonan Mati: Iẓhār, Idghām, Iqlāb & Ikhfā’ dalam Pelafalan Fasih",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-found-06-nun-mim-sakinah-voc-1",
+          "term": "مِنْ خَيْرٍ (Iẓhār) · مَنْ يَقُولُ (Idghām) · مِنْ بَعْدِ (Iqlāb) · الْإِنْسَانُ (Ikhfā’)",
+          "reading": "min khayrin · may-yaqūlu · mim-ba‘di · al-insānu",
+          "meaning": "Menjaga kejernihan makhraj tanpa menghilangkan kelancaran transisi antar-kata",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: نْ / Tanwīn + Huruf Berikutnya → 4 Transformasi Fonetik",
+          "exampleSentence": "مِنْ خَيْرٍ (Iẓhār) · مَنْ يَقُولُ (Idghām) · مِنْ بَعْدِ (Iqlāb) · الْإِنْسَانُ (Ikhfā’)",
+          "exampleTranslation": "Menjaga kejernihan makhraj tanpa menghilangkan kelancaran transisi antar-kata"
+        }
+      ]
+    }
+  ]
+}

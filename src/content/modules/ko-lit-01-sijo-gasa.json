@@ -1,0 +1,117 @@
+{
+  "id": "ko-lit-01-sijo-gasa",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 112,
+  "title": "Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon",
+  "subtitle": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo",
+  "estimatedMinutes": 50,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-01-sijo-gasa-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Korea (Gukmunhak)",
+              "gloss": "Struktur irama Sijo, aksara klasik Araea (ㆍ), dan estetika Han serta Jeong"
+            },
+            "formula": {
+              "script": "3 Bait (초장 · 중장 · 종장) + Awal Bait ke-3 Wajib 3 Suku Kata",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "청산리 벽계수야 수이 감을 자랑 마라 (Hwang Jini)",
+              "reading": "Cheongsalli byeokgyesuya sui gameul jarang mara",
+              "gloss": "Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu"
+            }
+          },
+          "fullTranslation": "Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu"
+        },
+        {
+          "id": "ko-lit-01-sijo-gasa-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sijo (시조), Gasa (가사), Jungse Gukeo & Sastra Korea Klasik–Modern (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 28 Entri",
+              "gloss": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo"
+            },
+            "example": {
+              "script": "청산리 벽계수야 수이 감을 자랑 마라 (Hwang Jini)",
+              "reading": "Cheongsalli byeokgyesuya sui gameul jarang mara",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo — Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon\"",
+        "psychologyExplanation": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo. Dalam kerangka Cabang Sastra & Filologi Korea (Gukmunhak), penutur asli memetakan hubungan makna menggunakan rumus \"3 Bait (초장 · 중장 · 종장) + Awal Bait ke-3 Wajib 3 Suku Kata\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-lit-01-sijo-gasa-voc-1",
+          "term": "청산리 벽계수야 수이 감을 자랑 마라 (Hwang Jini)",
+          "reading": "Cheongsalli byeokgyesuya sui gameul jarang mara",
+          "meaning": "Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 3 Bait (초장 · 중장 · 종장) + Awal Bait ke-3 Wajib 3 Suku Kata",
+          "exampleSentence": "청산리 벽계수야 수이 감을 자랑 마라 (Hwang Jini)",
+          "exampleTranslation": "Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon",
+      "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "overview": "Kurikulum sastra Korea tingkat universitas: puisi 3-bait Sijo, filologi Hangeul kuno, dan prosa modern",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Korea (Gukmunhak)",
+          "nativeTerm": "3 Bait (초장 · 중장 · 종장) + Awal Bait ke-3 Wajib 3 Suku Kata",
+          "mechanism": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo",
+          "literaryExample": "청산리 벽계수야 수이 감을 자랑 마라 (Hwang Jini)",
+          "reading": "Cheongsalli byeokgyesuya sui gameul jarang mara",
+          "translation": "Wahai air sungai jernih di pegunungan hijau, janganlah menyombongkan aliran cepatmu",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

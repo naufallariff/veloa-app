@@ -1,0 +1,117 @@
+{
+  "id": "ko-lit-04-modern-korean-poetry",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 132,
+  "title": "Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)",
+  "subtitle": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan | Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-04-modern-korean-poetry-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",
+              "gloss": "Pansori (판소리), penyair modern (Kim Sowol, Yun Dong-ju), dan Satoori Gyeongsang/Jeolla/Jeju"
+            },
+            "formula": {
+              "script": "Irama Tradisional 7-5 Silabel + Simbolisme Alam (Bunga Azalea, Bintang, Angin)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를 (Yun Dong-ju — 서시, 1941)",
+              "reading": "Jungneun nalkkaji haneureul ureoreo han jeom bukkeureomi eopgireul",
+              "gloss": "Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu"
+            }
+          },
+          "fullTranslation": "Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu"
+        },
+        {
+          "id": "ko-lit-04-modern-korean-poetry-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pansori & Prosa Joseon, Puisi Modern Korea & Dialek Regional (Satoori) (Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 25 Entri",
+              "gloss": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea"
+            },
+            "example": {
+              "script": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를 (Yun Dong-ju — 서시, 1941)",
+              "reading": "Jungneun nalkkaji haneureul ureoreo han jeom bukkeureomi eopgireul",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea — Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)\"",
+        "psychologyExplanation": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea. Dalam kerangka Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea, penutur asli memetakan hubungan makna menggunakan rumus \"Irama Tradisional 7-5 Silabel + Simbolisme Alam (Bunga Azalea, Bintang, Angin)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-lit-04-modern-korean-poetry-voc-1",
+          "term": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를 (Yun Dong-ju — 서시, 1941)",
+          "reading": "Jungneun nalkkaji haneureul ureoreo han jeom bukkeureomi eopgireul",
+          "meaning": "Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Irama Tradisional 7-5 Silabel + Simbolisme Alam (Bunga Azalea, Bintang, Angin)",
+          "exampleSentence": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를 (Yun Dong-ju — 서시, 1941)",
+          "exampleTranslation": "Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)",
+      "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Korea: sastra rakyat (Chunhyangga), puisi modern, dan variasi dialek",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",
+          "nativeTerm": "Irama Tradisional 7-5 Silabel + Simbolisme Alam (Bunga Azalea, Bintang, Angin)",
+          "mechanism": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea",
+          "literaryExample": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를 (Yun Dong-ju — 서시, 1941)",
+          "reading": "Jungneun nalkkaji haneureul ureoreo han jeom bukkeureomi eopgireul",
+          "translation": "Hingga hari kematian tiba, semoga menengadah ke langit tanpa setitik pun rasa malu",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

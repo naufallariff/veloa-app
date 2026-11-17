@@ -1,0 +1,117 @@
+{
+  "id": "ja-lit-04-kakekotoba-makurakotoba",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 140,
+  "title": "Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori",
+  "subtitle": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan | Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-lit-04-kakekotoba-makurakotoba-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+              "gloss": "Gerakan Genbun-Itchi, karya Natsume Sōseki–Akutagawa, dan dialek Kansai/Tōhoku"
+            },
+            "formula": {
+              "script": "Kakekotoba: まつ (松 pohon pinus / 待つ menunggu) · ながめ (眺め pemandangan / 長雨 hujan panjang)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "花の色はうつりにけりないたづらにわが身世にふるながめせしまに (Ono no Komachi)",
+              "reading": "Hana no iro wa utsurinikeri na itazura ni waga mi yo ni furu nagame seshi ma ni",
+              "gloss": "Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia"
+            }
+          },
+          "fullTranslation": "Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia"
+        },
+        {
+          "id": "ja-lit-04-kakekotoba-makurakotoba-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Zaman Meiji–Shōwa, Kajian Genji & Dialek Regional (Hōgen) (Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 24 Entri",
+              "gloss": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū"
+            },
+            "example": {
+              "script": "花の色はうつりにけりないたづらにわが身世にふるながめせしまに (Ono no Komachi)",
+              "reading": "Hana no iro wa utsurinikeri na itazura ni waga mi yo ni furu nagame seshi ma ni",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū — Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori\"",
+        "psychologyExplanation": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū. Dalam kerangka Cabang Sastra Modern, Filologi & Dialektologi Jepang, penutur asli memetakan hubungan makna menggunakan rumus \"Kakekotoba: まつ (松 pohon pinus / 待つ menunggu) · ながめ (眺め pemandangan / 長雨 hujan panjang)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-lit-04-kakekotoba-makurakotoba-voc-1",
+          "term": "花の色はうつりにけりないたづらにわが身世にふるながめせしまに (Ono no Komachi)",
+          "reading": "Hana no iro wa utsurinikeri na itazura ni waga mi yo ni furu nagame seshi ma ni",
+          "meaning": "Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Kakekotoba: まつ (松 pohon pinus / 待つ menunggu) · ながめ (眺め pemandangan / 長雨 hujan panjang)",
+          "exampleSentence": "花の色はうつりにけりないたづらにわが身世にふるながめせしまに (Ono no Komachi)",
+          "exampleTranslation": "Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori",
+      "traditionName": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Jepang: evolusi Genbun-Itchi, estetika modern, dan sosiolinguistik",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+          "nativeTerm": "Kakekotoba: まつ (松 pohon pinus / 待つ menunggu) · ながめ (眺め pemandangan / 長雨 hujan panjang)",
+          "mechanism": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū",
+          "literaryExample": "花の色はうつりにけりないたづらにわが身世にふるながめせしまに (Ono no Komachi)",
+          "reading": "Hana no iro wa utsurinikeri na itazura ni waga mi yo ni furu nagame seshi ma ni",
+          "translation": "Satu bait memuat dua lapis makna simultan: mekarnya bunga dan berlalunya usia",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

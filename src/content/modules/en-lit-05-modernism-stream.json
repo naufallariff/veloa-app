@@ -1,0 +1,117 @@
+{
+  "id": "en-lit-05-modernism-stream",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "native",
+  "order": 157,
+  "title": "Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi",
+  "subtitle": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan | Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-05-modernism-stream-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+              "gloss": "Romantisisme, Modernisme, sudut pandang naratif, dan pergeseran makna kata"
+            },
+            "formula": {
+              "script": "Free Indirect Speech (Pergeseran sudut pandang narator & batin tokoh)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Mrs. Dalloway said she would buy the flowers herself. (Virginia Woolf)",
+              "reading": "/ˈmɪs.ɪz ˈdæl.ə.weɪ sed ʃiː wʊd baɪ ðə ˈflaʊ.ərz/",
+              "gloss": "Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh"
+            }
+          },
+          "fullTranslation": "Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh"
+        },
+        {
+          "id": "en-lit-05-modernism-stream-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Modernis, Kritik Sastra & Sejarah Etimologi Leksikon (Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 25 Entri",
+              "gloss": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot"
+            },
+            "example": {
+              "script": "Mrs. Dalloway said she would buy the flowers herself. (Virginia Woolf)",
+              "reading": "/ˈmɪs.ɪz ˈdæl.ə.weɪ sed ʃiː wʊd baɪ ðə ˈflaʊ.ərz/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot — Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi\"",
+        "psychologyExplanation": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot. Dalam kerangka Cabang Sastra Modernis, Naratologi & Semantik Historis, penutur asli memetakan hubungan makna menggunakan rumus \"Free Indirect Speech (Pergeseran sudut pandang narator & batin tokoh)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-lit-05-modernism-stream-voc-1",
+          "term": "Mrs. Dalloway said she would buy the flowers herself. (Virginia Woolf)",
+          "reading": "/ˈmɪs.ɪz ˈdæl.ə.weɪ sed ʃiː wʊd baɪ ðə ˈflaʊ.ərz/",
+          "meaning": "Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Free Indirect Speech (Pergeseran sudut pandang narator & batin tokoh)",
+          "exampleSentence": "Mrs. Dalloway said she would buy the flowers herself. (Virginia Woolf)",
+          "exampleTranslation": "Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi",
+      "traditionName": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Inggris: aliran kesusastraan, naratologi, dan semantik historis",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+          "nativeTerm": "Free Indirect Speech (Pergeseran sudut pandang narator & batin tokoh)",
+          "mechanism": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot",
+          "literaryExample": "Mrs. Dalloway said she would buy the flowers herself. (Virginia Woolf)",
+          "reading": "/ˈmɪs.ɪz ˈdæl.ə.weɪ sed ʃiː wʊd baɪ ðə ˈflaʊ.ərz/",
+          "translation": "Perpaduan mulus antara suara narator orang ketiga dan kesadaran tokoh",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

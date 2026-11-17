@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk56-formal-register",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 114,
+  "title": "Ragam Tulis Formal (书面语 Shūmiànyǔ) vs Ragam Lisan (口语 Kǒuyǔ)",
+  "subtitle": "Pasangan kata monosilabis klasik dalam berita dan dokumen resmi",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 5–6+ · Mahir | Ragam Tulis Formal (书面语 Shūmiànyǔ) vs Ragam Lisan (口语 Kǒuyǔ)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-formal-register-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Chengyu 4 Karakter & Sintaksis Lanjut",
+              "gloss": "Idiom klasik yang hidup dalam bahasa berita dan pidato modern"
+            },
+            "formula": {
+              "script": "Kǒuyǔ (因为/所以/如果) → Shūmiànyǔ (由于/因而/倘若)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "鉴于上述原因，本研究旨在探讨语言结构之演变。",
+              "reading": "Jiànyú shàngshù yuányīn, běn yánjiū zhǐzài tàntǎo...",
+              "gloss": "Mengingat alasan di atas, penelitian ini bertujuan mengkaji evolusi struktur bahasa."
+            }
+          },
+          "fullTranslation": "Mengingat alasan di atas, penelitian ini bertujuan mengkaji evolusi struktur bahasa."
+        },
+        {
+          "id": "zh-hsk56-formal-register-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Chengyu (成语), Konjungsi Wacana & Ragam Jurnalistik (HSK 5–6+ · Mahir)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Pasangan kata monosilabis klasik dalam berita dan dokumen resmi"
+            },
+            "example": {
+              "script": "鉴于上述原因，本研究旨在探讨语言结构之演变。",
+              "reading": "Jiànyú shàngshù yuányīn, běn yánjiū zhǐzài tàntǎo...",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Pasangan kata monosilabis klasik dalam berita dan dokumen resmi — Mengingat alasan di atas, penelitian ini bertujuan mengkaji evolusi struktur bahasa."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Ragam Tulis Formal (书面语 Shūmiànyǔ) vs Ragam Lisan (口语 Kǒuyǔ)\"",
+        "psychologyExplanation": "Pasangan kata monosilabis klasik dalam berita dan dokumen resmi. Dalam kerangka Cabang A: Chengyu 4 Karakter & Sintaksis Lanjut, penutur asli memetakan hubungan makna menggunakan rumus \"Kǒuyǔ (因为/所以/如果) → Shūmiànyǔ (由于/因而/倘若)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Ragam Tulis Formal (书面语 Shūmiànyǔ) vs Ragam Lisan (口语 Kǒuyǔ)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk56-formal-register-voc-1",
+          "term": "鉴于上述原因，本研究旨在探讨语言结构之演变。",
+          "reading": "Jiànyú shàngshù yuányīn, běn yánjiū zhǐzài tàntǎo...",
+          "meaning": "Mengingat alasan di atas, penelitian ini bertujuan mengkaji evolusi struktur bahasa.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Kǒuyǔ (因为/所以/如果) → Shūmiànyǔ (由于/因而/倘若)",
+          "exampleSentence": "鉴于上述原因，本研究旨在探讨语言结构之演变。",
+          "exampleTranslation": "Mengingat alasan di atas, penelitian ini bertujuan mengkaji evolusi struktur bahasa."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ko-dict-05-sajaseongeo-idioms",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 111,
+  "title": "Sajaseongeo (사자성어) & Sokdam (속담): Peribahasa Klasik dalam Berita & Esai TOPIK",
+  "subtitle": "Ungkapan empat silabel dan peribahasa populer yang sering muncul pada soal membaca TOPIK II",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Korea | Sajaseongeo (사자성어) & Sokdam (속담): Peribahasa Klasik dalam Berita & Esai TOPIK",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-05-sajaseongeo-idioms-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan",
+              "gloss": "Keluarga kosakata berbasis suku kata Hanja serta etiket dialog profesional Korea"
+            },
+            "formula": {
+              "script": "4 Suku Kata Hanja Padat Makna (일석이조 · 역지사지 · 자업자득)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "일석이조 (Sambil menyelam minum air) · 시작이 반이다 (Memulai adalah setengah perjalanan)",
+              "reading": "ilseogijo · sijagi banida",
+              "gloss": "Menggunakan peribahasa yang tepat meningkatkan skor esai menulis (쓰기) TOPIK secara signifikan"
+            }
+          },
+          "fullTranslation": "Menggunakan peribahasa yang tepat meningkatkan skor esai menulis (쓰기) TOPIK secara signifikan"
+        },
+        {
+          "id": "ko-dict-05-sajaseongeo-idioms-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon Hanja (한자어), Sajaseongeo (사자성어) & Dialog Bisnis/Kehidupan (Kamus & Korpus Lanjutan Korea)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 36 Entri",
+              "gloss": "Ungkapan empat silabel dan peribahasa populer yang sering muncul pada soal membaca TOPIK II"
+            },
+            "example": {
+              "script": "일석이조 (Sambil menyelam minum air) · 시작이 반이다 (Memulai adalah setengah perjalanan)",
+              "reading": "ilseogijo · sijagi banida",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Ungkapan empat silabel dan peribahasa populer yang sering muncul pada soal membaca TOPIK II — Menggunakan peribahasa yang tepat meningkatkan skor esai menulis (쓰기) TOPIK secara signifikan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sajaseongeo (사자성어) & Sokdam (속담): Peribahasa Klasik dalam Berita & Esai TOPIK\"",
+        "psychologyExplanation": "Ungkapan empat silabel dan peribahasa populer yang sering muncul pada soal membaca TOPIK II. Dalam kerangka 4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan, penutur asli memetakan hubungan makna menggunakan rumus \"4 Suku Kata Hanja Padat Makna (일석이조 · 역지사지 · 자업자득)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sajaseongeo (사자성어) & Sokdam (속담): Peribahasa Klasik dalam Berita & Esai TOPIK",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-dict-05-sajaseongeo-idioms-voc-1",
+          "term": "일석이조 (Sambil menyelam minum air) · 시작이 반이다 (Memulai adalah setengah perjalanan)",
+          "reading": "ilseogijo · sijagi banida",
+          "meaning": "Menggunakan peribahasa yang tepat meningkatkan skor esai menulis (쓰기) TOPIK secara signifikan",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 4 Suku Kata Hanja Padat Makna (일석이조 · 역지사지 · 자업자득)",
+          "exampleSentence": "일석이조 (Sambil menyelam minum air) · 시작이 반이다 (Memulai adalah setengah perjalanan)",
+          "exampleTranslation": "Menggunakan peribahasa yang tepat meningkatkan skor esai menulis (쓰기) TOPIK secara signifikan"
+        }
+      ]
+    }
+  ]
+}

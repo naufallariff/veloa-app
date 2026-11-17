@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutawassit-nahw-nawasikh",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 112,
+  "title": "Kāna wa Akhawātuhā (كَانَ) vs Inna wa Akhawātuhā (إِنَّ) & Iḍāfah (Sandaran)",
+  "subtitle": "Perubahan harakat Mubtadaʾ-Khabar saat dimasuki amil dan struktur kepemilikan",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Mutawassiṭ · Menengah | Kāna wa Akhawātuhā (كَانَ) vs Inna wa Akhawātuhā (إِنَّ) & Iḍāfah (Sandaran)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-nahw-nawasikh-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh",
+              "gloss": "10 Wazn utama (Faʿala–Istafʿala) serta Kāna wa Akhawātuhā dan Inna wa Akhawātuhā"
+            },
+            "formula": {
+              "script": "كَانَ + Isim (Rafʿ) + Khabar (Naṣb) | إِنَّ + Isim (Naṣb) + Khabar (Rafʿ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كَانَ الْجَوُّ جَمِيلًا (Cuacanya indah) vs إِنَّ اللُّغَةَ جَمِيلَةٌ (Sesungguhnya bahasa itu indah)",
+              "reading": "Kāna al-jawwu jamīlan vs Inna al-lughata jamīlatun",
+              "gloss": "Dua keluarga amil dengan efek Iʿrāb yang saling berkebalikan"
+            }
+          },
+          "fullTranslation": "Dua keluarga amil dengan efek Iʿrāb yang saling berkebalikan"
+        },
+        {
+          "id": "ar-mutawassit-nahw-nawasikh-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Ṣaraf Mazīd (10 Wazn) & Naḥwu Nawāsikh (Kāna & Inna) (Mustawā Mutawassiṭ · Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Perubahan harakat Mubtadaʾ-Khabar saat dimasuki amil dan struktur kepemilikan"
+            },
+            "example": {
+              "script": "كَانَ الْجَوُّ جَمِيلًا (Cuacanya indah) vs إِنَّ اللُّغَةَ جَمِيلَةٌ (Sesungguhnya bahasa itu indah)",
+              "reading": "Kāna al-jawwu jamīlan vs Inna al-lughata jamīlatun",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perubahan harakat Mubtadaʾ-Khabar saat dimasuki amil dan struktur kepemilikan — Dua keluarga amil dengan efek Iʿrāb yang saling berkebalikan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kāna wa Akhawātuhā (كَانَ) vs Inna wa Akhawātuhā (إِنَّ) & Iḍāfah (Sandaran)\"",
+        "psychologyExplanation": "Perubahan harakat Mubtadaʾ-Khabar saat dimasuki amil dan struktur kepemilikan. Dalam kerangka Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh, penutur asli memetakan hubungan makna menggunakan rumus \"كَانَ + Isim (Rafʿ) + Khabar (Naṣb) | إِنَّ + Isim (Naṣb) + Khabar (Rafʿ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kāna wa Akhawātuhā (كَانَ) vs Inna wa Akhawātuhā (إِنَّ) & Iḍāfah (Sandaran)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutawassit-nahw-nawasikh-voc-1",
+          "term": "كَانَ الْجَوُّ جَمِيلًا (Cuacanya indah) vs إِنَّ اللُّغَةَ جَمِيلَةٌ (Sesungguhnya bahasa itu indah)",
+          "reading": "Kāna al-jawwu jamīlan vs Inna al-lughata jamīlatun",
+          "meaning": "Dua keluarga amil dengan efek Iʿrāb yang saling berkebalikan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: كَانَ + Isim (Rafʿ) + Khabar (Naṣb) | إِنَّ + Isim (Naṣb) + Khabar (Rafʿ)",
+          "exampleSentence": "كَانَ الْجَوُّ جَمِيلًا (Cuacanya indah) vs إِنَّ اللُّغَةَ جَمِيلَةٌ (Sesungguhnya bahasa itu indah)",
+          "exampleTranslation": "Dua keluarga amil dengan efek Iʿrāb yang saling berkebalikan"
+        }
+      ]
+    }
+  ]
+}

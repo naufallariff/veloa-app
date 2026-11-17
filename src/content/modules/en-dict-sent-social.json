@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-sent-social",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 108,
+  "title": "Kalimat Salam, Perkenalan, Permintaan Tolong & Apresiasi",
+  "subtitle": "Variasi dari santai hingga sopan formal",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Praktis | Kalimat Salam, Perkenalan, Permintaan Tolong & Apresiasi",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-sent-social-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Daily Sentences)",
+              "gloss": "Pola kalimat siap pakai untuk berbagai situasi"
+            },
+            "formula": {
+              "script": "Politeness Gradation (Casual → Polite → Formal)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Could you possibly give me a hand with this?",
+              "reading": "/kʊd juː ˈpɒs.ə.bli ɡɪv mi ə hænd/",
+              "gloss": "Bisakah Anda membantu saya sebentar dengan ini?"
+            }
+          },
+          "fullTranslation": "Bisakah Anda membantu saya sebentar dengan ini?"
+        },
+        {
+          "id": "en-dict-sent-social-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 40 Entri",
+              "gloss": "Variasi dari santai hingga sopan formal"
+            },
+            "example": {
+              "script": "Could you possibly give me a hand with this?",
+              "reading": "/kʊd juː ˈpɒs.ə.bli ɡɪv mi ə hænd/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Variasi dari santai hingga sopan formal — Bisakah Anda membantu saya sebentar dengan ini?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Perkenalan, Permintaan Tolong & Apresiasi\"",
+        "psychologyExplanation": "Variasi dari santai hingga sopan formal. Dalam kerangka 2. Bank Kalimat Sehari-hari (Daily Sentences), penutur asli memetakan hubungan makna menggunakan rumus \"Politeness Gradation (Casual → Polite → Formal)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Perkenalan, Permintaan Tolong & Apresiasi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-sent-social-voc-1",
+          "term": "Could you possibly give me a hand with this?",
+          "reading": "/kʊd juː ˈpɒs.ə.bli ɡɪv mi ə hænd/",
+          "meaning": "Bisakah Anda membantu saya sebentar dengan ini?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Politeness Gradation (Casual → Polite → Formal)",
+          "exampleSentence": "Could you possibly give me a hand with this?",
+          "exampleTranslation": "Bisakah Anda membantu saya sebentar dengan ini?"
+        }
+      ]
+    }
+  ]
+}

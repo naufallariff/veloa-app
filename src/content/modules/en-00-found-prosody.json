@@ -1,0 +1,98 @@
+{
+  "id": "en-00-found-prosody",
+  "lang": "en",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 104,
+  "title": "Word Stress, Sentence Stress & Connected Speech (Linking/Elision)",
+  "subtitle": "Mengapa penutur asli menyambung kata dalam percakapan cepat",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Opsional & Terbuka | Word Stress, Sentence Stress & Connected Speech (Linking/Elision)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-00-found-prosody-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Sejarah Bahasa & Sistem Ortografi",
+              "gloss": "Evolusi Old English ke Modern English serta hukum ejaan"
+            },
+            "formula": {
+              "script": "Catenation (C+V linking) + Weak Forms (to, for, and, can)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "What are you going to do? → Whaddaya gonna do?",
+              "reading": "/ˈwɒd.ə.jə ˈɡɒn.ə duː/",
+              "gloss": "Reduksi alami pada kata fungsi tanpa mengubah makna"
+            }
+          },
+          "fullTranslation": "Reduksi alami pada kata fungsi tanpa mengubah makna"
+        },
+        {
+          "id": "en-00-found-prosody-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah, Ortografi Alfabet & Fonetik IPA (Pondasi · Opsional & Terbuka)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 22 Entri",
+              "gloss": "Mengapa penutur asli menyambung kata dalam percakapan cepat"
+            },
+            "example": {
+              "script": "What are you going to do? → Whaddaya gonna do?",
+              "reading": "/ˈwɒd.ə.jə ˈɡɒn.ə duː/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa penutur asli menyambung kata dalam percakapan cepat — Reduksi alami pada kata fungsi tanpa mengubah makna"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Word Stress, Sentence Stress & Connected Speech (Linking/Elision)\"",
+        "psychologyExplanation": "Mengapa penutur asli menyambung kata dalam percakapan cepat. Dalam kerangka 1. Sejarah Bahasa & Sistem Ortografi, penutur asli memetakan hubungan makna menggunakan rumus \"Catenation (C+V linking) + Weak Forms (to, for, and, can)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Word Stress, Sentence Stress & Connected Speech (Linking/Elision)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-00-found-prosody-voc-1",
+          "term": "What are you going to do? → Whaddaya gonna do?",
+          "reading": "/ˈwɒd.ə.jə ˈɡɒn.ə duː/",
+          "meaning": "Reduksi alami pada kata fungsi tanpa mengubah makna",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Catenation (C+V linking) + Weak Forms (to, for, and, can)",
+          "exampleSentence": "What are you going to do? → Whaddaya gonna do?",
+          "exampleTranslation": "Reduksi alami pada kata fungsi tanpa mengubah makna"
+        }
+      ]
+    }
+  ]
+}

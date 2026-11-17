@@ -1,0 +1,98 @@
+{
+  "id": "en-found-07-uk-us-phonology",
+  "lang": "en",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 107,
+  "title": "General American (GenAm) vs Received Pronunciation (RP): Rhoticity, Flap-T & Vokal",
+  "subtitle": "Memahami perbedaan pelafalan dan kosakata standar Amerika vs Inggris Raya",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi & Ejaan | General American (GenAm) vs Received Pronunciation (RP): Rhoticity, Flap-T & Vokal",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-found-07-uk-us-phonology-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Ortografi & Variasi Fonetik Global",
+              "gloss": "Pola ejaan akhir kata, homofon sering tertukar, serta kontras RP British vs General American"
+            },
+            "formula": {
+              "script": "Rhotic /r/ + Alveolar Flap /ɾ/ (water, better) + Bath-Trap Split (/æ/ vs /ɑː/)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "water · schedule · either · lift vs elevator · flat vs apartment",
+              "reading": "US /ˈwɔː.t̬ər/ vs UK /ˈwɔː.tər/",
+              "gloss": "Konsistensi aksen membantu pemahaman menyimak lintas media internasional"
+            }
+          },
+          "fullTranslation": "Konsistensi aksen membantu pemahaman menyimak lintas media internasional"
+        },
+        {
+          "id": "en-found-07-uk-us-phonology-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Aturan Ejaan Inggris, Homofon & Kontras Aksen (UK vs US) (Pondasi Lanjutan · Fonologi & Ejaan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Memahami perbedaan pelafalan dan kosakata standar Amerika vs Inggris Raya"
+            },
+            "example": {
+              "script": "water · schedule · either · lift vs elevator · flat vs apartment",
+              "reading": "US /ˈwɔː.t̬ər/ vs UK /ˈwɔː.tər/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memahami perbedaan pelafalan dan kosakata standar Amerika vs Inggris Raya — Konsistensi aksen membantu pemahaman menyimak lintas media internasional"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"General American (GenAm) vs Received Pronunciation (RP): Rhoticity, Flap-T & Vokal\"",
+        "psychologyExplanation": "Memahami perbedaan pelafalan dan kosakata standar Amerika vs Inggris Raya. Dalam kerangka 2. Hukum Ortografi & Variasi Fonetik Global, penutur asli memetakan hubungan makna menggunakan rumus \"Rhotic /r/ + Alveolar Flap /ɾ/ (water, better) + Bath-Trap Split (/æ/ vs /ɑː/)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: General American (GenAm) vs Received Pronunciation (RP): Rhoticity, Flap-T & Vokal",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-found-07-uk-us-phonology-voc-1",
+          "term": "water · schedule · either · lift vs elevator · flat vs apartment",
+          "reading": "US /ˈwɔː.t̬ər/ vs UK /ˈwɔː.tər/",
+          "meaning": "Konsistensi aksen membantu pemahaman menyimak lintas media internasional",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Rhotic /r/ + Alveolar Flap /ɾ/ (water, better) + Bath-Trap Split (/æ/ vs /ɑː/)",
+          "exampleSentence": "water · schedule · either · lift vs elevator · flat vs apartment",
+          "exampleTranslation": "Konsistensi aksen membantu pemahaman menyimak lintas media internasional"
+        }
+      ]
+    }
+  ]
+}

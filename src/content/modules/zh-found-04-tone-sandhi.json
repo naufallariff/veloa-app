@@ -1,0 +1,98 @@
+{
+  "id": "zh-found-04-tone-sandhi",
+  "lang": "zh",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 105,
+  "title": "Tone Sandhi (变调 Biàndiào): Nada 3 + Nada 3, 以及 Perubahan Nada 一 (yī) & 不 (bù)",
+  "subtitle": "Mengapa 你好 (nǐ hǎo) diucapkan ní hǎo dan 不是 (bù shì) berubah menjadi bú shì",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi | Tone Sandhi (变调 Biàndiào): Nada 3 + Nada 3, 以及 Perubahan Nada 一 (yī) & 不 (bù)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-found-04-tone-sandhi-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Perubahan Nada & Ortografi Hanzi",
+              "gloss": "Sandhi nada ketiga, perubahan nada 一 (yī) dan 不 (bù), serta 7 kaidah urutan goresan"
+            },
+            "formula": {
+              "script": "3 + 3 → 2 + 3 | 不 + Nada 4 → bú | 一 + Nada 4 → yí / 一 + Nada 1,2,3 → yì",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "你好 (ní hǎo) · 可以 (kéyǐ) · 不是 (bú shì) · 一个 (yí gè) · 一天 (yì tiān)",
+              "reading": "nǐ hǎo → ní hǎo · bù shì → bú shì · yī gè → yí gè",
+              "gloss": "Aturan perubahan nada otomatis agar pelafalan terdengar mengalir seperti penutur asli"
+            }
+          },
+          "fullTranslation": "Aturan perubahan nada otomatis agar pelafalan terdengar mengalir seperti penutur asli"
+        },
+        {
+          "id": "zh-found-04-tone-sandhi-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Aturan Tone Sandhi (变调), Urutan Goresan (笔顺) & Akar Aksara (Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 32 Entri",
+              "gloss": "Mengapa 你好 (nǐ hǎo) diucapkan ní hǎo dan 不是 (bù shì) berubah menjadi bú shì"
+            },
+            "example": {
+              "script": "你好 (ní hǎo) · 可以 (kéyǐ) · 不是 (bú shì) · 一个 (yí gè) · 一天 (yì tiān)",
+              "reading": "nǐ hǎo → ní hǎo · bù shì → bú shì · yī gè → yí gè",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 你好 (nǐ hǎo) diucapkan ní hǎo dan 不是 (bù shì) berubah menjadi bú shì — Aturan perubahan nada otomatis agar pelafalan terdengar mengalir seperti penutur asli"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Tone Sandhi (变调 Biàndiào): Nada 3 + Nada 3, 以及 Perubahan Nada 一 (yī) & 不 (bù)\"",
+        "psychologyExplanation": "Mengapa 你好 (nǐ hǎo) diucapkan ní hǎo dan 不是 (bù shì) berubah menjadi bú shì. Dalam kerangka 2. Hukum Perubahan Nada & Ortografi Hanzi, penutur asli memetakan hubungan makna menggunakan rumus \"3 + 3 → 2 + 3 | 不 + Nada 4 → bú | 一 + Nada 4 → yí / 一 + Nada 1,2,3 → yì\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Tone Sandhi (变调 Biàndiào): Nada 3 + Nada 3, 以及 Perubahan Nada 一 (yī) & 不 (bù)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-found-04-tone-sandhi-voc-1",
+          "term": "你好 (ní hǎo) · 可以 (kéyǐ) · 不是 (bú shì) · 一个 (yí gè) · 一天 (yì tiān)",
+          "reading": "nǐ hǎo → ní hǎo · bù shì → bú shì · yī gè → yí gè",
+          "meaning": "Aturan perubahan nada otomatis agar pelafalan terdengar mengalir seperti penutur asli",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: 3 + 3 → 2 + 3 | 不 + Nada 4 → bú | 一 + Nada 4 → yí / 一 + Nada 1,2,3 → yì",
+          "exampleSentence": "你好 (ní hǎo) · 可以 (kéyǐ) · 不是 (bú shì) · 一个 (yí gè) · 一天 (yì tiān)",
+          "exampleTranslation": "Aturan perubahan nada otomatis agar pelafalan terdengar mengalir seperti penutur asli"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ja-00-found-origin-three-scripts",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 101,
+  "title": "Sejarah Aksara Jepang: Man’yōgana & Lahirnya Hiragana–Katakana",
+  "subtitle": "Bagaimana Jepang mengadaptasi karakter Tiongkok menjadi 3 sistem tulisan",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah & Tiga Sistem Aksara | Sejarah Aksara Jepang: Man’yōgana & Lahirnya Hiragana–Katakana",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-00-found-origin-three-scripts-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji",
+              "gloss": "Urutan penguasaan aksara Jepang dari sejarah hingga struktur radikal"
+            },
+            "formula": {
+              "script": "Kanji (Semantik) + Hiragana (Gramatikal) + Katakana (Serapan/Penekanan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "私はコーヒーを飲みます (Watashi wa kōhī o nomimasu)",
+              "reading": "わたし は コーヒー を のみます",
+              "gloss": "Satu kalimat memadukan Kanji, Hiragana, dan Katakana sekaligus"
+            }
+          },
+          "fullTranslation": "Satu kalimat memadukan Kanji, Hiragana, dan Katakana sekaligus"
+        },
+        {
+          "id": "ja-00-found-origin-three-scripts-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Aksara, Katakana, Hiragana, Kanji & Pitch Accent (Pondasi · Sejarah & Tiga Sistem Aksara)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 20 Entri",
+              "gloss": "Bagaimana Jepang mengadaptasi karakter Tiongkok menjadi 3 sistem tulisan"
+            },
+            "example": {
+              "script": "私はコーヒーを飲みます (Watashi wa kōhī o nomimasu)",
+              "reading": "わたし は コーヒー を のみます",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana Jepang mengadaptasi karakter Tiongkok menjadi 3 sistem tulisan — Satu kalimat memadukan Kanji, Hiragana, dan Katakana sekaligus"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sejarah Aksara Jepang: Man’yōgana & Lahirnya Hiragana–Katakana\"",
+        "psychologyExplanation": "Bagaimana Jepang mengadaptasi karakter Tiongkok menjadi 3 sistem tulisan. Dalam kerangka 1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji, penutur asli memetakan hubungan makna menggunakan rumus \"Kanji (Semantik) + Hiragana (Gramatikal) + Katakana (Serapan/Penekanan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sejarah Aksara Jepang: Man’yōgana & Lahirnya Hiragana–Katakana",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-00-found-origin-three-scripts-voc-1",
+          "term": "私はコーヒーを飲みます (Watashi wa kōhī o nomimasu)",
+          "reading": "わたし は コーヒー を のみます",
+          "meaning": "Satu kalimat memadukan Kanji, Hiragana, dan Katakana sekaligus",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Kanji (Semantik) + Hiragana (Gramatikal) + Katakana (Serapan/Penekanan)",
+          "exampleSentence": "私はコーヒーを飲みます (Watashi wa kōhī o nomimasu)",
+          "exampleTranslation": "Satu kalimat memadukan Kanji, Hiragana, dan Katakana sekaligus"
+        }
+      ]
+    }
+  ]
+}

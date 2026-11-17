@@ -1,0 +1,98 @@
+{
+  "id": "en-a2-06-time-clauses-adverbs",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 143,
+  "title": "Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+  "subtitle": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1–A2 · Struktur Dasar Lanjutan | Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-06-time-clauses-adverbs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)",
+              "gloss": "Pola pertanyaan subjek vs objek, tag questions dasar, dan kata kerja beraturan/tak beraturan"
+            },
+            "formula": {
+              "script": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+            }
+          },
+          "fullTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        },
+        {
+          "id": "en-a2-06-time-clauses-adverbs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kalimat Tanya (Wh-Questions), Imperative & Pronomina Refleksif (CEFR A1–A2 · Struktur Dasar Lanjutan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan"
+            },
+            "example": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan — Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)\"",
+        "psychologyExplanation": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan. Dalam kerangka Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2), penutur asli memetakan hubungan makna menggunakan rumus \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a2-06-time-clauses-adverbs-voc-1",
+          "term": "I will call you as soon as I arrive at the station.",
+          "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+          "meaning": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+          "exampleSentence": "I will call you as soon as I arrive at the station.",
+          "exampleTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        }
+      ]
+    }
+  ]
+}

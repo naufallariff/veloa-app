@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk56-04-classical-particles-modern",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 131,
+  "title": "Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+  "subtitle": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal | Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6",
+              "gloss": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis"
+            },
+            "formula": {
+              "script": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+            }
+          },
+          "fullTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        },
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana (HSK 5–6 · Konjungsi Kompleks & Retorika Formal)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat"
+            },
+            "example": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat — Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃\"",
+        "psychologyExplanation": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat. Dalam kerangka Cabang B: Konektor Wacana & Struktur Formal HSK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-voc-1",
+          "term": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+          "meaning": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: 所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+          "exampleSentence": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "exampleTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        }
+      ]
+    }
+  ]
+}

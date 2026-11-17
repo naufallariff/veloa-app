@@ -1,0 +1,98 @@
+{
+  "id": "zh-02-beg-sentence-order",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 109,
+  "title": "Tiga Tipe Kalimat Dasar (是, Adjektiva 很, Kepemilikan 有) & Urutan STPVO",
+  "subtitle": "Mengapa kalimat sifat memakai 很 dan tidak boleh memakai 是",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 1–2 · Dasar | Tiga Tipe Kalimat Dasar (是, Adjektiva 很, Kepemilikan 有) & Urutan STPVO",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-02-beg-sentence-order-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Sintaksis Dasar & Urutan Waktu-Tempat",
+              "gloss": "Hukum posisi keterangan waktu dan tempat sebelum kata kerja"
+            },
+            "formula": {
+              "script": "Subjek + Waktu + Tempat + Predikat + Objek (STPVO)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "我明天在图书馆学习汉语。(Saya besok di perpustakaan belajar Mandarin)",
+              "reading": "Wǒ míngtiān zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Keterangan waktu dan tempat selalu mendahului kata kerja utama"
+            }
+          },
+          "fullTranslation": "Keterangan waktu dan tempat selalu mendahului kata kerja utama"
+        },
+        {
+          "id": "zh-02-beg-sentence-order-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Urutan Kata STPVO & Tiga Tipe Predikat Mandarin (HSK 1–2 · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Mengapa kalimat sifat memakai 很 dan tidak boleh memakai 是"
+            },
+            "example": {
+              "script": "我明天在图书馆学习汉语。(Saya besok di perpustakaan belajar Mandarin)",
+              "reading": "Wǒ míngtiān zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa kalimat sifat memakai 很 dan tidak boleh memakai 是 — Keterangan waktu dan tempat selalu mendahului kata kerja utama"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Tiga Tipe Kalimat Dasar (是, Adjektiva 很, Kepemilikan 有) & Urutan STPVO\"",
+        "psychologyExplanation": "Mengapa kalimat sifat memakai 很 dan tidak boleh memakai 是. Dalam kerangka Cabang A: Sintaksis Dasar & Urutan Waktu-Tempat, penutur asli memetakan hubungan makna menggunakan rumus \"Subjek + Waktu + Tempat + Predikat + Objek (STPVO)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Tiga Tipe Kalimat Dasar (是, Adjektiva 很, Kepemilikan 有) & Urutan STPVO",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-02-beg-sentence-order-voc-1",
+          "term": "我明天在图书馆学习汉语。(Saya besok di perpustakaan belajar Mandarin)",
+          "reading": "Wǒ míngtiān zài túshūguǎn xuéxí Hànyǔ.",
+          "meaning": "Keterangan waktu dan tempat selalu mendahului kata kerja utama",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Subjek + Waktu + Tempat + Predikat + Objek (STPVO)",
+          "exampleSentence": "我明天在图书馆学习汉语。(Saya besok di perpustakaan belajar Mandarin)",
+          "exampleTranslation": "Keterangan waktu dan tempat selalu mendahului kata kerja utama"
+        }
+      ]
+    }
+  ]
+}

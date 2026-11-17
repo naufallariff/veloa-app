@@ -1,0 +1,98 @@
+{
+  "id": "ko-01-found-phonetics-batchim-rules",
+  "lang": "ko",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 103,
+  "title": "Hukum Batchim (받침) & Asimilasi Bunyi: Yeon-eum, Bieumhwa & Palatalisasi",
+  "subtitle": "Mengapa 한국어 dibaca [한구거] dan 입니다 dibaca [임니다]",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah, Jamo & Hukum Batchim | Hukum Batchim (받침) & Asimilasi Bunyi: Yeon-eum, Bieumhwa & Palatalisasi",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-01-found-phonetics-batchim-rules-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim",
+              "gloss": "Memahami anatomi organ bicara pada huruf dan perubahan bunyi konsonan akhir"
+            },
+            "formula": {
+              "script": "Yeon-eum (Liaison) + Nasalization (ㅂ/ㄷ/ㄱ + ㄴ/ㅁ → ㅁ/ㄴ/ㅇ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "한국어 → [한구거] · 감사합니다 → [감사함니다] · 같이 → [가치]",
+              "reading": "Han-gu-geo · Gam-sa-ham-ni-da · Ga-chi",
+              "gloss": "Membaca Hangeul secara harfiah tanpa hukum Batchim terdengar tidak alami"
+            }
+          },
+          "fullTranslation": "Membaca Hangeul secara harfiah tanpa hukum Batchim terdengar tidak alami"
+        },
+        {
+          "id": "ko-01-found-phonetics-batchim-rules-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Hunminjeongeum, Rumus Blok Suku Kata & Hukum Batchim (Pondasi · Sejarah, Jamo & Hukum Batchim)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Mengapa 한국어 dibaca [한구거] dan 입니다 dibaca [임니다]"
+            },
+            "example": {
+              "script": "한국어 → [한구거] · 감사합니다 → [감사함니다] · 같이 → [가치]",
+              "reading": "Han-gu-geo · Gam-sa-ham-ni-da · Ga-chi",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 한국어 dibaca [한구거] dan 입니다 dibaca [임니다] — Membaca Hangeul secara harfiah tanpa hukum Batchim terdengar tidak alami"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Hukum Batchim (받침) & Asimilasi Bunyi: Yeon-eum, Bieumhwa & Palatalisasi\"",
+        "psychologyExplanation": "Mengapa 한국어 dibaca [한구거] dan 입니다 dibaca [임니다]. Dalam kerangka 1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim, penutur asli memetakan hubungan makna menggunakan rumus \"Yeon-eum (Liaison) + Nasalization (ㅂ/ㄷ/ㄱ + ㄴ/ㅁ → ㅁ/ㄴ/ㅇ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Hukum Batchim (받침) & Asimilasi Bunyi: Yeon-eum, Bieumhwa & Palatalisasi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-01-found-phonetics-batchim-rules-voc-1",
+          "term": "한국어 → [한구거] · 감사합니다 → [감사함니다] · 같이 → [가치]",
+          "reading": "Han-gu-geo · Gam-sa-ham-ni-da · Ga-chi",
+          "meaning": "Membaca Hangeul secara harfiah tanpa hukum Batchim terdengar tidak alami",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Yeon-eum (Liaison) + Nasalization (ㅂ/ㄷ/ㄱ + ㄴ/ㅁ → ㅁ/ㄴ/ㅇ)",
+          "exampleSentence": "한국어 → [한구거] · 감사합니다 → [감사함니다] · 같이 → [가치]",
+          "exampleTranslation": "Membaca Hangeul secara harfiah tanpa hukum Batchim terdengar tidak alami"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutawassit-05-mutall-verbs",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 126,
+  "title": "Klasifikasi Fi‘l Ṣaḥīḥ vs Mu‘tall: Mitsāl (وَعَدَ), Ajwaf (قَالَ) & Nāqiṣ (دَعَا/رَمَى)",
+  "subtitle": "Mengapa huruf tengah pada قَالَ menghilang menjadi قُلْتُ saat bertemu Dhamīr",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah | Klasifikasi Fi‘l Ṣaḥīḥ vs Mu‘tall: Mitsāl (وَعَدَ), Ajwaf (قَالَ) & Nāqiṣ (دَعَا/رَمَى)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-05-mutall-verbs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)",
+              "gloss": "Huruf Nashib (أَنْ لَنْ كَيْ), Huruf Jazim (لَمْ لَا النَّاهِيَة), dan Fi‘l Majhūl"
+            },
+            "formula": {
+              "script": "Ajwaf + Sukūn → Ḥadhf ‘Ayn Al-Fi‘l (قَالَ + تُ → قُلْتُ · بَاعَ + تُ → بِعْتُ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "قَالَ (dia berkata) → قُلْتُ (saya berkata) · يَقُولُ → لَمْ يَقُلْ",
+              "reading": "qāla → qultu · yaqūlu → lam yaqul",
+              "gloss": "Kaidah mencegah bertemunya dua Sukūn (اِلْتِقَاء السَّاكِنَيْن) menjelaskan seluruh anomali Fi‘l Mu‘tall"
+            }
+          },
+          "fullTranslation": "Kaidah mencegah bertemunya dua Sukūn (اِلْتِقَاء السَّاكِنَيْن) menjelaskan seluruh anomali Fi‘l Mu‘tall"
+        },
+        {
+          "id": "ar-mutawassit-05-mutall-verbs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "I‘rāb Fi‘l Muḍāri‘ (Naṣb & Jazm), Fi‘l Mu‘tall & Mabnī lil-Majhūl (Pasif) (Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 38 Entri",
+              "gloss": "Mengapa huruf tengah pada قَالَ menghilang menjadi قُلْتُ saat bertemu Dhamīr"
+            },
+            "example": {
+              "script": "قَالَ (dia berkata) → قُلْتُ (saya berkata) · يَقُولُ → لَمْ يَقُلْ",
+              "reading": "qāla → qultu · yaqūlu → lam yaqul",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa huruf tengah pada قَالَ menghilang menjadi قُلْتُ saat bertemu Dhamīr — Kaidah mencegah bertemunya dua Sukūn (اِلْتِقَاء السَّاكِنَيْن) menjelaskan seluruh anomali Fi‘l Mu‘tall"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Klasifikasi Fi‘l Ṣaḥīḥ vs Mu‘tall: Mitsāl (وَعَدَ), Ajwaf (قَالَ) & Nāqiṣ (دَعَا/رَمَى)\"",
+        "psychologyExplanation": "Mengapa huruf tengah pada قَالَ menghilang menjadi قُلْتُ saat bertemu Dhamīr. Dalam kerangka Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ), penutur asli memetakan hubungan makna menggunakan rumus \"Ajwaf + Sukūn → Ḥadhf ‘Ayn Al-Fi‘l (قَالَ + تُ → قُلْتُ · بَاعَ + تُ → بِعْتُ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Klasifikasi Fi‘l Ṣaḥīḥ vs Mu‘tall: Mitsāl (وَعَدَ), Ajwaf (قَالَ) & Nāqiṣ (دَعَا/رَمَى)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutawassit-05-mutall-verbs-voc-1",
+          "term": "قَالَ (dia berkata) → قُلْتُ (saya berkata) · يَقُولُ → لَمْ يَقُلْ",
+          "reading": "qāla → qultu · yaqūlu → lam yaqul",
+          "meaning": "Kaidah mencegah bertemunya dua Sukūn (اِلْتِقَاء السَّاكِنَيْن) menjelaskan seluruh anomali Fi‘l Mu‘tall",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Ajwaf + Sukūn → Ḥadhf ‘Ayn Al-Fi‘l (قَالَ + تُ → قُلْتُ · بَاعَ + تُ → بِعْتُ)",
+          "exampleSentence": "قَالَ (dia berkata) → قُلْتُ (saya berkata) · يَقُولُ → لَمْ يَقُلْ",
+          "exampleTranslation": "Kaidah mencegah bertemunya dua Sukūn (اِلْتِقَاء السَّاكِنَيْن) menjelaskan seluruh anomali Fi‘l Mu‘tall"
+        }
+      ]
+    }
+  ]
+}

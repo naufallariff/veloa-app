@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk56-03-paired-conjunctions",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 130,
+  "title": "Pasangan Konjungsi Lanjut: 即使...也, 宁可...也不, 与其...不如 & 无论...都",
+  "subtitle": "Menyatakan konsesi hipotetis, pilihan lebih baik, dan ketidakbergantungan kondisi",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal | Pasangan Konjungsi Lanjut: 即使...也, 宁可...也不, 与其...不如 & 无论...都",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-03-paired-conjunctions-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6",
+              "gloss": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis"
+            },
+            "formula": {
+              "script": "与其 A，不如 B (Daripada A, lebih baik B) | 即使 A，也 B (Sekalipun A, tetap B)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "与其被动等待机会，不如主动创造条件。",
+              "reading": "Yǔqí bèidòng děngdài jīhuì, bùrú zhǔdòng chuàngzào tiáojiàn.",
+              "gloss": "Daripada pasif menunggu peluang, lebih baik proaktif menciptakan kondisi."
+            }
+          },
+          "fullTranslation": "Daripada pasif menunggu peluang, lebih baik proaktif menciptakan kondisi."
+        },
+        {
+          "id": "zh-hsk56-03-paired-conjunctions-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana (HSK 5–6 · Konjungsi Kompleks & Retorika Formal)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Menyatakan konsesi hipotetis, pilihan lebih baik, dan ketidakbergantungan kondisi"
+            },
+            "example": {
+              "script": "与其被动等待机会，不如主动创造条件。",
+              "reading": "Yǔqí bèidòng děngdài jīhuì, bùrú zhǔdòng chuàngzào tiáojiàn.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan konsesi hipotetis, pilihan lebih baik, dan ketidakbergantungan kondisi — Daripada pasif menunggu peluang, lebih baik proaktif menciptakan kondisi."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Pasangan Konjungsi Lanjut: 即使...也, 宁可...也不, 与其...不如 & 无论...都\"",
+        "psychologyExplanation": "Menyatakan konsesi hipotetis, pilihan lebih baik, dan ketidakbergantungan kondisi. Dalam kerangka Cabang B: Konektor Wacana & Struktur Formal HSK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"与其 A，不如 B (Daripada A, lebih baik B) | 即使 A，也 B (Sekalipun A, tetap B)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Pasangan Konjungsi Lanjut: 即使...也, 宁可...也不, 与其...不如 & 无论...都",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk56-03-paired-conjunctions-voc-1",
+          "term": "与其被动等待机会，不如主动创造条件。",
+          "reading": "Yǔqí bèidòng děngdài jīhuì, bùrú zhǔdòng chuàngzào tiáojiàn.",
+          "meaning": "Daripada pasif menunggu peluang, lebih baik proaktif menciptakan kondisi.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: 与其 A，不如 B (Daripada A, lebih baik B) | 即使 A，也 B (Sekalipun A, tetap B)",
+          "exampleSentence": "与其被动等待机会，不如主动创造条件。",
+          "exampleTranslation": "Daripada pasif menunggu peluang, lebih baik proaktif menciptakan kondisi."
+        }
+      ]
+    }
+  ]
+}

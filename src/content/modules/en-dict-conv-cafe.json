@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-conv-cafe",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 110,
+  "title": "Percakapan di Kafe, Pertemuan Pertama & Obrolan Ringan",
+  "subtitle": "Small talk alami tanpa terdengar kaku seperti buku teks",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Praktis | Percakapan di Kafe, Pertemuan Pertama & Obrolan Ringan",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-conv-cafe-row-1",
+          "cells": {
+            "construct": {
+              "script": "3. Contoh Percakapan Kontekstual (Dialogues)",
+              "gloss": "Naskah dialog multi-giliran dengan catatan pragmatik"
+            },
+            "formula": {
+              "script": "Turn-Taking + Discourse Markers (Actually, By the way)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "How has your week been going so far? — Pretty hectic, honestly!",
+              "reading": "/haʊ hæz jɔːr wiːk biːn ˈɡoʊ.ɪŋ/",
+              "gloss": "Bagaimana minggumu sejauh ini? — Cukup padat, jujur saja!"
+            }
+          },
+          "fullTranslation": "Bagaimana minggumu sejauh ini? — Cukup padat, jujur saja!"
+        },
+        {
+          "id": "en-dict-conv-cafe-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 25 Entri",
+              "gloss": "Small talk alami tanpa terdengar kaku seperti buku teks"
+            },
+            "example": {
+              "script": "How has your week been going so far? — Pretty hectic, honestly!",
+              "reading": "/haʊ hæz jɔːr wiːk biːn ˈɡoʊ.ɪŋ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Small talk alami tanpa terdengar kaku seperti buku teks — Bagaimana minggumu sejauh ini? — Cukup padat, jujur saja!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Percakapan di Kafe, Pertemuan Pertama & Obrolan Ringan\"",
+        "psychologyExplanation": "Small talk alami tanpa terdengar kaku seperti buku teks. Dalam kerangka 3. Contoh Percakapan Kontekstual (Dialogues), penutur asli memetakan hubungan makna menggunakan rumus \"Turn-Taking + Discourse Markers (Actually, By the way)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Percakapan di Kafe, Pertemuan Pertama & Obrolan Ringan",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-conv-cafe-voc-1",
+          "term": "How has your week been going so far? — Pretty hectic, honestly!",
+          "reading": "/haʊ hæz jɔːr wiːk biːn ˈɡoʊ.ɪŋ/",
+          "meaning": "Bagaimana minggumu sejauh ini? — Cukup padat, jujur saja!",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Turn-Taking + Discourse Markers (Actually, By the way)",
+          "exampleSentence": "How has your week been going so far? — Pretty hectic, honestly!",
+          "exampleTranslation": "Bagaimana minggumu sejauh ini? — Cukup padat, jujur saja!"
+        }
+      ]
+    }
+  ]
+}

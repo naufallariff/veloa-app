@@ -1,0 +1,98 @@
+{
+  "id": "zh-00-found-kangxi-radicals",
+  "lang": "zh",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 103,
+  "title": "50 Radikal Kangxi (部首 Bùshǒu) Paling Produktif & Urutan Goresan (Bǐshùn)",
+  "subtitle": "Kunci mencari kata di kamus dan mengingat struktur karakter kompleks",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | 50 Radikal Kangxi (部首 Bùshǒu) Paling Produktif & Urutan Goresan (Bǐshùn)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-kangxi-radicals-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
+              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+            },
+            "formula": {
+              "script": "Aturan Goresan: Atas→Bawah, Kiri→Kanan, Luar→Dalam→Tutup",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "亻(orang) · 氵(air) · 讠(bahasa) · 扌(tangan) · 艹(tumbuhan) · 钅(logam)",
+              "reading": "rénzìpáng · sāndiǎnshuǐ · yánzìpáng",
+              "gloss": "Mengenali radikal langsung memberi petunjuk bidang makna kata"
+            }
+          },
+          "fullTranslation": "Mengenali radikal langsung memberi petunjuk bidang makna kata"
+        },
+        {
+          "id": "zh-00-found-kangxi-radicals-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 50 Entri",
+              "gloss": "Kunci mencari kata di kamus dan mengingat struktur karakter kompleks"
+            },
+            "example": {
+              "script": "亻(orang) · 氵(air) · 讠(bahasa) · 扌(tangan) · 艹(tumbuhan) · 钅(logam)",
+              "reading": "rénzìpáng · sāndiǎnshuǐ · yánzìpáng",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kunci mencari kata di kamus dan mengingat struktur karakter kompleks — Mengenali radikal langsung memberi petunjuk bidang makna kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"50 Radikal Kangxi (部首 Bùshǒu) Paling Produktif & Urutan Goresan (Bǐshùn)\"",
+        "psychologyExplanation": "Kunci mencari kata di kamus dan mengingat struktur karakter kompleks. Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Aturan Goresan: Atas→Bawah, Kiri→Kanan, Luar→Dalam→Tutup\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 50 Radikal Kangxi (部首 Bùshǒu) Paling Produktif & Urutan Goresan (Bǐshùn)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-00-found-kangxi-radicals-voc-1",
+          "term": "亻(orang) · 氵(air) · 讠(bahasa) · 扌(tangan) · 艹(tumbuhan) · 钅(logam)",
+          "reading": "rénzìpáng · sāndiǎnshuǐ · yánzìpáng",
+          "meaning": "Mengenali radikal langsung memberi petunjuk bidang makna kata",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Aturan Goresan: Atas→Bawah, Kiri→Kanan, Luar→Dalam→Tutup",
+          "exampleSentence": "亻(orang) · 氵(air) · 讠(bahasa) · 扌(tangan) · 艹(tumbuhan) · 钅(logam)",
+          "exampleTranslation": "Mengenali radikal langsung memberi petunjuk bidang makna kata"
+        }
+      ]
+    }
+  ]
+}

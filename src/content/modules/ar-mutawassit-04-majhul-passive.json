@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutawassit-04-majhul-passive",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 125,
+  "title": "Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+  "subtitle": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah | Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-04-majhul-passive-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)",
+              "gloss": "Huruf Nashib (أَنْ لَنْ كَيْ), Huruf Jazim (لَمْ لَا النَّاهِيَة), dan Fi‘l Majhūl"
+            },
+            "formula": {
+              "script": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+            }
+          },
+          "fullTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        },
+        {
+          "id": "ar-mutawassit-04-majhul-passive-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "I‘rāb Fi‘l Muḍāri‘ (Naṣb & Jazm), Fi‘l Mu‘tall & Mabnī lil-Majhūl (Pasif) (Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 32 Entri",
+              "gloss": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī)"
+            },
+            "example": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī) — Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il\"",
+        "psychologyExplanation": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī). Dalam kerangka Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ), penutur asli memetakan hubungan makna menggunakan rumus \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutawassit-04-majhul-passive-voc-1",
+          "term": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+          "meaning": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+          "exampleSentence": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "exampleTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        }
+      ]
+    }
+  ]
+}

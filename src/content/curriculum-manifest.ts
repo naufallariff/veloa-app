@@ -3,19 +3,6 @@ import type { CurriculumManifestItem } from '@/features/lesson-engine/schema/les
 
 export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
   {
-    "id": "en-00-found-origin-history-phonetics",
-    "lang": "en",
-    "pillar": "phonetics",
-    "tier": "foundation",
-    "order": 1,
-    "title": "Foundation | Sejarah Bahasa Inggris, Great Vowel Shift & Sistem IPA",
-    "subtitle": "Mengapa ejaan Inggris sering berbeda dari bunyinya, tiga lapisan sejarah kosakata, dan ritme Stress-Timed",
-    "estimatedMinutes": 40,
-    "dataPath": "/data/languages/en/modules/en-00-found-origin-history-phonetics.json",
-    "entryCount": 11,
-    "prerequisites": []
-  },
-  {
     "id": "en-02-beg-grammar-present-system",
     "lang": "en",
     "pillar": "syntax",
@@ -26,24 +13,7 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "estimatedMinutes": 75,
     "dataPath": "/data/languages/en/modules/en-02-beg-grammar-present-system.json",
     "entryCount": 13,
-    "prerequisites": [
-      "en-00-found-origin-history-phonetics"
-    ]
-  },
-  {
-    "id": "en-03-beg-grammar-past-system",
-    "lang": "en",
-    "pillar": "syntax",
-    "tier": "beginner",
-    "order": 3,
-    "title": "CEFR A2–B1 | Sistem Past Tense Lengkap (4 Turunan Terpisah Utuh)",
-    "subtitle": "Bedah mendalam satu per satu: Simple Past, Past Continuous, Past Perfect, dan Past Perfect Continuous",
-    "estimatedMinutes": 75,
-    "dataPath": "/data/languages/en/modules/en-03-beg-grammar-past-system.json",
-    "entryCount": 11,
-    "prerequisites": [
-      "en-02-beg-grammar-present-system"
-    ]
+    "prerequisites": []
   },
   {
     "id": "en-04-inter-grammar-future-system",
@@ -57,7 +27,7 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "dataPath": "/data/languages/en/modules/en-04-inter-grammar-future-system.json",
     "entryCount": 7,
     "prerequisites": [
-      "en-03-beg-grammar-past-system"
+      "en-02-beg-grammar-present-system"
     ]
   },
   {
@@ -151,6 +121,876 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     ]
   },
   {
+    "id": "en-00-found-history",
+    "lang": "en",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 101,
+    "title": "Sejarah Bahasa Inggris: Anglo-Saxon, Viking & Pengaruh Prancis-Norman",
+    "subtitle": "Mengapa ejaan bahasa Inggris sering berbeda dari pelafalannya",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-00-found-history.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-10-native-rhetoric-stylistics-varieties"
+    ]
+  },
+  {
+    "id": "en-00-found-alphabet",
+    "lang": "en",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 102,
+    "title": "26 Huruf Alfabet, Vokal Pendek-Panjang & Digraf Konsonan",
+    "subtitle": "Pola th, sh, ch, ph, gh, dan Silent Letters (knight, psychology)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-00-found-alphabet.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-00-found-history"
+    ]
+  },
+  {
+    "id": "en-00-found-origin-history-phonetics",
+    "lang": "en",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 103,
+    "title": "Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
+    "subtitle": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-00-found-origin-history-phonetics.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-00-found-alphabet"
+    ]
+  },
+  {
+    "id": "en-00-found-prosody",
+    "lang": "en",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 104,
+    "title": "Word Stress, Sentence Stress & Connected Speech (Linking/Elision)",
+    "subtitle": "Mengapa penutur asli menyambung kata dalam percakapan cepat",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-00-found-prosody.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-00-found-origin-history-phonetics"
+    ]
+  },
+  {
+    "id": "en-dict-vocab-daily",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 105,
+    "title": "1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+    "subtitle": "Kata benda, kata kerja tindakan, dan deskripsi dasar",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-dict-vocab-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-00-found-prosody"
+    ]
+  },
+  {
+    "id": "en-found-05-consonant-ipa",
+    "lang": "en",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 105,
+    "title": "24 Konsonan IPA Inggris: Plosives, Fricatives (/θ/, /ð/, /ʃ/, /ʒ/) & Affricates",
+    "subtitle": "Posisi lidah dan getaran pita suara pada bunyi yang tidak ada dalam bahasa Indonesia",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-found-05-consonant-ipa.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-vocab-daily"
+    ]
+  },
+  {
+    "id": "en-dict-vocab-work",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 106,
+    "title": "Kosakata Profesional, Teknologi & Lingkungan Kerja Global",
+    "subtitle": "Istilah rapat, manajemen proyek, dan komunikasi kantor",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-dict-vocab-work.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-found-05-consonant-ipa"
+    ]
+  },
+  {
+    "id": "en-found-06-spelling-rules",
+    "lang": "en",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 106,
+    "title": "Aturan Ejaan Morfologis: Doubling Consonant (run → running), Silent-E & -y → -ies",
+    "subtitle": "Kapan huruf akhir digandakan sebelum akhiran -ing, -ed, -er, dan -est",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-found-06-spelling-rules.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-vocab-work"
+    ]
+  },
+  {
+    "id": "en-dict-vocab-phrasal",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 107,
+    "title": "Phrasal Verbs & Idiom Esensial Penutur Asli",
+    "subtitle": "Gabungan Verb + Preposition yang mengubah makna harfiah",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-dict-vocab-phrasal.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-found-06-spelling-rules"
+    ]
+  },
+  {
+    "id": "en-found-07-uk-us-phonology",
+    "lang": "en",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 107,
+    "title": "General American (GenAm) vs Received Pronunciation (RP): Rhoticity, Flap-T & Vokal",
+    "subtitle": "Memahami perbedaan pelafalan dan kosakata standar Amerika vs Inggris Raya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-found-07-uk-us-phonology.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-vocab-phrasal"
+    ]
+  },
+  {
+    "id": "en-dict-sent-social",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 108,
+    "title": "Kalimat Salam, Perkenalan, Permintaan Tolong & Apresiasi",
+    "subtitle": "Variasi dari santai hingga sopan formal",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-dict-sent-social.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-found-07-uk-us-phonology"
+    ]
+  },
+  {
+    "id": "en-dict-sent-travel",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 109,
+    "title": "Kalimat Perjalanan, Bandara, Hotel, Restoran & Darurat",
+    "subtitle": "Komunikasi praktis saat bepergian internasional",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-dict-sent-travel.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-sent-social"
+    ]
+  },
+  {
+    "id": "en-dict-conv-cafe",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 110,
+    "title": "Percakapan di Kafe, Pertemuan Pertama & Obrolan Ringan",
+    "subtitle": "Small talk alami tanpa terdengar kaku seperti buku teks",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-dict-conv-cafe.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-sent-travel"
+    ]
+  },
+  {
+    "id": "en-dict-conv-interview",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 111,
+    "title": "Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+    "subtitle": "Menyampaikan argumen terstruktur dengan percaya diri",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-dict-conv-interview.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-conv-cafe"
+    ]
+  },
+  {
+    "id": "en-a1-pos-nouns",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 112,
+    "title": "Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+    "subtitle": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a1-pos-nouns.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-conv-interview"
+    ]
+  },
+  {
+    "id": "en-a1-pos-pronouns",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 113,
+    "title": "Pronouns & Determiners: Subject, Object, Possessive & Articles (a/an/the)",
+    "subtitle": "Kata ganti orang dan penentu ketakrifan benda",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a1-pos-pronouns.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-pos-nouns"
+    ]
+  },
+  {
+    "id": "en-a1-pos-verbs-adj",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 114,
+    "title": "Verbs, Adjectives & Adverbs: Kata Kerja Aksi, Sifat & Keterangan",
+    "subtitle": "Membedakan kata yang menjelaskan benda vs kata yang menjelaskan aksi",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a1-pos-verbs-adj.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-pos-pronouns"
+    ]
+  },
+  {
+    "id": "en-a1-pos-prep-conj",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 115,
+    "title": "Prepositions of Time & Place (in/on/at) & Basic Conjunctions",
+    "subtitle": "Kata depan ruang-waktu dan kata hubung dasar (and, but, or, because)",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a1-pos-prep-conj.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-pos-verbs-adj"
+    ]
+  },
+  {
+    "id": "en-dict-08-collocations",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 115,
+    "title": "Strong Collocations: Make vs Do, Take vs Have & Adverb-Adjective Pairs",
+    "subtitle": "Mengapa penutur asli berkata \"heavy rain\" dan \"make progress\", bukan \"strong rain\"",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-dict-08-collocations.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-pos-prep-conj"
+    ]
+  },
+  {
+    "id": "en-01-beg-grammar-core",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 116,
+    "title": "Kalimat Nominal To Be (am / is / are) & Pronomina Subjek",
+    "subtitle": "Menyatakan identitas, profesi, kondisi, dan lokasi tanpa kata kerja aksi",
+    "estimatedMinutes": 25,
+    "dataPath": "/data/languages/en/modules/en-01-beg-grammar-core.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-08-collocations"
+    ]
+  },
+  {
+    "id": "en-dict-09-affixation",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 116,
+    "title": "Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+    "subtitle": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-dict-09-affixation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-01-beg-grammar-core"
+    ]
+  },
+  {
+    "id": "en-02-beg-present-routine",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 117,
+    "title": "Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+    "subtitle": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-02-beg-present-routine.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-09-affixation"
+    ]
+  },
+  {
+    "id": "en-dict-10-conv-healthcare-tech",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 117,
+    "title": "Dialog Konsultasi Medis, Perbankan & Dukungan Teknis (Troubleshooting)",
+    "subtitle": "Percakapan praktis menjelaskan gejala, transaksi, dan masalah teknis secara presisi",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-dict-10-conv-healthcare-tech.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-02-beg-present-routine"
+    ]
+  },
+  {
+    "id": "en-a1-gram-continuous",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 118,
+    "title": "Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+    "subtitle": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing",
+    "estimatedMinutes": 25,
+    "dataPath": "/data/languages/en/modules/en-a1-gram-continuous.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-dict-10-conv-healthcare-tech"
+    ]
+  },
+  {
+    "id": "en-a1-gram-quantifiers",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 119,
+    "title": "There is / There are, Some / Any, Much / Many & Possessive ’s",
+    "subtitle": "Menyatakan keberadaan dan jumlah benda dalam konteks positif-negatif",
+    "estimatedMinutes": 25,
+    "dataPath": "/data/languages/en/modules/en-a1-gram-quantifiers.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-gram-continuous"
+    ]
+  },
+  {
+    "id": "en-03-beg-grammar-past-system",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 120,
+    "title": "Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+    "subtitle": "Menyatakan peristiwa selesai di titik waktu lampau tertutup",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-03-beg-grammar-past-system.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-gram-quantifiers"
+    ]
+  },
+  {
+    "id": "en-a2-past-continuous",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 121,
+    "title": "Past Continuous Tense & Interupsi Kejadian (When vs While)",
+    "subtitle": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a2-past-continuous.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-03-beg-grammar-past-system"
+    ]
+  },
+  {
+    "id": "en-a2-future-forms",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 122,
+    "title": "Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+    "subtitle": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a2-future-forms.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a2-past-continuous"
+    ]
+  },
+  {
+    "id": "en-a2-comparatives",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 123,
+    "title": "Degrees of Comparison: Positive, Comparative (-er/more) & Superlative",
+    "subtitle": "Membandingkan dua hal atau lebih secara akurat",
+    "estimatedMinutes": 25,
+    "dataPath": "/data/languages/en/modules/en-a2-comparatives.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a2-future-forms"
+    ]
+  },
+  {
+    "id": "en-04-int-present-perfect-bridge",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 124,
+    "title": "Present Perfect vs Simple Past: For, Since, Already, Yet & Just",
+    "subtitle": "Menghubungkan pengalaman dan hasil tindakan lampau ke masa sekarang",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-04-int-present-perfect-bridge.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a2-comparatives"
+    ]
+  },
+  {
+    "id": "en-b1-modals",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 125,
+    "title": "Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+    "subtitle": "Perbedaan can, could, may, might, must, have to, should, ought to",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b1-modals.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-04-int-present-perfect-bridge"
+    ]
+  },
+  {
+    "id": "en-b1-passive-voice",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 126,
+    "title": "Passive Voice (Kalimat Pasif) di Berbagai Tenses & Konteks Formal",
+    "subtitle": "Mengalihkan fokus dari pelaku ke objek atau hasil tindakan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b1-passive-voice.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b1-modals"
+    ]
+  },
+  {
+    "id": "en-b1-conditionals-1-2",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 127,
+    "title": "Conditional Sentences Type 0, Type 1 & Type 2 (Pengandaian)",
+    "subtitle": "Fakta ilmiah, kemungkinan nyata masa depan, dan situasi hipotesis",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b1-conditionals-1-2.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b1-passive-voice"
+    ]
+  },
+  {
+    "id": "en-b2-relative-clauses",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 128,
+    "title": "Relative Clauses (Defining vs Non-Defining): Who, Whom, Whose, Which, That",
+    "subtitle": "Menggabungkan dua klausa menjadi satu kalimat kompleks yang elegan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-relative-clauses.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b1-conditionals-1-2"
+    ]
+  },
+  {
+    "id": "en-b2-reported-speech",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 129,
+    "title": "Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+    "subtitle": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-reported-speech.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-relative-clauses"
+    ]
+  },
+  {
+    "id": "en-b2-conditionals-3-mixed",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 130,
+    "title": "Third Conditional & Mixed Conditionals (Penyesalan & Hipotesis Lampau)",
+    "subtitle": "Membayangkan skenario masa lalu yang berbeda dari kenyataan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-conditionals-3-mixed.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-reported-speech"
+    ]
+  },
+  {
+    "id": "en-b2-gerund-infinitive",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 131,
+    "title": "Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+    "subtitle": "Perbedaan stop doing vs stop to do, remember doing vs remember to do",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-b2-gerund-infinitive.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-conditionals-3-mixed"
+    ]
+  },
+  {
+    "id": "en-05-adv-inversion-cleft",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 132,
+    "title": "Negative Inversion & Cleft Sentences (Penekanan Retoris Tingkat C1–C2)",
+    "subtitle": "Struktur Seldom have I..., Not only did..., dan What matters most is...",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-05-adv-inversion-cleft.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-gerund-infinitive"
+    ]
+  },
+  {
+    "id": "en-c1-subjunctive-mandative",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 133,
+    "title": "Mandative Subjunctive & Formal Hypotheticals",
+    "subtitle": "Struktur It is imperative that he be present (tanpa -s/is)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-c1-subjunctive-mandative.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-05-adv-inversion-cleft"
+    ]
+  },
+  {
+    "id": "en-c2-nominalization-hedging",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "advanced",
+    "order": 134,
+    "title": "Academic Nominalization, Hedging & Cohesive Devices",
+    "subtitle": "Mengubah gaya bahasa lisan menjadi prosa akademik padat dan objektif",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-c2-nominalization-hedging.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-c1-subjunctive-mandative"
+    ]
+  },
+  {
+    "id": "en-lit-01-old-middle",
+    "lang": "en",
+    "pillar": "script",
+    "tier": "native",
+    "order": 135,
+    "title": "Filologi Old English & Middle English: Beowulf hingga Geoffrey Chaucer",
+    "subtitle": "Membaca pergeseran morfologi kasus Anglo-Saxon ke Inggris Pertengahan",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/en/modules/en-lit-01-old-middle.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-c2-nominalization-hedging"
+    ]
+  },
+  {
+    "id": "en-lit-02-shakespeare",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "native",
+    "order": 136,
+    "title": "Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)",
+    "subtitle": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-lit-02-shakespeare.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-lit-01-old-middle"
+    ]
+  },
+  {
+    "id": "en-lit-03-stylistics-tropes",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 137,
+    "title": "Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes",
+    "subtitle": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-lit-03-stylistics-tropes.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-lit-02-shakespeare"
+    ]
+  },
+  {
+    "id": "en-a1-09-questions-imperatives",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 141,
+    "title": "Yes/No Questions, Wh-Questions (Subject vs Object Questions) & Imperatives",
+    "subtitle": "Perbedaan \"Who called you?\" (tanpa did) vs \"Who did you call?\" (dengan did)",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a1-09-questions-imperatives.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-lit-03-stylistics-tropes"
+    ]
+  },
+  {
+    "id": "en-a2-05-reflexive-indefinite",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 142,
+    "title": "Reflexive Pronouns (myself/themselves) & Indefinite Pronouns (someone, anything, nowhere)",
+    "subtitle": "Aturan penggunaan kata ganti tak tentu dalam kalimat positif, negatif, dan tanya",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a2-05-reflexive-indefinite.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a1-09-questions-imperatives"
+    ]
+  },
+  {
+    "id": "en-a2-06-time-clauses-adverbs",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 143,
+    "title": "Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+    "subtitle": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-a2-06-time-clauses-adverbs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a2-05-reflexive-indefinite"
+    ]
+  },
+  {
+    "id": "en-b1-05-present-perfect-continuous",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 144,
+    "title": "Present Perfect Simple vs Present Perfect Continuous (have been + V-ing)",
+    "subtitle": "Menekankan hasil selesai vs proses berkesinambungan yang masih terasa dampaknya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b1-05-present-perfect-continuous.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-a2-06-time-clauses-adverbs"
+    ]
+  },
+  {
+    "id": "en-b1-06-past-perfect-narrative",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 145,
+    "title": "Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+    "subtitle": "Menandai kejadian yang sudah selesai sebelum titik waktu lampau lainnya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b1-06-past-perfect-narrative.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b1-05-present-perfect-continuous"
+    ]
+  },
+  {
+    "id": "en-b2-05-causative-have-get",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 146,
+    "title": "Causative Structures: Have/Get Something Done, Make, Let & Help",
+    "subtitle": "Menyatakan tindakan yang dikerjakan oleh tenaga ahli atau pihak lain untuk kita",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-05-causative-have-get.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b1-06-past-perfect-narrative"
+    ]
+  },
+  {
+    "id": "en-b2-06-concession-contrast",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 147,
+    "title": "Clauses of Contrast & Purpose: Although, Despite, In Spite Of, Whereas & So That",
+    "subtitle": "Perbedaan tata bahasa antara konjungsi klausa vs frasa nomina",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-06-concession-contrast.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-05-causative-have-get"
+    ]
+  },
+  {
+    "id": "en-b2-07-modal-deduction-past",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 148,
+    "title": "Modals of Deduction in the Past: Must Have, Might Have, Could Have & Can’t Have + V3",
+    "subtitle": "Menyimpulkan kepastian, kemungkinan, dan penyesalan atas peristiwa lampau",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-b2-07-modal-deduction-past.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-06-concession-contrast"
+    ]
+  },
+  {
+    "id": "en-b2-08-question-tags-emphasis",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 149,
+    "title": "Question Tags, Ellipsis & Auxiliary Substitution (So do I / Neither have I)",
+    "subtitle": "Menjaga alur percakapan alami tanpa mengulang seluruh predikat kalimat",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/en/modules/en-b2-08-question-tags-emphasis.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-07-modal-deduction-past"
+    ]
+  },
+  {
+    "id": "en-c1-04-participle-clauses",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 150,
+    "title": "Participle Clauses (Present -ing, Past -ed & Perfect Having + V3)",
+    "subtitle": "Memadatkan dua klausa menjadi satu kalimat ringkas bergaya editorial",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-c1-04-participle-clauses.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-b2-08-question-tags-emphasis"
+    ]
+  },
+  {
+    "id": "en-c1-05-future-perfect-continuous",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 151,
+    "title": "Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+    "subtitle": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/en/modules/en-c1-05-future-perfect-continuous.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-c1-04-participle-clauses"
+    ]
+  },
+  {
+    "id": "en-c2-06-cleft-fronting-emphasis",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 152,
+    "title": "It-Clefts, Wh-Clefts & Fronting untuk Fokus Informasi (Information Packaging)",
+    "subtitle": "Mengatur alur tema-rema (Theme-Rheme) dalam paragraf argumentatif",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-c2-06-cleft-fronting-emphasis.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "en-c1-05-future-perfect-continuous"
+    ]
+  },
+  {
+    "id": "en-lit-04-romantic-victorian",
+    "lang": "en",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 156,
+    "title": "Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson",
+    "subtitle": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-lit-04-romantic-victorian.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-c2-06-cleft-fronting-emphasis"
+    ]
+  },
+  {
+    "id": "en-lit-05-modernism-stream",
+    "lang": "en",
+    "pillar": "syntax",
+    "tier": "native",
+    "order": 157,
+    "title": "Sastra Modernis & Naratologi: Stream of Consciousness, Free Indirect Discourse & Ironi",
+    "subtitle": "Teknik penceritaan Virginia Woolf, James Joyce, dan T.S. Eliot",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/en/modules/en-lit-05-modernism-stream.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-lit-04-romantic-victorian"
+    ]
+  },
+  {
+    "id": "en-lit-06-historical-semantics",
+    "lang": "en",
+    "pillar": "morphology",
+    "tier": "native",
+    "order": 158,
+    "title": "Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+    "subtitle": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\"",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/en/modules/en-lit-06-historical-semantics.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "en-lit-05-modernism-stream"
+    ]
+  },
+  {
     "id": "zh-00-found-origin-hanzi-anatomy",
     "lang": "zh",
     "pillar": "script",
@@ -164,21 +1004,6 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "prerequisites": []
   },
   {
-    "id": "zh-01-found-phonetics-pinyin-tones",
-    "lang": "zh",
-    "pillar": "phonetics",
-    "tier": "foundation",
-    "order": 1,
-    "title": "Foundation | Sistem Fonetik Pīnyīn, 4 Nada (Shēngdiào) & Hukum Tone Sandhi",
-    "subtitle": "Mengapa sistem ejaan Latin Pinyin dirancang dan bagaimana nada mengubah makna kata secara total",
-    "estimatedMinutes": 25,
-    "dataPath": "/data/languages/zh/modules/zh-01-found-phonetics-pinyin-tones.json",
-    "entryCount": 2,
-    "prerequisites": [
-      "zh-00-found-origin-hanzi-anatomy"
-    ]
-  },
-  {
     "id": "zh-02-beg-grammar-core-sentences",
     "lang": "zh",
     "pillar": "syntax",
@@ -190,7 +1015,7 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "dataPath": "/data/languages/zh/modules/zh-02-beg-grammar-core-sentences.json",
     "entryCount": 11,
     "prerequisites": [
-      "zh-01-found-phonetics-pinyin-tones"
+      "zh-00-found-origin-hanzi-anatomy"
     ]
   },
   {
@@ -299,17 +1124,559 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     ]
   },
   {
-    "id": "ja-00-found-origin-three-scripts",
-    "lang": "ja",
+    "id": "zh-00-found-origin-characters",
+    "lang": "zh",
     "pillar": "script",
     "tier": "foundation",
-    "order": 1,
-    "title": "Foundation | Sejarah & Logika 3 Sistem Aksara Jepang: Kanji, Hiragana & Katakana",
-    "subtitle": "Mengapa Jepang tidak memakai spasi, bagaimana Man’yōgana melahirkan Kana, dan pembagian tugas visual ketiga aksara",
+    "order": 101,
+    "title": "Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+    "subtitle": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern",
     "estimatedMinutes": 35,
-    "dataPath": "/data/languages/ja/modules/ja-00-found-origin-three-scripts.json",
-    "entryCount": 13,
-    "prerequisites": []
+    "dataPath": "/data/languages/zh/modules/zh-00-found-origin-characters.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-09-native-rhetoric-xiucixue-dialects"
+    ]
+  },
+  {
+    "id": "zh-00-found-liushu-composition",
+    "lang": "zh",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 102,
+    "title": "Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+    "subtitle": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-00-found-liushu-composition.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-00-found-origin-characters"
+    ]
+  },
+  {
+    "id": "zh-00-found-kangxi-radicals",
+    "lang": "zh",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 103,
+    "title": "50 Radikal Kangxi (部首 Bùshǒu) Paling Produktif & Urutan Goresan (Bǐshùn)",
+    "subtitle": "Kunci mencari kata di kamus dan mengingat struktur karakter kompleks",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-00-found-kangxi-radicals.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-00-found-liushu-composition"
+    ]
+  },
+  {
+    "id": "zh-01-found-phonetics-pinyin-tones",
+    "lang": "zh",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 104,
+    "title": "Sistem Fonetik Pinyin, Konsonan Khusus (zh/ch/sh/j/q/x) & Hukum Tone Sandhi",
+    "subtitle": "Kontur 4 nada utama, nada netral, dan perubahan nada 不 (bù) serta 一 (yī)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-01-found-phonetics-pinyin-tones.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-00-found-kangxi-radicals"
+    ]
+  },
+  {
+    "id": "zh-dict-vocab-hsk12",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 105,
+    "title": "600 Kosakata Hanzi Inti HSK 1–2 & Kata Penggolong (Liàngcí)",
+    "subtitle": "Kosakata inti keluarga, waktu, pekerjaan, dan kata bantu bilangan",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-dict-vocab-hsk12.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-01-found-phonetics-pinyin-tones"
+    ]
+  },
+  {
+    "id": "zh-found-04-tone-sandhi",
+    "lang": "zh",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 105,
+    "title": "Tone Sandhi (变调 Biàndiào): Nada 3 + Nada 3, 以及 Perubahan Nada 一 (yī) & 不 (bù)",
+    "subtitle": "Mengapa 你好 (nǐ hǎo) diucapkan ní hǎo dan 不是 (bù shì) berubah menjadi bú shì",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-found-04-tone-sandhi.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-vocab-hsk12"
+    ]
+  },
+  {
+    "id": "zh-dict-vocab-hsk34",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 106,
+    "title": "1.200 Kosakata Menengah HSK 3–4: Emosi, Opini & Kehidupan Modern",
+    "subtitle": "Perluasan kosakata abstrak untuk diskusi sehari-hari dan dunia kerja",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-dict-vocab-hsk34.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-found-04-tone-sandhi"
+    ]
+  },
+  {
+    "id": "zh-found-05-erhua-neutral-tone",
+    "lang": "zh",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 106,
+    "title": "Nada Netral (轻声 Qīngshēng) & Retrofleks Erhua (儿化音) dalam Mandarin Standar",
+    "subtitle": "Bagaimana akhiran -er dan suku kata ringan membedakan arti serta kelas kata",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/zh/modules/zh-found-05-erhua-neutral-tone.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-vocab-hsk34"
+    ]
+  },
+  {
+    "id": "zh-dict-sent-daily",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 107,
+    "title": "Kalimat Salam, Belanja, Menawar Harga, Arah & Restoran",
+    "subtitle": "Ekspresi langsung pakai dalam kehidupan di Tiongkok/Taiwan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-dict-sent-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-found-05-erhua-neutral-tone"
+    ]
+  },
+  {
+    "id": "zh-found-06-stroke-order-components",
+    "lang": "zh",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 107,
+    "title": "7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+    "subtitle": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-found-06-stroke-order-components.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-sent-daily"
+    ]
+  },
+  {
+    "id": "zh-dict-conv-daily",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 108,
+    "title": "Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+    "subtitle": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-dict-conv-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-found-06-stroke-order-components"
+    ]
+  },
+  {
+    "id": "zh-02-beg-sentence-order",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 109,
+    "title": "Tiga Tipe Kalimat Dasar (是, Adjektiva 很, Kepemilikan 有) & Urutan STPVO",
+    "subtitle": "Mengapa kalimat sifat memakai 很 dan tidak boleh memakai 是",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-02-beg-sentence-order.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-conv-daily"
+    ]
+  },
+  {
+    "id": "zh-hsk12-particles-de",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 110,
+    "title": "Tiga Partikel De (的 · 得多/地 · 得): Kepemilikan, Adverbia & Pelengkap",
+    "subtitle": "Membedakan fungsi 的 (modifikator nomina), 地 (adverbia), dan 得 (komplemen)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk12-particles-de.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-02-beg-sentence-order"
+    ]
+  },
+  {
+    "id": "zh-03-int-aspect-particles",
+    "lang": "zh",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 111,
+    "title": "Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+    "subtitle": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-03-int-aspect-particles.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk12-particles-de"
+    ]
+  },
+  {
+    "id": "zh-dict-05-classifiers-measure",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 112,
+    "title": "Kamus Kata Penggolong (量词 Liàngcí): 本, 张, 条, 件, 双, 辆, 座 & 场",
+    "subtitle": "Memilih kata satuan berdasarkan bentuk fisik, pasangan, atau peristiwa",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-dict-05-classifiers-measure.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-03-int-aspect-particles"
+    ]
+  },
+  {
+    "id": "zh-hsk34-ba-bei-constructions",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 112,
+    "title": "Konstruksi 把 (Bǎ · Disposal) & 被 (Bèi · Pasif) + Komplemen Hasil",
+    "subtitle": "Memajukan objek sebelum predikat untuk menunjukkan dampak perubahan",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-ba-bei-constructions.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-05-classifiers-measure"
+    ]
+  },
+  {
+    "id": "zh-dict-06-vocab-hsk56-abstract",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 113,
+    "title": "Leksikon Abstrak & Akademik HSK 5–6: Ekonomi, Teknologi & Kebijakan Publik",
+    "subtitle": "Kosakata dua karakter berfrekuensi tinggi pada berita CCTV, Xinhua, dan esai formal",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-dict-06-vocab-hsk56-abstract.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-ba-bei-constructions"
+    ]
+  },
+  {
+    "id": "zh-hsk56-chengyu-core",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "advanced",
+    "order": 113,
+    "title": "100 Chengyu (成语) Esensial: Asal Usul Sejarah & Pemakaian Sintaksis",
+    "subtitle": "Peribahasa empat karakter yang merangkum kisah sejarah Tiongkok kuno",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-hsk56-chengyu-core.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-06-vocab-hsk56-abstract"
+    ]
+  },
+  {
+    "id": "zh-dict-07-conv-business-travel",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 114,
+    "title": "Simulasi Dialog Bisnis, Negosiasi & Perjalanan Mandiri di Tiongkok",
+    "subtitle": "Ungkapan sopan membuka rapat, menawar secara elegan, dan memesan layanan",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-dict-07-conv-business-travel.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk56-chengyu-core"
+    ]
+  },
+  {
+    "id": "zh-hsk56-formal-register",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 114,
+    "title": "Ragam Tulis Formal (书面语 Shūmiànyǔ) vs Ragam Lisan (口语 Kǒuyǔ)",
+    "subtitle": "Pasangan kata monosilabis klasik dalam berita dan dokumen resmi",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-hsk56-formal-register.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-dict-07-conv-business-travel"
+    ]
+  },
+  {
+    "id": "zh-lit-01-wenyanwen",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "native",
+    "order": 115,
+    "title": "Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+    "subtitle": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan",
+    "estimatedMinutes": 55,
+    "dataPath": "/data/languages/zh/modules/zh-lit-01-wenyanwen.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "zh-hsk56-formal-register"
+    ]
+  },
+  {
+    "id": "zh-lit-02-tang-poetry",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 116,
+    "title": "Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu",
+    "subtitle": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/zh/modules/zh-lit-02-tang-poetry.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "zh-lit-01-wenyanwen"
+    ]
+  },
+  {
+    "id": "zh-hsk12-03-shi-vs-hen",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 121,
+    "title": "Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+    "subtitle": "Mengapa \"Saya sibuk\" adalah 我很忙 (Wǒ hěn máng), BUKAN 我是忙",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/zh/modules/zh-hsk12-03-shi-vs-hen.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-lit-02-tang-poetry"
+    ]
+  },
+  {
+    "id": "zh-hsk12-04-time-place-order",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 122,
+    "title": "Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+    "subtitle": "Perbedaan posisi keterangan tempat di depan kata kerja vs di belakang kata kerja",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk12-04-time-place-order.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk12-03-shi-vs-hen"
+    ]
+  },
+  {
+    "id": "zh-hsk12-05-modal-verbs",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 123,
+    "title": "Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+    "subtitle": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk12-05-modal-verbs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk12-04-time-place-order"
+    ]
+  },
+  {
+    "id": "zh-hsk12-06-questions-negation",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 124,
+    "title": "Sistem Pertanyaan (吗, 呢, 吧, A-不-A) & Negasi 不 (bù) vs 没 (méi)",
+    "subtitle": "Membedakan negasi kebiasaan/masa depan (不) dengan negasi peristiwa lampau/kepemilikan (没)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk12-06-questions-negation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk12-05-modal-verbs"
+    ]
+  },
+  {
+    "id": "zh-hsk34-03-resultative-complements",
+    "lang": "zh",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 125,
+    "title": "Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+    "subtitle": "Menempelkan adjektiva/kata kerja tepat di belakang kata kerja utama untuk menyatakan hasil",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-03-resultative-complements.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk12-06-questions-negation"
+    ]
+  },
+  {
+    "id": "zh-hsk34-04-directional-complements",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 126,
+    "title": "Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+    "subtitle": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-04-directional-complements.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-03-resultative-complements"
+    ]
+  },
+  {
+    "id": "zh-hsk34-05-potential-degree",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 127,
+    "title": "Komplemen Potensial (V+得/不+Hasil) & Komplemen Derajat (V+得+Adjektiva)",
+    "subtitle": "Menyatakan kesanggupan (看得懂 / 看不懂) serta mengevaluasi cara melakukan aksi",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-05-potential-degree.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-04-directional-complements"
+    ]
+  },
+  {
+    "id": "zh-hsk34-06-comparison-bi",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 128,
+    "title": "Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+    "subtitle": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-06-comparison-bi.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-05-potential-degree"
+    ]
+  },
+  {
+    "id": "zh-hsk34-07-shi-de-focus",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 129,
+    "title": "Konstruksi Fokus 是...的 (Shì...de): Menyoroti Waktu, Tempat, Cara & Pelaku Lampau",
+    "subtitle": "Digunakan saat kejadian lampau sudah diketahui dan pembicara menanyakan detailnya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/zh/modules/zh-hsk34-07-shi-de-focus.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-06-comparison-bi"
+    ]
+  },
+  {
+    "id": "zh-hsk56-03-paired-conjunctions",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 130,
+    "title": "Pasangan Konjungsi Lanjut: 即使...也, 宁可...也不, 与其...不如 & 无论...都",
+    "subtitle": "Menyatakan konsesi hipotetis, pilihan lebih baik, dan ketidakbergantungan kondisi",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk56-03-paired-conjunctions.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk34-07-shi-de-focus"
+    ]
+  },
+  {
+    "id": "zh-hsk56-04-classical-particles-modern",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 131,
+    "title": "Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+    "subtitle": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-hsk56-04-classical-particles-modern.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk56-03-paired-conjunctions"
+    ]
+  },
+  {
+    "id": "zh-hsk56-05-nuanced-adverbs",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "advanced",
+    "order": 132,
+    "title": "Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+    "subtitle": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-hsk56-05-nuanced-adverbs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "zh-hsk56-04-classical-particles-modern"
+    ]
+  },
+  {
+    "id": "zh-lit-03-song-ci-lyrics",
+    "lang": "zh",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 135,
+    "title": "Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)",
+    "subtitle": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-lit-03-song-ci-lyrics.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "zh-hsk56-05-nuanced-adverbs"
+    ]
+  },
+  {
+    "id": "zh-lit-04-four-great-novels",
+    "lang": "zh",
+    "pillar": "syntax",
+    "tier": "native",
+    "order": 136,
+    "title": "Empat Roman Klasik Tiongkok (四大名著) & Lahirnya Báihuàwén (白话文)",
+    "subtitle": "Kajian gaya bahasa Impian di Bilik Merah (红楼梦) dan Kisah Tiga Negara (三国演义)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/zh/modules/zh-lit-04-four-great-novels.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "zh-lit-03-song-ci-lyrics"
+    ]
+  },
+  {
+    "id": "zh-lit-05-sinitic-dialects",
+    "lang": "zh",
+    "pillar": "phonetics",
+    "tier": "native",
+    "order": 137,
+    "title": "Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+    "subtitle": "Pelestarian konsonan akhir (-p, -t, -k) dan 6–9 nada pada bahasa Tionghoa Selatan",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/zh/modules/zh-lit-05-sinitic-dialects.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "zh-lit-04-four-great-novels"
+    ]
   },
   {
     "id": "ja-01-found-phonetics-mora-pitch",
@@ -322,9 +1689,7 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "estimatedMinutes": 25,
     "dataPath": "/data/languages/ja/modules/ja-01-found-phonetics-mora-pitch.json",
     "entryCount": 2,
-    "prerequisites": [
-      "ja-00-found-origin-three-scripts"
-    ]
+    "prerequisites": []
   },
   {
     "id": "ja-02-beg-grammar-core-particles",
@@ -459,6 +1824,621 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "entryCount": 4,
     "prerequisites": [
       "ja-09-adv-lexicon-jlpt-n1"
+    ]
+  },
+  {
+    "id": "ja-00-found-origin-three-scripts",
+    "lang": "ja",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 101,
+    "title": "Sejarah Aksara Jepang: Man’yōgana & Lahirnya Hiragana–Katakana",
+    "subtitle": "Bagaimana Jepang mengadaptasi karakter Tiongkok menjadi 3 sistem tulisan",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ja/modules/ja-00-found-origin-three-scripts.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-11-native-rhetoric-shujigaku-dialects"
+    ]
+  },
+  {
+    "id": "ja-00-found-katakana",
+    "lang": "ja",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 102,
+    "title": "Katakana (カタカナ) Lengkap: Gojūon, Dakuon, Yōon & Vokal Panjang (ー)",
+    "subtitle": "Aksara menyudut untuk kata serapan asing (Gairaigo) dan onomatope",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-00-found-katakana.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-00-found-origin-three-scripts"
+    ]
+  },
+  {
+    "id": "ja-00-found-hiragana",
+    "lang": "ja",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 103,
+    "title": "Hiragana (ひらがな) Lengkap: Gojūon, Sokuon (っ) & Aturan Ejaan Partikel",
+    "subtitle": "Aksara melengkung tulang punggung tata bahasa dan okurigana Jepang",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-00-found-hiragana.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-00-found-katakana"
+    ]
+  },
+  {
+    "id": "ja-00-found-kanji-radicals",
+    "lang": "ja",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 104,
+    "title": "Anatomi Kanji (漢字): Urutan Goresan (Hitsujun), Radikal (Bushu), On’yomi & Kun’yomi",
+    "subtitle": "Cara membongkar komponen Kanji dan membedakan bacaan Tionghoa vs asli Jepang",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-00-found-kanji-radicals.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-00-found-hiragana"
+    ]
+  },
+  {
+    "id": "ja-00-found-pitch-accent",
+    "lang": "ja",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 105,
+    "title": "Fonetik Mora (拍 Haku) & 4 Pola Pitch Accent (Heiban, Atamadaka, Nakadaka, Odaka)",
+    "subtitle": "Mengapa 箸 (hashi · sumpit) dan 橋 (hashi · jembatan) berbeda tinggi rendah nada",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-00-found-pitch-accent.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-00-found-kanji-radicals"
+    ]
+  },
+  {
+    "id": "ja-dict-vocab-n5-core",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 106,
+    "title": "800 Kosakata & 100 Kanji Dasar Kehidupan Sehari-hari",
+    "subtitle": "Kata kerja, kata sifat-i/na, waktu, angka, dan kata bantu bilangan (Josūshi)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-dict-vocab-n5-core.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-00-found-pitch-accent"
+    ]
+  },
+  {
+    "id": "ja-found-06-rendaku-euphony",
+    "lang": "ja",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 106,
+    "title": "Hukum Rendaku (連濁) & Onbin: Mengapa 人 (hito) Menjadi 恋人 (koibito)",
+    "subtitle": "Perubahan konsonan tak bersuara menjadi bersuara pada kata majemuk asli Jepang",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-found-06-rendaku-euphony.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-vocab-n5-core"
+    ]
+  },
+  {
+    "id": "ja-dict-vocab-onomatopoeia",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 107,
+    "title": "Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+    "subtitle": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-dict-vocab-onomatopoeia.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-found-06-rendaku-euphony"
+    ]
+  },
+  {
+    "id": "ja-found-07-jukugo-structure",
+    "lang": "ja",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 107,
+    "title": "Anatomi Jukugo (熟語): 4 Pola Pembentukan Kata Majemuk Dua Kanji",
+    "subtitle": "Sinonim (意味類似), Antonim (反対), Modifikator-Inti, dan Kata Kerja-Objek",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-found-07-jukugo-structure.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-vocab-onomatopoeia"
+    ]
+  },
+  {
+    "id": "ja-dict-sent-daily",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 108,
+    "title": "Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+    "subtitle": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ja/modules/ja-dict-sent-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-found-07-jukugo-structure"
+    ]
+  },
+  {
+    "id": "ja-found-08-numbers-counters",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "foundation",
+    "order": 108,
+    "title": "Sistem Bilangan Jepang (Wago vs Kango) & Kata Bantu Bilangan (助数詞 Josūshi)",
+    "subtitle": "Perbedaan hitotsu/futatsu vs ichi/ni serta perubahan bunyi pada 匹, 本, 冊, 階",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-found-08-numbers-counters.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-sent-daily"
+    ]
+  },
+  {
+    "id": "ja-dict-sent-restaurant",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 109,
+    "title": "Kalimat di Restoran, Konbini, Transportasi & Belanja",
+    "subtitle": "Menjawab pertanyaan kasir dan memesan makanan secara alami",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ja/modules/ja-dict-sent-restaurant.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-found-08-numbers-counters"
+    ]
+  },
+  {
+    "id": "ja-dict-conv-casual-polite",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 110,
+    "title": "Percakapan Kampus & Kantor: Peralihan Desu/Masu ke Bentuk Biasa",
+    "subtitle": "Cara menyimak aktif dengan sō desu ne, naruhodo, dan maji de",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-dict-conv-casual-polite.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-sent-restaurant"
+    ]
+  },
+  {
+    "id": "ja-01-beg-syntax-particles",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 111,
+    "title": "Perbedaan Vital Partikel は (Wa · Topik) vs が (Ga · Subjek Fokus)",
+    "subtitle": "Mengapa bahasa Jepang membedakan topik pembicaraan dari pelaku informasi baru",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-01-beg-syntax-particles.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-conv-casual-polite"
+    ]
+  },
+  {
+    "id": "ja-n5-part-space-object",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 112,
+    "title": "Partikel Objek & Ruang: を (O), に (Ni), で (De), へ (E), から/まで",
+    "subtitle": "Membedakan に (titik tujuan/keberadaan) vs で (lokasi berlangsungnya aksi)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-n5-part-space-object.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-01-beg-syntax-particles"
+    ]
+  },
+  {
+    "id": "ja-n5-verb-groups-masu",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 113,
+    "title": "3 Kelompok Kata Kerja (Godan, Ichidan, Irregular) & Bentuk Sopan Masu",
+    "subtitle": "Mengidentifikasi akar kata kerja untuk semua konjugasi tingkat lanjut",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-n5-verb-groups-masu.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n5-part-space-object"
+    ]
+  },
+  {
+    "id": "ja-dict-06-kanyoku-idioms",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 114,
+    "title": "Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+    "subtitle": "Ungkapan sehari-hari yang maknanya melampaui arti harfiah kata penyusunnya",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-dict-06-kanyoku-idioms.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n5-verb-groups-masu"
+    ]
+  },
+  {
+    "id": "ja-n5-te-form-adjectives",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 114,
+    "title": "Bentuk-Te (て形), Kata Sifat-I (い形容詞) & Kata Sifat-Na (な形容詞)",
+    "subtitle": "Menyambung kalimat berurutan dan mengonjugasikan kata sifat lampau/negatif",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n5-te-form-adjectives.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-06-kanyoku-idioms"
+    ]
+  },
+  {
+    "id": "ja-dict-07-yojijukugo",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 115,
+    "title": "Yojijukugo (四字熟語): Idiom Empat Kanji dalam Berita & Pidato",
+    "subtitle": "Padanan Jepang untuk Chengyu klasik yang sering muncul di JLPT N2–N1",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-dict-07-yojijukugo.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n5-te-form-adjectives"
+    ]
+  },
+  {
+    "id": "ja-n4-plain-forms",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 115,
+    "title": "Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+    "subtitle": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n4-plain-forms.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-07-yojijukugo"
+    ]
+  },
+  {
+    "id": "ja-dict-08-conv-workplace",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 116,
+    "title": "Percakapan Dunia Kerja Jepang: Hō-Ren-Sō (報告・連絡・相談) & Telepon Bisnis",
+    "subtitle": "Etiket melapor, berkoordinasi, dan berkonsultasi dengan atasan maupun klien",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-dict-08-conv-workplace.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n4-plain-forms"
+    ]
+  },
+  {
+    "id": "ja-n4-potential-volitional",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 116,
+    "title": "Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+    "subtitle": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n4-potential-volitional.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-dict-08-conv-workplace"
+    ]
+  },
+  {
+    "id": "ja-02-int-keigo-register",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 117,
+    "title": "Sistem Keigo (敬語): Sonkeigo (Hormat), Kenjōgo (Merendah) & Teineigo",
+    "subtitle": "Membedakan peninggian tindakan lawan bicara vs perendahan tindakan sendiri",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-02-int-keigo-register.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n4-potential-volitional"
+    ]
+  },
+  {
+    "id": "ja-n3-passive-causative",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 118,
+    "title": "Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+    "subtitle": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-n3-passive-causative.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-02-int-keigo-register"
+    ]
+  },
+  {
+    "id": "ja-n2-formal-connectors",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 119,
+    "title": "Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+    "subtitle": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-n2-formal-connectors.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n3-passive-causative"
+    ]
+  },
+  {
+    "id": "ja-n1-mastery-nuance",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 120,
+    "title": "Pola Tata Bahasa N1: 〜を余儀なくされる, 〜に足る, 〜が早いか & 〜ならではの",
+    "subtitle": "Nuansa sastra modern, hukum, dan kritik budaya tingkat tertinggi",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/ja/modules/ja-n1-mastery-nuance.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n2-formal-connectors"
+    ]
+  },
+  {
+    "id": "ja-lit-01-bungo-grammar",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "native",
+    "order": 121,
+    "title": "Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi",
+    "subtitle": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi)",
+    "estimatedMinutes": 55,
+    "dataPath": "/data/languages/ja/modules/ja-lit-01-bungo-grammar.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ja-n1-mastery-nuance"
+    ]
+  },
+  {
+    "id": "ja-lit-02-waka-haiku",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 122,
+    "title": "Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji",
+    "subtitle": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-lit-02-waka-haiku.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ja-lit-01-bungo-grammar"
+    ]
+  },
+  {
+    "id": "ja-n5-05-kosoado-existence",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 127,
+    "title": "Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+    "subtitle": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ja/modules/ja-n5-05-kosoado-existence.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-lit-02-waka-haiku"
+    ]
+  },
+  {
+    "id": "ja-n4-03-giving-receiving",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 128,
+    "title": "Memberi & Menerima (あげる・くれる・もらう) serta 〜てあげる/〜てくれる/〜てもらう",
+    "subtitle": "Sistem empati bahasa Jepang yang tidak bisa diterjemahkan sekadar \"memberi\"",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n4-03-giving-receiving.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n5-05-kosoado-existence"
+    ]
+  },
+  {
+    "id": "ja-n4-04-transitivity-pairs",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 129,
+    "title": "Jidoshi (Intransitif) vs Tadoshi (Transitif): 開く/開ける, 閉まる/閉める, 消える/消す",
+    "subtitle": "Membedakan peristiwa yang terjadi sendiri vs tindakan yang dilakukan pelaku",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n4-04-transitivity-pairs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n4-03-giving-receiving"
+    ]
+  },
+  {
+    "id": "ja-n4-05-conjecture-hearsay",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 130,
+    "title": "Dugaan & Kabar Angin: 〜そうだ (Kelihatannya vs Katanya), 〜ようだ & 〜らしい",
+    "subtitle": "Perbedaan informasi dari penglihatan langsung vs informasi yang didengar dari sumber lain",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-n4-05-conjecture-hearsay.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n4-04-transitivity-pairs"
+    ]
+  },
+  {
+    "id": "ja-n3-03-okagede-seide",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 131,
+    "title": "Evaluasi Sebab-Akibat: 〜おかげで (Berkat/Positif) vs 〜せいで (Gara-gara/Negatif)",
+    "subtitle": "Memilih konjungsi penyebab berdasarkan dampak positif atau negatif bagi pembicara",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-n3-03-okagede-seide.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n4-05-conjecture-hearsay"
+    ]
+  },
+  {
+    "id": "ja-n3-04-change-over-time",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 132,
+    "title": "Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+    "subtitle": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n3-04-change-over-time.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n3-03-okagede-seide"
+    ]
+  },
+  {
+    "id": "ja-n3-05-compound-verbs",
+    "lang": "ja",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 133,
+    "title": "Kata Kerja Majemuk (複合動詞 Fukugōdōshi): 〜始める, 〜続ける, 〜直す, 〜忘れる",
+    "subtitle": "Menggabungkan dua kata kerja untuk menyatakan fase awal, pengulangan, atau kelalaian",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ja/modules/ja-n3-05-compound-verbs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n3-04-change-over-time"
+    ]
+  },
+  {
+    "id": "ja-n2-03-instant-correlation",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 134,
+    "title": "Korelasi Peristiwa Beruntun: 〜た途端, 〜か〜ないかのうちに, 〜次第 & 〜や否や",
+    "subtitle": "Menyatakan dua peristiwa yang terjadi hampir bersamaan dalam hitungan detik",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n2-03-instant-correlation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n3-05-compound-verbs"
+    ]
+  },
+  {
+    "id": "ja-n2-04-extent-limitation",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 135,
+    "title": "Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+    "subtitle": "Menegaskan kesimpulan logis, merendahkan cakupan, dan menyarankan pilihan terbaik",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-n2-04-extent-limitation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n2-03-instant-correlation"
+    ]
+  },
+  {
+    "id": "ja-n1-03-archaic-connectors",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 136,
+    "title": "Pola N1 Berakar Klasik: 〜んがため(に), 〜を禁じ得ない, 〜をもって & 〜だに",
+    "subtitle": "Ungkapan sastra dan hukum modern yang mewarisi partikel kata kerja klasik",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-n1-03-archaic-connectors.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ja-n2-04-extent-limitation"
+    ]
+  },
+  {
+    "id": "ja-lit-03-genbun-itchi-meiji",
+    "lang": "ja",
+    "pillar": "syntax",
+    "tier": "native",
+    "order": 139,
+    "title": "Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)",
+    "subtitle": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-lit-03-genbun-itchi-meiji.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ja-n1-03-archaic-connectors"
+    ]
+  },
+  {
+    "id": "ja-lit-04-kakekotoba-makurakotoba",
+    "lang": "ja",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 140,
+    "title": "Retorika Puitis Klasik: Kakekotoba (Pivot Word), Makurakotoba & Honkadori",
+    "subtitle": "Permainan makna ganda dan alusi antar-puisi dalam antologi Kokin Wakashū",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ja/modules/ja-lit-04-kakekotoba-makurakotoba.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ja-lit-03-genbun-itchi-meiji"
+    ]
+  },
+  {
+    "id": "ja-lit-05-kansai-dialects",
+    "lang": "ja",
+    "pillar": "phonetics",
+    "tier": "native",
+    "order": 141,
+    "title": "Dialektologi Jepang: Kansai-ben (Osaka/Kyoto), Hakata-ben & Sosiolinguistik Gender/Usia",
+    "subtitle": "Perbedaan intonasi, kopula (〜や/〜やねん), dan negasi (〜へん) di luar Tokyo",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ja/modules/ja-lit-05-kansai-dialects.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ja-lit-04-kakekotoba-makurakotoba"
     ]
   },
   {
@@ -625,6 +2605,516 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     ]
   },
   {
+    "id": "ar-00-found-origin-abjad",
+    "lang": "ar",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 101,
+    "title": "Sejarah Aksara Arab: Dari Nabataean ke Khat Naskh, Thuluth & Riqʿah",
+    "subtitle": "Mengapa bahasa Arab menggunakan sistem Abjad konsonantal dengan tanda titik Iʿjām",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ar/modules/ar-00-found-origin-abjad.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-08-native-rhetoric-balaghah-dialects"
+    ]
+  },
+  {
+    "id": "ar-00-found-hijaiyah-makharij",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 102,
+    "title": "28 Huruf Hijaiyah Lengkap: Bentuk Awal–Tengah–Akhir & Makhārijul Ḥurūf",
+    "subtitle": "Membedakan huruf berdekatan (ح vs ه, ع vs ء, ص vs س, ض vs د, ق vs ك)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-00-found-hijaiyah-makharij.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-00-found-origin-abjad"
+    ]
+  },
+  {
+    "id": "ar-00-found-harakat-tajwid",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 103,
+    "title": "Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+    "subtitle": "Aturan bacaan pendek-panjang (Madd) dan hukum artikulasi dasar",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-00-found-harakat-tajwid.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-00-found-hijaiyah-makharij"
+    ]
+  },
+  {
+    "id": "ar-dict-vocab-roots",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 104,
+    "title": "500 Mufradāt Inti dari Akar Kata Produktif (ك-ت-ب, ع-ل-م, د-ر-س, ذ-ه-ب)",
+    "subtitle": "Satu akar 3 huruf melahirkan kata kerja, pelaku, tempat, dan objek",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-dict-vocab-roots.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-00-found-harakat-tajwid"
+    ]
+  },
+  {
+    "id": "ar-found-04-qamariyyah-syamsiyyah",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 104,
+    "title": "Al-Qamariyyah (الْقَمَرِيَّة) vs Asy-Syamsiyyah (الشَّمْسِيَّة) & Hamzah Washl (ٱ)",
+    "subtitle": "Asimilasi bunyi Lam (ل) ke dalam 14 huruf Syamsiyyah saat membaca kalimat bersambung",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ar/modules/ar-found-04-qamariyyah-syamsiyyah.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-vocab-roots"
+    ]
+  },
+  {
+    "id": "ar-dict-sent-daily",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 105,
+    "title": "Kalimat Salam, Perkenalan, Permintaan Maaf, Kampus & Perjalanan",
+    "subtitle": "Ekspresi Arab Standar Modern (Fuṣḥā Muʿāṣirah) berharakat penuh",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-dict-sent-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-found-04-qamariyyah-syamsiyyah"
+    ]
+  },
+  {
+    "id": "ar-found-05-hamzah-rules",
+    "lang": "ar",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 105,
+    "title": "Hukum Penulisan Hamzah: Hamzah Washl vs Qath‘ serta Kursi Hamzah (أ إ ؤ ئ ء)",
+    "subtitle": "Menentukan dudukan Hamzah di awal, tengah, dan akhir kata berdasarkan kekuatan harakat",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-found-05-hamzah-rules.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-sent-daily"
+    ]
+  },
+  {
+    "id": "ar-dict-conv-hiwar",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 106,
+    "title": "Ḥiwār Perkenalan, Diskusi Ilmu & Percakapan di Pasar/Bandara",
+    "subtitle": "Latihan membaca dan merespons dialog dengan harakat akhir yang tepat",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-dict-conv-hiwar.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-found-05-hamzah-rules"
+    ]
+  },
+  {
+    "id": "ar-found-06-nun-mim-sakinah",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 106,
+    "title": "Kaidah Fonologi Konsonan Mati: Iẓhār, Idghām, Iqlāb & Ikhfā’ dalam Pelafalan Fasih",
+    "subtitle": "Penerapan artikulasi makhraj dan ghunnah untuk bacaan Al-Qur’an dan pidato Fusha",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-found-06-nun-mim-sakinah.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-conv-hiwar"
+    ]
+  },
+  {
+    "id": "ar-02-beg-sarf-patterns",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 107,
+    "title": "Mīzān Ṣarfī (ف-ع-ل), Fiʿil Māḍī, Muḍāriʿ, Amr & 14 Ḍamīr Konjugasi",
+    "subtitle": "Bagaimana satu akar kata berubah mengikuti 14 kata ganti pelaku",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-02-beg-sarf-patterns.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-found-06-nun-mim-sakinah"
+    ]
+  },
+  {
+    "id": "ar-asasi-sarf-mushtaqqat",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 108,
+    "title": "Isim Musytaqqāt Dasar: Isim Fāʿil (Pelaku), Isim Mafʿūl (Objek) & Isim Makān",
+    "subtitle": "Membentuk kata benda turunan dari kata kerja dengan pola baku",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-asasi-sarf-mushtaqqat.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-02-beg-sarf-patterns"
+    ]
+  },
+  {
+    "id": "ar-01-beg-nahw-nominals",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 109,
+    "title": "Pembagian Kalimah (Isim, Fiʿil, Ḥarf), Mudhakkar–Muʾannath & Mufrad–Muthannā–Jamʿ",
+    "subtitle": "Klasifikasi jenis kelamin kata benda dan bentuk tunggal-ganda-jamak",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-01-beg-nahw-nominals.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-asasi-sarf-mushtaqqat"
+    ]
+  },
+  {
+    "id": "ar-asasi-nahw-jumla",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 110,
+    "title": "Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+    "subtitle": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-asasi-nahw-jumla.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-01-beg-nahw-nominals"
+    ]
+  },
+  {
+    "id": "ar-dict-04-mujam-root-lookup",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 110,
+    "title": "Seni Mencari Kata di Kamus Arab (Al-Mu‘jam Al-Wasīṭ & Lisān Al-‘Arab)",
+    "subtitle": "Mengupas huruf tambahan (زَوَائِد) untuk menemukan akar 3 huruf (جِذْر ثُلَاثِي)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-dict-04-mujam-root-lookup.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-asasi-nahw-jumla"
+    ]
+  },
+  {
+    "id": "ar-dict-05-adad-madud",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 111,
+    "title": "Kaidah Bilangan Arab (‘Adad wa Ma‘dūd): 1–2 (Sesuai) vs 3–10 (Berlawanan Gender)",
+    "subtitle": "Menaklukkan aturan gender dan I‘rab pada hitungan benda maskulin dan feminin",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-dict-05-adad-madud.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-04-mujam-root-lookup"
+    ]
+  },
+  {
+    "id": "ar-mutawassit-sarf-10forms",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 111,
+    "title": "10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+    "subtitle": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-mutawassit-sarf-10forms.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-05-adad-madud"
+    ]
+  },
+  {
+    "id": "ar-dict-06-hiwar-academic-media",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 112,
+    "title": "Hiwār Ilmiah, Diskusi Kampus & Kosakata Media Arab Modern (Al-Jazeera / BBC Arabic)",
+    "subtitle": "Frasa diplomasi, ekonomi, teknologi, dan penyampaian pendapat terstruktur",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-dict-06-hiwar-academic-media.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutawassit-sarf-10forms"
+    ]
+  },
+  {
+    "id": "ar-mutawassit-nahw-nawasikh",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 112,
+    "title": "Kāna wa Akhawātuhā (كَانَ) vs Inna wa Akhawātuhā (إِنَّ) & Iḍāfah (Sandaran)",
+    "subtitle": "Perubahan harakat Mubtadaʾ-Khabar saat dimasuki amil dan struktur kepemilikan",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-mutawassit-nahw-nawasikh.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-dict-06-hiwar-academic-media"
+    ]
+  },
+  {
+    "id": "ar-mutaqaddim-mansubat",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 113,
+    "title": "Manṣūbāt: Ḥāl (Keadaan), Tamyīz (Penjelas), Mafʿūl Muṭlaq & Mafʿūl Li-Ajlih",
+    "subtitle": "Membedakan berbagai keterangan berharakat Fatḥah dalam prosa Arab tinggi",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-mutaqaddim-mansubat.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutawassit-nahw-nawasikh"
+    ]
+  },
+  {
+    "id": "ar-mutaqaddim-gundul",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 114,
+    "title": "Strategi Membaca Teks Tanpa Harakat (Al-Qirāʾah bi-lā Tashkīl)",
+    "subtitle": "Menggabungkan pola Wazn Ṣaraf dan posisi Amil Naḥwu untuk merekonstruksi vokal",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/ar/modules/ar-mutaqaddim-gundul.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutaqaddim-mansubat"
+    ]
+  },
+  {
+    "id": "ar-lit-01-balaghah",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 115,
+    "title": "ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ",
+    "subtitle": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra",
+    "estimatedMinutes": 55,
+    "dataPath": "/data/languages/ar/modules/ar-lit-01-balaghah.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ar-mutaqaddim-gundul"
+    ]
+  },
+  {
+    "id": "ar-lit-02-arud-muallaqat",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "native",
+    "order": 116,
+    "title": "ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays",
+    "subtitle": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik",
+    "estimatedMinutes": 55,
+    "dataPath": "/data/languages/ar/modules/ar-lit-02-arud-muallaqat.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ar-lit-01-balaghah"
+    ]
+  },
+  {
+    "id": "ar-asasi-04-idhafah-naat",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 121,
+    "title": "Idhāfah (الْإِضَافَة · Mudhāf–Mudhāf Ilayh) vs Na‘at–Man‘ūt (Sifat–Yang Disifati)",
+    "subtitle": "Mengapa Mudhāf tidak pernah memakai ال (Alif-Lam) dan tidak bertanwin",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-asasi-04-idhafah-naat.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-lit-02-arud-muallaqat"
+    ]
+  },
+  {
+    "id": "ar-asasi-05-mutsanna-jamak",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 122,
+    "title": "Kategori Jumlah Arab: Mufrad (Tunggal), Mutsannā (Dual -āni/-ayni) & 3 Jenis Jamak",
+    "subtitle": "Jamak Mudzakkar Sālim (-ūna/-īna), Jamak Mu’annats Sālim (-āt), dan Jamak Taksīr",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-asasi-05-mutsanna-jamak.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-asasi-04-idhafah-naat"
+    ]
+  },
+  {
+    "id": "ar-asasi-06-dhamair-isyarah",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 123,
+    "title": "14 Dhamā’ir (Kata Ganti Terpisah & Bersambung) serta Ism Isyārah & Ism Mawṣūl",
+    "subtitle": "Konjugasi kata ganti orang pertama, kedua, ketiga, dan kata sambung (الَّذِي / الَّتِي)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-asasi-06-dhamair-isyarah.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-asasi-05-mutsanna-jamak"
+    ]
+  },
+  {
+    "id": "ar-mutawassit-03-irab-mudhari",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 124,
+    "title": "I‘rāb Fi‘l Muḍāri‘: Marfū‘, Manṣūb (أَنْ / لَنْ / كَيْ) & Majzūm (لَمْ / لَا النَّاهِيَة / إِنْ)",
+    "subtitle": "Mengapa لَمْ يَكْتُبْ berharakat Sukūn dan لَمْ يَكْتُبُوا kehilangan huruf Nūn-nya",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-mutawassit-03-irab-mudhari.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-asasi-06-dhamair-isyarah"
+    ]
+  },
+  {
+    "id": "ar-mutawassit-04-majhul-passive",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 125,
+    "title": "Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+    "subtitle": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ar/modules/ar-mutawassit-04-majhul-passive.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutawassit-03-irab-mudhari"
+    ]
+  },
+  {
+    "id": "ar-mutawassit-05-mutall-verbs",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 126,
+    "title": "Klasifikasi Fi‘l Ṣaḥīḥ vs Mu‘tall: Mitsāl (وَعَدَ), Ajwaf (قَالَ) & Nāqiṣ (دَعَا/رَمَى)",
+    "subtitle": "Mengapa huruf tengah pada قَالَ menghilang menjadi قُلْتُ saat bertemu Dhamīr",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-mutawassit-05-mutall-verbs.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutawassit-04-majhul-passive"
+    ]
+  },
+  {
+    "id": "ar-mutaqaddim-03-uslub-syart",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 127,
+    "title": "Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+    "subtitle": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-mutaqaddim-03-uslub-syart.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutawassit-05-mutall-verbs"
+    ]
+  },
+  {
+    "id": "ar-mutaqaddim-04-istitsna-tamyiz",
+    "lang": "ar",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 128,
+    "title": "Al-Istitsnā’ (إِلَّا · غَيْر · سِوَى) & At-Tamyīz (Penjelas Samar dalam Perbandingan)",
+    "subtitle": "Menentukan I‘rab kata setelah إِلَّا (Tāmm Mūjab vs Tāmm Manfī vs Nāqiṣ Mufarragh)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-mutaqaddim-04-istitsna-tamyiz.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutaqaddim-03-uslub-syart"
+    ]
+  },
+  {
+    "id": "ar-mutaqaddim-05-mamnu-min-sarf",
+    "lang": "ar",
+    "pillar": "morphology",
+    "tier": "advanced",
+    "order": 129,
+    "title": "Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+    "subtitle": "Mengapa عُمَرُ, مَسَاجِدُ, dan أَحْمَدُ memakai Fathah saat Majrūr (فِي مَسَاجِدَ كَثِيرَةٍ)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-mutaqaddim-05-mamnu-min-sarf.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ar-mutaqaddim-04-istitsna-tamyiz"
+    ]
+  },
+  {
+    "id": "ar-lit-03-maqamat-prose",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 132,
+    "title": "Seni Maqāmāt (الْمَقَامَات) & Prosa Berirama (Saj‘): Al-Jāḥiẓ, Al-Hamadzānī & Al-Ḥarīrī",
+    "subtitle": "Keindahan rima prosa Arab klasik dan kekuatan narasi picaresque abad ke-10",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-lit-03-maqamat-prose.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ar-mutaqaddim-05-mamnu-min-sarf"
+    ]
+  },
+  {
+    "id": "ar-lit-04-mahjar-modern-poetry",
+    "lang": "ar",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 133,
+    "title": "Sastra Mahjar & Puisi Bebas (الشِّعْر الْحُرّ): Gibran Khalil Gibran, Iliya Abu Madi & Nizar Qabbani",
+    "subtitle": "Transformasi puisi Arab abad ke-20 dari 16 Baḥr klasik menuju ekspresi simbolik modern",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ar/modules/ar-lit-04-mahjar-modern-poetry.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ar-lit-03-maqamat-prose"
+    ]
+  },
+  {
+    "id": "ar-lit-05-diglossia-dialects",
+    "lang": "ar",
+    "pillar": "phonetics",
+    "tier": "native",
+    "order": 134,
+    "title": "Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī",
+    "subtitle": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ar/modules/ar-lit-05-diglossia-dialects.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ar-lit-04-mahjar-modern-poetry"
+    ]
+  },
+  {
     "id": "ko-00-found-origin-hangeul-engineering",
     "lang": "ko",
     "pillar": "script",
@@ -638,21 +3128,6 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "prerequisites": []
   },
   {
-    "id": "ko-01-found-phonetics-batchim-rules",
-    "lang": "ko",
-    "pillar": "phonetics",
-    "tier": "foundation",
-    "order": 1,
-    "title": "Foundation | Hukum Fonologi & Asimilasi Batchim (연음, 비음화, 격음화, 유음화)",
-    "subtitle": "Mengapa tulisan Hangeul sering berbunyi berbeda saat dua suku kata bertemu dan cara membacanya seperti penutur asli",
-    "estimatedMinutes": 30,
-    "dataPath": "/data/languages/ko/modules/ko-01-found-phonetics-batchim-rules.json",
-    "entryCount": 4,
-    "prerequisites": [
-      "ko-00-found-origin-hangeul-engineering"
-    ]
-  },
-  {
     "id": "ko-02-beg-grammar-core-particles",
     "lang": "ko",
     "pillar": "syntax",
@@ -664,7 +3139,7 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "dataPath": "/data/languages/ko/modules/ko-02-beg-grammar-core-particles.json",
     "entryCount": 6,
     "prerequisites": [
-      "ko-01-found-phonetics-batchim-rules"
+      "ko-00-found-origin-hangeul-engineering"
     ]
   },
   {
@@ -770,6 +3245,501 @@ export const CURRICULUM_MANIFEST: readonly CurriculumManifestItem[] = [
     "entryCount": 5,
     "prerequisites": [
       "ko-08-adv-lexicon-topik2-high"
+    ]
+  },
+  {
+    "id": "ko-00-found-origin-hangeul",
+    "lang": "ko",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 101,
+    "title": "Sejarah Hunminjeongeum (1443): Filosofi Organ Artikulasi & Cheon-Ji-In",
+    "subtitle": "Bagaimana Raja Sejong merancang konsonan berdasarkan bentuk lidah-bibir dan vokal dari Langit-Bumi-Manusia",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ko/modules/ko-00-found-origin-hangeul.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-09-native-rhetoric-susabeop-dialects"
+    ]
+  },
+  {
+    "id": "ko-00-found-syllable-blocks",
+    "lang": "ko",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 102,
+    "title": "Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+    "subtitle": "Aturan penempatan vokal vertikal (ㅏㅓㅣ) di kanan vs vokal horizontal (ㅗㅜㅡ) di bawah",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-00-found-syllable-blocks.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-00-found-origin-hangeul"
+    ]
+  },
+  {
+    "id": "ko-01-found-phonetics-batchim-rules",
+    "lang": "ko",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 103,
+    "title": "Hukum Batchim (받침) & Asimilasi Bunyi: Yeon-eum, Bieumhwa & Palatalisasi",
+    "subtitle": "Mengapa 한국어 dibaca [한구거] dan 입니다 dibaca [임니다]",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-01-found-phonetics-batchim-rules.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-00-found-syllable-blocks"
+    ]
+  },
+  {
+    "id": "ko-dict-vocab-topik1",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 104,
+    "title": "800 Kosakata Inti TOPIK I & Dua Sistem Angka (Asli Korea vs Sino-Korea)",
+    "subtitle": "Kapan memakai 하나/둘/셋 (jam, usia, satuan) vs 일/이/삼 (menit, tanggal, uang)",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-dict-vocab-topik1.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-01-found-phonetics-batchim-rules"
+    ]
+  },
+  {
+    "id": "ko-found-04-nasalization-liquidization",
+    "lang": "ko",
+    "pillar": "phonetics",
+    "tier": "foundation",
+    "order": 104,
+    "title": "Asimilasi Konsonan: 비음화 (Nasalization), 유음화 (Liquidization) & 구개음화 (Palatalization)",
+    "subtitle": "Mengapa 한국어 dibaca [한구거], 감사합니다 dibaca [감사함니다], dan 신라 dibaca [실라]",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-found-04-nasalization-liquidization.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-dict-vocab-topik1"
+    ]
+  },
+  {
+    "id": "ko-dict-sent-daily",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 105,
+    "title": "Kalimat Salam, Memesan Makanan, Menanyakan Arah & Ungkapan Sopan",
+    "subtitle": "Pola kalimat akhiran -아/어요 yang sopan dan akrab",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-dict-sent-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-found-04-nasalization-liquidization"
+    ]
+  },
+  {
+    "id": "ko-found-05-spacing-orthography",
+    "lang": "ko",
+    "pillar": "script",
+    "tier": "foundation",
+    "order": 105,
+    "title": "Kaidah Spasi Bahasa Korea (띄어쓰기) & Perbedaan 에/애, 의, ㅚ/ㅙ/ㅞ",
+    "subtitle": "Aturan menempelkan partikel ke kata benda namun memberi spasi pada kata bantu dan satuan",
+    "estimatedMinutes": 30,
+    "dataPath": "/data/languages/ko/modules/ko-found-05-spacing-orthography.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-dict-sent-daily"
+    ]
+  },
+  {
+    "id": "ko-dict-conv-daily",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "beginner",
+    "order": 106,
+    "title": "Percakapan Pertemuan Pertama, Kampus & Tempat Kerja Korea",
+    "subtitle": "Penggunaan penanda wacana 그런데, 아 그래요?, dan 혹시",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-dict-conv-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-found-05-spacing-orthography"
+    ]
+  },
+  {
+    "id": "ko-found-06-dual-number-systems",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "foundation",
+    "order": 106,
+    "title": "Dua Sistem Bilangan Korea: Sino-Korea (일, 이, 삼) vs Asli Korea (하나, 둘, 셋)",
+    "subtitle": "Kapan memakai angka Sino (tanggal, uang, menit, lantai) vs Asli (jam, umur, jumlah benda)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-found-06-dual-number-systems.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-dict-conv-daily"
+    ]
+  },
+  {
+    "id": "ko-02-beg-particles-speech-levels",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 107,
+    "title": "Partikel Inti (은/는, 이/가, 을/를, 에/에서) & Tiga Tingkat Tutur Utama",
+    "subtitle": "Harmoni vokal (ㅏ/ㅗ → -아요, selainnya → -어요) dan pemilihan partikel berakhiran konsonan/vokal",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-02-beg-particles-speech-levels.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-found-06-dual-number-systems"
+    ]
+  },
+  {
+    "id": "ko-topik1-tenses-connectors",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 108,
+    "title": "Kala Lampau (-았/었어요), Masa Depan (-(으)ㄹ 거예요) & Kata Hubung (-고, -아서/어서)",
+    "subtitle": "Menyatakan urutan tindakan dan hubungan sebab-akibat dasar",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-topik1-tenses-connectors.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-02-beg-particles-speech-levels"
+    ]
+  },
+  {
+    "id": "ko-topik2-honorific-system",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 109,
+    "title": "Sistem Honorifik Korea: Sisipan -(으)시-, Kata Kerja Khusus (드시다/주무시다) & Partikel 께서",
+    "subtitle": "Menyelaraskan subjek, partikel, dan predikat saat berbicara tentang orang yang dihormati",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik2-honorific-system.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik1-tenses-connectors"
+    ]
+  },
+  {
+    "id": "ko-dict-04-hanja-vocabulary-roots",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 110,
+    "title": "Keluarga Kosakata Hanja (한자어): 學 (학), 生 (생), 國 (국), 語 (어) & 社會 (사회)",
+    "subtitle": "Menghubungkan 60% lebih kosakata akademik Korea dengan akar makna karakter Sino-Korea",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-dict-04-hanja-vocabulary-roots.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik2-honorific-system"
+    ]
+  },
+  {
+    "id": "ko-topik2-indirect-quotation",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 110,
+    "title": "Kalimat Kutipan Tak Langsung (-다고 하다, -냐고 하다, -자고 하다, -라고 하다)",
+    "subtitle": "Melaporkan pernyataan, pertanyaan, ajakan, dan perintah secara ringkas",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-topik2-indirect-quotation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-dict-04-hanja-vocabulary-roots"
+    ]
+  },
+  {
+    "id": "ko-dict-05-sajaseongeo-idioms",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 111,
+    "title": "Sajaseongeo (사자성어) & Sokdam (속담): Peribahasa Klasik dalam Berita & Esai TOPIK",
+    "subtitle": "Ungkapan empat silabel dan peribahasa populer yang sering muncul pada soal membaca TOPIK II",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-dict-05-sajaseongeo-idioms.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik2-indirect-quotation"
+    ]
+  },
+  {
+    "id": "ko-topik2-adv-grammar",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 111,
+    "title": "Tata Bahasa TOPIK 5–6: -(으)ㄹ 뿐만 아니라, -는 법이다, -(으)ㄴ/는 반면에 & -기에 망정이지",
+    "subtitle": "Struktur argumentasi berlapis dalam tajuk rencana dan makalah ilmiah",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-topik2-adv-grammar.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-dict-05-sajaseongeo-idioms"
+    ]
+  },
+  {
+    "id": "ko-dict-06-conv-workplace-daily",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "intermediate",
+    "order": 112,
+    "title": "Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+    "subtitle": "Ungkapan sopan meminta bantuan rekan kerja, membuat janji, dan menangani kendala",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-dict-06-conv-workplace-daily.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik2-adv-grammar"
+    ]
+  },
+  {
+    "id": "ko-lit-01-sijo-gasa",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 112,
+    "title": "Puitika Sijo (시조) 3-Bait (Chojang–Jungjang–Jongjang) & Sastra Dinasti Joseon",
+    "subtitle": "Menganalisis irama 3-4-3-4 suku kata dan bait penutup ikonik dalam karya Hwang Jini & Yun Seondo",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/ko/modules/ko-lit-01-sijo-gasa.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ko-dict-06-conv-workplace-daily"
+    ]
+  },
+  {
+    "id": "ko-lit-02-middle-korean",
+    "lang": "ko",
+    "pillar": "script",
+    "tier": "native",
+    "order": 113,
+    "title": "Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+    "subtitle": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15",
+    "estimatedMinutes": 50,
+    "dataPath": "/data/languages/ko/modules/ko-lit-02-middle-korean.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ko-lit-01-sijo-gasa"
+    ]
+  },
+  {
+    "id": "ko-topik1-03-location-existence",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 118,
+    "title": "Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+    "subtitle": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-topik1-03-location-existence.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-lit-02-middle-korean"
+    ]
+  },
+  {
+    "id": "ko-topik1-04-negation-an-mot",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 119,
+    "title": "Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+    "subtitle": "Membedakan tidak melakukan karena pilihan vs tidak sanggup karena situasi/kemampuan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-topik1-04-negation-an-mot.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik1-03-location-existence"
+    ]
+  },
+  {
+    "id": "ko-topik2-05-future-desire-ability",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "beginner",
+    "order": 120,
+    "title": "Rencana Masa Depan (-을/ㄹ 거예요), Keinginan (-고 싶다) & Kemampuan (-을/ㄹ 수 있다)",
+    "subtitle": "Konjugasi akhiran berbasis vokal/konsonan akhir akar kata kerja (받침)",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-topik2-05-future-desire-ability.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik1-04-negation-an-mot"
+    ]
+  },
+  {
+    "id": "ko-topik2-06-obligation-permission",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "beginner",
+    "order": 121,
+    "title": "Keharusan (-아/어야 되다/하다), Izin (-아/어도 되다) & Larangan (-(으)면 안 되다)",
+    "subtitle": "Menyatakan aturan, kewajiban, dan izin secara sopan dalam percakapan",
+    "estimatedMinutes": 35,
+    "dataPath": "/data/languages/ko/modules/ko-topik2-06-obligation-permission.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik2-05-future-desire-ability"
+    ]
+  },
+  {
+    "id": "ko-topik3-03-seven-irregulars",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 122,
+    "title": "7 Kata Kerja Tidak Beraturan (불규칙 활용): ㄷ, ㅂ, ㅅ, ㅎ, 르, 으 & ㅂ-Adjektiva",
+    "subtitle": "Mengapa 듣다 menjadi 들어요, 춥다 menjadi 추워요, dan 모르다 menjadi 몰라요",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-topik3-03-seven-irregulars.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik2-06-obligation-permission"
+    ]
+  },
+  {
+    "id": "ko-topik3-04-noun-modifiers",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 123,
+    "title": "Modifikator Kata Benda (관형사형): -는 (Sedang/Kebiasaan), -(으)ㄴ (Lampau/Sifat) & -(으)ㄹ (Akan)",
+    "subtitle": "Mengubah klausa panjang menjadi frasa penjelas di depan kata benda (Klausa Relatif)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik3-04-noun-modifiers.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik3-03-seven-irregulars"
+    ]
+  },
+  {
+    "id": "ko-topik4-05-nuanced-causes",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "intermediate",
+    "order": 124,
+    "title": "Nuansa Alasan & Penyebab: -아/어서 vs -(으)니까 vs -느라고 vs -는 바람에",
+    "subtitle": "Membedakan alasan perintah/ajakan, akibat kesibukan, dan penyebab tak terduga",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik4-05-nuanced-causes.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik3-04-noun-modifiers"
+    ]
+  },
+  {
+    "id": "ko-topik4-06-passive-causative-suffixes",
+    "lang": "ko",
+    "pillar": "morphology",
+    "tier": "intermediate",
+    "order": 125,
+    "title": "Bentuk Pasif (피동사: -이/히/리/기-) & Kausatif (사동사: -이/히/리/기/우/구/추-)",
+    "subtitle": "Perbedaan 보다 (melihat) → 보이다 (terlihat) vs 보여주다 (memperlihatkan)",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik4-06-passive-causative-suffixes.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik4-05-nuanced-causes"
+    ]
+  },
+  {
+    "id": "ko-topik5-03-written-plain-style",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 126,
+    "title": "Gaya Tulis Akademik & Jurnalistik (해라체 / 문어체): -는다 / -ㄴ다 / -다",
+    "subtitle": "Mengapa buku teks, koran, dan soal esai TOPIK tidak memakai -아요/어요 maupun -습니다",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik5-03-written-plain-style.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik4-06-passive-causative-suffixes"
+    ]
+  },
+  {
+    "id": "ko-topik5-04-advanced-concession",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 127,
+    "title": "Konsesi & Kontras Tingkat Lanjut: -(으)ㄹ지라도, -는 반면에, -(으)ㄴ/는 데 반해 & -기는커녕",
+    "subtitle": "Menyusun perbandingan dua sisi argumen secara objektif dan tajam dalam esai",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-topik5-04-advanced-concession.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik5-03-written-plain-style"
+    ]
+  },
+  {
+    "id": "ko-topik6-05-evidentiality-speculation",
+    "lang": "ko",
+    "pillar": "syntax",
+    "tier": "advanced",
+    "order": 128,
+    "title": "Modalitas Epistemik & Inferensi: -(으)ㄹ 뿐만 아니라, -(으)ㅁ에 틀림없다 & -기 마련이다",
+    "subtitle": "Menyatakan keniscayaan alamiah, kepastian logis, dan akumulasi argumen",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-topik6-05-evidentiality-speculation.json",
+    "entryCount": 3,
+    "prerequisites": [
+      "ko-topik5-04-advanced-concession"
+    ]
+  },
+  {
+    "id": "ko-lit-03-pansori-classical-prose",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 131,
+    "title": "Pansori (판소리) & Roman Klasik Joseon: Chunhyangga (춘향가) dan Hong Gildongjeon",
+    "subtitle": "Perpaduan nyanyian dramatis (창) dan narasi berirama (아니리) dalam tradisi lisan Korea",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-lit-03-pansori-classical-prose.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ko-topik6-05-evidentiality-speculation"
+    ]
+  },
+  {
+    "id": "ko-lit-04-modern-korean-poetry",
+    "lang": "ko",
+    "pillar": "lexicon-dialogue",
+    "tier": "native",
+    "order": 132,
+    "title": "Puisi Modern Korea Abad ke-20: Kim Sowol (진달래꽃) & Yun Dong-ju (서시 · Prolog)",
+    "subtitle": "Estetika kesedihan halus (한 · Han) dan refleksi hati nurani dalam lirik modern Korea",
+    "estimatedMinutes": 45,
+    "dataPath": "/data/languages/ko/modules/ko-lit-04-modern-korean-poetry.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ko-lit-03-pansori-classical-prose"
+    ]
+  },
+  {
+    "id": "ko-lit-05-regional-satoori-dialects",
+    "lang": "ko",
+    "pillar": "phonetics",
+    "tier": "native",
+    "order": 133,
+    "title": "Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+    "subtitle": "Pelestarian vokal kuno Araea (ㆍ) di Pulau Jeju serta intonasi nada di Gyeongsang",
+    "estimatedMinutes": 40,
+    "dataPath": "/data/languages/ko/modules/ko-lit-05-regional-satoori-dialects.json",
+    "entryCount": 4,
+    "prerequisites": [
+      "ko-lit-04-modern-korean-poetry"
     ]
   }
 ];

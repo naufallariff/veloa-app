@@ -1,0 +1,98 @@
+{
+  "id": "ko-00-found-origin-hangeul",
+  "lang": "ko",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 101,
+  "title": "Sejarah Hunminjeongeum (1443): Filosofi Organ Artikulasi & Cheon-Ji-In",
+  "subtitle": "Bagaimana Raja Sejong merancang konsonan berdasarkan bentuk lidah-bibir dan vokal dari Langit-Bumi-Manusia",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah, Jamo & Hukum Batchim | Sejarah Hunminjeongeum (1443): Filosofi Organ Artikulasi & Cheon-Ji-In",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-00-found-origin-hangeul-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim",
+              "gloss": "Memahami anatomi organ bicara pada huruf dan perubahan bunyi konsonan akhir"
+            },
+            "formula": {
+              "script": "5 Konsonan Dasar (ㄱ ㄴ ㅁ ㅅ ㅇ) + Tambah Goresan = 14 Konsonan",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "ㄱ (pangkal lidah) · ㄴ (ujung lidah) · ㅁ (bibir) · ㅅ (gigi) · ㅇ (tenggorokan)",
+              "reading": "giyeok · nieun · mieum · siot · ieung",
+              "gloss": "Setiap bentuk huruf Hangeul merupakan diagram posisi artikulasi mulut"
+            }
+          },
+          "fullTranslation": "Setiap bentuk huruf Hangeul merupakan diagram posisi artikulasi mulut"
+        },
+        {
+          "id": "ko-00-found-origin-hangeul-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Hunminjeongeum, Rumus Blok Suku Kata & Hukum Batchim (Pondasi · Sejarah, Jamo & Hukum Batchim)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 24 Entri",
+              "gloss": "Bagaimana Raja Sejong merancang konsonan berdasarkan bentuk lidah-bibir dan vokal dari Langit-Bumi-Manusia"
+            },
+            "example": {
+              "script": "ㄱ (pangkal lidah) · ㄴ (ujung lidah) · ㅁ (bibir) · ㅅ (gigi) · ㅇ (tenggorokan)",
+              "reading": "giyeok · nieun · mieum · siot · ieung",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana Raja Sejong merancang konsonan berdasarkan bentuk lidah-bibir dan vokal dari Langit-Bumi-Manusia — Setiap bentuk huruf Hangeul merupakan diagram posisi artikulasi mulut"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sejarah Hunminjeongeum (1443): Filosofi Organ Artikulasi & Cheon-Ji-In\"",
+        "psychologyExplanation": "Bagaimana Raja Sejong merancang konsonan berdasarkan bentuk lidah-bibir dan vokal dari Langit-Bumi-Manusia. Dalam kerangka 1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim, penutur asli memetakan hubungan makna menggunakan rumus \"5 Konsonan Dasar (ㄱ ㄴ ㅁ ㅅ ㅇ) + Tambah Goresan = 14 Konsonan\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sejarah Hunminjeongeum (1443): Filosofi Organ Artikulasi & Cheon-Ji-In",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-00-found-origin-hangeul-voc-1",
+          "term": "ㄱ (pangkal lidah) · ㄴ (ujung lidah) · ㅁ (bibir) · ㅅ (gigi) · ㅇ (tenggorokan)",
+          "reading": "giyeok · nieun · mieum · siot · ieung",
+          "meaning": "Setiap bentuk huruf Hangeul merupakan diagram posisi artikulasi mulut",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: 5 Konsonan Dasar (ㄱ ㄴ ㅁ ㅅ ㅇ) + Tambah Goresan = 14 Konsonan",
+          "exampleSentence": "ㄱ (pangkal lidah) · ㄴ (ujung lidah) · ㅁ (bibir) · ㅅ (gigi) · ㅇ (tenggorokan)",
+          "exampleTranslation": "Setiap bentuk huruf Hangeul merupakan diagram posisi artikulasi mulut"
+        }
+      ]
+    }
+  ]
+}

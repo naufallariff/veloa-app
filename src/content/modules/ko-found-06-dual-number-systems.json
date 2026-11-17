@@ -1,0 +1,98 @@
+{
+  "id": "ko-found-06-dual-number-systems",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "foundation",
+  "order": 106,
+  "title": "Dua Sistem Bilangan Korea: Sino-Korea (일, 이, 삼) vs Asli Korea (하나, 둘, 셋)",
+  "subtitle": "Kapan memakai angka Sino (tanggal, uang, menit, lantai) vs Asli (jam, umur, jumlah benda)",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan | Dua Sistem Bilangan Korea: Sino-Korea (일, 이, 삼) vs Asli Korea (하나, 둘, 셋)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-found-06-dual-number-systems-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka",
+              "gloss": "Nasalization (비음화), Liquidization (유음화), Palatalization, serta bilangan Korea"
+            },
+            "formula": {
+              "script": "Jam + Menit: [Asli Korea] 시 + [Sino-Korea] 분 (예: 세 시 이십 분 = 03:20)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "한 명 (1 orang) · 스무 살 (20 tahun) · 삼만 원 (30.000 won) · 오 층 (lantai 5)",
+              "reading": "han myeong · seumu sal · samman won · o cheung",
+              "gloss": "Angka Asli Korea 1–4 dan 20 berubah bentuk (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) saat bertemu satuan"
+            }
+          },
+          "fullTranslation": "Angka Asli Korea 1–4 dan 20 berubah bentuk (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) saat bertemu satuan"
+        },
+        {
+          "id": "ko-found-06-dual-number-systems-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Hukum Perubahan Bunyi (음운 변동), Spasi (띄어쓰기) & Dua Sistem Bilangan (Pondasi Lanjutan · Fonologi Asimilasi & Sistem Bilangan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 38 Entri",
+              "gloss": "Kapan memakai angka Sino (tanggal, uang, menit, lantai) vs Asli (jam, umur, jumlah benda)"
+            },
+            "example": {
+              "script": "한 명 (1 orang) · 스무 살 (20 tahun) · 삼만 원 (30.000 won) · 오 층 (lantai 5)",
+              "reading": "han myeong · seumu sal · samman won · o cheung",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kapan memakai angka Sino (tanggal, uang, menit, lantai) vs Asli (jam, umur, jumlah benda) — Angka Asli Korea 1–4 dan 20 berubah bentuk (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) saat bertemu satuan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Dua Sistem Bilangan Korea: Sino-Korea (일, 이, 삼) vs Asli Korea (하나, 둘, 셋)\"",
+        "psychologyExplanation": "Kapan memakai angka Sino (tanggal, uang, menit, lantai) vs Asli (jam, umur, jumlah benda). Dalam kerangka 2. Hukum Fonologi Lanjutan, Ortografi Spasi & Sistem Angka, penutur asli memetakan hubungan makna menggunakan rumus \"Jam + Menit: [Asli Korea] 시 + [Sino-Korea] 분 (예: 세 시 이십 분 = 03:20)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Dua Sistem Bilangan Korea: Sino-Korea (일, 이, 삼) vs Asli Korea (하나, 둘, 셋)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-found-06-dual-number-systems-voc-1",
+          "term": "한 명 (1 orang) · 스무 살 (20 tahun) · 삼만 원 (30.000 won) · 오 층 (lantai 5)",
+          "reading": "han myeong · seumu sal · samman won · o cheung",
+          "meaning": "Angka Asli Korea 1–4 dan 20 berubah bentuk (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) saat bertemu satuan",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Jam + Menit: [Asli Korea] 시 + [Sino-Korea] 분 (예: 세 시 이십 분 = 03:20)",
+          "exampleSentence": "한 명 (1 orang) · 스무 살 (20 tahun) · 삼만 원 (30.000 won) · 오 층 (lantai 5)",
+          "exampleTranslation": "Angka Asli Korea 1–4 dan 20 berubah bentuk (하나→한, 둘→두, 셋→세, 넷→네, 스물→스무) saat bertemu satuan"
+        }
+      ]
+    }
+  ]
+}

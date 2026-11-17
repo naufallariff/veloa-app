@@ -1,0 +1,117 @@
+{
+  "id": "en-lit-02-shakespeare",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "native",
+  "order": 136,
+  "title": "Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)",
+  "subtitle": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-02-shakespeare-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Inggris",
+              "gloss": "Kajian historis teks klasik, prosodi puisi, dan majas retoris"
+            },
+            "formula": {
+              "script": "da-DUM × 5 (Iambic Pentameter) + Pronoun Intimacy (Thou vs You)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Shall I compare thee to a summer’s day? Thou art more lovely and more temperate.",
+              "reading": "/ʃæl aɪ kəmˈpeər ðiː tuː ə ˈsʌm.ərz deɪ/",
+              "gloss": "Penggunaan thou untuk kedekatan puitis dan irama pentameter"
+            }
+          },
+          "fullTranslation": "Penggunaan thou untuk kedekatan puitis dan irama pentameter"
+        },
+        {
+          "id": "en-lit-02-shakespeare-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Filologi Inggris, Puitika, Retorika & Stilistika Sastra (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata"
+            },
+            "example": {
+              "script": "Shall I compare thee to a summer’s day? Thou art more lovely and more temperate.",
+              "reading": "/ʃæl aɪ kəmˈpeər ðiː tuː ə ˈsʌm.ərz deɪ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata — Penggunaan thou untuk kedekatan puitis dan irama pentameter"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)\"",
+        "psychologyExplanation": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata. Dalam kerangka Cabang Sastra & Filologi Inggris, penutur asli memetakan hubungan makna menggunakan rumus \"da-DUM × 5 (Iambic Pentameter) + Pronoun Intimacy (Thou vs You)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-lit-02-shakespeare-voc-1",
+          "term": "Shall I compare thee to a summer’s day? Thou art more lovely and more temperate.",
+          "reading": "/ʃæl aɪ kəmˈpeər ðiː tuː ə ˈsʌm.ərz deɪ/",
+          "meaning": "Penggunaan thou untuk kedekatan puitis dan irama pentameter",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: da-DUM × 5 (Iambic Pentameter) + Pronoun Intimacy (Thou vs You)",
+          "exampleSentence": "Shall I compare thee to a summer’s day? Thou art more lovely and more temperate.",
+          "exampleTranslation": "Penggunaan thou untuk kedekatan puitis dan irama pentameter"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Retorika Shakespeare & Early Modern English (Thou/Thee, Iambic Pentameter)",
+      "traditionName": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "overview": "Kurikulum tingkat universitas: dari sastra Anglo-Saxon hingga analisis stilistika modern",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Inggris",
+          "nativeTerm": "da-DUM × 5 (Iambic Pentameter) + Pronoun Intimacy (Thou vs You)",
+          "mechanism": "Anatomi irama 10 suku kata tak bertekanan-bertekanan dan permainan kata",
+          "literaryExample": "Shall I compare thee to a summer’s day? Thou art more lovely and more temperate.",
+          "reading": "/ʃæl aɪ kəmˈpeər ðiː tuː ə ˈsʌm.ərz deɪ/",
+          "translation": "Penggunaan thou untuk kedekatan puitis dan irama pentameter",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-sent-restaurant",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 109,
+  "title": "Kalimat di Restoran, Konbini, Transportasi & Belanja",
+  "subtitle": "Menjawab pertanyaan kasir dan memesan makanan secara alami",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Jepang | Kalimat di Restoran, Konbini, Transportasi & Belanja",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-sent-restaurant-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)",
+              "gloss": "Kalimat praktis di stasiun, konbini, kampus, dan kantor"
+            },
+            "formula": {
+              "script": "Polite Request (-te kudasai / -o onegaishimasu)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "お会計をお願いします。別々で払えますか。",
+              "reading": "O-kaikei o onegaishimasu. Betsubetsu de haraemasu ka.",
+              "gloss": "Minta tagihannya. Bisakah membayar terpisah?"
+            }
+          },
+          "fullTranslation": "Minta tagihannya. Bisakah membayar terpisah?"
+        },
+        {
+          "id": "ja-dict-sent-restaurant-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 40 Entri",
+              "gloss": "Menjawab pertanyaan kasir dan memesan makanan secara alami"
+            },
+            "example": {
+              "script": "お会計をお願いします。別々で払えますか。",
+              "reading": "O-kaikei o onegaishimasu. Betsubetsu de haraemasu ka.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menjawab pertanyaan kasir dan memesan makanan secara alami — Minta tagihannya. Bisakah membayar terpisah?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat di Restoran, Konbini, Transportasi & Belanja\"",
+        "psychologyExplanation": "Menjawab pertanyaan kasir dan memesan makanan secara alami. Dalam kerangka 2. Bank Kalimat Sehari-hari (Aisatsu & Situasional), penutur asli memetakan hubungan makna menggunakan rumus \"Polite Request (-te kudasai / -o onegaishimasu)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat di Restoran, Konbini, Transportasi & Belanja",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-sent-restaurant-voc-1",
+          "term": "お会計をお願いします。別々で払えますか。",
+          "reading": "O-kaikei o onegaishimasu. Betsubetsu de haraemasu ka.",
+          "meaning": "Minta tagihannya. Bisakah membayar terpisah?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Polite Request (-te kudasai / -o onegaishimasu)",
+          "exampleSentence": "お会計をお願いします。別々で払えますか。",
+          "exampleTranslation": "Minta tagihannya. Bisakah membayar terpisah?"
+        }
+      ]
+    }
+  ]
+}
