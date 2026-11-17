@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-sent-travel",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 109,
+  "title": "Kalimat Perjalanan, Bandara, Hotel, Restoran & Darurat",
+  "subtitle": "Komunikasi praktis saat bepergian internasional",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Praktis | Kalimat Perjalanan, Bandara, Hotel, Restoran & Darurat",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-sent-travel-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Daily Sentences)",
+              "gloss": "Pola kalimat siap pakai untuk berbagai situasi"
+            },
+            "formula": {
+              "script": "Functional Request + Clarification Questions",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "I would like to check in under the name Arif.",
+              "reading": "/aɪ wʊd laɪk tə tʃek ɪn/",
+              "gloss": "Saya ingin melakukan check-in atas nama Arif."
+            }
+          },
+          "fullTranslation": "Saya ingin melakukan check-in atas nama Arif."
+        },
+        {
+          "id": "en-dict-sent-travel-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Komunikasi praktis saat bepergian internasional"
+            },
+            "example": {
+              "script": "I would like to check in under the name Arif.",
+              "reading": "/aɪ wʊd laɪk tə tʃek ɪn/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Komunikasi praktis saat bepergian internasional — Saya ingin melakukan check-in atas nama Arif."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Perjalanan, Bandara, Hotel, Restoran & Darurat\"",
+        "psychologyExplanation": "Komunikasi praktis saat bepergian internasional. Dalam kerangka 2. Bank Kalimat Sehari-hari (Daily Sentences), penutur asli memetakan hubungan makna menggunakan rumus \"Functional Request + Clarification Questions\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Perjalanan, Bandara, Hotel, Restoran & Darurat",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-sent-travel-voc-1",
+          "term": "I would like to check in under the name Arif.",
+          "reading": "/aɪ wʊd laɪk tə tʃek ɪn/",
+          "meaning": "Saya ingin melakukan check-in atas nama Arif.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Functional Request + Clarification Questions",
+          "exampleSentence": "I would like to check in under the name Arif.",
+          "exampleTranslation": "Saya ingin melakukan check-in atas nama Arif."
+        }
+      ]
+    }
+  ]
+}

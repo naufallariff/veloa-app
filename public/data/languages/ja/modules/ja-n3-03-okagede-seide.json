@@ -1,0 +1,98 @@
+{
+  "id": "ja-n3-03-okagede-seide",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 131,
+  "title": "Evaluasi Sebab-Akibat: 〜おかげで (Berkat/Positif) vs 〜せいで (Gara-gara/Negatif)",
+  "subtitle": "Memilih konjungsi penyebab berdasarkan dampak positif atau negatif bagi pembicara",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N3 · Sintaksis Menengah Lengkap | Evaluasi Sebab-Akibat: 〜おかげで (Berkat/Positif) vs 〜せいで (Gara-gara/Negatif)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-03-okagede-seide-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)",
+              "gloss": "Perbedaan rasa syukur vs menyalahkan, serta perubahan keadaan"
+            },
+            "formula": {
+              "script": "Futsūkei / N+の + おかげで (Syukur) vs せいで (Keluhan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "先生のおかげで合格できました。/ 電車の遅延のせいで遅刻しました。",
+              "reading": "Sensei no okage de gōkaku dekimashita.",
+              "gloss": "Berkat guru saya lulus vs Gara-gara kereta terlambat saya telat"
+            }
+          },
+          "fullTranslation": "Berkat guru saya lulus vs Gara-gara kereta terlambat saya telat"
+        },
+        {
+          "id": "ja-n3-03-okagede-seide-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Klausa Waktu, Sebab-Akibat (おかげで vs せいで) & Nuansa Penyesalan (JLPT N3 · Sintaksis Menengah Lengkap)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Memilih konjungsi penyebab berdasarkan dampak positif atau negatif bagi pembicara"
+            },
+            "example": {
+              "script": "先生のおかげで合格できました。/ 電車の遅延のせいで遅刻しました。",
+              "reading": "Sensei no okage de gōkaku dekimashita.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memilih konjungsi penyebab berdasarkan dampak positif atau negatif bagi pembicara — Berkat guru saya lulus vs Gara-gara kereta terlambat saya telat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Evaluasi Sebab-Akibat: 〜おかげで (Berkat/Positif) vs 〜せいで (Gara-gara/Negatif)\"",
+        "psychologyExplanation": "Memilih konjungsi penyebab berdasarkan dampak positif atau negatif bagi pembicara. Dalam kerangka Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3), penutur asli memetakan hubungan makna menggunakan rumus \"Futsūkei / N+の + おかげで (Syukur) vs せいで (Keluhan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Evaluasi Sebab-Akibat: 〜おかげで (Berkat/Positif) vs 〜せいで (Gara-gara/Negatif)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n3-03-okagede-seide-voc-1",
+          "term": "先生のおかげで合格できました。/ 電車の遅延のせいで遅刻しました。",
+          "reading": "Sensei no okage de gōkaku dekimashita.",
+          "meaning": "Berkat guru saya lulus vs Gara-gara kereta terlambat saya telat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Futsūkei / N+の + おかげで (Syukur) vs せいで (Keluhan)",
+          "exampleSentence": "先生のおかげで合格できました。/ 電車の遅延のせいで遅刻しました。",
+          "exampleTranslation": "Berkat guru saya lulus vs Gara-gara kereta terlambat saya telat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "ja-lit-02-waka-haiku",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 122,
+  "title": "Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji",
+  "subtitle": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-lit-02-waka-haiku-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Jepang (Kokubungaku)",
+              "gloss": "Tata bahasa klasik (Bungo), bentuk puisi tradisional, dan estetika Mono no Aware"
+            },
+            "formula": {
+              "script": "5-7-5 Mora + Kigo (Musim) + Kireji (や・かな・けり)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "古池や蛙飛びこむ水の音 (Matsuo Bashō)",
+              "reading": "Furuike ya / kawazu tobikomu / mizu no oto",
+              "gloss": "Kolam tua sunyi / katak melompat masuk / gemericik air"
+            }
+          },
+          "fullTranslation": "Kolam tua sunyi / katak melompat masuk / gemericik air"
+        },
+        {
+          "id": "ja-lit-02-waka-haiku-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Koten (古典文学), Bungo, Waka/Haiku & Estetika Sastra Jepang (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 26 Entri",
+              "gloss": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi"
+            },
+            "example": {
+              "script": "古池や蛙飛びこむ水の音 (Matsuo Bashō)",
+              "reading": "Furuike ya / kawazu tobikomu / mizu no oto",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi — Kolam tua sunyi / katak melompat masuk / gemericik air"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji\"",
+        "psychologyExplanation": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi. Dalam kerangka Cabang Sastra & Filologi Jepang (Kokubungaku), penutur asli memetakan hubungan makna menggunakan rumus \"5-7-5 Mora + Kigo (Musim) + Kireji (や・かな・けり)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-lit-02-waka-haiku-voc-1",
+          "term": "古池や蛙飛びこむ水の音 (Matsuo Bashō)",
+          "reading": "Furuike ya / kawazu tobikomu / mizu no oto",
+          "meaning": "Kolam tua sunyi / katak melompat masuk / gemericik air",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 5-7-5 Mora + Kigo (Musim) + Kireji (や・かな・けり)",
+          "exampleSentence": "古池や蛙飛びこむ水の音 (Matsuo Bashō)",
+          "exampleTranslation": "Kolam tua sunyi / katak melompat masuk / gemericik air"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Puitika Waka (5-7-5-7-7), Haiku (5-7-5), Kigo (Kata Musim) & Kireji",
+      "traditionName": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "overview": "Kajian sastra klasik Jepang tingkat universitas: tata bahasa kuno dan estetika puitis",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Jepang (Kokubungaku)",
+          "nativeTerm": "5-7-5 Mora + Kigo (Musim) + Kireji (や・かな・けり)",
+          "mechanism": "Analisis komposisi puisi Matsuo Bashō dan estetika Yūgen serta Wabi-Sabi",
+          "literaryExample": "古池や蛙飛びこむ水の音 (Matsuo Bashō)",
+          "reading": "Furuike ya / kawazu tobikomu / mizu no oto",
+          "translation": "Kolam tua sunyi / katak melompat masuk / gemericik air",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

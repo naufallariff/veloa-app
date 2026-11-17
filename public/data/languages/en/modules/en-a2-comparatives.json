@@ -1,0 +1,98 @@
+{
+  "id": "en-a2-comparatives",
+  "lang": "en",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 123,
+  "title": "Degrees of Comparison: Positive, Comparative (-er/more) & Superlative",
+  "subtitle": "Membandingkan dua hal atau lebih secara akurat",
+  "estimatedMinutes": 25,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A2 · Waystage | Degrees of Comparison: Positive, Comparative (-er/more) & Superlative",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-comparatives-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
+              "gloss": "Menguasai V2, was/were, going to, dan will"
+            },
+            "formula": {
+              "script": "Short Adj + -er than | more + Long Adj + than | the + -est/most",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Arabic morphology is more systematic than many learners expect.",
+              "reading": "/mɔːr ˌsɪs.təˈmæt.ɪk ðæn/",
+              "gloss": "Perubahan bentuk sifat 1 suku kata vs multi-suku kata"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk sifat 1 suku kata vs multi-suku kata"
+        },
+        {
+          "id": "en-a2-comparatives-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 30 Entri",
+              "gloss": "Membandingkan dua hal atau lebih secara akurat"
+            },
+            "example": {
+              "script": "Arabic morphology is more systematic than many learners expect.",
+              "reading": "/mɔːr ˌsɪs.təˈmæt.ɪk ðæn/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membandingkan dua hal atau lebih secara akurat — Perubahan bentuk sifat 1 suku kata vs multi-suku kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Degrees of Comparison: Positive, Comparative (-er/more) & Superlative\"",
+        "psychologyExplanation": "Membandingkan dua hal atau lebih secara akurat. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"Short Adj + -er than | more + Long Adj + than | the + -est/most\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Degrees of Comparison: Positive, Comparative (-er/more) & Superlative",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a2-comparatives-voc-1",
+          "term": "Arabic morphology is more systematic than many learners expect.",
+          "reading": "/mɔːr ˌsɪs.təˈmæt.ɪk ðæn/",
+          "meaning": "Perubahan bentuk sifat 1 suku kata vs multi-suku kata",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Short Adj + -er than | more + Long Adj + than | the + -est/most",
+          "exampleSentence": "Arabic morphology is more systematic than many learners expect.",
+          "exampleTranslation": "Perubahan bentuk sifat 1 suku kata vs multi-suku kata"
+        }
+      ]
+    }
+  ]
+}

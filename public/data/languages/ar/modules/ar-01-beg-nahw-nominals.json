@@ -1,0 +1,98 @@
+{
+  "id": "ar-01-beg-nahw-nominals",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 109,
+  "title": "Pembagian Kalimah (Isim, Fiʿil, Ḥarf), Mudhakkar–Muʾannath & Mufrad–Muthannā–Jamʿ",
+  "subtitle": "Klasifikasi jenis kelamin kata benda dan bentuk tunggal-ganda-jamak",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Tamhīdī & Asāsī · Dasar | Pembagian Kalimah (Isim, Fiʿil, Ḥarf), Mudhakkar–Muʾannath & Mufrad–Muthannā–Jamʿ",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-01-beg-nahw-nominals-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)",
+              "gloss": "Pembagian kata (Isim, Fiʿil, Ḥarf), Jumlah Ismiyyah & Jumlah Fiʿliyyah"
+            },
+            "formula": {
+              "script": "Mufrad (1) · Muthannā (-āni/-ayni · 2) · Jamʿ Sālim & Jamʿ Taksīr (3+)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "طَالِبٌ (1) · طَالِبَانِ (2) · طُلَّابٌ (jamak taksir) · طَالِبَاتٌ (jamak muʾannath)",
+              "reading": "ṭālibun · ṭālibāni · ṭullābun · ṭālibātun",
+              "gloss": "Bahasa Arab memiliki bentuk khusus untuk jumlah dua (Muthannā)"
+            }
+          },
+          "fullTranslation": "Bahasa Arab memiliki bentuk khusus untuk jumlah dua (Muthannā)"
+        },
+        {
+          "id": "ar-01-beg-nahw-nominals-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar (Mustawā Tamhīdī & Asāsī · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Klasifikasi jenis kelamin kata benda dan bentuk tunggal-ganda-jamak"
+            },
+            "example": {
+              "script": "طَالِبٌ (1) · طَالِبَانِ (2) · طُلَّابٌ (jamak taksir) · طَالِبَاتٌ (jamak muʾannath)",
+              "reading": "ṭālibun · ṭālibāni · ṭullābun · ṭālibātun",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Klasifikasi jenis kelamin kata benda dan bentuk tunggal-ganda-jamak — Bahasa Arab memiliki bentuk khusus untuk jumlah dua (Muthannā)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Pembagian Kalimah (Isim, Fiʿil, Ḥarf), Mudhakkar–Muʾannath & Mufrad–Muthannā–Jamʿ\"",
+        "psychologyExplanation": "Klasifikasi jenis kelamin kata benda dan bentuk tunggal-ganda-jamak. Dalam kerangka Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"Mufrad (1) · Muthannā (-āni/-ayni · 2) · Jamʿ Sālim & Jamʿ Taksīr (3+)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Pembagian Kalimah (Isim, Fiʿil, Ḥarf), Mudhakkar–Muʾannath & Mufrad–Muthannā–Jamʿ",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-01-beg-nahw-nominals-voc-1",
+          "term": "طَالِبٌ (1) · طَالِبَانِ (2) · طُلَّابٌ (jamak taksir) · طَالِبَاتٌ (jamak muʾannath)",
+          "reading": "ṭālibun · ṭālibāni · ṭullābun · ṭālibātun",
+          "meaning": "Bahasa Arab memiliki bentuk khusus untuk jumlah dua (Muthannā)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Mufrad (1) · Muthannā (-āni/-ayni · 2) · Jamʿ Sālim & Jamʿ Taksīr (3+)",
+          "exampleSentence": "طَالِبٌ (1) · طَالِبَانِ (2) · طُلَّابٌ (jamak taksir) · طَالِبَاتٌ (jamak muʾannath)",
+          "exampleTranslation": "Bahasa Arab memiliki bentuk khusus untuk jumlah dua (Muthannā)"
+        }
+      ]
+    }
+  ]
+}

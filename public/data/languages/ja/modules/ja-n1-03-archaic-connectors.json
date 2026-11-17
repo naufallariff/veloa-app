@@ -1,0 +1,98 @@
+{
+  "id": "ja-n1-03-archaic-connectors",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 136,
+  "title": "Pola N1 Berakar Klasik: 〜んがため(に), 〜を禁じ得ない, 〜をもって & 〜だに",
+  "subtitle": "Ungkapan sastra dan hukum modern yang mewarisi partikel kata kerja klasik",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal | Pola N1 Berakar Klasik: 〜んがため(に), 〜を禁じ得ない, 〜をもって & 〜だに",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n1-03-archaic-connectors-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1)",
+              "gloss": "Korelasi peristiwa instan, konsesi paradoks, dan konstruksi formal"
+            },
+            "formula": {
+              "script": "V-nai stem + んがため(に) (Demi tujuan...) | N + を禁じ得ない (Tak kuasa menahan...)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "その悲報を聞き、涙を禁じ得なかった。(Mendengar kabar duka itu, air mata tak terbendung)",
+              "reading": "Sono hihō o kiki, namida o kinji enakatta.",
+              "gloss": "Menguasai jejak Bungo membantu memahami tata bahasa JLPT N1 secara logis"
+            }
+          },
+          "fullTranslation": "Menguasai jejak Bungo membantu memahami tata bahasa JLPT N1 secara logis"
+        },
+        {
+          "id": "ja-n1-03-archaic-connectors-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Hubungan Waktu Instan, Batasan, Paradoks & Gaya Bahasa Editorial (JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Ungkapan sastra dan hukum modern yang mewarisi partikel kata kerja klasik"
+            },
+            "example": {
+              "script": "その悲報を聞き、涙を禁じ得なかった。(Mendengar kabar duka itu, air mata tak terbendung)",
+              "reading": "Sono hihō o kiki, namida o kinji enakatta.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Ungkapan sastra dan hukum modern yang mewarisi partikel kata kerja klasik — Menguasai jejak Bungo membantu memahami tata bahasa JLPT N1 secara logis"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Pola N1 Berakar Klasik: 〜んがため(に), 〜を禁じ得ない, 〜をもって & 〜だに\"",
+        "psychologyExplanation": "Ungkapan sastra dan hukum modern yang mewarisi partikel kata kerja klasik. Dalam kerangka Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1), penutur asli memetakan hubungan makna menggunakan rumus \"V-nai stem + んがため(に) (Demi tujuan...) | N + を禁じ得ない (Tak kuasa menahan...)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Pola N1 Berakar Klasik: 〜んがため(に), 〜を禁じ得ない, 〜をもって & 〜だに",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n1-03-archaic-connectors-voc-1",
+          "term": "その悲報を聞き、涙を禁じ得なかった。(Mendengar kabar duka itu, air mata tak terbendung)",
+          "reading": "Sono hihō o kiki, namida o kinji enakatta.",
+          "meaning": "Menguasai jejak Bungo membantu memahami tata bahasa JLPT N1 secara logis",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: V-nai stem + んがため(に) (Demi tujuan...) | N + を禁じ得ない (Tak kuasa menahan...)",
+          "exampleSentence": "その悲報を聞き、涙を禁じ得なかった。(Mendengar kabar duka itu, air mata tak terbendung)",
+          "exampleTranslation": "Menguasai jejak Bungo membantu memahami tata bahasa JLPT N1 secara logis"
+        }
+      ]
+    }
+  ]
+}

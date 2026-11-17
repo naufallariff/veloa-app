@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik2-honorific-system",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 109,
+  "title": "Sistem Honorifik Korea: Sisipan -(으)시-, Kata Kerja Khusus (드시다/주무시다) & Partikel 께서",
+  "subtitle": "Menyelaraskan subjek, partikel, dan predikat saat berbicara tentang orang yang dihormati",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II (Level 3–4) · Menengah | Sistem Honorifik Korea: Sisipan -(으)시-, Kata Kerja Khusus (드시다/주무시다) & Partikel 께서",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik2-honorific-system-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Honorifik Subjek-Objek & Klausa Modifikator",
+              "gloss": "Mengangkat subjek yang dihormati dan merangkai klausa kompleks"
+            },
+            "formula": {
+              "script": "Subjek Terhormat + 께서 + Akar Kata Kerja + (으)세요",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "선생님께서 지금 교실에서 책을 읽으세요.",
+              "reading": "Seonsaengnimkkeseo jigeum gyosireseo chaegeul ilgeuseyo.",
+              "gloss": "Guru sedang membaca buku di ruang kelas (bentuk hormat subjek)"
+            }
+          },
+          "fullTranslation": "Guru sedang membaca buku di ruang kelas (bentuk hormat subjek)"
+        },
+        {
+          "id": "ko-topik2-honorific-system-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sistem Honorifik (Nopimmal), Modifikasi Nomina & Kalimat Tak Langsung (TOPIK II (Level 3–4) · Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Menyelaraskan subjek, partikel, dan predikat saat berbicara tentang orang yang dihormati"
+            },
+            "example": {
+              "script": "선생님께서 지금 교실에서 책을 읽으세요.",
+              "reading": "Seonsaengnimkkeseo jigeum gyosireseo chaegeul ilgeuseyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyelaraskan subjek, partikel, dan predikat saat berbicara tentang orang yang dihormati — Guru sedang membaca buku di ruang kelas (bentuk hormat subjek)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Honorifik Korea: Sisipan -(으)시-, Kata Kerja Khusus (드시다/주무시다) & Partikel 께서\"",
+        "psychologyExplanation": "Menyelaraskan subjek, partikel, dan predikat saat berbicara tentang orang yang dihormati. Dalam kerangka Cabang A: Honorifik Subjek-Objek & Klausa Modifikator, penutur asli memetakan hubungan makna menggunakan rumus \"Subjek Terhormat + 께서 + Akar Kata Kerja + (으)세요\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Honorifik Korea: Sisipan -(으)시-, Kata Kerja Khusus (드시다/주무시다) & Partikel 께서",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik2-honorific-system-voc-1",
+          "term": "선생님께서 지금 교실에서 책을 읽으세요.",
+          "reading": "Seonsaengnimkkeseo jigeum gyosireseo chaegeul ilgeuseyo.",
+          "meaning": "Guru sedang membaca buku di ruang kelas (bentuk hormat subjek)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Subjek Terhormat + 께서 + Akar Kata Kerja + (으)세요",
+          "exampleSentence": "선생님께서 지금 교실에서 책을 읽으세요.",
+          "exampleTranslation": "Guru sedang membaca buku di ruang kelas (bentuk hormat subjek)"
+        }
+      ]
+    }
+  ]
+}

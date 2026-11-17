@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-10-conv-healthcare-tech",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 117,
+  "title": "Dialog Konsultasi Medis, Perbankan & Dukungan Teknis (Troubleshooting)",
+  "subtitle": "Percakapan praktis menjelaskan gejala, transaksi, dan masalah teknis secara presisi",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan | Dialog Konsultasi Medis, Perbankan & Dukungan Teknis (Troubleshooting)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-10-conv-healthcare-tech-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Kolokasi & Word Formation (Prefix–Suffix)",
+              "gloss": "Pasangan kata alami penutur asli serta pembentukan kata lewat afiksasi"
+            },
+            "formula": {
+              "script": "Symptom/Issue Description + Clarifying Follow-up",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "I’ve been experiencing intermittent connection drops since the update.",
+              "reading": "/aɪv biːn ɪkˈspɪə.ri.ən.sɪŋ ˌɪn.tərˈmɪt.ənt/",
+              "gloss": "Menjelaskan kronologi masalah secara rinci dalam konteks layanan"
+            }
+          },
+          "fullTranslation": "Menjelaskan kronologi masalah secara rinci dalam konteks layanan"
+        },
+        {
+          "id": "en-dict-10-conv-healthcare-tech-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kolokasi Akademik, Idiom & Simulasi Dialog Real-World (Kamus & Korpus Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Percakapan praktis menjelaskan gejala, transaksi, dan masalah teknis secara presisi"
+            },
+            "example": {
+              "script": "I’ve been experiencing intermittent connection drops since the update.",
+              "reading": "/aɪv biːn ɪkˈspɪə.ri.ən.sɪŋ ˌɪn.tərˈmɪt.ənt/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Percakapan praktis menjelaskan gejala, transaksi, dan masalah teknis secara presisi — Menjelaskan kronologi masalah secara rinci dalam konteks layanan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Dialog Konsultasi Medis, Perbankan & Dukungan Teknis (Troubleshooting)\"",
+        "psychologyExplanation": "Percakapan praktis menjelaskan gejala, transaksi, dan masalah teknis secara presisi. Dalam kerangka 4. Kamus Kolokasi & Word Formation (Prefix–Suffix), penutur asli memetakan hubungan makna menggunakan rumus \"Symptom/Issue Description + Clarifying Follow-up\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Dialog Konsultasi Medis, Perbankan & Dukungan Teknis (Troubleshooting)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-10-conv-healthcare-tech-voc-1",
+          "term": "I’ve been experiencing intermittent connection drops since the update.",
+          "reading": "/aɪv biːn ɪkˈspɪə.ri.ən.sɪŋ ˌɪn.tərˈmɪt.ənt/",
+          "meaning": "Menjelaskan kronologi masalah secara rinci dalam konteks layanan",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Symptom/Issue Description + Clarifying Follow-up",
+          "exampleSentence": "I’ve been experiencing intermittent connection drops since the update.",
+          "exampleTranslation": "Menjelaskan kronologi masalah secara rinci dalam konteks layanan"
+        }
+      ]
+    }
+  ]
+}

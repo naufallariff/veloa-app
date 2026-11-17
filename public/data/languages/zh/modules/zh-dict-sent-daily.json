@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-sent-daily",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 107,
+  "title": "Kalimat Salam, Belanja, Menawar Harga, Arah & Restoran",
+  "subtitle": "Ekspresi langsung pakai dalam kehidupan di Tiongkok/Taiwan",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Mandarin | Kalimat Salam, Belanja, Menawar Harga, Arah & Restoran",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-sent-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Bank Kalimat Sehari-hari (Rìcháng Jùzi)",
+              "gloss": "Pola kalimat lisan praktis penutur asli Mandarin"
+            },
+            "formula": {
+              "script": "Functional Pattern + Polite Softeners (请问 · 麻烦你)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "请问，去地铁站怎么走？— 往前走，第二个路口左转。",
+              "reading": "Qǐngwèn, qù dìtiězhàn zěnme zǒu?",
+              "gloss": "Permisi, bagaimana jalan menuju stasiun MRT?"
+            }
+          },
+          "fullTranslation": "Permisi, bagaimana jalan menuju stasiun MRT?"
+        },
+        {
+          "id": "zh-dict-sent-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Daftar Kosakata Hanzi, Kalimat Harian & Percakapan (Kamus & Korpus Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Ekspresi langsung pakai dalam kehidupan di Tiongkok/Taiwan"
+            },
+            "example": {
+              "script": "请问，去地铁站怎么走？— 往前走，第二个路口左转。",
+              "reading": "Qǐngwèn, qù dìtiězhàn zěnme zǒu?",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Ekspresi langsung pakai dalam kehidupan di Tiongkok/Taiwan — Permisi, bagaimana jalan menuju stasiun MRT?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Belanja, Menawar Harga, Arah & Restoran\"",
+        "psychologyExplanation": "Ekspresi langsung pakai dalam kehidupan di Tiongkok/Taiwan. Dalam kerangka 2. Bank Kalimat Sehari-hari (Rìcháng Jùzi), penutur asli memetakan hubungan makna menggunakan rumus \"Functional Pattern + Polite Softeners (请问 · 麻烦你)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Belanja, Menawar Harga, Arah & Restoran",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-sent-daily-voc-1",
+          "term": "请问，去地铁站怎么走？— 往前走，第二个路口左转。",
+          "reading": "Qǐngwèn, qù dìtiězhàn zěnme zǒu?",
+          "meaning": "Permisi, bagaimana jalan menuju stasiun MRT?",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Functional Pattern + Polite Softeners (请问 · 麻烦你)",
+          "exampleSentence": "请问，去地铁站怎么走？— 往前走，第二个路口左转。",
+          "exampleTranslation": "Permisi, bagaimana jalan menuju stasiun MRT?"
+        }
+      ]
+    }
+  ]
+}

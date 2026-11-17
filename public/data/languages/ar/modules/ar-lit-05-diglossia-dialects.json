@@ -1,0 +1,117 @@
+{
+  "id": "ar-lit-05-diglossia-dialects",
+  "lang": "ar",
+  "pillar": "phonetics",
+  "tier": "native",
+  "order": 134,
+  "title": "Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī",
+  "subtitle": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Adab Arab Lanjutan | Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-lit-05-diglossia-dialects-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab",
+              "gloss": "Maqāmāt Al-Hamadzānī/Al-Ḥarīrī, penyair Mahjar (Gibran, Iliya Abu Madi), dan Diglosia"
+            },
+            "formula": {
+              "script": "Fusha ق (/q/) → Mesir/Syam ء (/ʔ/) · Teluk گ (/g/) | Apa: مَاذَا → إِيه (Miṣrī) / شُو (Syāmī)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "كَتَبَ / يَكْتُبُ (Fusha) ↔ بِيِكْتِب (Miṣrī) ↔ عَمْ يِكْتُب (Syāmī)",
+              "reading": "yaktubu ↔ biyiktib ↔ ‘am yiktub",
+              "gloss": "Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab"
+            }
+          },
+          "fullTranslation": "Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab"
+        },
+        {
+          "id": "ar-lit-05-diglossia-dialects-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Al-Maqāmāt, Sastra Mahjar & Sosiolinguistik Lahajāt Arab (Sastra, Filologi & Keindahan Bahasa · Adab Arab Lanjutan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional"
+            },
+            "example": {
+              "script": "كَتَبَ / يَكْتُبُ (Fusha) ↔ بِيِكْتِب (Miṣrī) ↔ عَمْ يِكْتُب (Syāmī)",
+              "reading": "yaktubu ↔ biyiktib ↔ ‘am yiktub",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional — Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī\"",
+        "psychologyExplanation": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional. Dalam kerangka Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab, penutur asli memetakan hubungan makna menggunakan rumus \"Fusha ق (/q/) → Mesir/Syam ء (/ʔ/) · Teluk گ (/g/) | Apa: مَاذَا → إِيه (Miṣrī) / شُو (Syāmī)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-lit-05-diglossia-dialects-voc-1",
+          "term": "كَتَبَ / يَكْتُبُ (Fusha) ↔ بِيِكْتِب (Miṣrī) ↔ عَمْ يِكْتُب (Syāmī)",
+          "reading": "yaktubu ↔ biyiktib ↔ ‘am yiktub",
+          "meaning": "Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Fusha ق (/q/) → Mesir/Syam ء (/ʔ/) · Teluk گ (/g/) | Apa: مَاذَا → إِيه (Miṣrī) / شُو (Syāmī)",
+          "exampleSentence": "كَتَبَ / يَكْتُبُ (Fusha) ↔ بِيِكْتِب (Miṣrī) ↔ عَمْ يِكْتُب (Syāmī)",
+          "exampleTranslation": "Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Diglosia Arab (الِازْدِوَاجِيَّة اللُّغَوِيَّة): Fusha vs Dialek Syāmī, Miṣrī & Khalījī",
+      "traditionName": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "overview": "Pendalaman jurusan Sastra Arab: prosa berirama (Saj‘), puisi modern, dan diglosia Arab",
+      "devices": [
+        {
+          "deviceName": "Cabang Prosa Klasik (Maqāmāt), Sastra Modern & Dialektologi Arab",
+          "nativeTerm": "Fusha ق (/q/) → Mesir/Syam ء (/ʔ/) · Teluk گ (/g/) | Apa: مَاذَا → إِيه (Miṣrī) / شُو (Syāmī)",
+          "mechanism": "Korespondensi fonetik dan leksikal antara Bahasa Arab Standar Modern dengan dialek regional",
+          "literaryExample": "كَتَبَ / يَكْتُبُ (Fusha) ↔ بِيِكْتِب (Miṣrī) ↔ عَمْ يِكْتُب (Syāmī)",
+          "reading": "yaktubu ↔ biyiktib ↔ ‘am yiktub",
+          "translation": "Memahami aturan pergeseran bunyi membuat penutur Fusha cepat memahami percakapan harian Arab",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

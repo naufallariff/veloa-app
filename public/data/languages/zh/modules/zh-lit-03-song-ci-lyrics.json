@@ -1,0 +1,117 @@
+{
+  "id": "zh-lit-03-song-ci-lyrics",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 135,
+  "title": "Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)",
+  "subtitle": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan | Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-03-song-ci-lyrics-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",
+              "gloss": "Song Ci (Su Shi, Li Qingzhao), Empat Karya Agung, dan perbandingan Mandarin-Kanton-Hokkien"
+            },
+            "formula": {
+              "script": "Cípái (词牌 · Pola Melodi) + Paralelisme Citraan Alam & Rindu",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "但愿人长久，千里共婵娟。(Su Shi — 水调歌头)",
+              "reading": "Dàn yuàn rén chángjiǔ, qiānlǐ gòng chánjuān.",
+              "gloss": "Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama."
+            }
+          },
+          "fullTranslation": "Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama."
+        },
+        {
+          "id": "zh-lit-03-song-ci-lyrics-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Puisi Dinasti Song (Ci), Empat Roman Klasik & Dialek Sinitik (Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 26 Entri",
+              "gloss": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris)"
+            },
+            "example": {
+              "script": "但愿人长久，千里共婵娟。(Su Shi — 水调歌头)",
+              "reading": "Dàn yuàn rén chángjiǔ, qiānlǐ gòng chánjuān.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris) — Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)\"",
+        "psychologyExplanation": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris). Dalam kerangka Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa, penutur asli memetakan hubungan makna menggunakan rumus \"Cípái (词牌 · Pola Melodi) + Paralelisme Citraan Alam & Rindu\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-lit-03-song-ci-lyrics-voc-1",
+          "term": "但愿人长久，千里共婵娟。(Su Shi — 水调歌头)",
+          "reading": "Dàn yuàn rén chángjiǔ, qiānlǐ gòng chánjuān.",
+          "meaning": "Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Cípái (词牌 · Pola Melodi) + Paralelisme Citraan Alam & Rindu",
+          "exampleSentence": "但愿人长久，千里共婵娟。(Su Shi — 水调歌头)",
+          "exampleTranslation": "Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama."
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Song Ci (宋词): Lirik Bernada Dinasti Song (Su Shi, Li Qingzhao & Xin Qiji)",
+      "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Tiongkok: evolusi prosodi, prosa klasik, dan variasi dialek",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",
+          "nativeTerm": "Cípái (词牌 · Pola Melodi) + Paralelisme Citraan Alam & Rindu",
+          "mechanism": "Perbedaan baris panjang-pendek (长短句) dan aliran Haofang (Heroik) vs Wanyue (Liris)",
+          "literaryExample": "但愿人长久，千里共婵娟。(Su Shi — 水调歌头)",
+          "reading": "Dàn yuàn rén chángjiǔ, qiānlǐ gòng chánjuān.",
+          "translation": "Semoga insan dikaruniai umur panjang, meski terpisah ribuan li tetap memandang rembulan yang sama.",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-a1-pos-pronouns",
+  "lang": "en",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 113,
+  "title": "Pronouns & Determiners: Subject, Object, Possessive & Articles (a/an/the)",
+  "subtitle": "Kata ganti orang dan penentu ketakrifan benda",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1 · Breakthrough | Pronouns & Determiners: Subject, Object, Possessive & Articles (a/an/the)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-pos-pronouns-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Part of Speech (Kelas Kata Dasar)",
+              "gloss": "Mengenali fungsi setiap jenis kata sebelum menyusun kalimat"
+            },
+            "formula": {
+              "script": "I/me/my/mine + Indefinite (a/an) vs Definite (the)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "She gave me her book, and the book is on the desk.",
+              "reading": "/ʃiː ɡeɪv miː hɜːr bʊk/",
+              "gloss": "Perubahan fungsi subjek, objek, dan kepemilikan"
+            }
+          },
+          "fullTranslation": "Perubahan fungsi subjek, objek, dan kepemilikan"
+        },
+        {
+          "id": "en-a1-pos-pronouns-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 30 Entri",
+              "gloss": "Kata ganti orang dan penentu ketakrifan benda"
+            },
+            "example": {
+              "script": "She gave me her book, and the book is on the desk.",
+              "reading": "/ʃiː ɡeɪv miː hɜːr bʊk/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kata ganti orang dan penentu ketakrifan benda — Perubahan fungsi subjek, objek, dan kepemilikan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Pronouns & Determiners: Subject, Object, Possessive & Articles (a/an/the)\"",
+        "psychologyExplanation": "Kata ganti orang dan penentu ketakrifan benda. Dalam kerangka Cabang A: Part of Speech (Kelas Kata Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"I/me/my/mine + Indefinite (a/an) vs Definite (the)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Pronouns & Determiners: Subject, Object, Possessive & Articles (a/an/the)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a1-pos-pronouns-voc-1",
+          "term": "She gave me her book, and the book is on the desk.",
+          "reading": "/ʃiː ɡeɪv miː hɜːr bʊk/",
+          "meaning": "Perubahan fungsi subjek, objek, dan kepemilikan",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: I/me/my/mine + Indefinite (a/an) vs Definite (the)",
+          "exampleSentence": "She gave me her book, and the book is on the desk.",
+          "exampleTranslation": "Perubahan fungsi subjek, objek, dan kepemilikan"
+        }
+      ]
+    }
+  ]
+}

@@ -3,328 +3,96 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 3,
-  "title": "CEFR A2–B1 | Sistem Past Tense Lengkap (4 Turunan Terpisah Utuh)",
-  "subtitle": "Bedah mendalam satu per satu: Simple Past, Past Continuous, Past Perfect, dan Past Perfect Continuous",
-  "estimatedMinutes": 75,
+  "order": 120,
+  "title": "Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+  "subtitle": "Menyatakan peristiwa selesai di titik waktu lampau tertutup",
+  "estimatedMinutes": 35,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "2.1 Simple Past Tense — Rumus V2, Regular/Irregular & Did/Didn’t",
-      "grammaticalTradition": "Unit 1/4: Past Simple (Peristiwa Selesai di Titik Waktu Lampau Tertutup)",
+      "title": "CEFR A2 · Waystage | Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "polarity",
-          "roleLabel": "Bentuk Kalimat",
-          "semanticColor": "amber"
-        },
-        {
-          "key": "formula",
-          "roleLabel": "Rumus Baku",
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
           "semanticColor": "violet"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Kalimat & Analisis",
-          "semanticColor": "emerald"
-        }
-      ],
-      "rows": [
-        {
-          "id": "en-past-s-pos",
-          "cells": {
-            "polarity": {
-              "script": "Positif Verbal (+)",
-              "gloss": "Semua subjek memakai V2 yang sama"
-            },
-            "formula": {
-              "script": "S + V2 (Regular -ed atau Irregular)",
-              "gloss": "Aturan -ed: stop → stopped; study → studied; play → played"
-            },
-            "example": {
-              "script": "They launched the first prototype in 2025.",
-              "gloss": "Penanda waktu lampau tertutup: yesterday, last night, two days ago, in 2025"
-            }
-          },
-          "fullTranslation": "Mereka meluncurkan prototipe pertama pada tahun 2025."
-        },
-        {
-          "id": "en-past-s-nom",
-          "cells": {
-            "polarity": {
-              "script": "Positif Nominal (+)",
-              "gloss": "Was vs Were"
-            },
-            "formula": {
-              "script": "S + was (I/He/She/It) / were (You/We/They) + Complement",
-              "gloss": "Menyatakan kondisi/lokasi di masa lampau"
-            },
-            "example": {
-              "script": "The conference in Jakarta was extremely insightful.",
-              "gloss": "Tidak memakai did/didn’t pada kalimat nominal was/were"
-            }
-          },
-          "fullTranslation": "Konferensi di Jakarta tersebut sangat membuka wawasan."
-        },
-        {
-          "id": "en-past-s-neg-int",
-          "cells": {
-            "polarity": {
-              "script": "Negatif (-) & Tanya (?)",
-              "gloss": "Did mengembalikan V2 menjadi V1"
-            },
-            "formula": {
-              "script": "S + did + not + V1 | (Wh-) + Did + S + V1 + ?",
-              "gloss": "Kata kerja utama WAJIB kembali ke bentuk dasar V1 saat ada \"did\""
-            },
-            "example": {
-              "script": "Did you attend the workshop yesterday? — No, I didn’t go.",
-              "gloss": "SALAH: Did you went? / I didn’t went."
-            }
-          },
-          "fullTranslation": "Apakah kamu menghadiri lokakarya kemarin? — Tidak, saya tidak pergi."
-        }
-      ],
-      "nativeMindset": {
-        "headline": "Pelafalan Akhiran \"-ed\" Punya 3 Bunyi Berbeda (/t/, /d/, /ɪd/)",
-        "psychologyExplanation": "Penutur asli tidak pernah mengucapkan \"-ed\" sebagai suku kata terpisah kecuali setelah huruf T atau D: (1) Setelah bunyi tak bersuara (p, k, s, sh, ch, f) dibaca /t/: worked /wɜːrkt/, watched /wɒtʃt/. (2) Setelah bunyi bersuara dibaca /d/: played /pleɪd/, cleaned /kliːnd/. (3) Hanya setelah /t/ atau /d/ dibaca /ɪd/: wanted /ˈwɒntɪd/, needed /ˈniːdɪd/.",
-        "literalTrap": "Jangan mengucapkan \"worked\" menjadi dua suku kata \"wor-ked\"—ucapkan satu suku kata tajam /wɜːrkt/."
-      }
-    },
-    {
-      "type": "cognitive-pattern-table",
-      "title": "2.2 Past Continuous Tense — Rumus Was/Were + V-ing & Interupsi When vs While",
-      "grammaticalTradition": "Unit 2/4: Past Progressive (Latar Adegan Lampau yang Sedang Berjalan)",
-      "direction": "ltr",
-      "columns": [
-        {
-          "key": "polarity",
-          "roleLabel": "Bentuk & Pola",
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
           "semanticColor": "amber"
         },
         {
-          "key": "formula",
-          "roleLabel": "Rumus Baku",
-          "semanticColor": "cyan"
-        },
-        {
           "key": "example",
-          "roleLabel": "Contoh Kalimat & Analisis",
+          "roleLabel": "Contoh Autentik",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-past-c-pos",
+          "id": "en-03-beg-grammar-past-system-row-1",
           "cells": {
-            "polarity": {
-              "script": "Positif (+)",
-              "gloss": "Was/Were + V-ing"
+            "construct": {
+              "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
+              "gloss": "Menguasai V2, was/were, going to, dan will"
             },
             "formula": {
-              "script": "S + was/were + V-ing",
-              "gloss": "Menggambarkan aktivitas yang sedang berlangsung pada jam tertentu di masa lampau"
+              "script": "S + V2 | S + did not + V1 | S + was/were + Complement",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
             },
             "example": {
-              "script": "At 9 PM last night, I was compiling the TypeScript modules.",
-              "gloss": "Tepat pada titik jam 9 malam, proses kompilasi sedang berjalan"
+              "script": "They launched the prototype yesterday. Did you attend?",
+              "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+              "gloss": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
             }
           },
-          "fullTranslation": "Pada pukul 9 malam tadi malam, saya sedang mengompilasi modul TypeScript."
+          "fullTranslation": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
         },
         {
-          "id": "en-past-c-when-while",
+          "id": "en-03-beg-grammar-past-system-row-2",
           "cells": {
-            "polarity": {
-              "script": "Pola When vs While",
-              "gloss": "Aksi Panjang Diinterupsi Aksi Singkat"
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
             },
             "formula": {
-              "script": "Past Continuous (aksi panjang) + when + Simple Past (interupsi) | While + Past Continuous",
-              "gloss": "\"While\" mengiringi aksi panjang; \"When\" biasanya mengiringi aksi pemotong singkat"
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Menyatakan peristiwa selesai di titik waktu lampau tertutup"
             },
             "example": {
-              "script": "While we were testing the server, the power suddenly went out.",
-              "gloss": "Aksi panjang: were testing | Aksi pemotong singkat: went out"
+              "script": "They launched the prototype yesterday. Did you attend?",
+              "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
             }
           },
-          "fullTranslation": "Ketika kami sedang menguji server, listrik tiba-tiba padam."
-        },
-        {
-          "id": "en-past-c-neg-int",
-          "cells": {
-            "polarity": {
-              "script": "Negatif (-) & Tanya (?)",
-              "gloss": "Negasi & Inversi Was/Were"
-            },
-            "formula": {
-              "script": "S + wasn’t/weren’t + V-ing | (Wh-) + Was/Were + S + V-ing + ?",
-              "gloss": "Menanyakan latar situasi saat kejadian lampau terjadi"
-            },
-            "example": {
-              "script": "What were you doing when the earthquake happened?",
-              "gloss": "Meminta gambaran latar saat gempa terjadi"
-            }
-          },
-          "fullTranslation": "Apa yang sedang kamu lakukan ketika gempa terjadi?"
+          "fullTranslation": "Menyatakan peristiwa selesai di titik waktu lampau tertutup — Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
         }
       ],
       "nativeMindset": {
-        "headline": "Psikologi Sinematik: Past Continuous Adalah \"Latar Belakang Kamera\", Simple Past Adalah \"Adegan Utama\"",
-        "psychologyExplanation": "Saat bercerita dalam bahasa Inggris, penutur asli memakai Past Continuous untuk melukiskan suasana latar (\"The rain was pouring, people were rushing home...\") lalu memasukkan Simple Past untuk peristiwa utama yang menggerakkan alur cerita (\"...when a taxi stopped right in front of me\").",
-        "literalTrap": "Jangan memakai Past Continuous untuk dua aksi singkat yang terjadi berurutan (\"I came home, took a shower, and slept\" — semuanya Simple Past)."
+        "headline": "Logika Penutur Asli pada Topik \"Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t\"",
+        "psychologyExplanation": "Menyatakan peristiwa selesai di titik waktu lampau tertutup. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"S + V2 | S + did not + V1 | S + was/were + Complement\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
       }
     },
     {
-      "type": "cognitive-pattern-table",
-      "title": "2.3 Past Perfect Tense — Rumus Had + V3 (\"Masa Lampau di Dalam Masa Lampau\")",
-      "grammaticalTradition": "Unit 3/4: Past Perfect (Urutan Dua Kejadian Lampau: Yang Lebih Dulu Terjadi)",
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Simple Past Tense: Rumus V2, Regular/Irregular & Did/Didn’t",
       "direction": "ltr",
-      "columns": [
+      "totalCount": 1,
+      "entries": [
         {
-          "key": "polarity",
-          "roleLabel": "Bentuk Kalimat",
-          "semanticColor": "amber"
-        },
-        {
-          "key": "formula",
-          "roleLabel": "Rumus Baku",
-          "semanticColor": "violet"
-        },
-        {
-          "key": "example",
-          "roleLabel": "Contoh Kalimat & Analisis Urutan",
-          "semanticColor": "emerald"
+          "id": "en-03-beg-grammar-past-system-voc-1",
+          "term": "They launched the prototype yesterday. Did you attend?",
+          "reading": "/ðeɪ lɔːntʃt ðə ˈproʊ.tə.taɪp ˈjes.tər.deɪ/",
+          "meaning": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: S + V2 | S + did not + V1 | S + was/were + Complement",
+          "exampleSentence": "They launched the prototype yesterday. Did you attend?",
+          "exampleTranslation": "Pelafalan -ed memiliki 3 bunyi: /t/, /d/, dan /ɪd/"
         }
-      ],
-      "rows": [
-        {
-          "id": "en-past-p-pos",
-          "cells": {
-            "polarity": {
-              "script": "Positif (+)",
-              "gloss": "Had + V3 (Untuk Semua Subjek)"
-            },
-            "formula": {
-              "script": "S + had + V3 (Kejadian #1) + before/when + S + V2 (Kejadian #2)",
-              "gloss": "Past Perfect menandai kejadian yang SUDAH SELESAI lebih dulu sebelum kejadian lampau lainnya"
-            },
-            "example": {
-              "script": "When I arrived at the station, the train had already left.",
-              "gloss": "Urutan 1: Kereta berangkat (had left) → Urutan 2: Saya tiba (arrived)"
-            }
-          },
-          "fullTranslation": "Ketika saya tiba di stasiun, kereta sudah berangkat lebih dulu."
-        },
-        {
-          "id": "en-past-p-neg",
-          "cells": {
-            "polarity": {
-              "script": "Negatif (-)",
-              "gloss": "Had + Not + V3"
-            },
-            "formula": {
-              "script": "S + had not (hadn’t) + V3 + before + S + V2",
-              "gloss": "Menyatakan pengalaman yang belum pernah terjadi hingga titik waktu lampau tertentu"
-            },
-            "example": {
-              "script": "She hadn’t seen snow before she moved to Sapporo in 2024.",
-              "gloss": "Hingga titik kepindahan di 2024, pengalaman itu belum terjadi"
-            }
-          },
-          "fullTranslation": "Dia belum pernah melihat salju sebelum pindah ke Sapporo pada 2024."
-        },
-        {
-          "id": "en-past-p-int",
-          "cells": {
-            "polarity": {
-              "script": "Interogatif (?)",
-              "gloss": "Inversi Had ke Depan Subjek"
-            },
-            "formula": {
-              "script": "(Wh-) + Had + S + V3 + before/when + S + V2 + ?",
-              "gloss": "Mengonfirmasi apa yang sudah tuntas sebelum momen lampau tersebut"
-            },
-            "example": {
-              "script": "Had you backed up the database before the crash occurred?",
-              "gloss": "Menanyakan apakah backup dilakukan sebelum sistem crash"
-            }
-          },
-          "fullTranslation": "Apakah kamu sudah mencadangkan basis data sebelum kerusakan terjadi?"
-        }
-      ],
-      "nativeMindset": {
-        "headline": "Kapan Past Perfect Wajib Dipakai vs Kapan Tidak Perlu?",
-        "psychologyExplanation": "Jika kejadian diceritakan berurutan secara kronologis (\"I woke up, brushed my teeth, and left\"), cukup pakai Simple Past semua. Past Perfect hanya dibutuhkan saat kamu MELOMPAT MUNDUR ke masa lalu yang lebih awal di tengah cerita lampau.",
-        "literalTrap": "Jangan memakai Past Perfect untuk satu kejadian lampau tunggal tanpa pembanding kejadian lampau kedua."
-      }
-    },
-    {
-      "type": "cognitive-pattern-table",
-      "title": "2.4 Past Perfect Continuous — Rumus Had Been + V-ing (Durasi Sebelum Titik Lampau)",
-      "grammaticalTradition": "Unit 4/4: Past Perfect Progressive (Durasi Aktivitas Sebelum Interupsi Lampau)",
-      "direction": "ltr",
-      "columns": [
-        {
-          "key": "polarity",
-          "roleLabel": "Bentuk Kalimat",
-          "semanticColor": "amber"
-        },
-        {
-          "key": "formula",
-          "roleLabel": "Rumus Baku",
-          "semanticColor": "rose"
-        },
-        {
-          "key": "example",
-          "roleLabel": "Contoh Kalimat & Analisis",
-          "semanticColor": "emerald"
-        }
-      ],
-      "rows": [
-        {
-          "id": "en-past-pc-pos",
-          "cells": {
-            "polarity": {
-              "script": "Positif (+)",
-              "gloss": "Durasi Sebelum Momen Lampau"
-            },
-            "formula": {
-              "script": "S + had + been + V-ing + for/since + before/when + S + V2",
-              "gloss": "Menekankan berapa lama proses berlangsung sebelum kejadian lampau kedua terjadi"
-            },
-            "example": {
-              "script": "They had been negotiating for six hours before they finally signed the deal.",
-              "gloss": "Proses negosiasi 6 jam terjadi sebelum penandatanganan"
-            }
-          },
-          "fullTranslation": "Mereka telah bernegosiasi selama enam jam sebelum akhirnya menandatangani kesepakatan."
-        },
-        {
-          "id": "en-past-pc-neg-int",
-          "cells": {
-            "polarity": {
-              "script": "Negatif (-) & Tanya (?)",
-              "gloss": "Hadn’t Been + V-ing"
-            },
-            "formula": {
-              "script": "S + hadn’t + been + V-ing | How long + had + S + been + V-ing + when + S + V2 + ?",
-              "gloss": "Menanyakan durasi yang telah berjalan hingga titik lampau"
-            },
-            "example": {
-              "script": "How long had you been waiting before the bus arrived?",
-              "gloss": "Fokus pada lamanya menunggu sebelum bus tiba"
-            }
-          },
-          "fullTranslation": "Sudah berapa lama kamu menunggu sebelum bus tiba?"
-        }
-      ],
-      "nativeMindset": {
-        "headline": "Perbedaan Past Continuous vs Past Perfect Continuous",
-        "psychologyExplanation": "\"I was coding when you called\" hanya memberi tahu aktivitas yang sedang berlangsung tepat saat telepon berdering. \"I had been coding for three hours when you called\" menekankan akumulasi durasi 3 jam yang sudah dijalani sebelum telepon berdering.",
-        "literalTrap": "Past Perfect Continuous selalu berjangkar pada titik masa lampau (had been), sedangkan Present Perfect Continuous berjangkar pada detik sekarang (have been)."
-      }
+      ]
     }
   ]
 }

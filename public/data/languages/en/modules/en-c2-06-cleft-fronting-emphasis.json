@@ -1,0 +1,98 @@
+{
+  "id": "en-c2-06-cleft-fronting-emphasis",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 152,
+  "title": "It-Clefts, Wh-Clefts & Fronting untuk Fokus Informasi (Information Packaging)",
+  "subtitle": "Mengatur alur tema-rema (Theme-Rheme) dalam paragraf argumentatif",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi | It-Clefts, Wh-Clefts & Fronting untuk Fokus Informasi (Information Packaging)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c2-06-cleft-fronting-emphasis-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2",
+              "gloss": "Reduced relative clauses, future in the past, dan artikulasi nuansa"
+            },
+            "formula": {
+              "script": "It is/was + [Focus Element] + that/who + [Background Clause]",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "It was structural clarity that transformed how learners retained syntax.",
+              "reading": "/ɪt wəz ˈstrʌk.tʃər.əl ˈklær.ə.ti ðæt trænsˈfɔːrmd/",
+              "gloss": "Menyoroti unsur paling krusial di awal kalimat secara elegan"
+            }
+          },
+          "fullTranslation": "Menyoroti unsur paling krusial di awal kalimat secara elegan"
+        },
+        {
+          "id": "en-c2-06-cleft-fronting-emphasis-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Participle Clauses, Future Perfect, Discourse Markers & Pragmatik (CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 26 Entri",
+              "gloss": "Mengatur alur tema-rema (Theme-Rheme) dalam paragraf argumentatif"
+            },
+            "example": {
+              "script": "It was structural clarity that transformed how learners retained syntax.",
+              "reading": "/ɪt wəz ˈstrʌk.tʃər.əl ˈklær.ə.ti ðæt trænsˈfɔːrmd/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengatur alur tema-rema (Theme-Rheme) dalam paragraf argumentatif — Menyoroti unsur paling krusial di awal kalimat secara elegan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"It-Clefts, Wh-Clefts & Fronting untuk Fokus Informasi (Information Packaging)\"",
+        "psychologyExplanation": "Mengatur alur tema-rema (Theme-Rheme) dalam paragraf argumentatif. Dalam kerangka Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2, penutur asli memetakan hubungan makna menggunakan rumus \"It is/was + [Focus Element] + that/who + [Background Clause]\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: It-Clefts, Wh-Clefts & Fronting untuk Fokus Informasi (Information Packaging)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-c2-06-cleft-fronting-emphasis-voc-1",
+          "term": "It was structural clarity that transformed how learners retained syntax.",
+          "reading": "/ɪt wəz ˈstrʌk.tʃər.əl ˈklær.ə.ti ðæt trænsˈfɔːrmd/",
+          "meaning": "Menyoroti unsur paling krusial di awal kalimat secara elegan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: It is/was + [Focus Element] + that/who + [Background Clause]",
+          "exampleSentence": "It was structural clarity that transformed how learners retained syntax.",
+          "exampleTranslation": "Menyoroti unsur paling krusial di awal kalimat secara elegan"
+        }
+      ]
+    }
+  ]
+}

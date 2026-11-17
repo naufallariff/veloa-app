@@ -1,0 +1,98 @@
+{
+  "id": "ja-found-06-rendaku-euphony",
+  "lang": "ja",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 106,
+  "title": "Hukum Rendaku (連濁) & Onbin: Mengapa 人 (hito) Menjadi 恋人 (koibito)",
+  "subtitle": "Perubahan konsonan tak bersuara menjadi bersuara pada kata majemuk asli Jepang",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Kanji & Sistem Tulisan | Hukum Rendaku (連濁) & Onbin: Mengapa 人 (hito) Menjadi 恋人 (koibito)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-found-06-rendaku-euphony-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Pendalaman Struktur Kanji & Fonologi Lanjutan",
+              "gloss": "Hukum Rendaku (konsonan bersuara), Jukugo, dan perbedaan Kanji Jepang vs Tiongkok"
+            },
+            "formula": {
+              "script": "Wago Compound: k→g, s→z, t→d, h→b (kecuali Hukum Lyman)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "手紙 (tegami · surat) · 本棚 (hondana · rak buku) · 花火 (hanabi · kembang api)",
+              "reading": "てがみ · ほんだな · はなび",
+              "gloss": "Memahami Rendaku mencegah salah baca pada ribuan kata majemuk Jepang"
+            }
+          },
+          "fullTranslation": "Memahami Rendaku mencegah salah baca pada ribuan kata majemuk Jepang"
+        },
+        {
+          "id": "ja-found-06-rendaku-euphony-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Rikusho (6 Prinsip Kanji), Jukugo & Aturan Okurigana (Pondasi Lanjutan · Kanji & Sistem Tulisan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 30 Entri",
+              "gloss": "Perubahan konsonan tak bersuara menjadi bersuara pada kata majemuk asli Jepang"
+            },
+            "example": {
+              "script": "手紙 (tegami · surat) · 本棚 (hondana · rak buku) · 花火 (hanabi · kembang api)",
+              "reading": "てがみ · ほんだな · はなび",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perubahan konsonan tak bersuara menjadi bersuara pada kata majemuk asli Jepang — Memahami Rendaku mencegah salah baca pada ribuan kata majemuk Jepang"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Hukum Rendaku (連濁) & Onbin: Mengapa 人 (hito) Menjadi 恋人 (koibito)\"",
+        "psychologyExplanation": "Perubahan konsonan tak bersuara menjadi bersuara pada kata majemuk asli Jepang. Dalam kerangka 2. Pendalaman Struktur Kanji & Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"Wago Compound: k→g, s→z, t→d, h→b (kecuali Hukum Lyman)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Hukum Rendaku (連濁) & Onbin: Mengapa 人 (hito) Menjadi 恋人 (koibito)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-found-06-rendaku-euphony-voc-1",
+          "term": "手紙 (tegami · surat) · 本棚 (hondana · rak buku) · 花火 (hanabi · kembang api)",
+          "reading": "てがみ · ほんだな · はなび",
+          "meaning": "Memahami Rendaku mencegah salah baca pada ribuan kata majemuk Jepang",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Wago Compound: k→g, s→z, t→d, h→b (kecuali Hukum Lyman)",
+          "exampleSentence": "手紙 (tegami · surat) · 本棚 (hondana · rak buku) · 花火 (hanabi · kembang api)",
+          "exampleTranslation": "Memahami Rendaku mencegah salah baca pada ribuan kata majemuk Jepang"
+        }
+      ]
+    }
+  ]
+}

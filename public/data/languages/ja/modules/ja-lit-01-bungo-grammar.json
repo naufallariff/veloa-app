@@ -1,0 +1,117 @@
+{
+  "id": "ja-lit-01-bungo-grammar",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "native",
+  "order": 121,
+  "title": "Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi",
+  "subtitle": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi)",
+  "estimatedMinutes": 55,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-lit-01-bungo-grammar-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Jepang (Kokubungaku)",
+              "gloss": "Tata bahasa klasik (Bungo), bentuk puisi tradisional, dan estetika Mono no Aware"
+            },
+            "formula": {
+              "script": "Kakarimusubi: ぞ/なむ/や/か → Rentaikei | こそ → Izenkei",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて… (Sei Shōnagon)",
+              "reading": "Haru wa akebono. Yōyō shiroku nariyuku yamagiwa...",
+              "gloss": "Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)"
+            }
+          },
+          "fullTranslation": "Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)"
+        },
+        {
+          "id": "ja-lit-01-bungo-grammar-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Koten (古典文学), Bungo, Waka/Haiku & Estetika Sastra Jepang (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 30 Entri",
+              "gloss": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi)"
+            },
+            "example": {
+              "script": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて… (Sei Shōnagon)",
+              "reading": "Haru wa akebono. Yōyō shiroku nariyuku yamagiwa...",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi) — Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi\"",
+        "psychologyExplanation": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi). Dalam kerangka Cabang Sastra & Filologi Jepang (Kokubungaku), penutur asli memetakan hubungan makna menggunakan rumus \"Kakarimusubi: ぞ/なむ/や/か → Rentaikei | こそ → Izenkei\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-lit-01-bungo-grammar-voc-1",
+          "term": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて… (Sei Shōnagon)",
+          "reading": "Haru wa akebono. Yōyō shiroku nariyuku yamagiwa...",
+          "meaning": "Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Kakarimusubi: ぞ/なむ/や/か → Rentaikei | こそ → Izenkei",
+          "exampleSentence": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて… (Sei Shōnagon)",
+          "exampleTranslation": "Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Bungo (文語文法): Sistem Konjugasi 6 Bentuk (Mizenkei–Meireikei) & Kakari-Musubi",
+      "traditionName": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "overview": "Kajian sastra klasik Jepang tingkat universitas: tata bahasa kuno dan estetika puitis",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Jepang (Kokubungaku)",
+          "nativeTerm": "Kakarimusubi: ぞ/なむ/や/か → Rentaikei | こそ → Izenkei",
+          "mechanism": "Kunci membaca teks klasik zaman Nara hingga Meiji (Genji Monogatari, Makura no Sōshi)",
+          "literaryExample": "春はあけぼの。やうやう白くなりゆく山際、少し明かりて… (Sei Shōnagon)",
+          "reading": "Haru wa akebono. Yōyō shiroku nariyuku yamagiwa...",
+          "translation": "Musim semi paling indah saat fajar menyingsing (Catatan Bantal, abad ke-11)",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

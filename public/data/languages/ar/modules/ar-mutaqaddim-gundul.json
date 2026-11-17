@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutaqaddim-gundul",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 114,
+  "title": "Strategi Membaca Teks Tanpa Harakat (Al-Qirāʾah bi-lā Tashkīl)",
+  "subtitle": "Menggabungkan pola Wazn Ṣaraf dan posisi Amil Naḥwu untuk merekonstruksi vokal",
+  "estimatedMinutes": 50,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Mutaqaddim · Mahir (Kitab Gundul) | Strategi Membaca Teks Tanpa Harakat (Al-Qirāʾah bi-lā Tashkīl)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-gundul-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Manṣūbāt al-Asmāʾ, Tawābiʿ & Iʿrāb Fiʿil Muḍāriʿ",
+              "gloss": "Mafʿūl Muṭlaq, Mafʿūl Li-Ajlih, Ḥāl, Tamyīz, serta Nawāṣib & Jawāzim"
+            },
+            "formula": {
+              "script": "Identifikasi Partikel/Amil → Tentukan Wazn → Tetapkan Harakat Akhir",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "إن العلماء ورثة الأنبياء → إِنَّ الْعُلَمَاءَ وَرَثَةُ الْأَنْبِيَاءِ",
+              "reading": "Inna al-ʿulamāʾa warathatu al-anbiyāʾi",
+              "gloss": "Rekonstruksi harakat berbasis analisis jabatan kata dalam kalimat"
+            }
+          },
+          "fullTranslation": "Rekonstruksi harakat berbasis analisis jabatan kata dalam kalimat"
+        },
+        {
+          "id": "ar-mutaqaddim-gundul-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Naḥwu Lanjut, Tawābiʿ, Ḥāl, Tamyīz & Membaca Teks Tanpa Harakat (Mustawā Mutaqaddim · Mahir (Kitab Gundul))"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Menggabungkan pola Wazn Ṣaraf dan posisi Amil Naḥwu untuk merekonstruksi vokal"
+            },
+            "example": {
+              "script": "إن العلماء ورثة الأنبياء → إِنَّ الْعُلَمَاءَ وَرَثَةُ الْأَنْبِيَاءِ",
+              "reading": "Inna al-ʿulamāʾa warathatu al-anbiyāʾi",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menggabungkan pola Wazn Ṣaraf dan posisi Amil Naḥwu untuk merekonstruksi vokal — Rekonstruksi harakat berbasis analisis jabatan kata dalam kalimat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Strategi Membaca Teks Tanpa Harakat (Al-Qirāʾah bi-lā Tashkīl)\"",
+        "psychologyExplanation": "Menggabungkan pola Wazn Ṣaraf dan posisi Amil Naḥwu untuk merekonstruksi vokal. Dalam kerangka Cabang A: Manṣūbāt al-Asmāʾ, Tawābiʿ & Iʿrāb Fiʿil Muḍāriʿ, penutur asli memetakan hubungan makna menggunakan rumus \"Identifikasi Partikel/Amil → Tentukan Wazn → Tetapkan Harakat Akhir\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Strategi Membaca Teks Tanpa Harakat (Al-Qirāʾah bi-lā Tashkīl)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutaqaddim-gundul-voc-1",
+          "term": "إن العلماء ورثة الأنبياء → إِنَّ الْعُلَمَاءَ وَرَثَةُ الْأَنْبِيَاءِ",
+          "reading": "Inna al-ʿulamāʾa warathatu al-anbiyāʾi",
+          "meaning": "Rekonstruksi harakat berbasis analisis jabatan kata dalam kalimat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Identifikasi Partikel/Amil → Tentukan Wazn → Tetapkan Harakat Akhir",
+          "exampleSentence": "إن العلماء ورثة الأنبياء → إِنَّ الْعُلَمَاءَ وَرَثَةُ الْأَنْبِيَاءِ",
+          "exampleTranslation": "Rekonstruksi harakat berbasis analisis jabatan kata dalam kalimat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ar-asasi-nahw-jumla",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 110,
+  "title": "Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+  "subtitle": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i)",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Tamhīdī & Asāsī · Dasar | Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-nahw-jumla-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)",
+              "gloss": "Pembagian kata (Isim, Fiʿil, Ḥarf), Jumlah Ismiyyah & Jumlah Fiʿliyyah"
+            },
+            "formula": {
+              "script": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+            }
+          },
+          "fullTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        },
+        {
+          "id": "ar-asasi-nahw-jumla-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar (Mustawā Tamhīdī & Asāsī · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i)"
+            },
+            "example": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i) — Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)\"",
+        "psychologyExplanation": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i). Dalam kerangka Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-asasi-nahw-jumla-voc-1",
+          "term": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+          "meaning": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+          "exampleSentence": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "exampleTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        }
+      ]
+    }
+  ]
+}

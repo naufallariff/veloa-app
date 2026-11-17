@@ -1,0 +1,98 @@
+{
+  "id": "en-c1-05-future-perfect-continuous",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 151,
+  "title": "Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+  "subtitle": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi | Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c1-05-future-perfect-continuous-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2",
+              "gloss": "Reduced relative clauses, future in the past, dan artikulasi nuansa"
+            },
+            "formula": {
+              "script": "By [Future Time], S + will have + V3",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+            }
+          },
+          "fullTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        },
+        {
+          "id": "en-c1-05-future-perfect-continuous-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Participle Clauses, Future Perfect, Discourse Markers & Pragmatik (CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 26 Entri",
+              "gloss": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah"
+            },
+            "example": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah — Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)\"",
+        "psychologyExplanation": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah. Dalam kerangka Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2, penutur asli memetakan hubungan makna menggunakan rumus \"By [Future Time], S + will have + V3\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-c1-05-future-perfect-continuous-voc-1",
+          "term": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+          "meaning": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: By [Future Time], S + will have + V3",
+          "exampleSentence": "By December 2026, we will have deployed all five language curricula.",
+          "exampleTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        }
+      ]
+    }
+  ]
+}

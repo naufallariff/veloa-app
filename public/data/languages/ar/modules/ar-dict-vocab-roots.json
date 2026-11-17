@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-vocab-roots",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 104,
+  "title": "500 Mufradāt Inti dari Akar Kata Produktif (ك-ت-ب, ع-ل-م, د-ر-س, ذ-ه-ب)",
+  "subtitle": "Satu akar 3 huruf melahirkan kata kerja, pelaku, tempat, dan objek",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Arab | 500 Mufradāt Inti dari Akar Kata Produktif (ك-ت-ب, ع-ل-م, د-ر-س, ذ-ه-ب)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-vocab-roots-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Mufradāt & Keluarga Akar Kata (Al-Muʿjam)",
+              "gloss": "Kosakata inti dikelompokkan berdasarkan akar 3 huruf konsonan"
+            },
+            "formula": {
+              "script": "Akar ك-ت-ب → كَتَبَ (menulis) · كِتَاب (buku) · كَاتِب (penulis) · مَكْتَبَة (perpustakaan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "عَلِمَ (mengetahui) · عِلْم (ilmu) · عَالِم (ilmuwan) · مُعَلِّم (pengajar)",
+              "reading": "ʿalima · ʿilm · ʿālim · muʿallim",
+              "gloss": "Sistem derivasi akar kata membuat kosakata Arab sangat terstruktur"
+            }
+          },
+          "fullTranslation": "Sistem derivasi akar kata membuat kosakata Arab sangat terstruktur"
+        },
+        {
+          "id": "ar-dict-vocab-roots-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Mufradāt Berbasis Akar Kata, Kalimat Harian & Ḥiwār (Kamus & Korpus Arab)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 60 Entri",
+              "gloss": "Satu akar 3 huruf melahirkan kata kerja, pelaku, tempat, dan objek"
+            },
+            "example": {
+              "script": "عَلِمَ (mengetahui) · عِلْم (ilmu) · عَالِم (ilmuwan) · مُعَلِّم (pengajar)",
+              "reading": "ʿalima · ʿilm · ʿālim · muʿallim",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Satu akar 3 huruf melahirkan kata kerja, pelaku, tempat, dan objek — Sistem derivasi akar kata membuat kosakata Arab sangat terstruktur"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"500 Mufradāt Inti dari Akar Kata Produktif (ك-ت-ب, ع-ل-م, د-ر-س, ذ-ه-ب)\"",
+        "psychologyExplanation": "Satu akar 3 huruf melahirkan kata kerja, pelaku, tempat, dan objek. Dalam kerangka 1. Kamus Mufradāt & Keluarga Akar Kata (Al-Muʿjam), penutur asli memetakan hubungan makna menggunakan rumus \"Akar ك-ت-ب → كَتَبَ (menulis) · كِتَاب (buku) · كَاتِب (penulis) · مَكْتَبَة (perpustakaan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 500 Mufradāt Inti dari Akar Kata Produktif (ك-ت-ب, ع-ل-م, د-ر-س, ذ-ه-ب)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-vocab-roots-voc-1",
+          "term": "عَلِمَ (mengetahui) · عِلْم (ilmu) · عَالِم (ilmuwan) · مُعَلِّم (pengajar)",
+          "reading": "ʿalima · ʿilm · ʿālim · muʿallim",
+          "meaning": "Sistem derivasi akar kata membuat kosakata Arab sangat terstruktur",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Akar ك-ت-ب → كَتَبَ (menulis) · كِتَاب (buku) · كَاتِب (penulis) · مَكْتَبَة (perpustakaan)",
+          "exampleSentence": "عَلِمَ (mengetahui) · عِلْم (ilmu) · عَالِم (ilmuwan) · مُعَلِّم (pengajar)",
+          "exampleTranslation": "Sistem derivasi akar kata membuat kosakata Arab sangat terstruktur"
+        }
+      ]
+    }
+  ]
+}

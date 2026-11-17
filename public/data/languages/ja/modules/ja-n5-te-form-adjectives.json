@@ -1,0 +1,98 @@
+{
+  "id": "ja-n5-te-form-adjectives",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 114,
+  "title": "Bentuk-Te (て形), Kata Sifat-I (い形容詞) & Kata Sifat-Na (な形容詞)",
+  "subtitle": "Menyambung kalimat berurutan dan mengonjugasikan kata sifat lampau/negatif",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5 · Dasar | Bentuk-Te (て形), Kata Sifat-I (い形容詞) & Kata Sifat-Na (な形容詞)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-te-form-adjectives-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Morfologi & Konjugasi Kata Kerja-Sifat (活用 Katsuyō)",
+              "gloss": "Pembagian 3 kelompok kata kerja Jepang dan konjugasi dasar"
+            },
+            "formula": {
+              "script": "て形 (Permintaan/Urutan) | い-Adj: -い → -くない / -かった",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "昨日は寒かったですが、今日は暖かいです。",
+              "reading": "Kinō wa samukatta desu ga, kyō wa atatakai desu.",
+              "gloss": "Kemarin dingin, tetapi hari ini hangat."
+            }
+          },
+          "fullTranslation": "Kemarin dingin, tetapi hari ini hangat."
+        },
+        {
+          "id": "ja-n5-te-form-adjectives-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Inti (Joshi), Kopula & Konjugasi Dasar (JLPT N5 · Dasar)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Menyambung kalimat berurutan dan mengonjugasikan kata sifat lampau/negatif"
+            },
+            "example": {
+              "script": "昨日は寒かったですが、今日は暖かいです。",
+              "reading": "Kinō wa samukatta desu ga, kyō wa atatakai desu.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyambung kalimat berurutan dan mengonjugasikan kata sifat lampau/negatif — Kemarin dingin, tetapi hari ini hangat."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Bentuk-Te (て形), Kata Sifat-I (い形容詞) & Kata Sifat-Na (な形容詞)\"",
+        "psychologyExplanation": "Menyambung kalimat berurutan dan mengonjugasikan kata sifat lampau/negatif. Dalam kerangka Cabang B: Morfologi & Konjugasi Kata Kerja-Sifat (活用 Katsuyō), penutur asli memetakan hubungan makna menggunakan rumus \"て形 (Permintaan/Urutan) | い-Adj: -い → -くない / -かった\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Bentuk-Te (て形), Kata Sifat-I (い形容詞) & Kata Sifat-Na (な形容詞)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n5-te-form-adjectives-voc-1",
+          "term": "昨日は寒かったですが、今日は暖かいです。",
+          "reading": "Kinō wa samukatta desu ga, kyō wa atatakai desu.",
+          "meaning": "Kemarin dingin, tetapi hari ini hangat.",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: て形 (Permintaan/Urutan) | い-Adj: -い → -くない / -かった",
+          "exampleSentence": "昨日は寒かったですが、今日は暖かいです。",
+          "exampleTranslation": "Kemarin dingin, tetapi hari ini hangat."
+        }
+      ]
+    }
+  ]
+}

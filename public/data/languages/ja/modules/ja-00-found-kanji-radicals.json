@@ -1,0 +1,98 @@
+{
+  "id": "ja-00-found-kanji-radicals",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 104,
+  "title": "Anatomi Kanji (漢字): Urutan Goresan (Hitsujun), Radikal (Bushu), On’yomi & Kun’yomi",
+  "subtitle": "Cara membongkar komponen Kanji dan membedakan bacaan Tionghoa vs asli Jepang",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah & Tiga Sistem Aksara | Anatomi Kanji (漢字): Urutan Goresan (Hitsujun), Radikal (Bushu), On’yomi & Kun’yomi",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-00-found-kanji-radicals-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji",
+              "gloss": "Urutan penguasaan aksara Jepang dari sejarah hingga struktur radikal"
+            },
+            "formula": {
+              "script": "Radical (Makna) + Phonetic Component | On’yomi (Jukugo) vs Kun’yomi (Mandiri)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "水 (みず kun / スイ on) → 水曜日 (Suiyōbi) · 飲料水 (Inryōsui)",
+              "reading": "みず · すいようび · いんりょうすい",
+              "gloss": "Kata majemuk 2+ Kanji umumnya memakai bacaan On’yomi"
+            }
+          },
+          "fullTranslation": "Kata majemuk 2+ Kanji umumnya memakai bacaan On’yomi"
+        },
+        {
+          "id": "ja-00-found-kanji-radicals-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Aksara, Katakana, Hiragana, Kanji & Pitch Accent (Pondasi · Sejarah & Tiga Sistem Aksara)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 40 Entri",
+              "gloss": "Cara membongkar komponen Kanji dan membedakan bacaan Tionghoa vs asli Jepang"
+            },
+            "example": {
+              "script": "水 (みず kun / スイ on) → 水曜日 (Suiyōbi) · 飲料水 (Inryōsui)",
+              "reading": "みず · すいようび · いんりょうすい",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Cara membongkar komponen Kanji dan membedakan bacaan Tionghoa vs asli Jepang — Kata majemuk 2+ Kanji umumnya memakai bacaan On’yomi"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Anatomi Kanji (漢字): Urutan Goresan (Hitsujun), Radikal (Bushu), On’yomi & Kun’yomi\"",
+        "psychologyExplanation": "Cara membongkar komponen Kanji dan membedakan bacaan Tionghoa vs asli Jepang. Dalam kerangka 1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji, penutur asli memetakan hubungan makna menggunakan rumus \"Radical (Makna) + Phonetic Component | On’yomi (Jukugo) vs Kun’yomi (Mandiri)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Anatomi Kanji (漢字): Urutan Goresan (Hitsujun), Radikal (Bushu), On’yomi & Kun’yomi",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-00-found-kanji-radicals-voc-1",
+          "term": "水 (みず kun / スイ on) → 水曜日 (Suiyōbi) · 飲料水 (Inryōsui)",
+          "reading": "みず · すいようび · いんりょうすい",
+          "meaning": "Kata majemuk 2+ Kanji umumnya memakai bacaan On’yomi",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Radical (Makna) + Phonetic Component | On’yomi (Jukugo) vs Kun’yomi (Mandiri)",
+          "exampleSentence": "水 (みず kun / スイ on) → 水曜日 (Suiyōbi) · 飲料水 (Inryōsui)",
+          "exampleTranslation": "Kata majemuk 2+ Kanji umumnya memakai bacaan On’yomi"
+        }
+      ]
+    }
+  ]
+}

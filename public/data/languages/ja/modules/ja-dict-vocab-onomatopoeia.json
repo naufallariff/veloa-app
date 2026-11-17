@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-vocab-onomatopoeia",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 107,
+  "title": "Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+  "subtitle": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Jepang | Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-vocab-onomatopoeia-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata & Kartu Kanji Inti",
+              "gloss": "Kosakata frekuensi tinggi lengkap dengan Furigana dan On/Kun"
+            },
+            "formula": {
+              "script": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+            }
+          },
+          "fullTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        },
+        {
+          "id": "ja-dict-vocab-onomatopoeia-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik"
+            },
+            "example": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik — Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang\"",
+        "psychologyExplanation": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik. Dalam kerangka 1. Kamus Kosakata & Kartu Kanji Inti, penutur asli memetakan hubungan makna menggunakan rumus \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-vocab-onomatopoeia-voc-1",
+          "term": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "perapera · girigiri · shikkari",
+          "meaning": "Sangat sering dipakai dalam percakapan lisan maupun sastra",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+          "exampleSentence": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "exampleTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        }
+      ]
+    }
+  ]
+}

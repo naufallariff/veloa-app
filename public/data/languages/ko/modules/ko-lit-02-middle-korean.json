@@ -1,0 +1,117 @@
+{
+  "id": "ko-lit-02-middle-korean",
+  "lang": "ko",
+  "pillar": "script",
+  "tier": "native",
+  "order": 113,
+  "title": "Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+  "subtitle": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15",
+  "estimatedMinutes": 50,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-02-middle-korean-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Korea (Gukmunhak)",
+              "gloss": "Struktur irama Sijo, aksara klasik Araea (ㆍ), dan estetika Han serta Jeong"
+            },
+            "formula": {
+              "script": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+            }
+          },
+          "fullTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        },
+        {
+          "id": "ko-lit-02-middle-korean-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sijo (시조), Gasa (가사), Jungse Gukeo & Sastra Korea Klasik–Modern (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 24 Entri",
+              "gloss": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15"
+            },
+            "example": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15 — Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom\"",
+        "psychologyExplanation": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15. Dalam kerangka Cabang Sastra & Filologi Korea (Gukmunhak), penutur asli memetakan hubungan makna menggunakan rumus \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-lit-02-middle-korean-voc-1",
+          "term": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "meaning": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+          "exampleSentence": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "exampleTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "overview": "Kurikulum sastra Korea tingkat universitas: puisi 3-bait Sijo, filologi Hangeul kuno, dan prosa modern",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Korea (Gukmunhak)",
+          "nativeTerm": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+          "mechanism": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15",
+          "literaryExample": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "translation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ko-02-beg-particles-speech-levels",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 107,
+  "title": "Partikel Inti (은/는, 이/가, 을/를, 에/에서) & Tiga Tingkat Tutur Utama",
+  "subtitle": "Harmoni vokal (ㅏ/ㅗ → -아요, selainnya → -어요) dan pemilihan partikel berakhiran konsonan/vokal",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK I (Level 1–2) · Dasar | Partikel Inti (은/는, 이/가, 을/를, 에/에서) & Tiga Tingkat Tutur Utama",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-02-beg-particles-speech-levels-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Partikel (조사 Josa) & Konjugasi Akhiran (어미 Eomi)",
+              "gloss": "은/는 vs 이/가, 을/를, 에/에서, serta harmoni vokal terang-gelap"
+            },
+            "formula": {
+              "script": "Konsonan Akhir + 은/이/을 | Vokal Akhir + 는/가/를",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "저는 도서관에서 한국어를 공부해요. (Saya belajar bahasa Korea di perpustakaan)",
+              "reading": "Jeoneun doseogwaneseo Hangugeoreul gongbuhaeyo.",
+              "gloss": "Partikel otomatis menyesuaikan ada tidaknya Batchim pada kata sebelumnya"
+            }
+          },
+          "fullTranslation": "Partikel otomatis menyesuaikan ada tidaknya Batchim pada kata sebelumnya"
+        },
+        {
+          "id": "ko-02-beg-particles-speech-levels-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Penanda (Josa) & Akhiran Predikat Sopan (-ㅂ니다 / -아/어요) (TOPIK I (Level 1–2) · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 36 Entri",
+              "gloss": "Harmoni vokal (ㅏ/ㅗ → -아요, selainnya → -어요) dan pemilihan partikel berakhiran konsonan/vokal"
+            },
+            "example": {
+              "script": "저는 도서관에서 한국어를 공부해요. (Saya belajar bahasa Korea di perpustakaan)",
+              "reading": "Jeoneun doseogwaneseo Hangugeoreul gongbuhaeyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Harmoni vokal (ㅏ/ㅗ → -아요, selainnya → -어요) dan pemilihan partikel berakhiran konsonan/vokal — Partikel otomatis menyesuaikan ada tidaknya Batchim pada kata sebelumnya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Partikel Inti (은/는, 이/가, 을/를, 에/에서) & Tiga Tingkat Tutur Utama\"",
+        "psychologyExplanation": "Harmoni vokal (ㅏ/ㅗ → -아요, selainnya → -어요) dan pemilihan partikel berakhiran konsonan/vokal. Dalam kerangka Cabang A: Partikel (조사 Josa) & Konjugasi Akhiran (어미 Eomi), penutur asli memetakan hubungan makna menggunakan rumus \"Konsonan Akhir + 은/이/을 | Vokal Akhir + 는/가/를\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Partikel Inti (은/는, 이/가, 을/를, 에/에서) & Tiga Tingkat Tutur Utama",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-02-beg-particles-speech-levels-voc-1",
+          "term": "저는 도서관에서 한국어를 공부해요. (Saya belajar bahasa Korea di perpustakaan)",
+          "reading": "Jeoneun doseogwaneseo Hangugeoreul gongbuhaeyo.",
+          "meaning": "Partikel otomatis menyesuaikan ada tidaknya Batchim pada kata sebelumnya",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Konsonan Akhir + 은/이/을 | Vokal Akhir + 는/가/를",
+          "exampleSentence": "저는 도서관에서 한국어를 공부해요. (Saya belajar bahasa Korea di perpustakaan)",
+          "exampleTranslation": "Partikel otomatis menyesuaikan ada tidaknya Batchim pada kata sebelumnya"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-b2-reported-speech",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 129,
+  "title": "Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+  "subtitle": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR B2 · Vantage | Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-reported-speech-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau",
+              "gloss": "Sintaksis tingkat lanjut untuk diskusi analitis"
+            },
+            "formula": {
+              "script": "Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+            }
+          },
+          "fullTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        },
+        {
+          "id": "en-b2-reported-speech-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Klausa Kompleks, Reported Speech & Past Perfect (CEFR B2 · Vantage)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat"
+            },
+            "example": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat — Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs\"",
+        "psychologyExplanation": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat. Dalam kerangka Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau, penutur asli memetakan hubungan makna menggunakan rumus \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-b2-reported-speech-voc-1",
+          "term": "She explained that she had completed the translation the previous day.",
+          "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+          "meaning": "Pergeseran Simple Past menjadi Past Perfect dalam laporan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+          "exampleSentence": "She explained that she had completed the translation the previous day.",
+          "exampleTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        }
+      ]
+    }
+  ]
+}

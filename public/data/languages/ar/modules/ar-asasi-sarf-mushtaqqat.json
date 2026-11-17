@@ -1,0 +1,98 @@
+{
+  "id": "ar-asasi-sarf-mushtaqqat",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 108,
+  "title": "Isim Musytaqqāt Dasar: Isim Fāʿil (Pelaku), Isim Mafʿūl (Objek) & Isim Makān",
+  "subtitle": "Membentuk kata benda turunan dari kata kerja dengan pola baku",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Tamhīdī & Asāsī · Dasar | Isim Musytaqqāt Dasar: Isim Fāʿil (Pelaku), Isim Mafʿūl (Objek) & Isim Makān",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-sarf-mushtaqqat-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: ʿIlmu aṣ-Ṣarf (عِلْمُ الصَّرْفِ · Morfologi & Wazn)",
+              "gloss": "Pembentukan kata dari akar 3 huruf ke berbagai pola (Mīzān Ṣarfī)"
+            },
+            "formula": {
+              "script": "فَاعِلٌ (Pelaku) · مَفْعُولٌ (Objek) · مَفْعَلٌ (Tempat)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "عَلِمَ → عَالِمٌ (orang berilmu) · مَعْلُومٌ (yang diketahui) · مَعْلَمٌ (tanda/tempat)",
+              "reading": "ʿālimun · maʿlūmun · maʿlamun",
+              "gloss": "Pola konsisten berlaku untuk ribuan akar kata Arab"
+            }
+          },
+          "fullTranslation": "Pola konsisten berlaku untuk ribuan akar kata Arab"
+        },
+        {
+          "id": "ar-asasi-sarf-mushtaqqat-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar (Mustawā Tamhīdī & Asāsī · Dasar)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 30 Entri",
+              "gloss": "Membentuk kata benda turunan dari kata kerja dengan pola baku"
+            },
+            "example": {
+              "script": "عَلِمَ → عَالِمٌ (orang berilmu) · مَعْلُومٌ (yang diketahui) · مَعْلَمٌ (tanda/tempat)",
+              "reading": "ʿālimun · maʿlūmun · maʿlamun",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membentuk kata benda turunan dari kata kerja dengan pola baku — Pola konsisten berlaku untuk ribuan akar kata Arab"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Isim Musytaqqāt Dasar: Isim Fāʿil (Pelaku), Isim Mafʿūl (Objek) & Isim Makān\"",
+        "psychologyExplanation": "Membentuk kata benda turunan dari kata kerja dengan pola baku. Dalam kerangka Cabang A: ʿIlmu aṣ-Ṣarf (عِلْمُ الصَّرْفِ · Morfologi & Wazn), penutur asli memetakan hubungan makna menggunakan rumus \"فَاعِلٌ (Pelaku) · مَفْعُولٌ (Objek) · مَفْعَلٌ (Tempat)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Isim Musytaqqāt Dasar: Isim Fāʿil (Pelaku), Isim Mafʿūl (Objek) & Isim Makān",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-asasi-sarf-mushtaqqat-voc-1",
+          "term": "عَلِمَ → عَالِمٌ (orang berilmu) · مَعْلُومٌ (yang diketahui) · مَعْلَمٌ (tanda/tempat)",
+          "reading": "ʿālimun · maʿlūmun · maʿlamun",
+          "meaning": "Pola konsisten berlaku untuk ribuan akar kata Arab",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: فَاعِلٌ (Pelaku) · مَفْعُولٌ (Objek) · مَفْعَلٌ (Tempat)",
+          "exampleSentence": "عَلِمَ → عَالِمٌ (orang berilmu) · مَعْلُومٌ (yang diketahui) · مَعْلَمٌ (tanda/tempat)",
+          "exampleTranslation": "Pola konsisten berlaku untuk ribuan akar kata Arab"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-09-affixation",
+  "lang": "en",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 116,
+  "title": "Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+  "subtitle": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan | Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-09-affixation-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Kolokasi & Word Formation (Prefix–Suffix)",
+              "gloss": "Pasangan kata alami penutur asli serta pembentukan kata lewat afiksasi"
+            },
+            "formula": {
+              "script": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+            }
+          },
+          "fullTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        },
+        {
+          "id": "en-dict-09-affixation-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kolokasi Akademik, Idiom & Simulasi Dialog Real-World (Kamus & Korpus Lanjutan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 42 Entri",
+              "gloss": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya"
+            },
+            "example": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya — Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)\"",
+        "psychologyExplanation": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya. Dalam kerangka 4. Kamus Kolokasi & Word Formation (Prefix–Suffix), penutur asli memetakan hubungan makna menggunakan rumus \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-09-affixation-voc-1",
+          "term": "predict → predictable → unpredictability → unpredictably",
+          "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+          "meaning": "Satu akar kata berkembang menjadi empat kelas kata berbeda",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+          "exampleSentence": "predict → predictable → unpredictability → unpredictably",
+          "exampleTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        }
+      ]
+    }
+  ]
+}

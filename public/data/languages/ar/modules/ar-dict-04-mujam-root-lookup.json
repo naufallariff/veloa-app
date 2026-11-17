@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-04-mujam-root-lookup",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 110,
+  "title": "Seni Mencari Kata di Kamus Arab (Al-Mu‘jam Al-Wasīṭ & Lisān Al-‘Arab)",
+  "subtitle": "Mengupas huruf tambahan (زَوَائِد) untuk menemukan akar 3 huruf (جِذْر ثُلَاثِي)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Arab | Seni Mencari Kata di Kamus Arab (Al-Mu‘jam Al-Wasīṭ & Lisān Al-‘Arab)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-04-mujam-root-lookup-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal",
+              "gloss": "Navigasi kamus akar kata, hukum gender bilangan 1–100, dan hiwār profesional"
+            },
+            "formula": {
+              "script": "Kata Turunan → Buang Huruf Tambahan (س أ ل ت م و ن ي ه ا) → Akar (ف-ع-ل)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "اِسْتِخْرَاجٌ → Akar خ-ر-ج (keluar) | مُسْتَشْفًى → Akar ش-ف-ي (sembuh)",
+              "reading": "istikhrājun (kh-r-j) · mustasyfan (sy-f-y)",
+              "gloss": "Satu akar 3 huruf menurunkan puluhan kosakata yang saling terhubung maknanya"
+            }
+          },
+          "fullTranslation": "Satu akar 3 huruf menurunkan puluhan kosakata yang saling terhubung maknanya"
+        },
+        {
+          "id": "ar-dict-04-mujam-root-lookup-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kamus Akar Kata (Mu‘jam), Bilangan (‘Adad-Ma‘dūd) & Hiwār Akademik (Kamus & Korpus Lanjutan Arab)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 40 Entri",
+              "gloss": "Mengupas huruf tambahan (زَوَائِد) untuk menemukan akar 3 huruf (جِذْر ثُلَاثِي)"
+            },
+            "example": {
+              "script": "اِسْتِخْرَاجٌ → Akar خ-ر-ج (keluar) | مُسْتَشْفًى → Akar ش-ف-ي (sembuh)",
+              "reading": "istikhrājun (kh-r-j) · mustasyfan (sy-f-y)",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengupas huruf tambahan (زَوَائِد) untuk menemukan akar 3 huruf (جِذْر ثُلَاثِي) — Satu akar 3 huruf menurunkan puluhan kosakata yang saling terhubung maknanya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Seni Mencari Kata di Kamus Arab (Al-Mu‘jam Al-Wasīṭ & Lisān Al-‘Arab)\"",
+        "psychologyExplanation": "Mengupas huruf tambahan (زَوَائِد) untuk menemukan akar 3 huruf (جِذْر ثُلَاثِي). Dalam kerangka 4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal, penutur asli memetakan hubungan makna menggunakan rumus \"Kata Turunan → Buang Huruf Tambahan (س أ ل ت م و ن ي ه ا) → Akar (ف-ع-ل)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Seni Mencari Kata di Kamus Arab (Al-Mu‘jam Al-Wasīṭ & Lisān Al-‘Arab)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-04-mujam-root-lookup-voc-1",
+          "term": "اِسْتِخْرَاجٌ → Akar خ-ر-ج (keluar) | مُسْتَشْفًى → Akar ش-ف-ي (sembuh)",
+          "reading": "istikhrājun (kh-r-j) · mustasyfan (sy-f-y)",
+          "meaning": "Satu akar 3 huruf menurunkan puluhan kosakata yang saling terhubung maknanya",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Kata Turunan → Buang Huruf Tambahan (س أ ل ت م و ن ي ه ا) → Akar (ف-ع-ل)",
+          "exampleSentence": "اِسْتِخْرَاجٌ → Akar خ-ر-ج (keluar) | مُسْتَشْفًى → Akar ش-ف-ي (sembuh)",
+          "exampleTranslation": "Satu akar 3 huruf menurunkan puluhan kosakata yang saling terhubung maknanya"
+        }
+      ]
+    }
+  ]
+}

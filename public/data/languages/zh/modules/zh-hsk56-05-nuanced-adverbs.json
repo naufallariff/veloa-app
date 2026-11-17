@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk56-05-nuanced-adverbs",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "advanced",
+  "order": 132,
+  "title": "Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+  "subtitle": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal | Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6",
+              "gloss": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis"
+            },
+            "formula": {
+              "script": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+            }
+          },
+          "fullTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        },
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana (HSK 5–6 · Konjungsi Kompleks & Retorika Formal)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 36 Entri",
+              "gloss": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi"
+            },
+            "example": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi — Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然\"",
+        "psychologyExplanation": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi. Dalam kerangka Cabang B: Konektor Wacana & Struktur Formal HSK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-voc-1",
+          "term": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+          "meaning": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+          "exampleSentence": "天气预报说今天有雪，下午果然下起雪来了。",
+          "exampleTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        }
+      ]
+    }
+  ]
+}

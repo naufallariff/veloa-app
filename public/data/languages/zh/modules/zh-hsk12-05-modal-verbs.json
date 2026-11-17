@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk12-05-modal-verbs",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 123,
+  "title": "Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+  "subtitle": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu | Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-05-modal-verbs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)",
+              "gloss": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin"
+            },
+            "formula": {
+              "script": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+            }
+          },
+          "fullTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        },
+        {
+          "id": "zh-hsk12-05-modal-verbs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi (HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik"
+            },
+            "example": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik — Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)\"",
+        "psychologyExplanation": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik. Dalam kerangka Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk12-05-modal-verbs-voc-1",
+          "term": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+          "meaning": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+          "exampleSentence": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "exampleTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik1-tenses-connectors",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 108,
+  "title": "Kala Lampau (-았/었어요), Masa Depan (-(으)ㄹ 거예요) & Kata Hubung (-고, -아서/어서)",
+  "subtitle": "Menyatakan urutan tindakan dan hubungan sebab-akibat dasar",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK I (Level 1–2) · Dasar | Kala Lampau (-았/었어요), Masa Depan (-(으)ㄹ 거예요) & Kata Hubung (-고, -아서/어서)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-tenses-connectors-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Partikel (조사 Josa) & Konjugasi Akhiran (어미 Eomi)",
+              "gloss": "은/는 vs 이/가, 을/를, 에/에서, serta harmoni vokal terang-gelap"
+            },
+            "formula": {
+              "script": "Stem + 았/었 (Lampau) | Stem + (으)ㄹ 것이다 (Rencana/Prediksi)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "어제 비가 와서 집에 있었어요. (Karena kemarin hujan, saya di rumah)",
+              "reading": "Eoje biga waseo jibe isseosseoyo.",
+              "gloss": "Akhiran -아서/어서 tidak boleh digabung dengan akhiran lampau di tengah klausa"
+            }
+          },
+          "fullTranslation": "Akhiran -아서/어서 tidak boleh digabung dengan akhiran lampau di tengah klausa"
+        },
+        {
+          "id": "ko-topik1-tenses-connectors-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Partikel Penanda (Josa) & Akhiran Predikat Sopan (-ㅂ니다 / -아/어요) (TOPIK I (Level 1–2) · Dasar)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 34 Entri",
+              "gloss": "Menyatakan urutan tindakan dan hubungan sebab-akibat dasar"
+            },
+            "example": {
+              "script": "어제 비가 와서 집에 있었어요. (Karena kemarin hujan, saya di rumah)",
+              "reading": "Eoje biga waseo jibe isseosseoyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan urutan tindakan dan hubungan sebab-akibat dasar — Akhiran -아서/어서 tidak boleh digabung dengan akhiran lampau di tengah klausa"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kala Lampau (-았/었어요), Masa Depan (-(으)ㄹ 거예요) & Kata Hubung (-고, -아서/어서)\"",
+        "psychologyExplanation": "Menyatakan urutan tindakan dan hubungan sebab-akibat dasar. Dalam kerangka Cabang A: Partikel (조사 Josa) & Konjugasi Akhiran (어미 Eomi), penutur asli memetakan hubungan makna menggunakan rumus \"Stem + 았/었 (Lampau) | Stem + (으)ㄹ 것이다 (Rencana/Prediksi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kala Lampau (-았/었어요), Masa Depan (-(으)ㄹ 거예요) & Kata Hubung (-고, -아서/어서)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik1-tenses-connectors-voc-1",
+          "term": "어제 비가 와서 집에 있었어요. (Karena kemarin hujan, saya di rumah)",
+          "reading": "Eoje biga waseo jibe isseosseoyo.",
+          "meaning": "Akhiran -아서/어서 tidak boleh digabung dengan akhiran lampau di tengah klausa",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Stem + 았/었 (Lampau) | Stem + (으)ㄹ 것이다 (Rencana/Prediksi)",
+          "exampleSentence": "어제 비가 와서 집에 있었어요. (Karena kemarin hujan, saya di rumah)",
+          "exampleTranslation": "Akhiran -아서/어서 tidak boleh digabung dengan akhiran lampau di tengah klausa"
+        }
+      ]
+    }
+  ]
+}

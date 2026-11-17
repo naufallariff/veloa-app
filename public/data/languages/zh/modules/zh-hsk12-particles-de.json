@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk12-particles-de",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 110,
+  "title": "Tiga Partikel De (的 · 得多/地 · 得): Kepemilikan, Adverbia & Pelengkap",
+  "subtitle": "Membedakan fungsi 的 (modifikator nomina), 地 (adverbia), dan 得 (komplemen)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 1–2 · Dasar | Tiga Partikel De (的 · 得多/地 · 得): Kepemilikan, Adverbia & Pelengkap",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-particles-de-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Sintaksis Dasar & Urutan Waktu-Tempat",
+              "gloss": "Hukum posisi keterangan waktu dan tempat sebelum kata kerja"
+            },
+            "formula": {
+              "script": "Nomina + 的 + Nomina | Adj + 地 + Verb | Verb + 得 + Komponen Hasil/Derajat",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "他跑得很快。(Dia berlari sangat cepat) · 我的中文书 (Buku Mandarinku)",
+              "reading": "Tā pǎo de hěn kuài. · Wǒ de Zhōngwén shū",
+              "gloss": "Ketiga partikel berbunyi \"de\" namun memiliki fungsi sintaksis berbeda"
+            }
+          },
+          "fullTranslation": "Ketiga partikel berbunyi \"de\" namun memiliki fungsi sintaksis berbeda"
+        },
+        {
+          "id": "zh-hsk12-particles-de-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Urutan Kata STPVO & Tiga Tipe Predikat Mandarin (HSK 1–2 · Dasar)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Membedakan fungsi 的 (modifikator nomina), 地 (adverbia), dan 得 (komplemen)"
+            },
+            "example": {
+              "script": "他跑得很快。(Dia berlari sangat cepat) · 我的中文书 (Buku Mandarinku)",
+              "reading": "Tā pǎo de hěn kuài. · Wǒ de Zhōngwén shū",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan fungsi 的 (modifikator nomina), 地 (adverbia), dan 得 (komplemen) — Ketiga partikel berbunyi \"de\" namun memiliki fungsi sintaksis berbeda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Tiga Partikel De (的 · 得多/地 · 得): Kepemilikan, Adverbia & Pelengkap\"",
+        "psychologyExplanation": "Membedakan fungsi 的 (modifikator nomina), 地 (adverbia), dan 得 (komplemen). Dalam kerangka Cabang A: Sintaksis Dasar & Urutan Waktu-Tempat, penutur asli memetakan hubungan makna menggunakan rumus \"Nomina + 的 + Nomina | Adj + 地 + Verb | Verb + 得 + Komponen Hasil/Derajat\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Tiga Partikel De (的 · 得多/地 · 得): Kepemilikan, Adverbia & Pelengkap",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk12-particles-de-voc-1",
+          "term": "他跑得很快。(Dia berlari sangat cepat) · 我的中文书 (Buku Mandarinku)",
+          "reading": "Tā pǎo de hěn kuài. · Wǒ de Zhōngwén shū",
+          "meaning": "Ketiga partikel berbunyi \"de\" namun memiliki fungsi sintaksis berbeda",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Nomina + 的 + Nomina | Adj + 地 + Verb | Verb + 得 + Komponen Hasil/Derajat",
+          "exampleSentence": "他跑得很快。(Dia berlari sangat cepat) · 我的中文书 (Buku Mandarinku)",
+          "exampleTranslation": "Ketiga partikel berbunyi \"de\" namun memiliki fungsi sintaksis berbeda"
+        }
+      ]
+    }
+  ]
+}

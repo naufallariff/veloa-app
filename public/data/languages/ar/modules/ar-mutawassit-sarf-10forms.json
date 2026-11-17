@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutawassit-sarf-10forms",
+  "lang": "ar",
+  "pillar": "morphology",
+  "tier": "intermediate",
+  "order": 111,
+  "title": "10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+  "subtitle": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Mustawā Mutawassiṭ · Menengah | 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-sarf-10forms-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh",
+              "gloss": "10 Wazn utama (Faʿala–Istafʿala) serta Kāna wa Akhawātuhā dan Inna wa Akhawātuhā"
+            },
+            "formula": {
+              "script": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+            }
+          },
+          "fullTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        },
+        {
+          "id": "ar-mutawassit-sarf-10forms-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Ṣaraf Mazīd (10 Wazn) & Naḥwu Nawāsikh (Kāna & Inna) (Mustawā Mutawassiṭ · Menengah)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan"
+            },
+            "example": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan — Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)\"",
+        "psychologyExplanation": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan. Dalam kerangka Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh, penutur asli memetakan hubungan makna menggunakan rumus \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutawassit-sarf-10forms-voc-1",
+          "term": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "ghafara → istaghfara",
+          "meaning": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+          "exampleSentence": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "exampleTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        }
+      ]
+    }
+  ]
+}

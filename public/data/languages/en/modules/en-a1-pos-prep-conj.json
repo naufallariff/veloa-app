@@ -1,0 +1,98 @@
+{
+  "id": "en-a1-pos-prep-conj",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 115,
+  "title": "Prepositions of Time & Place (in/on/at) & Basic Conjunctions",
+  "subtitle": "Kata depan ruang-waktu dan kata hubung dasar (and, but, or, because)",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1 · Breakthrough | Prepositions of Time & Place (in/on/at) & Basic Conjunctions",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-pos-prep-conj-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Part of Speech (Kelas Kata Dasar)",
+              "gloss": "Mengenali fungsi setiap jenis kata sebelum menyusun kalimat"
+            },
+            "formula": {
+              "script": "AT (titik tepat) · ON (hari/permukaan) · IN (ruang/bulan/tahun)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "at 7 AM · on Monday · in Jakarta · in 2026",
+              "reading": "/æt ˈsev.ən eɪˈem/ · /ɒn ˈmʌn.deɪ/",
+              "gloss": "Segitiga presisi preposisi waktu dan tempat"
+            }
+          },
+          "fullTranslation": "Segitiga presisi preposisi waktu dan tempat"
+        },
+        {
+          "id": "en-a1-pos-prep-conj-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Kata depan ruang-waktu dan kata hubung dasar (and, but, or, because)"
+            },
+            "example": {
+              "script": "at 7 AM · on Monday · in Jakarta · in 2026",
+              "reading": "/æt ˈsev.ən eɪˈem/ · /ɒn ˈmʌn.deɪ/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kata depan ruang-waktu dan kata hubung dasar (and, but, or, because) — Segitiga presisi preposisi waktu dan tempat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Prepositions of Time & Place (in/on/at) & Basic Conjunctions\"",
+        "psychologyExplanation": "Kata depan ruang-waktu dan kata hubung dasar (and, but, or, because). Dalam kerangka Cabang A: Part of Speech (Kelas Kata Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"AT (titik tepat) · ON (hari/permukaan) · IN (ruang/bulan/tahun)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Prepositions of Time & Place (in/on/at) & Basic Conjunctions",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a1-pos-prep-conj-voc-1",
+          "term": "at 7 AM · on Monday · in Jakarta · in 2026",
+          "reading": "/æt ˈsev.ən eɪˈem/ · /ɒn ˈmʌn.deɪ/",
+          "meaning": "Segitiga presisi preposisi waktu dan tempat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: AT (titik tepat) · ON (hari/permukaan) · IN (ruang/bulan/tahun)",
+          "exampleSentence": "at 7 AM · on Monday · in Jakarta · in 2026",
+          "exampleTranslation": "Segitiga presisi preposisi waktu dan tempat"
+        }
+      ]
+    }
+  ]
+}

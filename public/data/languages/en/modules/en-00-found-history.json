@@ -1,0 +1,98 @@
+{
+  "id": "en-00-found-history",
+  "lang": "en",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 101,
+  "title": "Sejarah Bahasa Inggris: Anglo-Saxon, Viking & Pengaruh Prancis-Norman",
+  "subtitle": "Mengapa ejaan bahasa Inggris sering berbeda dari pelafalannya",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Opsional & Terbuka | Sejarah Bahasa Inggris: Anglo-Saxon, Viking & Pengaruh Prancis-Norman",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-00-found-history-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Sejarah Bahasa & Sistem Ortografi",
+              "gloss": "Evolusi Old English ke Modern English serta hukum ejaan"
+            },
+            "formula": {
+              "script": "Germanic Core + Old Norse + Norman French Lexicon",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "ask (Germanic) vs question (French) vs interrogate (Latin)",
+              "reading": "/æsk/ · /ˈkwes.tʃən/ · /ɪnˈter.ə.ɡeɪt/",
+              "gloss": "Tiga lapisan register kosakata Inggris dari sejarah berbeda"
+            }
+          },
+          "fullTranslation": "Tiga lapisan register kosakata Inggris dari sejarah berbeda"
+        },
+        {
+          "id": "en-00-found-history-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah, Ortografi Alfabet & Fonetik IPA (Pondasi · Opsional & Terbuka)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 18 Entri",
+              "gloss": "Mengapa ejaan bahasa Inggris sering berbeda dari pelafalannya"
+            },
+            "example": {
+              "script": "ask (Germanic) vs question (French) vs interrogate (Latin)",
+              "reading": "/æsk/ · /ˈkwes.tʃən/ · /ɪnˈter.ə.ɡeɪt/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa ejaan bahasa Inggris sering berbeda dari pelafalannya — Tiga lapisan register kosakata Inggris dari sejarah berbeda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sejarah Bahasa Inggris: Anglo-Saxon, Viking & Pengaruh Prancis-Norman\"",
+        "psychologyExplanation": "Mengapa ejaan bahasa Inggris sering berbeda dari pelafalannya. Dalam kerangka 1. Sejarah Bahasa & Sistem Ortografi, penutur asli memetakan hubungan makna menggunakan rumus \"Germanic Core + Old Norse + Norman French Lexicon\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sejarah Bahasa Inggris: Anglo-Saxon, Viking & Pengaruh Prancis-Norman",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-00-found-history-voc-1",
+          "term": "ask (Germanic) vs question (French) vs interrogate (Latin)",
+          "reading": "/æsk/ · /ˈkwes.tʃən/ · /ɪnˈter.ə.ɡeɪt/",
+          "meaning": "Tiga lapisan register kosakata Inggris dari sejarah berbeda",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Germanic Core + Old Norse + Norman French Lexicon",
+          "exampleSentence": "ask (Germanic) vs question (French) vs interrogate (Latin)",
+          "exampleTranslation": "Tiga lapisan register kosakata Inggris dari sejarah berbeda"
+        }
+      ]
+    }
+  ]
+}

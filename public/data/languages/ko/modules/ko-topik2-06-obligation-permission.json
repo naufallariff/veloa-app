@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik2-06-obligation-permission",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 121,
+  "title": "Keharusan (-아/어야 되다/하다), Izin (-아/어도 되다) & Larangan (-(으)면 안 되다)",
+  "subtitle": "Menyatakan aturan, kewajiban, dan izin secara sopan dalam percakapan",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea | Keharusan (-아/어야 되다/하다), Izin (-아/어도 되다) & Larangan (-(으)면 안 되다)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik2-06-obligation-permission-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)",
+              "gloss": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar"
+            },
+            "formula": {
+              "script": "V + -아/어야 돼요 (Harus) | V + -아/어도 돼요 (Boleh) | V + -(으)면 안 돼요 (Dilarang)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "박물관 안에서는 사진을 찍으면 안 돼요. 밖에서 찍어도 돼요.",
+              "reading": "Bangmulgwan aneseoneun sajineul jjigeumyeon an dwaeyo. Bakkeseo jjigeodo dwaeyo.",
+              "gloss": "Di dalam museum tidak boleh memotret. Di luar boleh memotret."
+            }
+          },
+          "fullTranslation": "Di dalam museum tidak boleh memotret. Di luar boleh memotret."
+        },
+        {
+          "id": "ko-topik2-06-obligation-permission-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan (TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Menyatakan aturan, kewajiban, dan izin secara sopan dalam percakapan"
+            },
+            "example": {
+              "script": "박물관 안에서는 사진을 찍으면 안 돼요. 밖에서 찍어도 돼요.",
+              "reading": "Bangmulgwan aneseoneun sajineul jjigeumyeon an dwaeyo. Bakkeseo jjigeodo dwaeyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan aturan, kewajiban, dan izin secara sopan dalam percakapan — Di dalam museum tidak boleh memotret. Di luar boleh memotret."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Keharusan (-아/어야 되다/하다), Izin (-아/어도 되다) & Larangan (-(으)면 안 되다)\"",
+        "psychologyExplanation": "Menyatakan aturan, kewajiban, dan izin secara sopan dalam percakapan. Dalam kerangka Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"V + -아/어야 돼요 (Harus) | V + -아/어도 돼요 (Boleh) | V + -(으)면 안 돼요 (Dilarang)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Keharusan (-아/어야 되다/하다), Izin (-아/어도 되다) & Larangan (-(으)면 안 되다)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik2-06-obligation-permission-voc-1",
+          "term": "박물관 안에서는 사진을 찍으면 안 돼요. 밖에서 찍어도 돼요.",
+          "reading": "Bangmulgwan aneseoneun sajineul jjigeumyeon an dwaeyo. Bakkeseo jjigeodo dwaeyo.",
+          "meaning": "Di dalam museum tidak boleh memotret. Di luar boleh memotret.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: V + -아/어야 돼요 (Harus) | V + -아/어도 돼요 (Boleh) | V + -(으)면 안 돼요 (Dilarang)",
+          "exampleSentence": "박물관 안에서는 사진을 찍으면 안 돼요. 밖에서 찍어도 돼요.",
+          "exampleTranslation": "Di dalam museum tidak boleh memotret. Di luar boleh memotret."
+        }
+      ]
+    }
+  ]
+}

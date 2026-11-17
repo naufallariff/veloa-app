@@ -1,0 +1,98 @@
+{
+  "id": "ar-found-05-hamzah-rules",
+  "lang": "ar",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 105,
+  "title": "Hukum Penulisan Hamzah: Hamzah Washl vs Qath‘ serta Kursi Hamzah (أ إ ؤ ئ ء)",
+  "subtitle": "Menentukan dudukan Hamzah di awal, tengah, dan akhir kata berdasarkan kekuatan harakat",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd | Hukum Penulisan Hamzah: Hamzah Washl vs Qath‘ serta Kursi Hamzah (أ إ ؤ ئ ء)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-found-05-hamzah-rules-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan",
+              "gloss": "Perbedaan Alif-Lam Qamariyyah/Syamsiyyah, kursi Hamzah, dan hukum Nun Mati/Tanwin"
+            },
+            "formula": {
+              "script": "Hirarki Harakat: Kasrah (ئ) > Dhammah (ؤ) > Fathah (أ) > Sukūn (ء)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "سُئِلَ (su’ila) · مُؤْمِنٌ (mu’minun) · سَأَلَ (sa’ala) · سَمَاءٌ (samā’un)",
+              "reading": "su’ila · mu’minun · sa’ala · samā’un",
+              "gloss": "Ortografi Hamzah mengikuti perbandingan harakat Hamzah dan huruf sebelumnya"
+            }
+          },
+          "fullTranslation": "Ortografi Hamzah mengikuti perbandingan harakat Hamzah dan huruf sebelumnya"
+        },
+        {
+          "id": "ar-found-05-hamzah-rules-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Al-Qamariyyah vs Asy-Syamsiyyah, Hamzah Washl/Qath‘ & Waqf (Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 30 Entri",
+              "gloss": "Menentukan dudukan Hamzah di awal, tengah, dan akhir kata berdasarkan kekuatan harakat"
+            },
+            "example": {
+              "script": "سُئِلَ (su’ila) · مُؤْمِنٌ (mu’minun) · سَأَلَ (sa’ala) · سَمَاءٌ (samā’un)",
+              "reading": "su’ila · mu’minun · sa’ala · samā’un",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menentukan dudukan Hamzah di awal, tengah, dan akhir kata berdasarkan kekuatan harakat — Ortografi Hamzah mengikuti perbandingan harakat Hamzah dan huruf sebelumnya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Hukum Penulisan Hamzah: Hamzah Washl vs Qath‘ serta Kursi Hamzah (أ إ ؤ ئ ء)\"",
+        "psychologyExplanation": "Menentukan dudukan Hamzah di awal, tengah, dan akhir kata berdasarkan kekuatan harakat. Dalam kerangka 2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"Hirarki Harakat: Kasrah (ئ) > Dhammah (ؤ) > Fathah (أ) > Sukūn (ء)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Hukum Penulisan Hamzah: Hamzah Washl vs Qath‘ serta Kursi Hamzah (أ إ ؤ ئ ء)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-found-05-hamzah-rules-voc-1",
+          "term": "سُئِلَ (su’ila) · مُؤْمِنٌ (mu’minun) · سَأَلَ (sa’ala) · سَمَاءٌ (samā’un)",
+          "reading": "su’ila · mu’minun · sa’ala · samā’un",
+          "meaning": "Ortografi Hamzah mengikuti perbandingan harakat Hamzah dan huruf sebelumnya",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Hirarki Harakat: Kasrah (ئ) > Dhammah (ؤ) > Fathah (أ) > Sukūn (ء)",
+          "exampleSentence": "سُئِلَ (su’ila) · مُؤْمِنٌ (mu’minun) · سَأَلَ (sa’ala) · سَمَاءٌ (samā’un)",
+          "exampleTranslation": "Ortografi Hamzah mengikuti perbandingan harakat Hamzah dan huruf sebelumnya"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./liquid-glass.tokens.css";
 @import "./veloa-tokens.css";
 
 @layer base {

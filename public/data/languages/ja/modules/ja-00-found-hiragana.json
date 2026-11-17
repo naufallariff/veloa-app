@@ -1,0 +1,98 @@
+{
+  "id": "ja-00-found-hiragana",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 103,
+  "title": "Hiragana (ひらがな) Lengkap: Gojūon, Sokuon (っ) & Aturan Ejaan Partikel",
+  "subtitle": "Aksara melengkung tulang punggung tata bahasa dan okurigana Jepang",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Sejarah & Tiga Sistem Aksara | Hiragana (ひらがな) Lengkap: Gojūon, Sokuon (っ) & Aturan Ejaan Partikel",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-00-found-hiragana-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji",
+              "gloss": "Urutan penguasaan aksara Jepang dari sejarah hingga struktur radikal"
+            },
+            "formula": {
+              "script": "Gojūon + Konsonan Ganda (っ) + Pelafalan Khusus Partikel は/を/へ",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "こんにちは · 学校 (がっこう) · 東京 (とうきょう)",
+              "reading": "konnichiwa · gakkō · Tōkyō",
+              "gloss": "Partikel は dibaca \"wa\" dan を dibaca \"o\" dalam kalimat"
+            }
+          },
+          "fullTranslation": "Partikel は dibaca \"wa\" dan を dibaca \"o\" dalam kalimat"
+        },
+        {
+          "id": "ja-00-found-hiragana-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Sejarah Aksara, Katakana, Hiragana, Kanji & Pitch Accent (Pondasi · Sejarah & Tiga Sistem Aksara)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 71 Entri",
+              "gloss": "Aksara melengkung tulang punggung tata bahasa dan okurigana Jepang"
+            },
+            "example": {
+              "script": "こんにちは · 学校 (がっこう) · 東京 (とうきょう)",
+              "reading": "konnichiwa · gakkō · Tōkyō",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Aksara melengkung tulang punggung tata bahasa dan okurigana Jepang — Partikel は dibaca \"wa\" dan を dibaca \"o\" dalam kalimat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Hiragana (ひらがな) Lengkap: Gojūon, Sokuon (っ) & Aturan Ejaan Partikel\"",
+        "psychologyExplanation": "Aksara melengkung tulang punggung tata bahasa dan okurigana Jepang. Dalam kerangka 1. Alur Aksara: Sejarah → Katakana → Hiragana → Kanji, penutur asli memetakan hubungan makna menggunakan rumus \"Gojūon + Konsonan Ganda (っ) + Pelafalan Khusus Partikel は/を/へ\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Hiragana (ひらがな) Lengkap: Gojūon, Sokuon (っ) & Aturan Ejaan Partikel",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-00-found-hiragana-voc-1",
+          "term": "こんにちは · 学校 (がっこう) · 東京 (とうきょう)",
+          "reading": "konnichiwa · gakkō · Tōkyō",
+          "meaning": "Partikel は dibaca \"wa\" dan を dibaca \"o\" dalam kalimat",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Gojūon + Konsonan Ganda (っ) + Pelafalan Khusus Partikel は/を/へ",
+          "exampleSentence": "こんにちは · 学校 (がっこう) · 東京 (とうきょう)",
+          "exampleTranslation": "Partikel は dibaca \"wa\" dan を dibaca \"o\" dalam kalimat"
+        }
+      ]
+    }
+  ]
+}

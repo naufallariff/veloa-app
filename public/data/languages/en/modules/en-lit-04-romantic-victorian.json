@@ -1,0 +1,117 @@
+{
+  "id": "en-lit-04-romantic-victorian",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 156,
+  "title": "Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson",
+  "subtitle": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan | Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-04-romantic-victorian-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+              "gloss": "Romantisisme, Modernisme, sudut pandang naratif, dan pergeseran makna kata"
+            },
+            "formula": {
+              "script": "Imagery + Enjambment + Dramatic Monologue",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Beauty is truth, truth beauty,—that is all Ye know on earth (John Keats)",
+              "reading": "/ˈbjuː.ti ɪz truːθ, truːθ ˈbjuː.ti/",
+              "gloss": "Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)"
+            }
+          },
+          "fullTranslation": "Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)"
+        },
+        {
+          "id": "en-lit-04-romantic-victorian-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Modernis, Kritik Sastra & Sejarah Etimologi Leksikon (Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 25 Entri",
+              "gloss": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik"
+            },
+            "example": {
+              "script": "Beauty is truth, truth beauty,—that is all Ye know on earth (John Keats)",
+              "reading": "/ˈbjuː.ti ɪz truːθ, truːθ ˈbjuː.ti/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik — Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson\"",
+        "psychologyExplanation": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik. Dalam kerangka Cabang Sastra Modernis, Naratologi & Semantik Historis, penutur asli memetakan hubungan makna menggunakan rumus \"Imagery + Enjambment + Dramatic Monologue\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-lit-04-romantic-victorian-voc-1",
+          "term": "Beauty is truth, truth beauty,—that is all Ye know on earth (John Keats)",
+          "reading": "/ˈbjuː.ti ɪz truːθ, truːθ ˈbjuː.ti/",
+          "meaning": "Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Imagery + Enjambment + Dramatic Monologue",
+          "exampleSentence": "Beauty is truth, truth beauty,—that is all Ye know on earth (John Keats)",
+          "exampleTranslation": "Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Puisi Romantik & Era Victoria: Wordsworth, Keats, Shelley & Tennyson",
+      "traditionName": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Inggris: aliran kesusastraan, naratologi, dan semantik historis",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
+          "nativeTerm": "Imagery + Enjambment + Dramatic Monologue",
+          "mechanism": "Eksplorasi imaji alam, ode klasik, dan monolog dramatik",
+          "literaryExample": "Beauty is truth, truth beauty,—that is all Ye know on earth (John Keats)",
+          "reading": "/ˈbjuː.ti ɪz truːθ, truːθ ˈbjuː.ti/",
+          "translation": "Bait penutup ikonik dari \"Ode on a Grecian Urn\" (1819)",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

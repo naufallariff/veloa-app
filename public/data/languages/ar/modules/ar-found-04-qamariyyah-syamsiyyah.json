@@ -1,0 +1,98 @@
+{
+  "id": "ar-found-04-qamariyyah-syamsiyyah",
+  "lang": "ar",
+  "pillar": "phonetics",
+  "tier": "foundation",
+  "order": 104,
+  "title": "Al-Qamariyyah (الْقَمَرِيَّة) vs Asy-Syamsiyyah (الشَّمْسِيَّة) & Hamzah Washl (ٱ)",
+  "subtitle": "Asimilasi bunyi Lam (ل) ke dalam 14 huruf Syamsiyyah saat membaca kalimat bersambung",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd | Al-Qamariyyah (الْقَمَرِيَّة) vs Asy-Syamsiyyah (الشَّمْسِيَّة) & Hamzah Washl (ٱ)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-found-04-qamariyyah-syamsiyyah-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan",
+              "gloss": "Perbedaan Alif-Lam Qamariyyah/Syamsiyyah, kursi Hamzah, dan hukum Nun Mati/Tanwin"
+            },
+            "formula": {
+              "script": "ال + 14 Huruf Syamsiyyah (ت ث د ذ ر ز س ش ص ض ط ظ ل ن) → Tasydīd",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "الْقَمَرُ (al-qamaru) vs الشَّمْسُ (asy-syamsu) · فِي الْبَيْتِ (fil-bayti)",
+              "reading": "al-qamaru vs asy-syamsu · fil-bayti",
+              "gloss": "Lam tetap tertulis dalam ortografi namun melebur secara fonetis pada huruf Syamsiyyah"
+            }
+          },
+          "fullTranslation": "Lam tetap tertulis dalam ortografi namun melebur secara fonetis pada huruf Syamsiyyah"
+        },
+        {
+          "id": "ar-found-04-qamariyyah-syamsiyyah-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Al-Qamariyyah vs Asy-Syamsiyyah, Hamzah Washl/Qath‘ & Waqf (Pondasi Lanjutan · Fonetik, Ortografi & Tajwīd)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 32 Entri",
+              "gloss": "Asimilasi bunyi Lam (ل) ke dalam 14 huruf Syamsiyyah saat membaca kalimat bersambung"
+            },
+            "example": {
+              "script": "الْقَمَرُ (al-qamaru) vs الشَّمْسُ (asy-syamsu) · فِي الْبَيْتِ (fil-bayti)",
+              "reading": "al-qamaru vs asy-syamsu · fil-bayti",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Asimilasi bunyi Lam (ل) ke dalam 14 huruf Syamsiyyah saat membaca kalimat bersambung — Lam tetap tertulis dalam ortografi namun melebur secara fonetis pada huruf Syamsiyyah"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Al-Qamariyyah (الْقَمَرِيَّة) vs Asy-Syamsiyyah (الشَّمْسِيَّة) & Hamzah Washl (ٱ)\"",
+        "psychologyExplanation": "Asimilasi bunyi Lam (ل) ke dalam 14 huruf Syamsiyyah saat membaca kalimat bersambung. Dalam kerangka 2. Ortografi Hamzah, Lam Ta‘rif & Kaidah Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"ال + 14 Huruf Syamsiyyah (ت ث د ذ ر ز س ش ص ض ط ظ ل ن) → Tasydīd\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Al-Qamariyyah (الْقَمَرِيَّة) vs Asy-Syamsiyyah (الشَّمْسِيَّة) & Hamzah Washl (ٱ)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-found-04-qamariyyah-syamsiyyah-voc-1",
+          "term": "الْقَمَرُ (al-qamaru) vs الشَّمْسُ (asy-syamsu) · فِي الْبَيْتِ (fil-bayti)",
+          "reading": "al-qamaru vs asy-syamsu · fil-bayti",
+          "meaning": "Lam tetap tertulis dalam ortografi namun melebur secara fonetis pada huruf Syamsiyyah",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: ال + 14 Huruf Syamsiyyah (ت ث د ذ ر ز س ش ص ض ط ظ ل ن) → Tasydīd",
+          "exampleSentence": "الْقَمَرُ (al-qamaru) vs الشَّمْسُ (asy-syamsu) · فِي الْبَيْتِ (fil-bayti)",
+          "exampleTranslation": "Lam tetap tertulis dalam ortografi namun melebur secara fonetis pada huruf Syamsiyyah"
+        }
+      ]
+    }
+  ]
+}

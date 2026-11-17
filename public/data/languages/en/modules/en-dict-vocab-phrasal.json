@@ -1,0 +1,98 @@
+{
+  "id": "en-dict-vocab-phrasal",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 107,
+  "title": "Phrasal Verbs & Idiom Esensial Penutur Asli",
+  "subtitle": "Gabungan Verb + Preposition yang mengubah makna harfiah",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Praktis | Phrasal Verbs & Idiom Esensial Penutur Asli",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-vocab-phrasal-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata Tematik (Core Lexicon)",
+              "gloss": "Kata kerja frekuensi tinggi, kata sifat nuansa, dan kolokasi"
+            },
+            "formula": {
+              "script": "Verb + Particle (Separable vs Inseparable)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "figure out · put off · look forward to · bring up",
+              "reading": "/ˈfɪɡ.jər aʊt/ · /pʊt ɒf/",
+              "gloss": "Menemukan solusi · Menunda · Menantikan · Mengangkat topik"
+            }
+          },
+          "fullTranslation": "Menemukan solusi · Menunda · Menantikan · Mengangkat topik"
+        },
+        {
+          "id": "en-dict-vocab-phrasal-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 50 Entri",
+              "gloss": "Gabungan Verb + Preposition yang mengubah makna harfiah"
+            },
+            "example": {
+              "script": "figure out · put off · look forward to · bring up",
+              "reading": "/ˈfɪɡ.jər aʊt/ · /pʊt ɒf/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Gabungan Verb + Preposition yang mengubah makna harfiah — Menemukan solusi · Menunda · Menantikan · Mengangkat topik"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Phrasal Verbs & Idiom Esensial Penutur Asli\"",
+        "psychologyExplanation": "Gabungan Verb + Preposition yang mengubah makna harfiah. Dalam kerangka 1. Kamus Kosakata Tematik (Core Lexicon), penutur asli memetakan hubungan makna menggunakan rumus \"Verb + Particle (Separable vs Inseparable)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Phrasal Verbs & Idiom Esensial Penutur Asli",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-dict-vocab-phrasal-voc-1",
+          "term": "figure out · put off · look forward to · bring up",
+          "reading": "/ˈfɪɡ.jər aʊt/ · /pʊt ɒf/",
+          "meaning": "Menemukan solusi · Menunda · Menantikan · Mengangkat topik",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Verb + Particle (Separable vs Inseparable)",
+          "exampleSentence": "figure out · put off · look forward to · bring up",
+          "exampleTranslation": "Menemukan solusi · Menunda · Menantikan · Mengangkat topik"
+        }
+      ]
+    }
+  ]
+}

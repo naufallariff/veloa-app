@@ -1,0 +1,98 @@
+{
+  "id": "ja-n5-05-kosoado-existence",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 127,
+  "title": "Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+  "subtitle": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap | Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-05-kosoado-existence-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)",
+              "gloss": "Sistem Ko-So-A-Do, perbandingan, serta kata kerja memberi-menerima"
+            },
+            "formula": {
+              "script": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+            }
+          },
+          "fullTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        },
+        {
+          "id": "ja-n5-05-kosoado-existence-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa Ko-So-A-Do, Keberadaan (Aru/Iru) & Memberi-Menerima (JLPT N5–N4 · Tata Bahasa Dasar Lengkap)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 30 Entri",
+              "gloss": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial"
+            },
+            "example": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial — Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)\"",
+        "psychologyExplanation": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial. Dalam kerangka Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4), penutur asli memetakan hubungan makna menggunakan rumus \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n5-05-kosoado-existence-voc-1",
+          "term": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "Tsukue no ue ni neko ga imasu.",
+          "meaning": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: [Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+          "exampleSentence": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "exampleTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        }
+      ]
+    }
+  ]
+}

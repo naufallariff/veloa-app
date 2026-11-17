@@ -1,0 +1,98 @@
+{
+  "id": "ko-dict-vocab-topik1",
+  "lang": "ko",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 104,
+  "title": "800 Kosakata Inti TOPIK I & Dua Sistem Angka (Asli Korea vs Sino-Korea)",
+  "subtitle": "Kapan memakai 하나/둘/셋 (jam, usia, satuan) vs 일/이/삼 (menit, tanggal, uang)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Korea | 800 Kosakata Inti TOPIK I & Dua Sistem Angka (Asli Korea vs Sino-Korea)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-vocab-topik1-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata Asli Korea (Goyueo) & Sino-Korea (Hanja-eo)",
+              "gloss": "Kosakata dasar, dua sistem angka Korea, dan akar kata Hanja"
+            },
+            "formula": {
+              "script": "Jam (Angka Asli: 한 시) + Menit (Sino-Korea: 삼십 분)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "지금은 오후 두 시 삼십 분입니다. (Sekarang pukul 2:30 siang)",
+              "reading": "Jigeumeun ohu du si samsip bunimnida.",
+              "gloss": "Jam memakai angka asli Korea (du), sedangkan menit memakai Sino-Korea (samsip)"
+            }
+          },
+          "fullTranslation": "Jam memakai angka asli Korea (du), sedangkan menit memakai Sino-Korea (samsip)"
+        },
+        {
+          "id": "ko-dict-vocab-topik1-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Asli & Hanja-eo, Kalimat Harian & Percakapan (Kamus & Korpus Korea)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 65 Entri",
+              "gloss": "Kapan memakai 하나/둘/셋 (jam, usia, satuan) vs 일/이/삼 (menit, tanggal, uang)"
+            },
+            "example": {
+              "script": "지금은 오후 두 시 삼십 분입니다. (Sekarang pukul 2:30 siang)",
+              "reading": "Jigeumeun ohu du si samsip bunimnida.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kapan memakai 하나/둘/셋 (jam, usia, satuan) vs 일/이/삼 (menit, tanggal, uang) — Jam memakai angka asli Korea (du), sedangkan menit memakai Sino-Korea (samsip)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"800 Kosakata Inti TOPIK I & Dua Sistem Angka (Asli Korea vs Sino-Korea)\"",
+        "psychologyExplanation": "Kapan memakai 하나/둘/셋 (jam, usia, satuan) vs 일/이/삼 (menit, tanggal, uang). Dalam kerangka 1. Kamus Kosakata Asli Korea (Goyueo) & Sino-Korea (Hanja-eo), penutur asli memetakan hubungan makna menggunakan rumus \"Jam (Angka Asli: 한 시) + Menit (Sino-Korea: 삼십 분)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 800 Kosakata Inti TOPIK I & Dua Sistem Angka (Asli Korea vs Sino-Korea)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-dict-vocab-topik1-voc-1",
+          "term": "지금은 오후 두 시 삼십 분입니다. (Sekarang pukul 2:30 siang)",
+          "reading": "Jigeumeun ohu du si samsip bunimnida.",
+          "meaning": "Jam memakai angka asli Korea (du), sedangkan menit memakai Sino-Korea (samsip)",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Jam (Angka Asli: 한 시) + Menit (Sino-Korea: 삼십 분)",
+          "exampleSentence": "지금은 오후 두 시 삼십 분입니다. (Sekarang pukul 2:30 siang)",
+          "exampleTranslation": "Jam memakai angka asli Korea (du), sedangkan menit memakai Sino-Korea (samsip)"
+        }
+      ]
+    }
+  ]
+}

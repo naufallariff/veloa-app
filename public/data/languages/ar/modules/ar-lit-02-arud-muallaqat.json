@@ -1,0 +1,117 @@
+{
+  "id": "ar-lit-02-arud-muallaqat",
+  "lang": "ar",
+  "pillar": "phonetics",
+  "tier": "native",
+  "order": 116,
+  "title": "ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays",
+  "subtitle": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik",
+  "estimatedMinutes": 55,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-lit-02-arud-muallaqat-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī)",
+              "gloss": "Tiga cabang Balāghah (Maʿānī, Bayān, Badīʿ) serta 16 Baḥr puisi Arab"
+            },
+            "formula": {
+              "script": "Baḥr aṭ-Ṭawīl: فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِلُنْ (×2)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ (Imruʾ al-Qays)",
+              "reading": "Qifā nabki min dhikrā ḥabībin wa manzili",
+              "gloss": "Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah"
+            }
+          },
+          "fullTranslation": "Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah"
+        },
+        {
+          "id": "ar-lit-02-arud-muallaqat-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "ʿIlmu al-Balāghah (البلاغة), ʿIlmu al-ʿArūḍ (العروض) & Muʿallaqāt (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "PHONETICS · Target 28 Entri",
+              "gloss": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik"
+            },
+            "example": {
+              "script": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ (Imruʾ al-Qays)",
+              "reading": "Qifā nabki min dhikrā ḥabībin wa manzili",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik — Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays\"",
+        "psychologyExplanation": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik. Dalam kerangka Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī), penutur asli memetakan hubungan makna menggunakan rumus \"Baḥr aṭ-Ṭawīl: فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِلُنْ (×2)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-lit-02-arud-muallaqat-voc-1",
+          "term": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ (Imruʾ al-Qays)",
+          "reading": "Qifā nabki min dhikrā ḥabībin wa manzili",
+          "meaning": "Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah",
+          "partOfSpeech": "phonetics",
+          "patternNote": "Rumus terkait: Baḥr aṭ-Ṭawīl: فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِلُنْ (×2)",
+          "exampleSentence": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ (Imruʾ al-Qays)",
+          "exampleTranslation": "Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: ʿIlmu al-ʿArūḍ wal-Qawāfī (16 Baḥr Syair Arab) & Bedah Muʿallaqāt Imruʾ al-Qays",
+      "traditionName": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "overview": "Kurikulum sastra Arab tingkat universitas: retorika keindahan makna, majas, dan metrum syair",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī)",
+          "nativeTerm": "Baḥr aṭ-Ṭawīl: فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِلُنْ (×2)",
+          "mechanism": "Menganalisis ketukan panjang-pendek (Sabab & Watad) dalam Qasidah klasik",
+          "literaryExample": "قِفَا نَبْكِ مِنْ ذِكْرَى حَبِيبٍ وَمَنْزِلِ (Imruʾ al-Qays)",
+          "reading": "Qifā nabki min dhikrā ḥabībin wa manzili",
+          "translation": "Bait pembuka Muʿallaqāt paling masyhur dalam sejarah sastra Arab Jahiliyah",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "en-lit-03-stylistics-tropes",
+  "lang": "en",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 137,
+  "title": "Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes",
+  "subtitle": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-03-stylistics-tropes-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Inggris",
+              "gloss": "Kajian historis teks klasik, prosodi puisi, dan majas retoris"
+            },
+            "formula": {
+              "script": "Figurative Tropes + Syntactic Parallelism & Antithesis",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Ask not what your country can do for you — ask what you can do for your country.",
+              "reading": "/ɑːsk nɒt wɒt jɔːr ˈkʌn.tri kæn duː/",
+              "gloss": "Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris"
+            }
+          },
+          "fullTranslation": "Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris"
+        },
+        {
+          "id": "en-lit-03-stylistics-tropes-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Filologi Inggris, Puitika, Retorika & Stilistika Sastra (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik"
+            },
+            "example": {
+              "script": "Ask not what your country can do for you — ask what you can do for your country.",
+              "reading": "/ɑːsk nɒt wɒt jɔːr ˈkʌn.tri kæn duː/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik — Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes\"",
+        "psychologyExplanation": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik. Dalam kerangka Cabang Sastra & Filologi Inggris, penutur asli memetakan hubungan makna menggunakan rumus \"Figurative Tropes + Syntactic Parallelism & Antithesis\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-lit-03-stylistics-tropes-voc-1",
+          "term": "Ask not what your country can do for you — ask what you can do for your country.",
+          "reading": "/ɑːsk nɒt wɒt jɔːr ˈkʌn.tri kæn duː/",
+          "meaning": "Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Figurative Tropes + Syntactic Parallelism & Antithesis",
+          "exampleSentence": "Ask not what your country can do for you — ask what you can do for your country.",
+          "exampleTranslation": "Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Stilistika & Majas Klasik: Metaphor, Metonymy, Synecdoche, Chiasmus & Litotes",
+      "traditionName": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "overview": "Kurikulum tingkat universitas: dari sastra Anglo-Saxon hingga analisis stilistika modern",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Inggris",
+          "nativeTerm": "Figurative Tropes + Syntactic Parallelism & Antithesis",
+          "mechanism": "Membedah perangkat keindahan bahasa dalam esai dan puisi kanonik",
+          "literaryExample": "Ask not what your country can do for you — ask what you can do for your country.",
+          "reading": "/ɑːsk nɒt wɒt jɔːr ˈkʌn.tri kæn duː/",
+          "translation": "Contoh klasik Antimetabole / Chiasmus dalam retorika Inggris",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

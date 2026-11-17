@@ -1,0 +1,98 @@
+{
+  "id": "ja-02-int-keigo-register",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 117,
+  "title": "Sistem Keigo (敬語): Sonkeigo (Hormat), Kenjōgo (Merendah) & Teineigo",
+  "subtitle": "Membedakan peninggian tindakan lawan bicara vs perendahan tindakan sendiri",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N3 · Menengah | Sistem Keigo (敬語): Sonkeigo (Hormat), Kenjōgo (Merendah) & Teineigo",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-02-int-keigo-register-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo)",
+              "gloss": "Struktur sudut pandang pembicara dan hierarki sosial"
+            },
+            "formula": {
+              "script": "お + V-masu stem + になる (Sonkeigo) vs お + V-masu stem + する (Kenjōgo)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "先生がおっしゃいました (Sonkeigo) vs 私が申し上げました (Kenjōgo)",
+              "reading": "Sensei ga osshaimashita vs Watashi ga mōshiagemashita",
+              "gloss": "Guru bersabda (hormat) vs Saya menyampaikan (merendah)"
+            }
+          },
+          "fullTranslation": "Guru bersabda (hormat) vs Saya menyampaikan (merendah)"
+        },
+        {
+          "id": "ja-02-int-keigo-register-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Pasif, Kausatif, Keigo Dasar & Nuansa Penghubung (JLPT N3 · Menengah)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Membedakan peninggian tindakan lawan bicara vs perendahan tindakan sendiri"
+            },
+            "example": {
+              "script": "先生がおっしゃいました (Sonkeigo) vs 私が申し上げました (Kenjōgo)",
+              "reading": "Sensei ga osshaimashita vs Watashi ga mōshiagemashita",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan peninggian tindakan lawan bicara vs perendahan tindakan sendiri — Guru bersabda (hormat) vs Saya menyampaikan (merendah)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Keigo (敬語): Sonkeigo (Hormat), Kenjōgo (Merendah) & Teineigo\"",
+        "psychologyExplanation": "Membedakan peninggian tindakan lawan bicara vs perendahan tindakan sendiri. Dalam kerangka Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo), penutur asli memetakan hubungan makna menggunakan rumus \"お + V-masu stem + になる (Sonkeigo) vs お + V-masu stem + する (Kenjōgo)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Keigo (敬語): Sonkeigo (Hormat), Kenjōgo (Merendah) & Teineigo",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-02-int-keigo-register-voc-1",
+          "term": "先生がおっしゃいました (Sonkeigo) vs 私が申し上げました (Kenjōgo)",
+          "reading": "Sensei ga osshaimashita vs Watashi ga mōshiagemashita",
+          "meaning": "Guru bersabda (hormat) vs Saya menyampaikan (merendah)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: お + V-masu stem + になる (Sonkeigo) vs お + V-masu stem + する (Kenjōgo)",
+          "exampleSentence": "先生がおっしゃいました (Sonkeigo) vs 私が申し上げました (Kenjōgo)",
+          "exampleTranslation": "Guru bersabda (hormat) vs Saya menyampaikan (merendah)"
+        }
+      ]
+    }
+  ]
+}

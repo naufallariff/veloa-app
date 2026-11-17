@@ -1,0 +1,98 @@
+{
+  "id": "ja-n3-04-change-over-time",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 132,
+  "title": "Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+  "subtitle": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N3 · Sintaksis Menengah Lengkap | Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-04-change-over-time-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)",
+              "gloss": "Perbedaan rasa syukur vs menyalahkan, serta perubahan keadaan"
+            },
+            "formula": {
+              "script": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+            }
+          },
+          "fullTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        },
+        {
+          "id": "ja-n3-04-change-over-time-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Klausa Waktu, Sebab-Akibat (おかげで vs せいで) & Nuansa Penyesalan (JLPT N3 · Sintaksis Menengah Lengkap)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan"
+            },
+            "example": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan — Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする\"",
+        "psychologyExplanation": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan. Dalam kerangka Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3), penutur asli memetakan hubungan makna menggunakan rumus \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n3-04-change-over-time-voc-1",
+          "term": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+          "meaning": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+          "exampleSentence": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "exampleTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        }
+      ]
+    }
+  ]
+}

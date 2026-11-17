@@ -1,0 +1,98 @@
+{
+  "id": "ar-mutaqaddim-04-istitsna-tamyiz",
+  "lang": "ar",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 128,
+  "title": "Al-Istitsnā’ (إِلَّا · غَيْر · سِوَى) & At-Tamyīz (Penjelas Samar dalam Perbandingan)",
+  "subtitle": "Menentukan I‘rab kata setelah إِلَّا (Tāmm Mūjab vs Tāmm Manfī vs Nāqiṣ Mufarragh)",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts | Al-Istitsnā’ (إِلَّا · غَيْر · سِوَى) & At-Tamyīz (Penjelas Samar dalam Perbandingan)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-04-istitsna-tamyiz-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)",
+              "gloss": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin"
+            },
+            "formula": {
+              "script": "Tāmm Mūjab: Wajib Naṣb (حَضَرَ الطُّلَّابُ إِلَّا زَيْدًا) | Mufarragh: Sesuai Amil (مَا حَضَرَ إِلَّا زَيْدٌ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مَا قَرَأْتُ إِلَّا كِتَابًا وَاحِدًا。 · هُوَ أَكْثَرُ مِنْكَ خِبْرَةً (Tamyīz Manṣūb)。",
+              "reading": "Mā qara’tu illā kitāban wāḥidan. · Huwa aktharu minka khibratan.",
+              "gloss": "Tamyīz menghilangkan kesamaran pada Ism Tafḍīl dan ukuran/timbangan"
+            }
+          },
+          "fullTranslation": "Tamyīz menghilangkan kesamaran pada Ism Tafḍīl dan ukuran/timbangan"
+        },
+        {
+          "id": "ar-mutaqaddim-04-istitsna-tamyiz-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf (Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Menentukan I‘rab kata setelah إِلَّا (Tāmm Mūjab vs Tāmm Manfī vs Nāqiṣ Mufarragh)"
+            },
+            "example": {
+              "script": "مَا قَرَأْتُ إِلَّا كِتَابًا وَاحِدًا。 · هُوَ أَكْثَرُ مِنْكَ خِبْرَةً (Tamyīz Manṣūb)。",
+              "reading": "Mā qara’tu illā kitāban wāḥidan. · Huwa aktharu minka khibratan.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menentukan I‘rab kata setelah إِلَّا (Tāmm Mūjab vs Tāmm Manfī vs Nāqiṣ Mufarragh) — Tamyīz menghilangkan kesamaran pada Ism Tafḍīl dan ukuran/timbangan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Al-Istitsnā’ (إِلَّا · غَيْر · سِوَى) & At-Tamyīz (Penjelas Samar dalam Perbandingan)\"",
+        "psychologyExplanation": "Menentukan I‘rab kata setelah إِلَّا (Tāmm Mūjab vs Tāmm Manfī vs Nāqiṣ Mufarragh). Dalam kerangka Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim), penutur asli memetakan hubungan makna menggunakan rumus \"Tāmm Mūjab: Wajib Naṣb (حَضَرَ الطُّلَّابُ إِلَّا زَيْدًا) | Mufarragh: Sesuai Amil (مَا حَضَرَ إِلَّا زَيْدٌ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Al-Istitsnā’ (إِلَّا · غَيْر · سِوَى) & At-Tamyīz (Penjelas Samar dalam Perbandingan)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-mutaqaddim-04-istitsna-tamyiz-voc-1",
+          "term": "مَا قَرَأْتُ إِلَّا كِتَابًا وَاحِدًا。 · هُوَ أَكْثَرُ مِنْكَ خِبْرَةً (Tamyīz Manṣūb)。",
+          "reading": "Mā qara’tu illā kitāban wāḥidan. · Huwa aktharu minka khibratan.",
+          "meaning": "Tamyīz menghilangkan kesamaran pada Ism Tafḍīl dan ukuran/timbangan",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Tāmm Mūjab: Wajib Naṣb (حَضَرَ الطُّلَّابُ إِلَّا زَيْدًا) | Mufarragh: Sesuai Amil (مَا حَضَرَ إِلَّا زَيْدٌ)",
+          "exampleSentence": "مَا قَرَأْتُ إِلَّا كِتَابًا وَاحِدًا。 · هُوَ أَكْثَرُ مِنْكَ خِبْرَةً (Tamyīz Manṣūb)。",
+          "exampleTranslation": "Tamyīz menghilangkan kesamaran pada Ism Tafḍīl dan ukuran/timbangan"
+        }
+      ]
+    }
+  ]
+}

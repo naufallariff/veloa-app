@@ -1,0 +1,117 @@
+{
+  "id": "zh-lit-02-tang-poetry",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 116,
+  "title": "Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu",
+  "subtitle": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait",
+  "estimatedMinutes": 50,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-02-tang-poetry-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
+              "gloss": "Bahasa Tionghoa Klasik (Wényánwén), partikel fungsi kuno, dan puisi Tang-Song"
+            },
+            "formula": {
+              "script": "5 atau 7 Karakter/Baris + Pola Píng-Zè + Rima Akhir",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "床前明月光，疑是地上霜。举头望明月，低头思故乡。(Li Bai · 静夜思)",
+              "reading": "Chuáng qián míngyuè guāng, yí shì dìshàng shuāng...",
+              "gloss": "Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah..."
+            }
+          },
+          "fullTranslation": "Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah..."
+        },
+        {
+          "id": "zh-lit-02-tang-poetry-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Wényánwén (文言文), Puisi Dinasti Tang & Sastra Klasik Tiongkok (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 28 Entri",
+              "gloss": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait"
+            },
+            "example": {
+              "script": "床前明月光，疑是地上霜。举头望明月，低头思故乡。(Li Bai · 静夜思)",
+              "reading": "Chuáng qián míngyuè guāng, yí shì dìshàng shuāng...",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait — Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah..."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu\"",
+        "psychologyExplanation": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait. Dalam kerangka Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué), penutur asli memetakan hubungan makna menggunakan rumus \"5 atau 7 Karakter/Baris + Pola Píng-Zè + Rima Akhir\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-lit-02-tang-poetry-voc-1",
+          "term": "床前明月光，疑是地上霜。举头望明月，低头思故乡。(Li Bai · 静夜思)",
+          "reading": "Chuáng qián míngyuè guāng, yí shì dìshàng shuāng...",
+          "meaning": "Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah...",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: 5 atau 7 Karakter/Baris + Pola Píng-Zè + Rima Akhir",
+          "exampleSentence": "床前明月光，疑是地上霜。举头望明月，低头思故乡。(Li Bai · 静夜思)",
+          "exampleTranslation": "Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah..."
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Puitika Dinasti Tang (唐诗): Jueju, Lüshi, Kontras Nada Píng-Zè & Li Bai–Du Fu",
+      "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "overview": "Kurikulum sastra Tionghoa tingkat universitas: gramatika klasik dan prosodi puisi",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
+          "nativeTerm": "5 atau 7 Karakter/Baris + Pola Píng-Zè + Rima Akhir",
+          "mechanism": "Harmoni nada datar (Píng) dan nada miring (Zè) serta paralelisme bait",
+          "literaryExample": "床前明月光，疑是地上霜。举头望明月，低头思故乡。(Li Bai · 静夜思)",
+          "reading": "Chuáng qián míngyuè guāng, yí shì dìshàng shuāng...",
+          "translation": "Cahaya bulan terang di depan ranjang, dikira embun beku di atas tanah...",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

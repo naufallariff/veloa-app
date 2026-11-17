@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-06-vocab-hsk56-abstract",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 113,
+  "title": "Leksikon Abstrak & Akademik HSK 5–6: Ekonomi, Teknologi & Kebijakan Publik",
+  "subtitle": "Kosakata dua karakter berfrekuensi tinggi pada berita CCTV, Xinhua, dan esai formal",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Mandarin | Leksikon Abstrak & Akademik HSK 5–6: Ekonomi, Teknologi & Kebijakan Publik",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-06-vocab-hsk56-abstract-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional",
+              "gloss": "Penggunaan classifier spesifik benda serta percakapan negosiasi dan layanan"
+            },
+            "formula": {
+              "script": "Morfem Terikat Klasik + Morfem Modern → Istilah Abstrak Dua Silabel",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "可持续发展 (pembangunan berkelanjutan) · 人工智能 (kecerdasan buatan) · 效率 (efisiensi)",
+              "reading": "kě chíxù fāzhǎn · réngōng zhìnéng · xiàolǜ",
+              "gloss": "Memahami arti per karakter memudahkan penguasaan ribuan istilah teknis Mandarin"
+            }
+          },
+          "fullTranslation": "Memahami arti per karakter memudahkan penguasaan ribuan istilah teknis Mandarin"
+        },
+        {
+          "id": "zh-dict-06-vocab-hsk56-abstract-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kata Satuan (量词 Liàngcí), Kosakata HSK 5–6 & Dialog Bisnis Tiongkok (Kamus & Korpus Lanjutan Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 50 Entri",
+              "gloss": "Kosakata dua karakter berfrekuensi tinggi pada berita CCTV, Xinhua, dan esai formal"
+            },
+            "example": {
+              "script": "可持续发展 (pembangunan berkelanjutan) · 人工智能 (kecerdasan buatan) · 效率 (efisiensi)",
+              "reading": "kě chíxù fāzhǎn · réngōng zhìnéng · xiàolǜ",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kosakata dua karakter berfrekuensi tinggi pada berita CCTV, Xinhua, dan esai formal — Memahami arti per karakter memudahkan penguasaan ribuan istilah teknis Mandarin"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Leksikon Abstrak & Akademik HSK 5–6: Ekonomi, Teknologi & Kebijakan Publik\"",
+        "psychologyExplanation": "Kosakata dua karakter berfrekuensi tinggi pada berita CCTV, Xinhua, dan esai formal. Dalam kerangka 4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"Morfem Terikat Klasik + Morfem Modern → Istilah Abstrak Dua Silabel\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Leksikon Abstrak & Akademik HSK 5–6: Ekonomi, Teknologi & Kebijakan Publik",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-06-vocab-hsk56-abstract-voc-1",
+          "term": "可持续发展 (pembangunan berkelanjutan) · 人工智能 (kecerdasan buatan) · 效率 (efisiensi)",
+          "reading": "kě chíxù fāzhǎn · réngōng zhìnéng · xiàolǜ",
+          "meaning": "Memahami arti per karakter memudahkan penguasaan ribuan istilah teknis Mandarin",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Morfem Terikat Klasik + Morfem Modern → Istilah Abstrak Dua Silabel",
+          "exampleSentence": "可持续发展 (pembangunan berkelanjutan) · 人工智能 (kecerdasan buatan) · 效率 (efisiensi)",
+          "exampleTranslation": "Memahami arti per karakter memudahkan penguasaan ribuan istilah teknis Mandarin"
+        }
+      ]
+    }
+  ]
+}

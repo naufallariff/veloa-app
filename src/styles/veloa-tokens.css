@@ -1,168 +1,323 @@
 /* src/styles/veloa-tokens.css */
 
-/* ==========================================================================
-   LAYER 1: PRIMITIVE TOKENS (Raw Values — Never Referenced Directly in UI)
-   ========================================================================== */
 :root {
-    /* Neutrals */
-    --veloa-neutral-0: #ffffff;
-    --veloa-neutral-50: #f8fafc;
-    --veloa-neutral-100: #f1f5f9;
-    --veloa-neutral-200: #e2e8f0;
-    --veloa-neutral-300: #cbd5e1;
-    --veloa-neutral-500: #64748b;
-    --veloa-neutral-700: #334155;
-    --veloa-neutral-800: #1e293b;
-    --veloa-neutral-900: #0f172a;
-    --veloa-neutral-950: #090d16;
-
-    /* Semantic Role Accents (Violet, Cyan, Amber, Emerald, Rose) */
-    --veloa-violet-500: #8b5cf6;
+    /* ==========================================================================
+     1. PRIMITIVE PALETTE — Velòa Royal Violet & Neo-Apple Pastel Aurora
+     ========================================================================== */
+    --veloa-violet-50: #f5f3ff;
+    --veloa-violet-100: #ede9fe;
+    --veloa-violet-200: #ddd6fe;
+    --veloa-violet-400: #a78bfa;
     --veloa-violet-600: #7c3aed;
-    --veloa-cyan-500: #06b6d4;
-    --veloa-cyan-600: #0891b2;
-    --veloa-amber-500: #f59e0b;
-    --veloa-amber-600: #d97706;
-    --veloa-emerald-500: #10b981;
-    --veloa-emerald-600: #059669;
-    --veloa-rose-500: #f43f5e;
-    --veloa-rose-600: #e11d48;
+    --veloa-violet-700: #6d28d9;
 
-    /* Multilingual Font Stacks */
-    --veloa-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --veloa-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-    --veloa-font-ar: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Amiri', 'Traditional Arabic', serif;
-    --veloa-font-zh: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-    --veloa-font-ja: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
-    --veloa-font-ko: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-
-    /* Apple Fluid Spring & Easing Curves */
-    --veloa-ease-fluid: cubic-bezier(0.22, 1, 0.36, 1);
-    --veloa-ease-press: cubic-bezier(0.2, 0, 0, 1);
+    --veloa-sky-300: #7dd3fc;
+    --veloa-mint-300: #6ee7b7;
+    --veloa-rose-300: #fda4af;
+    --veloa-amber-200: #fde68a;
 
     /* ==========================================================================
-     LAYER 2: SEMANTIC TOKENS (Light Mode Default)
+     2. SEMANTIC TOKENS — Light-First Luminous Editorial Canvas
      ========================================================================== */
-    --surface-canvas: var(--veloa-neutral-50);
-    --surface-card: var(--veloa-neutral-0);
-    --surface-elevated: var(--veloa-neutral-100);
-    --surface-chrome: rgba(255, 255, 255, 0.72);
-    --border-subtle: rgba(15, 23, 42, 0.08);
-    --border-strong: rgba(15, 23, 42, 0.16);
+    --surface-canvas: #f3f5fb;
+    --surface-card: #ffffff;
+    --surface-elevated: #eef1f8;
+    --surface-glass: rgba(255, 255, 255, 0.78);
 
-    --text-primary: var(--veloa-neutral-900);
-    --text-secondary: var(--veloa-neutral-700);
-    --text-muted: var(--veloa-neutral-500);
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+
+    --border-subtle: rgba(15, 23, 42, 0.08);
+    --border-strong: rgba(124, 58, 237, 0.28);
 
     --accent-primary: var(--veloa-violet-600);
+    --accent-primary-hover: var(--veloa-violet-700);
     --accent-primary-soft: rgba(124, 58, 237, 0.1);
 
-    /* ==========================================================================
-     LAYER 3: COMPONENT TOKENS
-     ========================================================================== */
-    --card-radius: 1.125rem;
-    --card-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -12px rgba(15, 23, 42, 0.08);
-    --chrome-blur: blur(20px) saturate(180%);
-    --touch-target-min: 2.75rem;
-    /* 44px WCAG / Apple HIG minimum */
-}
+    /* Status & Competency Semantic Tokens */
+    --status-success-bg: rgba(16, 185, 129, 0.12);
+    --status-success-border: rgba(16, 185, 129, 0.35);
+    --status-success-text: #065f46;
 
-.dark {
-    --surface-canvas: var(--veloa-neutral-950);
-    --surface-card: var(--veloa-neutral-900);
-    --surface-elevated: var(--veloa-neutral-800);
-    --surface-chrome: rgba(15, 23, 42, 0.76);
-    --border-subtle: rgba(248, 250, 252, 0.09);
-    --border-strong: rgba(248, 250, 252, 0.18);
+    --status-warning-bg: rgba(245, 158, 11, 0.14);
+    --status-warning-border: rgba(245, 158, 11, 0.35);
+    --status-warning-text: #92400e;
 
-    --text-primary: var(--veloa-neutral-50);
-    --text-secondary: var(--veloa-neutral-300);
-    --text-muted: var(--veloa-neutral-500);
+    --status-danger-bg: rgba(244, 63, 94, 0.12);
+    --status-danger-border: rgba(244, 63, 94, 0.35);
+    --status-danger-text: #9f1239;
 
-    --accent-primary: var(--veloa-violet-500);
-    --accent-primary-soft: rgba(139, 92, 246, 0.16);
-    --card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px -12px rgba(0, 0, 0, 0.55);
+    /* Neo-Apple Liquid Aurora Gradients */
+    --veloa-aurora-hero: linear-gradient(135deg,
+            #6d28d9 0%,
+            #7c3aed 42%,
+            #a78bfa 78%,
+            #f5d0fe 100%);
+    --veloa-aurora-ambient:
+        radial-gradient(at 12% 10%, rgba(167, 139, 250, 0.22) 0px, transparent 48%),
+        radial-gradient(at 88% 14%, rgba(125, 211, 252, 0.2) 0px, transparent 46%),
+        radial-gradient(at 78% 85%, rgba(253, 164, 175, 0.16) 0px, transparent 50%);
+
+    /* Elevation & Specular Glass Shadows */
+    --shadow-card:
+        0 4px 20px -4px rgba(15, 23, 42, 0.05),
+        0 1px 3px 0 rgba(15, 23, 42, 0.03);
+    --shadow-glass:
+        0 12px 32px -8px rgba(124, 58, 237, 0.14),
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.85);
 }
 
 /* ==========================================================================
-   APPLE MATERIAL CHROME & TACTILE INTERACTION UTILITIES
+   3. DARK MODE — Deep Indigo-Slate (Bukan Hitam Pekat)
    ========================================================================== */
+.dark {
+    --surface-canvas: #0c101d;
+    --surface-card: #13192b;
+    --surface-elevated: #1b233a;
+    --surface-glass: rgba(19, 25, 43, 0.82);
+
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+
+    --border-subtle: rgba(148, 163, 184, 0.12);
+    --border-strong: rgba(167, 139, 250, 0.34);
+
+    --accent-primary: #8b5cf6;
+    --accent-primary-hover: #a78bfa;
+    --accent-primary-soft: rgba(139, 92, 246, 0.16);
+
+    --status-success-bg: rgba(16, 185, 129, 0.16);
+    --status-success-border: rgba(52, 211, 153, 0.35);
+    --status-success-text: #6ee7b7;
+
+    --status-warning-bg: rgba(245, 158, 11, 0.16);
+    --status-warning-border: rgba(251, 191, 36, 0.35);
+    --status-warning-text: #fde68a;
+
+    --status-danger-bg: rgba(244, 63, 94, 0.16);
+    --status-danger-border: rgba(251, 113, 133, 0.35);
+    --status-danger-text: #fda4af;
+
+    --veloa-aurora-hero: linear-gradient(135deg,
+            #4c1d95 0%,
+            #6d28d9 48%,
+            #8b5cf6 85%,
+            #38bdf8 100%);
+    --veloa-aurora-ambient:
+        radial-gradient(at 12% 10%, rgba(124, 58, 237, 0.2) 0px, transparent 50%),
+        radial-gradient(at 88% 18%, rgba(56, 189, 248, 0.14) 0px, transparent 48%);
+
+    --shadow-card: 0 6px 24px -6px rgba(2, 6, 23, 0.45);
+    --shadow-glass:
+        0 12px 32px -8px rgba(2, 6, 23, 0.6),
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ==========================================================================
+   4. COMPONENT SURFACE & LIQUID GLASS PRIMITIVES
+   ========================================================================== */
+.veloa-ambient-backdrop {
+    background-color: var(--surface-canvas);
+    background-image: var(--veloa-aurora-ambient);
+    background-attachment: fixed;
+}
+
 .veloa-glass-chrome {
-    background: var(--surface-chrome);
-    backdrop-filter: var(--chrome-blur);
-    -webkit-backdrop-filter: var(--chrome-blur);
-    border-color: var(--border-subtle);
+    background-color: var(--surface-glass);
+    backdrop-filter: blur(18px) saturate(160%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
 }
 
 .veloa-surface-card {
-    background: var(--surface-card);
+    background-color: var(--surface-card);
     border: 1px solid var(--border-subtle);
-    border-radius: var(--card-radius);
-    box-shadow: var(--card-shadow);
+    border-radius: 1.25rem;
+    box-shadow: var(--shadow-card);
+}
+
+.veloa-aurora-card {
+    background-image: var(--veloa-aurora-hero);
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-glass);
+    color: #ffffff;
 }
 
 .veloa-tactile-btn {
-    min-height: var(--touch-target-min);
+    min-height: 2.75rem;
     transition:
-        transform 120ms var(--veloa-ease-press),
-        background-color 180ms var(--veloa-ease-fluid),
-        border-color 180ms var(--veloa-ease-fluid);
+        transform 160ms cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 160ms ease,
+        background-color 160ms ease,
+        box-shadow 160ms ease;
 }
 
-.veloa-tactile-btn:active {
-    transform: scale(0.975);
+.veloa-tactile-btn:active:not(:disabled) {
+    transform: scale(0.985);
 }
 
 /* ==========================================================================
-   SCRIPT-SPECIFIC OPTICAL TYPOGRAPHY (Prevents Harakat & CJK Clipping)
+   5. SCRIPT-ADAPTIVE TYPOGRAPHY (W3C i18n & Material Design Multi-Script)
    ========================================================================== */
-.veloa-script-ar {
-    font-family: var(--veloa-font-ar);
-    line-height: 2.15;
-    letter-spacing: 0;
-    font-feature-settings: 'liga' 1, 'calt' 1, 'mark' 1, 'mkmk' 1;
+.veloa-script-en {
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
 }
 
 .veloa-script-zh {
-    font-family: var(--veloa-font-zh);
+    font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    font-size: 1.15em;
     line-height: 1.75;
-    letter-spacing: 0.02em;
 }
 
 .veloa-script-ja {
-    font-family: var(--veloa-font-ja);
+    font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    font-size: 1.15em;
     line-height: 1.8;
-    letter-spacing: 0.02em;
 }
 
 .veloa-script-ko {
-    font-family: var(--veloa-font-ko);
-    line-height: 1.75;
-    letter-spacing: -0.01em;
+    font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    font-size: 1.12em;
+    line-height: 1.72;
 }
 
-.veloa-script-en {
-    font-family: var(--veloa-font-sans);
-    line-height: 1.65;
-    letter-spacing: -0.005em;
+.veloa-script-ar {
+    font-family: 'Noto Naskh Arabic', 'IBM Plex Sans Arabic', 'Amiri', serif;
+    font-size: 1.26em;
+    line-height: 2.05;
+    font-style: normal !important;
 }
 
 /* ==========================================================================
-   ACCESSIBILITY: REDUCED MOTION & REDUCED TRANSPARENCY
+   6. GLOBAL LIGHT-MODE CONTRAST GUARD (Materi, Tabel & Soal Latihan)
+   ========================================================================== */
+html:not(.dark) main .text-indigo-200,
+html:not(.dark) main .text-indigo-300,
+html:not(.dark) main .text-violet-200,
+html:not(.dark) main .text-violet-300,
+html:not(.dark) main [class*="bg-indigo-"] [class*="text-"],
+html:not(.dark) main [class*="bg-violet-"] [class*="text-"],
+html:not(.dark) main [class*="bg-purple-"] [class*="text-"],
+html:not(.dark) main [class*="bg-indigo-"][class*="text-"],
+html:not(.dark) main [class*="bg-violet-"][class*="text-"],
+html:not(.dark) main [class*="bg-purple-"][class*="text-"] {
+    color: #3b0764 !important;
+    border-color: rgba(109, 40, 217, 0.25) !important;
+}
+
+html:not(.dark) main .text-rose-200,
+html:not(.dark) main .text-rose-300,
+html:not(.dark) main [class*="bg-rose-"] [class*="text-"],
+html:not(.dark) main [class*="bg-red-"] [class*="text-"],
+html:not(.dark) main [class*="bg-pink-"] [class*="text-"],
+html:not(.dark) main [class*="bg-rose-"][class*="text-"] {
+    color: #881337 !important;
+    border-color: rgba(190, 18, 60, 0.25) !important;
+}
+
+html:not(.dark) main .text-cyan-200,
+html:not(.dark) main .text-cyan-300,
+html:not(.dark) main .text-sky-200,
+html:not(.dark) main .text-sky-300,
+html:not(.dark) main [class*="bg-sky-"] [class*="text-"],
+html:not(.dark) main [class*="bg-cyan-"] [class*="text-"],
+html:not(.dark) main [class*="bg-sky-"][class*="text-"],
+html:not(.dark) main [class*="bg-cyan-"][class*="text-"] {
+    color: #075985 !important;
+    border-color: rgba(3, 105, 161, 0.25) !important;
+}
+
+html:not(.dark) main .text-amber-200,
+html:not(.dark) main .text-amber-300,
+html:not(.dark) main [class*="bg-amber-"] [class*="text-"],
+html:not(.dark) main [class*="bg-yellow-"] [class*="text-"],
+html:not(.dark) main [class*="bg-amber-"][class*="text-"],
+html:not(.dark) main [class*="bg-yellow-"][class*="text-"] {
+    color: #78350f !important;
+    border-color: rgba(180, 83, 9, 0.25) !important;
+}
+
+html:not(.dark) main .text-emerald-200,
+html:not(.dark) main .text-emerald-300,
+html:not(.dark) main [class*="bg-emerald-"] [class*="text-"],
+html:not(.dark) main [class*="bg-emerald-"][class*="text-"],
+html:not(.dark) main [class*="bg-teal-"][class*="text-"] {
+    color: #064e3b !important;
+    border-color: rgba(4, 120, 87, 0.25) !important;
+}
+
+html:not(.dark) main .text-slate-200,
+html:not(.dark) main .text-slate-300 {
+    color: #1e293b !important;
+}
+
+/* Table Header Surface Elevation di Light Mode */
+html:not(.dark) .veloa-lesson-stage thead,
+html:not(.dark) .veloa-lesson-stage [role="rowheader"] {
+    background-color: #eef1f8 !important;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.1) !important;
+}
+
+/* Perbaikan kotak simbol IPA panjang seperti "/æ/ vs /e/" agar tidak bertumpuk */
+.veloa-lesson-stage .text-3xl.font-extrabold,
+.veloa-lesson-stage .text-4xl.font-extrabold {
+    font-size: clamp(1.15rem, 2.2vw, 1.75rem);
+    line-height: 1.3;
+    word-break: keep-all;
+}
+
+/* Lindungi Tombol Aksi Solid & Hero Aurora agar Teks Tetap Putih */
+html:not(.dark) main button.bg-\(--accent-primary\),
+html:not(.dark) main button.bg-\(--accent-primary\) *,
+html:not(.dark) main button.bg-cyan-600,
+html:not(.dark) main button.bg-cyan-600 *,
+html:not(.dark) main button.bg-emerald-600,
+html:not(.dark) main button.bg-emerald-600 *,
+html:not(.dark) main .veloa-aurora-card,
+html:not(.dark) main .veloa-aurora-card h1,
+html:not(.dark) main .veloa-aurora-card h2,
+html:not(.dark) main .veloa-aurora-card p,
+html:not(.dark) main .veloa-aurora-card span {
+    color: #ffffff !important;
+}
+
+html:not(.dark) main .veloa-aurora-card button.bg-white,
+html:not(.dark) main .veloa-aurora-card button.bg-white * {
+    color: #4c1d95 !important;
+}
+
+/* Mode Latihan Membaca Aksara Murni (Toggle Fonetik OFF) */
+.veloa-lesson-stage[data-hide-phonetic='true'] rt,
+.veloa-lesson-stage[data-hide-phonetic='true'] .font-mono.text-xs {
+    opacity: 0.08;
+    filter: blur(3px);
+    transition: opacity 150ms ease, filter 150ms ease;
+}
+
+.veloa-lesson-stage[data-hide-phonetic='true'] rt:hover,
+.veloa-lesson-stage[data-hide-phonetic='true'] .font-mono.text-xs:hover {
+    opacity: 1;
+    filter: none;
+}
+
+/* ==========================================================================
+   7. ACCESSIBILITY — Reduced Motion & Reduced Transparency Fallbacks
    ========================================================================== */
 @media (prefers-reduced-motion: reduce) {
 
     .veloa-tactile-btn,
     .veloa-animated-enter {
-        transition: opacity 150ms ease !important;
-        transform: none !important;
+        transition: none !important;
         animation: none !important;
+        transform: none !important;
     }
 }
 
 @media (prefers-reduced-transparency: reduce) {
     .veloa-glass-chrome {
-        background: var(--surface-card);
+        background-color: var(--surface-card);
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
     }

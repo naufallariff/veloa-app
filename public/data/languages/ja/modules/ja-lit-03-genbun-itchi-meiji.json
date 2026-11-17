@@ -1,0 +1,117 @@
+{
+  "id": "ja-lit-03-genbun-itchi-meiji",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "native",
+  "order": 139,
+  "title": "Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)",
+  "subtitle": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan | Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-lit-03-genbun-itchi-meiji-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+              "gloss": "Gerakan Genbun-Itchi, karya Natsume Sōseki–Akutagawa, dan dialek Kansai/Tōhoku"
+            },
+            "formula": {
+              "script": "Bungo (〜なり・〜けり) → Kōgo Modern (〜である・〜だ)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "吾輩は猫である。名前はまだ無い。(Natsume Sōseki, 1905)",
+              "reading": "Wagahai wa neko de aru. Namae wa mada nai.",
+              "gloss": "Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\""
+            }
+          },
+          "fullTranslation": "Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\""
+        },
+        {
+          "id": "ja-lit-03-genbun-itchi-meiji-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Prosa Zaman Meiji–Shōwa, Kajian Genji & Dialek Regional (Hōgen) (Sastra, Filologi & Keindahan Bahasa · Kokubungaku Lanjutan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 26 Entri",
+              "gloss": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang"
+            },
+            "example": {
+              "script": "吾輩は猫である。名前はまだ無い。(Natsume Sōseki, 1905)",
+              "reading": "Wagahai wa neko de aru. Namae wa mada nai.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang — Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\""
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)\"",
+        "psychologyExplanation": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang. Dalam kerangka Cabang Sastra Modern, Filologi & Dialektologi Jepang, penutur asli memetakan hubungan makna menggunakan rumus \"Bungo (〜なり・〜けり) → Kōgo Modern (〜である・〜だ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-lit-03-genbun-itchi-meiji-voc-1",
+          "term": "吾輩は猫である。名前はまだ無い。(Natsume Sōseki, 1905)",
+          "reading": "Wagahai wa neko de aru. Namae wa mada nai.",
+          "meaning": "Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\"",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Bungo (〜なり・〜けり) → Kōgo Modern (〜である・〜だ)",
+          "exampleSentence": "吾輩は猫である。名前はまだ無い。(Natsume Sōseki, 1905)",
+          "exampleTranslation": "Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\""
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: Revolusi Genbun-Itchi (言文一致) & Sastra Meiji–Taishō (Sōseki, Ōgai, Akutagawa)",
+      "traditionName": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Jepang: evolusi Genbun-Itchi, estetika modern, dan sosiolinguistik",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra Modern, Filologi & Dialektologi Jepang",
+          "nativeTerm": "Bungo (〜なり・〜けり) → Kōgo Modern (〜である・〜だ)",
+          "mechanism": "Bagaimana bahasa tulis klasik menyatu dengan bahasa lisan melahirkan prosa modern Jepang",
+          "literaryExample": "吾輩は猫である。名前はまだ無い。(Natsume Sōseki, 1905)",
+          "reading": "Wagahai wa neko de aru. Namae wa mada nai.",
+          "translation": "Kalimat pembuka legendaris yang mempopulerkan kopula sastra \"de aru\"",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

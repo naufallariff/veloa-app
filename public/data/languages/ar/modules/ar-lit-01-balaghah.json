@@ -1,0 +1,117 @@
+{
+  "id": "ar-lit-01-balaghah",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "native",
+  "order": 115,
+  "title": "ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ",
+  "subtitle": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra",
+  "estimatedMinutes": 55,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-lit-01-balaghah-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī)",
+              "gloss": "Tiga cabang Balāghah (Maʿānī, Bayān, Badīʿ) serta 16 Baḥr puisi Arab"
+            },
+            "formula": {
+              "script": "Tashbīh (Perumpamaan) · Istiʿārah (Metafora) · Kināyah (Kiasan) · Ṭibāq & Jinās",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "رَأَيْتُ أَسَدًا يَخْطُبُ فَوْقَ الْمِنْبَرِ (Istiʿārah Taṣrīḥiyyah)",
+              "reading": "Raʾaytu asadan yakhṭubu fawqa al-minbari",
+              "gloss": "Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar"
+            }
+          },
+          "fullTranslation": "Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar"
+        },
+        {
+          "id": "ar-lit-01-balaghah-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "ʿIlmu al-Balāghah (البلاغة), ʿIlmu al-ʿArūḍ (العروض) & Muʿallaqāt (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 32 Entri",
+              "gloss": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra"
+            },
+            "example": {
+              "script": "رَأَيْتُ أَسَدًا يَخْطُبُ فَوْقَ الْمِنْبَرِ (Istiʿārah Taṣrīḥiyyah)",
+              "reading": "Raʾaytu asadan yakhṭubu fawqa al-minbari",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra — Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ\"",
+        "psychologyExplanation": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra. Dalam kerangka Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī), penutur asli memetakan hubungan makna menggunakan rumus \"Tashbīh (Perumpamaan) · Istiʿārah (Metafora) · Kināyah (Kiasan) · Ṭibāq & Jinās\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-lit-01-balaghah-voc-1",
+          "term": "رَأَيْتُ أَسَدًا يَخْطُبُ فَوْقَ الْمِنْبَرِ (Istiʿārah Taṣrīḥiyyah)",
+          "reading": "Raʾaytu asadan yakhṭubu fawqa al-minbari",
+          "meaning": "Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Tashbīh (Perumpamaan) · Istiʿārah (Metafora) · Kināyah (Kiasan) · Ṭibāq & Jinās",
+          "exampleSentence": "رَأَيْتُ أَسَدًا يَخْطُبُ فَوْقَ الْمِنْبَرِ (Istiʿārah Taṣrīḥiyyah)",
+          "exampleTranslation": "Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Bahasa: ʿIlmu al-Balāghah: Al-Maʿānī (Khabar–Inshāʾ), Al-Bayān (Tashbīh, Istiʿārah, Kināyah) & Al-Badīʿ",
+      "traditionName": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "overview": "Kurikulum sastra Arab tingkat universitas: retorika keindahan makna, majas, dan metrum syair",
+      "devices": [
+        {
+          "deviceName": "Cabang Sastra & Retorika Arab (Al-Adab al-ʿArabī)",
+          "nativeTerm": "Tashbīh (Perumpamaan) · Istiʿārah (Metafora) · Kināyah (Kiasan) · Ṭibāq & Jinās",
+          "mechanism": "Membedah keindahan retorika Al-Qurʾān, khutbah klasik, dan prosa sastra",
+          "literaryExample": "رَأَيْتُ أَسَدًا يَخْطُبُ فَوْقَ الْمِنْبَرِ (Istiʿārah Taṣrīḥiyyah)",
+          "reading": "Raʾaytu asadan yakhṭubu fawqa al-minbari",
+          "translation": "Aku melihat \"singa\" (orator pemberani) berpidato di atas mimbar",
+          "aestheticEffect": "Menghadirkan kedalaman makna, irama puitis, dan presisi stilistika tingkat lanjut."
+        }
+      ],
+      "dialectAndSlangNotes": []
+    }
+  ]
+}

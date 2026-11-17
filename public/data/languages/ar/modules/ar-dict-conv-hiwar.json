@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-conv-hiwar",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 106,
+  "title": "Ḥiwār Perkenalan, Diskusi Ilmu & Percakapan di Pasar/Bandara",
+  "subtitle": "Latihan membaca dan merespons dialog dengan harakat akhir yang tepat",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Arab | Ḥiwār Perkenalan, Diskusi Ilmu & Percakapan di Pasar/Bandara",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-conv-hiwar-row-1",
+          "cells": {
+            "construct": {
+              "script": "3. Contoh Percakapan (Al-Ḥiwārāt)",
+              "gloss": "Dialog dua arah dalam berbagai konteks sosial dan akademik"
+            },
+            "formula": {
+              "script": "Suʾāl wa Jawāb (Tanya-Jawab Kontekstual)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مِنْ أَيْنَ أَنْتَ؟ — أَنَا مِنْ إِنْدُونِيسِيَا، وَأَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ.",
+              "reading": "Min ayna anta? — Anā min Indūnīsiyā, wa adrusu al-lughata al-ʿarabiyyata.",
+              "gloss": "Dari mana asalmu? — Saya dari Indonesia, dan saya mempelajari bahasa Arab."
+            }
+          },
+          "fullTranslation": "Dari mana asalmu? — Saya dari Indonesia, dan saya mempelajari bahasa Arab."
+        },
+        {
+          "id": "ar-dict-conv-hiwar-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Mufradāt Berbasis Akar Kata, Kalimat Harian & Ḥiwār (Kamus & Korpus Arab)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Latihan membaca dan merespons dialog dengan harakat akhir yang tepat"
+            },
+            "example": {
+              "script": "مِنْ أَيْنَ أَنْتَ؟ — أَنَا مِنْ إِنْدُونِيسِيَا، وَأَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ.",
+              "reading": "Min ayna anta? — Anā min Indūnīsiyā, wa adrusu al-lughata al-ʿarabiyyata.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Latihan membaca dan merespons dialog dengan harakat akhir yang tepat — Dari mana asalmu? — Saya dari Indonesia, dan saya mempelajari bahasa Arab."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Ḥiwār Perkenalan, Diskusi Ilmu & Percakapan di Pasar/Bandara\"",
+        "psychologyExplanation": "Latihan membaca dan merespons dialog dengan harakat akhir yang tepat. Dalam kerangka 3. Contoh Percakapan (Al-Ḥiwārāt), penutur asli memetakan hubungan makna menggunakan rumus \"Suʾāl wa Jawāb (Tanya-Jawab Kontekstual)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Ḥiwār Perkenalan, Diskusi Ilmu & Percakapan di Pasar/Bandara",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-conv-hiwar-voc-1",
+          "term": "مِنْ أَيْنَ أَنْتَ؟ — أَنَا مِنْ إِنْدُونِيسِيَا، وَأَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ.",
+          "reading": "Min ayna anta? — Anā min Indūnīsiyā, wa adrusu al-lughata al-ʿarabiyyata.",
+          "meaning": "Dari mana asalmu? — Saya dari Indonesia, dan saya mempelajari bahasa Arab.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Suʾāl wa Jawāb (Tanya-Jawab Kontekstual)",
+          "exampleSentence": "مِنْ أَيْنَ أَنْتَ؟ — أَنَا مِنْ إِنْدُونِيسِيَا، وَأَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ.",
+          "exampleTranslation": "Dari mana asalmu? — Saya dari Indonesia, dan saya mempelajari bahasa Arab."
+        }
+      ]
+    }
+  ]
+}

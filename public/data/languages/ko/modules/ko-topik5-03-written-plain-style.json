@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik5-03-written-plain-style",
+  "lang": "ko",
+  "pillar": "syntax",
+  "tier": "advanced",
+  "order": 126,
+  "title": "Gaya Tulis Akademik & Jurnalistik (해라체 / 문어체): -는다 / -ㄴ다 / -다",
+  "subtitle": "Mengapa buku teks, koran, dan soal esai TOPIK tidak memakai -아요/어요 maupun -습니다",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK II Lanjut (Level 5–6) · Wacana Akademik & Gaya Tulis (문어체) | Gaya Tulis Akademik & Jurnalistik (해라체 / 문어체): -는다 / -ㄴ다 / -다",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik5-03-written-plain-style-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Gaya Tulis Akademik, Paradoks & Argumentasi TOPIK 5–6",
+              "gloss": "Plain Writing Form (-는다/ㄴ다/다), pola konsesi, dan struktur esai tingkat lanjut"
+            },
+            "formula": {
+              "script": "Kata Kerja: -는다 (Konsonan) / -ㄴ다 (Vokal) | Adjektiva & 이다: Bentuk Kamus (-다)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "인공지능 기술은 현대 사회의 생산성을 크게 높인다.",
+              "reading": "Ingongjineung gisureun hyeondae sahoeui saengsanseongeul keuge nopinda.",
+              "gloss": "Teknologi kecerdasan buatan meningkatkan produktivitas masyarakat modern secara signifikan."
+            }
+          },
+          "fullTranslation": "Teknologi kecerdasan buatan meningkatkan produktivitas masyarakat modern secara signifikan."
+        },
+        {
+          "id": "ko-topik5-03-written-plain-style-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Gaya Tulis Berita/Esai (-는다/-ㄴ다), Konsesi Lanjut & Penanda Wacana Formal (TOPIK II Lanjut (Level 5–6) · Wacana Akademik & Gaya Tulis (문어체))"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 32 Entri",
+              "gloss": "Mengapa buku teks, koran, dan soal esai TOPIK tidak memakai -아요/어요 maupun -습니다"
+            },
+            "example": {
+              "script": "인공지능 기술은 현대 사회의 생산성을 크게 높인다.",
+              "reading": "Ingongjineung gisureun hyeondae sahoeui saengsanseongeul keuge nopinda.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa buku teks, koran, dan soal esai TOPIK tidak memakai -아요/어요 maupun -습니다 — Teknologi kecerdasan buatan meningkatkan produktivitas masyarakat modern secara signifikan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Gaya Tulis Akademik & Jurnalistik (해라체 / 문어체): -는다 / -ㄴ다 / -다\"",
+        "psychologyExplanation": "Mengapa buku teks, koran, dan soal esai TOPIK tidak memakai -아요/어요 maupun -습니다. Dalam kerangka Cabang B: Gaya Tulis Akademik, Paradoks & Argumentasi TOPIK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"Kata Kerja: -는다 (Konsonan) / -ㄴ다 (Vokal) | Adjektiva & 이다: Bentuk Kamus (-다)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Gaya Tulis Akademik & Jurnalistik (해라체 / 문어체): -는다 / -ㄴ다 / -다",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik5-03-written-plain-style-voc-1",
+          "term": "인공지능 기술은 현대 사회의 생산성을 크게 높인다.",
+          "reading": "Ingongjineung gisureun hyeondae sahoeui saengsanseongeul keuge nopinda.",
+          "meaning": "Teknologi kecerdasan buatan meningkatkan produktivitas masyarakat modern secara signifikan.",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Kata Kerja: -는다 (Konsonan) / -ㄴ다 (Vokal) | Adjektiva & 이다: Bentuk Kamus (-다)",
+          "exampleSentence": "인공지능 기술은 현대 사회의 생산성을 크게 높인다.",
+          "exampleTranslation": "Teknologi kecerdasan buatan meningkatkan produktivitas masyarakat modern secara signifikan."
+        }
+      ]
+    }
+  ]
+}

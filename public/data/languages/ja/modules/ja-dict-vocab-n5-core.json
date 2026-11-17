@@ -1,0 +1,98 @@
+{
+  "id": "ja-dict-vocab-n5-core",
+  "lang": "ja",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 106,
+  "title": "800 Kosakata & 100 Kanji Dasar Kehidupan Sehari-hari",
+  "subtitle": "Kata kerja, kata sifat-i/na, waktu, angka, dan kata bantu bilangan (Josūshi)",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Jepang | 800 Kosakata & 100 Kanji Dasar Kehidupan Sehari-hari",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-vocab-n5-core-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata & Kartu Kanji Inti",
+              "gloss": "Kosakata frekuensi tinggi lengkap dengan Furigana dan On/Kun"
+            },
+            "formula": {
+              "script": "Kanji + Okurigana + Counter (枚・本・匹・人)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "食べる (taberu) · 見る (miru) · 一人 (hitori) · 三本 (sanbon)",
+              "reading": "たべる · みる · ひとり · さんぼん",
+              "gloss": "Perubahan bunyi kata bantu bilangan berdasarkan bentuk benda"
+            }
+          },
+          "fullTranslation": "Perubahan bunyi kata bantu bilangan berdasarkan bentuk benda"
+        },
+        {
+          "id": "ja-dict-vocab-n5-core-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 65 Entri",
+              "gloss": "Kata kerja, kata sifat-i/na, waktu, angka, dan kata bantu bilangan (Josūshi)"
+            },
+            "example": {
+              "script": "食べる (taberu) · 見る (miru) · 一人 (hitori) · 三本 (sanbon)",
+              "reading": "たべる · みる · ひとり · さんぼん",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kata kerja, kata sifat-i/na, waktu, angka, dan kata bantu bilangan (Josūshi) — Perubahan bunyi kata bantu bilangan berdasarkan bentuk benda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"800 Kosakata & 100 Kanji Dasar Kehidupan Sehari-hari\"",
+        "psychologyExplanation": "Kata kerja, kata sifat-i/na, waktu, angka, dan kata bantu bilangan (Josūshi). Dalam kerangka 1. Kamus Kosakata & Kartu Kanji Inti, penutur asli memetakan hubungan makna menggunakan rumus \"Kanji + Okurigana + Counter (枚・本・匹・人)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 800 Kosakata & 100 Kanji Dasar Kehidupan Sehari-hari",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-dict-vocab-n5-core-voc-1",
+          "term": "食べる (taberu) · 見る (miru) · 一人 (hitori) · 三本 (sanbon)",
+          "reading": "たべる · みる · ひとり · さんぼん",
+          "meaning": "Perubahan bunyi kata bantu bilangan berdasarkan bentuk benda",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Kanji + Okurigana + Counter (枚・本・匹・人)",
+          "exampleSentence": "食べる (taberu) · 見る (miru) · 一人 (hitori) · 三本 (sanbon)",
+          "exampleTranslation": "Perubahan bunyi kata bantu bilangan berdasarkan bentuk benda"
+        }
+      ]
+    }
+  ]
+}

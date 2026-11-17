@@ -1,0 +1,98 @@
+{
+  "id": "ja-n4-03-giving-receiving",
+  "lang": "ja",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 128,
+  "title": "Memberi & Menerima (あげる・くれる・もらう) serta 〜てあげる/〜てくれる/〜てもらう",
+  "subtitle": "Sistem empati bahasa Jepang yang tidak bisa diterjemahkan sekadar \"memberi\"",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap | Memberi & Menerima (あげる・くれる・もらう) serta 〜てあげる/〜てくれる/〜てもらう",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-03-giving-receiving-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)",
+              "gloss": "Sistem Ko-So-A-Do, perbandingan, serta kata kerja memberi-menerima"
+            },
+            "formula": {
+              "script": "Orang Lain は 私 に 〜てくれる | 私 は Orang Lain に 〜てもらう",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "先輩が日本語を教えてくれました。(Senior mengajari saya bahasa Jepang)",
+              "reading": "Senpai ga Nihongo o oshiete kuremashita.",
+              "gloss": "くれる menunjukkan arah tindakan menuju pembicara dengan rasa terima kasih"
+            }
+          },
+          "fullTranslation": "くれる menunjukkan arah tindakan menuju pembicara dengan rasa terima kasih"
+        },
+        {
+          "id": "ja-n4-03-giving-receiving-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa Ko-So-A-Do, Keberadaan (Aru/Iru) & Memberi-Menerima (JLPT N5–N4 · Tata Bahasa Dasar Lengkap)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Sistem empati bahasa Jepang yang tidak bisa diterjemahkan sekadar \"memberi\""
+            },
+            "example": {
+              "script": "先輩が日本語を教えてくれました。(Senior mengajari saya bahasa Jepang)",
+              "reading": "Senpai ga Nihongo o oshiete kuremashita.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Sistem empati bahasa Jepang yang tidak bisa diterjemahkan sekadar \"memberi\" — くれる menunjukkan arah tindakan menuju pembicara dengan rasa terima kasih"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Memberi & Menerima (あげる・くれる・もらう) serta 〜てあげる/〜てくれる/〜てもらう\"",
+        "psychologyExplanation": "Sistem empati bahasa Jepang yang tidak bisa diterjemahkan sekadar \"memberi\". Dalam kerangka Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4), penutur asli memetakan hubungan makna menggunakan rumus \"Orang Lain は 私 に 〜てくれる | 私 は Orang Lain に 〜てもらう\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Memberi & Menerima (あげる・くれる・もらう) serta 〜てあげる/〜てくれる/〜てもらう",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n4-03-giving-receiving-voc-1",
+          "term": "先輩が日本語を教えてくれました。(Senior mengajari saya bahasa Jepang)",
+          "reading": "Senpai ga Nihongo o oshiete kuremashita.",
+          "meaning": "くれる menunjukkan arah tindakan menuju pembicara dengan rasa terima kasih",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Orang Lain は 私 に 〜てくれる | 私 は Orang Lain に 〜てもらう",
+          "exampleSentence": "先輩が日本語を教えてくれました。(Senior mengajari saya bahasa Jepang)",
+          "exampleTranslation": "くれる menunjukkan arah tindakan menuju pembicara dengan rasa terima kasih"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ar-dict-06-hiwar-academic-media",
+  "lang": "ar",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 112,
+  "title": "Hiwār Ilmiah, Diskusi Kampus & Kosakata Media Arab Modern (Al-Jazeera / BBC Arabic)",
+  "subtitle": "Frasa diplomasi, ekonomi, teknologi, dan penyampaian pendapat terstruktur",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Arab | Hiwār Ilmiah, Diskusi Kampus & Kosakata Media Arab Modern (Al-Jazeera / BBC Arabic)",
+      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-dict-06-hiwar-academic-media-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal",
+              "gloss": "Navigasi kamus akar kata, hukum gender bilangan 1–100, dan hiwār profesional"
+            },
+            "formula": {
+              "script": "مِنْ وِجْهَةِ نَظَرِي (Menurut sudut pandang saya) + حُجَّة (Argumen)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "مِنْ وِجْهَةِ نَظَرِي، يُسْهِمُ الذَّكَاءُ الِاصْطِنَاعِيُّ فِي تَطْوِيرِ التَّعْلِيمِ.",
+              "reading": "Min wijhati naẓarī, yushimu adh-dhakā’u al-iṣṭinā‘iyyu fī taṭwīri at-ta‘līm.",
+              "gloss": "Menurut sudut pandang saya, kecerdasan buatan berkontribusi dalam pengembangan pendidikan."
+            }
+          },
+          "fullTranslation": "Menurut sudut pandang saya, kecerdasan buatan berkontribusi dalam pengembangan pendidikan."
+        },
+        {
+          "id": "ar-dict-06-hiwar-academic-media-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kamus Akar Kata (Mu‘jam), Bilangan (‘Adad-Ma‘dūd) & Hiwār Akademik (Kamus & Korpus Lanjutan Arab)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 36 Entri",
+              "gloss": "Frasa diplomasi, ekonomi, teknologi, dan penyampaian pendapat terstruktur"
+            },
+            "example": {
+              "script": "مِنْ وِجْهَةِ نَظَرِي، يُسْهِمُ الذَّكَاءُ الِاصْطِنَاعِيُّ فِي تَطْوِيرِ التَّعْلِيمِ.",
+              "reading": "Min wijhati naẓarī, yushimu adh-dhakā’u al-iṣṭinā‘iyyu fī taṭwīri at-ta‘līm.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Frasa diplomasi, ekonomi, teknologi, dan penyampaian pendapat terstruktur — Menurut sudut pandang saya, kecerdasan buatan berkontribusi dalam pengembangan pendidikan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Hiwār Ilmiah, Diskusi Kampus & Kosakata Media Arab Modern (Al-Jazeera / BBC Arabic)\"",
+        "psychologyExplanation": "Frasa diplomasi, ekonomi, teknologi, dan penyampaian pendapat terstruktur. Dalam kerangka 4. Sistem Mu‘jam Akar Kata, Kaidah Bilangan (‘Adad) & Dialog Formal, penutur asli memetakan hubungan makna menggunakan rumus \"مِنْ وِجْهَةِ نَظَرِي (Menurut sudut pandang saya) + حُجَّة (Argumen)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Hiwār Ilmiah, Diskusi Kampus & Kosakata Media Arab Modern (Al-Jazeera / BBC Arabic)",
+      "direction": "rtl",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ar-dict-06-hiwar-academic-media-voc-1",
+          "term": "مِنْ وِجْهَةِ نَظَرِي، يُسْهِمُ الذَّكَاءُ الِاصْطِنَاعِيُّ فِي تَطْوِيرِ التَّعْلِيمِ.",
+          "reading": "Min wijhati naẓarī, yushimu adh-dhakā’u al-iṣṭinā‘iyyu fī taṭwīri at-ta‘līm.",
+          "meaning": "Menurut sudut pandang saya, kecerdasan buatan berkontribusi dalam pengembangan pendidikan.",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: مِنْ وِجْهَةِ نَظَرِي (Menurut sudut pandang saya) + حُجَّة (Argumen)",
+          "exampleSentence": "مِنْ وِجْهَةِ نَظَرِي، يُسْهِمُ الذَّكَاءُ الِاصْطِنَاعِيُّ فِي تَطْوِيرِ التَّعْلِيمِ.",
+          "exampleTranslation": "Menurut sudut pandang saya, kecerdasan buatan berkontribusi dalam pengembangan pendidikan."
+        }
+      ]
+    }
+  ]
+}

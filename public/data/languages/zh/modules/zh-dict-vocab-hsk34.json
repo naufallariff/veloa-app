@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-vocab-hsk34",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 106,
+  "title": "1.200 Kosakata Menengah HSK 3–4: Emosi, Opini & Kehidupan Modern",
+  "subtitle": "Perluasan kosakata abstrak untuk diskusi sehari-hari dan dunia kerja",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Mandarin | 1.200 Kosakata Menengah HSK 3–4: Emosi, Opini & Kehidupan Modern",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-vocab-hsk34-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata Gabungan Hanzi (Cíhuì)",
+              "gloss": "Kata majemuk 2-karakter yang disusun dari radikal dasar"
+            },
+            "formula": {
+              "script": "Morpheme Compounding (A + B → Makna Abstrak)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "经验 (pengalaman) · 影响 (pengaruh) · 解决 (menyelesaikan) · 态度 (sikap)",
+              "reading": "jīngyàn · yǐngxiǎng · jiějué · tàidù",
+              "gloss": "Memahami arti tiap morfem memudahkan menebak kata baru"
+            }
+          },
+          "fullTranslation": "Memahami arti tiap morfem memudahkan menebak kata baru"
+        },
+        {
+          "id": "zh-dict-vocab-hsk34-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Daftar Kosakata Hanzi, Kalimat Harian & Percakapan (Kamus & Korpus Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 60 Entri",
+              "gloss": "Perluasan kosakata abstrak untuk diskusi sehari-hari dan dunia kerja"
+            },
+            "example": {
+              "script": "经验 (pengalaman) · 影响 (pengaruh) · 解决 (menyelesaikan) · 态度 (sikap)",
+              "reading": "jīngyàn · yǐngxiǎng · jiějué · tàidù",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Perluasan kosakata abstrak untuk diskusi sehari-hari dan dunia kerja — Memahami arti tiap morfem memudahkan menebak kata baru"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"1.200 Kosakata Menengah HSK 3–4: Emosi, Opini & Kehidupan Modern\"",
+        "psychologyExplanation": "Perluasan kosakata abstrak untuk diskusi sehari-hari dan dunia kerja. Dalam kerangka 1. Kamus Kosakata Gabungan Hanzi (Cíhuì), penutur asli memetakan hubungan makna menggunakan rumus \"Morpheme Compounding (A + B → Makna Abstrak)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 1.200 Kosakata Menengah HSK 3–4: Emosi, Opini & Kehidupan Modern",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-vocab-hsk34-voc-1",
+          "term": "经验 (pengalaman) · 影响 (pengaruh) · 解决 (menyelesaikan) · 态度 (sikap)",
+          "reading": "jīngyàn · yǐngxiǎng · jiějué · tàidù",
+          "meaning": "Memahami arti tiap morfem memudahkan menebak kata baru",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Morpheme Compounding (A + B → Makna Abstrak)",
+          "exampleSentence": "经验 (pengalaman) · 影响 (pengaruh) · 解决 (menyelesaikan) · 态度 (sikap)",
+          "exampleTranslation": "Memahami arti tiap morfem memudahkan menebak kata baru"
+        }
+      ]
+    }
+  ]
+}

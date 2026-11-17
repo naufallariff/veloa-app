@@ -1,0 +1,24 @@
+{
+    "name": "Velòa — Linguistic Studio & Multi-Script Mastery",
+    "short_name": "Velòa",
+    "description": "Platform pembelajaran bahasa terstruktur untuk Inggris, Mandarin, Jepang, Arab, dan Korea dengan dukungan Spaced Repetition dan mode offline.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#0c101d",
+    "theme_color": "#7c3aed",
+    "categories": [
+        "education",
+        "books",
+        "productivity"
+    ],
+    "icons": [
+        {
+            "src": "/icons/veloa-icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

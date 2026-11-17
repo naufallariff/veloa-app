@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-vocab-hsk12",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 105,
+  "title": "600 Kosakata Hanzi Inti HSK 1–2 & Kata Penggolong (Liàngcí)",
+  "subtitle": "Kosakata inti keluarga, waktu, pekerjaan, dan kata bantu bilangan",
+  "estimatedMinutes": 45,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Mandarin | 600 Kosakata Hanzi Inti HSK 1–2 & Kata Penggolong (Liàngcí)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-vocab-hsk12-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Kamus Kosakata Gabungan Hanzi (Cíhuì)",
+              "gloss": "Kata majemuk 2-karakter yang disusun dari radikal dasar"
+            },
+            "formula": {
+              "script": "Angka + Measure Word (个・本・张・杯・件) + Kata Benda",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "一个人 · 两本书 · 三杯茶 · 学习 · 工作",
+              "reading": "yí gè rén · liǎng běn shū · sān bēi chá",
+              "gloss": "Satu orang · Dua jilid buku · Tiga cangkir teh"
+            }
+          },
+          "fullTranslation": "Satu orang · Dua jilid buku · Tiga cangkir teh"
+        },
+        {
+          "id": "zh-dict-vocab-hsk12-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Daftar Kosakata Hanzi, Kalimat Harian & Percakapan (Kamus & Korpus Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 65 Entri",
+              "gloss": "Kosakata inti keluarga, waktu, pekerjaan, dan kata bantu bilangan"
+            },
+            "example": {
+              "script": "一个人 · 两本书 · 三杯茶 · 学习 · 工作",
+              "reading": "yí gè rén · liǎng běn shū · sān bēi chá",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Kosakata inti keluarga, waktu, pekerjaan, dan kata bantu bilangan — Satu orang · Dua jilid buku · Tiga cangkir teh"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"600 Kosakata Hanzi Inti HSK 1–2 & Kata Penggolong (Liàngcí)\"",
+        "psychologyExplanation": "Kosakata inti keluarga, waktu, pekerjaan, dan kata bantu bilangan. Dalam kerangka 1. Kamus Kosakata Gabungan Hanzi (Cíhuì), penutur asli memetakan hubungan makna menggunakan rumus \"Angka + Measure Word (个・本・张・杯・件) + Kata Benda\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: 600 Kosakata Hanzi Inti HSK 1–2 & Kata Penggolong (Liàngcí)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-vocab-hsk12-voc-1",
+          "term": "一个人 · 两本书 · 三杯茶 · 学习 · 工作",
+          "reading": "yí gè rén · liǎng běn shū · sān bēi chá",
+          "meaning": "Satu orang · Dua jilid buku · Tiga cangkir teh",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Angka + Measure Word (个・本・张・杯・件) + Kata Benda",
+          "exampleSentence": "一个人 · 两本书 · 三杯茶 · 学习 · 工作",
+          "exampleTranslation": "Satu orang · Dua jilid buku · Tiga cangkir teh"
+        }
+      ]
+    }
+  ]
+}

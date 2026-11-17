@@ -1,0 +1,98 @@
+{
+  "id": "en-a1-gram-quantifiers",
+  "lang": "en",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 119,
+  "title": "There is / There are, Some / Any, Much / Many & Possessive ’s",
+  "subtitle": "Menyatakan keberadaan dan jumlah benda dalam konteks positif-negatif",
+  "estimatedMinutes": 25,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1 · Breakthrough | There is / There are, Some / Any, Much / Many & Possessive ’s",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-gram-quantifiers-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)",
+              "gloss": "Merangkai kata menjadi kalimat nominal dan verbal sederhana"
+            },
+            "formula": {
+              "script": "There is + Singular/Uncountable | There are + Plural",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "There are many books on Naufal’s desk, but there isn’t any coffee.",
+              "reading": "/ðeər ɑːr ˈmen.i bʊks/",
+              "gloss": "Penggunaan some untuk positif dan any untuk negatif/tanya"
+            }
+          },
+          "fullTranslation": "Penggunaan some untuk positif dan any untuk negatif/tanya"
+        },
+        {
+          "id": "en-a1-gram-quantifiers-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 28 Entri",
+              "gloss": "Menyatakan keberadaan dan jumlah benda dalam konteks positif-negatif"
+            },
+            "example": {
+              "script": "There are many books on Naufal’s desk, but there isn’t any coffee.",
+              "reading": "/ðeər ɑːr ˈmen.i bʊks/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menyatakan keberadaan dan jumlah benda dalam konteks positif-negatif — Penggunaan some untuk positif dan any untuk negatif/tanya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"There is / There are, Some / Any, Much / Many & Possessive ’s\"",
+        "psychologyExplanation": "Menyatakan keberadaan dan jumlah benda dalam konteks positif-negatif. Dalam kerangka Cabang B: Grammar & Sentence Building (Tata Bahasa A1), penutur asli memetakan hubungan makna menggunakan rumus \"There is + Singular/Uncountable | There are + Plural\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: There is / There are, Some / Any, Much / Many & Possessive ’s",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a1-gram-quantifiers-voc-1",
+          "term": "There are many books on Naufal’s desk, but there isn’t any coffee.",
+          "reading": "/ðeər ɑːr ˈmen.i bʊks/",
+          "meaning": "Penggunaan some untuk positif dan any untuk negatif/tanya",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: There is + Singular/Uncountable | There are + Plural",
+          "exampleSentence": "There are many books on Naufal’s desk, but there isn’t any coffee.",
+          "exampleTranslation": "Penggunaan some untuk positif dan any untuk negatif/tanya"
+        }
+      ]
+    }
+  ]
+}

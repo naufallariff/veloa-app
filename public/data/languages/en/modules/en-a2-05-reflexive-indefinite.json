@@ -1,0 +1,98 @@
+{
+  "id": "en-a2-05-reflexive-indefinite",
+  "lang": "en",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 142,
+  "title": "Reflexive Pronouns (myself/themselves) & Indefinite Pronouns (someone, anything, nowhere)",
+  "subtitle": "Aturan penggunaan kata ganti tak tentu dalam kalimat positif, negatif, dan tanya",
+  "estimatedMinutes": 30,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "CEFR A1–A2 · Struktur Dasar Lanjutan | Reflexive Pronouns (myself/themselves) & Indefinite Pronouns (someone, anything, nowhere)",
+      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-05-reflexive-indefinite-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)",
+              "gloss": "Pola pertanyaan subjek vs objek, tag questions dasar, dan kata kerja beraturan/tak beraturan"
+            },
+            "formula": {
+              "script": "some- (Positif) · any- (Negatif/Tanya) · no- (Negatif Makna + Verb Positif)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "Nobody knew the answer, so she solved the problem herself.",
+              "reading": "/ˈnoʊ.bə.di njuː ði ˈɑːn.sər/",
+              "gloss": "Hindari double negative seperti \"Nobody didn’t know\""
+            }
+          },
+          "fullTranslation": "Hindari double negative seperti \"Nobody didn’t know\""
+        },
+        {
+          "id": "en-a2-05-reflexive-indefinite-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kalimat Tanya (Wh-Questions), Imperative & Pronomina Refleksif (CEFR A1–A2 · Struktur Dasar Lanjutan)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 28 Entri",
+              "gloss": "Aturan penggunaan kata ganti tak tentu dalam kalimat positif, negatif, dan tanya"
+            },
+            "example": {
+              "script": "Nobody knew the answer, so she solved the problem herself.",
+              "reading": "/ˈnoʊ.bə.di njuː ði ˈɑːn.sər/",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Aturan penggunaan kata ganti tak tentu dalam kalimat positif, negatif, dan tanya — Hindari double negative seperti \"Nobody didn’t know\""
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Reflexive Pronouns (myself/themselves) & Indefinite Pronouns (someone, anything, nowhere)\"",
+        "psychologyExplanation": "Aturan penggunaan kata ganti tak tentu dalam kalimat positif, negatif, dan tanya. Dalam kerangka Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2), penutur asli memetakan hubungan makna menggunakan rumus \"some- (Positif) · any- (Negatif/Tanya) · no- (Negatif Makna + Verb Positif)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Reflexive Pronouns (myself/themselves) & Indefinite Pronouns (someone, anything, nowhere)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "en-a2-05-reflexive-indefinite-voc-1",
+          "term": "Nobody knew the answer, so she solved the problem herself.",
+          "reading": "/ˈnoʊ.bə.di njuː ði ˈɑːn.sər/",
+          "meaning": "Hindari double negative seperti \"Nobody didn’t know\"",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: some- (Positif) · any- (Negatif/Tanya) · no- (Negatif Makna + Verb Positif)",
+          "exampleSentence": "Nobody knew the answer, so she solved the problem herself.",
+          "exampleTranslation": "Hindari double negative seperti \"Nobody didn’t know\""
+        }
+      ]
+    }
+  ]
+}

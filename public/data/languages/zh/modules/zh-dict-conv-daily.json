@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-conv-daily",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "beginner",
+  "order": 108,
+  "title": "Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+  "subtitle": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Mandarin | Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-conv-daily-row-1",
+          "cells": {
+            "construct": {
+              "script": "3. Contoh Percakapan Harian (Duìhuà)",
+              "gloss": "Dialog alami lengkap dengan partikel modal akhir kalimat"
+            },
+            "formula": {
+              "script": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+            }
+          },
+          "fullTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        },
+        {
+          "id": "zh-dict-conv-daily-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Daftar Kosakata Hanzi, Kalimat Harian & Percakapan (Kamus & Korpus Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+              "gloss": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural"
+            },
+            "example": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural — Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus\"",
+        "psychologyExplanation": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural. Dalam kerangka 3. Contoh Percakapan Harian (Duìhuà), penutur asli memetakan hubungan makna menggunakan rumus \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-conv-daily-voc-1",
+          "term": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+          "meaning": "Akhir pekan kita ke perpustakaan belajar bersama yuk!",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+          "exampleSentence": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "exampleTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        }
+      ]
+    }
+  ]
+}

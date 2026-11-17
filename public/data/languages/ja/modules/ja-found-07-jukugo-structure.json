@@ -1,0 +1,98 @@
+{
+  "id": "ja-found-07-jukugo-structure",
+  "lang": "ja",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 107,
+  "title": "Anatomi Jukugo (熟語): 4 Pola Pembentukan Kata Majemuk Dua Kanji",
+  "subtitle": "Sinonim (意味類似), Antonim (反対), Modifikator-Inti, dan Kata Kerja-Objek",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi Lanjutan · Kanji & Sistem Tulisan | Anatomi Jukugo (熟語): 4 Pola Pembentukan Kata Majemuk Dua Kanji",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-found-07-jukugo-structure-row-1",
+          "cells": {
+            "construct": {
+              "script": "2. Pendalaman Struktur Kanji & Fonologi Lanjutan",
+              "gloss": "Hukum Rendaku (konsonan bersuara), Jukugo, dan perbedaan Kanji Jepang vs Tiongkok"
+            },
+            "formula": {
+              "script": "A + B (Antonim: 大小 daishō · 左右 sayū | Objek-Aksi: 読書 dokusho)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "売買 (baibai · jual-beli) · 登山 (tozan · mendaki gunung) · 言語 (gengo · bahasa)",
+              "reading": "ばいばい · とざん · げんご",
+              "gloss": "Menebak makna kosakata N3–N1 dari hubungan logis dua Kanji penyusunnya"
+            }
+          },
+          "fullTranslation": "Menebak makna kosakata N3–N1 dari hubungan logis dua Kanji penyusunnya"
+        },
+        {
+          "id": "ja-found-07-jukugo-structure-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Rikusho (6 Prinsip Kanji), Jukugo & Aturan Okurigana (Pondasi Lanjutan · Kanji & Sistem Tulisan)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 36 Entri",
+              "gloss": "Sinonim (意味類似), Antonim (反対), Modifikator-Inti, dan Kata Kerja-Objek"
+            },
+            "example": {
+              "script": "売買 (baibai · jual-beli) · 登山 (tozan · mendaki gunung) · 言語 (gengo · bahasa)",
+              "reading": "ばいばい · とざん · げんご",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Sinonim (意味類似), Antonim (反対), Modifikator-Inti, dan Kata Kerja-Objek — Menebak makna kosakata N3–N1 dari hubungan logis dua Kanji penyusunnya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Anatomi Jukugo (熟語): 4 Pola Pembentukan Kata Majemuk Dua Kanji\"",
+        "psychologyExplanation": "Sinonim (意味類似), Antonim (反対), Modifikator-Inti, dan Kata Kerja-Objek. Dalam kerangka 2. Pendalaman Struktur Kanji & Fonologi Lanjutan, penutur asli memetakan hubungan makna menggunakan rumus \"A + B (Antonim: 大小 daishō · 左右 sayū | Objek-Aksi: 読書 dokusho)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Anatomi Jukugo (熟語): 4 Pola Pembentukan Kata Majemuk Dua Kanji",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-found-07-jukugo-structure-voc-1",
+          "term": "売買 (baibai · jual-beli) · 登山 (tozan · mendaki gunung) · 言語 (gengo · bahasa)",
+          "reading": "ばいばい · とざん · げんご",
+          "meaning": "Menebak makna kosakata N3–N1 dari hubungan logis dua Kanji penyusunnya",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: A + B (Antonim: 大小 daishō · 左右 sayū | Objek-Aksi: 読書 dokusho)",
+          "exampleSentence": "売買 (baibai · jual-beli) · 登山 (tozan · mendaki gunung) · 言語 (gengo · bahasa)",
+          "exampleTranslation": "Menebak makna kosakata N3–N1 dari hubungan logis dua Kanji penyusunnya"
+        }
+      ]
+    }
+  ]
+}

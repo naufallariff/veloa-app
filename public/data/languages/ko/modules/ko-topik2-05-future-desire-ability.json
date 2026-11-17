@@ -1,0 +1,98 @@
+{
+  "id": "ko-topik2-05-future-desire-ability",
+  "lang": "ko",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 120,
+  "title": "Rencana Masa Depan (-을/ㄹ 거예요), Keinginan (-고 싶다) & Kemampuan (-을/ㄹ 수 있다)",
+  "subtitle": "Konjugasi akhiran berbasis vokal/konsonan akhir akar kata kerja (받침)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea | Rencana Masa Depan (-을/ㄹ 거예요), Keinginan (-고 싶다) & Kemampuan (-을/ㄹ 수 있다)",
+      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik2-05-future-desire-ability-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)",
+              "gloss": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar"
+            },
+            "formula": {
+              "script": "Akar Vokal + -ㄹ 거예요 / -ㄹ 수 있다 | Akar Konsonan + -을 거예요 / -을 수 있다",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "내년 여름에 서울에 갈 거예요. 한국 음식을 많이 먹고 싶어요.",
+              "reading": "Naenyeon yeoreume Seoure gal geoyeyo. Hanguk eumsigeul mani meokgo sipeoyo.",
+              "gloss": "Musim panas tahun depan saya akan pergi ke Seoul. Saya ingin makan banyak makanan Korea."
+            }
+          },
+          "fullTranslation": "Musim panas tahun depan saya akan pergi ke Seoul. Saya ingin makan banyak makanan Korea."
+        },
+        {
+          "id": "ko-topik2-05-future-desire-ability-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan (TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 34 Entri",
+              "gloss": "Konjugasi akhiran berbasis vokal/konsonan akhir akar kata kerja (받침)"
+            },
+            "example": {
+              "script": "내년 여름에 서울에 갈 거예요. 한국 음식을 많이 먹고 싶어요.",
+              "reading": "Naenyeon yeoreume Seoure gal geoyeyo. Hanguk eumsigeul mani meokgo sipeoyo.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Konjugasi akhiran berbasis vokal/konsonan akhir akar kata kerja (받침) — Musim panas tahun depan saya akan pergi ke Seoul. Saya ingin makan banyak makanan Korea."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Rencana Masa Depan (-을/ㄹ 거예요), Keinginan (-고 싶다) & Kemampuan (-을/ㄹ 수 있다)\"",
+        "psychologyExplanation": "Konjugasi akhiran berbasis vokal/konsonan akhir akar kata kerja (받침). Dalam kerangka Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"Akar Vokal + -ㄹ 거예요 / -ㄹ 수 있다 | Akar Konsonan + -을 거예요 / -을 수 있다\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Rencana Masa Depan (-을/ㄹ 거예요), Keinginan (-고 싶다) & Kemampuan (-을/ㄹ 수 있다)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ko-topik2-05-future-desire-ability-voc-1",
+          "term": "내년 여름에 서울에 갈 거예요. 한국 음식을 많이 먹고 싶어요.",
+          "reading": "Naenyeon yeoreume Seoure gal geoyeyo. Hanguk eumsigeul mani meokgo sipeoyo.",
+          "meaning": "Musim panas tahun depan saya akan pergi ke Seoul. Saya ingin makan banyak makanan Korea.",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Akar Vokal + -ㄹ 거예요 / -ㄹ 수 있다 | Akar Konsonan + -을 거예요 / -을 수 있다",
+          "exampleSentence": "내년 여름에 서울에 갈 거예요. 한국 음식을 많이 먹고 싶어요.",
+          "exampleTranslation": "Musim panas tahun depan saya akan pergi ke Seoul. Saya ingin makan banyak makanan Korea."
+        }
+      ]
+    }
+  ]
+}

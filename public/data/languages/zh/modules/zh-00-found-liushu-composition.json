@@ -1,0 +1,98 @@
+{
+  "id": "zh-00-found-liushu-composition",
+  "lang": "zh",
+  "pillar": "script",
+  "tier": "foundation",
+  "order": 102,
+  "title": "Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+  "subtitle": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-liushu-composition-row-1",
+          "cells": {
+            "construct": {
+              "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
+              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+            },
+            "formula": {
+              "script": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+            }
+          },
+          "fullTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        },
+        {
+          "id": "zh-00-found-liushu-composition-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
+            },
+            "formula": {
+              "script": "SCRIPT · Target 36 Entri",
+              "gloss": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi"
+            },
+            "example": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi — Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)\"",
+        "psychologyExplanation": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi. Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-00-found-liushu-composition-voc-1",
+          "term": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "qīng · qíng · qíng",
+          "meaning": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip",
+          "partOfSpeech": "script",
+          "patternNote": "Rumus terkait: Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+          "exampleSentence": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "exampleTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        }
+      ]
+    }
+  ]
+}

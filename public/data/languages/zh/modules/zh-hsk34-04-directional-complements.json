@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk34-04-directional-complements",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "intermediate",
+  "order": 126,
+  "title": "Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+  "subtitle": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan | Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-04-directional-complements-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)",
+              "gloss": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin"
+            },
+            "formula": {
+              "script": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+            }
+          },
+          "fullTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        },
+        {
+          "id": "zh-hsk34-04-directional-complements-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比 (HSK 3–4 · Sistem Komplemen & Struktur Perbandingan)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara"
+            },
+            "example": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara — Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去\"",
+        "psychologyExplanation": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara. Dalam kerangka Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk34-04-directional-complements-voc-1",
+          "term": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+          "meaning": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+          "exampleSentence": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "exampleTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        }
+      ]
+    }
+  ]
+}

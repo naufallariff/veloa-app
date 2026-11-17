@@ -1,0 +1,98 @@
+{
+  "id": "ja-n4-04-transitivity-pairs",
+  "lang": "ja",
+  "pillar": "morphology",
+  "tier": "beginner",
+  "order": 129,
+  "title": "Jidoshi (Intransitif) vs Tadoshi (Transitif): 開く/開ける, 閉まる/閉める, 消える/消す",
+  "subtitle": "Membedakan peristiwa yang terjadi sendiri vs tindakan yang dilakukan pelaku",
+  "estimatedMinutes": 40,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap | Jidoshi (Intransitif) vs Tadoshi (Transitif): 開く/開ける, 閉まる/閉める, 消える/消す",
+      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-04-transitivity-pairs-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)",
+              "gloss": "Sistem Ko-So-A-Do, perbandingan, serta kata kerja memberi-menerima"
+            },
+            "formula": {
+              "script": "Jidoshi (Subjek が V) vs Tadoshi (Pelaku が/は Objek を V)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "ドアが開きました (Pintu terbuka) vs 私がドアを開けました (Saya membuka pintu)",
+              "reading": "Doa ga akimashita vs Watashi ga doa o akemashita",
+              "gloss": "Pasangan kata kerja berakar sama dengan akhiran berbeda adalah ciri khas Jepang"
+            }
+          },
+          "fullTranslation": "Pasangan kata kerja berakar sama dengan akhiran berbeda adalah ciri khas Jepang"
+        },
+        {
+          "id": "ja-n4-04-transitivity-pairs-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Demonstrativa Ko-So-A-Do, Keberadaan (Aru/Iru) & Memberi-Menerima (JLPT N5–N4 · Tata Bahasa Dasar Lengkap)"
+            },
+            "formula": {
+              "script": "MORPHOLOGY · Target 36 Entri",
+              "gloss": "Membedakan peristiwa yang terjadi sendiri vs tindakan yang dilakukan pelaku"
+            },
+            "example": {
+              "script": "ドアが開きました (Pintu terbuka) vs 私がドアを開けました (Saya membuka pintu)",
+              "reading": "Doa ga akimashita vs Watashi ga doa o akemashita",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan peristiwa yang terjadi sendiri vs tindakan yang dilakukan pelaku — Pasangan kata kerja berakar sama dengan akhiran berbeda adalah ciri khas Jepang"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Jidoshi (Intransitif) vs Tadoshi (Transitif): 開く/開ける, 閉まる/閉める, 消える/消す\"",
+        "psychologyExplanation": "Membedakan peristiwa yang terjadi sendiri vs tindakan yang dilakukan pelaku. Dalam kerangka Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4), penutur asli memetakan hubungan makna menggunakan rumus \"Jidoshi (Subjek が V) vs Tadoshi (Pelaku が/は Objek を V)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Jidoshi (Intransitif) vs Tadoshi (Transitif): 開く/開ける, 閉まる/閉める, 消える/消す",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "ja-n4-04-transitivity-pairs-voc-1",
+          "term": "ドアが開きました (Pintu terbuka) vs 私がドアを開けました (Saya membuka pintu)",
+          "reading": "Doa ga akimashita vs Watashi ga doa o akemashita",
+          "meaning": "Pasangan kata kerja berakar sama dengan akhiran berbeda adalah ciri khas Jepang",
+          "partOfSpeech": "morphology",
+          "patternNote": "Rumus terkait: Jidoshi (Subjek が V) vs Tadoshi (Pelaku が/は Objek を V)",
+          "exampleSentence": "ドアが開きました (Pintu terbuka) vs 私がドアを開けました (Saya membuka pintu)",
+          "exampleTranslation": "Pasangan kata kerja berakar sama dengan akhiran berbeda adalah ciri khas Jepang"
+        }
+      ]
+    }
+  ]
+}

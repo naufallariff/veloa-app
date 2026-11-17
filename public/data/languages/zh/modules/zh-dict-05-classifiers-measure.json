@@ -1,0 +1,98 @@
+{
+  "id": "zh-dict-05-classifiers-measure",
+  "lang": "zh",
+  "pillar": "lexicon-dialogue",
+  "tier": "intermediate",
+  "order": 112,
+  "title": "Kamus Kata Penggolong (量词 Liàngcí): 本, 张, 条, 件, 双, 辆, 座 & 场",
+  "subtitle": "Memilih kata satuan berdasarkan bentuk fisik, pasangan, atau peristiwa",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "Kamus & Korpus Lanjutan Mandarin | Kamus Kata Penggolong (量词 Liàngcí): 本, 张, 条, 件, 双, 辆, 座 & 场",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-05-classifiers-measure-row-1",
+          "cells": {
+            "construct": {
+              "script": "4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional",
+              "gloss": "Penggunaan classifier spesifik benda serta percakapan negosiasi dan layanan"
+            },
+            "formula": {
+              "script": "Angka / Demonstrativa (这/那) + 量词 (Liàngcí) + Kata Benda",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "一本书 · 两张票 · 三条河 · 一双筷子 · 一场雨",
+              "reading": "yì běn shū · liǎng zhāng piào · sān tiáo hé · yì shuāng kuàizi · yì chǎng yǔ",
+              "gloss": "Dalam Mandarin, angka tidak boleh langsung menempel pada kata benda tanpa kata satuan"
+            }
+          },
+          "fullTranslation": "Dalam Mandarin, angka tidak boleh langsung menempel pada kata benda tanpa kata satuan"
+        },
+        {
+          "id": "zh-dict-05-classifiers-measure-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kata Satuan (量词 Liàngcí), Kosakata HSK 5–6 & Dialog Bisnis Tiongkok (Kamus & Korpus Lanjutan Mandarin)"
+            },
+            "formula": {
+              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+              "gloss": "Memilih kata satuan berdasarkan bentuk fisik, pasangan, atau peristiwa"
+            },
+            "example": {
+              "script": "一本书 · 两张票 · 三条河 · 一双筷子 · 一场雨",
+              "reading": "yì běn shū · liǎng zhāng piào · sān tiáo hé · yì shuāng kuàizi · yì chǎng yǔ",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Memilih kata satuan berdasarkan bentuk fisik, pasangan, atau peristiwa — Dalam Mandarin, angka tidak boleh langsung menempel pada kata benda tanpa kata satuan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Kamus Kata Penggolong (量词 Liàngcí): 本, 张, 条, 件, 双, 辆, 座 & 场\"",
+        "psychologyExplanation": "Memilih kata satuan berdasarkan bentuk fisik, pasangan, atau peristiwa. Dalam kerangka 4. Kamus Kata Penggolong (量词), Sinonim Halus & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"Angka / Demonstrativa (这/那) + 量词 (Liàngcí) + Kata Benda\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Kamus Kata Penggolong (量词 Liàngcí): 本, 张, 条, 件, 双, 辆, 座 & 场",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-dict-05-classifiers-measure-voc-1",
+          "term": "一本书 · 两张票 · 三条河 · 一双筷子 · 一场雨",
+          "reading": "yì běn shū · liǎng zhāng piào · sān tiáo hé · yì shuāng kuàizi · yì chǎng yǔ",
+          "meaning": "Dalam Mandarin, angka tidak boleh langsung menempel pada kata benda tanpa kata satuan",
+          "partOfSpeech": "lexicon-dialogue",
+          "patternNote": "Rumus terkait: Angka / Demonstrativa (这/那) + 量词 (Liàngcí) + Kata Benda",
+          "exampleSentence": "一本书 · 两张票 · 三条河 · 一双筷子 · 一场雨",
+          "exampleTranslation": "Dalam Mandarin, angka tidak boleh langsung menempel pada kata benda tanpa kata satuan"
+        }
+      ]
+    }
+  ]
+}

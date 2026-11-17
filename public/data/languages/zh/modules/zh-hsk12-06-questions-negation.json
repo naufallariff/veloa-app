@@ -1,0 +1,98 @@
+{
+  "id": "zh-hsk12-06-questions-negation",
+  "lang": "zh",
+  "pillar": "syntax",
+  "tier": "beginner",
+  "order": 124,
+  "title": "Sistem Pertanyaan (吗, 呢, 吧, A-不-A) & Negasi 不 (bù) vs 没 (méi)",
+  "subtitle": "Membedakan negasi kebiasaan/masa depan (不) dengan negasi peristiwa lampau/kepemilikan (没)",
+  "estimatedMinutes": 35,
+  "blocks": [
+    {
+      "type": "cognitive-pattern-table",
+      "title": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu | Sistem Pertanyaan (吗, 呢, 吧, A-不-A) & Negasi 不 (bù) vs 没 (méi)",
+      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "construct",
+          "roleLabel": "Konsep & Fungsi",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "formula",
+          "roleLabel": "Rumus & Kaidah Inti",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "example",
+          "roleLabel": "Contoh Autentik",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-06-questions-negation-row-1",
+          "cells": {
+            "construct": {
+              "script": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)",
+              "gloss": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin"
+            },
+            "formula": {
+              "script": "不 + V/Adj (Kebiasaan/Penolakan) vs 没(有) + V/Nomina (Belum/Tidak Terjadi)",
+              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+            },
+            "example": {
+              "script": "他昨天没去公司，明天也不去。(Kemarin dia tidak ke kantor, besok juga tidak pergi)",
+              "reading": "Tā zuótiān méi qù gōngsī, míngtiān yě bú qù.",
+              "gloss": "Tidak boleh menggabungkan 没 dengan bentuk lampau 了 (jangan katakan 没去了)"
+            }
+          },
+          "fullTranslation": "Tidak boleh menggabungkan 没 dengan bentuk lampau 了 (jangan katakan 没去了)"
+        },
+        {
+          "id": "zh-hsk12-06-questions-negation-row-2",
+          "cells": {
+            "construct": {
+              "script": "Penerapan Kontekstual",
+              "gloss": "Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi (HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu)"
+            },
+            "formula": {
+              "script": "SYNTAX · Target 34 Entri",
+              "gloss": "Membedakan negasi kebiasaan/masa depan (不) dengan negasi peristiwa lampau/kepemilikan (没)"
+            },
+            "example": {
+              "script": "他昨天没去公司，明天也不去。(Kemarin dia tidak ke kantor, besok juga tidak pergi)",
+              "reading": "Tā zuótiān méi qù gōngsī, míngtiān yě bú qù.",
+              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+            }
+          },
+          "fullTranslation": "Membedakan negasi kebiasaan/masa depan (不) dengan negasi peristiwa lampau/kepemilikan (没) — Tidak boleh menggabungkan 没 dengan bentuk lampau 了 (jangan katakan 没去了)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Logika Penutur Asli pada Topik \"Sistem Pertanyaan (吗, 呢, 吧, A-不-A) & Negasi 不 (bù) vs 没 (méi)\"",
+        "psychologyExplanation": "Membedakan negasi kebiasaan/masa depan (不) dengan negasi peristiwa lampau/kepemilikan (没). Dalam kerangka Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"不 + V/Adj (Kebiasaan/Penolakan) vs 没(有) + V/Nomina (Belum/Tidak Terjadi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
+        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+      }
+    },
+    {
+      "type": "vocabulary-deck",
+      "title": "Korpus & Leksikon Kunci: Sistem Pertanyaan (吗, 呢, 吧, A-不-A) & Negasi 不 (bù) vs 没 (méi)",
+      "direction": "ltr",
+      "totalCount": 1,
+      "entries": [
+        {
+          "id": "zh-hsk12-06-questions-negation-voc-1",
+          "term": "他昨天没去公司，明天也不去。(Kemarin dia tidak ke kantor, besok juga tidak pergi)",
+          "reading": "Tā zuótiān méi qù gōngsī, míngtiān yě bú qù.",
+          "meaning": "Tidak boleh menggabungkan 没 dengan bentuk lampau 了 (jangan katakan 没去了)",
+          "partOfSpeech": "syntax",
+          "patternNote": "Rumus terkait: 不 + V/Adj (Kebiasaan/Penolakan) vs 没(有) + V/Nomina (Belum/Tidak Terjadi)",
+          "exampleSentence": "他昨天没去公司，明天也不去。(Kemarin dia tidak ke kantor, besok juga tidak pergi)",
+          "exampleTranslation": "Tidak boleh menggabungkan 没 dengan bentuk lampau 了 (jangan katakan 没去了)"
+        }
+      ]
+    }
+  ]
+}
