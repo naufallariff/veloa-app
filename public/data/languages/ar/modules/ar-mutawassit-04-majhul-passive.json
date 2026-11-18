@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah | Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "grammaticalTradition": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-mutawassit-04-majhul-passive-row-1",
+          "id": "ar-mutawassit-04-majhul-passive-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)",
-              "gloss": "Huruf Nashib (أَنْ لَنْ كَيْ), Huruf Jazim (لَمْ لَا النَّاهِيَة), dan Fi‘l Majhūl"
+              "gloss": "Pilar MORPHOLOGY · I‘rāb Fi‘l Muḍāri‘ (Naṣb & Jazm), Fi‘l Mu‘tall & Mabnī lil-Majhūl (Pasif)"
             },
             "formula": {
               "script": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
               "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
               "gloss": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
@@ -51,34 +51,236 @@
           "fullTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
         },
         {
-          "id": "ar-mutawassit-04-majhul-passive-row-2",
+          "id": "ar-mutawassit-04-majhul-passive-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "I‘rāb Fi‘l Muḍāri‘ (Naṣb & Jazm), Fi‘l Mu‘tall & Mabnī lil-Majhūl (Pasif) (Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
               "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī) — Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+          "fullTranslation": "Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il: Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il\"",
-        "psychologyExplanation": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī). Dalam kerangka Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ), penutur asli memetakan hubungan makna menggunakan rumus \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "eraOrDomain": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Pola vokal universal pasif Arab: Ḍamma awal dan Kasrah sebelum akhir (Māḍī). Dalam cabang \"Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)\", konstruksi \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)\" (Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+          "explanation": "Huruf Nashib (أَنْ لَنْ كَيْ), Huruf Jazim (لَمْ لَا النَّاهِيَة), dan Fi‘l Majhūl Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+          "definition": "Pola \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-04-majhul-passive-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+            }
+          },
+          "fullTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        },
+        {
+          "id": "ar-mutawassit-04-majhul-passive-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)] → Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Makna kontekstual: \"Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘\""
+            }
+          },
+          "fullTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        },
+        {
+          "id": "ar-mutawassit-04-majhul-passive-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Padanan alami: Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+            }
+          },
+          "fullTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-04-majhul-passive-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+              "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+              "gloss": "Pola acuan: Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-mutawassit-04-majhul-passive-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "title": "5. Tips, Trik & Leksikon Kunci: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
           "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
           "meaning": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
+          "partOfSpeech": "MORPHOLOGY · Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)",
           "exampleSentence": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
           "exampleTranslation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Mabnī lil-Ma‘lūm (Aktif) vs Mabnī lil-Majhūl (Pasif) & Nā’ib Al-Fā‘il",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Al-Mustawā Al-Mutawassiṭ · Naḥwu & Ṣaraf Menengah · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+          "translation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘ — (Penerapan langsung pola \"Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)\")",
+          "grammarHighlight": "Māḍī Majhūl: فُعِلَ (كَتَبَ → كُتِبَ) | Muḍāri‘ Majhūl: يُفْعَلُ (يَكْتُبُ → يُكْتَبُ)"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "كَتَبَ الطَّالِبُ الدَّرْسَ → كُتِبَ الدَّرْسُ (Pelajaran itu telah ditulis)",
+          "reading": "Kataba aṭ-ṭālibu ad-darsa → Kutiba ad-darsu",
+          "translation": "Objek (Maf‘ūl Bih) naik posisi menjadi Nā’ib Al-Fā‘il berharakat Marfū‘ — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: I‘rāb Kata Kerja, Bentuk Pasif & Fi‘l Mu‘tall (Mutawassiṭ)"
         }
       ]
     }

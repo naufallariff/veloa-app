@@ -3,46 +3,46 @@
   "lang": "ko",
   "pillar": "script",
   "tier": "native",
-  "order": 113,
+  "order": 130,
   "title": "Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
   "subtitle": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15",
   "estimatedMinutes": 50,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "grammaticalTradition": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-lit-02-middle-korean-row-1",
+          "id": "ko-lit-02-middle-korean-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang Sastra & Filologi Korea (Gukmunhak)",
-              "gloss": "Struktur irama Sijo, aksara klasik Araea (ㆍ), dan estetika Han serta Jeong"
+              "gloss": "Pilar SCRIPT · Sijo (시조), Gasa (가사), Jungse Gukeo & Sastra Korea Klasik–Modern"
             },
             "formula": {
               "script": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
               "reading": "Naratmalssami Dyunggwige dara...",
               "gloss": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
@@ -51,34 +51,236 @@
           "fullTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
         },
         {
-          "id": "ko-lit-02-middle-korean-row-2",
+          "id": "ko-lit-02-middle-korean-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Sijo (시조), Gasa (가사), Jungse Gukeo & Sastra Korea Klasik–Modern (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
-            },
-            "formula": {
-              "script": "SCRIPT · Target 24 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 24 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±50 menit"
+            },
+            "anchor": {
               "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
               "reading": "Naratmalssami Dyunggwige dara...",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15 — Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+          "fullTranslation": "Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom: Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom\"",
-        "psychologyExplanation": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15. Dalam kerangka Cabang Sastra & Filologi Korea (Gukmunhak), penutur asli memetakan hubungan makna menggunakan rumus \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "eraOrDomain": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membaca naskah asli Hunminjeongeum Eonhae dan Yongbieocheonga abad ke-15. Dalam cabang \"Cabang Sastra & Filologi Korea (Gukmunhak)\", konstruksi \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ\" (Naratmalssami Dyunggwige dara...). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "explanation": "Struktur irama Sijo, aksara klasik Araea (ㆍ), dan estetika Han serta Jeong Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+          "definition": "Pola \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-02-middle-korean-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+            }
+          },
+          "fullTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        },
+        {
+          "id": "ko-lit-02-middle-korean-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang Sastra & Filologi Korea (Gukmunhak)] → Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Makna kontekstual: \"Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya\""
+            }
+          },
+          "fullTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        },
+        {
+          "id": "ko-lit-02-middle-korean-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Padanan alami: Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+            }
+          },
+          "fullTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-02-middle-korean-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+              "reading": "Naratmalssami Dyunggwige dara...",
+              "gloss": "Pola acuan: Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-lit-02-middle-korean-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "title": "5. Tips, Trik & Leksikon Kunci: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,19 +289,42 @@
           "term": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
           "reading": "Naratmalssami Dyunggwige dara...",
           "meaning": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya",
-          "partOfSpeech": "script",
-          "patternNote": "Rumus terkait: Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
+          "partOfSpeech": "SCRIPT · Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)",
           "exampleSentence": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
           "exampleTranslation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya"
         }
       ]
     },
     {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "translation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya — (Penerapan langsung pola \"Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)\")",
+          "grammarHighlight": "Aksara Abad ke-15 (ㆍ ㅿ ㆆ ㆁ) + Penanda Nada Samping (방점)"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "나랏말ᄊᆞ미 듕귁에 달아 문자와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ",
+          "reading": "Naratmalssami Dyunggwige dara...",
+          "translation": "Bahasa negeri kita berbeda dari Tiongkok sehingga tidak saling selaras dengan aksaranya — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang Sastra & Filologi Korea (Gukmunhak)"
+        }
+      ]
+    },
+    {
       "type": "rhetoric-stylistics",
-      "title": "Kajian Sastra & Estetika Bahasa: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
+      "title": "Kajian Sastra & Estetika Stilistika: Filologi Jungse Gukeo (중세국어): Huruf Kuno ㆍ (Araea), ㅿ, ㆆ & Nada Bangjeom",
       "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
-      "overview": "Kurikulum sastra Korea tingkat universitas: puisi 3-bait Sijo, filologi Hangeul kuno, dan prosa modern",
+      "overview": "Kurikulum sastra Korea tingkat universitas: puisi 3-bait Sijo, filologi Hangeul kuno, dan prosa modern. Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
       "devices": [
         {
           "deviceName": "Cabang Sastra & Filologi Korea (Gukmunhak)",

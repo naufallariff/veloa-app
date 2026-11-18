@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu | Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+      "grammaticalTradition": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk12-03-shi-vs-hen-row-1",
+          "id": "zh-hsk12-03-shi-vs-hen-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)",
-              "gloss": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin"
+              "gloss": "Pilar SYNTAX · Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi"
             },
             "formula": {
               "script": "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
               "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
               "gloss": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
@@ -51,34 +51,236 @@
           "fullTranslation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
         },
         {
-          "id": "zh-hsk12-03-shi-vs-hen-row-2",
+          "id": "zh-hsk12-03-shi-vs-hen-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi (HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Mengapa \"Saya sibuk\" adalah 我很忙 (Wǒ hěn máng), BUKAN 我是忙"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
               "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Mengapa \"Saya sibuk\" adalah 我很忙 (Wǒ hěn máng), BUKAN 我是忙 — Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+          "fullTranslation": "Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula: Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula\"",
-        "psychologyExplanation": "Mengapa \"Saya sibuk\" adalah 我很忙 (Wǒ hěn máng), BUKAN 我是忙. Dalam kerangka Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+      "eraOrDomain": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Mengapa \"Saya sibuk\" adalah 我很忙 (Wǒ hěn máng), BUKAN 我是忙. Dalam cabang \"Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)\", konstruksi \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+          "reading": "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)\" (Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+          "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+          "explanation": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+          "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+          "definition": "Pola \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-03-shi-vs-hen-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+              "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+              "gloss": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+            }
+          },
+          "fullTranslation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+        },
+        {
+          "id": "zh-hsk12-03-shi-vs-hen-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)] → Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+              "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+              "gloss": "Makna kontekstual: \"Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif\""
+            }
+          },
+          "fullTranslation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+        },
+        {
+          "id": "zh-hsk12-03-shi-vs-hen-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+              "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+              "gloss": "Padanan alami: Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+            }
+          },
+          "fullTranslation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-03-shi-vs-hen-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+              "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+              "gloss": "Pola acuan: Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk12-03-shi-vs-hen-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
           "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
           "meaning": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
+          "partOfSpeech": "SYNTAX · HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)",
           "exampleSentence": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
           "exampleTranslation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kopula 是 (shì) vs Predikat Adjektiva dengan 很 (hěn): Jebakan Terbesar Pemula",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+          "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+          "translation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif — (Penerapan langsung pola \"Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)\")",
+          "grammarHighlight": "Subjek + 是 + Nomina | Subjek + 很 + Adjektiva (Penghubung Netral)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "他是工程师。(Dia insinyur) vs 今天天气很好。(Cuaca hari ini bagus)",
+          "reading": "Tā shì gōngchéngshī. vs Jīntiān tiānqì hěn hǎo.",
+          "translation": "Dalam kalimat positif, adjektiva memerlukan penyeimbang 很 agar tidak bermakna komparatif — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)"
         }
       ]
     }

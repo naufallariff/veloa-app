@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "syntax",
   "tier": "advanced",
-  "order": 119,
+  "order": 125,
   "title": "Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
   "subtitle": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial",
   "estimatedMinutes": 45,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N2–N1 · Mahir | Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+      "grammaticalTradition": "JLPT N2–N1 · Mahir · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n2-formal-connectors-row-1",
+          "id": "ja-n2-formal-connectors-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Pola Bunpō N2–N1 & Ragam Tulis Formal",
-              "gloss": "Ekspresi kausalitas, konsesi, dan retorika jurnalistik"
+              "gloss": "Pilar SYNTAX · Tata Bahasa Formal, Tajuk Berita & Wacana Akademik"
             },
             "formula": {
               "script": "Nomina/Kamus + Formal Compound Particle",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "年齢や性別を問わず、誰でも応募できます。",
               "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
               "gloss": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
@@ -51,34 +51,236 @@
           "fullTranslation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
         },
         {
-          "id": "ja-n2-formal-connectors-row-2",
+          "id": "ja-n2-formal-connectors-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Tata Bahasa Formal, Tajuk Berita & Wacana Akademik (JLPT N2–N1 · Mahir)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 35 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 35 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±45 menit"
+            },
+            "anchor": {
               "script": "年齢や性別を問わず、誰でも応募できます。",
               "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial — Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+          "fullTranslation": "Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない: Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない\"",
-        "psychologyExplanation": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial. Dalam kerangka Cabang A: Pola Bunpō N2–N1 & Ragam Tulis Formal, penutur asli memetakan hubungan makna menggunakan rumus \"Nomina/Kamus + Formal Compound Particle\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Nomina/Kamus + Formal Compound Particle\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+      "eraOrDomain": "JLPT N2–N1 · Mahir · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Ungkapan resmi dalam dokumen bisnis, pengumuman, dan editorial. Dalam cabang \"Cabang A: Pola Bunpō N2–N1 & Ragam Tulis Formal\", konstruksi \"Nomina/Kamus + Formal Compound Particle\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "年齢や性別を問わず、誰でも応募できます。",
+          "reading": "Nomina/Kamus + Formal Compound Particle",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"年齢や性別を問わず、誰でも応募できます。\" (Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "年齢や性別を問わず、誰でも応募できます。",
+          "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+          "explanation": "Ekspresi kausalitas, konsesi, dan retorika jurnalistik Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Nomina/Kamus + Formal Compound Particle\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "年齢や性別を問わず、誰でも応募できます。",
+          "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Nomina/Kamus + Formal Compound Particle\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+          "definition": "Pola \"Nomina/Kamus + Formal Compound Particle\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Tanpa memandang usia maupun gender, siapa pun dapat mendaftar.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "年齢や性別を問わず、誰でも応募できます。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Nomina/Kamus + Formal Compound Particle"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n2-formal-connectors-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Nomina/Kamus + Formal Compound Particle",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "年齢や性別を問わず、誰でも応募できます。",
+              "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+              "gloss": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+            }
+          },
+          "fullTranslation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+        },
+        {
+          "id": "ja-n2-formal-connectors-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Pola Bunpō N2–N1 & Ragam Tulis Formal] → Nomina/Kamus + Formal Compound Particle",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "年齢や性別を問わず、誰でも応募できます。",
+              "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+              "gloss": "Makna kontekstual: \"Tanpa memandang usia maupun gender, siapa pun dapat mendaftar.\""
+            }
+          },
+          "fullTranslation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+        },
+        {
+          "id": "ja-n2-formal-connectors-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "年齢や性別を問わず、誰でも応募できます。",
+              "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+              "gloss": "Padanan alami: Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+            }
+          },
+          "fullTranslation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Nomina/Kamus + Formal Compound Particle\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n2-formal-connectors-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "年齢や性別を問わず、誰でも応募できます。",
+              "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+              "gloss": "Pola acuan: Nomina/Kamus + Formal Compound Particle"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n2-formal-connectors-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Nomina/Kamus + Formal Compound Particle",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+      "title": "5. Tips, Trik & Leksikon Kunci: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "年齢や性別を問わず、誰でも応募できます。",
           "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
           "meaning": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar.",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Nomina/Kamus + Formal Compound Particle",
+          "partOfSpeech": "SYNTAX · JLPT N2–N1 · Mahir",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Nomina/Kamus + Formal Compound Particle",
           "exampleSentence": "年齢や性別を問わず、誰でも応募できます。",
           "exampleTranslation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Pola Tata Bahasa N2: 〜に際して, 〜を問わず, 〜かねない & 〜ざるを得ない",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N2–N1 · Mahir · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "年齢や性別を問わず、誰でも応募できます。",
+          "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+          "translation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar. — (Penerapan langsung pola \"Nomina/Kamus + Formal Compound Particle\")",
+          "grammarHighlight": "Nomina/Kamus + Formal Compound Particle"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "年齢や性別を問わず、誰でも応募できます。",
+          "reading": "Nenrei ya seibetsu o towazu, dare demo ōbo dekimasu.",
+          "translation": "Tanpa memandang usia maupun gender, siapa pun dapat mendaftar. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Pola Bunpō N2–N1 & Ragam Tulis Formal"
         }
       ]
     }

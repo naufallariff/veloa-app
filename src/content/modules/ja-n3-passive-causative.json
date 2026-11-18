@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "morphology",
   "tier": "intermediate",
-  "order": 118,
+  "order": 124,
   "title": "Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
   "subtitle": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive)",
   "estimatedMinutes": 45,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N3 · Menengah | Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+      "grammaticalTradition": "JLPT N3 · Menengah · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n3-passive-causative-row-1",
+          "id": "ja-n3-passive-causative-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo)",
-              "gloss": "Struktur sudut pandang pembicara dan hierarki sosial"
+              "gloss": "Pilar MORPHOLOGY · Pasif, Kausatif, Keigo Dasar & Nuansa Penghubung"
             },
             "formula": {
               "script": "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "雨に降られて、服が濡れてしまいました。",
               "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
               "gloss": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
@@ -51,34 +51,236 @@
           "fullTranslation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
         },
         {
-          "id": "ja-n3-passive-causative-row-2",
+          "id": "ja-n3-passive-causative-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Pasif, Kausatif, Keigo Dasar & Nuansa Penghubung (JLPT N3 · Menengah)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±45 menit"
+            },
+            "anchor": {
               "script": "雨に降られて、服が濡れてしまいました。",
               "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive) — Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+          "fullTranslation": "Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi: Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi\"",
-        "psychologyExplanation": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive). Dalam kerangka Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo), penutur asli memetakan hubungan makna menggunakan rumus \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+      "eraOrDomain": "JLPT N3 · Menengah · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Memahami sudut pandang empati Jepang (Receiving/Suffering Passive). Dalam cabang \"Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo)\", konstruksi \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "雨に降られて、服が濡れてしまいました。",
+          "reading": "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"雨に降られて、服が濡れてしまいました。\" (Ame ni furarete, fuku ga nurete shimaimashita.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "雨に降られて、服が濡れてしまいました。",
+          "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+          "explanation": "Struktur sudut pandang pembicara dan hierarki sosial Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "雨に降られて、服が濡れてしまいました。",
+          "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+          "definition": "Pola \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Kehujanan (terdampak hujan), sehingga pakaian menjadi basah.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "雨に降られて、服が濡れてしまいました。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-passive-causative-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "雨に降られて、服が濡れてしまいました。",
+              "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+              "gloss": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+            }
+          },
+          "fullTranslation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+        },
+        {
+          "id": "ja-n3-passive-causative-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo)] → Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "雨に降られて、服が濡れてしまいました。",
+              "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+              "gloss": "Makna kontekstual: \"Kehujanan (terdampak hujan), sehingga pakaian menjadi basah.\""
+            }
+          },
+          "fullTranslation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+        },
+        {
+          "id": "ja-n3-passive-causative-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "雨に降られて、服が濡れてしまいました。",
+              "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+              "gloss": "Padanan alami: Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+            }
+          },
+          "fullTranslation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-passive-causative-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "雨に降られて、服が濡れてしまいました。",
+              "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+              "gloss": "Pola acuan: Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n3-passive-causative-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+      "title": "5. Tips, Trik & Leksikon Kunci: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "雨に降られて、服が濡れてしまいました。",
           "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
           "meaning": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah.",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
+          "partOfSpeech": "MORPHOLOGY · JLPT N3 · Menengah",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)",
           "exampleSentence": "雨に降られて、服が濡れてしまいました。",
           "exampleTranslation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Ukemi (Pasif/Penderitaan), Shieki (Kausatif/Menyuruh) & Shieki-Ukemi",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N3 · Menengah · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "雨に降られて、服が濡れてしまいました。",
+          "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+          "translation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah. — (Penerapan langsung pola \"Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)\")",
+          "grammarHighlight": "Pasif (-areru/-rareru) · Kausatif (-aseru/-saseru) · Kausatif-Pasif (-saserareru)"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "雨に降られて、服が濡れてしまいました。",
+          "reading": "Ame ni furarete, fuku ga nurete shimaimashita.",
+          "translation": "Kehujanan (terdampak hujan), sehingga pakaian menjadi basah. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Diatesis (Pasif-Kausatif) & Hormat (Keigo)"
         }
       ]
     }

@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal | Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "grammaticalTradition": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk56-05-nuanced-adverbs-row-1",
+          "id": "zh-hsk56-05-nuanced-adverbs-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6",
-              "gloss": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis"
+              "gloss": "Pilar LEXICON-DIALOGUE · Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana"
             },
             "formula": {
               "script": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "天气预报说今天有雪，下午果然下起雪来了。",
               "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
               "gloss": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
@@ -51,34 +51,236 @@
           "fullTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
         },
         {
-          "id": "zh-hsk56-05-nuanced-adverbs-row-2",
+          "id": "zh-hsk56-05-nuanced-adverbs-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana (HSK 5–6 · Konjungsi Kompleks & Retorika Formal)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 36 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 36 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "天气预报说今天有雪，下午果然下起雪来了。",
               "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi — Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+          "fullTranslation": "Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然: Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然\"",
-        "psychologyExplanation": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi. Dalam kerangka Cabang B: Konektor Wacana & Struktur Formal HSK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "eraOrDomain": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membedakan rasa terkejut (居然) vs sesuai dugaan (果然) dalam narasi. Dalam cabang \"Cabang B: Konektor Wacana & Struktur Formal HSK 5–6\", konstruksi \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"天气预报说今天有雪，下午果然下起雪来了。\" (Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+          "explanation": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+          "definition": "Pola \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "天气预报说今天有雪，下午果然下起雪来了。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+            }
+          },
+          "fullTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        },
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Konektor Wacana & Struktur Formal HSK 5–6] → 果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Makna kontekstual: \"Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju.\""
+            }
+          },
+          "fullTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        },
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Padanan alami: Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+            }
+          },
+          "fullTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "天气预报说今天有雪，下午果然下起雪来了。",
+              "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+              "gloss": "Pola acuan: 果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk56-05-nuanced-adverbs-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "天气预报说今天有雪，下午果然下起雪来了。",
           "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
           "meaning": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju.",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: 果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
+          "partOfSpeech": "LEXICON-DIALOGUE · HSK 5–6 · Konjungsi Kompleks & Retorika Formal",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: 果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)",
           "exampleSentence": "天气预报说今天有雪，下午果然下起雪来了。",
           "exampleTranslation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kata Keterangan Bernuansa Halus: 究竟 vs 毕竟, 难免 vs 未免 & 居然 vs 果然",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+          "translation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju. — (Penerapan langsung pola \"果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)\")",
+          "grammarHighlight": "果然 (Terbukti sesuai prediksi) vs 居然 (Ternyata di luar dugaan!)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "天气预报说今天有雪，下午果然下起雪来了。",
+          "reading": "Tiānqì yùbào shuō jīntiān yǒu xuě, xiàwǔ guǒrán xià qǐ xuě lái le.",
+          "translation": "Prakiraan cuaca menyebut hari ini bersalju, dan sorenya benar-benar turun salju. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6"
         }
       ]
     }

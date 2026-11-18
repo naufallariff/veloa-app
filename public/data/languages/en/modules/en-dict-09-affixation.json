@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Lanjutan | Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "grammaticalTradition": "Kamus & Korpus Lanjutan · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-dict-09-affixation-row-1",
+          "id": "en-dict-09-affixation-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "4. Kamus Kolokasi & Word Formation (Prefix–Suffix)",
-              "gloss": "Pasangan kata alami penutur asli serta pembentukan kata lewat afiksasi"
+              "gloss": "Pilar MORPHOLOGY · Kolokasi Akademik, Idiom & Simulasi Dialog Real-World"
             },
             "formula": {
               "script": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "predict → predictable → unpredictability → unpredictably",
               "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
               "gloss": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
@@ -51,34 +51,236 @@
           "fullTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
         },
         {
-          "id": "en-dict-09-affixation-row-2",
+          "id": "en-dict-09-affixation-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kolokasi Akademik, Idiom & Simulasi Dialog Real-World (Kamus & Korpus Lanjutan)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 42 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 42 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "predict → predictable → unpredictability → unpredictably",
               "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya — Satu akar kata berkembang menjadi empat kelas kata berbeda"
+          "fullTranslation": "Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize): Satu akar kata berkembang menjadi empat kelas kata berbeda"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)\"",
-        "psychologyExplanation": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya. Dalam kerangka 4. Kamus Kolokasi & Word Formation (Prefix–Suffix), penutur asli memetakan hubungan makna menggunakan rumus \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "eraOrDomain": "Kamus & Korpus Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menebak makna dan kelas kata ribuan kosakata akademik dari imbuhannya. Dalam cabang \"4. Kamus Kolokasi & Word Formation (Prefix–Suffix)\", konstruksi \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "predict → predictable → unpredictability → unpredictably",
+          "reading": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"predict → predictable → unpredictability → unpredictably\" (/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "predict → predictable → unpredictability → unpredictably",
+          "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+          "explanation": "Pasangan kata alami penutur asli serta pembentukan kata lewat afiksasi Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "predict → predictable → unpredictability → unpredictably",
+          "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+          "definition": "Pola \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Satu akar kata berkembang menjadi empat kelas kata berbeda\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "predict → predictable → unpredictability → unpredictably"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-09-affixation-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+            }
+          },
+          "fullTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        },
+        {
+          "id": "en-dict-09-affixation-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [4. Kamus Kolokasi & Word Formation (Prefix–Suffix)] → Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Makna kontekstual: \"Satu akar kata berkembang menjadi empat kelas kata berbeda\""
+            }
+          },
+          "fullTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        },
+        {
+          "id": "en-dict-09-affixation-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Padanan alami: Satu akar kata berkembang menjadi empat kelas kata berbeda"
+            }
+          },
+          "fullTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-09-affixation-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "predict → predictable → unpredictability → unpredictably",
+              "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+              "gloss": "Pola acuan: Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-dict-09-affixation-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "predict → predictable → unpredictability → unpredictably",
           "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
           "meaning": "Satu akar kata berkembang menjadi empat kelas kata berbeda",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
+          "partOfSpeech": "MORPHOLOGY · Kamus & Korpus Lanjutan",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)",
           "exampleSentence": "predict → predictable → unpredictability → unpredictably",
           "exampleTranslation": "Satu akar kata berkembang menjadi empat kelas kata berbeda"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Word Formation: Prefixes (un-, dis-, mis-, pre-, over-) & Suffixes (-tion, -ity, -ous, -ize)",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "Kamus & Korpus Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "predict → predictable → unpredictability → unpredictably",
+          "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+          "translation": "Satu akar kata berkembang menjadi empat kelas kata berbeda — (Penerapan langsung pola \"Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)\")",
+          "grammarHighlight": "Prefix (Makna) + Root + Suffix (Kelas Kata: Noun/Verb/Adj/Adv)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "predict → predictable → unpredictability → unpredictably",
+          "reading": "/prɪˈdɪkt/ → /ˌʌn.prɪˌdɪk.təˈbɪl.ə.ti/",
+          "translation": "Satu akar kata berkembang menjadi empat kelas kata berbeda — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "4. Kamus Kolokasi & Word Formation (Prefix–Suffix)"
         }
       ]
     }

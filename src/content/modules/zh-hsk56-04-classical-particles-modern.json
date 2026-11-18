@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal | Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "grammaticalTradition": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk56-04-classical-particles-modern-row-1",
+          "id": "zh-hsk56-04-classical-particles-modern-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6",
-              "gloss": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis"
+              "gloss": "Pilar SYNTAX · Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana"
             },
             "formula": {
               "script": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
               "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
               "gloss": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
@@ -51,34 +51,236 @@
           "fullTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
         },
         {
-          "id": "zh-hsk56-04-classical-particles-modern-row-2",
+          "id": "zh-hsk56-04-classical-particles-modern-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Korelasi Konjungsi Ganda, Kata Tugas Formal & Kohesi Wacana (HSK 5–6 · Konjungsi Kompleks & Retorika Formal)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±45 menit"
+            },
+            "anchor": {
               "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
               "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat — Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+          "fullTranslation": "Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃: Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃\"",
-        "psychologyExplanation": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat. Dalam kerangka Cabang B: Konektor Wacana & Struktur Formal HSK 5–6, penutur asli memetakan hubungan makna menggunakan rumus \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "eraOrDomain": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Memahami partikel ringkas yang membuat berita dan dokumen hukum Mandarin padat. Dalam cabang \"Cabang B: Konektor Wacana & Struktur Formal HSK 5–6\", konstruksi \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"众所周知，语言不仅是交流工具，更是文化的载体。\" (Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+          "explanation": "Pasangan konjungsi konsesif, kondisional ketat, dan partikel gaya tulis Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+          "definition": "Pola \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "众所周知，语言不仅是交流工具，更是文化的载体。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+            }
+          },
+          "fullTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        },
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Konektor Wacana & Struktur Formal HSK 5–6] → 所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Makna kontekstual: \"Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya.\""
+            }
+          },
+          "fullTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        },
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Padanan alami: Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+            }
+          },
+          "fullTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "众所周知，语言不仅是交流工具，更是文化的载体。",
+              "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+              "gloss": "Pola acuan: 所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk56-04-classical-particles-modern-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "众所周知，语言不仅是交流工具，更是文化的载体。",
           "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
           "meaning": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya.",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: 所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
+          "partOfSpeech": "SYNTAX · HSK 5–6 · Konjungsi Kompleks & Retorika Formal",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: 所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)",
           "exampleSentence": "众所周知，语言不仅是交流工具，更是文化的载体。",
           "exampleTranslation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kata Tugas Berakar Klasik dalam Teks Formal: 之, 所, 以, 而, 则 & 乃",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 5–6 · Konjungsi Kompleks & Retorika Formal · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+          "translation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya. — (Penerapan langsung pola \"所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)\")",
+          "grammarHighlight": "所 + Verb (Yang di-V) | A 之 B (B milik A) | 进而 (Selanjutnya/Lebih jauh)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "众所周知，语言不仅是交流工具，更是文化的载体。",
+          "reading": "Zhòng suǒ zhōu zhī, yǔyán bùjǐn shì jiāoliú gōngjù, gèng shì wénhuà de zàitǐ.",
+          "translation": "Sebagaimana diketahui umum, bahasa bukan sekadar alat komunikasi, melainkan pembawa budaya. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Konektor Wacana & Struktur Formal HSK 5–6"
         }
       ]
     }

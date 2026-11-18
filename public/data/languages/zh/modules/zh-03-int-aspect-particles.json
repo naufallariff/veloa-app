@@ -3,46 +3,46 @@
   "lang": "zh",
   "pillar": "morphology",
   "tier": "intermediate",
-  "order": 111,
+  "order": 117,
   "title": "Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
   "subtitle": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 3–4 · Menengah | Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+      "grammaticalTradition": "HSK 3–4 · Menengah · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-03-int-aspect-particles-row-1",
+          "id": "zh-03-int-aspect-particles-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin",
-              "gloss": "Penguasaan 了/过/着 dan kalimat disposal 把"
+              "gloss": "Pilar MORPHOLOGY · Partikel Aspek (了, 过, 着), Kalimat 把 (Bǎ) & 被 (Bèi)"
             },
             "formula": {
               "script": "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "我看过这部电影，现在门开着，我已经进来了。",
               "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
               "gloss": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
@@ -51,34 +51,236 @@
           "fullTranslation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
         },
         {
-          "id": "zh-03-int-aspect-particles-row-2",
+          "id": "zh-03-int-aspect-particles-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Partikel Aspek (了, 过, 着), Kalimat 把 (Bǎ) & 被 (Bèi) (HSK 3–4 · Menengah)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "我看过这部电影，现在门开着，我已经进来了。",
               "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan — Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+          "fullTranslation": "Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses: Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses\"",
-        "psychologyExplanation": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan. Dalam kerangka Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin, penutur asli memetakan hubungan makna menggunakan rumus \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+      "eraOrDomain": "HSK 3–4 · Menengah · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membedakan penyelesaian tindakan, pengalaman lampau, dan kondisi bertahan. Dalam cabang \"Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin\", konstruksi \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "我看过这部电影，现在门开着，我已经进来了。",
+          "reading": "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"我看过这部电影，现在门开着，我已经进来了。\" (Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "我看过这部电影，现在门开着，我已经进来了。",
+          "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+          "explanation": "Penguasaan 了/过/着 dan kalimat disposal 把 Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "我看过这部电影，现在门开着，我已经进来了。",
+          "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+          "definition": "Pola \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "我看过这部电影，现在门开着，我已经进来了。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-03-int-aspect-particles-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "我看过这部电影，现在门开着，我已经进来了。",
+              "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+              "gloss": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+            }
+          },
+          "fullTranslation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+        },
+        {
+          "id": "zh-03-int-aspect-particles-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin] → V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "我看过这部电影，现在门开着，我已经进来了。",
+              "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+              "gloss": "Makna kontekstual: \"Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja\""
+            }
+          },
+          "fullTranslation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+        },
+        {
+          "id": "zh-03-int-aspect-particles-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "我看过这部电影，现在门开着，我已经进来了。",
+              "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+              "gloss": "Padanan alami: Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+            }
+          },
+          "fullTranslation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-03-int-aspect-particles-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "我看过这部电影，现在门开着，我已经进来了。",
+              "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+              "gloss": "Pola acuan: V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-03-int-aspect-particles-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+      "title": "5. Tips, Trik & Leksikon Kunci: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "我看过这部电影，现在门开着，我已经进来了。",
           "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
           "meaning": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
+          "partOfSpeech": "MORPHOLOGY · HSK 3–4 · Menengah",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)",
           "exampleSentence": "我看过这部电影，现在门开着，我已经进来了。",
           "exampleTranslation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Tiga Partikel Aspek Mandarin (了 le, 过 guo, 着 zhe) — Pengganti Tenses",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 3–4 · Menengah · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "我看过这部电影，现在门开着，我已经进来了。",
+          "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+          "translation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja — (Penerapan langsung pola \"V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)\")",
+          "grammarHighlight": "V + 了 (Selesai) | V + 过 (Pernah) | V + 着 (Keadaan Berlangsung)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "我看过这部电影，现在门开着，我已经进来了。",
+          "reading": "Wǒ kàn guo zhè bù diànyǐng, xiànzài mén kāi zhe...",
+          "translation": "Mandarin menandai aspek peristiwa secara presisi tanpa mengubah bentuk kata kerja — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Aspek Peristiwa & Konstruksi Khusus Mandarin"
         }
       ]
     }

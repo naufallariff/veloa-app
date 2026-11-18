@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts | Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+      "grammaticalTradition": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-mutaqaddim-05-mamnu-min-sarf-row-1",
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)",
-              "gloss": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin"
+              "gloss": "Pilar MORPHOLOGY · Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf"
             },
             "formula": {
               "script": "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
               "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
               "gloss": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
@@ -51,34 +51,236 @@
           "fullTranslation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
         },
         {
-          "id": "ar-mutaqaddim-05-mamnu-min-sarf-row-2",
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf (Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Mengapa عُمَرُ, مَسَاجِدُ, dan أَحْمَدُ memakai Fathah saat Majrūr (فِي مَسَاجِدَ كَثِيرَةٍ)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
               "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Mengapa عُمَرُ, مَسَاجِدُ, dan أَحْمَدُ memakai Fathah saat Majrūr (فِي مَسَاجِدَ كَثِيرَةٍ) — Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+          "fullTranslation": "Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah: Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah\"",
-        "psychologyExplanation": "Mengapa عُمَرُ, مَسَاجِدُ, dan أَحْمَدُ memakai Fathah saat Majrūr (فِي مَسَاجِدَ كَثِيرَةٍ). Dalam kerangka Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim), penutur asli memetakan hubungan makna menggunakan rumus \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+      "eraOrDomain": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Mengapa عُمَرُ, مَسَاجِدُ, dan أَحْمَدُ memakai Fathah saat Majrūr (فِي مَسَاجِدَ كَثِيرَةٍ). Dalam cabang \"Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)\", konstruksi \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+          "reading": "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ\" (Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+          "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+          "explanation": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+          "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+          "definition": "Pola \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+              "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+              "gloss": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+            }
+          },
+          "fullTranslation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+        },
+        {
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)] → Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+              "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+              "gloss": "Makna kontekstual: \"Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah\""
+            }
+          },
+          "fullTranslation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+        },
+        {
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+              "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+              "gloss": "Padanan alami: Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+            }
+          },
+          "fullTranslation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+              "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+              "gloss": "Pola acuan: Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-mutaqaddim-05-mamnu-min-sarf-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+      "title": "5. Tips, Trik & Leksikon Kunci: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
           "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
           "meaning": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
+          "partOfSpeech": "MORPHOLOGY · Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah",
           "exampleSentence": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
           "exampleTranslation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Al-Mamnū‘ min aṣ-Ṣarf (الْمَمْنُوع مِنَ الصَّرْف): Ism yang Tidak Bertanwin & Dijarr dengan Fathah",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+          "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+          "translation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah — (Penerapan langsung pola \"Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah\")",
+          "grammarHighlight": "Mamnū‘ min aṣ-Ṣarf (Tanpa ال/Idhāfah): Raf‘ = Ḍammah | Naṣb & Jarr = Fathah"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "صَلَّيْتُ فِي مَسَاجِدَ كَبِيرَةٍ vs صَلَّيْتُ فِي الْمَسَاجِدِ الْكَبِيرَةِ",
+          "reading": "Ṣallaytu fī masājida kabīratin vs Ṣallaytu fī al-masājidi al-kabīrati",
+          "translation": "Jika diberi ال atau menjadi Mudhāf, tanda Jarr-nya kembali normal menjadi Kasrah — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)"
         }
       ]
     }

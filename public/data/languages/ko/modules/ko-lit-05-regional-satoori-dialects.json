@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan | Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "grammaticalTradition": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-lit-05-regional-satoori-dialects-row-1",
+          "id": "ko-lit-05-regional-satoori-dialects-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",
-              "gloss": "Pansori (판소리), penyair modern (Kim Sowol, Yun Dong-ju), dan Satoori Gyeongsang/Jeolla/Jeju"
+              "gloss": "Pilar PHONETICS · Pansori & Prosa Joseon, Puisi Modern Korea & Dialek Regional (Satoori)"
             },
             "formula": {
               "script": "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
               "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
               "gloss": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
@@ -51,34 +51,236 @@
           "fullTranslation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
         },
         {
-          "id": "ko-lit-05-regional-satoori-dialects-row-2",
+          "id": "ko-lit-05-regional-satoori-dialects-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Pansori & Prosa Joseon, Puisi Modern Korea & Dialek Regional (Satoori) (Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan)"
-            },
-            "formula": {
-              "script": "PHONETICS · Target 28 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Pelestarian vokal kuno Araea (ㆍ) di Pulau Jeju serta intonasi nada di Gyeongsang"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 28 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
               "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Pelestarian vokal kuno Araea (ㆍ) di Pulau Jeju serta intonasi nada di Gyeongsang — Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+          "fullTranslation": "Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju: Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju\"",
-        "psychologyExplanation": "Pelestarian vokal kuno Araea (ㆍ) di Pulau Jeju serta intonasi nada di Gyeongsang. Dalam kerangka Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea, penutur asli memetakan hubungan makna menggunakan rumus \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "eraOrDomain": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Pelestarian vokal kuno Araea (ㆍ) di Pulau Jeju serta intonasi nada di Gyeongsang. Dalam cabang \"Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea\", konstruksi \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+          "reading": "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)\" (Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+          "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+          "explanation": "Pansori (판소리), penyair modern (Kim Sowol, Yun Dong-ju), dan Satoori Gyeongsang/Jeolla/Jeju Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+          "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+          "definition": "Pola \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-05-regional-satoori-dialects-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+              "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+              "gloss": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+            }
+          },
+          "fullTranslation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+        },
+        {
+          "id": "ko-lit-05-regional-satoori-dialects-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea] → Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+              "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+              "gloss": "Makna kontekstual: \"Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15\""
+            }
+          },
+          "fullTranslation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+        },
+        {
+          "id": "ko-lit-05-regional-satoori-dialects-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+              "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+              "gloss": "Padanan alami: Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+            }
+          },
+          "fullTranslation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-lit-05-regional-satoori-dialects-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+              "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+              "gloss": "Pola acuan: Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-lit-05-regional-satoori-dialects-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "title": "5. Tips, Trik & Leksikon Kunci: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,19 +289,42 @@
           "term": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
           "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
           "meaning": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15",
-          "partOfSpeech": "phonetics",
-          "patternNote": "Rumus terkait: Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
+          "partOfSpeech": "PHONETICS · Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)",
           "exampleSentence": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
           "exampleTranslation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15"
         }
       ]
     },
     {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "Sastra, Filologi & Keindahan Bahasa · Kukmunhak Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+          "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+          "translation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15 — (Penerapan langsung pola \"Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)\")",
+          "grammarHighlight": "Pyojuneo (Seoul) ↔ Gyeongsang (-나/-노) ↔ Jeju (혼저 옵서예)"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "밥 먹었니? (Seoul) ↔ 밥 뭇나? (Busan) ↔ 혼저 옵서예 (Selamat datang — Jeju)",
+          "reading": "Bap meogeonni? ↔ Bap munna? ↔ Honjeo opseoye",
+          "translation": "Bahasa Jeju menyimpan banyak kosakata dan fonologi Korea Pertengahan abad ke-15 — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea"
+        }
+      ]
+    },
+    {
       "type": "rhetoric-stylistics",
-      "title": "Kajian Sastra & Estetika Bahasa: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
+      "title": "Kajian Sastra & Estetika Stilistika: Dialektologi Korea (방언 / 사투리): Gyeongsang (Busan), Jeolla, Chungcheong & Bahasa Jeju",
       "traditionName": "Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
-      "overview": "Pendalaman jurusan Sastra Korea: sastra rakyat (Chunhyangga), puisi modern, dan variasi dialek",
+      "overview": "Pendalaman jurusan Sastra Korea: sastra rakyat (Chunhyangga), puisi modern, dan variasi dialek. Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
       "devices": [
         {
           "deviceName": "Cabang Sastra Naratif Joseon, Puisi Modern & Dialektologi Korea",

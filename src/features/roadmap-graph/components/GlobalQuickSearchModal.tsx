@@ -1,15 +1,21 @@
 // src/features/roadmap-graph/components/GlobalQuickSearchModal.tsx
-import React, { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, CheckCircle2, Layers, Search, X } from 'lucide-react';
+
 import { CURRICULUM_MANIFEST } from '@/content/curriculum-manifest';
+type ManifestItem = (typeof CURRICULUM_MANIFEST)[number];
+
 import { prefetchLessonModule } from '@/features/lesson-engine/services/module-loader';
 import { useLessonProgress } from '@/features/lesson-engine/hooks/useLessonProgress';
+import { useDebouncedValue } from '@/shared/hooks/use-performance';
 
 interface GlobalQuickSearchModalProps {
     isOpen: boolean;
     onClose: () => void;
     onSelectModule: (moduleId: string) => void;
 }
+
+const MAX_PREVIEW_RESULTS = 5;
 
 const LANG_BADGE_MAP: Record<string, string> = {
     en: 'EN · English',
@@ -19,6 +25,21 @@ const LANG_BADGE_MAP: Record<string, string> = {
     ko: 'KO · Korea',
 };
 
+function scoreMatch(item: ManifestItem, q: string): number {
+    const title = item.title.toLowerCase();
+    const subtitle = item.subtitle.toLowerCase();
+    const pillar = item.pillar.toLowerCase();
+    const tier = item.tier.toLowerCase();
+    const lang = item.lang.toLowerCase();
+
+    if (title === q) return 100;
+    if (title.startsWith(q)) return 85;
+    if (title.includes(q)) return 70;
+    if (pillar.includes(q) || tier.includes(q) || lang === q) return 50;
+    if (subtitle.includes(q)) return 35;
+    return 0;
+}
+
 export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
     isOpen,
     onClose,
@@ -27,23 +48,33 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
     const [query, setQuery] = useState('');
     const [selectedIndex, setSelectedIndex] = useState(0);
     const inputRef = useRef<HTMLInputElement | null>(null);
-    const deferredQuery = useDeferredValue(query);
+    const listRef = useRef<HTMLUListElement | null>(null);
+    const debouncedQuery = useDebouncedValue(query.trim().toLowerCase(), 200);
     const { isModuleCompleted } = useLessonProgress();
 
-    const results = useMemo(() => {
-        const q = deferredQuery.trim().toLowerCase();
-        if (!q) {
-            return CURRICULUM_MANIFEST.slice(0, 12);
+    const { results, totalMatches } = useMemo(() => {
+        if (!debouncedQuery) {
+            return {
+                results: CURRICULUM_MANIFEST.slice(0, MAX_PREVIEW_RESULTS),
+                totalMatches: CURRICULUM_MANIFEST.length,
+            };
         }
-        return CURRICULUM_MANIFEST.filter(
-            (item) =>
-                item.title.toLowerCase().includes(q) ||
-                item.subtitle.toLowerCase().includes(q) ||
-                item.lang.toLowerCase().includes(q) ||
-                item.tier.toLowerCase().includes(q) ||
-                item.pillar.toLowerCase().includes(q),
-        ).slice(0, 20);
-    }, [deferredQuery]);
+
+        const scored: Array<{ item: ManifestItem; score: number }> = [];
+        for (const item of CURRICULUM_MANIFEST) {
+            const score = scoreMatch(item, debouncedQuery);
+            if (score > 0) {
+                scored.push({ item, score });
+            }
+        }
+
+        scored.sort((a, b) => b.score - a.score);
+
+        return {
+            results: scored.slice(0, MAX_PREVIEW_RESULTS).map((entry) => entry.item),
+            totalMatches: scored.length,
+        };
+    }, [debouncedQuery]);
 
     useEffect(() => {
         if (isOpen) {
@@ -58,7 +89,13 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
 
     useEffect(() => {
         setSelectedIndex(0);
-    }, [deferredQuery]);
+    }, [debouncedQuery]);
+
+    // Pastikan item yang dipilih keyboard selalu terlihat dalam scroll container
+    useEffect(() => {
+        const activeEl = listRef.current?.children[selectedIndex] as HTMLElement | undefined;
+        activeEl?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }, [selectedIndex]);
 
     useEffect(() => {
         if (!isOpen) return;
@@ -93,12 +130,12 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
         <div
             role="dialog"
             aria-modal="true"
-            aria-label="Pencarian cepat kurikulum Velòa"
+            aria-label="Pencarian cepat kurikulum Veloa"
             className="fixed inset-0 z-50 flex items-start justify-center bg-slate-950/60 px-4 pt-16 backdrop-blur-xs sm:pt-24"
             onClick={onClose}
         >
             <div
-                className="veloa-surface-card w-full max-w-2xl overflow-hidden border border-(--border-strong) shadow-2xl"
+                className="veloa-surface-card w-full max-w-xl overflow-hidden border border-(--border-strong) shadow-2xl"
                 onClick={(e) => e.stopPropagation()}
             >
                 {/* Input Pencarian */}
@@ -109,9 +146,19 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
                         type="search"
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
-                        placeholder="Cari topik tata bahasa, aksara, atau modul (mis. Naḥwu, Kanji, Subjunctive, Batchim)..."
+                        placeholder="Cari topik tata bahasa, aksara, atau modul..."
                         className="w-full bg-transparent text-sm text-(--text-primary) placeholder:text-(--text-muted) focus:outline-none"
                     />
+                    {query && (
+                        <button
+                            type="button"
+                            onClick={() => setQuery('')}
+                            aria-label="Bersihkan kata kunci"
+                            className="rounded-md px-2 py-1 text-xs font-semibold text-(--text-muted) hover:bg-(--surface-elevated) hover:text-(--text-primary)"
+                        >
+                            Reset
+                        </button>
+                    )}
                     <button
                         type="button"
                         onClick={onClose}
@@ -122,14 +169,14 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
                     </button>
                 </div>
 
-                {/* Daftar Hasil */}
-                <div className="max-h-[60vh] overflow-y-auto p-2">
+                {/* Daftar Hasil (Dibatasi Top 5 Teratas + Smooth Scroll) */}
+                <div className="max-h-72 overflow-y-auto scroll-smooth p-2.5">
                     {results.length === 0 ? (
-                        <div className="py-12 text-center text-sm text-(--text-muted)">
+                        <div className="py-10 text-center text-sm text-(--text-muted)">
                             Tidak ditemukan modul yang cocok dengan “{query}”.
                         </div>
                     ) : (
-                        <ul role="listbox" className="space-y-1">
+                        <ul ref={listRef} role="listbox" className="space-y-1.5">
                             {results.map((item, idx) => {
                                 const active = idx === selectedIndex;
                                 const done = isModuleCompleted(item.id);
@@ -146,7 +193,7 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
                                                 onSelectModule(item.id);
                                                 onClose();
                                             }}
-                                            className={`flex w-full items-start justify-between gap-3 rounded-xl px-3.5 py-3 text-left transition-colors ${active
+                                            className={`veloa-pressable flex w-full items-start justify-between gap-3 rounded-xl px-3.5 py-2.5 text-left transition-colors ${active
                                                     ? 'bg-(--accent-primary-soft) text-(--text-primary)'
                                                     : 'text-(--text-primary) hover:bg-(--surface-elevated)/60'
                                                 }`}
@@ -185,7 +232,7 @@ export const GlobalQuickSearchModal: React.FC<GlobalQuickSearchModalProps> = ({
 
                 {/* Footer Bantuan Pintasan */}
                 <div className="flex items-center justify-between border-t border-(--border-subtle) bg-(--surface-elevated)/50 px-4 py-2.5 text-[11px] text-(--text-muted)">
-                    <span>Navigasi: ↑ ↓ Pilih · Enter Buka · Esc Tutup</span>
+                    <span>Top {results.length} dari {totalMatches} hasil · ↑ ↓ Enter</span>
                     <span>{CURRICULUM_MANIFEST.length} Modul Terindeks</span>
                 </div>
             </div>

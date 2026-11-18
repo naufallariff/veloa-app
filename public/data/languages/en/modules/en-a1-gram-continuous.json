@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 118,
+  "order": 124,
   "title": "Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
   "subtitle": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing",
   "estimatedMinutes": 25,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A1 · Breakthrough | Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+      "grammaticalTradition": "CEFR A1 · Breakthrough · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-a1-gram-continuous-row-1",
+          "id": "en-a1-gram-continuous-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)",
-              "gloss": "Merangkai kata menjadi kalimat nominal dan verbal sederhana"
+              "gloss": "Pilar SYNTAX · Fondasi Kelas Kata & Struktur Kalimat Dasar"
             },
             "formula": {
               "script": "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "We are building a language platform right now.",
               "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
               "gloss": "Menyatakan proses aktif pada saat berbicara"
@@ -51,34 +51,236 @@
           "fullTranslation": "Menyatakan proses aktif pada saat berbicara"
         },
         {
-          "id": "en-a1-gram-continuous-row-2",
+          "id": "en-a1-gram-continuous-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 26 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 26 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±25 menit"
+            },
+            "anchor": {
               "script": "We are building a language platform right now.",
               "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing — Menyatakan proses aktif pada saat berbicara"
+          "fullTranslation": "Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang: Menyatakan proses aktif pada saat berbicara"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang\"",
-        "psychologyExplanation": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing. Dalam kerangka Cabang B: Grammar & Sentence Building (Tata Bahasa A1), penutur asli memetakan hubungan makna menggunakan rumus \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+      "eraOrDomain": "CEFR A1 · Breakthrough · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Rumus be + V-ing dan daftar Stative Verbs yang tidak memakai -ing. Dalam cabang \"Cabang B: Grammar & Sentence Building (Tata Bahasa A1)\", konstruksi \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "We are building a language platform right now.",
+          "reading": "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"We are building a language platform right now.\" (/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "We are building a language platform right now.",
+          "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+          "explanation": "Merangkai kata menjadi kalimat nominal dan verbal sederhana Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "We are building a language platform right now.",
+          "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+          "definition": "Pola \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Menyatakan proses aktif pada saat berbicara\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "We are building a language platform right now."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-gram-continuous-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "We are building a language platform right now.",
+              "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+              "gloss": "Menyatakan proses aktif pada saat berbicara"
+            }
+          },
+          "fullTranslation": "Menyatakan proses aktif pada saat berbicara"
+        },
+        {
+          "id": "en-a1-gram-continuous-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Grammar & Sentence Building (Tata Bahasa A1)] → S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "We are building a language platform right now.",
+              "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+              "gloss": "Makna kontekstual: \"Menyatakan proses aktif pada saat berbicara\""
+            }
+          },
+          "fullTranslation": "Menyatakan proses aktif pada saat berbicara"
+        },
+        {
+          "id": "en-a1-gram-continuous-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "We are building a language platform right now.",
+              "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+              "gloss": "Padanan alami: Menyatakan proses aktif pada saat berbicara"
+            }
+          },
+          "fullTranslation": "Menyatakan proses aktif pada saat berbicara"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-gram-continuous-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "We are building a language platform right now.",
+              "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+              "gloss": "Pola acuan: S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-a1-gram-continuous-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+      "title": "5. Tips, Trik & Leksikon Kunci: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "We are building a language platform right now.",
           "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
           "meaning": "Menyatakan proses aktif pada saat berbicara",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
+          "partOfSpeech": "SYNTAX · CEFR A1 · Breakthrough",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)",
           "exampleSentence": "We are building a language platform right now.",
           "exampleTranslation": "Menyatakan proses aktif pada saat berbicara"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Present Continuous Tense: Aksi yang Sedang Berlangsung Sekarang",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A1 · Breakthrough · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "We are building a language platform right now.",
+          "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+          "translation": "Menyatakan proses aktif pada saat berbicara — (Penerapan langsung pola \"S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)\")",
+          "grammarHighlight": "S + am/is/are + V-ing (Action) vs Stative Verbs (know, want, love)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "We are building a language platform right now.",
+          "reading": "/wiː ɑːr ˈbɪl.dɪŋ ə ˈlæŋ.ɡwɪdʒ ˈplæt.fɔːrm/",
+          "translation": "Menyatakan proses aktif pada saat berbicara — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)"
         }
       ]
     }

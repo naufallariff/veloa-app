@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Pondasi · Sejarah, Jamo & Hukum Batchim | Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+      "grammaticalTradition": "Pondasi · Sejarah, Jamo & Hukum Batchim · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-00-found-syllable-blocks-row-1",
+          "id": "ko-00-found-syllable-blocks-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim",
-              "gloss": "Memahami anatomi organ bicara pada huruf dan perubahan bunyi konsonan akhir"
+              "gloss": "Pilar SCRIPT · Sejarah Hunminjeongeum, Rumus Blok Suku Kata & Hukum Batchim"
             },
             "formula": {
               "script": "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
               "reading": "han + guk → Han-guk",
               "gloss": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
@@ -51,34 +51,236 @@
           "fullTranslation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
         },
         {
-          "id": "ko-00-found-syllable-blocks-row-2",
+          "id": "ko-00-found-syllable-blocks-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Sejarah Hunminjeongeum, Rumus Blok Suku Kata & Hukum Batchim (Pondasi · Sejarah, Jamo & Hukum Batchim)"
-            },
-            "formula": {
-              "script": "SCRIPT · Target 40 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Aturan penempatan vokal vertikal (ㅏㅓㅣ) di kanan vs vokal horizontal (ㅗㅜㅡ) di bawah"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 40 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
               "reading": "han + guk → Han-guk",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Aturan penempatan vokal vertikal (ㅏㅓㅣ) di kanan vs vokal horizontal (ㅗㅜㅡ) di bawah — Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+          "fullTranslation": "Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo): Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)\"",
-        "psychologyExplanation": "Aturan penempatan vokal vertikal (ㅏㅓㅣ) di kanan vs vokal horizontal (ㅗㅜㅡ) di bawah. Dalam kerangka 1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim, penutur asli memetakan hubungan makna menggunakan rumus \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+      "eraOrDomain": "Pondasi · Sejarah, Jamo & Hukum Batchim · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Aturan penempatan vokal vertikal (ㅏㅓㅣ) di kanan vs vokal horizontal (ㅗㅜㅡ) di bawah. Dalam cabang \"1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim\", konstruksi \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+          "reading": "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)\" (han + guk → Han-guk). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+          "reading": "han + guk → Han-guk",
+          "explanation": "Memahami anatomi organ bicara pada huruf dan perubahan bunyi konsonan akhir Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+          "reading": "han + guk → Han-guk",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+          "definition": "Pola \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-00-found-syllable-blocks-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+              "reading": "han + guk → Han-guk",
+              "gloss": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+            }
+          },
+          "fullTranslation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+        },
+        {
+          "id": "ko-00-found-syllable-blocks-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim] → CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+              "reading": "han + guk → Han-guk",
+              "gloss": "Makna kontekstual: \"Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar\""
+            }
+          },
+          "fullTranslation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+        },
+        {
+          "id": "ko-00-found-syllable-blocks-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+              "reading": "han + guk → Han-guk",
+              "gloss": "Padanan alami: Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+            }
+          },
+          "fullTranslation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-00-found-syllable-blocks-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+              "reading": "han + guk → Han-guk",
+              "gloss": "Pola acuan: CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-00-found-syllable-blocks-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
           "reading": "han + guk → Han-guk",
           "meaning": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar",
-          "partOfSpeech": "script",
-          "patternNote": "Rumus terkait: CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
+          "partOfSpeech": "SCRIPT · Pondasi · Sejarah, Jamo & Hukum Batchim",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)",
           "exampleSentence": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
           "exampleTranslation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Rumus Blok Suku Kata Hangeul: Choseong + Jungseong + Jongseong (24 Jamo)",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "Pondasi · Sejarah, Jamo & Hukum Batchim · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+          "reading": "han + guk → Han-guk",
+          "translation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar — (Penerapan langsung pola \"CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)\")",
+          "grammarHighlight": "CV (가 / 고) · CVC (간 / 곰) · CVCC (닭 / 읽)"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "ㅎ + ㅏ + ㄴ = 한 | ㄱ + ㅡ + ㄱ = 극 → 한국 (Hanguk · Korea)",
+          "reading": "han + guk → Han-guk",
+          "translation": "Huruf Hangeul selalu dikelompokkan per suku kata, bukan ditulis mendatar — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Alur Hangeul: Sejarah → Jamo → Blok Suku Kata → Batchim"
         }
       ]
     }

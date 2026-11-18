@@ -22,6 +22,7 @@ interface CliOptions extends BuildOptions {
 }
 
 export interface WriteModuleResult {
+    id?: string;
     skipped?: boolean;
     entriesCount?: number;
 }
@@ -77,6 +78,37 @@ export function countModuleEntries(mod: LessonModule): number {
     }, 0);
 }
 
+async function detectProtectedCoreIds(
+    lang: LanguageCode,
+    coreResults: WriteModuleResult[],
+    coreStartTimeMs: number,
+): Promise<Set<string>> {
+    const protectedIds = new Set<string>();
+
+    for (const res of coreResults) {
+        if (res.id) {
+            protectedIds.add(res.id);
+        }
+    }
+
+    const langModulesDir = path.join(PUBLIC_DATA_ROOT, lang, 'modules');
+    try {
+        const files = await fs.readdir(langModulesDir);
+        for (const file of files) {
+            if (!file.endsWith('.json')) continue;
+            const fullPath = path.join(langModulesDir, file);
+            const stat = await fs.stat(fullPath);
+            if (stat.mtimeMs >= coreStartTimeMs) {
+                protectedIds.add(file.replace(/\.json$/i, ''));
+            }
+        }
+    } catch {
+        // Direktori belum ada
+    }
+
+    return protectedIds;
+}
+
 async function loadRetryFailedIds(): Promise<Set<string>> {
     try {
         const raw = await fs.readFile(FAILED_LOG_PATH, 'utf-8');
@@ -94,9 +126,7 @@ async function generateCurriculumManifest() {
         const dir = path.join(PUBLIC_DATA_ROOT, lang, 'modules');
         let files: string[] = [];
         try {
-            files = (await fs.readdir(dir))
-                .filter((f: string) => f.endsWith('.json'))
-                .sort();
+            files = (await fs.readdir(dir)).filter((f: string) => f.endsWith('.json')).sort();
         } catch {
             continue;
         }
@@ -172,7 +202,7 @@ async function main() {
         `  Build Mode       : ${cliOptions.retryFailed
             ? `RETRY FAILED ONLY (${retryIds?.size ?? 0} modules)`
             : cliOptions.force
-                ? 'FORCE REBUILD'
+                ? 'FORCE REBUILD (Core Corpus Protected)'
                 : 'IDEMPOTENT (Skip valid cache)'
         }`,
     );
@@ -192,6 +222,7 @@ async function main() {
 
     for (const lang of cliOptions.targetLangs) {
         let coreResults: WriteModuleResult[] = [];
+        const coreStartTimeMs = Date.now() - 50;
 
         if (!cliOptions.retryFailed) {
             try {
@@ -203,9 +234,12 @@ async function main() {
             }
         }
 
+        const protectedIds = await detectProtectedCoreIds(lang, coreResults, coreStartTimeMs);
+
         const { results: treeResults, failed: treeFailed } = await buildExpandedTreeModules(lang, {
             force: cliOptions.force,
             ...(retryIds ? { retryOnlyIds: retryIds } : {}),
+            protectedIds,
             publicDataRoot: PUBLIC_DATA_ROOT,
             srcModulesRoot: SRC_MODULES_ROOT,
         });
@@ -223,7 +257,7 @@ async function main() {
         grandTotalEntries += totalEntries;
 
         console.log(
-            `[OK] [${lang.toUpperCase()}] Completed: ${combined.length} modules (${totalEntries.toLocaleString('id-ID')} entries) | Skipped cache: ${skippedCount} | Failed: ${treeFailed.length}`,
+            `[OK] [${lang.toUpperCase()}] Completed: ${combined.length} modules (${totalEntries.toLocaleString('id-ID')} entries) | Protected core: ${protectedIds.size} | Skipped cache: ${skippedCount} | Failed: ${treeFailed.length}`,
         );
     }
 

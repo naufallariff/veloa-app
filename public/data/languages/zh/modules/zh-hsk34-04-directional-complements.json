@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan | Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "grammaticalTradition": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk34-04-directional-complements-row-1",
+          "id": "zh-hsk34-04-directional-complements-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)",
-              "gloss": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin"
+              "gloss": "Pilar SYNTAX · Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比"
             },
             "formula": {
               "script": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
               "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
               "gloss": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
@@ -51,34 +51,236 @@
           "fullTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
         },
         {
-          "id": "zh-hsk34-04-directional-complements-row-2",
+          "id": "zh-hsk34-04-directional-complements-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比 (HSK 3–4 · Sistem Komplemen & Struktur Perbandingan)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
               "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara — Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+          "fullTranslation": "Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去: Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去\"",
-        "psychologyExplanation": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara. Dalam kerangka Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "eraOrDomain": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menunjukkan arah gerakan mendekati atau menjauhi posisi pembicara. Dalam cabang \"Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)\", konstruksi \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)\" (Qǐng dàjiā zǒu jìn jiàoshì lái!). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+          "explanation": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+          "definition": "Pola \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-04-directional-complements-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+            }
+          },
+          "fullTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        },
+        {
+          "id": "zh-hsk34-04-directional-complements-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)] → Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Makna kontekstual: \"Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat\""
+            }
+          },
+          "fullTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        },
+        {
+          "id": "zh-hsk34-04-directional-complements-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Padanan alami: Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+            }
+          },
+          "fullTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-04-directional-complements-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+              "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+              "gloss": "Pola acuan: Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk34-04-directional-complements-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "title": "5. Tips, Trik & Leksikon Kunci: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
           "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
           "meaning": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
+          "partOfSpeech": "SYNTAX · HSK 3–4 · Sistem Komplemen & Struktur Perbandingan",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)",
           "exampleSentence": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
           "exampleTranslation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Komplemen Arah (趋向补语): 来/去 & 进/出/上/下/回/过/起 + 来/去",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+          "translation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat — (Penerapan langsung pola \"Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)\")",
+          "grammarHighlight": "Verb + Arah (上/下/进/出/回) + 嚟/去 (来 = ke arah pembicara, 去 = menjauh)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "请大家走进教室来！(Silakan semuanya berjalan masuk ke dalam kelas!)",
+          "reading": "Qǐng dàjiā zǒu jìn jiàoshì lái!",
+          "translation": "Penutur berada di dalam kelas sehingga memakai 来 di akhir kalimat — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)"
         }
       ]
     }

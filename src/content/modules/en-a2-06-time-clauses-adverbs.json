@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A1–A2 · Struktur Dasar Lanjutan | Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "grammaticalTradition": "CEFR A1–A2 · Struktur Dasar Lanjutan · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-a2-06-time-clauses-adverbs-row-1",
+          "id": "en-a2-06-time-clauses-adverbs-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)",
-              "gloss": "Pola pertanyaan subjek vs objek, tag questions dasar, dan kata kerja beraturan/tak beraturan"
+              "gloss": "Pilar SYNTAX · Kalimat Tanya (Wh-Questions), Imperative & Pronomina Refleksif"
             },
             "formula": {
               "script": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "I will call you as soon as I arrive at the station.",
               "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
               "gloss": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
@@ -51,34 +51,236 @@
           "fullTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
         },
         {
-          "id": "en-a2-06-time-clauses-adverbs-row-2",
+          "id": "en-a2-06-time-clauses-adverbs-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kalimat Tanya (Wh-Questions), Imperative & Pronomina Refleksif (CEFR A1–A2 · Struktur Dasar Lanjutan)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 28 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 28 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "I will call you as soon as I arrive at the station.",
               "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan — Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+          "fullTranslation": "Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as): Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)\"",
-        "psychologyExplanation": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan. Dalam kerangka Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2), penutur asli memetakan hubungan makna menggunakan rumus \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "eraOrDomain": "CEFR A1–A2 · Struktur Dasar Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Posisi kata keterangan frekuensi dan aturan Present Simple dalam klausa waktu masa depan. Dalam cabang \"Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)\", konstruksi \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "I will call you as soon as I arrive at the station.",
+          "reading": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"I will call you as soon as I arrive at the station.\" (/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "I will call you as soon as I arrive at the station.",
+          "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+          "explanation": "Pola pertanyaan subjek vs objek, tag questions dasar, dan kata kerja beraturan/tak beraturan Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "I will call you as soon as I arrive at the station.",
+          "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+          "definition": "Pola \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "I will call you as soon as I arrive at the station."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-06-time-clauses-adverbs-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+            }
+          },
+          "fullTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        },
+        {
+          "id": "en-a2-06-time-clauses-adverbs-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)] → S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Makna kontekstual: \"Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)\""
+            }
+          },
+          "fullTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        },
+        {
+          "id": "en-a2-06-time-clauses-adverbs-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Padanan alami: Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+            }
+          },
+          "fullTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-06-time-clauses-adverbs-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "I will call you as soon as I arrive at the station.",
+              "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+              "gloss": "Pola acuan: S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-a2-06-time-clauses-adverbs-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "I will call you as soon as I arrive at the station.",
           "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
           "meaning": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
+          "partOfSpeech": "SYNTAX · CEFR A1–A2 · Struktur Dasar Lanjutan",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency",
           "exampleSentence": "I will call you as soon as I arrive at the station.",
           "exampleTranslation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will)"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Adverbs of Frequency, Manner & Time Clauses (before, after, until, as soon as)",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A1–A2 · Struktur Dasar Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "I will call you as soon as I arrive at the station.",
+          "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+          "translation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will) — (Penerapan langsung pola \"S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency\")",
+          "grammarHighlight": "S + Adv of Frequency + Main Verb | S + To Be + Adv of Frequency"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "I will call you as soon as I arrive at the station.",
+          "reading": "/aɪ wɪl kɔːl juː æz suːn æz aɪ əˈraɪv/",
+          "translation": "Setelah as soon as/when untuk masa depan, gunakan Present Simple (bukan will) — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang C: Kalimat Tanya, Perintah & Kata Ganti Lanjutan (A1–A2)"
         }
       ]
     }

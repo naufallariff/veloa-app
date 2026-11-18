@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan | Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "grammaticalTradition": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-lit-05-sinitic-dialects-row-1",
+          "id": "zh-lit-05-sinitic-dialects-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",
-              "gloss": "Song Ci (Su Shi, Li Qingzhao), Empat Karya Agung, dan perbandingan Mandarin-Kanton-Hokkien"
+              "gloss": "Pilar PHONETICS · Puisi Dinasti Song (Ci), Empat Roman Klasik & Dialek Sinitik"
             },
             "formula": {
               "script": "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
               "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
               "gloss": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
@@ -51,34 +51,236 @@
           "fullTranslation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
         },
         {
-          "id": "zh-lit-05-sinitic-dialects-row-2",
+          "id": "zh-lit-05-sinitic-dialects-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Puisi Dinasti Song (Ci), Empat Roman Klasik & Dialek Sinitik (Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan)"
-            },
-            "formula": {
-              "script": "PHONETICS · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Pelestarian konsonan akhir (-p, -t, -k) dan 6–9 nada pada bahasa Tionghoa Selatan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
               "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Pelestarian konsonan akhir (-p, -t, -k) dan 6–9 nada pada bahasa Tionghoa Selatan — Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+          "fullTranslation": "Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语): Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)\"",
-        "psychologyExplanation": "Pelestarian konsonan akhir (-p, -t, -k) dan 6–9 nada pada bahasa Tionghoa Selatan. Dalam kerangka Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa, penutur asli memetakan hubungan makna menggunakan rumus \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "eraOrDomain": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Pelestarian konsonan akhir (-p, -t, -k) dan 6–9 nada pada bahasa Tionghoa Selatan. Dalam cabang \"Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa\", konstruksi \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+          "reading": "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g\" (chīfàn · sik6 faan6 · chia̍h-pn̄g). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+          "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+          "explanation": "Song Ci (Su Shi, Li Qingzhao), Empat Karya Agung, dan perbandingan Mandarin-Kanton-Hokkien Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+          "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+          "definition": "Pola \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-05-sinitic-dialects-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+              "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+              "gloss": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+            }
+          },
+          "fullTranslation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+        },
+        {
+          "id": "zh-lit-05-sinitic-dialects-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa] → Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+              "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+              "gloss": "Makna kontekstual: \"Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia\""
+            }
+          },
+          "fullTranslation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+        },
+        {
+          "id": "zh-lit-05-sinitic-dialects-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+              "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+              "gloss": "Padanan alami: Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+            }
+          },
+          "fullTranslation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-05-sinitic-dialects-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+              "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+              "gloss": "Pola acuan: Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-lit-05-sinitic-dialects-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,19 +289,42 @@
           "term": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
           "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
           "meaning": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia",
-          "partOfSpeech": "phonetics",
-          "patternNote": "Rumus terkait: Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
+          "partOfSpeech": "PHONETICS · Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien",
           "exampleSentence": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
           "exampleTranslation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia"
         }
       ]
     },
     {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Sastra, Filologi & Keindahan Bahasa · Sinologi Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+          "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+          "translation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia — (Penerapan langsung pola \"Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien\")",
+          "grammarHighlight": "Middle Chinese 入声 (Entering Tone -p/-t/-k) → Hilang di Mandarin, Lestari di Kanton/Hokkien"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "吃饭: Mandarin chīfàn · Kanton sik6 faan6 · Hokkien chia̍h-pn̄g",
+          "reading": "chīfàn · sik6 faan6 · chia̍h-pn̄g",
+          "translation": "Menelusuri korespondensi bunyi historis menjelaskan kemiripan kosakata Tionghoa-Indonesia — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa"
+        }
+      ]
+    },
+    {
       "type": "rhetoric-stylistics",
-      "title": "Kajian Sastra & Estetika Bahasa: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
+      "title": "Kajian Sastra & Estetika Stilistika: Dialektologi Sinitik: Mandarin vs Kanton (粤语) vs Hokkien/Minnan (闽南语)",
       "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
-      "overview": "Pendalaman jurusan Sastra Tiongkok: evolusi prosodi, prosa klasik, dan variasi dialek",
+      "overview": "Pendalaman jurusan Sastra Tiongkok: evolusi prosodi, prosa klasik, dan variasi dialek. Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
       "devices": [
         {
           "deviceName": "Cabang Sastra Song-Ming, Filologi Aksara & Dialektologi Tionghoa",

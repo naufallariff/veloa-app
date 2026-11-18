@@ -2,7 +2,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
     ArrowDown,
-    ArrowLeft,
     ArrowRight,
     ArrowUpRight,
     BookOpen,
@@ -14,7 +13,6 @@ import {
     Feather,
     GraduationCap,
     Grid,
-    Layers,
     Library,
     Search,
     Sparkles,
@@ -32,6 +30,7 @@ import {
 import { useLessonProgress } from '@/features/lesson-engine/hooks/useLessonProgress';
 import { LANGUAGE_OPTIONS } from '@/shared/ui/AppShellLayout';
 import { InteractiveScriptCharts } from '@/shared/ui/InteractiveScriptCharts';
+import { useDebouncedValue } from '@/shared/hooks/use-performance';
 
 interface LearningHubViewProps {
     selectedLang: LanguageCode;
@@ -59,17 +58,17 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [currentPage, setCurrentPage] = useState<number>(1);
     const [jumpInput, setJumpInput] = useState<string>('1');
+    const debouncedSearch = useDebouncedValue(searchQuery.trim().toLowerCase(), 200);
 
     const filteredModules = useMemo(() => {
-        const q = searchQuery.trim().toLowerCase();
-        if (!q) return branch.modules;
+        if (!debouncedSearch) return branch.modules;
         return branch.modules.filter(
             (m) =>
-                m.title.toLowerCase().includes(q) ||
-                m.subtitle.toLowerCase().includes(q) ||
-                m.focusFormula.toLowerCase().includes(q),
+                m.title.toLowerCase().includes(debouncedSearch) ||
+                m.subtitle.toLowerCase().includes(debouncedSearch) ||
+                m.focusFormula.toLowerCase().includes(debouncedSearch),
         );
-    }, [branch.modules, searchQuery]);
+    }, [branch.modules, debouncedSearch]);
 
     const totalPages = Math.max(1, Math.ceil(filteredModules.length / PAGE_SIZE));
     const safePage = Math.min(Math.max(1, currentPage), totalPages);
@@ -77,7 +76,7 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
     useEffect(() => {
         setCurrentPage(1);
         setJumpInput('1');
-    }, [searchQuery, branch.id]);
+    }, [debouncedSearch, branch.id]);
 
     const paginatedModules = useMemo(() => {
         const start = (safePage - 1) * PAGE_SIZE;
@@ -100,14 +99,14 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
     };
 
     return (
-        <div className="overflow-hidden rounded-2xl border border-(--border-subtle) bg-(--surface-card)">
+        <div className="overflow-hidden rounded-2xl border border-(--border-subtle) bg-(--surface-card) text-(--text-primary) shadow-xs">
             <button
                 type="button"
                 aria-expanded={isExpanded}
                 onClick={onToggleExpand}
                 className="flex w-full items-center justify-between gap-3 p-3.5 text-start transition-colors hover:bg-(--surface-elevated)/60"
             >
-                <div className="min-w-0 space-y-0.5">
+                <div className="min-w-0 space-y-1">
                     <div className="flex flex-wrap items-center gap-2">
                         <span className="text-xs font-extrabold text-(--text-primary) sm:text-sm">
                             {branch.title}
@@ -126,8 +125,8 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
             </button>
 
             {isExpanded && (
-                <div className="space-y-3 border-t border-(--border-subtle) bg-(--surface-elevated)/35 p-3.5">
-                    {/* Search Bar & Jump Input di dalam Cabang */}
+                <div className="space-y-3 border-t border-(--border-subtle) bg-(--surface-elevated)/40 p-3.5">
+                    {/* Search Bar Debounced & Jump Input di dalam Cabang */}
                     <div className="flex flex-wrap items-center justify-between gap-2">
                         <div className="relative min-w-44 flex-1">
                             <Search className="pointer-events-none absolute inset-s-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-(--text-muted)" />
@@ -165,7 +164,7 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
                         )}
                     </div>
 
-                    {/* Daftar 3 Modul Teratas sesuai Halaman Aktif */}
+                    {/* Daftar Modul sesuai Halaman Aktif */}
                     {paginatedModules.length === 0 ? (
                         <p className="py-4 text-center text-xs text-(--text-muted)">
                             Tidak ada modul yang cocok dengan pencarian &ldquo;{searchQuery}&rdquo;.
@@ -187,7 +186,7 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
                                                 onOpenModule(mod.id);
                                             }
                                         }}
-                                        className={`group flex cursor-pointer items-start justify-between gap-3 rounded-xl border p-3 text-start transition-all ${done
+                                        className={`veloa-pressable group flex cursor-pointer items-start justify-between gap-3 rounded-xl border p-3 text-start transition-all ${done
                                                 ? 'border-emerald-500/40 bg-emerald-500/5'
                                                 : 'border-(--border-subtle) bg-(--surface-card) hover:border-(--accent-primary)'
                                             }`}
@@ -271,7 +270,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
     onOpenModule,
 }) => {
     const [hubMode, setHubMode] = useState<HubMode>('ROADMAP');
-    // Default SEMUA node tertutup (collapsed) agar alur grafis terbaca rapi
     const [openStageIds, setOpenStageIds] = useState<Record<string, boolean>>({});
     const [openBranchIds, setOpenBranchIds] = useState<Record<string, boolean>>({});
 
@@ -307,27 +305,27 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
     ) => {
         const isStageOpen = Boolean(openStageIds[stage.id]);
         const totalStageModules = stage.branches.reduce((acc, b) => acc + b.modules.length, 0);
-
-        const cardTheme =
-            variant === 'LITERATURE'
-                ? 'veloa-aurora-card border-2 border-violet-300/60 shadow-lg'
-                : variant === 'FOUNDATION'
-                    ? 'veloa-surface-card border-sky-500/30 bg-sky-500/5'
-                    : variant === 'DICTIONARY'
-                        ? 'veloa-surface-card border-amber-500/30 bg-amber-500/5'
-                        : 'veloa-surface-card border-(--border-subtle)';
-
         const isLit = variant === 'LITERATURE';
+
+        const cardTheme = isLit
+            ? 'overflow-hidden rounded-3xl border-2 border-violet-500/40 bg-(--surface-card) shadow-lg'
+            : variant === 'FOUNDATION'
+                ? 'veloa-surface-card border-sky-500/30 bg-sky-500/5'
+                : variant === 'DICTIONARY'
+                    ? 'veloa-surface-card border-amber-500/30 bg-amber-500/5'
+                    : 'veloa-surface-card border-(--border-subtle)';
 
         return (
             <section key={stage.id} className={`overflow-hidden transition-all ${cardTheme}`}>
+                {/* Header Kartu Tahapan (Khusus Sastra memakai gradien ungu pada header saja, bukan membungkus drawer) */}
                 <button
                     type="button"
                     aria-expanded={isStageOpen}
                     onClick={() => toggleStage(stage.id)}
+                    style={isLit ? { backgroundImage: 'var(--veloa-aurora-hero)' } : undefined}
                     className="flex w-full items-center justify-between gap-3 p-4 text-start sm:p-5"
                 >
-                    <div className="space-y-1">
+                    <div className="space-y-1.5">
                         <div className="flex flex-wrap items-center gap-2">
                             <span
                                 className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[11px] font-extrabold ${isLit
@@ -379,13 +377,9 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                     </div>
                 </button>
 
+                {/* Drawer Cabang dengan Kontras Terjaga (Light & Dark Mode) */}
                 {isStageOpen && (
-                    <div
-                        className={`space-y-3 border-t p-4 sm:p-5 ${isLit
-                                ? 'border-white/20 bg-black/15'
-                                : 'border-(--border-subtle) bg-(--surface-canvas)/50'
-                            }`}
-                    >
+                    <div className="space-y-3 border-t border-(--border-subtle) bg-(--surface-canvas)/70 p-4 text-(--text-primary) sm:p-5">
                         {stage.branches.map((branch) => (
                             <BranchAccordionPanel
                                 key={branch.id}
@@ -412,7 +406,7 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                         <span>{tree.nativeTitle}</span>
                     </div>
                     <h1 className="text-2xl font-extrabold tracking-tight text-(--text-primary) sm:text-3xl">
-                        Peta Kurikulum & Pohon Ilmu Bahasa
+                        Peta Kurikulum &amp; Pohon Ilmu Bahasa
                     </h1>
                     <p className="max-w-3xl text-xs leading-relaxed text-(--text-secondary) sm:text-sm">
                         {tree.methodologyNote}
@@ -482,22 +476,22 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                         <div className="flex flex-wrap items-center gap-4 text-[11px] font-semibold text-(--text-muted)">
                             <span className="inline-flex items-center gap-1.5">
                                 <span className="inline-block w-6 border-t-2 border-solid border-(--accent-primary)" />
-                                <span>Alur Utama Berjenjang</span>
+                                <span>Jalur Utama: Pondasi → Dasar–Mahir → Sastra</span>
                             </span>
                             <span className="inline-flex items-center gap-1.5">
                                 <span className="inline-block w-6 border-t-2 border-dashed border-amber-500" />
-                                <span>Jalur Referensi / Opsional</span>
+                                <span>Referensi Kamus (Opsional)</span>
                             </span>
                         </div>
                     </section>
 
                     {/* ================================================================
-              GRAFIS 2-SISI TERHUBUNG:
-              KIRI: Pondasi -> (Putus-putus) -> Kamus -> (Putus-putus) -> Sastra
-              KANAN: -> (Solid) -> Jenjang Autentik Bahasa -> (Solid) -> Sastra
+              GRAFIS 2-SISI TERSTRUKTUR:
+              KIRI (5 Kolom): Pondasi -> (Putus-putus) -> Kamus & Korpus Praktis
+              KANAN (7 Kolom): Alur Utama Jenjang Dasar–Mahir -> (Solid) -> Sastra & Filologi
              ================================================================ */}
                     <div className="grid items-start gap-6 lg:grid-cols-12">
-                        {/* SISI KIRI (5 Kolom): Pondasi -> Kamus -> Sastra Premium */}
+                        {/* SISI KIRI (5 Kolom): Pondasi -> Kamus (Terhenti di Kamus, tidak ke Sastra) */}
                         <div className="space-y-0 lg:col-span-5">
                             {/* 1. PONDASI FUNDAMENTAL */}
                             <div className="space-y-3">
@@ -513,53 +507,26 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                             </div>
 
                             {/* PENGHUBUNG PUTUS-PUTUS: Pondasi -> Kamus */}
-                            <div className="flex flex-col items-center py-2 text-amber-600 dark:text-amber-400">
+                            <div className="flex flex-col items-center py-2.5 text-amber-600 dark:text-amber-400">
                                 <div className="h-7 border-s-2 border-dashed border-amber-500/70" />
                                 <span className="rounded-full border border-dashed border-amber-500/50 bg-amber-500/10 px-2.5 py-0.5 text-[10px] font-bold">
-                                    Referensi Opsional (Putus-putus)
+                                    Cabang Referensi Kamus (Opsional)
                                 </span>
                                 <ArrowDown className="h-4 w-4" />
                             </div>
 
-                            {/* 2. KAMUS & KORPUS PRAKTIS (Kosakata, Kalimat, Percakapan) */}
+                            {/* 2. KAMUS & KORPUS PRAKTIS (Mandiri, tanpa garis ke Sastra) */}
                             <div className="space-y-3">
                                 {tree.dictionaryStages.map((st) => renderStageNode(st, 'DICTIONARY'))}
                             </div>
-
-                            {/* PENGHUBUNG PUTUS-PUTUS (Kamus -> Sastra) + SOLID DARI KANAN */}
-                            <div className="flex items-center justify-around py-2">
-                                <div className="flex flex-col items-center text-amber-600 dark:text-amber-400">
-                                    <div className="h-7 border-s-2 border-dashed border-amber-500/70" />
-                                    <span className="rounded-full border border-dashed border-amber-500/50 bg-amber-500/10 px-2 py-0.5 text-[10px] font-bold">
-                                        Opsional Kamus
-                                    </span>
-                                    <ArrowDown className="h-4 w-4" />
-                                </div>
-
-                                <div className="flex flex-col items-center text-(--accent-primary)">
-                                    <div className="h-7 border-s-2 border-solid border-(--accent-primary)" />
-                                    <span className="inline-flex items-center gap-1 rounded-full bg-(--accent-primary-soft) px-2.5 py-0.5 text-[10px] font-bold text-(--accent-primary)">
-                                        <ArrowLeft className="h-3 w-3 hidden lg:inline" />
-                                        <span>Dari Jenjang Mahir (Solid)</span>
-                                    </span>
-                                    <ArrowDown className="h-4 w-4" />
-                                </div>
-                            </div>
-
-                            {/* 3. SASTRA, FILOLOGI & KEINDAHAN BAHASA (PREMIUM CARD) */}
-                            <div className="space-y-3">
-                                {tree.literatureStages.map((st) => renderStageNode(st, 'LITERATURE'))}
-                            </div>
                         </div>
 
-                        {/* SISI KANAN (7 Kolom): Alur Utama Jenjang Bahasa (Solid Path) */}
+                        {/* SISI KANAN (7 Kolom): Alur Utama Berjenjang -> Advanced -> Sastra & Filologi */}
                         <div className="space-y-0 lg:col-span-7">
-                            {/* Konektor Masuk dari Pondasi Sisi Kiri (Solid) */}
                             <div className="mb-3 flex items-center gap-2 rounded-2xl border border-(--border-strong) bg-(--accent-primary-soft) px-4 py-2.5 text-xs font-bold text-(--accent-primary)">
                                 <ArrowRight className="h-4 w-4 shrink-0" />
                                 <span>
-                                    Jalur Utama (Garis Solid): Pondasi → Kurikulum Berjenjang {langMeta.name} →
-                                    Sastra & Filologi
+                                    Jalur Utama (Garis Solid): Pondasi → Jenjang Dasar–Mahir {langMeta.name} → Sastra
                                 </span>
                             </div>
 
@@ -567,27 +534,23 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 <React.Fragment key={stage.id}>
                                     {renderStageNode(stage, 'PROGRESSION')}
 
-                                    {/* Garis Penghubung Solid Antar-Jenjang */}
-                                    {idx < tree.progressionStages.length - 1 ? (
-                                        <div className="flex flex-col items-center py-1.5 text-(--accent-primary)">
-                                            <div className="h-6 border-s-2 border-solid border-(--accent-primary)" />
-                                            <ArrowDown className="h-4 w-4" />
-                                        </div>
-                                    ) : (
-                                        /* Sambungan Akhir Solid Menuju Sastra di Sisi Kiri Bawah */
-                                        <div className="mt-3 flex items-center justify-between rounded-2xl border-2 border-solid border-(--accent-primary) bg-(--surface-card) px-4 py-3 text-xs font-bold text-(--accent-primary)">
-                                            <span className="inline-flex items-center gap-2">
-                                                <Layers className="h-4 w-4" />
-                                                <span>
-                                                    Puncak Jenjang Mahir → Terhubung Langsung ke Sastra, Filologi & Keindahan
-                                                    Bahasa (Sisi Kiri Bawah)
-                                                </span>
+                                    {/* Garis Penghubung Solid Antar-Jenjang & menuju Sastra */}
+                                    <div className="flex flex-col items-center py-2 text-(--accent-primary)">
+                                        <div className="h-6 border-s-2 border-solid border-(--accent-primary)" />
+                                        {idx === tree.progressionStages.length - 1 && (
+                                            <span className="mb-0.5 rounded-full bg-(--accent-primary-soft) px-2.5 py-0.5 text-[10px] font-bold text-(--accent-primary)">
+                                                Kelanjutan Tahap Mahir (Advanced → Sastra)
                                             </span>
-                                            <ArrowLeft className="h-4 w-4 shrink-0" />
-                                        </div>
-                                    )}
+                                        )}
+                                        <ArrowDown className="h-4 w-4" />
+                                    </div>
                                 </React.Fragment>
                             ))}
+
+                            {/* 3. SASTRA, FILOLOGI & KEINDAHAN BAHASA (Berada langsung di bawah Advanced) */}
+                            <div className="space-y-3">
+                                {tree.literatureStages.map((st) => renderStageNode(st, 'LITERATURE'))}
+                            </div>
                         </div>
                     </div>
                 </>

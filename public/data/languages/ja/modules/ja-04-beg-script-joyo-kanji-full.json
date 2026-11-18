@@ -4,13 +4,13 @@
   "pillar": "script",
   "tier": "beginner",
   "order": 4,
-  "title": "JLPT N5–N1 | Bank Jōyō Kanji Lengkap (2140 Karakter Resmi)",
+  "title": "JLPT N5–N1 | Bank Jōyō Kanji Lengkap (2139 Karakter Resmi)",
   "subtitle": "Seluruh Jōyō Kanji lengkap dengan bacaan On’yomi, Kun’yomi, arti, dan jumlah guratan",
   "estimatedMinutes": 120,
   "blocks": [
     {
       "type": "script-matrix",
-      "title": "Matriks 2140 Jōyō Kanji",
+      "title": "Matriks 2139 Jōyō Kanji",
       "scriptSystem": "Jōyō Kanji (常用漢字)",
       "direction": "ltr",
       "description": "Setiap karakter memuat bacaan On’yomi, Kun’yomi, arti, dan jumlah guratan.",
@@ -8166,14 +8166,6 @@
           "componentRole": "Grade 3 Jōyō Kanji",
           "strokeCount": 12,
           "mnemonic": "On: ショク | Kun: う.える、う.わる"
-        },
-        {
-          "glyph": "椎",
-          "reading": "ツイ / スイ / つち / う.つ",
-          "transliteration": "chinquapin, mallet, spine",
-          "componentRole": "Grade 8 Jōyō Kanji",
-          "strokeCount": 12,
-          "mnemonic": "On: ツイ、スイ | Kun: つち、う.つ"
         },
         {
           "glyph": "検",

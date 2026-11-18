@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "intermediate",
-  "order": 125,
+  "order": 131,
   "title": "Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
   "subtitle": "Perbedaan can, could, may, might, must, have to, should, ought to",
   "estimatedMinutes": 35,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR B1 · Threshold | Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+      "grammaticalTradition": "CEFR B1 · Threshold · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-b1-modals-row-1",
+          "id": "en-b1-modals-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Aspek Perfect, Modals & Passive Voice",
-              "gloss": "Struktur tata bahasa inti tingkat menengah mandiri"
+              "gloss": "Pilar SYNTAX · Jembatan Waktu Perfect, Modalitas & Kalimat Pasif"
             },
             "formula": {
               "script": "Subject + Modal + Base Verb (V1 tanpa to/s)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "You must submit the draft today, though you don’t have to print it.",
               "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
               "gloss": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
@@ -51,34 +51,236 @@
           "fullTranslation": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
         },
         {
-          "id": "en-b1-modals-row-2",
+          "id": "en-b1-modals-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Jembatan Waktu Perfect, Modalitas & Kalimat Pasif (CEFR B1 · Threshold)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Perbedaan can, could, may, might, must, have to, should, ought to"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "You must submit the draft today, though you don’t have to print it.",
               "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Perbedaan can, could, may, might, must, have to, should, ought to — Kontras must not (larangan) vs don’t have to (tidak wajib)"
+          "fullTranslation": "Modal Auxiliaries: Ability, Permission, Obligation & Deduction: Kontras must not (larangan) vs don’t have to (tidak wajib)"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Modal Auxiliaries: Ability, Permission, Obligation & Deduction\"",
-        "psychologyExplanation": "Perbedaan can, could, may, might, must, have to, should, ought to. Dalam kerangka Cabang A: Aspek Perfect, Modals & Passive Voice, penutur asli memetakan hubungan makna menggunakan rumus \"Subject + Modal + Base Verb (V1 tanpa to/s)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Subject + Modal + Base Verb (V1 tanpa to/s)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+      "eraOrDomain": "CEFR B1 · Threshold · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Perbedaan can, could, may, might, must, have to, should, ought to. Dalam cabang \"Cabang A: Aspek Perfect, Modals & Passive Voice\", konstruksi \"Subject + Modal + Base Verb (V1 tanpa to/s)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "You must submit the draft today, though you don’t have to print it.",
+          "reading": "Subject + Modal + Base Verb (V1 tanpa to/s)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"You must submit the draft today, though you don’t have to print it.\" (/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "You must submit the draft today, though you don’t have to print it.",
+          "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+          "explanation": "Struktur tata bahasa inti tingkat menengah mandiri Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Subject + Modal + Base Verb (V1 tanpa to/s)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "You must submit the draft today, though you don’t have to print it.",
+          "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Subject + Modal + Base Verb (V1 tanpa to/s)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+          "definition": "Pola \"Subject + Modal + Base Verb (V1 tanpa to/s)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Kontras must not (larangan) vs don’t have to (tidak wajib)\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "You must submit the draft today, though you don’t have to print it."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Subject + Modal + Base Verb (V1 tanpa to/s)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b1-modals-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Subject + Modal + Base Verb (V1 tanpa to/s)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "You must submit the draft today, though you don’t have to print it.",
+              "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+              "gloss": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
+            }
+          },
+          "fullTranslation": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
+        },
+        {
+          "id": "en-b1-modals-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Aspek Perfect, Modals & Passive Voice] → Subject + Modal + Base Verb (V1 tanpa to/s)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "You must submit the draft today, though you don’t have to print it.",
+              "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+              "gloss": "Makna kontekstual: \"Kontras must not (larangan) vs don’t have to (tidak wajib)\""
+            }
+          },
+          "fullTranslation": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
+        },
+        {
+          "id": "en-b1-modals-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "You must submit the draft today, though you don’t have to print it.",
+              "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+              "gloss": "Padanan alami: Kontras must not (larangan) vs don’t have to (tidak wajib)"
+            }
+          },
+          "fullTranslation": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Subject + Modal + Base Verb (V1 tanpa to/s)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b1-modals-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "You must submit the draft today, though you don’t have to print it.",
+              "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+              "gloss": "Pola acuan: Subject + Modal + Base Verb (V1 tanpa to/s)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-b1-modals-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Subject + Modal + Base Verb (V1 tanpa to/s)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+      "title": "5. Tips, Trik & Leksikon Kunci: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "You must submit the draft today, though you don’t have to print it.",
           "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
           "meaning": "Kontras must not (larangan) vs don’t have to (tidak wajib)",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Subject + Modal + Base Verb (V1 tanpa to/s)",
+          "partOfSpeech": "SYNTAX · CEFR B1 · Threshold",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Subject + Modal + Base Verb (V1 tanpa to/s)",
           "exampleSentence": "You must submit the draft today, though you don’t have to print it.",
           "exampleTranslation": "Kontras must not (larangan) vs don’t have to (tidak wajib)"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Modal Auxiliaries: Ability, Permission, Obligation & Deduction",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR B1 · Threshold · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "You must submit the draft today, though you don’t have to print it.",
+          "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+          "translation": "Kontras must not (larangan) vs don’t have to (tidak wajib) — (Penerapan langsung pola \"Subject + Modal + Base Verb (V1 tanpa to/s)\")",
+          "grammarHighlight": "Subject + Modal + Base Verb (V1 tanpa to/s)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "You must submit the draft today, though you don’t have to print it.",
+          "reading": "/juː mʌst səbˈmɪt ðə drɑːft təˈdeɪ/",
+          "translation": "Kontras must not (larangan) vs don’t have to (tidak wajib) — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Aspek Perfect, Modals & Passive Voice"
         }
       ]
     }

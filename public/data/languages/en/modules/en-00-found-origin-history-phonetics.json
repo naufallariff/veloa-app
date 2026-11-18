@@ -3,94 +3,112 @@
   "lang": "en",
   "pillar": "phonetics",
   "tier": "foundation",
-  "order": 103,
-  "title": "Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
-  "subtitle": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak",
+  "order": 1,
+  "title": "Foundation | Sejarah Bahasa Inggris, Great Vowel Shift & Sistem IPA",
+  "subtitle": "Mengapa ejaan Inggris sering berbeda dari bunyinya, tiga lapisan sejarah kosakata, dan ritme Stress-Timed",
   "estimatedMinutes": 40,
   "blocks": [
     {
-      "type": "cognitive-pattern-table",
-      "title": "Pondasi · Opsional & Terbuka | Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "type": "linguistic-lore",
+      "title": "Tiga Lapisan Sejarah & Misteri Ejaan Bahasa Inggris",
+      "eraOrDomain": "Sejarah Linguistik Inggris (Old English → Middle English → Modern English)",
       "direction": "ltr",
-      "columns": [
+      "narrativeSummary": "Bahasa Inggris adalah bahasa Jermanik yang menyerap lebih dari 60% kosakatanya dari bahasa Prancis Norman dan Latin. Struktur tiga lapis ini menjelaskan mengapa bahasa Inggris memiliki sinonim bertingkat untuk konsep yang sama (misal: ask [Jermanik/kasual] → question [Prancis/formal] → interrogate [Latin/akademik]).",
+      "milestones": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
-          "semanticColor": "violet"
+          "stage": "1. Old English / Anglo-Saxon (450–1066 M)",
+          "scriptSample": "house • water • bread • friend • strong • sleep",
+          "reading": "Kosakata dasar sehari-hari berakar Jermanik",
+          "explanation": "Kata-kata pendek 1–2 suku kata yang menyangkut tubuh, keluarga, alam, dan emosi dasar berasal dari suku Anglo-Saxon dan pengaruh Viking (Old Norse seperti sky, egg, window, they)."
         },
         {
-          "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
-          "semanticColor": "amber"
+          "stage": "2. Penaklukan Norman 1066 & Middle English (1066–1500 M)",
+          "scriptSample": "cow (Anglo-Saxon) → beef (Prancis) | pig → pork | sheep → mutton",
+          "reading": "Diferensiasi kelas sosial dalam kosakata",
+          "explanation": "Petani Inggris merawat hewan ternak di ladang (cow, pig, sheep), sementara bangsawan berbahasa Prancis menyantap dagingnya di meja makan (boeuf → beef, porc → pork, mouton → mutton)."
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
-          "semanticColor": "emerald"
+          "stage": "3. The Great Vowel Shift (1400–1700 M)",
+          "scriptSample": "name (/naːmə/ → /neɪm/) • time (/tiːmə/ → /taɪm/) • knight (/knɪçt/ → /naɪt/)",
+          "reading": "Pergeseran pelafalan vokal panjang sementara ejaan cetak sudah dibekukan",
+          "explanation": "Mesin cetak William Caxton (1476) membekukan ejaan bahasa Inggris tepat sebelum lidah penutur Inggris menggeser seluruh posisi vokal panjang mereka. Inilah penyebab utama mengapa alfabet Latin tidak lagi mencerminkan bunyi Inggris secara 1:1—dan mengapa IPA (International Phonetic Alphabet) wajib dikuasai."
         }
       ],
-      "rows": [
+      "structuralRules": [
         {
-          "id": "en-00-found-origin-history-phonetics-row-1",
-          "cells": {
-            "construct": {
-              "script": "1. Sejarah Bahasa & Sistem Ortografi",
-              "gloss": "Evolusi Old English ke Modern English serta hukum ejaan"
-            },
-            "formula": {
-              "script": "Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
-            },
-            "example": {
-              "script": "about · banana · ship vs sheep · bad vs bed",
-              "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
-              "gloss": "Kontras panjang vokal dan bunyi netral penutur asli"
-            }
-          },
-          "fullTranslation": "Kontras panjang vokal dan bunyi netral penutur asli"
+          "conceptName": "Stress-Timed Rhythm & The Schwa (/ə/)",
+          "definition": "Bahasa Inggris menjaga jarak ketukan antar suku kata BERTEKANAN (stressed syllables). Vokal di suku kata lemah otomatis direduksi menjadi bunyi netral Schwa (/ə/).",
+          "whyItMatters": "Schwa (/ə/) adalah bunyi vokal paling sering muncul dalam percakapan penutur asli (misal pada kata about /əˈbaʊt/, banana /bəˈnæn.ə/, support /səˈpɔːrt/).",
+          "examples": [
+            "PHOtograph (/ˈfoʊ.tə.ɡræf/)",
+            "phoTOgraphy (/fəˈtɑː.ɡrə.fi/)",
+            "photoGRAphic (/ˌfoʊ.təˈɡræf.ɪk/)"
+          ]
         },
         {
-          "id": "en-00-found-origin-history-phonetics-row-2",
-          "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Sejarah, Ortografi Alfabet & Fonetik IPA (Pondasi · Opsional & Terbuka)"
-            },
-            "formula": {
-              "script": "PHONETICS · Target 24 Entri",
-              "gloss": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak"
-            },
-            "example": {
-              "script": "about · banana · ship vs sheep · bad vs bed",
-              "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
-            }
-          },
-          "fullTranslation": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak — Kontras panjang vokal dan bunyi netral penutur asli"
+          "conceptName": "Pola Phonics & Magic-E (Silent E)",
+          "definition": "Huruf \"e\" bisu di akhir kata pola Vokal + Konsonan + e memanjangkan bunyi vokal sebelumnya menjadi bunyi nama huruf alfabetnya.",
+          "whyItMatters": "Membantu membaca ribuan kata baru tanpa perlu menebak.",
+          "examples": [
+            "cap (/kæp/) → cape (/keɪp/)",
+            "bit (/bɪt/) → bite (/baɪt/)",
+            "note (/noʊt/) → not (/nɑːt/)"
+          ]
         }
       ],
-      "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Matriks Simbol IPA Vokal, Diftong & Schwa /ə/\"",
-        "psychologyExplanation": "Membaca transkripsi kamus Oxford/Cambridge tanpa menebak. Dalam kerangka 1. Sejarah Bahasa & Sistem Ortografi, penutur asli memetakan hubungan makna menggunakan rumus \"Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
-      }
+      "funFactsAndTips": [
+        "Lebih dari 84% kata bahasa Inggris mengikuti aturan posisi huruf yang konsisten jika kamu memahami digraf (th, sh, ch, ph, gh) dan pola suku kata.",
+        "Tips Mengingat: Pada kata akademik berakhiran -tion, -sion, atau -ic, tekanan kata hampir selalu jatuh tepat satu suku kata sebelum akhiran tersebut (in-for-MA-tion, e-co-NO-mic)."
+      ]
     },
     {
-      "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Matriks Simbol IPA Vokal, Diftong & Schwa /ə/",
+      "type": "script-matrix",
+      "title": "Tabel Simbol IPA Kritis & Pola Ejaan Inggris (Grapheme Matrix)",
+      "scriptSystem": "International Phonetic Alphabet (en-US / en-GB)",
       "direction": "ltr",
-      "totalCount": 1,
-      "entries": [
+      "description": "Kunci membaca transkripsi kamus internasional tanpa menebak-nebak.",
+      "cells": [
         {
-          "id": "en-00-found-origin-history-phonetics-voc-1",
-          "term": "about · banana · ship vs sheep · bad vs bed",
-          "reading": "/əˈbaʊt/ · /bəˈnæn.ə/ · /ʃɪp/ vs /ʃiːp/",
-          "meaning": "Kontras panjang vokal dan bunyi netral penutur asli",
-          "partOfSpeech": "phonetics",
-          "patternNote": "Rumus terkait: Schwa /ə/ (unstressed) + Minimal Pairs (/æ/ vs /e/, /iː/ vs /ɪ/)",
-          "exampleSentence": "about · banana · ship vs sheep · bad vs bed",
-          "exampleTranslation": "Kontras panjang vokal dan bunyi netral penutur asli"
+          "glyph": "/ə/",
+          "reading": "Schwa (Vokal Netral)",
+          "transliteration": "about, banana, problem",
+          "componentRole": "Vokal Tak Bertekanan",
+          "mnemonic": "Rahang rileks 0.05 detik — bunyi paling hemat energi"
+        },
+        {
+          "glyph": "/ɪ/ vs /iː/",
+          "reading": "Lax vs Tense High Front",
+          "transliteration": "ship vs sheep • live vs leave",
+          "componentRole": "Kontras Vokal",
+          "mnemonic": "Bukan pendek vs panjang, melainkan otot lidah rileks vs tegang"
+        },
+        {
+          "glyph": "/θ/ vs /ð/",
+          "reading": "Voiceless vs Voiced Dental",
+          "transliteration": "think, bath vs this, mother",
+          "componentRole": "Konsonan Dental",
+          "mnemonic": "Ujung lidah menyentuh gigi seri atas tanpa suara vs bergetar"
+        },
+        {
+          "glyph": "/ʃ/ vs /tʃ/",
+          "reading": "Fricative vs Affricate",
+          "transliteration": "ship, nation vs chip, watch",
+          "componentRole": "Konsonan Palatal",
+          "mnemonic": "Desis mengalir (sh) vs letupan + desis (ch)"
+        },
+        {
+          "glyph": "/æ/ vs /e/",
+          "reading": "Ash vs Open-Mid Front",
+          "transliteration": "bad vs bed • man vs men",
+          "componentRole": "Kontras Vokal Depan",
+          "mnemonic": "Mulut terbuka lebar untuk /æ/ (bad) vs sedang untuk /e/ (bed)"
+        },
+        {
+          "glyph": "/ʒ/ vs /dʒ/",
+          "reading": "Voiced Palatal Fricative vs Affricate",
+          "transliteration": "vision, measure vs judge, bridge",
+          "componentRole": "Konsonan Palatal Bersuara",
+          "mnemonic": "Getaran lembut di tengah kata (vision) vs letupan tegas (judge)"
         }
       ]
     }

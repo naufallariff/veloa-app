@@ -7,9 +7,17 @@
     body,
     #root {
         min-height: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
         margin: 0;
         padding: 0;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Mencegah teks panjang atau aksara CJK/Arab memecah container mobile */
+    * {
+        min-width: 0;
     }
 }

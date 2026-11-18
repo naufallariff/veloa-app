@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal | Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+      "grammaticalTradition": "JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n2-04-extent-limitation-row-1",
+          "id": "ja-n2-04-extent-limitation-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1)",
-              "gloss": "Korelasi peristiwa instan, konsesi paradoks, dan konstruksi formal"
+              "gloss": "Pilar SYNTAX · Hubungan Waktu Instan, Batasan, Paradoks & Gaya Bahasa Editorial"
             },
             "formula": {
               "script": "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
               "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
               "gloss": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
@@ -51,34 +51,236 @@
           "fullTranslation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
         },
         {
-          "id": "ja-n2-04-extent-limitation-row-2",
+          "id": "ja-n2-04-extent-limitation-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Hubungan Waktu Instan, Batasan, Paradoks & Gaya Bahasa Editorial (JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menegaskan kesimpulan logis, merendahkan cakupan, dan menyarankan pilihan terbaik"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
               "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menegaskan kesimpulan logis, merendahkan cakupan, dan menyarankan pilihan terbaik — Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+          "fullTranslation": "Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る: Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る\"",
-        "psychologyExplanation": "Menegaskan kesimpulan logis, merendahkan cakupan, dan menyarankan pilihan terbaik. Dalam kerangka Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1), penutur asli memetakan hubungan makna menggunakan rumus \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+      "eraOrDomain": "JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menegaskan kesimpulan logis, merendahkan cakupan, dan menyarankan pilihan terbaik. Dalam cabang \"Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1)\", konstruksi \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "今回の成功は、チーム全員の努力の結果にほかならない。",
+          "reading": "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"今回の成功は、チーム全員の努力の結果にほかならない。\" (Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "今回の成功は、チーム全員の努力の結果にほかならない。",
+          "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+          "explanation": "Korelasi peristiwa instan, konsesi paradoks, dan konstruksi formal Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "今回の成功は、チーム全員の努力の結果にほかならない。",
+          "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+          "definition": "Pola \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "今回の成功は、チーム全員の努力の結果にほかならない。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n2-04-extent-limitation-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
+              "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+              "gloss": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+            }
+          },
+          "fullTranslation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+        },
+        {
+          "id": "ja-n2-04-extent-limitation-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1)] → Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
+              "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+              "gloss": "Makna kontekstual: \"Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim.\""
+            }
+          },
+          "fullTranslation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+        },
+        {
+          "id": "ja-n2-04-extent-limitation-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
+              "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+              "gloss": "Padanan alami: Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+            }
+          },
+          "fullTranslation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n2-04-extent-limitation-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "今回の成功は、チーム全員の努力の結果にほかならない。",
+              "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+              "gloss": "Pola acuan: Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n2-04-extent-limitation-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+      "title": "5. Tips, Trik & Leksikon Kunci: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "今回の成功は、チーム全員の努力の結果にほかならない。",
           "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
           "meaning": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim.",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
+          "partOfSpeech": "SYNTAX · JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)",
           "exampleSentence": "今回の成功は、チーム全員の努力の結果にほかならない。",
           "exampleTranslation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Tingkatan & Batasan: 〜に違いない, 〜に過ぎない, 〜にほかならない & 〜に限る",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N2–N1 · Sintaksis Lanjut & Retorika Formal · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "今回の成功は、チーム全員の努力の結果にほかならない。",
+          "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+          "translation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim. — (Penerapan langsung pola \"Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)\")",
+          "grammarHighlight": "Klausa + にほかならない (Tidak lain dan tidak bukan adalah...)"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "今回の成功は、チーム全員の努力の結果にほかならない。",
+          "reading": "Konkai no seikō wa, chīmu zen’in no doryoku no kekka ni hoka naranai.",
+          "translation": "Keberhasilan kali ini tidak lain merupakan hasil kerja keras seluruh tim. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Pola Sintaksis Tingkat Tinggi (N2–N1)"
         }
       ]
     }

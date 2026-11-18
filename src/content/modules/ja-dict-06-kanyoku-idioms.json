@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Lanjutan Jepang | Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+      "grammaticalTradition": "Kamus & Korpus Lanjutan Jepang · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-dict-06-kanyoku-idioms-row-1",
+          "id": "ja-dict-06-kanyoku-idioms-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional",
-              "gloss": "Ungkapan metaforis Jepang dan etiket komunikasi di tempat kerja"
+              "gloss": "Pilar LEXICON-DIALOGUE · Kosakata N3–N1, Idiom Tubuh (Kanyōku) & Dialog Bisnis"
             },
             "formula": {
               "script": "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
               "reading": "きがする · くちがかたい",
               "gloss": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
@@ -51,34 +51,236 @@
           "fullTranslation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
         },
         {
-          "id": "ja-dict-06-kanyoku-idioms-row-2",
+          "id": "ja-dict-06-kanyoku-idioms-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kosakata N3–N1, Idiom Tubuh (Kanyōku) & Dialog Bisnis (Kamus & Korpus Lanjutan Jepang)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 38 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Ungkapan sehari-hari yang maknanya melampaui arti harfiah kata penyusunnya"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 38 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
               "reading": "きがする · くちがかたい",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Ungkapan sehari-hari yang maknanya melampaui arti harfiah kata penyusunnya — Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+          "fullTranslation": "Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気): Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)\"",
-        "psychologyExplanation": "Ungkapan sehari-hari yang maknanya melampaui arti harfiah kata penyusunnya. Dalam kerangka 4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional, penutur asli memetakan hubungan makna menggunakan rumus \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+      "eraOrDomain": "Kamus & Korpus Lanjutan Jepang · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Ungkapan sehari-hari yang maknanya melampaui arti harfiah kata penyusunnya. Dalam cabang \"4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional\", konstruksi \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+          "reading": "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)\" (きがする · くちがかたい). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+          "reading": "きがする · くちがかたい",
+          "explanation": "Ungkapan metaforis Jepang dan etiket komunikasi di tempat kerja Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+          "reading": "きがする · くちがかたい",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+          "definition": "Pola \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-06-kanyoku-idioms-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+              "reading": "きがする · くちがかたい",
+              "gloss": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+            }
+          },
+          "fullTranslation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+        },
+        {
+          "id": "ja-dict-06-kanyoku-idioms-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional] → Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+              "reading": "きがする · くちがかたい",
+              "gloss": "Makna kontekstual: \"Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang\""
+            }
+          },
+          "fullTranslation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+        },
+        {
+          "id": "ja-dict-06-kanyoku-idioms-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+              "reading": "きがする · くちがかたい",
+              "gloss": "Padanan alami: Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+            }
+          },
+          "fullTranslation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-06-kanyoku-idioms-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+              "reading": "きがする · くちがかたい",
+              "gloss": "Pola acuan: Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-dict-06-kanyoku-idioms-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
           "reading": "きがする · くちがかたい",
           "meaning": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Lanjutan Jepang",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat",
           "exampleSentence": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
           "exampleTranslation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kanyōku (慣用句): Idiom Anggota Tubuh (頭・目・耳・口・手・足・気)",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "Kamus & Korpus Lanjutan Jepang · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+          "reading": "きがする · くちがかたい",
+          "translation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang — (Penerapan langsung pola \"Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat\")",
+          "grammarHighlight": "Bagian Tubuh/Jiwa (気 ki) + Partikel + Predikat"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "気がする (merasa/berfirasat) · 手伝う · 口が堅い (pandai menjaga rahasia)",
+          "reading": "きがする · くちがかたい",
+          "translation": "Kata 気 (ki) muncul dalam puluhan ekspresi emosi dan perhatian Jepang — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "4. Kamus Idiom (慣用句), Yojijukugo & Dialog Profesional"
         }
       ]
     }

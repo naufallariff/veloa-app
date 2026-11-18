@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi | Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "grammaticalTradition": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-c1-05-future-perfect-continuous-row-1",
+          "id": "en-c1-05-future-perfect-continuous-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2",
-              "gloss": "Reduced relative clauses, future in the past, dan artikulasi nuansa"
+              "gloss": "Pilar SYNTAX · Participle Clauses, Future Perfect, Discourse Markers & Pragmatik"
             },
             "formula": {
               "script": "By [Future Time], S + will have + V3",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "By December 2026, we will have deployed all five language curricula.",
               "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
               "gloss": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
@@ -51,34 +51,236 @@
           "fullTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
         },
         {
-          "id": "en-c1-05-future-perfect-continuous-row-2",
+          "id": "en-c1-05-future-perfect-continuous-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Participle Clauses, Future Perfect, Discourse Markers & Pragmatik (CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 26 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 26 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "By December 2026, we will have deployed all five language curricula.",
               "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah — Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+          "fullTranslation": "Future Perfect (will have V3), Future Continuous & Future in the Past (was going to): Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)\"",
-        "psychologyExplanation": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah. Dalam kerangka Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2, penutur asli memetakan hubungan makna menggunakan rumus \"By [Future Time], S + will have + V3\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"By [Future Time], S + will have + V3\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "eraOrDomain": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Memproyeksikan titik selesai di masa depan serta rencana lampau yang berubah. Dalam cabang \"Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2\", konstruksi \"By [Future Time], S + will have + V3\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "By [Future Time], S + will have + V3",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"By December 2026, we will have deployed all five language curricula.\" (/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+          "explanation": "Reduced relative clauses, future in the past, dan artikulasi nuansa Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"By [Future Time], S + will have + V3\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"By [Future Time], S + will have + V3\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+          "definition": "Pola \"By [Future Time], S + will have + V3\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "By December 2026, we will have deployed all five language curricula."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "By [Future Time], S + will have + V3"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c1-05-future-perfect-continuous-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "By [Future Time], S + will have + V3",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+            }
+          },
+          "fullTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        },
+        {
+          "id": "en-c1-05-future-perfect-continuous-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2] → By [Future Time], S + will have + V3",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Makna kontekstual: \"Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu\""
+            }
+          },
+          "fullTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        },
+        {
+          "id": "en-c1-05-future-perfect-continuous-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Padanan alami: Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+            }
+          },
+          "fullTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"By [Future Time], S + will have + V3\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-c1-05-future-perfect-continuous-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "By December 2026, we will have deployed all five language curricula.",
+              "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+              "gloss": "Pola acuan: By [Future Time], S + will have + V3"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-c1-05-future-perfect-continuous-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "By [Future Time], S + will have + V3",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "By December 2026, we will have deployed all five language curricula.",
           "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
           "meaning": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: By [Future Time], S + will have + V3",
+          "partOfSpeech": "SYNTAX · CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: By [Future Time], S + will have + V3",
           "exampleSentence": "By December 2026, we will have deployed all five language curricula.",
           "exampleTranslation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Future Perfect (will have V3), Future Continuous & Future in the Past (was going to)",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR C1–C2 · Penguasaan Sintaksis Tingkat Tinggi · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+          "translation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu — (Penerapan langsung pola \"By [Future Time], S + will have + V3\")",
+          "grammarHighlight": "By [Future Time], S + will have + V3"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "By December 2026, we will have deployed all five language curricula.",
+          "reading": "/baɪ dɪˈsem.bər, wiː wɪl hæv dɪˈplɔɪd/",
+          "translation": "Menetapkan tenggat pencapaian sebelum titik waktu masa depan tertentu — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Kompresi Klausa & Nuansa Pragmatik C1–C2"
         }
       ]
     }

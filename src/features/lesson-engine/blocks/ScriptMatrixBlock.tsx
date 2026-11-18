@@ -1,5 +1,5 @@
 // src/features/lesson-engine/blocks/ScriptMatrixBlock.tsx
-import React, { useDeferredValue, useMemo, useState } from 'react';
+import React, { useDeferredValue, useEffect, useMemo, useState } from 'react';
 import {
     ChevronLeft,
     ChevronRight,
@@ -37,13 +37,13 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
     const [searchInput, setSearchInput] = useState('');
     const [selectedRole, setSelectedRole] = useState<string>('ALL');
     const [currentPage, setCurrentPage] = useState(1);
+    const [jumpInput, setJumpInput] = useState('1');
     const [inspectedCell, setInspectedCell] = useState<ScriptCellItem | null>(null);
 
     const deferredSearch = useDeferredValue(searchInput);
     const isRtl = block.direction === 'rtl' || lang === 'ar';
     const scriptClass = SCRIPT_CLASS_MAP[lang];
 
-    // Ekstrak kategori unik (misal: Grade 1, Konsonan Dasar, Harakat)
     const roleCategories = useMemo(() => {
         const roles = new Set<string>();
         for (const cell of block.cells) {
@@ -54,7 +54,6 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
         return Array.from(roles);
     }, [block.cells]);
 
-    // Filter sel aksara
     const filteredCells = useMemo(() => {
         const q = deferredSearch.trim().toLowerCase();
         return block.cells.filter((cell) => {
@@ -75,6 +74,10 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
     const totalPages = Math.max(1, Math.ceil(filteredCells.length / PAGE_SIZE));
     const safePage = Math.min(currentPage, totalPages);
 
+    useEffect(() => {
+        setJumpInput(String(safePage));
+    }, [safePage]);
+
     const paginatedCells = useMemo(() => {
         const start = (safePage - 1) * PAGE_SIZE;
         return filteredCells.slice(start, start + PAGE_SIZE);
@@ -88,6 +91,16 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
     const handleRoleChange = (role: string) => {
         setSelectedRole(role);
         setCurrentPage(1);
+    };
+
+    const handleJumpSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        const parsed = Number.parseInt(jumpInput, 10);
+        if (!Number.isNaN(parsed)) {
+            const clamped = Math.min(Math.max(1, parsed), totalPages);
+            setCurrentPage(clamped);
+            setJumpInput(String(clamped));
+        }
     };
 
     return (
@@ -134,7 +147,7 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
                 )}
             </div>
 
-            {/* Filter Chip Kategori (Jika lebih dari 1 kategori peran) */}
+            {/* Filter Chip Kategori */}
             {roleCategories.length > 1 && roleCategories.length <= 16 && (
                 <div
                     role="tablist"
@@ -174,7 +187,7 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
 
             {/* Panel Inspeksi Detail Saat Sel Diklik */}
             {inspectedCell && (
-                <div className="mb-6 rounded-2xl border border-(--accent-primary)/40 bg-(--accent-primary-soft) p-5">
+                <div className="mb-6 space-y-4 rounded-2xl border border-(--accent-primary)/40 bg-(--accent-primary-soft) p-5">
                     <div className="flex flex-wrap items-start justify-between gap-4">
                         <div className="flex items-center gap-4">
                             <div
@@ -194,10 +207,20 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
                                             {inspectedCell.componentRole}
                                         </span>
                                     )}
+                                    {inspectedCell.strokeCount && (
+                                        <span className="rounded-md bg-(--surface-card) px-2 py-0.5 font-mono text-xs text-(--text-muted)">
+                                            {inspectedCell.strokeCount} guratan
+                                        </span>
+                                    )}
                                 </div>
                                 <p className="text-sm font-semibold text-(--text-primary)">
                                     {inspectedCell.transliteration}
                                 </p>
+                                {inspectedCell.strokeOrderRule && (
+                                    <p className="font-mono text-xs text-(--text-secondary)">
+                                        Urutan Guratan: {inspectedCell.strokeOrderRule}
+                                    </p>
+                                )}
                                 {inspectedCell.mnemonic && (
                                     <p className="flex items-center gap-1.5 text-xs leading-relaxed text-(--text-secondary)">
                                         <Sparkles className="h-3.5 w-3.5 shrink-0 text-amber-500" />
@@ -248,6 +271,30 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
                             </button>
                         </div>
                     </div>
+
+                    {/* 4 Posisi Bentuk Huruf Arab (Jika Tersedia) */}
+                    {inspectedCell.arabicForms && (
+                        <div className="grid grid-cols-4 gap-2 border-t border-(--border-subtle) pt-3 text-center">
+                            {(
+                                [
+                                    { label: 'Terpisah', form: inspectedCell.arabicForms.isolated },
+                                    { label: 'Awal', form: inspectedCell.arabicForms.initial },
+                                    { label: 'Tengah', form: inspectedCell.arabicForms.medial },
+                                    { label: 'Akhir', form: inspectedCell.arabicForms.final },
+                                ] as const
+                            ).map((pos) => (
+                                <div
+                                    key={pos.label}
+                                    className="rounded-xl border border-(--border-subtle) bg-(--surface-card) p-2.5"
+                                >
+                                    <p className="text-[11px] font-semibold text-(--text-muted)">{pos.label}</p>
+                                    <p dir="rtl" className="veloa-script-ar mt-1 text-xl font-bold text-(--text-primary)">
+                                        {pos.form}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
             )}
 
@@ -326,7 +373,7 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
                 </div>
             )}
 
-            {/* Kontrol Paginasi (Untuk 2.136 Kanji / Daftar Panjang) */}
+            {/* Kontrol Paginasi + Jump Input */}
             {totalPages > 1 && (
                 <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-(--border-subtle) pt-5">
                     <p className="text-xs text-(--text-muted)">
@@ -342,7 +389,28 @@ export const ScriptMatrixBlock: React.FC<ScriptMatrixBlockProps> = ({ block, lan
                         karakter
                     </p>
 
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-2">
+                        <form onSubmit={handleJumpSubmit} className="flex items-center gap-1.5">
+                            <label htmlFor={`jump-matrix-${block.title}`} className="text-xs text-(--text-muted)">
+                                Ke hal:
+                            </label>
+                            <input
+                                id={`jump-matrix-${block.title}`}
+                                type="number"
+                                min={1}
+                                max={totalPages}
+                                value={jumpInput}
+                                onChange={(e) => setJumpInput(e.target.value)}
+                                className="h-10 w-16 rounded-xl border border-(--border-subtle) bg-(--surface-elevated) px-2 text-center font-mono text-xs font-bold text-(--text-primary)"
+                            />
+                            <button
+                                type="submit"
+                                className="veloa-tactile-btn rounded-xl border border-(--border-subtle) bg-(--surface-card) px-3 text-xs font-bold text-(--accent-primary) hover:border-(--accent-primary)"
+                            >
+                                Lompat
+                            </button>
+                        </form>
+
                         <button
                             type="button"
                             disabled={safePage <= 1}

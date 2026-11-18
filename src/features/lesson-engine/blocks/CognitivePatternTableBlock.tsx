@@ -2,7 +2,7 @@
 import React, { useMemo, useState } from 'react';
 import { AlertTriangle, Brain, Layers, Search, Turtle, Volume2 } from 'lucide-react';
 import type { LanguageCode, LessonBlock } from '../schema/lesson.schema';
-import { useSpeechPronunciation } from '../hooks/useSpeechPronunciation';
+import { sanitizeTextForSpeech, useSpeechPronunciation } from '../hooks/useSpeechPronunciation';
 
 type PatternTableData = Extract<LessonBlock, { type: 'cognitive-pattern-table' }>;
 type ColumnSemanticColor = PatternTableData['columns'][number]['semanticColor'];
@@ -27,6 +27,33 @@ const SCRIPT_CLASS_MAP: Record<LanguageCode, string> = {
     ko: 'veloa-script-ko',
     en: 'veloa-script-en',
 };
+
+function resolveRowSpeechText(
+    columns: PatternTableData['columns'],
+    row: PatternTableData['rows'][number],
+    lang: LanguageCode,
+): string {
+    // Prioritaskan kolom yang judulnya mengindikasikan kalimat/contoh utuh
+    const sentenceCol = columns.find((c) =>
+        /kalimat|contoh|sentence|example|full|bentuk|ekspresi|pola/i.test(c.roleLabel),
+    );
+    if (sentenceCol && row.cells[sentenceCol.key]?.script) {
+        const cleaned = sanitizeTextForSpeech(row.cells[sentenceCol.key]!.script, lang);
+        if (cleaned) return cleaned;
+    }
+
+    // Cek dari kolom terakhir ke pertama untuk menemukan sel yang berisi aksara target valid
+    for (let i = columns.length - 1; i >= 0; i--) {
+        const colKey = columns[i]?.key;
+        const raw = colKey ? row.cells[colKey]?.script : undefined;
+        if (raw) {
+            const cleaned = sanitizeTextForSpeech(raw, lang);
+            if (cleaned) return cleaned;
+        }
+    }
+
+    return '';
+}
 
 export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProps> = ({
     block,
@@ -139,12 +166,7 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                             </tr>
                         ) : (
                             filteredRows.map((row) => {
-                                const lastColKey = block.columns[block.columns.length - 1]?.key;
-                                const speechText =
-                                    (lastColKey && row.cells[lastColKey]?.script) ||
-                                    Object.values(row.cells)
-                                        .map((c) => c.script)
-                                        .join(' ');
+                                const speechText = resolveRowSpeechText(block.columns, row, lang);
                                 const normalKey = `${row.id}-normal`;
                                 const slowKey = `${row.id}-slow`;
 
@@ -160,6 +182,9 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                             }
 
                                             const isLastColumn = cIdx === block.columns.length - 1;
+                                            const cellAudioKey = `${row.id}-col-${col.key}`;
+                                            const cellCleanSpeech = sanitizeTextForSpeech(cell.script, lang);
+                                            const isCellPlaying = speakingKey === cellAudioKey;
 
                                             return (
                                                 <td
@@ -168,14 +193,32 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                                     className="align-top px-4 py-4"
                                                 >
                                                     <div className="space-y-1.5">
-                                                        <p
-                                                            className={`${scriptClass} ${isLastColumn
-                                                                    ? 'text-base font-bold text-(--text-primary) sm:text-lg'
-                                                                    : 'text-sm font-semibold text-(--text-primary) sm:text-base'
-                                                                }`}
-                                                        >
-                                                            {cell.script}
-                                                        </p>
+                                                        <div className="flex items-start justify-between gap-2">
+                                                            <p
+                                                                className={`${scriptClass} ${isLastColumn
+                                                                        ? 'text-base font-bold text-(--text-primary) sm:text-lg'
+                                                                        : 'text-sm font-semibold text-(--text-primary) sm:text-base'
+                                                                    }`}
+                                                            >
+                                                                {cell.script}
+                                                            </p>
+
+                                                            {isSupported && cellCleanSpeech.length > 0 && (
+                                                                <button
+                                                                    type="button"
+                                                                    dir="ltr"
+                                                                    onClick={() => speak(cell.script, lang, cellAudioKey, false)}
+                                                                    title={`Dengarkan kolom ${col.roleLabel}`}
+                                                                    aria-label={`Dengarkan ${cell.script}`}
+                                                                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border transition-colors ${isCellPlaying
+                                                                            ? 'border-(--accent-primary) bg-(--accent-primary) text-white'
+                                                                            : 'border-(--border-subtle) bg-(--surface-elevated)/70 text-(--text-muted) hover:border-(--accent-primary) hover:text-(--accent-primary)'
+                                                                        }`}
+                                                                >
+                                                                    <Volume2 className="h-3.5 w-3.5" aria-hidden="true" />
+                                                                </button>
+                                                            )}
+                                                        </div>
 
                                                         {showReadings && cell.reading && (
                                                             <p
@@ -199,36 +242,38 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                             );
                                         })}
 
-                                        {/* Kontrol Pelafalan Normal & Lambat */}
+                                        {/* Kontrol Pelafalan Baris Utuh Normal & Lambat */}
                                         {isSupported && (
                                             <td className="align-top px-4 py-4 text-right">
-                                                <div className="inline-flex items-center justify-end gap-1.5">
-                                                    <button
-                                                        type="button"
-                                                        onClick={() => speak(speechText, lang, normalKey, false)}
-                                                        title="Putar kecepatan normal"
-                                                        aria-label={`Putar pelafalan normal untuk ${row.fullTranslation}`}
-                                                        className={`veloa-tactile-btn inline-flex h-11 w-11 items-center justify-center rounded-xl border ${speakingKey === normalKey
-                                                                ? 'border-(--accent-primary) bg-(--accent-primary) text-white'
-                                                                : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--border-strong)'
-                                                            }`}
-                                                    >
-                                                        <Volume2 className="h-4 w-4" aria-hidden="true" />
-                                                    </button>
+                                                {speechText && (
+                                                    <div className="inline-flex items-center justify-end gap-1.5">
+                                                        <button
+                                                            type="button"
+                                                            onClick={() => speak(speechText, lang, normalKey, false)}
+                                                            title="Putar kecepatan normal"
+                                                            aria-label={`Putar pelafalan normal untuk ${row.fullTranslation}`}
+                                                            className={`veloa-tactile-btn inline-flex h-11 w-11 items-center justify-center rounded-xl border ${speakingKey === normalKey
+                                                                    ? 'border-(--accent-primary) bg-(--accent-primary) text-white'
+                                                                    : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--border-strong)'
+                                                                }`}
+                                                        >
+                                                            <Volume2 className="h-4 w-4" aria-hidden="true" />
+                                                        </button>
 
-                                                    <button
-                                                        type="button"
-                                                        onClick={() => speak(speechText, lang, slowKey, true)}
-                                                        title="Putar kecepatan lambat (0.72x)"
-                                                        aria-label={`Putar pelafalan lambat untuk ${row.fullTranslation}`}
-                                                        className={`veloa-tactile-btn inline-flex h-11 w-11 items-center justify-center rounded-xl border ${speakingKey === slowKey
-                                                                ? 'border-cyan-500 bg-cyan-600 text-white'
-                                                                : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--border-strong)'
-                                                            }`}
-                                                    >
-                                                        <Turtle className="h-4 w-4" aria-hidden="true" />
-                                                    </button>
-                                                </div>
+                                                        <button
+                                                            type="button"
+                                                            onClick={() => speak(speechText, lang, slowKey, true)}
+                                                            title="Putar kecepatan lambat (0.72x)"
+                                                            aria-label={`Putar pelafalan lambat untuk ${row.fullTranslation}`}
+                                                            className={`veloa-tactile-btn inline-flex h-11 w-11 items-center justify-center rounded-xl border ${speakingKey === slowKey
+                                                                    ? 'border-cyan-500 bg-cyan-600 text-white'
+                                                                    : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--border-strong)'
+                                                                }`}
+                                                        >
+                                                            <Turtle className="h-4 w-4" aria-hidden="true" />
+                                                        </button>
+                                                    </div>
+                                                )}
                                             </td>
                                         )}
                                     </tr>

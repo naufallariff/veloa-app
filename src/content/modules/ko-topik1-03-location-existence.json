@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea | Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "grammaticalTradition": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-topik1-03-location-existence-row-1",
+          "id": "ko-topik1-03-location-existence-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)",
-              "gloss": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar"
+              "gloss": "Pilar SYNTAX · Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan"
             },
             "formula": {
               "script": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
               "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
               "gloss": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
@@ -51,34 +51,236 @@
           "fullTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
         },
         {
-          "id": "ko-topik1-03-location-existence-row-2",
+          "id": "ko-topik1-03-location-existence-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan (TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
               "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di) — Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+          "fullTranslation": "Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi): Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)\"",
-        "psychologyExplanation": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di). Dalam kerangka Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "eraOrDomain": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Kapan memakai 도서관에 (ada di / pergi ke) vs 도서관에서 (belajar di). Dalam cabang \"Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)\", konstruksi \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"지금 도서관에 있어요. 도서관에서 한국어를 공부해요.\" (Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+          "explanation": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+          "definition": "Pola \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "지금 도서관에 있어요. 도서관에서 한국어를 공부해요."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-03-location-existence-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+            }
+          },
+          "fullTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        },
+        {
+          "id": "ko-topik1-03-location-existence-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)] → [Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Makna kontekstual: \"Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan.\""
+            }
+          },
+          "fullTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        },
+        {
+          "id": "ko-topik1-03-location-existence-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Padanan alami: Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+            }
+          },
+          "fullTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-03-location-existence-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+              "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+              "gloss": "Pola acuan: [Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-topik1-03-location-existence-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
           "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
           "meaning": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan.",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: [Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
+          "partOfSpeech": "SYNTAX · TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: [Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]",
           "exampleSentence": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
           "exampleTranslation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Keberadaan (있다 / 없다) & Kontras Partikel Lokasi 에 (Statis/Tujuan) vs 에서 (Aksi)",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+          "translation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan. — (Penerapan langsung pola \"[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]\")",
+          "grammarHighlight": "[Tempat] 에 있다/가다 (Keberadaan/Arah) vs [Tempat] 에서 [Kata Kerja Aksi]"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "지금 도서관에 있어요. 도서관에서 한국어를 공부해요.",
+          "reading": "Jigeum doseogwane isseoyo. Doseogwaneseo hangugeoreul gongbuhaeyo.",
+          "translation": "Sekarang saya ada di perpustakaan. Saya belajar bahasa Korea di perpustakaan. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)"
         }
       ]
     }

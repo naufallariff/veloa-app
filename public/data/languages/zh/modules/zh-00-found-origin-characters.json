@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "grammaticalTradition": "Pondasi · Piktogram, Radikal & Fonologi Nada · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-00-found-origin-characters-row-1",
+          "id": "zh-00-found-origin-characters-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
-              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+              "gloss": "Pilar SCRIPT · Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada"
             },
             "formula": {
               "script": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
               "reading": "rì · yuè · shān · shuǐ",
               "gloss": "Karakter dasar berevolusi dari gambar benda nyata"
@@ -51,34 +51,236 @@
           "fullTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
         },
         {
-          "id": "zh-00-found-origin-characters-row-2",
+          "id": "zh-00-found-origin-characters-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
-            },
-            "formula": {
-              "script": "SCRIPT · Target 24 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 24 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
               "reading": "rì · yuè · shān · shuǐ",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern — Karakter dasar berevolusi dari gambar benda nyata"
+          "fullTranslation": "Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana: Karakter dasar berevolusi dari gambar benda nyata"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana\"",
-        "psychologyExplanation": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern. Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "eraOrDomain": "Pondasi · Piktogram, Radikal & Fonologi Nada · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Transformasi dari ukiran tulang Dinasti Shang ke standar modern. Dalam cabang \"1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin\", konstruksi \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)\" (rì · yuè · shān · shuǐ). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "rì · yuè · shān · shuǐ",
+          "explanation": "Empat langkah fundamental membaca dan merakit karakter Tiongkok Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "rì · yuè · shān · shuǐ",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+          "definition": "Pola \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Karakter dasar berevolusi dari gambar benda nyata\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-origin-characters-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Karakter dasar berevolusi dari gambar benda nyata"
+            }
+          },
+          "fullTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        },
+        {
+          "id": "zh-00-found-origin-characters-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin] → Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Makna kontekstual: \"Karakter dasar berevolusi dari gambar benda nyata\""
+            }
+          },
+          "fullTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        },
+        {
+          "id": "zh-00-found-origin-characters-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Padanan alami: Karakter dasar berevolusi dari gambar benda nyata"
+            }
+          },
+          "fullTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-origin-characters-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+              "reading": "rì · yuè · shān · shuǐ",
+              "gloss": "Pola acuan: Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-00-found-origin-characters-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "title": "5. Tips, Trik & Leksikon Kunci: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
           "reading": "rì · yuè · shān · shuǐ",
           "meaning": "Karakter dasar berevolusi dari gambar benda nyata",
-          "partOfSpeech": "script",
-          "patternNote": "Rumus terkait: Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
+          "partOfSpeech": "SCRIPT · Pondasi · Piktogram, Radikal & Fonologi Nada",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū",
           "exampleSentence": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
           "exampleTranslation": "Karakter dasar berevolusi dari gambar benda nyata"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Sejarah Aksara Tiongkok: Jiǎgǔwén (Tulang Ramalan) hingga Hanzi Sederhana",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Pondasi · Piktogram, Radikal & Fonologi Nada · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "rì · yuè · shān · shuǐ",
+          "translation": "Karakter dasar berevolusi dari gambar benda nyata — (Penerapan langsung pola \"Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū\")",
+          "grammarHighlight": "Jiǎgǔwén → Jīnwén → Xiǎozhuàn → Lìshū → Kǎishū"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "日 (matahari) · 月 (bulan) · 山 (gunung) · 水 (air)",
+          "reading": "rì · yuè · shān · shuǐ",
+          "translation": "Karakter dasar berevolusi dari gambar benda nyata — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin"
         }
       ]
     }

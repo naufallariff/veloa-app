@@ -1,8 +1,8 @@
-/* src/styles/veloa-tokens.css */
+/* src/styles/veloa-tokens.css — Single Source of Truth */
 
 :root {
     /* ==========================================================================
-     1. PRIMITIVE PALETTE — Velòa Royal Violet & Neo-Apple Pastel Aurora
+     1. PRIMITIVE PALETTE — Veloa Royal Violet & Neo-Apple Aurora
      ========================================================================== */
     --veloa-violet-50: #f5f3ff;
     --veloa-violet-100: #ede9fe;
@@ -10,14 +10,19 @@
     --veloa-violet-400: #a78bfa;
     --veloa-violet-600: #7c3aed;
     --veloa-violet-700: #6d28d9;
+    --veloa-violet-900: #2e1065;
 
     --veloa-sky-300: #7dd3fc;
     --veloa-mint-300: #6ee7b7;
     --veloa-rose-300: #fda4af;
     --veloa-amber-200: #fde68a;
 
+    --primitive-specular-bright: rgba(255, 255, 255, 0.92);
+    --primitive-specular-soft: rgba(255, 255, 255, 0.45);
+    --primitive-specular-rim: rgba(255, 255, 255, 0.22);
+
     /* ==========================================================================
-     2. SEMANTIC TOKENS — Light-First Luminous Editorial Canvas
+     2. SEMANTIC TOKENS — Light Mode Default
      ========================================================================== */
     --surface-canvas: #f3f5fb;
     --surface-card: #ffffff;
@@ -35,7 +40,14 @@
     --accent-primary-hover: var(--veloa-violet-700);
     --accent-primary-soft: rgba(124, 58, 237, 0.1);
 
-    /* Status & Competency Semantic Tokens */
+    /* Language Accent Tints */
+    --accent-en: #0284c7;
+    --accent-zh: #e11d48;
+    --accent-ja: #7c3aed;
+    --accent-ar: #059669;
+    --accent-ko: #2563eb;
+
+    /* Status Tokens */
     --status-success-bg: rgba(16, 185, 129, 0.12);
     --status-success-border: rgba(16, 185, 129, 0.35);
     --status-success-text: #065f46;
@@ -48,34 +60,38 @@
     --status-danger-border: rgba(244, 63, 94, 0.35);
     --status-danger-text: #9f1239;
 
-    /* Neo-Apple Liquid Aurora Gradients */
-    --veloa-aurora-hero: linear-gradient(135deg,
-            #6d28d9 0%,
-            #7c3aed 42%,
-            #a78bfa 78%,
-            #f5d0fe 100%);
+    /* Liquid Glass Materials (Light Mode) */
+    --glass-bg-thin: linear-gradient(145deg, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0.28));
+    --glass-bg-regular: linear-gradient(145deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.48));
+    --glass-bg-thick: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.72));
+    --glass-border: rgba(255, 255, 255, 0.6);
+
+    /* Zona Sastra & Filologi Tokens (Fix Kontras Expanded Drawer) */
+    --lit-card-bg: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%);
+    --lit-card-fg: #ffffff;
+    --lit-drawer-surface: #ffffff;
+    --lit-drawer-text: #1e1b4b;
+    --lit-drawer-muted: #5b21b6;
+
+    /* Aurora Gradients & Shadows */
+    --veloa-aurora-hero: linear-gradient(135deg, #6d28d9 0%, #7c3aed 48%, #9333ea 100%);
     --veloa-aurora-ambient:
         radial-gradient(at 12% 10%, rgba(167, 139, 250, 0.22) 0px, transparent 48%),
         radial-gradient(at 88% 14%, rgba(125, 211, 252, 0.2) 0px, transparent 46%),
         radial-gradient(at 78% 85%, rgba(253, 164, 175, 0.16) 0px, transparent 50%);
 
-    /* Elevation & Specular Glass Shadows */
-    --shadow-card:
-        0 4px 20px -4px rgba(15, 23, 42, 0.05),
-        0 1px 3px 0 rgba(15, 23, 42, 0.03);
-    --shadow-glass:
-        0 12px 32px -8px rgba(124, 58, 237, 0.14),
-        inset 0 1px 0 0 rgba(255, 255, 255, 0.85);
+    --shadow-card: 0 4px 20px -4px rgba(15, 23, 42, 0.05), 0 1px 3px 0 rgba(15, 23, 42, 0.03);
+    --shadow-glass: 0 12px 32px -8px rgba(124, 58, 237, 0.14), inset 0 1px 0 0 rgba(255, 255, 255, 0.85);
 }
 
 /* ==========================================================================
-   3. DARK MODE — Deep Indigo-Slate (Bukan Hitam Pekat)
+   3. DARK MODE — Deep Indigo-Slate
    ========================================================================== */
 .dark {
     --surface-canvas: #0c101d;
     --surface-card: #13192b;
     --surface-elevated: #1b233a;
-    --surface-glass: rgba(19, 25, 43, 0.82);
+    --surface-glass: rgba(19, 25, 43, 0.84);
 
     --text-primary: #f8fafc;
     --text-secondary: #cbd5e1;
@@ -88,35 +104,30 @@
     --accent-primary-hover: #a78bfa;
     --accent-primary-soft: rgba(139, 92, 246, 0.16);
 
-    --status-success-bg: rgba(16, 185, 129, 0.16);
-    --status-success-border: rgba(52, 211, 153, 0.35);
-    --status-success-text: #6ee7b7;
+    /* Liquid Glass Materials (Dark Mode) */
+    --glass-bg-thin: linear-gradient(145deg, rgba(30, 41, 59, 0.52), rgba(15, 23, 42, 0.34));
+    --glass-bg-regular: linear-gradient(145deg, rgba(30, 41, 59, 0.74), rgba(15, 23, 42, 0.56));
+    --glass-bg-thick: linear-gradient(145deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.78));
+    --glass-border: rgba(255, 255, 255, 0.12);
 
-    --status-warning-bg: rgba(245, 158, 11, 0.16);
-    --status-warning-border: rgba(251, 191, 36, 0.35);
-    --status-warning-text: #fde68a;
+    /* Zona Sastra & Filologi Tokens (Dark Mode) */
+    --lit-card-bg: linear-gradient(135deg, #5b21b6 0%, #3b0764 100%);
+    --lit-card-fg: #ffffff;
+    --lit-drawer-surface: #13192b;
+    --lit-drawer-text: #f5f3ff;
+    --lit-drawer-muted: #c4b5fd;
 
-    --status-danger-bg: rgba(244, 63, 94, 0.16);
-    --status-danger-border: rgba(251, 113, 133, 0.35);
-    --status-danger-text: #fda4af;
-
-    --veloa-aurora-hero: linear-gradient(135deg,
-            #4c1d95 0%,
-            #6d28d9 48%,
-            #8b5cf6 85%,
-            #38bdf8 100%);
+    --veloa-aurora-hero: linear-gradient(135deg, #4c1d95 0%, #6d28d9 52%, #7c3aed 100%);
     --veloa-aurora-ambient:
         radial-gradient(at 12% 10%, rgba(124, 58, 237, 0.2) 0px, transparent 50%),
         radial-gradient(at 88% 18%, rgba(56, 189, 248, 0.14) 0px, transparent 48%);
 
     --shadow-card: 0 6px 24px -6px rgba(2, 6, 23, 0.45);
-    --shadow-glass:
-        0 12px 32px -8px rgba(2, 6, 23, 0.6),
-        inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+    --shadow-glass: 0 12px 32px -8px rgba(2, 6, 23, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
 }
 
 /* ==========================================================================
-   4. COMPONENT SURFACE & LIQUID GLASS PRIMITIVES
+   4. COMPONENT SURFACES & LIQUID GLASS SYSTEM
    ========================================================================== */
 .veloa-ambient-backdrop {
     background-color: var(--surface-canvas);
@@ -144,21 +155,67 @@
     color: #ffffff;
 }
 
-.veloa-tactile-btn {
-    min-height: 2.75rem;
+/* Kelas Terpadu untuk src/shared/ui/GlassSurface.tsx */
+.liquid-glass {
+    position: relative;
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--shadow-card);
     transition:
-        transform 160ms cubic-bezier(0.22, 1, 0.36, 1),
-        border-color 160ms ease,
-        background-color 160ms ease,
-        box-shadow 160ms ease;
+        transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 240ms cubic-bezier(0.22, 1, 0.36, 1),
+        background 200ms ease;
 }
 
-.veloa-tactile-btn:active:not(:disabled) {
-    transform: scale(0.985);
+.liquid-glass--thin {
+    background: var(--glass-bg-thin);
+    backdrop-filter: blur(14px) saturate(170%);
+    -webkit-backdrop-filter: blur(14px) saturate(170%);
+}
+
+.liquid-glass--regular {
+    background: var(--glass-bg-regular);
+    backdrop-filter: blur(24px) saturate(185%);
+    -webkit-backdrop-filter: blur(24px) saturate(185%);
+}
+
+.liquid-glass--thick {
+    background: var(--glass-bg-thick);
+    backdrop-filter: blur(36px) saturate(200%);
+    -webkit-backdrop-filter: blur(36px) saturate(200%);
+    box-shadow: var(--shadow-glass);
+}
+
+.liquid-glass--interactive {
+    cursor: pointer;
+}
+
+.liquid-glass--interactive:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glass);
+}
+
+.liquid-glass--interactive:active {
+    transform: scale(0.98);
+    transition-duration: 90ms;
+}
+
+.veloa-tactile-btn,
+.veloa-pressable {
+    min-height: 2.75rem;
+    transition:
+        transform 140ms cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 150ms ease,
+        background-color 150ms ease,
+        box-shadow 150ms ease;
+}
+
+.veloa-tactile-btn:active:not(:disabled),
+.veloa-pressable:active:not(:disabled) {
+    transform: scale(0.98);
 }
 
 /* ==========================================================================
-   5. SCRIPT-ADAPTIVE TYPOGRAPHY (W3C i18n & Material Design Multi-Script)
+   5. SCRIPT-ADAPTIVE TYPOGRAPHY (W3C i18n Multi-Script)
    ========================================================================== */
 .veloa-script-en {
     font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
@@ -187,105 +244,54 @@
     font-family: 'Noto Naskh Arabic', 'IBM Plex Sans Arabic', 'Amiri', serif;
     font-size: 1.26em;
     line-height: 2.05;
+    direction: rtl;
+    unicode-bidi: isolate;
     font-style: normal !important;
 }
 
 /* ==========================================================================
-   6. GLOBAL LIGHT-MODE CONTRAST GUARD (Materi, Tabel & Soal Latihan)
+   6. SCOPED LIGHT-MODE CONTRAST GUARD (Hanya untuk permukaan pastel)
    ========================================================================== */
-html:not(.dark) main .text-indigo-200,
-html:not(.dark) main .text-indigo-300,
-html:not(.dark) main .text-violet-200,
-html:not(.dark) main .text-violet-300,
-html:not(.dark) main [class*="bg-indigo-"] [class*="text-"],
-html:not(.dark) main [class*="bg-violet-"] [class*="text-"],
-html:not(.dark) main [class*="bg-purple-"] [class*="text-"],
-html:not(.dark) main [class*="bg-indigo-"][class*="text-"],
-html:not(.dark) main [class*="bg-violet-"][class*="text-"],
-html:not(.dark) main [class*="bg-purple-"][class*="text-"] {
-    color: #3b0764 !important;
-    border-color: rgba(109, 40, 217, 0.25) !important;
+html:not(.dark) .veloa-lesson-stage .text-indigo-200,
+html:not(.dark) .veloa-lesson-stage .text-indigo-300,
+html:not(.dark) .veloa-lesson-stage .text-violet-200,
+html:not(.dark) .veloa-lesson-stage .text-violet-300 {
+    color: #4c1d95 !important;
 }
 
-html:not(.dark) main .text-rose-200,
-html:not(.dark) main .text-rose-300,
-html:not(.dark) main [class*="bg-rose-"] [class*="text-"],
-html:not(.dark) main [class*="bg-red-"] [class*="text-"],
-html:not(.dark) main [class*="bg-pink-"] [class*="text-"],
-html:not(.dark) main [class*="bg-rose-"][class*="text-"] {
+html:not(.dark) .veloa-lesson-stage .text-rose-200,
+html:not(.dark) .veloa-lesson-stage .text-rose-300 {
     color: #881337 !important;
-    border-color: rgba(190, 18, 60, 0.25) !important;
 }
 
-html:not(.dark) main .text-cyan-200,
-html:not(.dark) main .text-cyan-300,
-html:not(.dark) main .text-sky-200,
-html:not(.dark) main .text-sky-300,
-html:not(.dark) main [class*="bg-sky-"] [class*="text-"],
-html:not(.dark) main [class*="bg-cyan-"] [class*="text-"],
-html:not(.dark) main [class*="bg-sky-"][class*="text-"],
-html:not(.dark) main [class*="bg-cyan-"][class*="text-"] {
+html:not(.dark) .veloa-lesson-stage .text-cyan-200,
+html:not(.dark) .veloa-lesson-stage .text-cyan-300,
+html:not(.dark) .veloa-lesson-stage .text-sky-200,
+html:not(.dark) .veloa-lesson-stage .text-sky-300 {
     color: #075985 !important;
-    border-color: rgba(3, 105, 161, 0.25) !important;
 }
 
-html:not(.dark) main .text-amber-200,
-html:not(.dark) main .text-amber-300,
-html:not(.dark) main [class*="bg-amber-"] [class*="text-"],
-html:not(.dark) main [class*="bg-yellow-"] [class*="text-"],
-html:not(.dark) main [class*="bg-amber-"][class*="text-"],
-html:not(.dark) main [class*="bg-yellow-"][class*="text-"] {
+html:not(.dark) .veloa-lesson-stage .text-amber-200,
+html:not(.dark) .veloa-lesson-stage .text-amber-300 {
     color: #78350f !important;
-    border-color: rgba(180, 83, 9, 0.25) !important;
 }
 
-html:not(.dark) main .text-emerald-200,
-html:not(.dark) main .text-emerald-300,
-html:not(.dark) main [class*="bg-emerald-"] [class*="text-"],
-html:not(.dark) main [class*="bg-emerald-"][class*="text-"],
-html:not(.dark) main [class*="bg-teal-"][class*="text-"] {
+html:not(.dark) .veloa-lesson-stage .text-emerald-200,
+html:not(.dark) .veloa-lesson-stage .text-emerald-300 {
     color: #064e3b !important;
-    border-color: rgba(4, 120, 87, 0.25) !important;
 }
 
-html:not(.dark) main .text-slate-200,
-html:not(.dark) main .text-slate-300 {
-    color: #1e293b !important;
-}
-
-/* Table Header Surface Elevation di Light Mode */
 html:not(.dark) .veloa-lesson-stage thead,
 html:not(.dark) .veloa-lesson-stage [role="rowheader"] {
     background-color: #eef1f8 !important;
     border-bottom: 1px solid rgba(15, 23, 42, 0.1) !important;
 }
 
-/* Perbaikan kotak simbol IPA panjang seperti "/æ/ vs /e/" agar tidak bertumpuk */
 .veloa-lesson-stage .text-3xl.font-extrabold,
 .veloa-lesson-stage .text-4xl.font-extrabold {
     font-size: clamp(1.15rem, 2.2vw, 1.75rem);
     line-height: 1.3;
     word-break: keep-all;
-}
-
-/* Lindungi Tombol Aksi Solid & Hero Aurora agar Teks Tetap Putih */
-html:not(.dark) main button.bg-\(--accent-primary\),
-html:not(.dark) main button.bg-\(--accent-primary\) *,
-html:not(.dark) main button.bg-cyan-600,
-html:not(.dark) main button.bg-cyan-600 *,
-html:not(.dark) main button.bg-emerald-600,
-html:not(.dark) main button.bg-emerald-600 *,
-html:not(.dark) main .veloa-aurora-card,
-html:not(.dark) main .veloa-aurora-card h1,
-html:not(.dark) main .veloa-aurora-card h2,
-html:not(.dark) main .veloa-aurora-card p,
-html:not(.dark) main .veloa-aurora-card span {
-    color: #ffffff !important;
-}
-
-html:not(.dark) main .veloa-aurora-card button.bg-white,
-html:not(.dark) main .veloa-aurora-card button.bg-white * {
-    color: #4c1d95 !important;
 }
 
 /* Mode Latihan Membaca Aksara Murni (Toggle Fonetik OFF) */
@@ -297,17 +303,21 @@ html:not(.dark) main .veloa-aurora-card button.bg-white * {
 }
 
 .veloa-lesson-stage[data-hide-phonetic='true'] rt:hover,
-.veloa-lesson-stage[data-hide-phonetic='true'] .font-mono.text-xs:hover {
+.veloa-lesson-stage[data-hide-phonetic='true'] rt:active,
+.veloa-lesson-stage[data-hide-phonetic='true'] .font-mono.text-xs:hover,
+.veloa-lesson-stage[data-hide-phonetic='true'] .font-mono.text-xs:active {
     opacity: 1;
     filter: none;
 }
 
 /* ==========================================================================
-   7. ACCESSIBILITY — Reduced Motion & Reduced Transparency Fallbacks
+   7. ACCESSIBILITY — Reduced Motion & Reduced Transparency
    ========================================================================== */
 @media (prefers-reduced-motion: reduce) {
 
     .veloa-tactile-btn,
+    .veloa-pressable,
+    .liquid-glass,
     .veloa-animated-enter {
         transition: none !important;
         animation: none !important;
@@ -316,9 +326,13 @@ html:not(.dark) main .veloa-aurora-card button.bg-white * {
 }
 
 @media (prefers-reduced-transparency: reduce) {
-    .veloa-glass-chrome {
-        background-color: var(--surface-card);
-        backdrop-filter: none;
-        -webkit-backdrop-filter: none;
+
+    .veloa-glass-chrome,
+    .liquid-glass--thin,
+    .liquid-glass--regular,
+    .liquid-glass--thick {
+        background: var(--surface-card) !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
     }
 }

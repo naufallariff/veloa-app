@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "lexicon-dialogue",
   "tier": "beginner",
-  "order": 111,
+  "order": 114,
   "title": "Percakapan Wawancara Kerja, Presentasi & Negosiasi",
   "subtitle": "Menyampaikan argumen terstruktur dengan percaya diri",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Praktis | Percakapan Wawancara Kerja, Presentasi & Negosiasi",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+      "grammaticalTradition": "Kamus & Korpus Praktis · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-dict-conv-interview-row-1",
+          "id": "en-dict-conv-interview-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "3. Contoh Percakapan Kontekstual (Dialogues)",
-              "gloss": "Naskah dialog multi-giliran dengan catatan pragmatik"
+              "gloss": "Pilar LEXICON-DIALOGUE · Leksikon, Kalimat Harian & Percakapan"
             },
             "formula": {
               "script": "STAR Method Framing + Hedging & Signposting",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "From my perspective, prioritizing reliability yields long-term value.",
               "reading": "/frɒm maɪ pərˈspek.tɪv/",
               "gloss": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
@@ -51,34 +51,236 @@
           "fullTranslation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
         },
         {
-          "id": "en-dict-conv-interview-row-2",
+          "id": "en-dict-conv-interview-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menyampaikan argumen terstruktur dengan percaya diri"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "From my perspective, prioritizing reliability yields long-term value.",
               "reading": "/frɒm maɪ pərˈspek.tɪv/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menyampaikan argumen terstruktur dengan percaya diri — Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+          "fullTranslation": "Percakapan Wawancara Kerja, Presentasi & Negosiasi: Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Percakapan Wawancara Kerja, Presentasi & Negosiasi\"",
-        "psychologyExplanation": "Menyampaikan argumen terstruktur dengan percaya diri. Dalam kerangka 3. Contoh Percakapan Kontekstual (Dialogues), penutur asli memetakan hubungan makna menggunakan rumus \"STAR Method Framing + Hedging & Signposting\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"STAR Method Framing + Hedging & Signposting\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+      "eraOrDomain": "Kamus & Korpus Praktis · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menyampaikan argumen terstruktur dengan percaya diri. Dalam cabang \"3. Contoh Percakapan Kontekstual (Dialogues)\", konstruksi \"STAR Method Framing + Hedging & Signposting\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "From my perspective, prioritizing reliability yields long-term value.",
+          "reading": "STAR Method Framing + Hedging & Signposting",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"From my perspective, prioritizing reliability yields long-term value.\" (/frɒm maɪ pərˈspek.tɪv/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "From my perspective, prioritizing reliability yields long-term value.",
+          "reading": "/frɒm maɪ pərˈspek.tɪv/",
+          "explanation": "Naskah dialog multi-giliran dengan catatan pragmatik Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"STAR Method Framing + Hedging & Signposting\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "From my perspective, prioritizing reliability yields long-term value.",
+          "reading": "/frɒm maɪ pərˈspek.tɪv/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"STAR Method Framing + Hedging & Signposting\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+          "definition": "Pola \"STAR Method Framing + Hedging & Signposting\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "From my perspective, prioritizing reliability yields long-term value."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "STAR Method Framing + Hedging & Signposting"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-conv-interview-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "STAR Method Framing + Hedging & Signposting",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "From my perspective, prioritizing reliability yields long-term value.",
+              "reading": "/frɒm maɪ pərˈspek.tɪv/",
+              "gloss": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+            }
+          },
+          "fullTranslation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+        },
+        {
+          "id": "en-dict-conv-interview-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [3. Contoh Percakapan Kontekstual (Dialogues)] → STAR Method Framing + Hedging & Signposting",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "From my perspective, prioritizing reliability yields long-term value.",
+              "reading": "/frɒm maɪ pərˈspek.tɪv/",
+              "gloss": "Makna kontekstual: \"Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang.\""
+            }
+          },
+          "fullTranslation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+        },
+        {
+          "id": "en-dict-conv-interview-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "From my perspective, prioritizing reliability yields long-term value.",
+              "reading": "/frɒm maɪ pərˈspek.tɪv/",
+              "gloss": "Padanan alami: Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+            }
+          },
+          "fullTranslation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"STAR Method Framing + Hedging & Signposting\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-conv-interview-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "From my perspective, prioritizing reliability yields long-term value.",
+              "reading": "/frɒm maɪ pərˈspek.tɪv/",
+              "gloss": "Pola acuan: STAR Method Framing + Hedging & Signposting"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-dict-conv-interview-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "STAR Method Framing + Hedging & Signposting",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+      "title": "5. Tips, Trik & Leksikon Kunci: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "From my perspective, prioritizing reliability yields long-term value.",
           "reading": "/frɒm maɪ pərˈspek.tɪv/",
           "meaning": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang.",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: STAR Method Framing + Hedging & Signposting",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Praktis",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: STAR Method Framing + Hedging & Signposting",
           "exampleSentence": "From my perspective, prioritizing reliability yields long-term value.",
           "exampleTranslation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Percakapan Wawancara Kerja, Presentasi & Negosiasi",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "Kamus & Korpus Praktis · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "From my perspective, prioritizing reliability yields long-term value.",
+          "reading": "/frɒm maɪ pərˈspek.tɪv/",
+          "translation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang. — (Penerapan langsung pola \"STAR Method Framing + Hedging & Signposting\")",
+          "grammarHighlight": "STAR Method Framing + Hedging & Signposting"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "From my perspective, prioritizing reliability yields long-term value.",
+          "reading": "/frɒm maɪ pərˈspek.tɪv/",
+          "translation": "Dari sudut pandang saya, memprioritaskan keandalan memberi nilai jangka panjang. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "3. Contoh Percakapan Kontekstual (Dialogues)"
         }
       ]
     }

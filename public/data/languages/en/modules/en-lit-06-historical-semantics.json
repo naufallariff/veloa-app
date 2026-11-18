@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan | Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "grammaticalTradition": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-lit-06-historical-semantics-row-1",
+          "id": "en-lit-06-historical-semantics-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang Sastra Modernis, Naratologi & Semantik Historis",
-              "gloss": "Romantisisme, Modernisme, sudut pandang naratif, dan pergeseran makna kata"
+              "gloss": "Pilar MORPHOLOGY · Prosa Modernis, Kritik Sastra & Sejarah Etimologi Leksikon"
             },
             "formula": {
               "script": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
               "reading": "/naɪt/ · /knɪxt/",
               "gloss": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
@@ -51,34 +51,236 @@
           "fullTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
         },
         {
-          "id": "en-lit-06-historical-semantics-row-2",
+          "id": "en-lit-06-historical-semantics-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Prosa Modernis, Kritik Sastra & Sejarah Etimologi Leksikon (Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 28 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\""
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 28 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
               "reading": "/naɪt/ · /knɪxt/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\" — Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+          "fullTranslation": "Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets: Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets\"",
-        "psychologyExplanation": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\". Dalam kerangka Cabang Sastra Modernis, Naratologi & Semantik Historis, penutur asli memetakan hubungan makna menggunakan rumus \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "eraOrDomain": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Bagaimana kata \"nice\" berubah dari \"bodoh\" (Latin nescius) menjadi \"menyenangkan\". Dalam cabang \"Cabang Sastra Modernis, Naratologi & Semantik Historis\", konstruksi \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"knight (Old English cniht = pelayan muda) → gelar ksatria terhormat\" (/naɪt/ · /knɪxt/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "explanation": "Romantisisme, Modernisme, sudut pandang naratif, dan pergeseran makna kata Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+          "definition": "Pola \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-06-historical-semantics-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+            }
+          },
+          "fullTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        },
+        {
+          "id": "en-lit-06-historical-semantics-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang Sastra Modernis, Naratologi & Semantik Historis] → Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Makna kontekstual: \"Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata\""
+            }
+          },
+          "fullTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        },
+        {
+          "id": "en-lit-06-historical-semantics-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Padanan alami: Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+            }
+          },
+          "fullTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-lit-06-historical-semantics-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+              "reading": "/naɪt/ · /knɪxt/",
+              "gloss": "Pola acuan: Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-lit-06-historical-semantics-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "title": "5. Tips, Trik & Leksikon Kunci: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,19 +289,42 @@
           "term": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
           "reading": "/naɪt/ · /knɪxt/",
           "meaning": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
+          "partOfSpeech": "MORPHOLOGY · Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)",
           "exampleSentence": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
           "exampleTranslation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata"
         }
       ]
     },
     {
-      "type": "rhetoric-stylistics",
-      "title": "Kajian Sastra & Estetika Bahasa: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
-      "traditionName": "English Structural Grammar & Lexicology",
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "Sastra, Filologi & Keindahan Bahasa · Kajian Lanjutan · Konteks Autentik",
       "direction": "ltr",
-      "overview": "Pendalaman jurusan Sastra Inggris: aliran kesusastraan, naratologi, dan semantik historis",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "translation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata — (Penerapan langsung pola \"Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)\")",
+          "grammarHighlight": "Proto-Indo-European Root → Cognate Doublets (ward/guard, shirt/skirt)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "knight (Old English cniht = pelayan muda) → gelar ksatria terhormat",
+          "reading": "/naɪt/ · /knɪxt/",
+          "translation": "Jejak sejarah sosial budaya yang terekam di dalam evolusi makna kata — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang Sastra Modernis, Naratologi & Semantik Historis"
+        }
+      ]
+    },
+    {
+      "type": "rhetoric-stylistics",
+      "title": "Kajian Sastra & Estetika Stilistika: Semantik Historis & Etimologi: Amelioration, Pejoration, Semantic Shift & Doublets",
+      "traditionName": "English Structural Grammar, Pragmatics & Lexicology",
+      "direction": "ltr",
+      "overview": "Pendalaman jurusan Sastra Inggris: aliran kesusastraan, naratologi, dan semantik historis. Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
       "devices": [
         {
           "deviceName": "Cabang Sastra Modernis, Naratologi & Semantik Historis",

@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "morphology",
   "tier": "beginner",
-  "order": 112,
+  "order": 118,
   "title": "Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
   "subtitle": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A1 · Breakthrough | Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+      "grammaticalTradition": "CEFR A1 · Breakthrough · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-a1-pos-nouns-row-1",
+          "id": "en-a1-pos-nouns-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Part of Speech (Kelas Kata Dasar)",
-              "gloss": "Mengenali fungsi setiap jenis kata sebelum menyusun kalimat"
+              "gloss": "Pilar MORPHOLOGY · Fondasi Kelas Kata & Struktur Kalimat Dasar"
             },
             "formula": {
               "script": "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "an apple · two apples · water · information · children",
               "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
               "gloss": "Information dan water tidak memakai akhiran -s"
@@ -51,34 +51,236 @@
           "fullTranslation": "Information dan water tidak memakai akhiran -s"
         },
         {
-          "id": "en-a1-pos-nouns-row-2",
+          "id": "en-a1-pos-nouns-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 35 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 35 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "an apple · two apples · water · information · children",
               "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan — Information dan water tidak memakai akhiran -s"
+          "fullTranslation": "Nouns (Kata Benda): Countable, Uncountable, Singular & Plural: Information dan water tidak memakai akhiran -s"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Nouns (Kata Benda): Countable, Uncountable, Singular & Plural\"",
-        "psychologyExplanation": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan. Dalam kerangka Cabang A: Part of Speech (Kelas Kata Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+      "eraOrDomain": "CEFR A1 · Breakthrough · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Perbedaan benda terhitung vs tak terhitung serta bentuk jamak tak beraturan. Dalam cabang \"Cabang A: Part of Speech (Kelas Kata Dasar)\", konstruksi \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "an apple · two apples · water · information · children",
+          "reading": "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"an apple · two apples · water · information · children\" (/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "an apple · two apples · water · information · children",
+          "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+          "explanation": "Mengenali fungsi setiap jenis kata sebelum menyusun kalimat Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "an apple · two apples · water · information · children",
+          "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+          "definition": "Pola \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Information dan water tidak memakai akhiran -s\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "an apple · two apples · water · information · children"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-pos-nouns-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "an apple · two apples · water · information · children",
+              "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+              "gloss": "Information dan water tidak memakai akhiran -s"
+            }
+          },
+          "fullTranslation": "Information dan water tidak memakai akhiran -s"
+        },
+        {
+          "id": "en-a1-pos-nouns-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Part of Speech (Kelas Kata Dasar)] → Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "an apple · two apples · water · information · children",
+              "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+              "gloss": "Makna kontekstual: \"Information dan water tidak memakai akhiran -s\""
+            }
+          },
+          "fullTranslation": "Information dan water tidak memakai akhiran -s"
+        },
+        {
+          "id": "en-a1-pos-nouns-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "an apple · two apples · water · information · children",
+              "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+              "gloss": "Padanan alami: Information dan water tidak memakai akhiran -s"
+            }
+          },
+          "fullTranslation": "Information dan water tidak memakai akhiran -s"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a1-pos-nouns-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "an apple · two apples · water · information · children",
+              "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+              "gloss": "Pola acuan: Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-a1-pos-nouns-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+      "title": "5. Tips, Trik & Leksikon Kunci: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "an apple · two apples · water · information · children",
           "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
           "meaning": "Information dan water tidak memakai akhiran -s",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
+          "partOfSpeech": "MORPHOLOGY · CEFR A1 · Breakthrough",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns",
           "exampleSentence": "an apple · two apples · water · information · children",
           "exampleTranslation": "Information dan water tidak memakai akhiran -s"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Nouns (Kata Benda): Countable, Uncountable, Singular & Plural",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A1 · Breakthrough · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "an apple · two apples · water · information · children",
+          "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+          "translation": "Information dan water tidak memakai akhiran -s — (Penerapan langsung pola \"Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns\")",
+          "grammarHighlight": "Singular vs Plural (-s/-es/-ies) + Uncountable Mass Nouns"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "an apple · two apples · water · information · children",
+          "reading": "/ən ˈæp.əl/ · /ˈwɔː.tər/ · /ˌɪn.fərˈmeɪ.ʃən/",
+          "translation": "Information dan water tidak memakai akhiran -s — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Part of Speech (Kelas Kata Dasar)"
         }
       ]
     }

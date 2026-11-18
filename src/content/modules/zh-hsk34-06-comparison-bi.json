@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan | Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "grammaticalTradition": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk34-06-comparison-bi-row-1",
+          "id": "zh-hsk34-06-comparison-bi-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)",
-              "gloss": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin"
+              "gloss": "Pilar SYNTAX · Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比"
             },
             "formula": {
               "script": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "今天的温度比昨天高了五度，没有前天那么热。",
               "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
               "gloss": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
@@ -51,34 +51,236 @@
           "fullTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
         },
         {
-          "id": "zh-hsk34-06-comparison-bi-row-2",
+          "id": "zh-hsk34-06-comparison-bi-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比 (HSK 3–4 · Sistem Komplemen & Struktur Perbandingan)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "今天的温度比昨天高了五度，没有前天那么热。",
               "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比 — Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+          "fullTranslation": "Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样: Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样\"",
-        "psychologyExplanation": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比. Dalam kerangka Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "eraOrDomain": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Aturan ketat melarang pemakaian 很 di dalam kalimat perbandingan 比. Dalam cabang \"Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)\", konstruksi \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"今天的温度比昨天高了五度，没有前天那么热。\" (Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+          "explanation": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+          "definition": "Pola \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "今天的温度比昨天高了五度，没有前天那么热。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-06-comparison-bi-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+            }
+          },
+          "fullTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        },
+        {
+          "id": "zh-hsk34-06-comparison-bi-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)] → A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Makna kontekstual: \"Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu\""
+            }
+          },
+          "fullTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        },
+        {
+          "id": "zh-hsk34-06-comparison-bi-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Padanan alami: Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+            }
+          },
+          "fullTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-06-comparison-bi-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "今天的温度比昨天高了五度，没有前天那么热。",
+              "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+              "gloss": "Pola acuan: A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk34-06-comparison-bi-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "title": "5. Tips, Trik & Leksikon Kunci: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "今天的温度比昨天高了五度，没有前天那么热。",
           "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
           "meaning": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
+          "partOfSpeech": "SYNTAX · HSK 3–4 · Sistem Komplemen & Struktur Perbandingan",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)",
           "exampleSentence": "今天的温度比昨天高了五度，没有前天那么热。",
           "exampleTranslation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Struktur Perbandingan: A 比 B + Adj + Selisih, 没有 (Tidak Se-) & 跟...一样",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+          "translation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu — (Penerapan langsung pola \"A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)\")",
+          "grammarHighlight": "A 比 B + Adj + 多了 / 一点儿 / [Angka] (Dilarang memakai 很!)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "今天的温度比昨天高了五度，没有前天那么热。",
+          "reading": "Jīntiān de wēndù bǐ zuótiān gāo le wǔ dù, méiyǒu qiántiān nàme rè.",
+          "translation": "Suhu hari ini lebih tinggi 5 derajat dari kemarin, tidak sepanas dua hari lalu — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)"
         }
       ]
     }

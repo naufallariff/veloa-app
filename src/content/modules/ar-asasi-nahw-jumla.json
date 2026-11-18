@@ -3,46 +3,46 @@
   "lang": "ar",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 110,
+  "order": 116,
   "title": "Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
   "subtitle": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i)",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Mustawā Tamhīdī & Asāsī · Dasar | Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "grammaticalTradition": "Mustawā Tamhīdī & Asāsī · Dasar · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-asasi-nahw-jumla-row-1",
+          "id": "ar-asasi-nahw-jumla-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)",
-              "gloss": "Pembagian kata (Isim, Fiʿil, Ḥarf), Jumlah Ismiyyah & Jumlah Fiʿliyyah"
+              "gloss": "Pilar SYNTAX · Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar"
             },
             "formula": {
               "script": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
               "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
               "gloss": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
@@ -51,34 +51,236 @@
           "fullTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
         },
         {
-          "id": "ar-asasi-nahw-jumla-row-2",
+          "id": "ar-asasi-nahw-jumla-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Pilar Kembar Bahasa Arab: ʿIlmu aṣ-Ṣarf & ʿIlmu an-Naḥw Dasar (Mustawā Tamhīdī & Asāsī · Dasar)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
               "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i) — Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+          "fullTranslation": "Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl): Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)\"",
-        "psychologyExplanation": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i). Dalam kerangka Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar), penutur asli memetakan hubungan makna menggunakan rumus \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "eraOrDomain": "Mustawā Tamhīdī & Asāsī · Dasar · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Kaidah dasar Iʿrāb: Rafʿ (-u), Naṣb (-a), dan Jarr (-i). Dalam cabang \"Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)\", konstruksi \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.\" (Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+          "explanation": "Pembagian kata (Isim, Fiʿil, Ḥarf), Jumlah Ismiyyah & Jumlah Fiʿliyyah Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+          "definition": "Pola \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-nahw-jumla-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+            }
+          },
+          "fullTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        },
+        {
+          "id": "ar-asasi-nahw-jumla-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)] → Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Makna kontekstual: \"Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan\""
+            }
+          },
+          "fullTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        },
+        {
+          "id": "ar-asasi-nahw-jumla-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Padanan alami: Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+            }
+          },
+          "fullTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-asasi-nahw-jumla-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+              "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+              "gloss": "Pola acuan: Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-asasi-nahw-jumla-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
           "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
           "meaning": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
+          "partOfSpeech": "SYNTAX · Mustawā Tamhīdī & Asāsī · Dasar",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)",
           "exampleSentence": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
           "exampleTranslation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Jumlah Ismiyyah (Mubtadaʾ–Khabar) vs Jumlah Fiʿliyyah (Fiʿil–Fāʿil–Mafʿūl)",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Mustawā Tamhīdī & Asāsī · Dasar · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+          "translation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan — (Penerapan langsung pola \"Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)\")",
+          "grammarHighlight": "Mubtadaʾ (Rafʿ) + Khabar (Rafʿ) | Fiʿil + Fāʿil (Rafʿ) + Mafʿūl Bih (Naṣb)"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "قَرَأَ الطَّالِبُ الْكِتَابَ فِي الْمَكْتَبَةِ.",
+          "reading": "Qaraʾa aṭ-ṭālibu (Rafʿ) al-kitāba (Naṣb) fī al-maktabati (Jarr).",
+          "translation": "Harakat akhir -u, -a, -i menandai peran subjek, objek, dan keterangan — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: ʿIlmu an-Naḥw (عِلْمُ النَّحْوِ · Sintaksis & Iʿrāb Dasar)"
         }
       ]
     }

@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "morphology",
   "tier": "beginner",
-  "order": 115,
+  "order": 121,
   "title": "Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
   "subtitle": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya)",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N4 · Dasar Lanjutan | Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+      "grammaticalTradition": "JLPT N4 · Dasar Lanjutan · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n4-plain-forms-row-1",
+          "id": "ja-n4-plain-forms-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4",
-              "gloss": "Bentuk kasual, bentuk bisa (Kanōkei), dan memberi-menerima"
+              "gloss": "Pilar MORPHOLOGY · Bentuk Kamus, Nai, Ta, Potensial & Pengandaian"
             },
             "formula": {
               "script": "[Anak Kalimat Futsūkei] + [Kata Benda Inti]",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "私が昨日買った本はとても面白いです。",
               "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
               "gloss": "Buku yang saya beli kemarin sangat menarik."
@@ -51,34 +51,236 @@
           "fullTranslation": "Buku yang saya beli kemarin sangat menarik."
         },
         {
-          "id": "ja-n4-plain-forms-row-2",
+          "id": "ja-n4-plain-forms-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Bentuk Kamus, Nai, Ta, Potensial & Pengandaian (JLPT N4 · Dasar Lanjutan)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya)"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "私が昨日買った本はとても面白いです。",
               "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya) — Buku yang saya beli kemarin sangat menarik."
+          "fullTranslation": "Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina: Buku yang saya beli kemarin sangat menarik."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina\"",
-        "psychologyExplanation": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya). Dalam kerangka Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4, penutur asli memetakan hubungan makna menggunakan rumus \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+      "eraOrDomain": "JLPT N4 · Dasar Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Dasar klausa relatif (kalimat yang menerangkan kata benda di belakangnya). Dalam cabang \"Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4\", konstruksi \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "私が昨日買った本はとても面白いです。",
+          "reading": "[Anak Kalimat Futsūkei] + [Kata Benda Inti]",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"私が昨日買った本はとても面白いです。\" (Watashi ga kinō katta hon wa totemo omoshiroi desu.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "私が昨日買った本はとても面白いです。",
+          "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+          "explanation": "Bentuk kasual, bentuk bisa (Kanōkei), dan memberi-menerima Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "私が昨日買った本はとても面白いです。",
+          "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+          "definition": "Pola \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Buku yang saya beli kemarin sangat menarik.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "私が昨日買った本はとても面白いです。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "[Anak Kalimat Futsūkei] + [Kata Benda Inti]"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-plain-forms-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "[Anak Kalimat Futsūkei] + [Kata Benda Inti]",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "私が昨日買った本はとても面白いです。",
+              "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+              "gloss": "Buku yang saya beli kemarin sangat menarik."
+            }
+          },
+          "fullTranslation": "Buku yang saya beli kemarin sangat menarik."
+        },
+        {
+          "id": "ja-n4-plain-forms-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4] → [Anak Kalimat Futsūkei] + [Kata Benda Inti]",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "私が昨日買った本はとても面白いです。",
+              "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+              "gloss": "Makna kontekstual: \"Buku yang saya beli kemarin sangat menarik.\""
+            }
+          },
+          "fullTranslation": "Buku yang saya beli kemarin sangat menarik."
+        },
+        {
+          "id": "ja-n4-plain-forms-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "私が昨日買った本はとても面白いです。",
+              "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+              "gloss": "Padanan alami: Buku yang saya beli kemarin sangat menarik."
+            }
+          },
+          "fullTranslation": "Buku yang saya beli kemarin sangat menarik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-plain-forms-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "私が昨日買った本はとても面白いです。",
+              "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+              "gloss": "Pola acuan: [Anak Kalimat Futsūkei] + [Kata Benda Inti]"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n4-plain-forms-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "[Anak Kalimat Futsūkei] + [Kata Benda Inti]",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+      "title": "5. Tips, Trik & Leksikon Kunci: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "私が昨日買った本はとても面白いです。",
           "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
           "meaning": "Buku yang saya beli kemarin sangat menarik.",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: [Anak Kalimat Futsūkei] + [Kata Benda Inti]",
+          "partOfSpeech": "MORPHOLOGY · JLPT N4 · Dasar Lanjutan",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: [Anak Kalimat Futsūkei] + [Kata Benda Inti]",
           "exampleSentence": "私が昨日買った本はとても面白いです。",
           "exampleTranslation": "Buku yang saya beli kemarin sangat menarik."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Futsūkei (普通形): Bentuk Kamus, Bentuk-Nai, Bentuk-Ta & Modifikasi Nomina",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N4 · Dasar Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "私が昨日買った本はとても面白いです。",
+          "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+          "translation": "Buku yang saya beli kemarin sangat menarik. — (Penerapan langsung pola \"[Anak Kalimat Futsūkei] + [Kata Benda Inti]\")",
+          "grammarHighlight": "[Anak Kalimat Futsūkei] + [Kata Benda Inti]"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "私が昨日買った本はとても面白いです。",
+          "reading": "Watashi ga kinō katta hon wa totemo omoshiroi desu.",
+          "translation": "Buku yang saya beli kemarin sangat menarik. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4"
         }
       ]
     }

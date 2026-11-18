@@ -1,5 +1,5 @@
 // src/features/practice-engine/components/PracticeCenterView.tsx
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import {
     BrainCircuit,
     CheckCircle2,
@@ -12,7 +12,9 @@ import type { LanguageCode, LessonModule } from '@/features/lesson-engine/schema
 import {
     getManifestByLanguage,
     loadLessonModule,
+    prefetchLessonModule,
 } from '@/features/lesson-engine/services/module-loader';
+import { PaginatedDataView } from '@/components/ui/PaginatedDataView';
 import { useMasteryEngine } from '../hooks/useMasteryEngine';
 import { useStudyVault } from '../hooks/useStudyVault';
 import { ActiveRecallArena } from './ActiveRecallArena';
@@ -36,6 +38,8 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
         LANGUAGE_OPTIONS.find((item) => item.code === selectedLang) ?? LANGUAGE_OPTIONS[0]!;
     const langModules = useMemo(() => getManifestByLanguage(selectedLang), [selectedLang]);
 
+    type LangManifestItem = (typeof langModules)[number];
+
     const dueForActiveLang = useMemo(
         () => resolvedDueSrs.filter((item) => item.lang === selectedLang),
         [resolvedDueSrs, selectedLang],
@@ -50,6 +54,15 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
             setLoadingModuleId(null);
         }
     };
+
+    const filterModuleFn = useCallback((mod: LangManifestItem, q: string) => {
+        return (
+            mod.title.toLowerCase().includes(q) ||
+            mod.subtitle.toLowerCase().includes(q) ||
+            mod.tier.toLowerCase().includes(q) ||
+            mod.pillar.toLowerCase().includes(q)
+        );
+    }, []);
 
     if (activeDrillModule) {
         return (
@@ -112,7 +125,9 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                             className="veloa-tactile-btn inline-flex items-center gap-2 rounded-2xl bg-white px-5 text-xs font-extrabold text-violet-900 shadow-md disabled:cursor-not-allowed disabled:opacity-50"
                         >
                             <Play className="h-4 w-4 fill-current" />
-                            <span>Ulang Kaji {langMeta.name} ({dueForActiveLang.length})</span>
+                            <span>
+                                Ulang Kaji {langMeta.name} ({dueForActiveLang.length})
+                            </span>
                         </button>
 
                         {resolvedDueSrs.length > dueForActiveLang.length && (
@@ -161,9 +176,9 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                 </div>
             </section>
 
-            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif */}
+            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif (Paginated + Searchable) */}
             <section aria-label="Pilih modul untuk latihan cepat" className="space-y-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-wrap items-center justify-between gap-2">
                     <h2 className="text-lg font-extrabold text-(--text-primary)">
                         Latihan Kilat per Modul ({langMeta.name})
                     </h2>
@@ -173,42 +188,55 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                     </span>
                 </div>
 
-                <div className="grid gap-3.5 md:grid-cols-2">
-                    {langModules.map((mod) => {
-                        const isLoadingThis = loadingModuleId === mod.id;
+                <PaginatedDataView
+                    key={selectedLang}
+                    data={langModules}
+                    pageSize={8}
+                    itemLabel="modul latihan"
+                    searchPlaceholder={`Cari modul latihan ${langMeta.name} (judul, tier, pilar)...`}
+                    filterFn={filterModuleFn}
+                    renderItems={(visibleModules) => (
+                        <div className="grid gap-3.5 md:grid-cols-2">
+                            {visibleModules.map((mod) => {
+                                const isLoadingThis = loadingModuleId === mod.id;
 
-                        return (
-                            <div
-                                key={mod.id}
-                                className="veloa-surface-card flex items-center justify-between gap-4 p-4"
-                            >
-                                <div className="min-w-0 flex-1 space-y-1">
-                                    <span className="font-mono text-[11px] font-bold uppercase text-(--accent-primary)">
-                                        {mod.tier} · {mod.pillar}
-                                    </span>
-                                    <h3 className="truncate text-sm font-bold text-(--text-primary)">{mod.title}</h3>
-                                    <p className="text-xs text-(--text-muted)">
-                                        {mod.entryCount.toLocaleString('id-ID')} entri sumber soal
-                                    </p>
-                                </div>
+                                return (
+                                    <div
+                                        key={mod.id}
+                                        onMouseEnter={() => prefetchLessonModule(mod.id)}
+                                        className="veloa-surface-card flex items-center justify-between gap-4 p-4"
+                                    >
+                                        <div className="min-w-0 flex-1 space-y-1">
+                                            <span className="font-mono text-[11px] font-bold uppercase text-(--accent-primary)">
+                                                {mod.tier} · {mod.pillar}
+                                            </span>
+                                            <h3 className="truncate text-sm font-bold text-(--text-primary)">
+                                                {mod.title}
+                                            </h3>
+                                            <p className="text-xs text-(--text-muted)">
+                                                {mod.entryCount.toLocaleString('id-ID')} entri sumber soal
+                                            </p>
+                                        </div>
 
-                                <button
-                                    type="button"
-                                    disabled={isLoadingThis}
-                                    onClick={() => handleLaunchModuleDrill(mod.id)}
-                                    className="veloa-tactile-btn inline-flex shrink-0 items-center gap-2 rounded-xl bg-(--accent-primary) px-4 text-xs font-bold text-white hover:bg-(--accent-primary-hover) disabled:opacity-60"
-                                >
-                                    {isLoadingThis ? (
-                                        <Loader2 className="h-4 w-4 animate-spin" />
-                                    ) : (
-                                        <Play className="h-3.5 w-3.5 fill-current" />
-                                    )}
-                                    <span>Latih</span>
-                                </button>
-                            </div>
-                        );
-                    })}
-                </div>
+                                        <button
+                                            type="button"
+                                            disabled={isLoadingThis}
+                                            onClick={() => handleLaunchModuleDrill(mod.id)}
+                                            className="veloa-tactile-btn inline-flex shrink-0 items-center gap-2 rounded-xl bg-(--accent-primary) px-4 text-xs font-bold text-white hover:bg-(--accent-primary-hover) disabled:opacity-60"
+                                        >
+                                            {isLoadingThis ? (
+                                                <Loader2 className="h-4 w-4 animate-spin" />
+                                            ) : (
+                                                <Play className="h-3.5 w-3.5 fill-current" />
+                                            )}
+                                            <span>Latih</span>
+                                        </button>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    )}
+                />
             </section>
 
             {isSrsModalOpen && (

@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Pondasi · Piktogram, Radikal & Fonologi Nada | Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "grammaticalTradition": "Pondasi · Piktogram, Radikal & Fonologi Nada · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-00-found-liushu-composition-row-1",
+          "id": "zh-00-found-liushu-composition-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin",
-              "gloss": "Empat langkah fundamental membaca dan merakit karakter Tiongkok"
+              "gloss": "Pilar SCRIPT · Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada"
             },
             "formula": {
               "script": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
               "reading": "qīng · qíng · qíng",
               "gloss": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
@@ -51,34 +51,236 @@
           "fullTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
         },
         {
-          "id": "zh-00-found-liushu-composition-row-2",
+          "id": "zh-00-found-liushu-composition-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Evolusi Hanzi (Liùshū), 214 Radikal & Sistem Pinyin 4 Nada (Pondasi · Piktogram, Radikal & Fonologi Nada)"
-            },
-            "formula": {
-              "script": "SCRIPT · Target 36 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 36 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
               "reading": "qīng · qíng · qíng",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi — Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+          "fullTranslation": "Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng): Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)\"",
-        "psychologyExplanation": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi. Dalam kerangka 1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin, penutur asli memetakan hubungan makna menggunakan rumus \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "eraOrDomain": "Pondasi · Piktogram, Radikal & Fonologi Nada · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Mengapa 80%+ karakter Mandarin terdiri dari Radikal Makna + Komponen Bunyi. Dalam cabang \"1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin\", konstruksi \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)\" (qīng · qíng · qíng). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "qīng · qíng · qíng",
+          "explanation": "Empat langkah fundamental membaca dan merakit karakter Tiongkok Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "qīng · qíng · qíng",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+          "definition": "Pola \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-liushu-composition-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+            }
+          },
+          "fullTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        },
+        {
+          "id": "zh-00-found-liushu-composition-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin] → Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Makna kontekstual: \"Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip\""
+            }
+          },
+          "fullTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        },
+        {
+          "id": "zh-00-found-liushu-composition-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Padanan alami: Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+            }
+          },
+          "fullTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-00-found-liushu-composition-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+              "reading": "qīng · qíng · qíng",
+              "gloss": "Pola acuan: Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-00-found-liushu-composition-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
           "reading": "qīng · qíng · qíng",
           "meaning": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip",
-          "partOfSpeech": "script",
-          "patternNote": "Rumus terkait: Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
+          "partOfSpeech": "SCRIPT · Pondasi · Piktogram, Radikal & Fonologi Nada",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)",
           "exampleSentence": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
           "exampleTranslation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Rumus Penggabungan Hanzi: Piktogram, Ideogram (Huìyì) & Fono-Semantik (Xíngshēng)",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Pondasi · Piktogram, Radikal & Fonologi Nada · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "qīng · qíng · qíng",
+          "translation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip — (Penerapan langsung pola \"Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)\")",
+          "grammarHighlight": "Radikal Semantik (Kategori Makna) + Komponen Fonetik (Petunjuk Bunyi)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "青 (qīng) → 清 (jernih · 氵air) · 晴 (cerah · 日matahari) · 情 (perasaan · 忄hati)",
+          "reading": "qīng · qíng · qíng",
+          "translation": "Satu komponen bunyi menghasilkan keluarga karakter berbunyi mirip — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Anatomi Hanzi: Sejarah → Piktogram/Ideogram → Radikal → Pinyin"
         }
       ]
     }

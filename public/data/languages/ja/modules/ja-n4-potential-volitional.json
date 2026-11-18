@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "morphology",
   "tier": "beginner",
-  "order": 116,
+  "order": 122,
   "title": "Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
   "subtitle": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N4 · Dasar Lanjutan | Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+      "grammaticalTradition": "JLPT N4 · Dasar Lanjutan · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n4-potential-volitional-row-1",
+          "id": "ja-n4-potential-volitional-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4",
-              "gloss": "Bentuk kasual, bentuk bisa (Kanōkei), dan memberi-menerima"
+              "gloss": "Pilar MORPHOLOGY · Bentuk Kamus, Nai, Ta, Potensial & Pengandaian"
             },
             "formula": {
               "script": "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "日本語が話せるようになったら、日本へ留学したいです。",
               "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
               "gloss": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
@@ -51,34 +51,236 @@
           "fullTranslation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
         },
         {
-          "id": "ja-n4-potential-volitional-row-2",
+          "id": "ja-n4-potential-volitional-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Bentuk Kamus, Nai, Ta, Potensial & Pengandaian (JLPT N4 · Dasar Lanjutan)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "日本語が話せるようになったら、日本へ留学したいです。",
               "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat — Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+          "fullTranslation": "Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば): Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)\"",
-        "psychologyExplanation": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat. Dalam kerangka Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4, penutur asli memetakan hubungan makna menggunakan rumus \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+      "eraOrDomain": "JLPT N4 · Dasar Lanjutan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menyatakan kemampuan, ajakan, dan syarat sebab-akibat. Dalam cabang \"Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4\", konstruksi \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "日本語が話せるようになったら、日本へ留学したいです。",
+          "reading": "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"日本語が話せるようになったら、日本へ留学したいです。\" (Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "日本語が話せるようになったら、日本へ留学したいです。",
+          "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+          "explanation": "Bentuk kasual, bentuk bisa (Kanōkei), dan memberi-menerima Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "日本語が話せるようになったら、日本へ留学したいです。",
+          "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+          "definition": "Pola \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "日本語が話せるようになったら、日本へ留学したいです。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-potential-volitional-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "日本語が話せるようになったら、日本へ留学したいです。",
+              "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+              "gloss": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+            }
+          },
+          "fullTranslation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+        },
+        {
+          "id": "ja-n4-potential-volitional-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4] → Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "日本語が話せるようになったら、日本へ留学したいです。",
+              "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+              "gloss": "Makna kontekstual: \"Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang.\""
+            }
+          },
+          "fullTranslation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+        },
+        {
+          "id": "ja-n4-potential-volitional-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "日本語が話せるようになったら、日本へ留学したいです。",
+              "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+              "gloss": "Padanan alami: Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+            }
+          },
+          "fullTranslation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n4-potential-volitional-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "日本語が話せるようになったら、日本へ留学したいです。",
+              "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+              "gloss": "Pola acuan: Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n4-potential-volitional-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "日本語が話せるようになったら、日本へ留学したいです。",
           "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
           "meaning": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang.",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
+          "partOfSpeech": "MORPHOLOGY · JLPT N4 · Dasar Lanjutan",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)",
           "exampleSentence": "日本語が話せるようになったら、日本へ留学したいです。",
           "exampleTranslation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Bentuk Potensial (可能形 · Bisa), Volisional (意向形 · Ayo) & Pengandaian (たら/ば)",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N4 · Dasar Lanjutan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "日本語が話せるようになったら、日本へ留学したいです。",
+          "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+          "translation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang. — (Penerapan langsung pola \"Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)\")",
+          "grammarHighlight": "Godan (u→eru) · Ichidan (ru→rareru) | 条件形 (-tara / -ba)"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "日本語が話せるようになったら、日本へ留学したいです。",
+          "reading": "Nihongo ga hanaseru yō ni nattara, Nihon e ryūgaku shitai desu.",
+          "translation": "Kalau sudah bisa berbahasa Jepang, saya ingin kuliah ke Jepang. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Sistem Konjugasi Futsūkei & Modalitas N4"
         }
       ]
     }

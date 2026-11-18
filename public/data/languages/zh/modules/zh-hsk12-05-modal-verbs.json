@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu | Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "grammaticalTradition": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk12-05-modal-verbs-row-1",
+          "id": "zh-hsk12-05-modal-verbs-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)",
-              "gloss": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin"
+              "gloss": "Pilar SYNTAX · Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi"
             },
             "formula": {
               "script": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "我会说汉语，但是今天嗓子疼，不能说话。",
               "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
               "gloss": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
@@ -51,34 +51,236 @@
           "fullTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
         },
         {
-          "id": "zh-hsk12-05-modal-verbs-row-2",
+          "id": "zh-hsk12-05-modal-verbs-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi (HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "我会说汉语，但是今天嗓子疼，不能说话。",
               "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik — Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+          "fullTranslation": "Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan): Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)\"",
-        "psychologyExplanation": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik. Dalam kerangka Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "eraOrDomain": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membedakan kemampuan hasil belajar vs kemampuan karena situasi fisik. Dalam cabang \"Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)\", konstruksi \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"我会说汉语，但是今天嗓子疼，不能说话。\" (Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+          "explanation": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+          "definition": "Pola \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "我会说汉语，但是今天嗓子疼，不能说话。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-05-modal-verbs-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+            }
+          },
+          "fullTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        },
+        {
+          "id": "zh-hsk12-05-modal-verbs-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)] → Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Makna kontekstual: \"Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara\""
+            }
+          },
+          "fullTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        },
+        {
+          "id": "zh-hsk12-05-modal-verbs-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Padanan alami: Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+            }
+          },
+          "fullTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-05-modal-verbs-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "我会说汉语，但是今天嗓子疼，不能说话。",
+              "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+              "gloss": "Pola acuan: Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk12-05-modal-verbs-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "我会说汉语，但是今天嗓子疼，不能说话。",
           "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
           "meaning": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
+          "partOfSpeech": "SYNTAX · HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek",
           "exampleSentence": "我会说汉语，但是今天嗓子疼，不能说话。",
           "exampleTranslation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kata Kerja Modal: 会 (Keterampilan), 能 (Kondisi/Izin), 可以 (Boleh) & 要/想 (Ingin/Akan)",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+          "translation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara — (Penerapan langsung pola \"Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek\")",
+          "grammarHighlight": "Subjek + Modal (会/能/可以/应该) + Kata Kerja + Objek"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "我会说汉语，但是今天嗓子疼，不能说话。",
+          "reading": "Wǒ huì shuō Hànyǔ, dànshì jīntiān sǎngzi téng, bù néng shuōhuà.",
+          "translation": "Saya bisa berbahasa Mandarin (keterampilan), tetapi hari ini tenggorokan sakit sehingga tidak bisa bicara — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)"
         }
       ]
     }

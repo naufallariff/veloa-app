@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts | Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "grammaticalTradition": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-mutaqaddim-03-uslub-syart-row-1",
+          "id": "ar-mutaqaddim-03-uslub-syart-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)",
-              "gloss": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin"
+              "gloss": "Pilar SYNTAX · Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf"
             },
             "formula": {
               "script": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
               "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
               "gloss": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
@@ -51,34 +51,236 @@
           "fullTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
         },
         {
-          "id": "ar-mutaqaddim-03-uslub-syart-row-2",
+          "id": "ar-mutaqaddim-03-uslub-syart-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Uslūb Syarṭ (Kalimat Kondisional), Istitsnā’ (Pengecualian) & Mamnū‘ min aṣ-Ṣarf (Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
               "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat — Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+          "fullTranslation": "Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ: Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ\"",
-        "psychologyExplanation": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat. Dalam kerangka Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim), penutur asli memetakan hubungan makna menggunakan rumus \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "eraOrDomain": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Korelasi dua kata kerja Majzūm (Fi‘l Asy-Syarṭ & Jawāb Asy-Syarṭ) dalam kalimat bersyarat. Dalam cabang \"Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)\", konstruksi \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。\" (Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+          "explanation": "Adawāt Syarṭ Jāzimah, hukum Mustatsnā dengan إِلَّا/غَيْر/سِوَى, dan Ism tanpa Tanwin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+          "definition": "Pola \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+            }
+          },
+          "fullTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        },
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)] → Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Makna kontekstual: \"Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan.\""
+            }
+          },
+          "fullTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        },
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Padanan alami: Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+            }
+          },
+          "fullTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+              "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+              "gloss": "Pola acuan: Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-mutaqaddim-03-uslub-syart-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "title": "5. Tips, Trik & Leksikon Kunci: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
           "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
           "meaning": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan.",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
+          "partOfSpeech": "SYNTAX · Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)",
           "exampleSentence": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
           "exampleTranslation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Uslūb Asy-Syarṭ (أُسْلُوب الشَّرْط): إِنْ, مَنْ, مَا, مَتَى, أَيْنَمَا & لَوْ",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Al-Mustawā Al-Mutaqaddim · Naḥwu Lanjut & Kitab Turāts · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+          "translation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan. — (Penerapan langsung pola \"Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)\")",
+          "grammarHighlight": "Adāt Syarṭ Jāzimah + Fi‘l Syarṭ (Majzūm) + Jawāb Syarṭ (Majzūm)"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "مَنْ يَجْتَهِدْ فِي طَلَبِ الْعِلْمِ يَحْصُلْ عَلَى النَّجَاحِ。",
+          "reading": "Man yajtahid fī ṭalabi al-‘ilmi yaḥṣul ‘alā an-najāḥ.",
+          "translation": "Barang siapa bersungguh-sungguh menuntut ilmu, niscaya ia meraih keberhasilan. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Kalimat Syarat, Pengecualian & Ism Ghayr Munṣarif (Mutaqaddim)"
         }
       ]
     }

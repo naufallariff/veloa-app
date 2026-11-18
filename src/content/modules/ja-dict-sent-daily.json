@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "lexicon-dialogue",
   "tier": "beginner",
-  "order": 108,
+  "order": 111,
   "title": "Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
   "subtitle": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Jepang | Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "grammaticalTradition": "Kamus & Korpus Jepang · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-dict-sent-daily-row-1",
+          "id": "ja-dict-sent-daily-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)",
-              "gloss": "Kalimat praktis di stasiun, konbini, kampus, dan kantor"
+              "gloss": "Pilar LEXICON-DIALOGUE · Kosakata Kanji-Kana, Kalimat Harian & Percakapan"
             },
             "formula": {
               "script": "Set Expressions + Social Context",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "すみません、駅までどうやって行きますか。",
               "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
               "gloss": "Permisi, bagaimana cara pergi ke stasiun?"
@@ -51,34 +51,236 @@
           "fullTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
         },
         {
-          "id": "ja-dict-sent-daily-row-2",
+          "id": "ja-dict-sent-daily-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 40 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 40 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "すみません、駅までどうやって行きますか。",
               "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama — Permisi, bagaimana cara pergi ke stasiun?"
+          "fullTranslation": "Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian: Permisi, bagaimana cara pergi ke stasiun?"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian\"",
-        "psychologyExplanation": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama. Dalam kerangka 2. Bank Kalimat Sehari-hari (Aisatsu & Situasional), penutur asli memetakan hubungan makna menggunakan rumus \"Set Expressions + Social Context\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Set Expressions + Social Context\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "eraOrDomain": "Kamus & Korpus Jepang · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Nuansa pemakaian Sumimasen, Yoroshiku onegaishimasu, dan Otsukaresama. Dalam cabang \"2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)\", konstruksi \"Set Expressions + Social Context\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "すみません、駅までどうやって行きますか。",
+          "reading": "Set Expressions + Social Context",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"すみません、駅までどうやって行きますか。\" (Sumimasen, eki made dō yatte ikimasu ka.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "すみません、駅までどうやって行きますか。",
+          "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+          "explanation": "Kalimat praktis di stasiun, konbini, kampus, dan kantor Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Set Expressions + Social Context\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "すみません、駅までどうやって行きますか。",
+          "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Set Expressions + Social Context\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+          "definition": "Pola \"Set Expressions + Social Context\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Permisi, bagaimana cara pergi ke stasiun?\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "すみません、駅までどうやって行きますか。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Set Expressions + Social Context"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-sent-daily-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Set Expressions + Social Context",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Permisi, bagaimana cara pergi ke stasiun?"
+            }
+          },
+          "fullTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        },
+        {
+          "id": "ja-dict-sent-daily-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)] → Set Expressions + Social Context",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Makna kontekstual: \"Permisi, bagaimana cara pergi ke stasiun?\""
+            }
+          },
+          "fullTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        },
+        {
+          "id": "ja-dict-sent-daily-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Padanan alami: Permisi, bagaimana cara pergi ke stasiun?"
+            }
+          },
+          "fullTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Set Expressions + Social Context\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-sent-daily-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "すみません、駅までどうやって行きますか。",
+              "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+              "gloss": "Pola acuan: Set Expressions + Social Context"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-dict-sent-daily-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Set Expressions + Social Context",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "title": "5. Tips, Trik & Leksikon Kunci: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "すみません、駅までどうやって行きますか。",
           "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
           "meaning": "Permisi, bagaimana cara pergi ke stasiun?",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: Set Expressions + Social Context",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Jepang",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Set Expressions + Social Context",
           "exampleSentence": "すみません、駅までどうやって行きますか。",
           "exampleTranslation": "Permisi, bagaimana cara pergi ke stasiun?"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Kalimat Salam, Sopan Santun & Permintaan Bantuan Harian",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "Kamus & Korpus Jepang · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "すみません、駅までどうやって行きますか。",
+          "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+          "translation": "Permisi, bagaimana cara pergi ke stasiun? — (Penerapan langsung pola \"Set Expressions + Social Context\")",
+          "grammarHighlight": "Set Expressions + Social Context"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "すみません、駅までどうやって行きますか。",
+          "reading": "Sumimasen, eki made dō yatte ikimasu ka.",
+          "translation": "Permisi, bagaimana cara pergi ke stasiun? — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "2. Bank Kalimat Sehari-hari (Aisatsu & Situasional)"
         }
       ]
     }

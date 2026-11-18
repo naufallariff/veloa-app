@@ -1,45 +1,21 @@
 // src/shared/hooks/use-speech-synthesis.ts
-import * as React from 'react';
+import { useCallback } from 'react';
 import type { LanguageCode } from '@/features/lesson-engine/schema/lesson.schema';
-
-const BCP47_MAP: Record<LanguageCode, string> = {
-    en: 'en-US',
-    zh: 'zh-CN',
-    ja: 'ja-JP',
-    ar: 'ar-SA',
-    ko: 'ko-KR',
-};
+import { useSpeechPronunciation } from '@/features/lesson-engine/hooks/useSpeechPronunciation';
 
 export function useSpeechSynthesis() {
-    const [speakingText, setSpeakingText] = React.useState<string | null>(null);
-    const isSupported =
-        typeof window !== 'undefined' && 'speechSynthesis' in window;
+    const { speak: pronounce, stop, speakingKey, isSupported, isNativeVoiceAvailable } =
+        useSpeechPronunciation();
 
-    const stop = React.useCallback(() => {
-        if (!isSupported) return;
-        window.speechSynthesis.cancel();
-        setSpeakingText(null);
-    }, [isSupported]);
-
-    const speak = React.useCallback(
+    const speak = useCallback(
         (text: string, lang: LanguageCode, rate = 0.92) => {
-            if (!isSupported || !text.trim()) return;
-
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = BCP47_MAP[lang];
-            utterance.rate = rate;
-
-            utterance.onstart = () => setSpeakingText(text);
-            utterance.onend = () => setSpeakingText(null);
-            utterance.onerror = () => setSpeakingText(null);
-
-            window.speechSynthesis.speak(utterance);
+            const slow = rate < 0.8;
+            pronounce(text, lang, `shared-${lang}-${text}`, slow);
         },
-        [isSupported],
+        [pronounce],
     );
 
-    React.useEffect(() => stop, [stop]);
+    const speakingText = speakingKey ? speakingKey.replace(/^shared-[a-z]{2}-/, '') : null;
 
-    return { speak, stop, speakingText, isSupported };
+    return { speak, stop, speakingText, isSupported, isNativeVoiceAvailable };
 }

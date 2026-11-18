@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Pondasi · Rasm, Makhārij & Harakat | Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+      "grammaticalTradition": "Pondasi · Rasm, Makhārij & Harakat · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-00-found-harakat-tajwid-row-1",
+          "id": "ar-00-found-harakat-tajwid-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd",
-              "gloss": "Penguasaan huruf tunggal, bentuk sambung, dan hukum bacaan dasar"
+              "gloss": "Pilar PHONETICS · Sejarah Khat Arab, 28 Huruf Hijaiyah, Makhārij & Harakat"
             },
             "formula": {
               "script": "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
               "reading": "al-qamaru · ash-shamsu",
               "gloss": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
@@ -51,34 +51,236 @@
           "fullTranslation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
         },
         {
-          "id": "ar-00-found-harakat-tajwid-row-2",
+          "id": "ar-00-found-harakat-tajwid-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Sejarah Khat Arab, 28 Huruf Hijaiyah, Makhārij & Harakat (Pondasi · Rasm, Makhārij & Harakat)"
-            },
-            "formula": {
-              "script": "PHONETICS · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Aturan bacaan pendek-panjang (Madd) dan hukum artikulasi dasar"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
               "reading": "al-qamaru · ash-shamsu",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Aturan bacaan pendek-panjang (Madd) dan hukum artikulasi dasar — 14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+          "fullTranslation": "Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah: 14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah\"",
-        "psychologyExplanation": "Aturan bacaan pendek-panjang (Madd) dan hukum artikulasi dasar. Dalam kerangka 1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd, penutur asli memetakan hubungan makna menggunakan rumus \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+      "eraOrDomain": "Pondasi · Rasm, Makhārij & Harakat · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Aturan bacaan pendek-panjang (Madd) dan hukum artikulasi dasar. Dalam cabang \"1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd\", konstruksi \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+          "reading": "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)\" (al-qamaru · ash-shamsu). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+          "reading": "al-qamaru · ash-shamsu",
+          "explanation": "Penguasaan huruf tunggal, bentuk sambung, dan hukum bacaan dasar Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+          "reading": "al-qamaru · ash-shamsu",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+          "definition": "Pola \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-00-found-harakat-tajwid-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+              "reading": "al-qamaru · ash-shamsu",
+              "gloss": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+            }
+          },
+          "fullTranslation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+        },
+        {
+          "id": "ar-00-found-harakat-tajwid-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd] → Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+              "reading": "al-qamaru · ash-shamsu",
+              "gloss": "Makna kontekstual: \"14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām\""
+            }
+          },
+          "fullTranslation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+        },
+        {
+          "id": "ar-00-found-harakat-tajwid-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+              "reading": "al-qamaru · ash-shamsu",
+              "gloss": "Padanan alami: 14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+            }
+          },
+          "fullTranslation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-00-found-harakat-tajwid-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+              "reading": "al-qamaru · ash-shamsu",
+              "gloss": "Pola acuan: Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-00-found-harakat-tajwid-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+      "title": "5. Tips, Trik & Leksikon Kunci: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
           "reading": "al-qamaru · ash-shamsu",
           "meaning": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām",
-          "partOfSpeech": "phonetics",
-          "patternNote": "Rumus terkait: Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
+          "partOfSpeech": "PHONETICS · Pondasi · Rasm, Makhārij & Harakat",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية",
           "exampleSentence": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
           "exampleTranslation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Sistem Pengharakatan Lengkap, Tanwīn, Shaddah, Alif Lām Qamariyyah–Syamsiyyah",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Pondasi · Rasm, Makhārij & Harakat · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+          "reading": "al-qamaru · ash-shamsu",
+          "translation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām — (Penerapan langsung pola \"Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية\")",
+          "grammarHighlight": "Fatḥah/Kasrah/Ḍammah + Tanwīn + Sukūn + Shaddah + الـ الشمسية والقمرية"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "اَلْقَمَرُ (Al-Qamaru · Lām dibaca) vs اَلشَّمْسُ (Ash-Shamsu · Lām melebur)",
+          "reading": "al-qamaru · ash-shamsu",
+          "translation": "14 huruf Qamariyyah dan 14 huruf Syamsiyyah setelah Alif Lām — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Alur Aksara: Sejarah Khat → 28 Hijaiyah → Harakat & Tajwīd"
         }
       ]
     }

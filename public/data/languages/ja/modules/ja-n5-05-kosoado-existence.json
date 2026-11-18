@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap | Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "grammaticalTradition": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n5-05-kosoado-existence-row-1",
+          "id": "ja-n5-05-kosoado-existence-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)",
-              "gloss": "Sistem Ko-So-A-Do, perbandingan, serta kata kerja memberi-menerima"
+              "gloss": "Pilar SYNTAX · Demonstrativa Ko-So-A-Do, Keberadaan (Aru/Iru) & Memberi-Menerima"
             },
             "formula": {
               "script": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "机の上に猫がいます。(Di atas meja ada kucing)",
               "reading": "Tsukue no ue ni neko ga imasu.",
               "gloss": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
@@ -51,34 +51,236 @@
           "fullTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
         },
         {
-          "id": "ja-n5-05-kosoado-existence-row-2",
+          "id": "ja-n5-05-kosoado-existence-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Demonstrativa Ko-So-A-Do, Keberadaan (Aru/Iru) & Memberi-Menerima (JLPT N5–N4 · Tata Bahasa Dasar Lengkap)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "机の上に猫がいます。(Di atas meja ada kucing)",
               "reading": "Tsukue no ue ni neko ga imasu.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial — Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+          "fullTranslation": "Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk): Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)\"",
-        "psychologyExplanation": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial. Dalam kerangka Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4), penutur asli memetakan hubungan makna menggunakan rumus \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "eraOrDomain": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menunjuk objek berdasarkan jarak fisik/psikologis serta menyatakan posisi spasial. Dalam cabang \"Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)\", konstruksi \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"机の上に猫がいます。(Di atas meja ada kucing)\" (Tsukue no ue ni neko ga imasu.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "Tsukue no ue ni neko ga imasu.",
+          "explanation": "Sistem Ko-So-A-Do, perbandingan, serta kata kerja memberi-menerima Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "Tsukue no ue ni neko ga imasu.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+          "definition": "Pola \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "机の上に猫がいます。(Di atas meja ada kucing)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-05-kosoado-existence-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+            }
+          },
+          "fullTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        },
+        {
+          "id": "ja-n5-05-kosoado-existence-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)] → [Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Makna kontekstual: \"Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある\""
+            }
+          },
+          "fullTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        },
+        {
+          "id": "ja-n5-05-kosoado-existence-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Padanan alami: Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+            }
+          },
+          "fullTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n5-05-kosoado-existence-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "机の上に猫がいます。(Di atas meja ada kucing)",
+              "reading": "Tsukue no ue ni neko ga imasu.",
+              "gloss": "Pola acuan: [Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n5-05-kosoado-existence-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "机の上に猫がいます。(Di atas meja ada kucing)",
           "reading": "Tsukue no ue ni neko ga imasu.",
           "meaning": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: [Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
+          "partOfSpeech": "SYNTAX · JLPT N5–N4 · Tata Bahasa Dasar Lengkap",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: [Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります",
           "exampleSentence": "机の上に猫がいます。(Di atas meja ada kucing)",
           "exampleTranslation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Sistem Ko-So-A-Do (これ・それ・あれ・どれ) & Keberadaan ある (Benda) vs いる (Makhluk)",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N5–N4 · Tata Bahasa Dasar Lengkap · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "Tsukue no ue ni neko ga imasu.",
+          "translation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある — (Penerapan langsung pola \"[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります\")",
+          "grammarHighlight": "[Tempat] に [Makhluk] がいます | [Tempat] に [Benda] があります"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "机の上に猫がいます。(Di atas meja ada kucing)",
+          "reading": "Tsukue no ue ni neko ga imasu.",
+          "translation": "Makhluk hidup (manusia/hewan) wajib memakai いる; benda mati/tumbuhan memakai ある — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang C: Struktur Spasial, Keberadaan & Sudut Pandang (N5–N4)"
         }
       ]
     }

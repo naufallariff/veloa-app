@@ -23,6 +23,7 @@ interface RawPracticeCandidate {
     reading?: string;
     meaning: string;
     note?: string;
+    disableListening?: boolean;
 }
 
 function shuffleArray<T>(items: T[]): T[] {
@@ -36,22 +37,40 @@ function shuffleArray<T>(items: T[]): T[] {
     return copy;
 }
 
+function truncateText(text: string, maxLength = 140): string {
+    const clean = text.trim();
+    if (clean.length <= maxLength) return clean;
+    return `${clean.slice(0, maxLength - 1).trimEnd()}…`;
+}
+
 function extractCandidatesFromModule(moduleData: LessonModule): RawPracticeCandidate[] {
     const candidates: RawPracticeCandidate[] = [];
     const seenScripts = new Set<string>();
+    const isCjkCompact = moduleData.lang === 'zh' || moduleData.lang === 'ja';
+
+    const pushCandidate = (candidate: RawPracticeCandidate) => {
+        const normalizedScript = candidate.script.trim();
+        const normalizedMeaning = candidate.meaning.trim();
+        if (!normalizedScript || !normalizedMeaning || seenScripts.has(normalizedScript)) {
+            return;
+        }
+        seenScripts.add(normalizedScript);
+        candidates.push({
+            ...candidate,
+            script: normalizedScript,
+            meaning: truncateText(normalizedMeaning),
+        });
+    };
 
     for (const block of moduleData.blocks) {
         if (block.type === 'vocabulary-deck') {
-            // Ambil sampel acak maksimal 80 entri agar cepat untuk deck 15.000+ kata
             const pool =
                 block.entries.length > 80
                     ? shuffleArray(block.entries).slice(0, 80)
                     : block.entries;
 
             for (const entry of pool) {
-                if (!entry.term || !entry.meaning || seenScripts.has(entry.term)) continue;
-                seenScripts.add(entry.term);
-                candidates.push({
+                pushCandidate({
                     itemId: entry.id,
                     script: entry.term,
                     reading: entry.reading,
@@ -65,9 +84,8 @@ function extractCandidatesFromModule(moduleData: LessonModule): RawPracticeCandi
 
             for (let i = 0; i < pool.length; i++) {
                 const cell = pool[i];
-                if (!cell || !cell.glyph || !cell.transliteration || seenScripts.has(cell.glyph)) continue;
-                seenScripts.add(cell.glyph);
-                candidates.push({
+                if (!cell) continue;
+                pushCandidate({
                     itemId: `${moduleData.id}-cell-${cell.glyph}-${i}`,
                     script: cell.glyph,
                     reading: cell.reading,
@@ -76,29 +94,82 @@ function extractCandidatesFromModule(moduleData: LessonModule): RawPracticeCandi
                 });
             }
         } else if (block.type === 'cognitive-pattern-table') {
-            const lastColKey = block.columns[block.columns.length - 1]?.key;
             for (const row of block.rows) {
-                const targetCell = lastColKey ? row.cells[lastColKey] : Object.values(row.cells)[0];
-                if (!targetCell || !targetCell.script || seenScripts.has(targetCell.script)) continue;
-                seenScripts.add(targetCell.script);
-                candidates.push({
+                const orderedScripts = block.columns
+                    .map((col) => row.cells[col.key]?.script?.trim())
+                    .filter((val): val is string => Boolean(val));
+
+                const orderedReadings = block.columns
+                    .map((col) => row.cells[col.key]?.reading?.trim())
+                    .filter((val): val is string => Boolean(val));
+
+                const combinedScript =
+                    orderedScripts.length > 0
+                        ? orderedScripts.join(isCjkCompact ? '' : ' ')
+                        : Object.values(row.cells)[0]?.script ?? '';
+
+                const combinedReading =
+                    orderedReadings.length > 0 ? orderedReadings.join(' ') : undefined;
+
+                pushCandidate({
                     itemId: row.id,
-                    script: targetCell.script,
-                    reading: targetCell.reading,
+                    script: combinedScript,
+                    reading: combinedReading,
                     meaning: row.fullTranslation,
-                    note: targetCell.gloss,
+                    note: row.nuanceNote,
                 });
             }
         } else if (block.type === 'dialogue-theater') {
             block.turns.forEach((turn, idx) => {
-                if (!turn.line || !turn.translation || seenScripts.has(turn.line)) return;
-                seenScripts.add(turn.line);
-                candidates.push({
+                pushCandidate({
                     itemId: `${moduleData.id}-turn-${idx}`,
                     script: turn.line,
                     reading: turn.reading,
                     meaning: turn.translation,
                     note: turn.grammarHighlight,
+                });
+            });
+        } else if (block.type === 'linguistic-lore') {
+            block.milestones.forEach((m, idx) => {
+                pushCandidate({
+                    itemId: `${moduleData.id}-milestone-${idx}`,
+                    script: m.scriptSample || m.stage,
+                    reading: m.reading,
+                    meaning: `${m.stage}: ${m.explanation}`,
+                    note: block.eraOrDomain,
+                    disableListening: !m.scriptSample,
+                });
+            });
+
+            block.structuralRules.forEach((rule, idx) => {
+                const sample = rule.examples[0];
+                pushCandidate({
+                    itemId: `${moduleData.id}-rule-${idx}`,
+                    script: rule.conceptName,
+                    reading: sample,
+                    meaning: rule.definition,
+                    note: rule.whyItMatters,
+                    disableListening: true,
+                });
+            });
+        } else if (block.type === 'rhetoric-stylistics') {
+            block.devices.forEach((dev, idx) => {
+                pushCandidate({
+                    itemId: `${moduleData.id}-device-${idx}`,
+                    script: dev.literaryExample || dev.nativeTerm,
+                    reading: dev.reading ?? dev.nativeTerm,
+                    meaning: `${dev.deviceName} — ${dev.translation}`,
+                    note: dev.aestheticEffect,
+                });
+            });
+
+            block.dialectAndSlangNotes.forEach((noteItem, idx) => {
+                pushCandidate({
+                    itemId: `${moduleData.id}-dialect-${idx}`,
+                    script: noteItem.sampleExpression,
+                    reading: `Standar: ${noteItem.standardEquivalent}`,
+                    meaning: `${noteItem.meaning} (${noteItem.varietyName})`,
+                    note: noteItem.regionOrContext,
                 });
             });
         }
@@ -124,11 +195,12 @@ export function generatePracticeSession(
             Boolean(target.reading) &&
             target.reading!.trim().toLowerCase() !== target.script.trim().toLowerCase() &&
             !target.reading!.includes('TOPIK') &&
-            !target.reading!.includes('HSK');
+            !target.reading!.includes('HSK') &&
+            !target.reading!.startsWith('Standar:');
 
         // Rotasi jenis soal agar variatif (Recognition, Listening, Reading)
         let kind: PracticeQuestionKind = 'recognition';
-        if (idx % 3 === 1) {
+        if (idx % 3 === 1 && !target.disableListening) {
             kind = 'listening';
         } else if (idx % 3 === 2 && hasDistinctReading) {
             kind = 'reading';
@@ -141,7 +213,8 @@ export function generatePracticeSession(
                         c.itemId !== target.itemId &&
                         c.reading &&
                         c.reading !== target.reading &&
-                        !c.reading.includes('TOPIK'),
+                        !c.reading.includes('TOPIK') &&
+                        !c.reading.startsWith('Standar:'),
                 )
                 .map((c) => c.reading as string);
 
@@ -164,7 +237,7 @@ export function generatePracticeSession(
             }
         }
 
-        // Default untuk 'recognition' & 'listening': tebak arti yang tepat
+        // Default untuk 'recognition' & 'listening': tebak makna / konsep yang tepat
         const distractorMeanings = Array.from(
             new Set(
                 candidates
@@ -183,7 +256,7 @@ export function generatePracticeSession(
             kind: isListening ? 'listening' : 'recognition',
             promptLabel: isListening
                 ? 'Dengarkan pelafalan audio berikut, lalu pilih arti yang tepat:'
-                : 'Apa arti yang paling tepat untuk istilah / struktur berikut?',
+                : 'Apa arti atau konsep yang paling tepat untuk istilah / struktur berikut?',
             promptScript: target.script,
             promptReading: target.reading,
             audioText: target.script,

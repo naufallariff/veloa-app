@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 121,
+  "order": 127,
   "title": "Past Continuous Tense & Interupsi Kejadian (When vs While)",
   "subtitle": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A2 · Waystage | Past Continuous Tense & Interupsi Kejadian (When vs While)",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "grammaticalTradition": "CEFR A2 · Waystage · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-a2-past-continuous-row-1",
+          "id": "en-a2-past-continuous-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
-              "gloss": "Menguasai V2, was/were, going to, dan will"
+              "gloss": "Pilar SYNTAX · Dimensi Waktu Lampau, Masa Depan & Perbandingan"
             },
             "formula": {
               "script": "While + S + was/were + V-ing, S + V2",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "While I was reading the manuscript, the rain started.",
               "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
               "gloss": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
@@ -51,34 +51,236 @@
           "fullTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
         },
         {
-          "id": "en-a2-past-continuous-row-2",
+          "id": "en-a2-past-continuous-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 24 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 24 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "While I was reading the manuscript, the rain started.",
               "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela — Aksi durasi panjang disela oleh aksi titik waktu singkat"
+          "fullTranslation": "Past Continuous Tense & Interupsi Kejadian (When vs While): Aksi durasi panjang disela oleh aksi titik waktu singkat"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Past Continuous Tense & Interupsi Kejadian (When vs While)\"",
-        "psychologyExplanation": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"While + S + was/were + V-ing, S + V2\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"While + S + was/were + V-ing, S + V2\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "eraOrDomain": "CEFR A2 · Waystage · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menggabungkan latar adegan lampau dengan peristiwa yang menyela. Dalam cabang \"Cabang A: Sistem Waktu Lampau & Masa Depan\", konstruksi \"While + S + was/were + V-ing, S + V2\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "While I was reading the manuscript, the rain started.",
+          "reading": "While + S + was/were + V-ing, S + V2",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"While I was reading the manuscript, the rain started.\" (/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "While I was reading the manuscript, the rain started.",
+          "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+          "explanation": "Menguasai V2, was/were, going to, dan will Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"While + S + was/were + V-ing, S + V2\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "While I was reading the manuscript, the rain started.",
+          "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"While + S + was/were + V-ing, S + V2\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+          "definition": "Pola \"While + S + was/were + V-ing, S + V2\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Aksi durasi panjang disela oleh aksi titik waktu singkat\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "While I was reading the manuscript, the rain started."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "While + S + was/were + V-ing, S + V2"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-past-continuous-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "While + S + was/were + V-ing, S + V2",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+            }
+          },
+          "fullTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        },
+        {
+          "id": "en-a2-past-continuous-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Sistem Waktu Lampau & Masa Depan] → While + S + was/were + V-ing, S + V2",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Makna kontekstual: \"Aksi durasi panjang disela oleh aksi titik waktu singkat\""
+            }
+          },
+          "fullTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        },
+        {
+          "id": "en-a2-past-continuous-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Padanan alami: Aksi durasi panjang disela oleh aksi titik waktu singkat"
+            }
+          },
+          "fullTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"While + S + was/were + V-ing, S + V2\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-past-continuous-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "While I was reading the manuscript, the rain started.",
+              "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+              "gloss": "Pola acuan: While + S + was/were + V-ing, S + V2"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-a2-past-continuous-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "While + S + was/were + V-ing, S + V2",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Past Continuous Tense & Interupsi Kejadian (When vs While)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "While I was reading the manuscript, the rain started.",
           "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
           "meaning": "Aksi durasi panjang disela oleh aksi titik waktu singkat",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: While + S + was/were + V-ing, S + V2",
+          "partOfSpeech": "SYNTAX · CEFR A2 · Waystage",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: While + S + was/were + V-ing, S + V2",
           "exampleSentence": "While I was reading the manuscript, the rain started.",
           "exampleTranslation": "Aksi durasi panjang disela oleh aksi titik waktu singkat"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Past Continuous Tense & Interupsi Kejadian (When vs While)",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A2 · Waystage · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "While I was reading the manuscript, the rain started.",
+          "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+          "translation": "Aksi durasi panjang disela oleh aksi titik waktu singkat — (Penerapan langsung pola \"While + S + was/were + V-ing, S + V2\")",
+          "grammarHighlight": "While + S + was/were + V-ing, S + V2"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "While I was reading the manuscript, the rain started.",
+          "reading": "/waɪl aɪ wəz ˈriː.dɪŋ ðə ˈmæn.jə.skrɪpt/",
+          "translation": "Aksi durasi panjang disela oleh aksi titik waktu singkat — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Sistem Waktu Lampau & Masa Depan"
         }
       ]
     }

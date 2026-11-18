@@ -3,46 +3,46 @@
   "lang": "zh",
   "pillar": "lexicon-dialogue",
   "tier": "beginner",
-  "order": 108,
+  "order": 111,
   "title": "Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
   "subtitle": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural",
   "estimatedMinutes": 35,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Mandarin | Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "grammaticalTradition": "Kamus & Korpus Mandarin · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-dict-conv-daily-row-1",
+          "id": "zh-dict-conv-daily-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "3. Contoh Percakapan Harian (Duìhuà)",
-              "gloss": "Dialog alami lengkap dengan partikel modal akhir kalimat"
+              "gloss": "Pilar LEXICON-DIALOGUE · Daftar Kosakata Hanzi, Kalimat Harian & Percakapan"
             },
             "formula": {
               "script": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
               "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
               "gloss": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
@@ -51,34 +51,236 @@
           "fullTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
         },
         {
-          "id": "zh-dict-conv-daily-row-2",
+          "id": "zh-dict-conv-daily-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Daftar Kosakata Hanzi, Kalimat Harian & Percakapan (Kamus & Korpus Mandarin)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
               "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural — Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+          "fullTranslation": "Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus: Akhir pekan kita ke perpustakaan belajar bersama yuk!"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus\"",
-        "psychologyExplanation": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural. Dalam kerangka 3. Contoh Percakapan Harian (Duìhuà), penutur asli memetakan hubungan makna menggunakan rumus \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "eraOrDomain": "Kamus & Korpus Mandarin · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Penggunaan partikel 啊 (a), 呢 (ne), 吧 (ba), dan 嘛 (ma) agar terdengar natural. Dalam cabang \"3. Contoh Percakapan Harian (Duìhuà)\", konstruksi \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"周末我们一起去图书馆复习吧！— 好啊，几点见面呢？\" (Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+          "explanation": "Dialog alami lengkap dengan partikel modal akhir kalimat Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+          "definition": "Pola \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Akhir pekan kita ke perpustakaan belajar bersama yuk!\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-conv-daily-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+            }
+          },
+          "fullTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        },
+        {
+          "id": "zh-dict-conv-daily-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [3. Contoh Percakapan Harian (Duìhuà)] → Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Makna kontekstual: \"Akhir pekan kita ke perpustakaan belajar bersama yuk!\""
+            }
+          },
+          "fullTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        },
+        {
+          "id": "zh-dict-conv-daily-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Padanan alami: Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+            }
+          },
+          "fullTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-dict-conv-daily-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+              "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+              "gloss": "Pola acuan: Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-dict-conv-daily-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "title": "5. Tips, Trik & Leksikon Kunci: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
           "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
           "meaning": "Akhir pekan kita ke perpustakaan belajar bersama yuk!",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Mandarin",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)",
           "exampleSentence": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
           "exampleTranslation": "Akhir pekan kita ke perpustakaan belajar bersama yuk!"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Percakapan Pertemanan, Rencana Akhir Pekan & Diskusi Kampus",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Kamus & Korpus Mandarin · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+          "translation": "Akhir pekan kita ke perpustakaan belajar bersama yuk! — (Penerapan langsung pola \"Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)\")",
+          "grammarHighlight": "Dialogue Turn + Modal Particle (吧 usulan · 呢 pertanyaan balik)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "周末我们一起去图书馆复习吧！— 好啊，几点见面呢？",
+          "reading": "Zhōumò wǒmen yìqǐ qù túshūguǎn fùxí ba!",
+          "translation": "Akhir pekan kita ke perpustakaan belajar bersama yuk! — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "3. Contoh Percakapan Harian (Duìhuà)"
         }
       ]
     }

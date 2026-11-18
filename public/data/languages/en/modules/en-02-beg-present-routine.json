@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 117,
+  "order": 123,
   "title": "Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
   "subtitle": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A1 · Breakthrough | Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "grammaticalTradition": "CEFR A1 · Breakthrough · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-02-beg-present-routine-row-1",
+          "id": "en-02-beg-present-routine-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)",
-              "gloss": "Merangkai kata menjadi kalimat nominal dan verbal sederhana"
+              "gloss": "Pilar SYNTAX · Fondasi Kelas Kata & Struktur Kalimat Dasar"
             },
             "formula": {
               "script": "I/You/We/They + V1 | He/She/It + V1(-s/-es)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "Water boils at 100°C. Does she speak Japanese?",
               "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
               "gloss": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
@@ -51,34 +51,236 @@
           "fullTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
         },
         {
-          "id": "en-02-beg-present-routine-row-2",
+          "id": "en-02-beg-present-routine-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Fondasi Kelas Kata & Struktur Kalimat Dasar (CEFR A1 · Breakthrough)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "Water boils at 100°C. Does she speak Japanese?",
               "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does — Kata kerja utama kembali ke bentuk dasar saat memakai does"
+          "fullTranslation": "Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es: Kata kerja utama kembali ke bentuk dasar saat memakai does"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es\"",
-        "psychologyExplanation": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does. Dalam kerangka Cabang B: Grammar & Sentence Building (Tata Bahasa A1), penutur asli memetakan hubungan makna menggunakan rumus \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "eraOrDomain": "CEFR A1 · Breakthrough · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Hukum kesesuaian subjek-predikat (Subject-Verb Agreement) dan do/does. Dalam cabang \"Cabang B: Grammar & Sentence Building (Tata Bahasa A1)\", konstruksi \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"Water boils at 100°C. Does she speak Japanese?\" (/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+          "explanation": "Merangkai kata menjadi kalimat nominal dan verbal sederhana Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+          "definition": "Pola \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Kata kerja utama kembali ke bentuk dasar saat memakai does\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "Water boils at 100°C. Does she speak Japanese?"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "I/You/We/They + V1 | He/She/It + V1(-s/-es)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-02-beg-present-routine-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+            }
+          },
+          "fullTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        },
+        {
+          "id": "en-02-beg-present-routine-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Grammar & Sentence Building (Tata Bahasa A1)] → I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Makna kontekstual: \"Kata kerja utama kembali ke bentuk dasar saat memakai does\""
+            }
+          },
+          "fullTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        },
+        {
+          "id": "en-02-beg-present-routine-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Padanan alami: Kata kerja utama kembali ke bentuk dasar saat memakai does"
+            }
+          },
+          "fullTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-02-beg-present-routine-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "Water boils at 100°C. Does she speak Japanese?",
+              "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+              "gloss": "Pola acuan: I/You/We/They + V1 | He/She/It + V1(-s/-es)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-02-beg-present-routine-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "title": "5. Tips, Trik & Leksikon Kunci: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "Water boils at 100°C. Does she speak Japanese?",
           "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
           "meaning": "Kata kerja utama kembali ke bentuk dasar saat memakai does",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: I/You/We/They + V1 | He/She/It + V1(-s/-es)",
+          "partOfSpeech": "SYNTAX · CEFR A1 · Breakthrough",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: I/You/We/They + V1 | He/She/It + V1(-s/-es)",
           "exampleSentence": "Water boils at 100°C. Does she speak Japanese?",
           "exampleTranslation": "Kata kerja utama kembali ke bentuk dasar saat memakai does"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Simple Present Tense: Fakta Umum, Kebiasaan & Akhiran -s/-es",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A1 · Breakthrough · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+          "translation": "Kata kerja utama kembali ke bentuk dasar saat memakai does — (Penerapan langsung pola \"I/You/We/They + V1 | He/She/It + V1(-s/-es)\")",
+          "grammarHighlight": "I/You/We/They + V1 | He/She/It + V1(-s/-es)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "Water boils at 100°C. Does she speak Japanese?",
+          "reading": "/ˈwɔː.tər bɔɪlz æt wʌn ˈhʌn.drəd dɪˈɡriːz/",
+          "translation": "Kata kerja utama kembali ke bentuk dasar saat memakai does — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Grammar & Sentence Building (Tata Bahasa A1)"
         }
       ]
     }

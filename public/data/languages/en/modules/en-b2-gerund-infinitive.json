@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "morphology",
   "tier": "intermediate",
-  "order": 131,
+  "order": 137,
   "title": "Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
   "subtitle": "Perbedaan stop doing vs stop to do, remember doing vs remember to do",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR B2 · Vantage | Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+      "grammaticalTradition": "CEFR B2 · Vantage · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-b2-gerund-infinitive-row-1",
+          "id": "en-b2-gerund-infinitive-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau",
-              "gloss": "Sintaksis tingkat lanjut untuk diskusi analitis"
+              "gloss": "Pilar MORPHOLOGY · Klausa Kompleks, Reported Speech & Past Perfect"
             },
             "formula": {
               "script": "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "I remember locking the door, so I didn’t forget to lock it.",
               "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
               "gloss": "Perbedaan fokus waktu antara gerund dan infinitive"
@@ -51,34 +51,236 @@
           "fullTranslation": "Perbedaan fokus waktu antara gerund dan infinitive"
         },
         {
-          "id": "en-b2-gerund-infinitive-row-2",
+          "id": "en-b2-gerund-infinitive-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Klausa Kompleks, Reported Speech & Past Perfect (CEFR B2 · Vantage)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Perbedaan stop doing vs stop to do, remember doing vs remember to do"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "I remember locking the door, so I didn’t forget to lock it.",
               "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Perbedaan stop doing vs stop to do, remember doing vs remember to do — Perbedaan fokus waktu antara gerund dan infinitive"
+          "fullTranslation": "Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna: Perbedaan fokus waktu antara gerund dan infinitive"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna\"",
-        "psychologyExplanation": "Perbedaan stop doing vs stop to do, remember doing vs remember to do. Dalam kerangka Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau, penutur asli memetakan hubungan makna menggunakan rumus \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+      "eraOrDomain": "CEFR B2 · Vantage · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Perbedaan stop doing vs stop to do, remember doing vs remember to do. Dalam cabang \"Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau\", konstruksi \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "I remember locking the door, so I didn’t forget to lock it.",
+          "reading": "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"I remember locking the door, so I didn’t forget to lock it.\" (/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "I remember locking the door, so I didn’t forget to lock it.",
+          "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+          "explanation": "Sintaksis tingkat lanjut untuk diskusi analitis Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "I remember locking the door, so I didn’t forget to lock it.",
+          "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+          "definition": "Pola \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Perbedaan fokus waktu antara gerund dan infinitive\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "I remember locking the door, so I didn’t forget to lock it."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-gerund-infinitive-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "I remember locking the door, so I didn’t forget to lock it.",
+              "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+              "gloss": "Perbedaan fokus waktu antara gerund dan infinitive"
+            }
+          },
+          "fullTranslation": "Perbedaan fokus waktu antara gerund dan infinitive"
+        },
+        {
+          "id": "en-b2-gerund-infinitive-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau] → Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "I remember locking the door, so I didn’t forget to lock it.",
+              "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+              "gloss": "Makna kontekstual: \"Perbedaan fokus waktu antara gerund dan infinitive\""
+            }
+          },
+          "fullTranslation": "Perbedaan fokus waktu antara gerund dan infinitive"
+        },
+        {
+          "id": "en-b2-gerund-infinitive-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "I remember locking the door, so I didn’t forget to lock it.",
+              "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+              "gloss": "Padanan alami: Perbedaan fokus waktu antara gerund dan infinitive"
+            }
+          },
+          "fullTranslation": "Perbedaan fokus waktu antara gerund dan infinitive"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-gerund-infinitive-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "I remember locking the door, so I didn’t forget to lock it.",
+              "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+              "gloss": "Pola acuan: Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-b2-gerund-infinitive-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+      "title": "5. Tips, Trik & Leksikon Kunci: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "I remember locking the door, so I didn’t forget to lock it.",
           "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
           "meaning": "Perbedaan fokus waktu antara gerund dan infinitive",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
+          "partOfSpeech": "MORPHOLOGY · CEFR B2 · Vantage",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)",
           "exampleSentence": "I remember locking the door, so I didn’t forget to lock it.",
           "exampleTranslation": "Perbedaan fokus waktu antara gerund dan infinitive"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Gerunds (-ing) vs To-Infinitives: Kata Kerja yang Berubah Makna",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR B2 · Vantage · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "I remember locking the door, so I didn’t forget to lock it.",
+          "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+          "translation": "Perbedaan fokus waktu antara gerund dan infinitive — (Penerapan langsung pola \"Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)\")",
+          "grammarHighlight": "Verb + V-ing (Aktivitas/Memori) vs Verb + to V1 (Tujuan/Kewajiban)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "I remember locking the door, so I didn’t forget to lock it.",
+          "reading": "/aɪ rɪˈmem.bər ˈlɒk.ɪŋ ðə dɔːr/",
+          "translation": "Perbedaan fokus waktu antara gerund dan infinitive — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau"
         }
       ]
     }

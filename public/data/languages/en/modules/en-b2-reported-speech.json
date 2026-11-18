@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "intermediate",
-  "order": 129,
+  "order": 135,
   "title": "Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
   "subtitle": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat",
   "estimatedMinutes": 35,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR B2 · Vantage | Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "grammaticalTradition": "CEFR B2 · Vantage · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-b2-reported-speech-row-1",
+          "id": "en-b2-reported-speech-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau",
-              "gloss": "Sintaksis tingkat lanjut untuk diskusi analitis"
+              "gloss": "Pilar SYNTAX · Klausa Kompleks, Reported Speech & Past Perfect"
             },
             "formula": {
               "script": "Reporting Verb (claimed/stated/inquired) + Tense Backshift",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "She explained that she had completed the translation the previous day.",
               "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
               "gloss": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
@@ -51,34 +51,236 @@
           "fullTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
         },
         {
-          "id": "en-b2-reported-speech-row-2",
+          "id": "en-b2-reported-speech-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Klausa Kompleks, Reported Speech & Past Perfect (CEFR B2 · Vantage)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "She explained that she had completed the translation the previous day.",
               "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat — Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+          "fullTranslation": "Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs: Pergeseran Simple Past menjadi Past Perfect dalam laporan"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs\"",
-        "psychologyExplanation": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat. Dalam kerangka Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau, penutur asli memetakan hubungan makna menggunakan rumus \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "eraOrDomain": "CEFR B2 · Vantage · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Melaporkan ucapan, pertanyaan, dan perintah orang lain secara akurat. Dalam cabang \"Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau\", konstruksi \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "She explained that she had completed the translation the previous day.",
+          "reading": "Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"She explained that she had completed the translation the previous day.\" (/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "She explained that she had completed the translation the previous day.",
+          "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+          "explanation": "Sintaksis tingkat lanjut untuk diskusi analitis Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "She explained that she had completed the translation the previous day.",
+          "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+          "definition": "Pola \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Pergeseran Simple Past menjadi Past Perfect dalam laporan\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "She explained that she had completed the translation the previous day."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Reporting Verb (claimed/stated/inquired) + Tense Backshift"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-reported-speech-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+            }
+          },
+          "fullTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        },
+        {
+          "id": "en-b2-reported-speech-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau] → Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Makna kontekstual: \"Pergeseran Simple Past menjadi Past Perfect dalam laporan\""
+            }
+          },
+          "fullTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        },
+        {
+          "id": "en-b2-reported-speech-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Padanan alami: Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+            }
+          },
+          "fullTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b2-reported-speech-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "She explained that she had completed the translation the previous day.",
+              "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+              "gloss": "Pola acuan: Reporting Verb (claimed/stated/inquired) + Tense Backshift"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-b2-reported-speech-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "title": "5. Tips, Trik & Leksikon Kunci: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "She explained that she had completed the translation the previous day.",
           "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
           "meaning": "Pergeseran Simple Past menjadi Past Perfect dalam laporan",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Reporting Verb (claimed/stated/inquired) + Tense Backshift",
+          "partOfSpeech": "SYNTAX · CEFR B2 · Vantage",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Reporting Verb (claimed/stated/inquired) + Tense Backshift",
           "exampleSentence": "She explained that she had completed the translation the previous day.",
           "exampleTranslation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Reported Speech (Kalimat Tak Langsung): Backshift Tenses & Reporting Verbs",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR B2 · Vantage · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "She explained that she had completed the translation the previous day.",
+          "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+          "translation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan — (Penerapan langsung pola \"Reporting Verb (claimed/stated/inquired) + Tense Backshift\")",
+          "grammarHighlight": "Reporting Verb (claimed/stated/inquired) + Tense Backshift"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "She explained that she had completed the translation the previous day.",
+          "reading": "/ʃiː ɪkˈspleɪnd ðæt ʃiː hæd kəmˈpliː.tɪd/",
+          "translation": "Pergeseran Simple Past menjadi Past Perfect dalam laporan — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Klausa Relatif, Kalimat Tak Langsung & Pengandaian Lampau"
         }
       ]
     }

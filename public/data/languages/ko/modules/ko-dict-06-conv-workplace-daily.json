@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Lanjutan Korea | Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+      "grammaticalTradition": "Kamus & Korpus Lanjutan Korea · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-dict-06-conv-workplace-daily-row-1",
+          "id": "ko-dict-06-conv-workplace-daily-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan",
-              "gloss": "Keluarga kosakata berbasis suku kata Hanja serta etiket dialog profesional Korea"
+              "gloss": "Pilar LEXICON-DIALOGUE · Leksikon Hanja (한자어), Sajaseongeo (사자성어) & Dialog Bisnis/Kehidupan"
             },
             "formula": {
               "script": "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
               "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
               "gloss": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
@@ -51,34 +51,236 @@
           "fullTranslation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
         },
         {
-          "id": "ko-dict-06-conv-workplace-daily-row-2",
+          "id": "ko-dict-06-conv-workplace-daily-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Leksikon Hanja (한자어), Sajaseongeo (사자성어) & Dialog Bisnis/Kehidupan (Kamus & Korpus Lanjutan Korea)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 34 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Ungkapan sopan meminta bantuan rekan kerja, membuat janji, dan menangani kendala"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 34 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
               "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Ungkapan sopan meminta bantuan rekan kerja, membuat janji, dan menangani kendala — Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+          "fullTranslation": "Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik: Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik\"",
-        "psychologyExplanation": "Ungkapan sopan meminta bantuan rekan kerja, membuat janji, dan menangani kendala. Dalam kerangka 4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan, penutur asli memetakan hubungan makna menggunakan rumus \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+      "eraOrDomain": "Kamus & Korpus Lanjutan Korea · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Ungkapan sopan meminta bantuan rekan kerja, membuat janji, dan menangani kendala. Dalam cabang \"4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan\", konstruksi \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+          "reading": "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.\" (Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+          "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+          "explanation": "Keluarga kosakata berbasis suku kata Hanja serta etiket dialog profesional Korea Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+          "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+          "definition": "Pola \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti.\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-06-conv-workplace-daily-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+              "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+              "gloss": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+            }
+          },
+          "fullTranslation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+        },
+        {
+          "id": "ko-dict-06-conv-workplace-daily-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan] → Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+              "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+              "gloss": "Makna kontekstual: \"Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti.\""
+            }
+          },
+          "fullTranslation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+        },
+        {
+          "id": "ko-dict-06-conv-workplace-daily-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+              "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+              "gloss": "Padanan alami: Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+            }
+          },
+          "fullTranslation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-dict-06-conv-workplace-daily-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+              "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+              "gloss": "Pola acuan: Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-dict-06-conv-workplace-daily-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+      "title": "5. Tips, Trik & Leksikon Kunci: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
           "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
           "meaning": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti.",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Lanjutan Korea",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)",
           "exampleSentence": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
           "exampleTranslation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti."
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Percakapan Tempat Kerja Korea (직장 생활), Telepon Bisnis & Layanan Publik",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "Kamus & Korpus Lanjutan Korea · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+          "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+          "translation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti. — (Penerapan langsung pola \"Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)\")",
+          "grammarHighlight": "Pembuka Sopan (실례지만 / 바쁘시겠지만) + Permintaan (-아/어 주시겠어요?)"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "바쁘시겠지만 이 서류 좀 확인해 주시겠어요? — 네, 알겠습니다.",
+          "reading": "Bappeusigetjiman i seoryu jom hwaginhae jusigesseoyo? — Ne, algesseumnida.",
+          "translation": "Maaf mengganggu kesibukan Anda, bisakah membantu memeriksa dokumen ini? — Baik, dimengerti. — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "4. Korpus Akar Hanja, Idiom 4 Karakter & Simulasi Percakapan"
         }
       ]
     }

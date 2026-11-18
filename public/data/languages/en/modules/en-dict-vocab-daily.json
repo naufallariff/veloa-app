@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "lexicon-dialogue",
   "tier": "beginner",
-  "order": 105,
+  "order": 108,
   "title": "1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
   "subtitle": "Kata benda, kata kerja tindakan, dan deskripsi dasar",
   "estimatedMinutes": 40,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Praktis | 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "grammaticalTradition": "Kamus & Korpus Praktis · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-dict-vocab-daily-row-1",
+          "id": "en-dict-vocab-daily-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Kamus Kosakata Tematik (Core Lexicon)",
-              "gloss": "Kata kerja frekuensi tinggi, kata sifat nuansa, dan kolokasi"
+              "gloss": "Pilar LEXICON-DIALOGUE · Leksikon, Kalimat Harian & Percakapan"
             },
             "formula": {
               "script": "High-Frequency Lemma + Collocation Pair",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "make a decision · take a break · run errands",
               "reading": "/meɪk ə dɪˈsɪʒ.ən/",
               "gloss": "Membuat keputusan · Beristirahat · Mengurus keperluan"
@@ -51,34 +51,236 @@
           "fullTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
         },
         {
-          "id": "en-dict-vocab-daily-row-2",
+          "id": "en-dict-vocab-daily-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Leksikon, Kalimat Harian & Percakapan (Kamus & Korpus Praktis)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 60 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Kata benda, kata kerja tindakan, dan deskripsi dasar"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 60 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "make a decision · take a break · run errands",
               "reading": "/meɪk ə dɪˈsɪʒ.ən/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Kata benda, kata kerja tindakan, dan deskripsi dasar — Membuat keputusan · Beristirahat · Mengurus keperluan"
+          "fullTranslation": "1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga: Membuat keputusan · Beristirahat · Mengurus keperluan"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga\"",
-        "psychologyExplanation": "Kata benda, kata kerja tindakan, dan deskripsi dasar. Dalam kerangka 1. Kamus Kosakata Tematik (Core Lexicon), penutur asli memetakan hubungan makna menggunakan rumus \"High-Frequency Lemma + Collocation Pair\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"High-Frequency Lemma + Collocation Pair\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "eraOrDomain": "Kamus & Korpus Praktis · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Kata benda, kata kerja tindakan, dan deskripsi dasar. Dalam cabang \"1. Kamus Kosakata Tematik (Core Lexicon)\", konstruksi \"High-Frequency Lemma + Collocation Pair\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "make a decision · take a break · run errands",
+          "reading": "High-Frequency Lemma + Collocation Pair",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"make a decision · take a break · run errands\" (/meɪk ə dɪˈsɪʒ.ən/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "make a decision · take a break · run errands",
+          "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+          "explanation": "Kata kerja frekuensi tinggi, kata sifat nuansa, dan kolokasi Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"High-Frequency Lemma + Collocation Pair\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "make a decision · take a break · run errands",
+          "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"High-Frequency Lemma + Collocation Pair\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+          "definition": "Pola \"High-Frequency Lemma + Collocation Pair\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Membuat keputusan · Beristirahat · Mengurus keperluan\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "make a decision · take a break · run errands"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "High-Frequency Lemma + Collocation Pair"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-vocab-daily-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "High-Frequency Lemma + Collocation Pair",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+            }
+          },
+          "fullTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        },
+        {
+          "id": "en-dict-vocab-daily-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Kamus Kosakata Tematik (Core Lexicon)] → High-Frequency Lemma + Collocation Pair",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Makna kontekstual: \"Membuat keputusan · Beristirahat · Mengurus keperluan\""
+            }
+          },
+          "fullTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        },
+        {
+          "id": "en-dict-vocab-daily-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Padanan alami: Membuat keputusan · Beristirahat · Mengurus keperluan"
+            }
+          },
+          "fullTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"High-Frequency Lemma + Collocation Pair\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-dict-vocab-daily-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "make a decision · take a break · run errands",
+              "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+              "gloss": "Pola acuan: High-Frequency Lemma + Collocation Pair"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-dict-vocab-daily-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "High-Frequency Lemma + Collocation Pair",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "title": "5. Tips, Trik & Leksikon Kunci: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "make a decision · take a break · run errands",
           "reading": "/meɪk ə dɪˈsɪʒ.ən/",
           "meaning": "Membuat keputusan · Beristirahat · Mengurus keperluan",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: High-Frequency Lemma + Collocation Pair",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Praktis",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: High-Frequency Lemma + Collocation Pair",
           "exampleSentence": "make a decision · take a break · run errands",
           "exampleTranslation": "Membuat keputusan · Beristirahat · Mengurus keperluan"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: 1.000 Kosakata Inti Kehidupan Sehari-hari & Rumah Tangga",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "Kamus & Korpus Praktis · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "make a decision · take a break · run errands",
+          "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+          "translation": "Membuat keputusan · Beristirahat · Mengurus keperluan — (Penerapan langsung pola \"High-Frequency Lemma + Collocation Pair\")",
+          "grammarHighlight": "High-Frequency Lemma + Collocation Pair"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "make a decision · take a break · run errands",
+          "reading": "/meɪk ə dɪˈsɪʒ.ən/",
+          "translation": "Membuat keputusan · Beristirahat · Mengurus keperluan — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Kamus Kosakata Tematik (Core Lexicon)"
         }
       ]
     }

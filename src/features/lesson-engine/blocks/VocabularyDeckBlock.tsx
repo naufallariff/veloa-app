@@ -1,5 +1,5 @@
 // src/features/lesson-engine/blocks/VocabularyDeckBlock.tsx
-import React, { useDeferredValue, useMemo, useState } from 'react';
+import React, { useDeferredValue, useEffect, useMemo, useState } from 'react';
 import {
     Bookmark,
     BookMarked,
@@ -41,6 +41,7 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
     const [flashcardHideMeaning, setFlashcardHideMeaning] = useState(false);
     const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
     const [currentPage, setCurrentPage] = useState(1);
+    const [jumpInput, setJumpInput] = useState('1');
 
     const deferredQuery = useDeferredValue(searchInput);
     const isRtl = block.direction === 'rtl' || lang === 'ar';
@@ -65,6 +66,10 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
     const totalPages = Math.max(1, Math.ceil(filteredEntries.length / DECK_PAGE_SIZE));
     const safePage = Math.min(currentPage, totalPages);
 
+    useEffect(() => {
+        setJumpInput(String(safePage));
+    }, [safePage]);
+
     const paginatedEntries = useMemo(() => {
         const start = (safePage - 1) * DECK_PAGE_SIZE;
         return filteredEntries.slice(start, start + DECK_PAGE_SIZE);
@@ -72,6 +77,16 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
 
     const toggleRevealCard = (entryId: string) => {
         setRevealedIds((prev) => ({ ...prev, [entryId]: !prev[entryId] }));
+    };
+
+    const handleJumpSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        const parsed = Number.parseInt(jumpInput, 10);
+        if (!Number.isNaN(parsed)) {
+            const clamped = Math.min(Math.max(1, parsed), totalPages);
+            setCurrentPage(clamped);
+            setJumpInput(String(clamped));
+        }
     };
 
     return (
@@ -165,6 +180,7 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                         const bookmarked = isEntryBookmarked(entry.id);
                         const normalAudioKey = `vocab-${entry.id}-normal`;
                         const slowAudioKey = `vocab-${entry.id}-slow`;
+                        const exAudioKey = `vocab-${entry.id}-ex`;
                         const isMeaningVisible = !flashcardHideMeaning || Boolean(revealedIds[entry.id]);
 
                         return (
@@ -173,7 +189,6 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                                 className="flex flex-col justify-between rounded-2xl border border-(--border-subtle) bg-(--surface-elevated)/40 p-4 transition-colors hover:border-(--border-strong) hover:bg-(--surface-card)"
                             >
                                 <div>
-                                    {/* Baris Atas: Kelas Kata & Tombol Bookmark */}
                                     <div className="mb-2 flex items-center justify-between gap-2">
                                         <span className="rounded-md bg-(--surface-card) px-2 py-0.5 text-[11px] font-semibold text-(--text-muted)">
                                             {entry.partOfSpeech}
@@ -215,10 +230,10 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                                         </p>
                                     )}
 
-                                    {/* Arti (Dapat disembunyikan pada Mode Uji Hafalan) */}
+                                    {/* Arti & Contoh Kalimat */}
                                     <div className="mt-3 border-t border-(--border-subtle) pt-2.5">
                                         {isMeaningVisible ? (
-                                            <div className="space-y-1">
+                                            <div className="space-y-1.5">
                                                 <p className="text-sm leading-relaxed text-(--text-secondary)">
                                                     {entry.meaning}
                                                 </p>
@@ -226,6 +241,39 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                                                     <p className="font-mono text-[11px] text-(--text-muted)">
                                                         {entry.patternNote}
                                                     </p>
+                                                )}
+                                                {entry.exampleSentence && (
+                                                    <div
+                                                        dir={isRtl ? 'rtl' : 'ltr'}
+                                                        className="mt-2 rounded-xl border border-(--border-subtle) bg-(--surface-card) p-2.5"
+                                                    >
+                                                        <div className="flex items-start justify-between gap-2">
+                                                            <p className={`${scriptClass} text-xs font-semibold text-(--text-primary)`}>
+                                                                {entry.exampleSentence}
+                                                            </p>
+                                                            {isSupported && (
+                                                                <button
+                                                                    type="button"
+                                                                    dir="ltr"
+                                                                    onClick={() =>
+                                                                        speak(entry.exampleSentence!, lang, exAudioKey, false)
+                                                                    }
+                                                                    aria-label="Dengarkan contoh kalimat"
+                                                                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border ${speakingKey === exAudioKey
+                                                                            ? 'border-(--accent-primary) bg-(--accent-primary) text-white'
+                                                                            : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary)'
+                                                                        }`}
+                                                                >
+                                                                    <Volume2 className="h-3.5 w-3.5" />
+                                                                </button>
+                                                            )}
+                                                        </div>
+                                                        {entry.exampleTranslation && (
+                                                            <p dir="ltr" className="mt-1 text-[11px] text-(--text-muted)">
+                                                                {entry.exampleTranslation}
+                                                            </p>
+                                                        )}
+                                                    </div>
                                                 )}
                                             </div>
                                         ) : (
@@ -276,7 +324,7 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                 </div>
             )}
 
-            {/* Navigasi Paginasi Bawah */}
+            {/* Navigasi Paginasi + Jump Input */}
             {totalPages > 1 && (
                 <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-(--border-subtle) pt-5">
                     <p className="text-xs text-(--text-muted)">
@@ -287,15 +335,27 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                         ({filteredEntries.length.toLocaleString('id-ID')} entri)
                     </p>
 
-                    <div className="flex items-center gap-2">
-                        <button
-                            type="button"
-                            disabled={safePage <= 1}
-                            onClick={() => setCurrentPage(1)}
-                            className="veloa-tactile-btn rounded-xl border border-(--border-subtle) bg-(--surface-elevated) px-3 text-xs font-semibold text-(--text-secondary) disabled:cursor-not-allowed disabled:opacity-40"
-                        >
-                            Awal
-                        </button>
+                    <div className="flex flex-wrap items-center gap-2">
+                        <form onSubmit={handleJumpSubmit} className="flex items-center gap-1.5">
+                            <label htmlFor={`jump-deck-${block.title}`} className="text-xs text-(--text-muted)">
+                                Ke hal:
+                            </label>
+                            <input
+                                id={`jump-deck-${block.title}`}
+                                type="number"
+                                min={1}
+                                max={totalPages}
+                                value={jumpInput}
+                                onChange={(e) => setJumpInput(e.target.value)}
+                                className="h-10 w-16 rounded-xl border border-(--border-subtle) bg-(--surface-elevated) px-2 text-center font-mono text-xs font-bold text-(--text-primary)"
+                            />
+                            <button
+                                type="submit"
+                                className="veloa-tactile-btn rounded-xl border border-(--border-subtle) bg-(--surface-card) px-3 text-xs font-bold text-(--accent-primary) hover:border-(--accent-primary)"
+                            >
+                                Lompat
+                            </button>
+                        </form>
 
                         <button
                             type="button"
@@ -315,15 +375,6 @@ export const VocabularyDeckBlock: React.FC<VocabularyDeckBlockProps> = ({ block,
                             className="veloa-tactile-btn inline-flex h-11 w-11 items-center justify-center rounded-xl border border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) disabled:cursor-not-allowed disabled:opacity-40"
                         >
                             <ChevronRight className="h-4 w-4" />
-                        </button>
-
-                        <button
-                            type="button"
-                            disabled={safePage >= totalPages}
-                            onClick={() => setCurrentPage(totalPages)}
-                            className="veloa-tactile-btn rounded-xl border border-(--border-subtle) bg-(--surface-elevated) px-3 text-xs font-semibold text-(--text-secondary) disabled:cursor-not-allowed disabled:opacity-40"
-                        >
-                            Akhir
                         </button>
                     </div>
                 </div>

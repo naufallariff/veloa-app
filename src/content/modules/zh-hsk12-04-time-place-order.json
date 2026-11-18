@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu | Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+      "grammaticalTradition": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk12-04-time-place-order-row-1",
+          "id": "zh-hsk12-04-time-place-order-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)",
-              "gloss": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin"
+              "gloss": "Pilar SYNTAX · Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi"
             },
             "formula": {
               "script": "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
               "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
               "gloss": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
@@ -51,34 +51,236 @@
           "fullTranslation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
         },
         {
-          "id": "zh-hsk12-04-time-place-order-row-2",
+          "id": "zh-hsk12-04-time-place-order-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kalimat Adjektiva (很), Kepemilikan (有/的), Modal Verbs & Waktu-Lokasi (HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Perbedaan posisi keterangan tempat di depan kata kerja vs di belakang kata kerja"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
               "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Perbedaan posisi keterangan tempat di depan kata kerja vs di belakang kata kerja — Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+          "fullTranslation": "Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat: Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat\"",
-        "psychologyExplanation": "Perbedaan posisi keterangan tempat di depan kata kerja vs di belakang kata kerja. Dalam kerangka Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+      "eraOrDomain": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Perbedaan posisi keterangan tempat di depan kata kerja vs di belakang kata kerja. Dalam cabang \"Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)\", konstruksi \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+          "reading": "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)\" (Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+          "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+          "explanation": "Kapan memakai 是 vs 很, urutan keterangan waktu/tempat, dan modal kemampuan/izin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+          "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+          "definition": "Pola \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-04-time-place-order-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+              "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+            }
+          },
+          "fullTranslation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+        },
+        {
+          "id": "zh-hsk12-04-time-place-order-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)] → S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+              "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Makna kontekstual: \"Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat\""
+            }
+          },
+          "fullTranslation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+        },
+        {
+          "id": "zh-hsk12-04-time-place-order-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+              "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Padanan alami: Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+            }
+          },
+          "fullTranslation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk12-04-time-place-order-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+              "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+              "gloss": "Pola acuan: S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk12-04-time-place-order-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+      "title": "5. Tips, Trik & Leksikon Kunci: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
           "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
           "meaning": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
+          "partOfSpeech": "SYNTAX · HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)",
           "exampleSentence": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
           "exampleTranslation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Urutan Emas Sintaksis Mandarin: Subjek + Waktu + Tempat (在) + Cara + Predikat",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 1–2 · Fondasi Kalimat & Kata Kerja Bantu · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+          "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+          "translation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat — (Penerapan langsung pola \"S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)\")",
+          "grammarHighlight": "S + [Waktu] + 在 [Lokasi] + V + O (Lokasi di DEPAN kata kerja)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "我明天上午在图书馆学习汉语。(Besok pagi saya belajar Mandarin di perpustakaan)",
+          "reading": "Wǒ míngtiān shàngwǔ zài túshūguǎn xuéxí Hànyǔ.",
+          "translation": "Berbeda dengan bahasa Indonesia/Inggris, keterangan tempat berada sebelum predikat — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Predikat Adjektiva, Posisi Waktu-Tempat & Kata Kerja Modal (HSK 1–2)"
         }
       ]
     }

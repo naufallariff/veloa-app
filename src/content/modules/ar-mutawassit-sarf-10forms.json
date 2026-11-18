@@ -3,46 +3,46 @@
   "lang": "ar",
   "pillar": "morphology",
   "tier": "intermediate",
-  "order": 111,
+  "order": 117,
   "title": "10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
   "subtitle": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan",
   "estimatedMinutes": 45,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Mustawā Mutawassiṭ · Menengah | 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
-      "grammaticalTradition": "Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
+      "title": "1. Rumus Inti & Anatomi Struktur: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "grammaticalTradition": "Mustawā Mutawassiṭ · Menengah · Classical & Modern Standard Arabic (An-Naḥw wa aṣ-Ṣarf)",
       "direction": "rtl",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ar-mutawassit-sarf-10forms-row-1",
+          "id": "ar-mutawassit-sarf-10forms-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh",
-              "gloss": "10 Wazn utama (Faʿala–Istafʿala) serta Kāna wa Akhawātuhā dan Inna wa Akhawātuhā"
+              "gloss": "Pilar MORPHOLOGY · Ṣaraf Mazīd (10 Wazn) & Naḥwu Nawāsikh (Kāna & Inna)"
             },
             "formula": {
               "script": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
               "reading": "ghafara → istaghfara",
               "gloss": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
@@ -51,34 +51,236 @@
           "fullTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
         },
         {
-          "id": "ar-mutawassit-sarf-10forms-row-2",
+          "id": "ar-mutawassit-sarf-10forms-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Ṣaraf Mazīd (10 Wazn) & Naḥwu Nawāsikh (Kāna & Inna) (Mustawā Mutawassiṭ · Menengah)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 36 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 36 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±45 menit"
+            },
+            "anchor": {
               "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
               "reading": "ghafara → istaghfara",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan — Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+          "fullTranslation": "10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ): Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)\"",
-        "psychologyExplanation": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan. Dalam kerangka Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh, penutur asli memetakan hubungan makna menggunakan rumus \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "eraOrDomain": "Mustawā Mutawassiṭ · Menengah · Analisis Kognitif & Struktural",
+      "direction": "rtl",
+      "narrativeSummary": "Bagaimana tambahan huruf mengubah makna menjadi kausatif, resiprokal, atau permintaan. Dalam cabang \"Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh\", konstruksi \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)\" (ghafara → istaghfara). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "ghafara → istaghfara",
+          "explanation": "10 Wazn utama (Faʿala–Istafʿala) serta Kāna wa Akhawātuhā dan Inna wa Akhawātuhā Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "ghafara → istaghfara",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+          "definition": "Pola \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Arab bertumpu pada sistem akar konsonan tiga huruf (الجذر الثلاثي) yang dicetak ke dalam pola morfologis (الأوزان), serta penanda kasus akhir (الإعراب: رَفْع، نَصْب، جَرّ).",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-sarf-10forms-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+            }
+          },
+          "fullTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        },
+        {
+          "id": "ar-mutawassit-sarf-10forms-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh] → عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Makna kontekstual: \"Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap\""
+            }
+          },
+          "fullTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        },
+        {
+          "id": "ar-mutawassit-sarf-10forms-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (AR) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Padanan alami: Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+            }
+          },
+          "fullTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "rtl",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ar-mutawassit-sarf-10forms-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+              "reading": "ghafara → istaghfara",
+              "gloss": "Pola acuan: عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)"
+            }
+          },
+          "fullTranslation": "Asimilasi huruf Syamsiyah (اللام الشمسية) vs Qamariyah pada sandang الـ, perubahan harakat akhir akibat faktor sintaksis (العوامل), dan kesesuaian gender-jumlah (المطابقة)."
+        },
+        {
+          "id": "ar-mutawassit-sarf-10forms-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+              "gloss": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
+            }
+          },
+          "fullTranslation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata benda tidak beraturan (جمع التكسير / Jamak Taksir), kata benda tidak bertanwin (الممنوع من الصرف), serta kata kerja berhuruf illat (المعتل).",
+        "literalTrap": "Jangan menyisipkan kata kerja kopula \"adalah\" pada kalimat nominal (الجملة الاسمية) waktu kini—cukup sandingkan Mubtada’ (ma’rifah) dan Khabar (nakirah)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "title": "5. Tips, Trik & Leksikon Kunci: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
       "direction": "rtl",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
           "reading": "ghafara → istaghfara",
           "meaning": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
+          "partOfSpeech": "MORPHOLOGY · Mustawā Mutawassiṭ · Menengah",
+          "patternNote": "Trik Penguasaan: Identifikasi 3 huruf akar konsonan (ف - ع - ل) dari setiap kata baru terlebih dahulu; satu akar yang sama akan membuka puluhan makna turunan secara sistematis. | Rumus: عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)",
           "exampleSentence": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
           "exampleTranslation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: 10 Wazn Fiʿil Thulāthī Mazīd (أَفْعَلَ, فَعَّلَ, فَاعَلَ, تَفَعَّلَ, اِسْتَفْعَلَ)",
+      "contextSituation": "Keseimbangan antara Bahasa Arab Baku Modern/Klasik (الفصحى — Fusha) untuk literasi, media, dan forum resmi dengan variasi ungkapan lisan sehari-hari.",
+      "registerLevel": "Mustawā Mutawassiṭ · Menengah · Konteks Autentik",
+      "direction": "rtl",
+      "turns": [
+        {
+          "speaker": "Al-Ustādz Ṭāriq (الأستاذ طارق)",
+          "line": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "ghafara → istaghfara",
+          "translation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap — (Penerapan langsung pola \"عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)\")",
+          "grammarHighlight": "عَلِمَ (tahu) → عَلَّمَ (mengajar) → تَعَلَّمَ (belajar) → اِسْتَعْلَمَ (bertanya/mencari info)"
+        },
+        {
+          "speaker": "Yūsuf (يوسف)",
+          "line": "غَفَرَ (mengampuni) → اِسْتَغْفَرَ (memohon ampunan — Wazn اِسْتَفْعَلَ)",
+          "reading": "ghafara → istaghfara",
+          "translation": "Pola اِسْتَفْعَلَ secara sistematis bermakna memohon atau menganggap — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Abwāb aṣ-Ṣarf al-Mazīd & Amil Nawāsikh"
         }
       ]
     }

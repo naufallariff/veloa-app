@@ -3,46 +3,46 @@
   "lang": "en",
   "pillar": "syntax",
   "tier": "beginner",
-  "order": 122,
+  "order": 128,
   "title": "Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
   "subtitle": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti",
   "estimatedMinutes": 30,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR A2 · Waystage | Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+      "grammaticalTradition": "CEFR A2 · Waystage · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-a2-future-forms-row-1",
+          "id": "en-a2-future-forms-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang A: Sistem Waktu Lampau & Masa Depan",
-              "gloss": "Menguasai V2, was/were, going to, dan will"
+              "gloss": "Pilar SYNTAX · Dimensi Waktu Lampau, Masa Depan & Perbandingan"
             },
             "formula": {
               "script": "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "I’m going to study Arabic morphology next semester.",
               "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
               "gloss": "Niat yang sudah diputuskan sebelum saat berbicara"
@@ -51,34 +51,236 @@
           "fullTranslation": "Niat yang sudah diputuskan sebelum saat berbicara"
         },
         {
-          "id": "en-a2-future-forms-row-2",
+          "id": "en-a2-future-forms-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Dimensi Waktu Lampau, Masa Depan & Perbandingan (CEFR A2 · Waystage)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 28 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 28 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±30 menit"
+            },
+            "anchor": {
               "script": "I’m going to study Arabic morphology next semester.",
               "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti — Niat yang sudah diputuskan sebelum saat berbicara"
+          "fullTranslation": "Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal: Niat yang sudah diputuskan sebelum saat berbicara"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal\"",
-        "psychologyExplanation": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti. Dalam kerangka Cabang A: Sistem Waktu Lampau & Masa Depan, penutur asli memetakan hubungan makna menggunakan rumus \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+      "eraOrDomain": "CEFR A2 · Waystage · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membedakan keputusan spontan, niat terencana, dan jadwal pasti. Dalam cabang \"Cabang A: Sistem Waktu Lampau & Masa Depan\", konstruksi \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "I’m going to study Arabic morphology next semester.",
+          "reading": "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"I’m going to study Arabic morphology next semester.\" (/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "I’m going to study Arabic morphology next semester.",
+          "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+          "explanation": "Menguasai V2, was/were, going to, dan will Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "I’m going to study Arabic morphology next semester.",
+          "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+          "definition": "Pola \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Niat yang sudah diputuskan sebelum saat berbicara\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "I’m going to study Arabic morphology next semester."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-future-forms-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "I’m going to study Arabic morphology next semester.",
+              "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+              "gloss": "Niat yang sudah diputuskan sebelum saat berbicara"
+            }
+          },
+          "fullTranslation": "Niat yang sudah diputuskan sebelum saat berbicara"
+        },
+        {
+          "id": "en-a2-future-forms-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang A: Sistem Waktu Lampau & Masa Depan] → Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "I’m going to study Arabic morphology next semester.",
+              "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+              "gloss": "Makna kontekstual: \"Niat yang sudah diputuskan sebelum saat berbicara\""
+            }
+          },
+          "fullTranslation": "Niat yang sudah diputuskan sebelum saat berbicara"
+        },
+        {
+          "id": "en-a2-future-forms-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "I’m going to study Arabic morphology next semester.",
+              "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+              "gloss": "Padanan alami: Niat yang sudah diputuskan sebelum saat berbicara"
+            }
+          },
+          "fullTranslation": "Niat yang sudah diputuskan sebelum saat berbicara"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-a2-future-forms-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "I’m going to study Arabic morphology next semester.",
+              "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+              "gloss": "Pola acuan: Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-a2-future-forms-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+      "title": "5. Tips, Trik & Leksikon Kunci: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "I’m going to study Arabic morphology next semester.",
           "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
           "meaning": "Niat yang sudah diputuskan sebelum saat berbicara",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
+          "partOfSpeech": "SYNTAX · CEFR A2 · Waystage",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)",
           "exampleSentence": "I’m going to study Arabic morphology next semester.",
           "exampleTranslation": "Niat yang sudah diputuskan sebelum saat berbicara"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Future Forms: Will vs Be Going To vs Present Continuous untuk Jadwal",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR A2 · Waystage · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "I’m going to study Arabic morphology next semester.",
+          "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+          "translation": "Niat yang sudah diputuskan sebelum saat berbicara — (Penerapan langsung pola \"Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)\")",
+          "grammarHighlight": "Will + V1 (Spontan/Prediksi) vs am/is/are going to + V1 (Rencana)"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "I’m going to study Arabic morphology next semester.",
+          "reading": "/aɪm ˈɡoʊ.ɪŋ tə ˈstʌd.i ˈær.ə.bɪk mɔːrˈfɒl.ə.dʒi/",
+          "translation": "Niat yang sudah diputuskan sebelum saat berbicara — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang A: Sistem Waktu Lampau & Masa Depan"
         }
       ]
     }

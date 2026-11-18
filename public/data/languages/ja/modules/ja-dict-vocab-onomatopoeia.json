@@ -3,46 +3,46 @@
   "lang": "ja",
   "pillar": "lexicon-dialogue",
   "tier": "beginner",
-  "order": 107,
+  "order": 110,
   "title": "Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
   "subtitle": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik",
   "estimatedMinutes": 35,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Kamus & Korpus Jepang | Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "grammaticalTradition": "Kamus & Korpus Jepang · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-dict-vocab-onomatopoeia-row-1",
+          "id": "ja-dict-vocab-onomatopoeia-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "1. Kamus Kosakata & Kartu Kanji Inti",
-              "gloss": "Kosakata frekuensi tinggi lengkap dengan Furigana dan On/Kun"
+              "gloss": "Pilar LEXICON-DIALOGUE · Kosakata Kanji-Kana, Kalimat Harian & Percakapan"
             },
             "formula": {
               "script": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
               "reading": "perapera · girigiri · shikkari",
               "gloss": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
@@ -51,34 +51,236 @@
           "fullTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
         },
         {
-          "id": "ja-dict-vocab-onomatopoeia-row-2",
+          "id": "ja-dict-vocab-onomatopoeia-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Kosakata Kanji-Kana, Kalimat Harian & Percakapan (Kamus & Korpus Jepang)"
-            },
-            "formula": {
-              "script": "LEXICON-DIALOGUE · Target 45 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 45 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
               "reading": "perapera · girigiri · shikkari",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik — Sangat sering dipakai dalam percakapan lisan maupun sastra"
+          "fullTranslation": "Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang: Sangat sering dipakai dalam percakapan lisan maupun sastra"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang\"",
-        "psychologyExplanation": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik. Dalam kerangka 1. Kamus Kosakata & Kartu Kanji Inti, penutur asli memetakan hubungan makna menggunakan rumus \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "eraOrDomain": "Kamus & Korpus Jepang · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Mengungkapkan tekstur, emosi, dan suara dengan nuansa autentik. Dalam cabang \"1. Kamus Kosakata & Kartu Kanji Inti\", konstruksi \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)\" (perapera · girigiri · shikkari). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "perapera · girigiri · shikkari",
+          "explanation": "Kosakata frekuensi tinggi lengkap dengan Furigana dan On/Kun Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "perapera · girigiri · shikkari",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+          "definition": "Pola \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Sangat sering dipakai dalam percakapan lisan maupun sastra\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-vocab-onomatopoeia-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+            }
+          },
+          "fullTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        },
+        {
+          "id": "ja-dict-vocab-onomatopoeia-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [1. Kamus Kosakata & Kartu Kanji Inti] → Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Makna kontekstual: \"Sangat sering dipakai dalam percakapan lisan maupun sastra\""
+            }
+          },
+          "fullTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        },
+        {
+          "id": "ja-dict-vocab-onomatopoeia-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Padanan alami: Sangat sering dipakai dalam percakapan lisan maupun sastra"
+            }
+          },
+          "fullTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-dict-vocab-onomatopoeia-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+              "reading": "perapera · girigiri · shikkari",
+              "gloss": "Pola acuan: Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-dict-vocab-onomatopoeia-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "title": "5. Tips, Trik & Leksikon Kunci: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
           "reading": "perapera · girigiri · shikkari",
           "meaning": "Sangat sering dipakai dalam percakapan lisan maupun sastra",
-          "partOfSpeech": "lexicon-dialogue",
-          "patternNote": "Rumus terkait: Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
+          "partOfSpeech": "LEXICON-DIALOGUE · Kamus & Korpus Jepang",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)",
           "exampleSentence": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
           "exampleTranslation": "Sangat sering dipakai dalam percakapan lisan maupun sastra"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Giongo & Gitaigo: Onomatope Ekspresif Penutur Asli Jepang",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "Kamus & Korpus Jepang · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "perapera · girigiri · shikkari",
+          "translation": "Sangat sering dipakai dalam percakapan lisan maupun sastra — (Penerapan langsung pola \"Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)\")",
+          "grammarHighlight": "Reduplikasi Mora (ドキドキ dokidoki · ワクワク wakuwaku)"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "ぺらぺら (fasih) · ぎりぎり (nyaris tepat waktu) · しっかり (mantap)",
+          "reading": "perapera · girigiri · shikkari",
+          "translation": "Sangat sering dipakai dalam percakapan lisan maupun sastra — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "1. Kamus Kosakata & Kartu Kanji Inti"
         }
       ]
     }

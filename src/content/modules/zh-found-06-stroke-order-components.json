@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi | 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "grammaticalTradition": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-found-06-stroke-order-components-row-1",
+          "id": "zh-found-06-stroke-order-components-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "2. Hukum Perubahan Nada & Ortografi Hanzi",
-              "gloss": "Sandhi nada ketiga, perubahan nada 一 (yī) dan 不 (bù), serta 7 kaidah urutan goresan"
+              "gloss": "Pilar SCRIPT · Aturan Tone Sandhi (变调), Urutan Goresan (笔顺) & Akar Aksara"
             },
             "formula": {
               "script": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
               "reading": "qǐng · qīng · qíng · qíng",
               "gloss": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
@@ -51,34 +51,236 @@
           "fullTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
         },
         {
-          "id": "zh-found-06-stroke-order-components-row-2",
+          "id": "zh-found-06-stroke-order-components-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Aturan Tone Sandhi (变调), Urutan Goresan (笔顺) & Akar Aksara (Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi)"
-            },
-            "formula": {
-              "script": "SCRIPT · Target 36 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 36 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
               "reading": "qǐng · qīng · qíng · qíng",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik — 80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+          "fullTranslation": "7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首): 80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)\"",
-        "psychologyExplanation": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik. Dalam kerangka 2. Hukum Perubahan Nada & Ortografi Hanzi, penutur asli memetakan hubungan makna menggunakan rumus \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "eraOrDomain": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Kiri ke kanan, atas ke bawah, luar sebelum dalam, dan fungsi komponen semantik vs fonetik. Dalam cabang \"2. Hukum Perubahan Nada & Ortografi Hanzi\", konstruksi \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)\" (qǐng · qīng · qíng · qíng). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "qǐng · qīng · qíng · qíng",
+          "explanation": "Sandhi nada ketiga, perubahan nada 一 (yī) dan 不 (bù), serta 7 kaidah urutan goresan Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "qǐng · qīng · qíng · qíng",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+          "definition": "Pola \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-found-06-stroke-order-components-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+            }
+          },
+          "fullTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        },
+        {
+          "id": "zh-found-06-stroke-order-components-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [2. Hukum Perubahan Nada & Ortografi Hanzi] → Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "Makna kontekstual: \"80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya\""
+            }
+          },
+          "fullTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        },
+        {
+          "id": "zh-found-06-stroke-order-components-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "Padanan alami: 80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+            }
+          },
+          "fullTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-found-06-stroke-order-components-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+              "reading": "qǐng · qīng · qíng · qíng",
+              "gloss": "Pola acuan: Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-found-06-stroke-order-components-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "title": "5. Tips, Trik & Leksikon Kunci: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
           "reading": "qǐng · qīng · qíng · qíng",
           "meaning": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya",
-          "partOfSpeech": "script",
-          "patternNote": "Rumus terkait: Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
+          "partOfSpeech": "SCRIPT · Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)",
           "exampleSentence": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
           "exampleTranslation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: 7 Kaidah Urutan Goresan (笔顺 Bǐshùn) & Posisi Komponen Hanzi (偏旁部首)",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Pondasi Lanjutan · Fonologi Sandhi & Anatomi Hanzi · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "qǐng · qīng · qíng · qíng",
+          "translation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya — (Penerapan langsung pola \"Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)\")",
+          "grammarHighlight": "Xíngshēngzì (形声字) = Komponen Makna (Radikal) + Komponen Bunyi (Fonetik)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "请 (qǐng) · 清 (qīng) · 晴 (qíng) · 情 (qíng) — Berbagi komponen bunyi 青 (qīng)",
+          "reading": "qǐng · qīng · qíng · qíng",
+          "translation": "80% lebih Hanzi modern adalah aksara fono-semantik yang bisa ditebak bunyi dan maknanya — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "2. Hukum Perubahan Nada & Ortografi Hanzi"
         }
       ]
     }

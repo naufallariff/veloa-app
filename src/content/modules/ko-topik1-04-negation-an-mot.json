@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea | Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
-      "grammaticalTradition": "Korean Agglutinative Syntax & Honorific Pragmatics",
+      "title": "1. Rumus Inti & Anatomi Struktur: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+      "grammaticalTradition": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Korean Agglutinative Syntax & Honorific Pragmatics",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ko-topik1-04-negation-an-mot-row-1",
+          "id": "ko-topik1-04-negation-an-mot-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)",
-              "gloss": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar"
+              "gloss": "Pilar SYNTAX · Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan"
             },
             "formula": {
               "script": "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
               "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
               "gloss": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
@@ -51,34 +51,236 @@
           "fullTranslation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
         },
         {
-          "id": "ko-topik1-04-negation-an-mot-row-2",
+          "id": "ko-topik1-04-negation-an-mot-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Demonstrativa 이/그/저, Keberadaan 있다/없다, Negasi 안/못 & Bentuk Lampau/Masa Depan (TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membedakan tidak melakukan karena pilihan vs tidak sanggup karena situasi/kemampuan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
               "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membedakan tidak melakukan karena pilihan vs tidak sanggup karena situasi/kemampuan — Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+          "fullTranslation": "Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa): Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)\"",
-        "psychologyExplanation": "Membedakan tidak melakukan karena pilihan vs tidak sanggup karena situasi/kemampuan. Dalam kerangka Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2), penutur asli memetakan hubungan makna menggunakan rumus \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+      "eraOrDomain": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membedakan tidak melakukan karena pilihan vs tidak sanggup karena situasi/kemampuan. Dalam cabang \"Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)\", konstruksi \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+          "reading": "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.\" (Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+          "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+          "explanation": "Partikel lokasi 에 vs 에서, dua jenis negasi (안 vs 못), dan konjungsi dasar Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+          "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+          "definition": "Pola \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Korea menggunakan susunan S-O-V dengan partikel penanda fungsi (조사) dan akhiran verba bertingkat (어미) yang menyandikan kala, hubungan klausa, dan hierarki sosial.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-04-negation-an-mot-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+              "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+              "gloss": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+            }
+          },
+          "fullTranslation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+        },
+        {
+          "id": "ko-topik1-04-negation-an-mot-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)] → 안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+              "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+              "gloss": "Makna kontekstual: \"Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit\""
+            }
+          },
+          "fullTranslation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+        },
+        {
+          "id": "ko-topik1-04-negation-an-mot-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (KO) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+              "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+              "gloss": "Padanan alami: Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+            }
+          },
+          "fullTranslation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ko-topik1-04-negation-an-mot-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+              "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+              "gloss": "Pola acuan: 안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)"
+            }
+          },
+          "fullTranslation": "Hukum asimilasi bunyi Batchim (받침 — liaison/연음, nasalisasi, palatalisasi) serta hukum Harmoni Vokal terang (ㅏ/ㅗ) vs gelap (ㅓ/ㅜ/ㅡ/ㅣ) saat konjugasi."
+        },
+        {
+          "id": "ko-topik1-04-negation-an-mot-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
+              "gloss": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
+            }
+          },
+          "fullTranslation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Kata kerja/sifat tak beraturan (불규칙 활용: ㅂ, ㄷ, ㅡ, 르, ㄹ), kontraksi wajib kata ganti (저+가 → 제가), serta pemisahan negasi 안/못 di tengah kata kerja 하다.",
+        "literalTrap": "Hindari menyalin pola bahasa Indonesia yang mengulang subjek saya/kamu; dalam bahasa Korea, subjek yang sudah dipahami konteksnya selalu dilesapkan."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+      "title": "5. Tips, Trik & Leksikon Kunci: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
           "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
           "meaning": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: 안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
+          "partOfSpeech": "SYNTAX · TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea",
+          "patternNote": "Trik Penguasaan: Periksa selalu apakah suku kata terakhir memiliki konsonan akhir (Batchim) atau tidak—hampir seluruh partikel dan akhiran Korea berpasangan berdasarkan syarat Batchim. | Rumus: 안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)",
           "exampleSentence": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
           "exampleTranslation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Dua Jenis Negasi Korea: 안 / -지 않다 (Tidak/Kemauan) vs 못 / -지 못하다 (Tidak Bisa)",
+      "contextSituation": "Transisi dinamis antara gaya formal tinggi (하십시오체 -ㅂ니다), sopan hangat sehari-hari (해요체 -아/어요), dan ragam akrab tanpa honorifik (반말).",
+      "registerLevel": "TOPIK I (Level 1–2) · Fondasi Tata Bahasa Korea · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Kim Seonsaengnim (김선생님)",
+          "line": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+          "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+          "translation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit — (Penerapan langsung pola \"안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)\")",
+          "grammarHighlight": "안 + V/Adj (Pilihan) vs 못 + V (Ketidakmampuan — tidak dipakai untuk Adjektiva)"
+        },
+        {
+          "speaker": "Jiwon (지원)",
+          "line": "오늘은 바빠서 운동을 안 했어요. / 다리가 아파서 못 갔어요.",
+          "reading": "Oneureun bappaseo undongeul an haesseoyo. / Dari-ga apaseo mot gasseoyo.",
+          "translation": "Hari ini tidak olahraga karena sibuk vs Tidak bisa pergi karena kaki sakit — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Struktur Lokasi, Negasi, Kala & Kata Penghubung Dasar (TOPIK 1–2)"
         }
       ]
     }

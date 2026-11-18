@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "CEFR B1–B2 · Menengah Lengkap | Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
-      "grammaticalTradition": "English Structural Grammar & Lexicology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+      "grammaticalTradition": "CEFR B1–B2 · Menengah Lengkap · English Structural Grammar, Pragmatics & Lexicology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "en-b1-06-past-perfect-narrative-row-1",
+          "id": "en-b1-06-past-perfect-narrative-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2)",
-              "gloss": "Membedakan fokus hasil vs durasi serta penggunaan have/get something done"
+              "gloss": "Pilar SYNTAX · Present Perfect Continuous, Past Perfect, Causative & Question Tags"
             },
             "formula": {
               "script": "By the time + S + V2, S + had + V3",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "By the time the train arrived, we had already waited for an hour.",
               "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
               "gloss": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
@@ -51,34 +51,236 @@
           "fullTranslation": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
         },
         {
-          "id": "en-b1-06-past-perfect-narrative-row-2",
+          "id": "en-b1-06-past-perfect-narrative-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Present Perfect Continuous, Past Perfect, Causative & Question Tags (CEFR B1–B2 · Menengah Lengkap)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 28 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menandai kejadian yang sudah selesai sebelum titik waktu lampau lainnya"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 28 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±35 menit"
+            },
+            "anchor": {
               "script": "By the time the train arrived, we had already waited for an hour.",
               "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menandai kejadian yang sudah selesai sebelum titik waktu lampau lainnya — Past Perfect berperan sebagai \"lampau di dalam lampau\""
+          "fullTranslation": "Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau: Past Perfect berperan sebagai \"lampau di dalam lampau\""
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau\"",
-        "psychologyExplanation": "Menandai kejadian yang sudah selesai sebelum titik waktu lampau lainnya. Dalam kerangka Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2), penutur asli memetakan hubungan makna menggunakan rumus \"By the time + S + V2, S + had + V3\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"By the time + S + V2, S + had + V3\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+      "eraOrDomain": "CEFR B1–B2 · Menengah Lengkap · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menandai kejadian yang sudah selesai sebelum titik waktu lampau lainnya. Dalam cabang \"Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2)\", konstruksi \"By the time + S + V2, S + had + V3\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "By the time the train arrived, we had already waited for an hour.",
+          "reading": "By the time + S + V2, S + had + V3",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"By the time the train arrived, we had already waited for an hour.\" (/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "By the time the train arrived, we had already waited for an hour.",
+          "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+          "explanation": "Membedakan fokus hasil vs durasi serta penggunaan have/get something done Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"By the time + S + V2, S + had + V3\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "By the time the train arrived, we had already waited for an hour.",
+          "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"By the time + S + V2, S + had + V3\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+          "definition": "Pola \"By the time + S + V2, S + had + V3\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Past Perfect berperan sebagai \"lampau di dalam lampau\"\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "By the time the train arrived, we had already waited for an hour."
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Inggris mengandalkan urutan kata ketat (S-V-O), kata kerja bantu (auxiliary), serta kesesuaian kala dan aspek (tense-aspect) untuk mengunci makna waktu dan sikap pembicara.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "By the time + S + V2, S + had + V3"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b1-06-past-perfect-narrative-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "By the time + S + V2, S + had + V3",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "By the time the train arrived, we had already waited for an hour.",
+              "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+              "gloss": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
+            }
+          },
+          "fullTranslation": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
+        },
+        {
+          "id": "en-b1-06-past-perfect-narrative-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2)] → By the time + S + V2, S + had + V3",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "By the time the train arrived, we had already waited for an hour.",
+              "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+              "gloss": "Makna kontekstual: \"Past Perfect berperan sebagai \"lampau di dalam lampau\"\""
+            }
+          },
+          "fullTranslation": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
+        },
+        {
+          "id": "en-b1-06-past-perfect-narrative-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (EN) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "By the time the train arrived, we had already waited for an hour.",
+              "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+              "gloss": "Padanan alami: Past Perfect berperan sebagai \"lampau di dalam lampau\""
+            }
+          },
+          "fullTranslation": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"By the time + S + V2, S + had + V3\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "en-b1-06-past-perfect-narrative-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "By the time the train arrived, we had already waited for an hour.",
+              "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+              "gloss": "Pola acuan: By the time + S + V2, S + had + V3"
+            }
+          },
+          "fullTranslation": "Perubahan bentuk kata kerja bantu, kesesuaian subjek-predikat (subject-verb agreement), serta reduksi bunyi dalam ucapan cepat (weak forms & connected speech)."
+        },
+        {
+          "id": "en-b1-06-past-perfect-narrative-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "By the time + S + V2, S + had + V3",
+              "gloss": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
+            }
+          },
+          "fullTranslation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Bentuk tak beraturan (irregular verbs/plurals), kata kerja statif yang menghindari bentuk continuous, serta pergeseran makna pada phrasal verbs idiomatik.",
+        "literalTrap": "Hindari menerjemahkan imbuhan atau urutan kata bahasa Indonesia secara harfiah (seperti menghilangkan to be atau mencampur kala lampau dengan penanda waktu sekarang)."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+      "title": "5. Tips, Trik & Leksikon Kunci: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "By the time the train arrived, we had already waited for an hour.",
           "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
           "meaning": "Past Perfect berperan sebagai \"lampau di dalam lampau\"",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: By the time + S + V2, S + had + V3",
+          "partOfSpeech": "SYNTAX · CEFR B1–B2 · Menengah Lengkap",
+          "patternNote": "Trik Penguasaan: Kelompokkan pola berdasarkan fungsi komunikatifnya (misal: kepastian vs kemungkinan), lalu latih dengan mengganti subjek dan keterangan waktu secara bergantian. | Rumus: By the time + S + V2, S + had + V3",
           "exampleSentence": "By the time the train arrived, we had already waited for an hour.",
           "exampleTranslation": "Past Perfect berperan sebagai \"lampau di dalam lampau\""
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Past Perfect Simple & Continuous: Menyusun Flashback dalam Narasi Lampau",
+      "contextSituation": "Kontras antara gaya akademis/bisnis (kalimat pasif, nominalisasi, modalitas halus) dengan percakapan kasual harian (kontraksi dan elipsis subjek).",
+      "registerLevel": "CEFR B1–B2 · Menengah Lengkap · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Alex (Mentor)",
+          "line": "By the time the train arrived, we had already waited for an hour.",
+          "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+          "translation": "Past Perfect berperan sebagai \"lampau di dalam lampau\" — (Penerapan langsung pola \"By the time + S + V2, S + had + V3\")",
+          "grammarHighlight": "By the time + S + V2, S + had + V3"
+        },
+        {
+          "speaker": "Maya (Learner)",
+          "line": "By the time the train arrived, we had already waited for an hour.",
+          "reading": "/baɪ ðə taɪm ðə treɪn əˈraɪvd, wiː hæd ɔːlˈred.i ˈweɪ.tɪd/",
+          "translation": "Past Perfect berperan sebagai \"lampau di dalam lampau\" — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Aspek Durasi, Causative & Konjungsi Konsesif (B1–B2)"
         }
       ]
     }

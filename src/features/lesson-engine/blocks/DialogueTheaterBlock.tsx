@@ -1,5 +1,5 @@
 // src/features/lesson-engine/blocks/DialogueTheaterBlock.tsx
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useId, useRef, useState } from 'react';
 import {
     Eye,
     EyeOff,
@@ -11,7 +11,11 @@ import {
     Volume2,
 } from 'lucide-react';
 import type { LanguageCode, LessonBlock } from '../schema/lesson.schema';
-import { useSpeechPronunciation } from '../hooks/useSpeechPronunciation';
+import {
+    BCP47_MAP,
+    sanitizeTextForSpeech,
+    useSpeechPronunciation,
+} from '../hooks/useSpeechPronunciation';
 
 type DialogueTheaterData = Extract<LessonBlock, { type: 'dialogue-theater' }>;
 
@@ -28,6 +32,22 @@ const SCRIPT_CLASS_MAP: Record<LanguageCode, string> = {
     en: 'veloa-script-en',
 };
 
+function selectNativeVoice(lang: LanguageCode): SpeechSynthesisVoice | null {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    const targetPrefix = BCP47_MAP[lang].toLowerCase().split('-')[0] ?? lang;
+
+    return (
+        voices.find(
+            (v) =>
+                v.lang.toLowerCase().startsWith(targetPrefix) &&
+                (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('Microsoft')),
+        ) ??
+        voices.find((v) => v.lang.toLowerCase().startsWith(targetPrefix)) ??
+        null
+    );
+}
+
 export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ block, lang }) => {
     const { speak, stop, speakingKey, isSupported } = useSpeechPronunciation();
     const [showTranslations, setShowTranslations] = useState(true);
@@ -35,11 +55,11 @@ export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ bloc
     const [isSequencePlaying, setIsSequencePlaying] = useState(false);
     const [activeTurnIdx, setActiveTurnIdx] = useState<number | null>(null);
 
+    const blockUid = useId();
     const abortSequenceRef = useRef(false);
     const isRtl = block.direction === 'rtl' || lang === 'ar';
     const scriptClass = SCRIPT_CLASS_MAP[lang];
 
-    // Identifikasi pembicara unik untuk penataan gelembung kiri/kanan
     const uniqueSpeakers = React.useMemo(() => {
         const list: string[] = [];
         for (const turn of block.turns) {
@@ -73,29 +93,35 @@ export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ bloc
         abortSequenceRef.current = false;
         setIsSequencePlaying(true);
 
-        const localeMap: Record<LanguageCode, string> = {
-            en: 'en-US',
-            zh: 'zh-CN',
-            ja: 'ja-JP',
-            ar: 'ar-SA',
-            ko: 'ko-KR',
-        };
+        const nativeVoice = selectNativeVoice(lang);
 
         for (let i = 0; i < block.turns.length; i++) {
             if (abortSequenceRef.current) break;
             const turn = block.turns[i];
             if (!turn) continue;
 
+            const cleanLine = sanitizeTextForSpeech(turn.line, lang);
+            if (!cleanLine) continue;
+
             setActiveTurnIdx(i);
 
             await new Promise<void>((resolve) => {
                 window.speechSynthesis.cancel();
-                const utterance = new SpeechSynthesisUtterance(turn.line);
-                utterance.lang = localeMap[lang];
-                utterance.rate = 0.94;
-                utterance.onend = () => resolve();
-                utterance.onerror = () => resolve();
-                window.speechSynthesis.speak(utterance);
+                window.setTimeout(() => {
+                    if (abortSequenceRef.current) {
+                        resolve();
+                        return;
+                    }
+                    const utterance = new SpeechSynthesisUtterance(cleanLine);
+                    utterance.lang = nativeVoice?.lang ?? BCP47_MAP[lang];
+                    if (nativeVoice) {
+                        utterance.voice = nativeVoice;
+                    }
+                    utterance.rate = 0.94;
+                    utterance.onend = () => resolve();
+                    utterance.onerror = () => resolve();
+                    window.speechSynthesis.speak(utterance);
+                }, 45);
             });
 
             if (!abortSequenceRef.current && i < block.turns.length - 1) {
@@ -183,8 +209,8 @@ export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ bloc
                 {block.turns.map((turn, idx) => {
                     const speakerIdx = uniqueSpeakers.indexOf(turn.speaker);
                     const isSecondSpeaker = speakerIdx % 2 === 1;
-                    const turnNormalKey = `dlg-${idx}-normal`;
-                    const turnSlowKey = `dlg-${idx}-slow`;
+                    const turnNormalKey = `${blockUid}-dlg-${idx}-normal`;
+                    const turnSlowKey = `${blockUid}-dlg-${idx}-slow`;
                     const isHighlighted =
                         activeTurnIdx === idx ||
                         speakingKey === turnNormalKey ||
@@ -203,7 +229,6 @@ export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ bloc
                                             : 'border-(--border-subtle) bg-(--surface-card)'
                                     }`}
                             >
-                                {/* Nama Pembicara & Sorotan Tata Bahasa */}
                                 <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
                                     <span className="text-xs font-bold uppercase tracking-wider text-(--accent-primary)">
                                         {turn.speaker}
@@ -263,12 +288,10 @@ export const DialogueTheaterBlock: React.FC<DialogueTheaterBlockProps> = ({ bloc
                                     )}
                                 </div>
 
-                                {/* Transliterasi / Pinyin / Furigana */}
                                 {showReadings && turn.reading && (
                                     <p className="mt-2 font-mono text-xs text-(--accent-primary)">{turn.reading}</p>
                                 )}
 
-                                {/* Terjemahan */}
                                 {showTranslations && (
                                     <p className="mt-2 border-t border-(--border-subtle) pt-2 text-sm text-(--text-secondary)">
                                         {turn.translation}

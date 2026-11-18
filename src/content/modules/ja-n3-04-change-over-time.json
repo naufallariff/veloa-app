@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "JLPT N3 · Sintaksis Menengah Lengkap | Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
-      "grammaticalTradition": "Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
+      "title": "1. Rumus Inti & Anatomi Struktur: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "grammaticalTradition": "JLPT N3 · Sintaksis Menengah Lengkap · Japanese Morphological & Syntactic Analysis (Nihongo Bunpō)",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "ja-n3-04-change-over-time-row-1",
+          "id": "ja-n3-04-change-over-time-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)",
-              "gloss": "Perbedaan rasa syukur vs menyalahkan, serta perubahan keadaan"
+              "gloss": "Pilar SYNTAX · Klausa Waktu, Sebab-Akibat (おかげで vs せいで) & Nuansa Penyesalan"
             },
             "formula": {
               "script": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
               "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
               "gloss": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
@@ -51,34 +51,236 @@
           "fullTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
         },
         {
-          "id": "ja-n3-04-change-over-time-row-2",
+          "id": "ja-n3-04-change-over-time-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Klausa Waktu, Sebab-Akibat (おかげで vs せいで) & Nuansa Penyesalan (JLPT N3 · Sintaksis Menengah Lengkap)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 32 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 32 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
               "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan — Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+          "fullTranslation": "Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする: Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする\"",
-        "psychologyExplanation": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan. Dalam kerangka Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3), penutur asli memetakan hubungan makna menggunakan rumus \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "eraOrDomain": "JLPT N3 · Sintaksis Menengah Lengkap · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Kontras antara keputusan pribadi vs keputusan organisasi/lingkungan. Dalam cabang \"Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)\", konstruksi \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)\" (Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+          "explanation": "Perbedaan rasa syukur vs menyalahkan, serta perubahan keadaan Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+          "definition": "Pola \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Jepang berstruktur S-O-V aglutinatif: partikel pascaposisi (は, が, を, に, で) mengikat peran setiap kata benda, sementara predikat di akhir kalimat menentukan kala dan tingkat kesopanan.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-04-change-over-time-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+            }
+          },
+          "fullTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        },
+        {
+          "id": "ja-n3-04-change-over-time-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)] → ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Makna kontekstual: \"Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois\""
+            }
+          },
+          "fullTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        },
+        {
+          "id": "ja-n3-04-change-over-time-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (JA) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Padanan alami: Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+            }
+          },
+          "fullTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ja-n3-04-change-over-time-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji.",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+              "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+              "gloss": "Pola acuan: ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)"
+            }
+          },
+          "fullTranslation": "Perubahan fonologis (Onbin/Gemination) pada konjugasi bentuk -て dan -た, serta gejala peluluhan konsonan Rendaku (連濁) pada kata majemuk Kanji."
+        },
+        {
+          "id": "ja-n3-04-change-over-time-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+              "gloss": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
+            }
+          },
+          "fullTranslation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞)."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan bacaan On’yomi (bunyi Tionghoa) vs Kun’yomi (bunyi asli Jepang) pada Kanji yang sama, serta pasangan kata kerja transitif-intransitif (他動詞 vs 自動詞).",
+        "literalTrap": "Jangan menerjemahkan kata ganti \"kamu\" (あなた) secara berulang—penutur asli Jepang menghilangkan subjek jika sudah jelas dan menyebut nama + -さん."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "title": "5. Tips, Trik & Leksikon Kunci: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
           "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
           "meaning": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
+          "partOfSpeech": "SYNTAX · JLPT N3 · Sintaksis Menengah Lengkap",
+          "patternNote": "Trik Penguasaan: Selalu baca kalimat Jepang dari belakang ke depan saat membedah struktur panjang: temukan predikat akhir terlebih dahulu, lalu hubungkan tiap partikel di depannya. | Rumus: ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)",
           "exampleSentence": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
           "exampleTranslation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Perubahan Keadaan: 〜ようになる, 〜ようにする, 〜ことになる & 〜ことにする",
+      "contextSituation": "Pergeseran antara bentuk sopan standar (丁寧語 Desu/Masu), ragam kasual akrab (タメ口), hingga bahasa hormat tinggi (尊敬語 Sonkeigo & 謙譲語 Kenjōgo).",
+      "registerLevel": "JLPT N3 · Sintaksis Menengah Lengkap · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Satō-san (佐藤さん)",
+          "line": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+          "translation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois — (Penerapan langsung pola \"ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)\")",
+          "grammarHighlight": "ことにする (Keputusan Sendiri) vs ことになる (Keputusan Pihak Luar/Aturan)"
+        },
+        {
+          "speaker": "Tanaka-kun (田中くん)",
+          "line": "来月から東京支社で働くことになりました。(Diputuskan saya bekerja di cabang Tokyo)",
+          "reading": "Raigetsu kara Tōkyō shisha de hataraku koto ni narimashita.",
+          "translation": "Menyampaikan keputusan perusahaan secara rendah hati dan tidak egois — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Nuansa Evaluatif & Konjungsi Kompleks (N3)"
         }
       ]
     }

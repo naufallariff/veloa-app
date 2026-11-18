@@ -10,39 +10,39 @@
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan | Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+      "grammaticalTradition": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-hsk34-03-resultative-complements-row-1",
+          "id": "zh-hsk34-03-resultative-complements-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)",
-              "gloss": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin"
+              "gloss": "Pilar MORPHOLOGY · Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比"
             },
             "formula": {
               "script": "Verb + Result (完/好/懂/见/到/错/清楚) + 了",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "我听懂了老师的解释，也写完了今天的作业。",
               "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
               "gloss": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
@@ -51,34 +51,236 @@
           "fullTranslation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
         },
         {
-          "id": "zh-hsk34-03-resultative-complements-row-2",
+          "id": "zh-hsk34-03-resultative-complements-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Komplemen Hasil, Arah, Potensial (得/不) & Kalimat Perbandingan 比 (HSK 3–4 · Sistem Komplemen & Struktur Perbandingan)"
-            },
-            "formula": {
-              "script": "MORPHOLOGY · Target 36 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Menempelkan adjektiva/kata kerja tepat di belakang kata kerja utama untuk menyatakan hasil"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 36 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±40 menit"
+            },
+            "anchor": {
               "script": "我听懂了老师的解释，也写完了今天的作业。",
               "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Menempelkan adjektiva/kata kerja tepat di belakang kata kerja utama untuk menyatakan hasil — Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+          "fullTranslation": "Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错: Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错\"",
-        "psychologyExplanation": "Menempelkan adjektiva/kata kerja tepat di belakang kata kerja utama untuk menyatakan hasil. Dalam kerangka Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4), penutur asli memetakan hubungan makna menggunakan rumus \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+      "eraOrDomain": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Menempelkan adjektiva/kata kerja tepat di belakang kata kerja utama untuk menyatakan hasil. Dalam cabang \"Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)\", konstruksi \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "我听懂了老师的解释，也写完了今天的作业。",
+          "reading": "Verb + Result (完/好/懂/见/到/错/清楚) + 了",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"我听懂了老师的解释，也写完了今天的作业。\" (Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "我听懂了老师的解释，也写完了今天的作业。",
+          "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+          "explanation": "Resultative, Directional, Potential, dan Degree Complements yang khas bahasa Mandarin Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "我听懂了老师的解释，也写完了今天的作业。",
+          "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+          "definition": "Pola \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "我听懂了老师的解释，也写完了今天的作业。"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "Verb + Result (完/好/懂/见/到/错/清楚) + 了"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-03-resultative-complements-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "Verb + Result (完/好/懂/见/到/错/清楚) + 了",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "我听懂了老师的解释，也写完了今天的作业。",
+              "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+              "gloss": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+            }
+          },
+          "fullTranslation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+        },
+        {
+          "id": "zh-hsk34-03-resultative-complements-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)] → Verb + Result (完/好/懂/见/到/错/清楚) + 了",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "我听懂了老师的解释，也写完了今天的作业。",
+              "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+              "gloss": "Makna kontekstual: \"Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini\""
+            }
+          },
+          "fullTranslation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+        },
+        {
+          "id": "zh-hsk34-03-resultative-complements-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "我听懂了老师的解释，也写完了今天的作业。",
+              "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+              "gloss": "Padanan alami: Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+            }
+          },
+          "fullTranslation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-hsk34-03-resultative-complements-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "我听懂了老师的解释，也写完了今天的作业。",
+              "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+              "gloss": "Pola acuan: Verb + Result (完/好/懂/见/到/错/清楚) + 了"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-hsk34-03-resultative-complements-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "Verb + Result (完/好/懂/见/到/错/清楚) + 了",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+      "title": "5. Tips, Trik & Leksikon Kunci: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,10 +289,33 @@
           "term": "我听懂了老师的解释，也写完了今天的作业。",
           "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
           "meaning": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini",
-          "partOfSpeech": "morphology",
-          "patternNote": "Rumus terkait: Verb + Result (完/好/懂/见/到/错/清楚) + 了",
+          "partOfSpeech": "MORPHOLOGY · HSK 3–4 · Sistem Komplemen & Struktur Perbandingan",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: Verb + Result (完/好/懂/见/到/错/清楚) + 了",
           "exampleSentence": "我听懂了老师的解释，也写完了今天的作业。",
           "exampleTranslation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini"
+        }
+      ]
+    },
+    {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Komplemen Hasil (结果补语): 看懂, 听见, 写完, 找到 & 做错",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "HSK 3–4 · Sistem Komplemen & Struktur Perbandingan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "我听懂了老师的解释，也写完了今天的作业。",
+          "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+          "translation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini — (Penerapan langsung pola \"Verb + Result (完/好/懂/见/到/错/清楚) + 了\")",
+          "grammarHighlight": "Verb + Result (完/好/懂/见/到/错/清楚) + 了"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "我听懂了老师的解释，也写完了今天的作业。",
+          "reading": "Wǒ tīngdǒng le lǎoshī de jiěshì, yě xiěwán le jīntiān de zuòyè.",
+          "translation": "Saya mendengar-lalu-paham penjelasan guru, dan selesai menulis PR hari ini — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang B: Komplemen Kata Kerja (补语 Bǔyǔ) & Komparasi (HSK 3–4)"
         }
       ]
     }

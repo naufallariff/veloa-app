@@ -3,46 +3,46 @@
   "lang": "zh",
   "pillar": "syntax",
   "tier": "native",
-  "order": 115,
+  "order": 133,
   "title": "Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
   "subtitle": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan",
   "estimatedMinutes": 55,
   "blocks": [
     {
       "type": "cognitive-pattern-table",
-      "title": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan | Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
-      "grammaticalTradition": "Modern Standard Mandarin (Putonghua) & Sinology",
+      "title": "1. Rumus Inti & Anatomi Struktur: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "grammaticalTradition": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
       "columns": [
         {
-          "key": "construct",
-          "roleLabel": "Konsep & Fungsi",
+          "key": "element",
+          "roleLabel": "Komponen & Peran",
           "semanticColor": "violet"
         },
         {
           "key": "formula",
-          "roleLabel": "Rumus & Kaidah Inti",
+          "roleLabel": "Rumus Baku & Penanda",
           "semanticColor": "amber"
         },
         {
-          "key": "example",
-          "roleLabel": "Contoh Autentik",
+          "key": "anchor",
+          "roleLabel": "Realisasi Target",
           "semanticColor": "emerald"
         }
       ],
       "rows": [
         {
-          "id": "zh-lit-01-wenyanwen-row-1",
+          "id": "zh-lit-01-wenyanwen-card1-row1",
           "cells": {
-            "construct": {
+            "element": {
               "script": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
-              "gloss": "Bahasa Tionghoa Klasik (Wényánwén), partikel fungsi kuno, dan puisi Tang-Song"
+              "gloss": "Pilar SYNTAX · Wényánwén (文言文), Puisi Dinasti Tang & Sastra Klasik Tiongkok"
             },
             "formula": {
               "script": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
-              "gloss": "Struktur baku yang wajib dikuasai pada tahap ini"
+              "gloss": "Pola utama yang menjadi kerangka pembentukan kalimat"
             },
-            "example": {
+            "anchor": {
               "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
               "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
               "gloss": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
@@ -51,34 +51,236 @@
           "fullTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
         },
         {
-          "id": "zh-lit-01-wenyanwen-row-2",
+          "id": "zh-lit-01-wenyanwen-card1-row2",
           "cells": {
-            "construct": {
-              "script": "Penerapan Kontekstual",
-              "gloss": "Wényánwén (文言文), Puisi Dinasti Tang & Sastra Klasik Tiongkok (Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan)"
-            },
-            "formula": {
-              "script": "SYNTAX · Target 30 Entri",
+            "element": {
+              "script": "Fungsi Komunikatif",
               "gloss": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan"
             },
-            "example": {
+            "formula": {
+              "script": "Kapasitas Korpus: 30 unit leksikal/pola",
+              "gloss": "Estimasi penguasaan aktif: ±55 menit"
+            },
+            "anchor": {
               "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
               "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
-              "gloss": "Perhatikan penanda fungsi dan kesesuaian register bahasa"
+              "gloss": "Perhatikan batas morfem dan posisi penanda fungsi utama"
             }
           },
-          "fullTranslation": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan — Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+          "fullTranslation": "Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius: Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
         }
       ],
       "nativeMindset": {
-        "headline": "Logika Penutur Asli pada Topik \"Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius\"",
-        "psychologyExplanation": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan. Dalam kerangka Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué), penutur asli memetakan hubungan makna menggunakan rumus \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" secara otomatis tanpa menerjemahkan kata demi kata.",
-        "literalTrap": "Hindari menyalin urutan kata atau imbuhan dari bahasa Indonesia secara langsung; gunakan penanda gramatikal dan register yang sesuai konteks kalimat."
+        "headline": "Cara Kerja Pola \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" di Benak Penutur Asli",
+        "psychologyExplanation": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "linguistic-lore",
+      "title": "2. Penjelasan Mendalam & Logika Sistem: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "eraOrDomain": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Analisis Kognitif & Struktural",
+      "direction": "ltr",
+      "narrativeSummary": "Membaca teks filsafat Lunyu (Analek) dan sejarah Shiji tanpa terjemahan. Dalam cabang \"Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)\", konstruksi \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" berfungsi mengikat hubungan makna antarunsur kalimat secara presisi sehingga pendengar langsung menangkap maksud, fokus informasi, dan sikap pembicara tanpa ambiguitas.",
+      "milestones": [
+        {
+          "stage": "Tahap 1 — Identifikasi Kerangka Dasar",
+          "scriptSample": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+          "explanation": "Kenali terlebih dahulu inti konstruksi pada contoh \"学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)\" (Xué ér shí xí zhī, bú yì yuè hū?). Pisahkan unsur pokok dari penanda gramatikal atau imbuhan yang melekat padanya."
+        },
+        {
+          "stage": "Tahap 2 — Pemetaan Peran & Urutan Unsur",
+          "scriptSample": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "explanation": "Bahasa Tionghoa Klasik (Wényánwén), partikel fungsi kuno, dan puisi Tang-Song Pastikan setiap komponen menempati posisi sintaksis yang tepat sesuai rumus \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" sebelum menambahkan keterangan waktu, tempat, atau modalitas."
+        },
+        {
+          "stage": "Tahap 3 — Produksi Aktif & Otomatisasi",
+          "scriptSample": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "explanation": "Uji pemahaman dengan mengganti kosakata pengisi slot pada rumus \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" sambil mempertahankan ketepatan bunyi, nada/harakat, dan kesesuaian tingkat tutur."
+        }
+      ],
+      "structuralRules": [
+        {
+          "conceptName": "Mekanisme Inti: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+          "definition": "Pola \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" mengatur bagaimana unsur utama dirangkai untuk mengekspresikan makna \"Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?\".",
+          "whyItMatters": "Kesalahan pada penanda struktural inti dapat mengubah arti kalimat secara menyeluruh atau membuat tuturan terdengar kaku bagi penutur asli.",
+          "examples": [
+            "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)"
+          ]
+        },
+        {
+          "conceptName": "Kohesi Wacana & Ketepatan Bentuk",
+          "definition": "Bahasa Mandarin bersifat analitis tanpa konjugasi kata kerja; urutan posisi (Topik–Komentar / S-V-O), partikel aspek (了, 过, 着), dan kata penggolong (量词) menentukan presisi makna.",
+          "whyItMatters": "Menjembatani pemahaman pasif (membaca/menyimak) menjadi kemampuan produksi kalimat mandiri yang alami.",
+          "examples": [
+            "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)"
+          ]
+        }
+      ],
+      "funFactsAndTips": [
+        "Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah."
+      ]
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "3. Contoh Multi-Kondisi & Variasi Penerapan: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "grammaticalTradition": "Simulasi Penggunaan Lintas Situasi (Dasar, Terkontekstualisasi & Analitis)",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "condition",
+          "roleLabel": "Kondisi Penggunaan",
+          "semanticColor": "cyan"
+        },
+        {
+          "key": "structure",
+          "roleLabel": "Penerapan Rumus",
+          "semanticColor": "violet"
+        },
+        {
+          "key": "utterance",
+          "roleLabel": "Bentuk Target & Glosarium",
+          "semanticColor": "emerald"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-01-wenyanwen-card3-cond1",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 1: Pernyataan Standar / Netral",
+              "gloss": "Penyampaian informasi langsung secara jelas dan lengkap"
+            },
+            "structure": {
+              "script": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+              "gloss": "Struktur kanonik tanpa elipsis"
+            },
+            "utterance": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+            }
+          },
+          "fullTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        },
+        {
+          "id": "zh-lit-01-wenyanwen-card3-cond2",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 2: Penekanan Makna & Fokus Informasi",
+              "gloss": "Menonjolkan unsur penting dalam konteks percakapan nyata"
+            },
+            "structure": {
+              "script": "Konteks [Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)] → X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+              "gloss": "Perhatikan intonasi dan jeda frasa pada bagian kunci"
+            },
+            "utterance": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Makna kontekstual: \"Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?\""
+            }
+          },
+          "fullTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        },
+        {
+          "id": "zh-lit-01-wenyanwen-card3-cond3",
+          "cells": {
+            "condition": {
+              "script": "Kondisi 3: Evaluasi & Verifikasi Pemahaman",
+              "gloss": "Membandingkan struktur target dengan padanan bahasa Indonesia"
+            },
+            "structure": {
+              "script": "Target (ZH) ≠ Terjemahan Kata-per-Kata",
+              "gloss": "Fokus pada keutuhan blok makna (chunking)"
+            },
+            "utterance": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Padanan alami: Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+            }
+          },
+          "fullTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Prinsip Chunking dalam Berbagai Situasi Tutur",
+        "psychologyExplanation": "Penutur asli memperlakukan \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\" sebagai satu unit makna utuh (lexical chunk), lalu menyesuaikan penekanan intonasi serta tingkat kesopanan sesuai lawan bicara.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+      }
+    },
+    {
+      "type": "cognitive-pattern-table",
+      "title": "4. Kondisi Khusus, Perubahan Bentuk & Pengecualian",
+      "grammaticalTradition": "Aturan Batas Morfem, Fonologi & Pengecualian Wajib",
+      "direction": "ltr",
+      "columns": [
+        {
+          "key": "category",
+          "roleLabel": "Kategori Kaidah",
+          "semanticColor": "rose"
+        },
+        {
+          "key": "mechanism",
+          "roleLabel": "Mekanisme & Syarat",
+          "semanticColor": "amber"
+        },
+        {
+          "key": "reference",
+          "roleLabel": "Acuan & Contoh",
+          "semanticColor": "violet"
+        }
+      ],
+      "rows": [
+        {
+          "id": "zh-lit-01-wenyanwen-card4-special",
+          "cells": {
+            "category": {
+              "script": "Kondisi Khusus Fonologis & Morfologis",
+              "gloss": "Perubahan bentuk saat unsur bertemu dalam kalimat"
+            },
+            "mechanism": {
+              "script": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī).",
+              "gloss": "Wajib diperhatikan baik saat menulis maupun melafalkan dengan kecepatan normal"
+            },
+            "reference": {
+              "script": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+              "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+              "gloss": "Pola acuan: X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)"
+            }
+          },
+          "fullTranslation": "Hukum perubahan nada (Tone Sandhi): nada ke-3 berturut-turut (3+3 → 2+3), serta peluluhan nada pada negator 不 (bù → bú sebelum nada ke-4) dan 一 (yī)."
+        },
+        {
+          "id": "zh-lit-01-wenyanwen-card4-exception",
+          "cells": {
+            "category": {
+              "script": "Pengecualian & Batasan Larangan",
+              "gloss": "Kasus yang menyimpang dari kaidah umum"
+            },
+            "mechanism": {
+              "script": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+              "gloss": "Hindari generalisasi berlebihan terhadap pola dasar"
+            },
+            "reference": {
+              "script": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+              "gloss": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
+            }
+          },
+          "fullTranslation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan."
+        }
+      ],
+      "nativeMindset": {
+        "headline": "Checklist Anti-Salah Sebelum Menggunakan Pola Ini",
+        "psychologyExplanation": "Perbedaan negasi 没(有) untuk fakta objektif/lampau vs 不 untuk kebiasaan/kehendak, serta larangan menggabungkan 了 dengan kata kerja statif atau kebiasaan.",
+        "literalTrap": "Jangan menyamakan 了 (le) dengan \"sudah\" dalam bahasa Indonesia—了 menandai perubahan keadaan atau selesainya aksi relatif terhadap titik waktu cerita."
       }
     },
     {
       "type": "vocabulary-deck",
-      "title": "Korpus & Leksikon Kunci: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "title": "5. Tips, Trik & Leksikon Kunci: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
       "direction": "ltr",
       "totalCount": 1,
       "entries": [
@@ -87,19 +289,42 @@
           "term": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
           "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
           "meaning": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?",
-          "partOfSpeech": "syntax",
-          "patternNote": "Rumus terkait: X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
+          "partOfSpeech": "SYNTAX · Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan",
+          "patternNote": "Trik Penguasaan: Hafalkan setiap kosakata baru beserta nada dan kata penggolong (measure word) pasangannya sebagai satu paket bunyi utuh, bukan karakter terpisah. | Rumus: X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)",
           "exampleSentence": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
           "exampleTranslation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan?"
         }
       ]
     },
     {
+      "type": "dialogue-theater",
+      "title": "6. Nuansa Konteks & Simulasi Percakapan: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "contextSituation": "Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
+      "registerLevel": "Sastra, Filologi & Keindahan Bahasa · Tingkat Perkuliahan · Konteks Autentik",
+      "direction": "ltr",
+      "turns": [
+        {
+          "speaker": "Lín Lǎoshī (林老师)",
+          "line": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "translation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan? — (Penerapan langsung pola \"X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)\")",
+          "grammarHighlight": "X 者，Y 也 (Definisi Klasik) + 之 (Pronomina/Modifikator)"
+        },
+        {
+          "speaker": "Chén Míng (陈明)",
+          "line": "学而时习之，不亦说乎？ (Analects 1.1 — Konfusius)",
+          "reading": "Xué ér shí xí zhī, bú yì yuè hū?",
+          "translation": "Belajar dan senantiasa melatihnya, bukankah itu membahagiakan? — (Pengulangan aktif dengan pelafalan alami)",
+          "grammarHighlight": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)"
+        }
+      ]
+    },
+    {
       "type": "rhetoric-stylistics",
-      "title": "Kajian Sastra & Estetika Bahasa: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
+      "title": "Kajian Sastra & Estetika Stilistika: Gramatika Wényánwén (文言文): Partikel Klasik 之, 乎, 者, 也, 矣, 焉 & Konfusius",
       "traditionName": "Modern Standard Mandarin (Putonghua) & Sinology",
       "direction": "ltr",
-      "overview": "Kurikulum sastra Tionghoa tingkat universitas: gramatika klasik dan prosodi puisi",
+      "overview": "Kurikulum sastra Tionghoa tingkat universitas: gramatika klasik dan prosodi puisi. Perbedaan antara bahasa tulis formal/Chengyu (书面语 — ringkas dan padat) dengan bahasa lisan sehari-hari (口语 — kaya partikel modal 吧, 呢, 啊).",
       "devices": [
         {
           "deviceName": "Cabang Sastra & Filologi Tionghoa (Zhōngguó Gǔdiǎn Wénxué)",
