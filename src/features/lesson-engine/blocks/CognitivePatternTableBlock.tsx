@@ -13,11 +13,11 @@ interface CognitivePatternTableBlockProps {
 }
 
 const SEMANTIC_BADGE_STYLES: Record<ColumnSemanticColor, string> = {
-    violet: 'border-violet-500/30 bg-violet-500/10 text-violet-800 dark:text-violet-300',
-    cyan: 'border-cyan-500/30 bg-cyan-500/10 text-cyan-800 dark:text-cyan-300',
-    amber: 'border-amber-500/30 bg-amber-500/10 text-amber-800 dark:text-amber-300',
-    emerald: 'border-emerald-500/30 bg-emerald-500/10 text-emerald-800 dark:text-emerald-300',
-    rose: 'border-rose-500/30 bg-rose-500/10 text-rose-800 dark:text-rose-300',
+    violet: 'border-violet-500/35 bg-violet-500/12 text-violet-900 dark:text-violet-200',
+    cyan: 'border-cyan-500/35 bg-cyan-500/12 text-cyan-900 dark:text-cyan-200',
+    amber: 'border-amber-500/35 bg-amber-500/12 text-amber-900 dark:text-amber-200',
+    emerald: 'border-emerald-500/35 bg-emerald-500/12 text-emerald-900 dark:text-emerald-200',
+    rose: 'border-rose-500/35 bg-rose-500/12 text-rose-900 dark:text-rose-200',
 };
 
 const SCRIPT_CLASS_MAP: Record<LanguageCode, string> = {
@@ -28,28 +28,46 @@ const SCRIPT_CLASS_MAP: Record<LanguageCode, string> = {
     en: 'veloa-script-en',
 };
 
+/** Memastikan teks yang akan dibacakan benar-benar ekspresi bahasa target yang valid */
+function hasValidTargetSpeech(raw: string | undefined, lang: LanguageCode): string {
+    if (!raw) return '';
+    const trimmed = raw.trim();
+    if (!trimmed || trimmed === '—' || trimmed === '-') return '';
+    const cleaned = sanitizeTextForSpeech(trimmed, lang);
+    if (!cleaned || cleaned === '—' || cleaned === '-') return '';
+
+    if (lang === 'zh' || lang === 'ja') {
+        return /[\u3040-\u30ff\u3400-\u9fff]/.test(cleaned) ? cleaned : '';
+    }
+    if (lang === 'ko') {
+        return /[\uac00-\ud7af\u1100-\u11ff]/.test(cleaned) ? cleaned : '';
+    }
+    if (lang === 'ar') {
+        return /[\u0600-\u06ff]/.test(cleaned) ? cleaned : '';
+    }
+    return /[a-zA-Z]/.test(cleaned) ? cleaned : '';
+}
+
 function resolveRowSpeechText(
     columns: PatternTableData['columns'],
     row: PatternTableData['rows'][number],
     lang: LanguageCode,
 ): string {
-    // Prioritaskan kolom yang judulnya mengindikasikan kalimat/contoh utuh
-    const sentenceCol = columns.find((c) =>
-        /kalimat|contoh|sentence|example|full|bentuk|ekspresi|pola/i.test(c.roleLabel),
+    // 1. Prioritaskan kolom yang judulnya merujuk pada contoh/kalimat/realisasi target
+    const targetCol = columns.find((c) =>
+        /realisasi|kalimat|contoh|sentence|example|full|bentuk|ekspresi|pola/i.test(c.roleLabel),
     );
-    if (sentenceCol && row.cells[sentenceCol.key]?.script) {
-        const cleaned = sanitizeTextForSpeech(row.cells[sentenceCol.key]!.script, lang);
-        if (cleaned) return cleaned;
+    if (targetCol) {
+        const valid = hasValidTargetSpeech(row.cells[targetCol.key]?.script, lang);
+        if (valid) return valid;
     }
 
-    // Cek dari kolom terakhir ke pertama untuk menemukan sel yang berisi aksara target valid
+    // 2. Fallback: cek kolom paling kanan (umumnya kolom hasil/realisasi) ke kiri
     for (let i = columns.length - 1; i >= 0; i--) {
         const colKey = columns[i]?.key;
-        const raw = colKey ? row.cells[colKey]?.script : undefined;
-        if (raw) {
-            const cleaned = sanitizeTextForSpeech(raw, lang);
-            if (cleaned) return cleaned;
-        }
+        if (!colKey) continue;
+        const valid = hasValidTargetSpeech(row.cells[colKey]?.script, lang);
+        if (valid) return valid;
     }
 
     return '';
@@ -66,19 +84,31 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
     const isRtl = block.direction === 'rtl' || lang === 'ar';
     const scriptClass = SCRIPT_CLASS_MAP[lang];
 
-    const filteredRows = useMemo(() => {
+    const rowSpeechList = useMemo(
+        () => block.rows.map((row) => resolveRowSpeechText(block.columns, row, lang)),
+        [block.columns, block.rows, lang],
+    );
+
+    const hasAnySpeakableRow = useMemo(
+        () => isSupported && rowSpeechList.some((text) => text.length > 0),
+        [isSupported, rowSpeechList],
+    );
+
+    const filteredRowsWithSpeech = useMemo(() => {
         const q = filterQuery.trim().toLowerCase();
-        if (!q) return block.rows;
-        return block.rows.filter((row) => {
-            if (row.fullTranslation.toLowerCase().includes(q)) return true;
-            return Object.values(row.cells).some(
-                (cell) =>
-                    cell.script.toLowerCase().includes(q) ||
-                    (cell.reading && cell.reading.toLowerCase().includes(q)) ||
-                    (cell.gloss && cell.gloss.toLowerCase().includes(q)),
-            );
-        });
-    }, [block.rows, filterQuery]);
+        return block.rows
+            .map((row, idx) => ({ row, speechText: rowSpeechList[idx] ?? '' }))
+            .filter(({ row }) => {
+                if (!q) return true;
+                if (row.fullTranslation.toLowerCase().includes(q)) return true;
+                return Object.values(row.cells).some(
+                    (cell) =>
+                        cell.script.toLowerCase().includes(q) ||
+                        (cell.reading && cell.reading.toLowerCase().includes(q)) ||
+                        (cell.gloss && cell.gloss.toLowerCase().includes(q)),
+                );
+            });
+    }, [block.rows, rowSpeechList, filterQuery]);
 
     return (
         <section
@@ -143,7 +173,7 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                     </span>
                                 </th>
                             ))}
-                            {isSupported && (
+                            {hasAnySpeakableRow && (
                                 <th
                                     scope="col"
                                     className="w-28 px-4 py-3.5 text-right text-xs font-bold uppercase tracking-wider text-(--text-muted)"
@@ -155,18 +185,17 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                     </thead>
 
                     <tbody className="divide-y divide-(--border-subtle) bg-(--surface-card)">
-                        {filteredRows.length === 0 ? (
+                        {filteredRowsWithSpeech.length === 0 ? (
                             <tr>
                                 <td
-                                    colSpan={block.columns.length + (isSupported ? 1 : 0)}
+                                    colSpan={block.columns.length + (hasAnySpeakableRow ? 1 : 0)}
                                     className="px-4 py-8 text-center text-sm text-(--text-muted)"
                                 >
                                     Tidak ada pola yang cocok dengan pencarian “{filterQuery}”.
                                 </td>
                             </tr>
                         ) : (
-                            filteredRows.map((row) => {
-                                const speechText = resolveRowSpeechText(block.columns, row, lang);
+                            filteredRowsWithSpeech.map(({ row, speechText }) => {
                                 const normalKey = `${row.id}-normal`;
                                 const slowKey = `${row.id}-slow`;
 
@@ -182,43 +211,25 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                             }
 
                                             const isLastColumn = cIdx === block.columns.length - 1;
-                                            const cellAudioKey = `${row.id}-col-${col.key}`;
-                                            const cellCleanSpeech = sanitizeTextForSpeech(cell.script, lang);
-                                            const isCellPlaying = speakingKey === cellAudioKey;
+                                            const isTargetCell =
+                                                isLastColumn && hasValidTargetSpeech(cell.script, lang).length > 0;
 
                                             return (
                                                 <td
                                                     key={col.key}
-                                                    dir={isRtl ? 'rtl' : 'ltr'}
+                                                    dir={isRtl && isTargetCell ? 'rtl' : 'ltr'}
                                                     className="align-top px-4 py-4"
                                                 >
                                                     <div className="space-y-1.5">
-                                                        <div className="flex items-start justify-between gap-2">
-                                                            <p
-                                                                className={`${scriptClass} ${isLastColumn
-                                                                        ? 'text-base font-bold text-(--text-primary) sm:text-lg'
-                                                                        : 'text-sm font-semibold text-(--text-primary) sm:text-base'
-                                                                    }`}
-                                                            >
-                                                                {cell.script}
-                                                            </p>
-
-                                                            {isSupported && cellCleanSpeech.length > 0 && (
-                                                                <button
-                                                                    type="button"
-                                                                    dir="ltr"
-                                                                    onClick={() => speak(cell.script, lang, cellAudioKey, false)}
-                                                                    title={`Dengarkan kolom ${col.roleLabel}`}
-                                                                    aria-label={`Dengarkan ${cell.script}`}
-                                                                    className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border transition-colors ${isCellPlaying
-                                                                            ? 'border-(--accent-primary) bg-(--accent-primary) text-white'
-                                                                            : 'border-(--border-subtle) bg-(--surface-elevated)/70 text-(--text-muted) hover:border-(--accent-primary) hover:text-(--accent-primary)'
-                                                                        }`}
-                                                                >
-                                                                    <Volume2 className="h-3.5 w-3.5" aria-hidden="true" />
-                                                                </button>
-                                                            )}
-                                                        </div>
+                                                        <p
+                                                            className={
+                                                                isTargetCell
+                                                                    ? `${scriptClass} text-base font-bold text-(--text-primary) sm:text-lg`
+                                                                    : 'text-sm font-semibold leading-relaxed text-(--text-primary)'
+                                                            }
+                                                        >
+                                                            {cell.script}
+                                                        </p>
 
                                                         {showReadings && cell.reading && (
                                                             <p
@@ -242,8 +253,8 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
                                             );
                                         })}
 
-                                        {/* Kontrol Pelafalan Baris Utuh Normal & Lambat */}
-                                        {isSupported && (
+                                        {/* Kontrol Pelafalan Eksklusif untuk Contoh / Kalimat Target */}
+                                        {hasAnySpeakableRow && (
                                             <td className="align-top px-4 py-4 text-right">
                                                 {speechText && (
                                                     <div className="inline-flex items-center justify-end gap-1.5">
@@ -287,23 +298,23 @@ export const CognitivePatternTableBlock: React.FC<CognitivePatternTableBlockProp
             {/* Native Mindset & Literal Trap Box */}
             {block.nativeMindset && (
                 <div className="mt-6 grid gap-4 md:grid-cols-2">
-                    <div className="rounded-2xl border border-violet-500/25 bg-violet-500/10 p-5">
+                    <div className="rounded-2xl border border-violet-500/30 bg-violet-500/10 p-5">
                         <div className="mb-2 flex items-center gap-2 text-sm font-bold text-violet-900 dark:text-violet-200">
-                            <Brain className="h-4 w-4 shrink-0 text-violet-600 dark:text-violet-400" />
+                            <Brain className="h-4 w-4 shrink-0 text-violet-700 dark:text-violet-300" />
                             <span>{block.nativeMindset.headline}</span>
                         </div>
-                        <p className="text-sm leading-relaxed text-violet-950/90 dark:text-violet-100/90">
+                        <p className="text-sm leading-relaxed text-violet-950 dark:text-violet-100">
                             {block.nativeMindset.psychologyExplanation}
                         </p>
                     </div>
 
                     {block.nativeMindset.literalTrap && (
-                        <div className="rounded-2xl border border-rose-500/25 bg-rose-500/10 p-5">
+                        <div className="rounded-2xl border border-rose-500/30 bg-rose-500/10 p-5">
                             <div className="mb-2 flex items-center gap-2 text-sm font-bold text-rose-900 dark:text-rose-200">
-                                <AlertTriangle className="h-4 w-4 shrink-0 text-rose-600 dark:text-rose-400" />
+                                <AlertTriangle className="h-4 w-4 shrink-0 text-rose-700 dark:text-rose-300" />
                                 <span>Jebakan Terjemahan Harfiah (Waspada!)</span>
                             </div>
-                            <p className="text-sm leading-relaxed text-rose-950/90 dark:text-rose-100/90">
+                            <p className="text-sm leading-relaxed text-rose-950 dark:text-rose-100">
                                 {block.nativeMindset.literalTrap}
                             </p>
                         </div>

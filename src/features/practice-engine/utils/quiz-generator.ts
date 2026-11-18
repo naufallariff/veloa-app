@@ -26,6 +26,13 @@ interface RawPracticeCandidate {
     disableListening?: boolean;
 }
 
+const UNIVERSAL_CONCEPT_DISTRACTORS: readonly string[] = [
+    'Penanda urutan kronologis lampau yang hanya dipakai pada ragam sastra kuno',
+    'Partikel seru untuk menyatakan keraguan atau keterkejutan mendadak di akhir kalimat',
+    'Konjungsi pengandaian yang mengubah kata kerja menjadi bentuk pasif tidak langsung',
+    'Aturan penulisan tanda baca khusus untuk pemisahan kutipan dialog resmi',
+];
+
 function shuffleArray<T>(items: T[]): T[] {
     const copy = [...items];
     for (let i = copy.length - 1; i > 0; i--) {
@@ -51,7 +58,12 @@ function extractCandidatesFromModule(moduleData: LessonModule): RawPracticeCandi
     const pushCandidate = (candidate: RawPracticeCandidate) => {
         const normalizedScript = candidate.script.trim();
         const normalizedMeaning = candidate.meaning.trim();
-        if (!normalizedScript || !normalizedMeaning || seenScripts.has(normalizedScript)) {
+        if (
+            !normalizedScript ||
+            normalizedScript === '—' ||
+            !normalizedMeaning ||
+            seenScripts.has(normalizedScript)
+        ) {
             return;
         }
         seenScripts.add(normalizedScript);
@@ -175,6 +187,16 @@ function extractCandidatesFromModule(moduleData: LessonModule): RawPracticeCandi
         }
     }
 
+    // Fallback konseptual dari metadata modul jika kandidat masih sangat sedikit
+    if (candidates.length < 2) {
+        pushCandidate({
+            itemId: `${moduleData.id}-core-concept`,
+            script: moduleData.title,
+            meaning: moduleData.subtitle,
+            disableListening: true,
+        });
+    }
+
     return candidates;
 }
 
@@ -183,7 +205,7 @@ export function generatePracticeSession(
     questionCount = 10,
 ): PracticeQuestion[] {
     const candidates = extractCandidatesFromModule(moduleData);
-    if (candidates.length < 2) {
+    if (candidates.length === 0) {
         return [];
     }
 
@@ -198,7 +220,6 @@ export function generatePracticeSession(
             !target.reading!.includes('HSK') &&
             !target.reading!.startsWith('Standar:');
 
-        // Rotasi jenis soal agar variatif (Recognition, Listening, Reading)
         let kind: PracticeQuestionKind = 'recognition';
         if (idx % 3 === 1 && !target.disableListening) {
             kind = 'listening';
@@ -237,8 +258,7 @@ export function generatePracticeSession(
             }
         }
 
-        // Default untuk 'recognition' & 'listening': tebak makna / konsep yang tepat
-        const distractorMeanings = Array.from(
+        const moduleDistractorMeanings = Array.from(
             new Set(
                 candidates
                     .filter((c) => c.itemId !== target.itemId && c.meaning !== target.meaning)
@@ -246,7 +266,12 @@ export function generatePracticeSession(
             ),
         );
 
-        const distractors = shuffleArray(distractorMeanings).slice(0, 3);
+        const combinedPool = [
+            ...shuffleArray(moduleDistractorMeanings),
+            ...shuffleArray([...UNIVERSAL_CONCEPT_DISTRACTORS]),
+        ].filter((opt) => opt !== target.meaning);
+
+        const distractors = Array.from(new Set(combinedPool)).slice(0, 3);
         const isListening = kind === 'listening';
 
         questions.push({

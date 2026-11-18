@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "./veloa-tokens.css";
 
+/* Mengikat varian dark: Tailwind v4 secara eksplisit ke class .dark pada <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
 
     html,

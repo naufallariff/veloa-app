@@ -19,6 +19,17 @@ const SCRIPT_CLASS_MAP: Record<LanguageCode, string> = {
     en: 'veloa-script-en',
 };
 
+/** Memastikan tombol audio hanya muncul jika sampel berisi teks bahasa target (bukan tanda strip/penjelasan ID) */
+function isSpeakableTargetSample(text: string | undefined, lang: LanguageCode): boolean {
+    if (!text) return false;
+    const trimmed = text.trim();
+    if (!trimmed || trimmed === '—' || trimmed === '-') return false;
+    if (lang === 'zh' || lang === 'ja') return /[\u3040-\u30ff\u3400-\u9fff]/.test(trimmed);
+    if (lang === 'ko') return /[\uac00-\ud7af\u1100-\u11ff]/.test(trimmed);
+    if (lang === 'ar') return /[\u0600-\u06ff]/.test(trimmed);
+    return /[a-zA-Z]/.test(trimmed);
+}
+
 export const LinguisticLoreBlock: React.FC<LinguisticLoreBlockProps> = ({ block, lang }) => {
     const { speak, speakingKey, isSupported } = useSpeechPronunciation();
     const isRtl = block.direction === 'rtl' || lang === 'ar';
@@ -58,6 +69,7 @@ export const LinguisticLoreBlock: React.FC<LinguisticLoreBlockProps> = ({ block,
                     {block.milestones.map((item, idx) => {
                         const speechId = `lore-ms-${idx}`;
                         const isPlaying = speakingKey === speechId;
+                        const canSpeak = isSupported && isSpeakableTargetSample(item.scriptSample, lang);
 
                         return (
                             <article
@@ -90,7 +102,7 @@ export const LinguisticLoreBlock: React.FC<LinguisticLoreBlockProps> = ({ block,
                                         >
                                             {item.scriptSample}
                                         </p>
-                                        {isSupported && (
+                                        {canSpeak && (
                                             <button
                                                 type="button"
                                                 onClick={() => speak(item.scriptSample ?? '', lang, speechId)}
@@ -136,7 +148,7 @@ export const LinguisticLoreBlock: React.FC<LinguisticLoreBlockProps> = ({ block,
                                     <p className="text-sm leading-relaxed text-(--text-secondary)">
                                         {rule.definition}
                                     </p>
-                                    <div className="rounded-xl bg-amber-500/10 px-3.5 py-2.5 text-xs leading-relaxed text-amber-800 dark:text-amber-300">
+                                    <div className="rounded-xl border border-amber-500/25 bg-amber-500/10 px-3.5 py-2.5 text-xs leading-relaxed text-amber-900 dark:text-amber-200">
                                         <span className="font-bold">Mengapa Penting: </span>
                                         {rule.whyItMatters}
                                     </div>
@@ -165,15 +177,15 @@ export const LinguisticLoreBlock: React.FC<LinguisticLoreBlockProps> = ({ block,
 
             {/* Tips & Fakta Penutur Asli */}
             {block.funFactsAndTips && block.funFactsAndTips.length > 0 && (
-                <aside className="rounded-2xl border border-emerald-500/25 bg-emerald-500/10 p-5">
-                    <div className="mb-2.5 flex items-center gap-2 text-sm font-bold text-emerald-800 dark:text-emerald-300">
+                <aside className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-5">
+                    <div className="mb-2.5 flex items-center gap-2 text-sm font-bold text-emerald-900 dark:text-emerald-300">
                         <Lightbulb className="h-4 w-4 shrink-0" aria-hidden="true" />
                         <span>Catatan Lapangan & Tips Penutur Asli</span>
                     </div>
-                    <ul className="space-y-2 text-sm leading-relaxed text-emerald-950/90 dark:text-emerald-100/90">
+                    <ul className="space-y-2 text-sm leading-relaxed text-emerald-950 dark:text-emerald-100">
                         {block.funFactsAndTips.map((tip, tIdx) => (
                             <li key={tIdx} className="flex items-start gap-2.5">
-                                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500" />
+                                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-600 dark:bg-emerald-400" />
                                 <span>{tip}</span>
                             </li>
                         ))}
