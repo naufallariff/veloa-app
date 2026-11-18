@@ -13,6 +13,7 @@ import {
     Feather,
     GraduationCap,
     Grid,
+    Layers,
     Library,
     Search,
     Sparkles,
@@ -39,6 +40,7 @@ interface LearningHubViewProps {
 
 type HubMode = 'ROADMAP' | 'SCRIPT_LAB';
 const PAGE_SIZE = 3;
+const CARD_INDICES = [0, 1, 2, 3, 4, 5] as const;
 
 interface BranchPanelProps {
     branch: CurriculumBranch;
@@ -46,6 +48,7 @@ interface BranchPanelProps {
     onToggleExpand: () => void;
     onOpenModule: (moduleId: string) => void;
     isModuleCompleted: (moduleId: string) => boolean;
+    isBlockCompleted: (moduleId: string, blockIndex: number) => boolean;
 }
 
 const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
@@ -54,6 +57,7 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
     onToggleExpand,
     onOpenModule,
     isModuleCompleted,
+    isBlockCompleted,
 }) => {
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [currentPage, setCurrentPage] = useState<number>(1);
@@ -173,6 +177,11 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
                         <div className="space-y-2.5">
                             {paginatedModules.map((mod) => {
                                 const done = isModuleCompleted(mod.id);
+                                const cardsDone = CARD_INDICES.filter((idx) =>
+                                    isBlockCompleted(mod.id, idx),
+                                ).length;
+                                const isInProgress = !done && cardsDone > 0;
+
                                 return (
                                     <article
                                         key={mod.id}
@@ -188,7 +197,9 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
                                         }}
                                         className={`veloa-pressable group flex cursor-pointer items-start justify-between gap-3 rounded-xl border p-3 text-start transition-all ${done
                                                 ? 'border-emerald-500/40 bg-emerald-500/5'
-                                                : 'border-(--border-subtle) bg-(--surface-card) hover:border-(--accent-primary)'
+                                                : isInProgress
+                                                    ? 'border-amber-500/40 bg-amber-500/5'
+                                                    : 'border-(--border-subtle) bg-(--surface-card) hover:border-(--accent-primary)'
                                             }`}
                                     >
                                         <div className="min-w-0 space-y-1">
@@ -196,9 +207,23 @@ const BranchAccordionPanel: React.FC<BranchPanelProps> = ({
                                                 <span className="rounded bg-(--accent-primary-soft) px-1.5 py-0.5 font-mono text-[10px] font-bold text-(--accent-primary)">
                                                     {mod.pillar}
                                                 </span>
-                                                <span className="text-[11px] text-(--text-muted)">
-                                                    {mod.entryCount} entri · ±{mod.estimatedMinutes} mnt
+
+                                                <span
+                                                    className={`inline-flex items-center gap-1 rounded px-1.5 py-0.5 font-mono text-[10px] font-bold ${done || cardsDone === 6
+                                                            ? 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300'
+                                                            : isInProgress
+                                                                ? 'bg-amber-500/15 text-amber-800 dark:text-amber-300'
+                                                                : 'bg-(--surface-elevated) text-(--text-muted)'
+                                                        }`}
+                                                >
+                                                    <Layers className="h-2.5 w-2.5" />
+                                                    <span>{done ? '6/6' : `${cardsDone}/6`} kartu</span>
                                                 </span>
+
+                                                <span className="text-[11px] text-(--text-muted)">
+                                                    ±{mod.estimatedMinutes} mnt
+                                                </span>
+
                                                 {done && (
                                                     <span className="inline-flex items-center gap-0.5 text-[11px] font-bold text-emerald-700 dark:text-emerald-300">
                                                         <CheckCircle2 className="h-3 w-3" />
@@ -273,7 +298,7 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
     const [openStageIds, setOpenStageIds] = useState<Record<string, boolean>>({});
     const [openBranchIds, setOpenBranchIds] = useState<Record<string, boolean>>({});
 
-    const { completedModuleIds, isModuleCompleted } = useLessonProgress();
+    const { completedModuleIds, isModuleCompleted, isBlockCompleted } = useLessonProgress();
     const tree = CURRICULUM_TREES[selectedLang];
     const langMeta =
         LANGUAGE_OPTIONS.find((item) => item.code === selectedLang) ?? LANGUAGE_OPTIONS[0]!;
@@ -295,9 +320,14 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
     const stats = useMemo(() => {
         const total = langModules.length;
         const completed = langModules.filter((m) => completedModuleIds.includes(m.id)).length;
+        const inProgress = langModules.filter(
+            (m) =>
+                !completedModuleIds.includes(m.id) &&
+                CARD_INDICES.some((idx) => isBlockCompleted(m.id, idx)),
+        ).length;
         const entries = langModules.reduce((acc, m) => acc + m.entryCount, 0);
-        return { total, completed, entries };
-    }, [langModules, completedModuleIds]);
+        return { total, completed, inProgress, entries };
+    }, [langModules, completedModuleIds, isBlockCompleted]);
 
     const renderStageNode = (
         stage: CurriculumStageGroup,
@@ -317,7 +347,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
 
         return (
             <section key={stage.id} className={`overflow-hidden transition-all ${cardTheme}`}>
-                {/* Header Kartu Tahapan (Khusus Sastra memakai gradien ungu pada header saja, bukan membungkus drawer) */}
                 <button
                     type="button"
                     aria-expanded={isStageOpen}
@@ -377,7 +406,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                     </div>
                 </button>
 
-                {/* Drawer Cabang dengan Kontras Terjaga (Light & Dark Mode) */}
                 {isStageOpen && (
                     <div className="space-y-3 border-t border-(--border-subtle) bg-(--surface-canvas)/70 p-4 text-(--text-primary) sm:p-5">
                         {stage.branches.map((branch) => (
@@ -388,6 +416,7 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 onToggleExpand={() => toggleBranch(branch.id)}
                                 onOpenModule={onOpenModule}
                                 isModuleCompleted={isModuleCompleted}
+                                isBlockCompleted={isBlockCompleted}
                             />
                         ))}
                     </div>
@@ -456,11 +485,16 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                     <section className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-(--border-subtle) bg-(--surface-card) p-4 text-xs">
                         <div className="flex flex-wrap items-center gap-4">
                             <span className="text-(--text-secondary)">
-                                Progres:{' '}
+                                Selesai:{' '}
                                 <strong className="text-(--text-primary)">
                                     {stats.completed}/{stats.total} modul
                                 </strong>
                             </span>
+                            {stats.inProgress > 0 && (
+                                <span className="rounded-full bg-amber-500/15 px-2.5 py-0.5 font-semibold text-amber-800 dark:text-amber-300">
+                                    {stats.inProgress} sedang dipelajari
+                                </span>
+                            )}
                             <span className="inline-flex items-center gap-1.5 text-(--text-secondary)">
                                 <BookOpen className="h-4 w-4 text-(--accent-primary)" />
                                 <span>
@@ -485,15 +519,9 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                         </div>
                     </section>
 
-                    {/* ================================================================
-              GRAFIS 2-SISI TERSTRUKTUR:
-              KIRI (5 Kolom): Pondasi -> (Putus-putus) -> Kamus & Korpus Praktis
-              KANAN (7 Kolom): Alur Utama Jenjang Dasar–Mahir -> (Solid) -> Sastra & Filologi
-             ================================================================ */}
                     <div className="grid items-start gap-6 lg:grid-cols-12">
-                        {/* SISI KIRI (5 Kolom): Pondasi -> Kamus (Terhenti di Kamus, tidak ke Sastra) */}
+                        {/* SISI KIRI (5 Kolom): Pondasi -> Kamus */}
                         <div className="space-y-0 lg:col-span-5">
-                            {/* 1. PONDASI FUNDAMENTAL */}
                             <div className="space-y-3">
                                 {tree.foundationStages.map((st) => renderStageNode(st, 'FOUNDATION'))}
                                 <button
@@ -506,7 +534,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 </button>
                             </div>
 
-                            {/* PENGHUBUNG PUTUS-PUTUS: Pondasi -> Kamus */}
                             <div className="flex flex-col items-center py-2.5 text-amber-600 dark:text-amber-400">
                                 <div className="h-7 border-s-2 border-dashed border-amber-500/70" />
                                 <span className="rounded-full border border-dashed border-amber-500/50 bg-amber-500/10 px-2.5 py-0.5 text-[10px] font-bold">
@@ -515,13 +542,12 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 <ArrowDown className="h-4 w-4" />
                             </div>
 
-                            {/* 2. KAMUS & KORPUS PRAKTIS (Mandiri, tanpa garis ke Sastra) */}
                             <div className="space-y-3">
                                 {tree.dictionaryStages.map((st) => renderStageNode(st, 'DICTIONARY'))}
                             </div>
                         </div>
 
-                        {/* SISI KANAN (7 Kolom): Alur Utama Berjenjang -> Advanced -> Sastra & Filologi */}
+                        {/* SISI KANAN (7 Kolom): Alur Utama Berjenjang -> Sastra */}
                         <div className="space-y-0 lg:col-span-7">
                             <div className="mb-3 flex items-center gap-2 rounded-2xl border border-(--border-strong) bg-(--accent-primary-soft) px-4 py-2.5 text-xs font-bold text-(--accent-primary)">
                                 <ArrowRight className="h-4 w-4 shrink-0" />
@@ -534,7 +560,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 <React.Fragment key={stage.id}>
                                     {renderStageNode(stage, 'PROGRESSION')}
 
-                                    {/* Garis Penghubung Solid Antar-Jenjang & menuju Sastra */}
                                     <div className="flex flex-col items-center py-2 text-(--accent-primary)">
                                         <div className="h-6 border-s-2 border-solid border-(--accent-primary)" />
                                         {idx === tree.progressionStages.length - 1 && (
@@ -547,7 +572,6 @@ export const LearningHubView: React.FC<LearningHubViewProps> = ({
                                 </React.Fragment>
                             ))}
 
-                            {/* 3. SASTRA, FILOLOGI & KEINDAHAN BAHASA (Berada langsung di bawah Advanced) */}
                             <div className="space-y-3">
                                 {tree.literatureStages.map((st) => renderStageNode(st, 'LITERATURE'))}
                             </div>

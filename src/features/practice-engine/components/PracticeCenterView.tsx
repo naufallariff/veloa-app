@@ -1,6 +1,7 @@
 // src/features/practice-engine/components/PracticeCenterView.tsx
 import React, { useCallback, useMemo, useState } from 'react';
 import {
+    BookmarkCheck,
     BrainCircuit,
     CheckCircle2,
     Headphones,
@@ -14,6 +15,7 @@ import {
     loadLessonModule,
     prefetchLessonModule,
 } from '@/features/lesson-engine/services/module-loader';
+import { enrichLessonModule } from '@/features/lesson-engine/utils/enrich-lesson-module';
 import { PaginatedDataView } from '@/components/ui/PaginatedDataView';
 import { useMasteryEngine } from '../hooks/useMasteryEngine';
 import { useStudyVault } from '../hooks/useStudyVault';
@@ -27,7 +29,7 @@ interface PracticeCenterViewProps {
 
 export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selectedLang }) => {
     const { totalAnswered, accuracyPercent, srsRecords } = useMasteryEngine();
-    const { resolvedDueSrs, isResolving } = useStudyVault(true);
+    const { resolvedDueSrs, resolvedBookmarked, isResolving } = useStudyVault(true);
 
     const [isSrsModalOpen, setIsSrsModalOpen] = useState(false);
     const [srsScope, setSrsScope] = useState<'LANG' | 'ALL'>('LANG');
@@ -45,11 +47,16 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
         [resolvedDueSrs, selectedLang],
     );
 
+    const bookmarkedForActiveLang = useMemo(
+        () => resolvedBookmarked.filter((item) => item.lang === selectedLang),
+        [resolvedBookmarked, selectedLang],
+    );
+
     const handleLaunchModuleDrill = async (moduleId: string) => {
         setLoadingModuleId(moduleId);
         try {
-            const mod = await loadLessonModule(moduleId);
-            setActiveDrillModule(mod);
+            const rawMod = await loadLessonModule(moduleId);
+            setActiveDrillModule(enrichLessonModule(rawMod));
         } finally {
             setLoadingModuleId(null);
         }
@@ -96,7 +103,7 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                     <div className="space-y-2">
                         <span className="inline-flex items-center gap-1.5 rounded-full bg-white/18 px-3 py-1 text-xs font-bold">
                             <Sparkles className="h-3.5 w-3.5" />
-                            <span>Antrean Memori SM-2 ({langMeta.name})</span>
+                            <span>Antrean Memori SM-2 & Bookmark ({langMeta.name})</span>
                         </span>
 
                         <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
@@ -109,8 +116,8 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
 
                         <p className="text-sm leading-relaxed text-white/90">
                             {dueForActiveLang.length > 0
-                                ? 'Ulangi kartu kosakata dan pola aksara yang mendekati kurva lupa untuk menguncinya ke memori jangka panjang.'
-                                : 'Belum ada item jatuh tempo untuk bahasa ini. Pilih modul di bawah untuk memulai sesi Active Recall baru.'}
+                                ? 'Ulangi kartu kosakata yang kamu simpan (bookmark) dan pola aksara yang mendekati kurva lupa untuk menguncinya ke memori jangka panjang.'
+                                : 'Belum ada item jatuh tempo untuk bahasa ini. Tandai kosakata di materi atau pilih modul di bawah untuk memulai sesi Active Recall.'}
                         </p>
                     </div>
 
@@ -169,14 +176,22 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                         </div>
                     </div>
 
-                    <p className="mt-4 flex items-center gap-2 text-xs text-(--text-secondary)">
-                        <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
-                        <span>Total {totalAnswered.toLocaleString('id-ID')} soal latihan diselesaikan</span>
-                    </p>
+                    <div className="mt-4 space-y-1.5 text-xs text-(--text-secondary)">
+                        <p className="flex items-center gap-2">
+                            <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
+                            <span>Total {totalAnswered.toLocaleString('id-ID')} soal latihan diselesaikan</span>
+                        </p>
+                        <p className="flex items-center gap-2">
+                            <BookmarkCheck className="h-4 w-4 shrink-0 text-(--accent-primary)" />
+                            <span>
+                                {bookmarkedForActiveLang.length} kartu tersimpan di Study Vault {langMeta.name}
+                            </span>
+                        </p>
+                    </div>
                 </div>
             </section>
 
-            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif (Paginated + Searchable) */}
+            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif */}
             <section aria-label="Pilih modul untuk latihan cepat" className="space-y-4">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                     <h2 className="text-lg font-extrabold text-(--text-primary)">

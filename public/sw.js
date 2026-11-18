@@ -1,5 +1,5 @@
 /* public/sw.js */
-const CACHE_VERSION = 'veloa-v1.0.0';
+const CACHE_VERSION = 'veloa-v1.1.0';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 
@@ -10,9 +10,20 @@ const CORE_ASSETS = [
     '/icons/veloa-icon.svg',
 ];
 
+const PRECACHE_BATCH_SIZE = 6;
+
 self.addEventListener('install', (event) => {
     event.waitUntil(
-        caches.open(STATIC_CACHE).then((cache) => cache.addAll(CORE_ASSETS)),
+        caches.open(STATIC_CACHE).then(async (cache) => {
+            await Promise.allSettled(
+                CORE_ASSETS.map(async (assetUrl) => {
+                    const response = await fetch(assetUrl, { cache: 'reload' });
+                    if (response.ok) {
+                        await cache.put(assetUrl, response);
+                    }
+                }),
+            );
+        }),
     );
 });
 
@@ -31,6 +42,43 @@ self.addEventListener('activate', (event) => {
     );
 });
 
+async function precacheInBatches(urls) {
+    const cache = await caches.open(CONTENT_CACHE);
+    let completed = 0;
+
+    for (let i = 0; i < urls.length; i += PRECACHE_BATCH_SIZE) {
+        const batch = urls.slice(i, i + PRECACHE_BATCH_SIZE);
+        await Promise.allSettled(
+            batch.map(async (url) => {
+                try {
+                    const response = await fetch(url, { cache: 'reload' });
+                    if (response.ok) {
+                        await cache.put(url, response);
+                    }
+                } catch {
+                    // Abaikan URL yang gagal saat jaringan tidak stabil
+                } finally {
+                    completed += 1;
+                }
+            }),
+        );
+
+        const clients = await self.clients.matchAll();
+        for (const client of clients) {
+            client.postMessage({
+                type: 'PRECACHE_PROGRESS',
+                completed,
+                total: urls.length,
+            });
+        }
+    }
+
+    const clients = await self.clients.matchAll();
+    for (const client of clients) {
+        client.postMessage({ type: 'PRECACHE_COMPLETE', count: completed });
+    }
+}
+
 self.addEventListener('message', (event) => {
     const data = event.data;
     if (!data || typeof data !== 'object') return;
@@ -41,24 +89,7 @@ self.addEventListener('message', (event) => {
     }
 
     if (data.type === 'PRECACHE_URLS' && Array.isArray(data.urls)) {
-        event.waitUntil(
-            caches.open(CONTENT_CACHE).then(async (cache) => {
-                for (const url of data.urls) {
-                    try {
-                        const response = await fetch(url, { cache: 'reload' });
-                        if (response.ok) {
-                            await cache.put(url, response);
-                        }
-                    } catch {
-                        // Abaikan URL yang gagal saat jaringan tidak stabil
-                    }
-                }
-                const clients = await self.clients.matchAll();
-                for (const client of clients) {
-                    client.postMessage({ type: 'PRECACHE_COMPLETE', count: data.urls.length });
-                }
-            }),
-        );
+        event.waitUntil(precacheInBatches(data.urls));
     }
 });
 
@@ -74,13 +105,22 @@ self.addEventListener('fetch', (event) => {
         event.respondWith(
             fetch(request)
                 .then((response) => {
-                    const copy = response.clone();
-                    caches.open(STATIC_CACHE).then((cache) => cache.put('/index.html', copy));
+                    if (response.ok) {
+                        const copy = response.clone();
+                        caches.open(STATIC_CACHE).then((cache) => cache.put('/index.html', copy));
+                    }
                     return response;
                 })
                 .catch(async () => {
                     const cached = await caches.match('/index.html');
-                    return cached || new Response('Offline', { status: 503, statusText: 'Offline' });
+                    return (
+                        cached ||
+                        new Response('Aplikasi sedang offline. Silakan periksa koneksi internet Anda.', {
+                            status: 503,
+                            statusText: 'Service Unavailable',
+                            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+                        })
+                    );
                 }),
         );
         return;
@@ -104,7 +144,7 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // 3. Data Kurikulum / JSON / Aset Lainnya -> Stale-While-Revalidate
+    // 3. Data Kurikulum / JSON / Aset Lainnya -> Stale-While-Revalidate + Safe Offline Response
     event.respondWith(
         caches.match(request).then((cached) => {
             const networkFetch = fetch(request)
@@ -115,7 +155,20 @@ self.addEventListener('fetch', (event) => {
                     }
                     return response;
                 })
-                .catch(() => cached);
+                .catch(() => {
+                    if (cached) return cached;
+                    return new Response(
+                        JSON.stringify({
+                            error: 'OFFLINE_UNAVAILABLE',
+                            message: 'Materi ini belum tersimpan di penyimpanan offline.',
+                        }),
+                        {
+                            status: 503,
+                            statusText: 'Service Unavailable',
+                            headers: { 'Content-Type': 'application/json; charset=utf-8' },
+                        },
+                    );
+                });
 
             return cached || networkFetch;
         }),

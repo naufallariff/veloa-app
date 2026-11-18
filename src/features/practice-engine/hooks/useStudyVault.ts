@@ -4,6 +4,7 @@ import { CURRICULUM_MANIFEST } from '@/content/curriculum-manifest';
 import type { LanguageCode, LessonModule } from '@/features/lesson-engine/schema/lesson.schema';
 import { loadLessonModule } from '@/features/lesson-engine/services/module-loader';
 import { useLessonProgress } from '@/features/lesson-engine/hooks/useLessonProgress';
+import { enrichLessonModule } from '@/features/lesson-engine/utils/enrich-lesson-module';
 import { useMasteryEngine, type ItemSrsRecord } from './useMasteryEngine';
 
 export interface ResolvedStudyItem {
@@ -19,11 +20,12 @@ export interface ResolvedStudyItem {
     isDueForReview: boolean;
 }
 
-export interface VelòaBackupPayload {
+export interface VeloaBackupPayload {
     schemaVersion: 'veloa-backup-v1';
     exportedAt: string;
     progress: {
         completedModuleIds: string[];
+        completedBlockKeys?: string[];
         bookmarkedEntryIds: string[];
         lastVisitedModuleId: string | null;
     };
@@ -36,7 +38,10 @@ export interface VelòaBackupPayload {
     };
 }
 
-function indexModuleItems(mod: LessonModule): Map<string, Omit<ResolvedStudyItem, 'srsRecord' | 'isDueForReview'>> {
+function indexModuleItems(
+    rawMod: LessonModule,
+): Map<string, Omit<ResolvedStudyItem, 'srsRecord' | 'isDueForReview'>> {
+    const mod = enrichLessonModule(rawMod);
     const map = new Map<string, Omit<ResolvedStudyItem, 'srsRecord' | 'isDueForReview'>>();
 
     for (const block of mod.blocks) {
@@ -97,6 +102,61 @@ function indexModuleItems(mod: LessonModule): Map<string, Omit<ResolvedStudyItem
                     categoryLabel: block.registerLevel,
                 });
             });
+        } else if (block.type === 'linguistic-lore') {
+            block.milestones.forEach((m, idx) => {
+                const msId = `${mod.id}-milestone-${idx}`;
+                map.set(msId, {
+                    id: msId,
+                    lang: mod.lang,
+                    moduleId: mod.id,
+                    moduleTitle: mod.title,
+                    script: m.scriptSample || m.stage,
+                    reading: m.reading,
+                    meaning: `${m.stage}: ${m.explanation}`,
+                    categoryLabel: block.eraOrDomain,
+                });
+            });
+
+            block.structuralRules.forEach((rule, idx) => {
+                const ruleId = `${mod.id}-rule-${idx}`;
+                map.set(ruleId, {
+                    id: ruleId,
+                    lang: mod.lang,
+                    moduleId: mod.id,
+                    moduleTitle: mod.title,
+                    script: rule.conceptName,
+                    reading: rule.examples[0],
+                    meaning: rule.definition,
+                    categoryLabel: block.eraOrDomain,
+                });
+            });
+        } else if (block.type === 'rhetoric-stylistics') {
+            block.devices.forEach((dev, idx) => {
+                const devId = `${mod.id}-device-${idx}`;
+                map.set(devId, {
+                    id: devId,
+                    lang: mod.lang,
+                    moduleId: mod.id,
+                    moduleTitle: mod.title,
+                    script: dev.literaryExample || dev.nativeTerm,
+                    reading: dev.reading ?? dev.nativeTerm,
+                    meaning: `${dev.deviceName} — ${dev.translation}`,
+                    categoryLabel: block.traditionName,
+                });
+            });
+            block.dialectAndSlangNotes.forEach((noteItem, idx) => {
+                const dialectId = `${mod.id}-dialect-${idx}`;
+                map.set(dialectId, {
+                    id: dialectId,
+                    lang: mod.lang,
+                    moduleId: mod.id,
+                    moduleTitle: mod.title,
+                    script: noteItem.sampleExpression,
+                    reading: noteItem.standardEquivalent,
+                    meaning: `${noteItem.meaning} (${noteItem.varietyName})`,
+                    categoryLabel: noteItem.regionOrContext,
+                });
+            });
         }
     }
 
@@ -107,7 +167,7 @@ function inferModuleIdsFromItemIds(itemIds: string[]): string[] {
     const modIds = new Set<string>();
 
     for (const id of itemIds) {
-        // 1. Cocokkan prefix modul langsung
+        // 1. Cocokkan prefix modul langsung (termasuk -supp-, -pad-, -milestone-, -rule-, dll.)
         const directMatch = CURRICULUM_MANIFEST.find((m) => id.startsWith(m.id));
         if (directMatch) {
             modIds.add(directMatch.id);
@@ -136,7 +196,8 @@ function inferModuleIdsFromItemIds(itemIds: string[]): string[] {
 }
 
 export function useStudyVault(enabled: boolean) {
-    const { completedModuleIds, bookmarkedEntryIds, lastVisitedModuleId } = useLessonProgress();
+    const { completedModuleIds, completedBlockKeys, bookmarkedEntryIds, lastVisitedModuleId } =
+        useLessonProgress();
     const { xp, streakDays, totalAnswered, totalCorrect, srsRecords } = useMasteryEngine();
 
     const [resolvedBookmarked, setResolvedBookmarked] = useState<ResolvedStudyItem[]>([]);
@@ -147,9 +208,13 @@ export function useStudyVault(enabled: boolean) {
         if (!enabled) return;
 
         const now = Date.now();
-        const dueIds = Object.values(srsRecords)
+        const explicitDueIds = Object.values(srsRecords)
             .filter((rec) => rec.nextReviewAt <= now)
             .map((rec) => rec.itemId);
+
+        // Item yang di-bookmark tetapi belum pernah diuji otomatis dianggap siap ulang kaji
+        const bookmarkedUnreviewedIds = bookmarkedEntryIds.filter((bId) => !srsRecords[bId]);
+        const dueIds = Array.from(new Set([...explicitDueIds, ...bookmarkedUnreviewedIds]));
 
         const allTargetIds = Array.from(new Set([...bookmarkedEntryIds, ...dueIds]));
         if (allTargetIds.length === 0) {
@@ -190,15 +255,15 @@ export function useStudyVault(enabled: boolean) {
                 nextBookmarks.push({
                     ...base,
                     srsRecord: srs,
-                    isDueForReview: Boolean(srs && srs.nextReviewAt <= now),
+                    isDueForReview: !srs || srs.nextReviewAt <= now,
                 });
             }
 
             const nextDue: ResolvedStudyItem[] = [];
             for (const dId of dueIds) {
                 const base = globalItemLookup.get(dId);
+                if (!base) continue;
                 const srs = srsRecords[dId];
-                if (!base || !srs) continue;
                 nextDue.push({
                     ...base,
                     srsRecord: srs,
@@ -217,11 +282,12 @@ export function useStudyVault(enabled: boolean) {
     }, [enabled, bookmarkedEntryIds, srsRecords]);
 
     const exportBackupJson = useCallback((): string => {
-        const payload: VelòaBackupPayload = {
+        const payload: VeloaBackupPayload = {
             schemaVersion: 'veloa-backup-v1',
             exportedAt: new Date().toISOString(),
             progress: {
                 completedModuleIds,
+                completedBlockKeys,
                 bookmarkedEntryIds,
                 lastVisitedModuleId,
             },
@@ -236,6 +302,7 @@ export function useStudyVault(enabled: boolean) {
         return JSON.stringify(payload, null, 2);
     }, [
         completedModuleIds,
+        completedBlockKeys,
         bookmarkedEntryIds,
         lastVisitedModuleId,
         xp,
@@ -247,7 +314,7 @@ export function useStudyVault(enabled: boolean) {
 
     const importBackupJson = useCallback((rawJson: string): { ok: boolean; message: string } => {
         try {
-            const parsed = JSON.parse(rawJson) as Partial<VelòaBackupPayload>;
+            const parsed = JSON.parse(rawJson) as Partial<VeloaBackupPayload>;
             if (parsed.schemaVersion !== 'veloa-backup-v1' || !parsed.progress || !parsed.mastery) {
                 return {
                     ok: false,
@@ -260,6 +327,9 @@ export function useStudyVault(enabled: boolean) {
                 JSON.stringify({
                     completedModuleIds: Array.isArray(parsed.progress.completedModuleIds)
                         ? parsed.progress.completedModuleIds
+                        : [],
+                    completedBlockKeys: Array.isArray(parsed.progress.completedBlockKeys)
+                        ? parsed.progress.completedBlockKeys
                         : [],
                     bookmarkedEntryIds: Array.isArray(parsed.progress.bookmarkedEntryIds)
                         ? parsed.progress.bookmarkedEntryIds

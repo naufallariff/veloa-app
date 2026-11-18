@@ -27,13 +27,20 @@ interface HomeDashboardViewProps {
     onNavigateSection: (section: AppSectionId) => void;
 }
 
+const CARD_INDICES = [0, 1, 2, 3, 4, 5] as const;
+
 export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
     selectedLang,
     onOpenModule,
     onNavigateSection,
 }) => {
-    const { completedModuleIds, bookmarkedEntryIds, lastVisitedModuleId, isModuleCompleted } =
-        useLessonProgress();
+    const {
+        completedModuleIds,
+        bookmarkedEntryIds,
+        lastVisitedModuleId,
+        isModuleCompleted,
+        isBlockCompleted,
+    } = useLessonProgress();
     const { totalAnswered, accuracyPercent, getDueCountForLanguage } = useMasteryEngine();
 
     const langMeta =
@@ -49,18 +56,22 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
     const completionPercent =
         langModules.length > 0 ? Math.round((completedInLang / langModules.length) * 100) : 0;
 
-    // Tentukan modul fokus utama: modul terakhir yang dibuka pada bahasa ini, atau modul pertama yang belum selesai
     const primaryFocusModule = useMemo(() => {
         if (lastVisitedModuleId) {
             const visited = getManifestItemById(lastVisitedModuleId);
-            if (visited && visited.lang === selectedLang) {
+            if (visited && visited.lang === selectedLang && !completedModuleIds.includes(visited.id)) {
                 return visited;
             }
         }
         return langModules.find((m) => !completedModuleIds.includes(m.id)) ?? langModules[0];
     }, [lastVisitedModuleId, selectedLang, langModules, completedModuleIds]);
 
-    // 3 Rekomendasi modul berikutnya yang belum selesai
+    const primaryCardsDone = useMemo(() => {
+        if (!primaryFocusModule) return 0;
+        if (isModuleCompleted(primaryFocusModule.id)) return 6;
+        return CARD_INDICES.filter((idx) => isBlockCompleted(primaryFocusModule.id, idx)).length;
+    }, [primaryFocusModule, isModuleCompleted, isBlockCompleted]);
+
     const recommendedModules = useMemo(() => {
         return langModules
             .filter((m) => !completedModuleIds.includes(m.id) && m.id !== primaryFocusModule?.id)
@@ -75,11 +86,20 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
             <section aria-label="Sesi belajar utama" className="grid gap-5 lg:grid-cols-12">
                 <div className="veloa-aurora-card flex flex-col justify-between p-6 sm:p-8 lg:col-span-8">
                     <div className="space-y-3">
-                        <div className="inline-flex items-center gap-2 rounded-full bg-white/18 px-3.5 py-1 text-xs font-bold backdrop-blur-xs">
-                            <span>{langMeta.shortCode}</span>
-                            <span>·</span>
-                            <span>{langMeta.name}</span>
-                            <span className="opacity-85">({langMeta.framework})</span>
+                        <div className="flex flex-wrap items-center gap-2">
+                            <div className="inline-flex items-center gap-2 rounded-full bg-white/18 px-3.5 py-1 text-xs font-bold backdrop-blur-xs">
+                                <span>{langMeta.shortCode}</span>
+                                <span>·</span>
+                                <span>{langMeta.name}</span>
+                                <span className="opacity-85">({langMeta.framework})</span>
+                            </div>
+
+                            {primaryFocusModule && (
+                                <span className="inline-flex items-center gap-1.5 rounded-full bg-white/18 px-3 py-1 font-mono text-xs font-bold text-white">
+                                    <Layers className="h-3.5 w-3.5" />
+                                    <span>{primaryCardsDone}/6 Kartu Dipahami</span>
+                                </span>
+                            )}
                         </div>
 
                         <h1 className="text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-3xl">
@@ -105,8 +125,8 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
                             >
                                 <Play className="h-4 w-4 fill-current" />
                                 <span>
-                                    {lastVisitedModuleId === primaryFocusModule.id
-                                        ? 'Lanjutkan Modul Ini'
+                                    {primaryCardsDone > 0 || lastVisitedModuleId === primaryFocusModule.id
+                                        ? `Lanjutkan Modul (${primaryCardsDone}/6 Kartu)`
                                         : 'Mulai Belajar Sekarang'}
                                 </span>
                             </button>
@@ -185,7 +205,7 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
                         <div className="mt-4">
                             <p className="text-sm font-bold text-(--text-primary)">Learning Hub</p>
                             <p className="mt-0.5 text-xs text-(--text-secondary)">
-                                {langModules.length} modul & jalur paralel
+                                {langModules.length} modul &amp; jalur paralel
                             </p>
                         </div>
                     </button>
@@ -201,7 +221,7 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
                         <div className="mt-4">
                             <p className="text-sm font-bold text-(--text-primary)">Practice Center</p>
                             <p className="mt-0.5 text-xs text-(--text-secondary)">
-                                Active Recall & SRS ({dueSrsCount} due)
+                                Active Recall &amp; SRS ({dueSrsCount} due)
                             </p>
                         </div>
                     </button>
@@ -262,6 +282,10 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
                     <div className="grid gap-4 md:grid-cols-3">
                         {recommendedModules.map((mod) => {
                             const done = isModuleCompleted(mod.id);
+                            const cardsDone = done
+                                ? 6
+                                : CARD_INDICES.filter((idx) => isBlockCompleted(mod.id, idx)).length;
+
                             return (
                                 <article
                                     key={mod.id}
@@ -299,11 +323,11 @@ export const HomeDashboardView: React.FC<HomeDashboardViewProps> = ({
                                     </div>
 
                                     <div className="mt-4 flex items-center justify-between border-t border-(--border-subtle) pt-3 text-xs font-semibold">
-                                        <span className="text-(--text-muted)">
-                                            {mod.entryCount.toLocaleString('id-ID')} entri
+                                        <span className="font-mono text-(--text-muted)">
+                                            {cardsDone}/6 kartu · {mod.entryCount.toLocaleString('id-ID')} entri
                                         </span>
                                         <span className="text-(--accent-primary)">
-                                            {done ? 'Tinjau Ulang →' : 'Buka Modul →'}
+                                            {done ? 'Tinjau Ulang →' : cardsDone > 0 ? 'Lanjutkan →' : 'Buka Modul →'}
                                         </span>
                                     </div>
                                 </article>
