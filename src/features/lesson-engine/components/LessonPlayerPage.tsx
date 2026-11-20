@@ -1,5 +1,5 @@
 // src/features/lesson-engine/components/LessonPlayerPage.tsx
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import {
     AlertCircle,
     ArrowLeft,
@@ -9,15 +9,12 @@ import {
     CheckCircle2,
     Circle,
     Clock,
-    Eye,
-    EyeOff,
     GraduationCap,
     Info,
     Layers,
     ListTree,
     Loader2,
     RotateCcw,
-    Search,
     Sparkles,
 } from 'lucide-react';
 import type { LanguageCode, LessonBlock, LessonModule } from '../schema/lesson.schema';
@@ -30,18 +27,27 @@ import {
 } from '../services/module-loader';
 import { useLessonProgress } from '../hooks/useLessonProgress';
 import { LessonBlockRenderer } from './LessonBlockRenderer';
+import { VeloaGuideBanner } from './VeloaGuideBanner';
 import { ActiveRecallArena } from '@/features/practice-engine/components/ActiveRecallArena';
+import type { LessonHeaderContext } from '@/shared/ui/AppShellLayout';
 
 interface LessonPlayerPageProps {
     moduleId: string;
     onBackToHub: () => void;
     onSelectModule: (nextModuleId: string) => void;
-    onOpenQuickSearch: () => void;
+    onHeaderContextChange?: (context: LessonHeaderContext | null) => void;
 }
 
 const LANG_META: Record<
     LanguageCode,
-    { name: string; native: string; bcp47: string; framework: string; speakerA: string; speakerB: string }
+    {
+        name: string;
+        native: string;
+        bcp47: string;
+        framework: string;
+        speakerA: string;
+        speakerB: string;
+    }
 > = {
     en: {
         name: 'English',
@@ -188,10 +194,6 @@ function extractCleanTopicName(rawTitle: string): string {
     return beforeColon;
 }
 
-/**
- * Mengumpulkan contoh bahasa target autentik dari seluruh blok yang tersedia di dalam modul
- * sehingga kartu pelengkap & kuis latihan selalu berisi materi nyata (tidak pernah kosong / '—').
- */
 function collectAllSamplesFromBlocks(mod: LessonModule): ExtractedSample[] {
     const results: ExtractedSample[] = [];
     const seen = new Set<string>();
@@ -228,7 +230,9 @@ function collectAllSamplesFromBlocks(mod: LessonModule): ExtractedSample[] {
                     target: e.term,
                     reading: e.reading ?? '',
                     meaning: e.meaning,
-                    note: e.exampleSentence ? `${e.exampleSentence} — ${e.exampleTranslation ?? ''}` : e.patternNote,
+                    note: e.exampleSentence
+                        ? `${e.exampleSentence} — ${e.exampleTranslation ?? ''}`
+                        : e.patternNote,
                 });
             }
         } else if (b.type === 'script-matrix') {
@@ -279,7 +283,6 @@ function collectAllSamplesFromBlocks(mod: LessonModule): ExtractedSample[] {
         }
     }
 
-    // Fallback jika modul hanya memiliki judul bahasa target di kurung (mis. "是, 很, 有")
     if (results.length === 0) {
         const topicName = extractCleanTopicName(mod.title);
         pushSample({
@@ -292,10 +295,6 @@ function collectAllSamplesFromBlocks(mod: LessonModule): ExtractedSample[] {
     return results;
 }
 
-/**
- * Menjamin seluruh 250 modul di 5 bahasa menyajikan minimal 6 struktur materi lengkap
- * tanpa menghapus data korpus asli.
- */
 function ensureSixStructuredBlocks(mod: LessonModule): LessonBlock[] {
     if (mod.blocks.length >= 6) {
         return mod.blocks;
@@ -424,7 +423,8 @@ function ensureSixStructuredBlocks(mod: LessonModule): LessonBlock[] {
                 meaning: s.meaning,
                 partOfSpeech: PILLAR_LABELS[mod.pillar].title,
                 patternNote:
-                    s.note ?? `Trik: Dengarkan pelafalan lambat (0.72x) lalu ulangi dengan suara lantang.`,
+                    s.note ??
+                    `Trik: Dengarkan pelafalan lambat (0.72x) lalu ulangi dengan suara lantang.`,
                 exampleSentence: s.target,
                 exampleTranslation: s.meaning,
             })),
@@ -500,7 +500,7 @@ export const LessonPlayerPage: React.FC<LessonPlayerPageProps> = ({
     moduleId,
     onBackToHub,
     onSelectModule,
-    onOpenQuickSearch,
+    onHeaderContextChange,
 }) => {
     const [moduleData, setModuleData] = useState<LessonModule | null>(null);
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -556,11 +556,8 @@ export const LessonPlayerPage: React.FC<LessonPlayerPageProps> = ({
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [moduleId, isPracticeMode]);
 
-    const langInfo = moduleData
-        ? LANG_META[moduleData.lang]
-        : manifestMeta
-            ? LANG_META[manifestMeta.lang]
-            : LANG_META.en;
+    const activeLangCode: LanguageCode = moduleData?.lang ?? manifestMeta?.lang ?? 'en';
+    const langInfo = LANG_META[activeLangCode];
     const tierInfo = moduleData ? TIER_LABELS[moduleData.tier] : null;
     const pillarInfo = moduleData ? PILLAR_LABELS[moduleData.pillar] : null;
 
@@ -589,11 +586,74 @@ export const LessonPlayerPage: React.FC<LessonPlayerPageProps> = ({
         );
     }, [structuredBlocks, isBlockCompleted, moduleId]);
 
+    const handleTogglePhoneticAid = useCallback(() => {
+        setHidePhoneticAid((prev) => !prev);
+    }, []);
+
+    const handleTogglePracticeMode = useCallback(() => {
+        setIsPracticeMode((prev) => !prev);
+    }, []);
+
+    const handleToggleModuleCompleted = useCallback(() => {
+        toggleModuleCompleted(moduleId);
+    }, [toggleModuleCompleted, moduleId]);
+
+    // Sinkronkan kontrol modul ke Floating Navbar di AppShellLayout
+    useEffect(() => {
+        if (!onHeaderContextChange) return;
+
+        const tierBadge = moduleData
+            ? TIER_LABELS[moduleData.tier].badge
+            : manifestMeta
+                ? TIER_LABELS[manifestMeta.tier].badge
+                : 'Modul Pembelajaran';
+
+        onHeaderContextChange({
+            moduleId,
+            lang: activeLangCode,
+            tierBadge,
+            completedCards: completedCardCount,
+            totalCards: structuredBlocks.length || 6,
+            isPracticeMode,
+            isModuleCompleted: completed,
+            showPhoneticToggle: Boolean(moduleData && !isLoading && moduleData.lang !== 'en'),
+            hidePhoneticAid,
+            onBackToHub,
+            onTogglePhoneticAid: handleTogglePhoneticAid,
+            onTogglePracticeMode: handleTogglePracticeMode,
+            onToggleModuleCompleted: handleToggleModuleCompleted,
+        });
+    }, [
+        onHeaderContextChange,
+        moduleId,
+        activeLangCode,
+        moduleData,
+        manifestMeta,
+        completedCardCount,
+        structuredBlocks.length,
+        isPracticeMode,
+        completed,
+        isLoading,
+        hidePhoneticAid,
+        onBackToHub,
+        handleTogglePhoneticAid,
+        handleTogglePracticeMode,
+        handleToggleModuleCompleted,
+    ]);
+
+    useEffect(() => {
+        return () => {
+            onHeaderContextChange?.(null);
+        };
+    }, [onHeaderContextChange]);
+
     const sectionAnchors = useMemo(() => {
         return structuredBlocks.map((block, index) => {
             const meta = SIX_CARD_PEDAGOGY[index];
             const fallbackTitle =
-                'title' in block && typeof block.title === 'string' ? block.title : `Bagian ${index + 1}`;
+                'title' in block && typeof block.title === 'string'
+                    ? block.title
+                    : `Bagian ${index + 1}`;
             return {
                 id: `lesson-block-${index}`,
                 index,
@@ -613,437 +673,361 @@ export const LessonPlayerPage: React.FC<LessonPlayerPageProps> = ({
     };
 
     return (
-        <div className="veloa-ambient-backdrop min-h-screen pb-24 text-(--text-primary) lg:pb-12">
-            {/* ====================================================================
-          STICKY TRANSLUCENT TOP BAR (Mobile & Desktop)
-         ==================================================================== */}
-            <header className="veloa-glass-chrome sticky top-0 z-30 border-b border-(--border-subtle)">
-                <div className="mx-auto flex max-w-6xl items-center justify-between gap-2.5 px-4 py-3 sm:px-6">
-                    <div className="flex items-center gap-2">
-                        <button
-                            type="button"
-                            onClick={onBackToHub}
-                            className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl border border-(--border-subtle) bg-(--surface-card) px-3 text-xs font-semibold text-(--text-secondary) hover:border-(--border-strong) sm:px-3.5"
-                        >
-                            <ArrowLeft className="h-4 w-4 rtl:rotate-180" />
-                            <span>Kembali</span>
-                        </button>
-
-                        <button
-                            type="button"
-                            onClick={onOpenQuickSearch}
-                            aria-label="Buka pencarian cepat kurikulum"
-                            className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl border border-(--border-subtle) bg-(--surface-card) px-3 text-xs font-medium text-(--text-muted) hover:border-(--border-strong)"
-                        >
-                            <Search className="h-3.5 w-3.5 text-(--accent-primary)" />
-                            <span className="hidden sm:inline">Cari Materi</span>
-                            <kbd className="hidden rounded bg-(--surface-elevated) px-1.5 py-0.5 font-mono text-[10px] font-semibold text-(--text-secondary) md:inline">
-                                Ctrl K
-                            </kbd>
-                        </button>
-                    </div>
-
-                    {manifestMeta && (
-                        <div className="hidden items-center gap-2 text-xs text-(--text-muted) lg:flex">
-                            <span className="rounded-md bg-(--accent-primary-soft) px-2 py-0.5 font-mono font-bold uppercase text-(--accent-primary)">
-                                {langInfo.name} · {langInfo.native}
-                            </span>
-                            <span>·</span>
-                            <span>{TIER_LABELS[manifestMeta.tier].badge}</span>
-                            <span>·</span>
-                            <span>
-                                Progres Kartu: {completedCardCount}/{structuredBlocks.length}
-                            </span>
-                        </div>
-                    )}
-
-                    <div className="flex items-center gap-2">
-                        {moduleData && !isLoading && !isPracticeMode && moduleData.lang !== 'en' && (
-                            <button
-                                type="button"
-                                aria-pressed={hidePhoneticAid}
-                                onClick={() => setHidePhoneticAid((prev) => !prev)}
-                                title="Sembunyikan atau tampilkan romanisasi/pinyin/furigana untuk melatih membaca aksara asli"
-                                className={`veloa-tactile-btn inline-flex items-center gap-1.5 rounded-xl border px-3 text-xs font-semibold ${hidePhoneticAid
-                                        ? 'border-(--accent-primary) bg-(--accent-primary-soft) text-(--accent-primary)'
-                                        : 'border-(--border-subtle) bg-(--surface-card) text-(--text-secondary) hover:border-(--border-strong)'
-                                    }`}
-                            >
-                                {hidePhoneticAid ? <EyeOff className="h-3.5 w-3.5" /> : <Eye className="h-3.5 w-3.5" />}
-                                <span className="hidden md:inline">
-                                    {hidePhoneticAid ? 'Fonetik: Tersembunyi' : 'Fonetik: Tampil'}
-                                </span>
-                            </button>
-                        )}
-
-                        {enrichedModuleData && !isLoading && (
-                            <button
-                                type="button"
-                                onClick={() => setIsPracticeMode((prev) => !prev)}
-                                className={`veloa-tactile-btn hidden items-center gap-2 rounded-xl border px-3.5 text-xs font-semibold sm:inline-flex ${isPracticeMode
-                                        ? 'border-(--accent-primary) bg-(--accent-primary-soft) text-(--accent-primary)'
-                                        : 'border-(--accent-primary) bg-(--accent-primary) text-white hover:bg-(--accent-primary-hover)'
-                                    }`}
-                            >
-                                <BrainCircuit className="h-4 w-4" />
-                                <span>{isPracticeMode ? 'Kembali ke Materi' : 'Latih Modul Ini'}</span>
-                            </button>
-                        )}
-
-                        <button
-                            type="button"
-                            onClick={() => toggleModuleCompleted(moduleId)}
-                            aria-pressed={completed}
-                            className={`veloa-tactile-btn hidden items-center gap-2 rounded-xl border px-3.5 text-xs font-semibold sm:inline-flex ${completed
-                                    ? 'border-emerald-600 bg-emerald-600 text-white'
-                                    : 'border-(--border-subtle) bg-(--surface-card) text-(--text-primary) hover:border-(--border-strong)'
-                                }`}
-                        >
-                            {completed ? (
-                                <>
-                                    <CheckCircle2 className="h-4 w-4" />
-                                    <span>Selesai</span>
-                                </>
-                            ) : (
-                                <>
-                                    <Circle className="h-4 w-4 text-(--text-muted)" />
-                                    <span>Tandai Selesai</span>
-                                </>
-                            )}
-                        </button>
-                    </div>
+        <div className="mx-auto w-full max-w-6xl pb-16 lg:pb-8">
+            {isLoading ? (
+                <div
+                    role="status"
+                    aria-live="polite"
+                    className="veloa-surface-card flex flex-col items-center justify-center gap-3 py-24 text-center"
+                >
+                    <Loader2 className="h-8 w-8 animate-spin text-(--accent-primary)" />
+                    <p className="text-sm font-semibold text-(--text-primary)">
+                        Memuat modul pembelajaran...
+                    </p>
+                    <p className="text-xs text-(--text-muted)">
+                        Menyiapkan struktur aksara, fonetik, dan 6 kartu pembelajaran terstruktur
+                    </p>
                 </div>
-            </header>
-
-            {/* ====================================================================
-          MAIN LESSON STAGE
-         ==================================================================== */}
-            <main className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-10">
-                {isLoading ? (
-                    <div
-                        role="status"
-                        aria-live="polite"
-                        className="veloa-surface-card flex flex-col items-center justify-center gap-3 py-24 text-center"
-                    >
-                        <Loader2 className="h-8 w-8 animate-spin text-(--accent-primary)" />
-                        <p className="text-sm font-semibold text-(--text-primary)">
-                            Memuat modul pembelajaran...
-                        </p>
-                        <p className="text-xs text-(--text-muted)">
-                            Menyiapkan struktur aksara, fonetik, dan 6 kartu pembelajaran terstruktur
-                        </p>
+            ) : errorMessage ? (
+                <div
+                    role="alert"
+                    className="veloa-surface-card flex flex-col items-center justify-center gap-4 border-rose-500/30 py-16 text-center"
+                >
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-500/15 text-rose-600 dark:text-rose-400">
+                        <AlertCircle className="h-6 w-6" />
                     </div>
-                ) : errorMessage ? (
-                    <div
-                        role="alert"
-                        className="veloa-surface-card flex flex-col items-center justify-center gap-4 border-rose-500/30 py-16 text-center"
+                    <div className="space-y-1 px-4">
+                        <h2 className="text-base font-bold text-(--text-primary)">
+                            Gagal Membuka Modul
+                        </h2>
+                        <p className="max-w-md text-sm text-(--text-secondary)">{errorMessage}</p>
+                    </div>
+                    <button
+                        type="button"
+                        onClick={() => setReloadNonce((n) => n + 1)}
+                        className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl bg-(--accent-primary) px-5 text-xs font-semibold text-white"
                     >
-                        <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-500/15 text-rose-600 dark:text-rose-400">
-                            <AlertCircle className="h-6 w-6" />
-                        </div>
-                        <div className="space-y-1 px-4">
-                            <h2 className="text-base font-bold text-(--text-primary)">Gagal Membuka Modul</h2>
-                            <p className="max-w-md text-sm text-(--text-secondary)">{errorMessage}</p>
-                        </div>
-                        <button
-                            type="button"
-                            onClick={() => setReloadNonce((n) => n + 1)}
-                            className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl bg-(--accent-primary) px-5 text-xs font-semibold text-white"
+                        <RotateCcw className="h-4 w-4" />
+                        <span>Coba Muat Ulang</span>
+                    </button>
+                </div>
+            ) : enrichedModuleData ? (
+                isPracticeMode ? (
+                    <ActiveRecallArena
+                        moduleData={enrichedModuleData}
+                        onClose={() => setIsPracticeMode(false)}
+                    />
+                ) : (
+                    <>
+                        {/* 1. HERO CARD & PENJELASAN KONSEP BAHASAN MODUL */}
+                        <section
+                            aria-label="Informasi dan tujuan modul"
+                            className="veloa-surface-card mb-6 overflow-hidden"
                         >
-                            <RotateCcw className="h-4 w-4" />
-                            <span>Coba Muat Ulang</span>
-                        </button>
-                    </div>
-                ) : enrichedModuleData ? (
-                    isPracticeMode ? (
-                        <ActiveRecallArena
-                            moduleData={enrichedModuleData}
-                            onClose={() => setIsPracticeMode(false)}
-                        />
-                    ) : (
-                        <>
-                            {/* ============================================================
-                  1. HERO CARD & PENJELASAN KONSEP BAHASAN MODUL
-                 ============================================================ */}
-                            <section
-                                aria-label="Informasi dan tujuan modul"
-                                className="veloa-surface-card mb-8 overflow-hidden"
-                            >
-                                <div className="p-5 sm:p-8">
-                                    <div className="mb-4 flex flex-wrap items-center gap-2">
-                                        <span className="inline-flex items-center gap-1.5 rounded-full bg-(--accent-primary-soft) px-3 py-1 text-xs font-bold text-(--accent-primary)">
-                                            <GraduationCap className="h-3.5 w-3.5" />
-                                            <span>
-                                                {langInfo.name} · {tierInfo?.badge}
-                                            </span>
+                            <div className="p-5 sm:p-8">
+                                <div className="mb-4 flex flex-wrap items-center gap-2">
+                                    <span className="inline-flex items-center gap-1.5 rounded-full bg-(--accent-primary-soft) px-3 py-1 text-xs font-bold text-(--accent-primary)">
+                                        <GraduationCap className="h-3.5 w-3.5" />
+                                        <span>
+                                            {langInfo.name} · {tierInfo?.badge}
                                         </span>
+                                    </span>
 
-                                        <span className="inline-flex items-center gap-1.5 rounded-full border border-(--border-subtle) bg-(--surface-elevated) px-3 py-1 text-xs font-semibold text-(--text-secondary)">
-                                            <Layers className="h-3.5 w-3.5 text-(--accent-primary)" />
-                                            <span>{pillarInfo?.title}</span>
+                                    <span className="inline-flex items-center gap-1.5 rounded-full border border-(--border-subtle) bg-(--surface-elevated) px-3 py-1 text-xs font-semibold text-(--text-secondary)">
+                                        <Layers className="h-3.5 w-3.5 text-(--accent-primary)" />
+                                        <span>{pillarInfo?.title}</span>
+                                    </span>
+
+                                    <span className="inline-flex items-center gap-1.5 rounded-full border border-(--border-subtle) bg-(--surface-elevated) px-3 py-1 text-xs font-medium text-(--text-muted)">
+                                        <Clock className="h-3.5 w-3.5" />
+                                        <span>±{enrichedModuleData.estimatedMinutes} menit</span>
+                                    </span>
+
+                                    <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 font-mono text-xs font-semibold text-emerald-700 dark:text-emerald-300">
+                                        <CheckCircle2 className="h-3.5 w-3.5" />
+                                        <span>
+                                            {completedCardCount}/{structuredBlocks.length} Kartu
+                                            Dipahami
                                         </span>
+                                    </span>
+                                </div>
 
-                                        <span className="inline-flex items-center gap-1.5 rounded-full border border-(--border-subtle) bg-(--surface-elevated) px-3 py-1 text-xs font-medium text-(--text-muted)">
-                                            <Clock className="h-3.5 w-3.5" />
-                                            <span>±{enrichedModuleData.estimatedMinutes} menit</span>
-                                        </span>
+                                <h1
+                                    lang={langInfo.bcp47}
+                                    className="text-xl font-extrabold leading-snug tracking-tight text-(--text-primary) sm:text-3xl"
+                                >
+                                    {enrichedModuleData.title}
+                                </h1>
 
-                                        <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 font-mono text-xs font-semibold text-emerald-700 dark:text-emerald-300">
-                                            <CheckCircle2 className="h-3.5 w-3.5" />
-                                            <span>
-                                                {completedCardCount}/{structuredBlocks.length} Kartu Dipahami
-                                            </span>
-                                        </span>
-                                    </div>
+                                <p className="mt-2.5 max-w-3xl text-sm leading-relaxed text-(--text-secondary) sm:text-base">
+                                    {enrichedModuleData.subtitle}
+                                </p>
 
-                                    <h1
-                                        lang={langInfo.bcp47}
-                                        className="text-xl font-extrabold leading-snug tracking-tight text-(--text-primary) sm:text-3xl"
-                                    >
-                                        {enrichedModuleData.title}
-                                    </h1>
-
-                                    <p className="mt-2.5 max-w-3xl text-sm leading-relaxed text-(--text-secondary) sm:text-base">
-                                        {enrichedModuleData.subtitle}
-                                    </p>
-
-                                    {/* Kotak Penjelasan Singkat Konsep Topik Modul */}
-                                    <div className="mt-5 rounded-2xl border border-(--accent-primary)/25 bg-(--accent-primary-soft) p-4 sm:p-5">
-                                        <div className="flex items-start gap-3">
-                                            <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-(--accent-primary) text-white">
-                                                <Info className="h-4 w-4" aria-hidden="true" />
-                                            </div>
-                                            <div className="space-y-1">
-                                                <h2 className="text-xs font-extrabold uppercase tracking-wider text-(--accent-primary) sm:text-sm">
-                                                    Apa Itu “{cleanTopicName}”?
-                                                </h2>
-                                                <p className="text-xs leading-relaxed text-(--text-primary) sm:text-sm">
-                                                    Dalam bahasa <strong>{langInfo.name}</strong> ({langInfo.framework}),{' '}
-                                                    <strong>{cleanTopicName}</strong> adalah materi pada pilar{' '}
-                                                    <em>{pillarInfo?.title}</em> yang membahas cara{' '}
-                                                    {enrichedModuleData.subtitle.charAt(0).toLowerCase() +
-                                                        enrichedModuleData.subtitle.slice(1)}
-                                                    {enrichedModuleData.subtitle.endsWith('.') ? '' : '.'} Melalui 6 kartu
-                                                    terstruktur di bawah ini, kamu akan mempelajari rumus intinya, logika
-                                                    penutur asli, variasi contoh, pengecualian khusus, tips hafalan, hingga
-                                                    praktik percakapannya.
-                                                </p>
-                                            </div>
+                                <div className="mt-5 rounded-2xl border border-(--accent-primary)/25 bg-(--accent-primary-soft) p-4 sm:p-5">
+                                    <div className="flex items-start gap-3">
+                                        <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-(--accent-primary) text-white">
+                                            <Info className="h-4 w-4" aria-hidden="true" />
                                         </div>
-                                    </div>
-
-                                    {/* Strip Capaian Belajar & Konteks Kurikulum */}
-                                    <div className="mt-5 grid gap-3 border-t border-(--border-subtle) pt-5 sm:grid-cols-2">
-                                        <div className="rounded-xl border border-(--border-subtle) bg-(--surface-elevated)/65 p-3.5">
-                                            <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-(--accent-primary)">
-                                                <Sparkles className="h-3.5 w-3.5" />
-                                                <span>Capaian Pilar ({pillarInfo?.title})</span>
-                                            </p>
-                                            <p className="mt-1 text-xs leading-relaxed text-(--text-secondary)">
-                                                {pillarInfo?.outcome}
-                                            </p>
-                                        </div>
-
-                                        <div className="rounded-xl border border-(--border-subtle) bg-(--surface-elevated)/65 p-3.5">
-                                            <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-(--text-muted)">
-                                                <BookOpen className="h-3.5 w-3.5 text-(--accent-primary)" />
-                                                <span>Fokus Tahap Pembelajaran</span>
-                                            </p>
-                                            <p className="mt-1 text-xs leading-relaxed text-(--text-secondary)">
-                                                {tierInfo?.focus}
+                                        <div className="space-y-1">
+                                            <h2 className="text-xs font-extrabold uppercase tracking-wider text-(--accent-primary) sm:text-sm">
+                                                Apa Itu “{cleanTopicName}”?
+                                            </h2>
+                                            <p className="text-xs leading-relaxed text-(--text-primary) sm:text-sm">
+                                                Dalam bahasa <strong>{langInfo.name}</strong> (
+                                                {langInfo.framework}),{' '}
+                                                <strong>{cleanTopicName}</strong> adalah materi
+                                                pada pilar <em>{pillarInfo?.title}</em> yang
+                                                membahas cara{' '}
+                                                {enrichedModuleData.subtitle
+                                                    .charAt(0)
+                                                    .toLowerCase() +
+                                                    enrichedModuleData.subtitle.slice(1)}
+                                                {enrichedModuleData.subtitle.endsWith('.')
+                                                    ? ''
+                                                    : '.'}{' '}
+                                                Melalui 6 kartu terstruktur di bawah ini, kamu akan
+                                                mempelajari rumus intinya, logika penutur asli,
+                                                variasi contoh, pengecualian khusus, tips hafalan,
+                                                hingga praktik percakapannya.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
-                                {/* Bar Lompat Cepat Antar 6 Kartu Terstruktur */}
-                                {sectionAnchors.length > 0 && (
-                                    <div className="border-t border-(--border-subtle) bg-(--surface-elevated)/45 px-5 py-3.5 sm:px-8">
-                                        <div className="flex items-center gap-2 overflow-x-auto pb-1">
-                                            <span className="inline-flex shrink-0 items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-(--text-muted)">
-                                                <ListTree className="h-3.5 w-3.5 text-(--accent-primary)" />
-                                                <span>Struktur Materi ({sectionAnchors.length} Kartu):</span>
-                                            </span>
-                                            {sectionAnchors.map((sec) => (
-                                                <button
-                                                    key={sec.id}
-                                                    type="button"
-                                                    onClick={() => handleJumpToSection(sec.id)}
-                                                    title={sec.fullTitle}
-                                                    className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs font-semibold transition-colors ${sec.isDone
-                                                            ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300'
-                                                            : 'border-(--border-subtle) bg-(--surface-card) text-(--text-secondary) hover:border-(--accent-primary) hover:text-(--accent-primary)'
-                                                        }`}
-                                                >
-                                                    <span className="font-mono text-[10px] font-bold text-(--accent-primary)">
-                                                        0{sec.stepNumber}
-                                                    </span>
-                                                    <span className="max-w-44 truncate">{sec.shortLabel}</span>
-                                                    {sec.isDone && <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />}
-                                                </button>
-                                            ))}
-                                        </div>
+                                <div className="mt-5 grid gap-3 border-t border-(--border-subtle) pt-5 sm:grid-cols-2">
+                                    <div className="rounded-xl border border-(--border-subtle) bg-(--surface-elevated)/65 p-3.5">
+                                        <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-(--accent-primary)">
+                                            <Sparkles className="h-3.5 w-3.5" />
+                                            <span>Capaian Pilar ({pillarInfo?.title})</span>
+                                        </p>
+                                        <p className="mt-1 text-xs leading-relaxed text-(--text-secondary)">
+                                            {pillarInfo?.outcome}
+                                        </p>
                                     </div>
-                                )}
-                            </section>
 
-                            {/* ============================================================
-                  2. SELURUH 6 KARTU KONTEN TERSTRUKTUR
-                 ============================================================ */}
-                            <div
-                                data-hide-phonetic={hidePhoneticAid ? 'true' : 'false'}
-                                className="veloa-lesson-stage space-y-8"
-                            >
-                                {structuredBlocks.map((block, index) => {
-                                    const cardMeta = SIX_CARD_PEDAGOGY[index];
-                                    const cardDone = isBlockCompleted(moduleId, index);
-                                    const stepLabel = cardMeta
-                                        ? cardMeta.stepLabel
-                                        : `Kartu ${String(index + 1).padStart(2, '0')}/${String(structuredBlocks.length).padStart(2, '0')}`;
-                                    const roleTitle = cardMeta ? cardMeta.roleTitle : 'Pendalaman Materi Lanjutan';
-                                    const guidanceText = cardMeta
-                                        ? cardMeta.getGuidance(cleanTopicName, langInfo.name)
-                                        : `Eksplorasi lanjutan untuk menguasai topik "${cleanTopicName}".`;
-
-                                    return (
-                                        <div
-                                            key={`block-anchor-${index}`}
-                                            id={`lesson-block-${index}`}
-                                            className="scroll-mt-24 space-y-2.5"
-                                        >
-                                            <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-(--border-subtle) bg-(--surface-card)/90 px-4 py-3 shadow-2xs sm:px-5">
-                                                <div className="space-y-0.5">
-                                                    <div className="flex flex-wrap items-center gap-2">
-                                                        <span className="rounded-md bg-(--accent-primary) px-2 py-0.5 font-mono text-[11px] font-bold text-white">
-                                                            {stepLabel}
-                                                        </span>
-                                                        <span className="text-xs font-extrabold tracking-tight text-(--text-primary) sm:text-sm">
-                                                            {roleTitle}
-                                                        </span>
-                                                    </div>
-                                                    <p className="text-xs leading-relaxed text-(--text-secondary)">
-                                                        {guidanceText}
-                                                    </p>
-                                                </div>
-
-                                                <button
-                                                    type="button"
-                                                    onClick={() => toggleBlockCompleted(moduleId, index)}
-                                                    aria-pressed={cardDone}
-                                                    className={`veloa-tactile-btn inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-3 text-xs font-semibold ${cardDone
-                                                            ? 'border-emerald-600 bg-emerald-600 text-white'
-                                                            : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--accent-primary) hover:text-(--accent-primary)'
-                                                        }`}
-                                                >
-                                                    {cardDone ? (
-                                                        <>
-                                                            <CheckCircle2 className="h-3.5 w-3.5" />
-                                                            <span>Dipahami</span>
-                                                        </>
-                                                    ) : (
-                                                        <>
-                                                            <Circle className="h-3.5 w-3.5 text-(--text-muted)" />
-                                                            <span>Tandai Paham</span>
-                                                        </>
-                                                    )}
-                                                </button>
-                                            </div>
-
-                                            <LessonBlockRenderer blocks={[block]} lang={enrichedModuleData.lang} />
-                                        </div>
-                                    );
-                                })}
+                                    <div className="rounded-xl border border-(--border-subtle) bg-(--surface-elevated)/65 p-3.5">
+                                        <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-(--text-muted)">
+                                            <BookOpen className="h-3.5 w-3.5 text-(--accent-primary)" />
+                                            <span>Fokus Tahap Pembelajaran</span>
+                                        </p>
+                                        <p className="mt-1 text-xs leading-relaxed text-(--text-secondary)">
+                                            {tierInfo?.focus}
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
 
-                            {/* ============================================================
-                  3. CALLOUT UJI PEMAHAMAN DI AKHIR MATERI
-                 ============================================================ */}
-                            <section className="veloa-surface-card mt-10 flex flex-wrap items-center justify-between gap-4 border-(--border-strong) bg-(--accent-primary-soft) p-5 sm:p-6">
-                                <div className="space-y-1">
-                                    <h2 className="text-base font-extrabold text-(--text-primary)">
-                                        Uji Pemahaman & Kunci Memori Jangka Panjang
-                                    </h2>
-                                    <p className="max-w-2xl text-xs leading-relaxed text-(--text-secondary) sm:text-sm">
-                                        Jalankan 10 soal latihan acak (Recognition, Audio Listening & Reading) yang
-                                        dibuat otomatis dari materi modul ini.
-                                    </p>
+                            {sectionAnchors.length > 0 && (
+                                <div className="border-t border-(--border-subtle) bg-(--surface-elevated)/45 px-5 py-3.5 sm:px-8">
+                                    <div className="flex items-center gap-2 overflow-x-auto pb-1">
+                                        <span className="inline-flex shrink-0 items-center gap-1 text-[11px] font-bold uppercase tracking-wider text-(--text-muted)">
+                                            <ListTree className="h-3.5 w-3.5 text-(--accent-primary)" />
+                                            <span>
+                                                Struktur Materi ({sectionAnchors.length} Kartu):
+                                            </span>
+                                        </span>
+                                        {sectionAnchors.map((sec) => (
+                                            <button
+                                                key={sec.id}
+                                                type="button"
+                                                onClick={() => handleJumpToSection(sec.id)}
+                                                title={sec.fullTitle}
+                                                className={`inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs font-semibold transition-colors ${sec.isDone
+                                                    ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300'
+                                                    : 'border-(--border-subtle) bg-(--surface-card) text-(--text-secondary) hover:border-(--accent-primary) hover:text-(--accent-primary)'
+                                                    }`}
+                                            >
+                                                <span className="font-mono text-[10px] font-bold text-(--accent-primary)">
+                                                    0{sec.stepNumber}
+                                                </span>
+                                                <span className="max-w-44 truncate">
+                                                    {sec.shortLabel}
+                                                </span>
+                                                {sec.isDone && (
+                                                    <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
+                                                )}
+                                            </button>
+                                        ))}
+                                    </div>
                                 </div>
+                            )}
+                        </section>
 
+                        {/* 1B. PROLOG & CATATAN LAPANGAN PEMANDU VELOA */}
+                        {enrichedModuleData.veloaGuide && (
+                            <div className="mb-8">
+                                <VeloaGuideBanner
+                                    guide={enrichedModuleData.veloaGuide}
+                                    variant="intro"
+                                />
+                            </div>
+                        )}
+
+                        {/* 2. SELURUH 6 KARTU KONTEN TERSTRUKTUR */}
+                        <div
+                            data-hide-phonetic={hidePhoneticAid ? 'true' : 'false'}
+                            className="veloa-lesson-stage space-y-8"
+                        >
+                            {structuredBlocks.map((block, index) => {
+                                const cardMeta = SIX_CARD_PEDAGOGY[index];
+                                const cardDone = isBlockCompleted(moduleId, index);
+                                const stepLabel = cardMeta
+                                    ? cardMeta.stepLabel
+                                    : `Kartu ${String(index + 1).padStart(2, '0')}/${String(structuredBlocks.length).padStart(2, '0')}`;
+                                const roleTitle = cardMeta
+                                    ? cardMeta.roleTitle
+                                    : 'Pendalaman Materi Lanjutan';
+                                const guidanceText = cardMeta
+                                    ? cardMeta.getGuidance(cleanTopicName, langInfo.name)
+                                    : `Eksplorasi lanjutan untuk menguasai topik "${cleanTopicName}".`;
+
+                                return (
+                                    <div
+                                        key={`block-anchor-${index}`}
+                                        id={`lesson-block-${index}`}
+                                        className="scroll-mt-24 space-y-2.5"
+                                    >
+                                        <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-(--border-subtle) bg-(--surface-card)/90 px-4 py-3 shadow-2xs sm:px-5">
+                                            <div className="space-y-0.5">
+                                                <div className="flex flex-wrap items-center gap-2">
+                                                    <span className="rounded-md bg-(--accent-primary) px-2 py-0.5 font-mono text-[11px] font-bold text-white">
+                                                        {stepLabel}
+                                                    </span>
+                                                    <span className="text-xs font-extrabold tracking-tight text-(--text-primary) sm:text-sm">
+                                                        {roleTitle}
+                                                    </span>
+                                                </div>
+                                                <p className="text-xs leading-relaxed text-(--text-secondary)">
+                                                    {guidanceText}
+                                                </p>
+                                            </div>
+
+                                            <button
+                                                type="button"
+                                                onClick={() => toggleBlockCompleted(moduleId, index)}
+                                                aria-pressed={cardDone}
+                                                className={`veloa-tactile-btn inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-3 text-xs font-semibold ${cardDone
+                                                    ? 'border-emerald-600 bg-emerald-600 text-white'
+                                                    : 'border-(--border-subtle) bg-(--surface-elevated) text-(--text-secondary) hover:border-(--accent-primary) hover:text-(--accent-primary)'
+                                                    }`}
+                                            >
+                                                {cardDone ? (
+                                                    <>
+                                                        <CheckCircle2 className="h-3.5 w-3.5" />
+                                                        <span>Dipahami</span>
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        <Circle className="h-3.5 w-3.5 text-(--text-muted)" />
+                                                        <span>Tandai Paham</span>
+                                                    </>
+                                                )}
+                                            </button>
+                                        </div>
+
+                                        <LessonBlockRenderer
+                                            blocks={[block]}
+                                            lang={enrichedModuleData.lang}
+                                        />
+                                    </div>
+                                );
+                            })}
+                        </div>
+
+                        {/* 2B. EPILOG PENUTUP PEMANDU VELOA */}
+                        {enrichedModuleData.veloaGuide && (
+                            <div className="mt-8">
+                                <VeloaGuideBanner
+                                    guide={enrichedModuleData.veloaGuide}
+                                    variant="outro"
+                                />
+                            </div>
+                        )}
+
+                        {/* 3. CALLOUT UJI PEMAHAMAN DI AKHIR MATERI */}
+                        <section className="veloa-surface-card mt-8 flex flex-wrap items-center justify-between gap-4 border-(--border-strong) bg-(--accent-primary-soft) p-5 sm:p-6">
+                            <div className="space-y-1">
+                                <h2 className="text-base font-extrabold text-(--text-primary)">
+                                    Uji Pemahaman & Kunci Memori Jangka Panjang
+                                </h2>
+                                <p className="max-w-2xl text-xs leading-relaxed text-(--text-secondary) sm:text-sm">
+                                    Jalankan 10 soal latihan acak (Recognition, Audio Listening &
+                                    Reading) yang dibuat otomatis dari materi modul ini.
+                                </p>
+                            </div>
+
+                            <button
+                                type="button"
+                                onClick={() => setIsPracticeMode(true)}
+                                className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl bg-(--accent-primary) px-5 text-xs font-bold text-white shadow-xs hover:bg-(--accent-primary-hover)"
+                            >
+                                <BrainCircuit className="h-4 w-4" />
+                                <span>Mulai Sesi Latihan</span>
+                            </button>
+                        </section>
+
+                        {/* 4. NAVIGASI ANTAR MODUL */}
+                        <nav
+                            aria-label="Navigasi antar modul"
+                            className="mt-8 grid gap-4 border-t border-(--border-subtle) pt-8 sm:grid-cols-2"
+                        >
+                            {previous ? (
                                 <button
                                     type="button"
-                                    onClick={() => setIsPracticeMode(true)}
-                                    className="veloa-tactile-btn inline-flex items-center gap-2 rounded-xl bg-(--accent-primary) px-5 text-xs font-bold text-white shadow-xs hover:bg-(--accent-primary-hover)"
+                                    onClick={() => onSelectModule(previous.id)}
+                                    onMouseEnter={() => prefetchLessonModule(previous.id)}
+                                    className="veloa-surface-card veloa-tactile-btn flex flex-col items-start gap-1.5 p-5 text-start hover:border-(--border-strong)"
                                 >
-                                    <BrainCircuit className="h-4 w-4" />
-                                    <span>Mulai Sesi Latihan</span>
+                                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-(--text-muted)">
+                                        <ArrowLeft className="h-3.5 w-3.5 rtl:rotate-180" />
+                                        <span>Modul Sebelumnya</span>
+                                    </span>
+                                    <span className="line-clamp-2 text-sm font-bold text-(--text-primary)">
+                                        {previous.title}
+                                    </span>
                                 </button>
-                            </section>
+                            ) : (
+                                <div className="hidden sm:block" />
+                            )}
 
-                            {/* ============================================================
-                  4. NAVIGASI ANTAR MODUL (RTL & Mobile Safe)
-                 ============================================================ */}
-                            <nav
-                                aria-label="Navigasi antar modul"
-                                className="mt-8 grid gap-4 border-t border-(--border-subtle) pt-8 sm:grid-cols-2"
-                            >
-                                {previous ? (
-                                    <button
-                                        type="button"
-                                        onClick={() => onSelectModule(previous.id)}
-                                        onMouseEnter={() => prefetchLessonModule(previous.id)}
-                                        className="veloa-surface-card veloa-tactile-btn flex flex-col items-start gap-1.5 p-5 text-start hover:border-(--border-strong)"
-                                    >
-                                        <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-(--text-muted)">
-                                            <ArrowLeft className="h-3.5 w-3.5 rtl:rotate-180" />
-                                            <span>Modul Sebelumnya</span>
-                                        </span>
-                                        <span className="line-clamp-2 text-sm font-bold text-(--text-primary)">
-                                            {previous.title}
-                                        </span>
-                                    </button>
-                                ) : (
-                                    <div className="hidden sm:block" />
-                                )}
+                            {next ? (
+                                <button
+                                    type="button"
+                                    onClick={() => onSelectModule(next.id)}
+                                    onMouseEnter={() => prefetchLessonModule(next.id)}
+                                    className="veloa-surface-card veloa-tactile-btn flex flex-col items-end gap-1.5 p-5 text-end hover:border-(--accent-primary)"
+                                >
+                                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-(--accent-primary)">
+                                        <span>Lanjut ke Modul Berikutnya</span>
+                                        <ArrowRight className="h-3.5 w-3.5 rtl:rotate-180" />
+                                    </span>
+                                    <span className="line-clamp-2 text-sm font-bold text-(--text-primary)">
+                                        {next.title}
+                                    </span>
+                                </button>
+                            ) : (
+                                <button
+                                    type="button"
+                                    onClick={() => {
+                                        if (!completed) toggleModuleCompleted(moduleId);
+                                        onBackToHub();
+                                    }}
+                                    className="veloa-tactile-btn flex flex-col items-end justify-center gap-1 rounded-2xl bg-emerald-600 p-5 text-end text-white hover:bg-emerald-700"
+                                >
+                                    <span className="text-xs font-semibold opacity-95">
+                                        Rangkaian Modul Selesai
+                                    </span>
+                                    <span className="text-sm font-bold">
+                                        Kembali ke Learning Hub →
+                                    </span>
+                                </button>
+                            )}
+                        </nav>
+                    </>
+                )
+            ) : null}
 
-                                {next ? (
-                                    <button
-                                        type="button"
-                                        onClick={() => onSelectModule(next.id)}
-                                        onMouseEnter={() => prefetchLessonModule(next.id)}
-                                        className="veloa-surface-card veloa-tactile-btn flex flex-col items-end gap-1.5 p-5 text-end hover:border-(--accent-primary)"
-                                    >
-                                        <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-(--accent-primary)">
-                                            <span>Lanjut ke Modul Berikutnya</span>
-                                            <ArrowRight className="h-3.5 w-3.5 rtl:rotate-180" />
-                                        </span>
-                                        <span className="line-clamp-2 text-sm font-bold text-(--text-primary)">
-                                            {next.title}
-                                        </span>
-                                    </button>
-                                ) : (
-                                    <button
-                                        type="button"
-                                        onClick={() => {
-                                            if (!completed) toggleModuleCompleted(moduleId);
-                                            onBackToHub();
-                                        }}
-                                        className="veloa-tactile-btn flex flex-col items-end justify-center gap-1 rounded-2xl bg-emerald-600 p-5 text-end text-white hover:bg-emerald-700"
-                                    >
-                                        <span className="text-xs font-semibold opacity-95">
-                                            Rangkaian Modul Selesai
-                                        </span>
-                                        <span className="text-sm font-bold">Kembali ke Learning Hub →</span>
-                                    </button>
-                                )}
-                            </nav>
-                        </>
-                    )
-                ) : null}
-            </main>
-
-            {/* ====================================================================
-          MOBILE STICKY BOTTOM ACTION DOCK (< sm) — Ergonomic Thumb Zone
-         ==================================================================== */}
+            {/* MOBILE STICKY BOTTOM ACTION DOCK */}
             {enrichedModuleData && !isLoading && !errorMessage && (
                 <div className="veloa-glass-chrome fixed inset-x-0 bottom-0 z-30 border-t border-(--border-subtle) px-4 py-2.5 sm:hidden">
                     <div className="mx-auto flex max-w-md items-center gap-2.5">
@@ -1061,8 +1045,8 @@ export const LessonPlayerPage: React.FC<LessonPlayerPageProps> = ({
                             onClick={() => toggleModuleCompleted(moduleId)}
                             aria-pressed={completed}
                             className={`veloa-tactile-btn inline-flex items-center justify-center gap-1.5 rounded-xl border px-3.5 text-xs font-bold ${completed
-                                    ? 'border-emerald-600 bg-emerald-600 text-white'
-                                    : 'border-(--border-subtle) bg-(--surface-card) text-(--text-primary)'
+                                ? 'border-emerald-600 bg-emerald-600 text-white'
+                                : 'border-(--border-subtle) bg-(--surface-card) text-(--text-primary)'
                                 }`}
                         >
                             {completed ? (

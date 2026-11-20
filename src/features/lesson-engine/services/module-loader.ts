@@ -9,19 +9,12 @@ import {
     getAllTreeBlueprints,
     getExpandedCurriculumManifest,
 } from '@/content/curriculum-tree';
+import { supabase } from '@/lib/supabase';
 
-/**
- * Memuat seluruh file JSON modul secara lazy (code-splitting otomatis oleh Vite)
- * tanpa hardcode nama file satu per satu.
- */
 const MODULE_JSON_LOADERS = import.meta.glob<Record<string, unknown>>(
     '/src/content/modules/*.json',
 );
 
-/**
- * Peta penghubung antara ID node di pohon kurikulum baru dengan file JSON kaya
- * yang sudah tersedia di src/content/modules/.
- */
 const BLUEPRINT_TO_EXISTING_JSON_FILE: Readonly<Record<string, string>> = {
     // English
     'en-00-found-origin-history-phonetics': 'en-00-found-origin-history-phonetics.json',
@@ -118,6 +111,13 @@ const BLUEPRINT_TO_EXISTING_JSON_FILE: Readonly<Record<string, string>> = {
     'ko-lit-02-middle-korean': 'ko-09-native-rhetoric-susabeop-dialects.json',
 };
 
+export interface CloudModuleRecord {
+    id: string;
+    isPublished: boolean;
+    updatedAt: string;
+    module: LessonModule;
+}
+
 export class ModuleLoadError extends Error {
     public readonly code: 'NOT_FOUND' | 'VALIDATION_FAILED' | 'ABORTED';
     public readonly moduleId: string;
@@ -135,6 +135,7 @@ export class ModuleLoadError extends Error {
 }
 
 const validatedModuleCache = new Map<string, LessonModule>();
+const cloudModuleOverrides = new Map<string, CloudModuleRecord>();
 const EXPANDED_MANIFEST = getExpandedCurriculumManifest();
 const BLUEPRINT_INDEX = new Map(
     getAllTreeBlueprints().map((item) => [item.blueprint.id, item]),
@@ -145,7 +146,7 @@ function buildFallbackLoreModule(moduleId: string): LessonModule | null {
     if (!entry) return null;
 
     const { lang, stage, branch, blueprint } = entry;
-    const manifestItem = getManifestItemById(moduleId);
+    const manifestItem = EXPANDED_MANIFEST.find((item) => item.id === moduleId);
     const isRtl = lang === 'ar';
 
     const fallback: LessonModule = {
@@ -153,10 +154,16 @@ function buildFallbackLoreModule(moduleId: string): LessonModule | null {
         lang,
         tier: stage.legacyTier,
         pillar: blueprint.pillar,
-        order: manifestItem?.order ?? 1, // <-- Tambahkan baris ini
+        order: manifestItem?.order ?? 1,
         title: blueprint.title,
         subtitle: blueprint.subtitle,
         estimatedMinutes: blueprint.estimatedMinutes,
+        veloaGuide: {
+            intro: `Selamat datang di bab "${blueprint.title}". Kita akan membedah ${blueprint.subtitle.toLowerCase()} secara runtut agar langsung bisa dipakai di konteks nyata.`,
+            culturalContext: `${stage.stageBadge} · Cabang ${branch.title}`,
+            fieldNote: `Kunci utama bab ini terletak pada pola ${blueprint.focusFormula}. Perhatikan contoh "${blueprint.sampleTarget}" (${blueprint.sampleReading}) yang bermakna "${blueprint.sampleMeaning}".`,
+            outro: `Setelah menguasai pola inti di bab ini, lanjutkan ke modul berikutnya untuk memperluas variasi kalimat Anda.`,
+        },
         blocks: [
             {
                 type: 'linguistic-lore',
@@ -185,16 +192,122 @@ function buildFallbackLoreModule(moduleId: string): LessonModule | null {
     return LessonModuleSchema.parse(fallback);
 }
 
+/**
+ * Menyinkronkan modul hasil suntingan/buatan dari Supabase (custom_curriculum_modules)
+ * agar otomatis menggantikan atau melengkapi kurikulum lokal.
+ */
+export async function syncCloudCurriculumOverrides(): Promise<void> {
+    if (!supabase) return;
+
+    const { data, error } = await supabase
+        .from('custom_curriculum_modules')
+        .select('id, is_published, updated_at, content_json');
+
+    if (error || !data) return;
+
+    cloudModuleOverrides.clear();
+    for (const row of data) {
+        const parsed = LessonModuleSchema.safeParse(row.content_json);
+        if (parsed.success) {
+            cloudModuleOverrides.set(row.id, {
+                id: row.id,
+                isPublished: Boolean(row.is_published),
+                updatedAt: row.updated_at,
+                module: { ...parsed.data, id: row.id },
+            });
+            validatedModuleCache.delete(row.id);
+        }
+    }
+}
+
+export function invalidateModuleCache(moduleId?: string): void {
+    if (moduleId) {
+        validatedModuleCache.delete(moduleId);
+    } else {
+        validatedModuleCache.clear();
+    }
+}
+
+export function getCloudModuleRecord(moduleId: string): CloudModuleRecord | undefined {
+    return cloudModuleOverrides.get(moduleId);
+}
+
+export function getAllCloudModuleRecords(): readonly CloudModuleRecord[] {
+    return Array.from(cloudModuleOverrides.values());
+}
+
 export function getCurriculumManifest(): readonly CurriculumManifestItem[] {
-    return EXPANDED_MANIFEST;
+    const mergedMap = new Map<string, CurriculumManifestItem>();
+
+    for (const item of EXPANDED_MANIFEST) {
+        const override = cloudModuleOverrides.get(item.id);
+        if (override && override.isPublished) {
+            mergedMap.set(item.id, {
+                ...item,
+                lang: override.module.lang,
+                pillar: override.module.pillar,
+                tier: override.module.tier,
+                order: override.module.order,
+                title: override.module.title,
+                subtitle: override.module.subtitle,
+                estimatedMinutes: override.module.estimatedMinutes,
+            });
+        } else {
+            mergedMap.set(item.id, item);
+        }
+    }
+
+    // Tambahkan modul baru yang dibuat dari nol di Content Studio
+    for (const record of cloudModuleOverrides.values()) {
+        if (!mergedMap.has(record.id) && record.isPublished) {
+            const m = record.module;
+            mergedMap.set(record.id, {
+                id: m.id,
+                lang: m.lang,
+                pillar: m.pillar,
+                tier: m.tier,
+                order: m.order,
+                title: m.title,
+                subtitle: m.subtitle,
+                estimatedMinutes: m.estimatedMinutes,
+                dataPath: `cloud://${m.id}`,
+                entryCount: m.blocks.length * 6,
+                prerequisites: [],
+            });
+        }
+    }
+
+    return Array.from(mergedMap.values()).sort((a, b) => a.order - b.order);
 }
 
 export function getManifestByLanguage(lang: LanguageCode): readonly CurriculumManifestItem[] {
-    return EXPANDED_MANIFEST.filter((item) => item.lang === lang);
+    return getCurriculumManifest().filter((item) => item.lang === lang);
 }
 
 export function getManifestItemById(moduleId: string): CurriculumManifestItem | undefined {
-    return EXPANDED_MANIFEST.find((item) => item.id === moduleId);
+    const foundInManifest = getCurriculumManifest().find((item) => item.id === moduleId);
+    if (foundInManifest) return foundInManifest;
+
+    // Izinkan staff membuka draf modul kustom lewat Pratinjau Player
+    const draft = cloudModuleOverrides.get(moduleId);
+    if (draft) {
+        const m = draft.module;
+        return {
+            id: m.id,
+            lang: m.lang,
+            pillar: m.pillar,
+            tier: m.tier,
+            order: m.order,
+            title: m.title,
+            subtitle: m.subtitle,
+            estimatedMinutes: m.estimatedMinutes,
+            dataPath: `cloud://${m.id}`,
+            entryCount: m.blocks.length * 6,
+            prerequisites: [],
+        };
+    }
+
+    return undefined;
 }
 
 export function getAdjacentModules(moduleId: string): {
@@ -216,19 +329,10 @@ export function getAdjacentModules(moduleId: string): {
     };
 }
 
-export async function loadLessonModule(
-    moduleId: string,
-    signal?: AbortSignal,
-): Promise<LessonModule> {
-    if (signal?.aborted) {
-        throw new ModuleLoadError('ABORTED', moduleId, `Pemuatan modul "${moduleId}" dibatalkan.`);
-    }
-
-    const cached = validatedModuleCache.get(moduleId);
-    if (cached) {
-        return cached;
-    }
-
+/**
+ * Memuat modul versi asli dari JSON statis (digunakan Content Studio untuk membandingkan / reset).
+ */
+export async function loadBaseStaticModule(moduleId: string): Promise<LessonModule> {
     const mappedFilename =
         BLUEPRINT_TO_EXISTING_JSON_FILE[moduleId] ?? `${moduleId}.json`;
     const loader = MODULE_JSON_LOADERS[`/src/content/modules/${mappedFilename}`];
@@ -246,13 +350,13 @@ export async function loadLessonModule(
             );
         }
 
-        const adapted: LessonModule = {
+        const meta = EXPANDED_MANIFEST.find((item) => item.id === moduleId);
+        return {
             ...parsed.data,
             id: moduleId,
+            title: meta?.title ?? parsed.data.title,
+            subtitle: meta?.subtitle ?? parsed.data.subtitle,
         };
-
-        validatedModuleCache.set(moduleId, adapted);
-        return adapted;
     }
 
     const synthesized = buildFallbackLoreModule(moduleId);
@@ -264,11 +368,36 @@ export async function loadLessonModule(
         );
     }
 
-    validatedModuleCache.set(moduleId, synthesized);
     return synthesized;
 }
 
+export async function loadLessonModule(
+    moduleId: string,
+    signal?: AbortSignal,
+): Promise<LessonModule> {
+    if (signal?.aborted) {
+        throw new ModuleLoadError('ABORTED', moduleId, `Pemuatan modul "${moduleId}" dibatalkan.`);
+    }
+
+    // 1. Prioritaskan versi suntingan/buatan Content Studio jika tersedia di Supabase
+    const cloudRecord = cloudModuleOverrides.get(moduleId);
+    if (cloudRecord) {
+        return cloudRecord.module;
+    }
+
+    // 2. Cek cache lokal
+    const cached = validatedModuleCache.get(moduleId);
+    if (cached) {
+        return cached;
+    }
+
+    // 3. Muat dari JSON statis atau synthesizer pohon kurikulum
+    const baseModule = await loadBaseStaticModule(moduleId);
+    validatedModuleCache.set(moduleId, baseModule);
+    return baseModule;
+}
+
 export function prefetchLessonModule(moduleId: string): void {
-    if (validatedModuleCache.has(moduleId)) return;
+    if (validatedModuleCache.has(moduleId) || cloudModuleOverrides.has(moduleId)) return;
     void loadLessonModule(moduleId).catch(() => { });
 }

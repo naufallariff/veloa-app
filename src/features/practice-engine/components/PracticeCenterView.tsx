@@ -91,9 +91,9 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                 <h1 className="text-2xl font-extrabold tracking-tight text-(--text-primary) sm:text-3xl">
                     Latihan Active Recall & Spaced Repetition
                 </h1>
-                <p className="max-w-2xl text-sm text-(--text-secondary)">
-                    Perkuat ingatan jangka panjang melalui kombinasi pengenalan makna, latihan menyimak
-                    audio (dictation), dan evaluasi interval memori SM-2.
+                <p className="max-w-3xl text-sm text-(--text-secondary)">
+                    Perkuat ingatan jangka panjang melalui kombinasi pengenalan makna, latihan
+                    menyimak audio (dictation), dan evaluasi interval memori SM-2.
                 </p>
             </section>
 
@@ -179,19 +179,23 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                     <div className="mt-4 space-y-1.5 text-xs text-(--text-secondary)">
                         <p className="flex items-center gap-2">
                             <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
-                            <span>Total {totalAnswered.toLocaleString('id-ID')} soal latihan diselesaikan</span>
+                            <span>
+                                Total {totalAnswered.toLocaleString('id-ID')} soal latihan
+                                diselesaikan
+                            </span>
                         </p>
                         <p className="flex items-center gap-2">
                             <BookmarkCheck className="h-4 w-4 shrink-0 text-(--accent-primary)" />
                             <span>
-                                {bookmarkedForActiveLang.length} kartu tersimpan di Study Vault {langMeta.name}
+                                {bookmarkedForActiveLang.length} kartu tersimpan di Study Vault{' '}
+                                {langMeta.name}
                             </span>
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif */}
+            {/* Peluncur Cepat Latihan per Modul Bahasa Aktif (3 Kolom di Desktop Lebar) */}
             <section aria-label="Pilih modul untuk latihan cepat" className="space-y-4">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                     <h2 className="text-lg font-extrabold text-(--text-primary)">
@@ -206,12 +210,12 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                 <PaginatedDataView
                     key={selectedLang}
                     data={langModules}
-                    pageSize={8}
+                    pageSize={9}
                     itemLabel="modul latihan"
                     searchPlaceholder={`Cari modul latihan ${langMeta.name} (judul, tier, pilar)...`}
                     filterFn={filterModuleFn}
                     renderItems={(visibleModules) => (
-                        <div className="grid gap-3.5 md:grid-cols-2">
+                        <div className="grid gap-3.5 md:grid-cols-2 xl:grid-cols-3">
                             {visibleModules.map((mod) => {
                                 const isLoadingThis = loadingModuleId === mod.id;
 
@@ -219,7 +223,7 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                                     <div
                                         key={mod.id}
                                         onMouseEnter={() => prefetchLessonModule(mod.id)}
-                                        className="veloa-surface-card flex items-center justify-between gap-4 p-4"
+                                        className="veloa-surface-card flex items-center justify-between gap-4 p-4 transition-colors hover:border-(--accent-primary)"
                                     >
                                         <div className="min-w-0 flex-1 space-y-1">
                                             <span className="font-mono text-[11px] font-bold uppercase text-(--accent-primary)">
@@ -229,7 +233,8 @@ export const PracticeCenterView: React.FC<PracticeCenterViewProps> = ({ selected
                                                 {mod.title}
                                             </h3>
                                             <p className="text-xs text-(--text-muted)">
-                                                {mod.entryCount.toLocaleString('id-ID')} entri sumber soal
+                                                {mod.entryCount.toLocaleString('id-ID')} entri sumber
+                                                soal
                                             </p>
                                         </div>
 

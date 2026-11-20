@@ -25,12 +25,20 @@ export const RoadmapTierSchema = z.enum([
 ]);
 export type RoadmapTier = z.infer<typeof RoadmapTierSchema>;
 
+export const VeloaGuideNarrativeSchema = z.object({
+    intro: z.string().default(''),
+    culturalContext: z.string().default(''),
+    fieldNote: z.string().default(''),
+    outro: z.string().default(''),
+});
+export type VeloaGuideNarrative = z.infer<typeof VeloaGuideNarrativeSchema>;
+
 export const ScriptCellSchema = z.object({
     glyph: z.string(),
     reading: z.string(),
     transliteration: z.string(),
-    componentRole: z.string().optional(),     // Misal: "Bùshǒu (Radikal)", "Piānpáng (Komponen Sisi)", "Jamo Vokal"
-    strokeOrderRule: z.string().optional(),   // Misal: "1. Horizontal (横) → 2. Vertikal (竖)"
+    componentRole: z.string().optional(),
+    strokeOrderRule: z.string().optional(),
     arabicForms: z
         .object({
             isolated: z.string(),
@@ -56,7 +64,7 @@ export const ScriptMatrixBlockSchema = z.object({
 export const LinguisticLoreBlockSchema = z.object({
     type: z.literal('linguistic-lore'),
     title: z.string(),
-    eraOrDomain: z.string(), // Misal: "Dinasti Shang (1200 SM) — Evolusi Jiǎgǔwén" atau "Diglosia Arab: Fuṣḥā vs 'Āmmiyyah"
+    eraOrDomain: z.string(),
     direction: DirectionSchema.default('ltr'),
     narrativeSummary: z.string(),
     milestones: z.array(
@@ -69,7 +77,7 @@ export const LinguisticLoreBlockSchema = z.object({
     ),
     structuralRules: z.array(
         z.object({
-            conceptName: z.string(),     // Misal: "Bǐhuà (笔画)", "Piānpáng (偏旁)", "Cheon-Ji-In (천지인)"
+            conceptName: z.string(),
             definition: z.string(),
             whyItMatters: z.string(),
             examples: z.array(z.string()),
@@ -81,7 +89,7 @@ export const LinguisticLoreBlockSchema = z.object({
 export const RhetoricStylisticsBlockSchema = z.object({
     type: z.literal('rhetoric-stylistics'),
     title: z.string(),
-    traditionName: z.string(), // Misal: "Ilmu Balāghah (علم البلاغة)", "Xiūcíxué (修辞学)", "Shūjigaku (修辞学)", "Susabeop (수사법)"
+    traditionName: z.string(),
     direction: DirectionSchema.default('ltr'),
     overview: z.string(),
     devices: z.array(
@@ -97,7 +105,7 @@ export const RhetoricStylisticsBlockSchema = z.object({
     ),
     dialectAndSlangNotes: z.array(
         z.object({
-            varietyName: z.string(),     // Misal: "'Āmmiyyah Mesir", "Kansai-ben", "Fántǐzì Taiwan", "Slang MZ Korea"
+            varietyName: z.string(),
             regionOrContext: z.string(),
             sampleExpression: z.string(),
             standardEquivalent: z.string(),
@@ -195,6 +203,7 @@ export const LessonModuleSchema = z.object({
     title: z.string(),
     subtitle: z.string(),
     estimatedMinutes: z.number().int().positive(),
+    veloaGuide: VeloaGuideNarrativeSchema.optional(),
     blocks: z.array(LessonBlockSchema).min(1),
 });
 export type LessonModule = z.infer<typeof LessonModuleSchema>;

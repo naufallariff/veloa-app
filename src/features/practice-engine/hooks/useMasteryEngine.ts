@@ -1,6 +1,8 @@
 // src/features/practice-engine/hooks/useMasteryEngine.ts
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { LanguageCode } from '@/features/lesson-engine/schema/lesson.schema';
+import { useAuth } from '@/features/auth/AuthContext';
+import { supabase } from '@/lib/supabase';
 
 export type RecallRating = 'again' | 'hard' | 'good' | 'easy';
 
@@ -128,7 +130,9 @@ function computeNextSrs(
 }
 
 export function useMasteryEngine() {
+    const { user, isGuest, refreshProfile } = useAuth();
     const [state, setState] = useState<MasteryStatsState>(() => readMasteryState());
+    const syncedUidRef = useRef<string | null>(null);
 
     useEffect(() => {
         const onStorage = (e: StorageEvent) => {
@@ -139,6 +143,97 @@ export function useMasteryEngine() {
         window.addEventListener('storage', onStorage);
         return () => window.removeEventListener('storage', onStorage);
     }, []);
+
+    // Sinkronisasi awal XP, Streak, dan kartu SRS saat login
+    useEffect(() => {
+        if (isGuest || !user || !supabase) {
+            syncedUidRef.current = null;
+            return;
+        }
+        if (syncedUidRef.current === user.id) return;
+        syncedUidRef.current = user.id;
+
+        const uid = user.id;
+        const client = supabase;
+
+        (async () => {
+            const [profileRes, srsRes] = await Promise.all([
+                client
+                    .from('user_profiles')
+                    .select('xp, streak_days, last_active_date, total_answered, total_correct')
+                    .eq('user_id', uid)
+                    .single(),
+                client.from('user_srs_cards').select('*').eq('user_id', uid),
+            ]);
+
+            if (profileRes.error || srsRes.error) return;
+
+            const local = readMasteryState();
+            const mergedSrs: Record<string, ItemSrsRecord> = { ...local.srsRecords };
+
+            for (const row of srsRes.data ?? []) {
+                const cloudRec: ItemSrsRecord = {
+                    itemId: row.item_id,
+                    lang: row.lang as LanguageCode,
+                    repetitions: row.repetitions ?? 0,
+                    intervalDays: row.interval_days ?? 0,
+                    easeFactor: Number(row.ease_factor ?? 2.5),
+                    nextReviewAt: new Date(row.next_review_at).getTime(),
+                    lastReviewedAt: new Date(row.last_reviewed_at).getTime(),
+                };
+                const existingLocal = mergedSrs[cloudRec.itemId];
+                if (!existingLocal || cloudRec.lastReviewedAt >= existingLocal.lastReviewedAt) {
+                    mergedSrs[cloudRec.itemId] = cloudRec;
+                }
+            }
+
+            const p = profileRes.data;
+            const nextState: MasteryStatsState = {
+                xp: Math.max(local.xp, p.xp ?? 0),
+                streakDays: Math.max(local.streakDays, p.streak_days ?? 0),
+                lastActiveDate: local.lastActiveDate || p.last_active_date || null,
+                totalAnswered: Math.max(local.totalAnswered, p.total_answered ?? 0),
+                totalCorrect: Math.max(local.totalCorrect, p.total_correct ?? 0),
+                srsRecords: mergedSrs,
+            };
+
+            writeMasteryState(nextState);
+            setState(nextState);
+
+            // Simpan hasil merge ke Supabase
+            await client
+                .from('user_profiles')
+                .update({
+                    xp: nextState.xp,
+                    level: Math.max(1, Math.floor(nextState.xp / 250) + 1),
+                    streak_days: nextState.streakDays,
+                    last_active_date: nextState.lastActiveDate,
+                    total_answered: nextState.totalAnswered,
+                    total_correct: nextState.totalCorrect,
+                    updated_at: new Date().toISOString(),
+                })
+                .eq('user_id', uid);
+
+            const srsValues = Object.values(mergedSrs);
+            if (srsValues.length > 0) {
+                const srsRows = srsValues.map((rec) => ({
+                    user_id: uid,
+                    item_id: rec.itemId,
+                    lang: rec.lang,
+                    repetitions: rec.repetitions,
+                    interval_days: rec.intervalDays,
+                    ease_factor: rec.easeFactor,
+                    next_review_at: new Date(rec.nextReviewAt).toISOString(),
+                    last_reviewed_at: new Date(rec.lastReviewedAt).toISOString(),
+                }));
+                await client
+                    .from('user_srs_cards')
+                    .upsert(srsRows, { onConflict: 'user_id,item_id' });
+            }
+
+            await refreshProfile();
+        })();
+    }, [user, isGuest, refreshProfile]);
 
     const recordPracticeOutcome = useCallback(
         (params: {
@@ -180,10 +275,49 @@ export function useMasteryEngine() {
                 };
 
                 writeMasteryState(nextState);
+
+                // Sinkronisasi langsung ke cloud jika sudah login
+                if (!isGuest && user && supabase) {
+                    const client = supabase;
+                    const uid = user.id;
+                    void (async () => {
+                        await Promise.all([
+                            client.from('user_srs_cards').upsert(
+                                {
+                                    user_id: uid,
+                                    item_id: updatedSrs.itemId,
+                                    lang: updatedSrs.lang,
+                                    repetitions: updatedSrs.repetitions,
+                                    interval_days: updatedSrs.intervalDays,
+                                    ease_factor: updatedSrs.easeFactor,
+                                    next_review_at: new Date(updatedSrs.nextReviewAt).toISOString(),
+                                    last_reviewed_at: new Date(
+                                        updatedSrs.lastReviewedAt,
+                                    ).toISOString(),
+                                },
+                                { onConflict: 'user_id,item_id' },
+                            ),
+                            client
+                                .from('user_profiles')
+                                .update({
+                                    xp: nextState.xp,
+                                    level: Math.max(1, Math.floor(nextState.xp / 250) + 1),
+                                    streak_days: nextState.streakDays,
+                                    last_active_date: nextState.lastActiveDate,
+                                    total_answered: nextState.totalAnswered,
+                                    total_correct: nextState.totalCorrect,
+                                    updated_at: new Date().toISOString(),
+                                })
+                                .eq('user_id', uid),
+                        ]);
+                        await refreshProfile();
+                    })();
+                }
+
                 return nextState;
             });
         },
-        [],
+        [user, isGuest, refreshProfile],
     );
 
     const getDueCountForLanguage = useCallback(
